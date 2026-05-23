@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portail B2B - Suivi & Outils</title>
+    <!-- Tailwind CSS pour un design ultra-moderne -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Icônes modernes -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen text-slate-800">
+
+    <!-- 1. ÉCRAN DE CONNEXION -->
+    <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
+        <div class="w-full max-w-md bg-white rounded-2xl shadow-xl border border-slate-100 p-8 transition-all duration-300 hover:shadow-2xl">
+            <div class="flex flex-col items-center mb-8">
+                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl mb-3">
+                    <i data-lucide="shield-check" class="w-8 h-8"></i>
+                </div>
+                <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Espace Magasin</h1>
+                <p class="text-sm text-slate-500 mt-1">Connectez-vous pour accéder à vos données</p>
+            </div>
+            
+            <form onsubmit="handleLogin(event)" class="space-y-5">
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">Identifiant Magasin</label>
+                    <input type="text" id="username" required placeholder="ex: lyon04" 
+                           class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all bg-slate-50/50">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">Mot de passe</label>
+                    <input type="password" id="password" required placeholder="••••••••" 
+                           class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all bg-slate-50/50">
+                </div>
+                <button type="submit" class="w-full bg-slate-900 text-white font-medium py-3 rounded-xl hover:bg-slate-800 active:scale-[0.98] transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm">
+                    Connexion <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </button>
+            </form>
+            <p id="login-error" class="text-red-500 text-sm text-center mt-4 hidden font-medium">❌ Identifiants incorrects ou introuvables.</p>
+        </div>
+    </div>
+
+    <!-- 2. INTERFACE PRINCIPALE (Masquée par défaut) -->
+    <div id="main-interface" class="hidden">
+        <!-- Barre de navigation du haut -->
+        <nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16 items-center">
+                    <div class="flex items-center gap-2">
+                        <span class="w-3 h-3 bg-blue-600 rounded-full animate-pulse"></span>
+                        <span class="font-bold text-slate-900 tracking-tight text-lg">PRO-PORTAIL</span>
+                        <span id="store-badge" class="ml-2 bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded-full font-medium">Magasin : ---</span>
+                    </div>
+                    <button onclick="logout()" class="text-slate-500 hover:text-red-600 transition-colors flex items-center gap-1.5 text-sm font-medium cursor-pointer">
+                        <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menu des Onglets Modernes -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
+            <div class="flex border-b border-slate-200 gap-2 overflow-x-auto pb-px">
+                <button onclick="switchTab('orders')" id="tab-orders" class="tab-btn active px-4 py-3 text-sm font-medium border-b-2 border-blue-600 text-blue-600 flex items-center gap-2 whitespace-nowrap cursor-pointer">
+                    <i data-lucide="shopping-bag" class="w-4 h-4"></i> Commandes & Suivi
+                </button>
+                <button onclick="switchTab('calculator')" id="tab-calculator" class="tab-btn px-4 py-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center gap-2 whitespace-nowrap cursor-pointer">
+                    <i data-lucide="calculator" class="w-4 h-4"></i> Calculateur Épaisseur
+                </button>
+                <button onclick="switchTab('docs')" id="tab-docs" class="tab-btn px-4 py-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center gap-2 whitespace-nowrap cursor-pointer">
+                    <i data-lucide="folder-open" class="w-4 h-4"></i> Ma Documentation
+                </button>
+            </div>
+
+            <!-- CONTENU DES ONGLETS -->
+            <main class="py-6">
+                
+                <!-- ONGLET 1 : COMMANDES -->
+                <div id="content-orders" class="tab-content space-y-4">
+                    <!-- Barre de recherche globale (IA / Texte) -->
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex flex-col md:flex-row gap-4 items-center justify-between">
+                        <div class="relative w-full md:max-w-md">
+                            <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3 top-3.5"></i>
+                            <input type="text" id="global-search" oninput="filterOrdersAndFrames()" placeholder="Rechercher un client, une réf de monture (ex: RB2057)..." 
+                                   class="w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm">
+                        </div>
+                        <div class="flex gap-2 w-full md:w-auto">
+                            <button onclick="filterStatus('tous')" class="status-filter bg-slate-900 text-white text-xs font-medium px-3 py-2 rounded-lg cursor-pointer">Tous</button>
+                            <button onclick="filterStatus('encours')" class="status-filter bg-white border border-slate-200 text-slate-600 text-xs font-medium px-3 py-2 rounded-lg hover:bg-slate-50 cursor-pointer">En cours</button>
+                            <button onclick="filterStatus('archive')" class="status-filter bg-white border border-slate-200 text-slate-600 text-xs font-medium px-3 py-2 rounded-lg hover:bg-slate-50 cursor-pointer">Archives</button>
+                        </div>
+                    </div>
+
+                    <!-- Tableau des commandes -->
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
+                        <div class="px-6 py-4 border-b border-slate-100">
+                            <h2 class="font-semibold text-slate-900">Historique des commandes & Montures</h2>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left border-collapse">
+                                <thead>
+                                    <tr class="bg-slate-50/70 text-slate-400 text-xs font-semibold uppercase tracking-wider border-b border-slate-100">
+                                        <th class="px-6 py-3">Réf / Client</th>
+                                        <th class="px-6 py-3">Détails / Modèle</th>
+                                        <th class="px-6 py-3">Statut / Stock</th>
+                                        <th class="px-6 py-3 text-right">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="orders-table-body" class="divide-y divide-slate-100 text-sm text-slate-600">
+                                    <!-- Rempli par le JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ONGLET 2 : CALCULATEUR -->
+                <div id="content-calculator" class="tab-content hidden max-w-xl mx-auto">
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-100 space-y-6">
+                        <div class="text-center">
+                            <h2 class="text-xl font-bold text-slate-900">Calculateur d'Épaisseur Technique</h2>
+                            <p class="text-sm text-slate-500 mt-1">Simulateur instantané pour vos ateliers</p>
+                        </div>
+                        <div class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-500 mb-1.5">Longueur (mm)</label>
+                                <input type="number" id="calc-long" value="1200" oninput="runCalculation()" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500 bg-slate-50/50">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-500 mb-1.5">Contrainte / Charge (kg)</label>
+                                <input type="number" id="calc-charge" value="45" oninput="runCalculation()" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500 bg-slate-50/50">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-500 mb-1.5">Type de Matériau</label>
+                                <select id="calc-material" onchange="runCalculation()" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500 bg-slate-50/50">
+                                    <option value="1.0">Acier Carbone (Idx 1.0)</option>
+                                    <option value="1.5">Aluminium Allégé (Idx 1.5)</option>
+                                    <option value="0.8">Verre Trempé Haute Densité (Idx 0.8)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bg-blue-50/50 rounded-2xl p-6 border border-blue-100/50 text-center space-y-1">
+                            <span class="text-xs font-semibold uppercase tracking-wider text-blue-600">Épaisseur Théorique Recommandée</span>
+                            <div class="text-4xl font-black text-blue-950"><span id="calc-result">2.74</span> <span class="text-xl font-bold">mm</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ONGLET 3 : DOCUMENTATION -->
+                <div id="content-docs" class="tab-content hidden max-w-4xl mx-auto">
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
+                        <h2 class="font-semibold text-slate-900 mb-4">Documents & Catalogues Disponibles</h2>
+                        <div id="docs-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <!-- Rempli par le JavaScript selon les droits du magasin -->
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- 3. LOGIQUE JAVASCRIPT LOGICIELLE -->
+    <script>
+        // Simulation de tes données JSON générées par Python (Mélange Commandes + Montures)
+        let storeData = null;
+        let currentFilter = 'tous';
+
+        // Lancement initial des icônes
+        lucide.createIcons();
+
+        // Gestion de la Connexion Client
+        function handleLogin(e) {
+            e.preventDefault();
+            const user = document.getElementById('username').value.trim().toLowerCase();
+            const pass = document.getElementById('password').value;
+
+            // SIMULATION : Le code va tenter de charger le fichier "lyon04_p@ssword123.json" sur GitHub
+            // Ici, pour la démo locale, on injecte de fausses données ultra-modernes :
+            if((user === 'lyon04' || user === 'bordeaux33') && pass !== '') {
+                document.getElementById('login-error').classList.add('hidden');
+                
+                // Données types reçues par le JSON
+                storeData = {
+                    storeName: user.toUpperCase(),
+                    items: [
+                        { type: 'commande', isArchive: false, title: 'M. Jean Dupont', subtitle: 'Réf: CMD-2026-883', info: 'Verres progressifs HD', status: 'En labo', color: 'blue', link: '#' },
+                        { type: 'commande', isArchive: false, title: 'Mme Marie Curie', subtitle: 'Réf: CMD-2026-894', info: 'Traitement Anti-reflet', status: 'Expédié', color: 'amber', link: '#' },
+                        { type: 'commande', isArchive: true, title: 'M. Arthur Rimbaud', subtitle: 'Réf: CMD-2025-102', info: 'Monture Solaire Sport', status: 'Livré', color: 'emerald', link: '#' },
+                        { type: 'monture', title: 'Modèle RB2057 - Aviator', subtitle: 'Réf: RB2057', info: 'Coloris: Écaille Or', status: 'Stock Labo: 14 | Mag: 2', color: 'purple', link: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=100&q=80' }
+                    ],
+                    documentations: [
+                        { title: 'Guide Technique Verres 2026', cat: 'Notices', size: '2.4 Mo' },
+                        { title: 'Grille Tarifaire Privilège ' + user.toUpperCase(), cat: 'Tarifs Pro', size: '1.1 Mo' }
+                    ]
+                };
+
+                // Affichage de l'interface
+                document.getElementById('login-screen').classList.add('hidden');
+                document.getElementById('main-interface').classList.remove('hidden');
+                document.getElementById('store-badge').innerText = "Magasin : " + storeData.storeName;
+                
+                renderOrders();
+                renderDocs();
+            } else {
+                document.getElementById('login-error').classList.remove('hidden');
+            }
+        }
+
+        // Affichage dynamique du tableau moderne
+        function renderOrders() {
+            const tbody = document.getElementById('orders-table-body');
+            tbody.innerHTML = '';
+            const search = document.getElementById('global-search').value.toLowerCase();
+
+            const filtered = storeData.items.filter(item => {
+                // Filtre Statut (En cours / Archives)
+                if (currentFilter === 'encours' && item.isArchive) return false;
+                if (currentFilter === 'archive' && !item.isArchive && item.type === 'commande') return false;
+                
+                // Filtre de recherche textuelle globale (M. X, RB2057...)
+                if (search) {
+                    return item.title.toLowerCase().includes(search) || item.subtitle.toLowerCase().includes(search) || item.info.toLowerCase().includes(search);
+                }
+                return true;
+            });
+
+            if(filtered.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-8 text-center text-slate-400">Aucun résultat trouvé</td></tr>`;
+                return;
+            }
+
+            filtered.forEach(item => {
+                let badgeColor = item.color === 'blue' ? 'bg-blue-50 text-blue-700 border-blue-100' :
+                                 item.color === 'amber' ? 'bg-amber-50 text-amber-700 border-amber-100' :
+                                 item.color === 'purple' ? 'bg-purple-50 text-purple-700 border-purple-100' :
+                                 'bg-emerald-50 text-emerald-700 border-emerald-100';
+
+                let icon = item.type === 'commande' ? '<i data-lucide="package" class="w-5 h-5 text-slate-400"></i>' : '<i data-lucide="glasses" class="w-5 h-5 text-slate-400"></i>';
+                
+                // Si c'est une monture avec une fausse image miniature moderne
+                if(item.type === 'monture') {
+                    icon = `<img src="${item.link}" class="w-10 h-10 object-cover rounded-lg border border-slate-100 shadow-sm" alt="">`;
+                }
+
+                tbody.innerHTML += `
+                    <tr class="hover:bg-slate-50/80 transition-colors">
+                        <td class="px-6 py-4 flex items-center gap-3">
+                            ${icon}
+                            <div>
+                                <div class="font-semibold text-slate-900">${item.title}</div>
+                                <div class="text-xs text-slate-400 font-medium">${item.subtitle}</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 text-slate-500 font-medium">${item.info}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-2.5 py-1 text-xs font-semibold rounded-full border ${badgeColor}">
+                                ${item.status}
+                            </span>
+                        </td>
+                        <td class="px-6 py-4 text-right">
+                            <a href="#" class="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100/70 px-3 py-1.5 rounded-lg transition-all">
+                                ${item.type === 'commande' ? 'Facture PDF <i data-lucide="external-link" class="w-3 h-3"></i>' : 'Fiche Stock'}
+                            </a>
+                        </td>
+                    </tr>
+                `;
+            });
+            lucide.createIcons();
+        }
+
+        // Remplissage de l'onglet Documentation sécurisé
+        function renderDocs() {
+            const grid = document.getElementById('docs-grid');
+            grid.innerHTML = '';
+            storeData.documentations.forEach(doc => {
+                grid.innerHTML += `
+                    <div class="p-4 border border-slate-100 bg-slate-50/50 rounded-xl flex items-center justify-between hover:border-slate-200 transition-all">
+                        <div class="flex items-center gap-3">
+                            <div class="p-2.5 bg-white border border-slate-100 text-red-500 rounded-lg shadow-sm">
+                                <i data-lucide="file-text" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-sm font-semibold text-slate-900">${doc.title}</h3>
+                                <p class="text-xs text-slate-400">${doc.cat} • ${doc.size}</p>
+                            </div>
+                        </div>
+                        <a href="#" class="p-2 text-slate-400 hover:text-slate-800 bg-white hover:shadow-sm border border-slate-100 rounded-lg transition-all">
+                            <i data-lucide="download" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                `;
+            });
+            lucide.createIcons();
+        }
+
+        // Moteur de recherche et Filtres
+        function filterOrdersAndFrames() { renderOrders(); }
+        function filterStatus(status) {
+            currentFilter = status;
+            document.querySelectorAll('.status-filter').forEach(btn => {
+                btn.className = "status-filter bg-white border border-slate-200 text-slate-600 text-xs font-medium px-3 py-2 rounded-lg hover:bg-slate-50 cursor-pointer";
+            });
+            event.target.className = "status-filter bg-slate-900 text-white text-xs font-medium px-3 py-2 rounded-lg cursor-pointer";
+            renderOrders();
+        }
+
+        // Logique de navigation par onglets (Effet fluide)
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.className = "tab-btn px-4 py-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center gap-2 whitespace-nowrap cursor-pointer";
+            });
+            document.getElementById('content-' + tabId).classList.remove('hidden');
+            document.getElementById('tab-' + tabId).className = "tab-btn active px-4 py-3 text-sm font-medium border-b-2 border-blue-600 text-blue-600 flex items-center gap-2 whitespace-nowrap cursor-pointer";
+        }
+
+        // Logique Mathématique du Calculateur en temps réel
+        function runCalculation() {
+            const l = parseFloat(document.getElementById('calc-long').value) || 0;
+            const c = parseFloat(document.getElementById('calc-charge').value) || 0;
+            const idx = parseFloat(document.getElementById('calc-material').value);
+            
+            if (l > 0 && c > 0) {
+                // Formule mathématique exemple
+                const res = Math.sqrt((l * c) / 5000) * idx;
+                document.getElementById('calc-result').innerText = res.toFixed(2);
+            } else {
+                document.getElementById('calc-result').innerText = "0.00";
+            }
+        }
+
+        function logout() {
+            document.getElementById('main-interface').classList.add('hidden');
+            document.getElementById('login-screen').classList.remove('hidden');
+            document.getElementById('username').value = '';
+            document.getElementById('password').value = '';
+        }
+    </script>
+</body>
+</html>
