@@ -3,343 +3,327 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portail B2B - Suivi & Outils</title>
-    <!-- Tailwind CSS pour un design ultra-moderne -->
+    <title>V2I Portail - Espace Opticien</title>
+    <!-- Tailwind CSS Moderne -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- Icônes modernes -->
+    <!-- Icônes ultra-fines Lucide -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            letter-spacing: -0.01em;
+        }
     </style>
 </head>
-<body class="bg-slate-50 min-h-screen text-slate-800">
+<body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
-    <!-- 1. ÉCRAN DE CONNEXION -->
+    <!-- 1. ÉCRAN DE CONNEXION (Style Verre Dépoli Apple) -->
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
-        <div class="w-full max-w-md bg-white rounded-2xl shadow-xl border border-slate-100 p-8 transition-all duration-300 hover:shadow-2xl">
-            <div class="flex flex-col items-center mb-8">
-                <div class="bg-blue-50 text-blue-600 p-3 rounded-xl mb-3">
-                    <i data-lucide="shield-check" class="w-8 h-8"></i>
+        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8 transition-all duration-500">
+            <div class="flex flex-col items-center mb-10">
+                <div class="bg-[#0066cc]/10 text-[#0066cc] p-3.5 rounded-2xl mb-4">
+                    <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
                 </div>
-                <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Espace Magasin</h1>
-                <p class="text-sm text-slate-500 mt-1">Connectez-vous pour accéder à vos données</p>
+                <h1 class="text-2xl font-semibold tracking-tight text-[#1d1d1f]">Portail Partenaires V2I</h1>
+                <p class="text-sm text-[#86868b] mt-1.5">Connectez-vous à votre espace optique</p>
             </div>
             
-            <form onsubmit="handleLogin(event)" class="space-y-5">
+            <form onsubmit="handleLogin(event)" class="space-y-6">
                 <div>
-                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">Identifiant Magasin</label>
+                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Identifiant Magasin</label>
                     <input type="text" id="username" required placeholder="ex: lyon04" 
-                           class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all bg-slate-50/50">
+                           class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
                 <div>
-                    <label class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2">Mot de passe</label>
+                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Mot de passe</label>
                     <input type="password" id="password" required placeholder="••••••••" 
-                           class="w-full px-4 py-3 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all bg-slate-50/50">
+                           class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
-                <button type="submit" class="w-full bg-slate-900 text-white font-medium py-3 rounded-xl hover:bg-slate-800 active:scale-[0.98] transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm">
-                    Connexion <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                <button type="submit" class="w-full bg-[#0066cc] text-white font-medium py-3 rounded-xl hover:bg-[#0077ed] active:scale-[0.99] transition-all flex items-center justify-center gap-2 cursor-pointer text-sm shadow-sm">
+                    Se connecter <i data-lucide="chevron-right" class="w-4 h-4"></i>
                 </button>
             </form>
-            <p id="login-error" class="text-red-500 text-sm text-center mt-4 hidden font-medium">❌ Identifiants incorrects ou introuvables.</p>
+            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium">Identifiants incorrects.</p>
         </div>
     </div>
 
-    <!-- 2. INTERFACE PRINCIPALE (Masquée par défaut) -->
+    <!-- 2. INTERFACE PRINCIPALE -->
     <div id="main-interface" class="hidden">
-        <!-- Barre de navigation du haut -->
-        <nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-16 items-center">
-                    <div class="flex items-center gap-2">
-                        <span class="w-3 h-3 bg-blue-600 rounded-full animate-pulse"></span>
-                        <span class="font-bold text-slate-900 tracking-tight text-lg">PRO-PORTAIL</span>
-                        <span id="store-badge" class="ml-2 bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded-full font-medium">Magasin : ---</span>
+        <!-- Barre de navigation Apple (Fixe et épurée) -->
+        <nav class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex justify-between h-14 items-center">
+                    <div class="flex items-center gap-3">
+                        <span class="font-semibold text-base tracking-tight">V2I Optique</span>
+                        <span id="store-badge" class="bg-[#f5f5f7] text-[#86868b] text-xs px-2.5 py-1 rounded-full font-medium border border-[#e8e8ed]">Magasin : ---</span>
                     </div>
-                    <button onclick="logout()" class="text-slate-500 hover:text-red-600 transition-colors flex items-center gap-1.5 text-sm font-medium cursor-pointer">
-                        <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
+                    
+                    <!-- Les 4 Onglets demandés toujours visibles -->
+                    <div class="hidden md:flex items-center h-full space-x-1">
+                        <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
+                            <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
+                        </button>
+                        <button onclick="switchTab('calcul')" id="tab-calcul" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
+                            <i data-lucide="layers" class="w-4 h-4 stroke-[1.5]"></i> Calcul Verre
+                        </button>
+                        <button onclick="switchTab('monture')" id="tab-monture" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
+                            <i data-lucide="glasses" class="w-4 h-4 stroke-[1.5]"></i> Monture
+                        </button>
+                        <button onclick="switchTab('documents')" id="tab-documents" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
+                            <i data-lucide="file-text" class="w-4 h-4 stroke-[1.5]"></i> Documents
+                        </button>
+                    </div>
+
+                    <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] transition-colors flex items-center gap-1.5 text-xs font-medium cursor-pointer">
+                        Déconnexion <i data-lucide="log-out" class="w-3.5 h-3.5"></i>
                     </button>
                 </div>
             </div>
         </nav>
 
-        <!-- Menu des Onglets Modernes -->
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6">
-            <div class="flex border-b border-slate-200 gap-2 overflow-x-auto pb-px">
-                <button onclick="switchTab('orders')" id="tab-orders" class="tab-btn active px-4 py-3 text-sm font-medium border-b-2 border-blue-600 text-blue-600 flex items-center gap-2 whitespace-nowrap cursor-pointer">
-                    <i data-lucide="shopping-bag" class="w-4 h-4"></i> Commandes & Suivi
-                </button>
-                <button onclick="switchTab('calculator')" id="tab-calculator" class="tab-btn px-4 py-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center gap-2 whitespace-nowrap cursor-pointer">
-                    <i data-lucide="calculator" class="w-4 h-4"></i> Calculateur Épaisseur
-                </button>
-                <button onclick="switchTab('docs')" id="tab-docs" class="tab-btn px-4 py-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center gap-2 whitespace-nowrap cursor-pointer">
-                    <i data-lucide="folder-open" class="w-4 h-4"></i> Ma Documentation
-                </button>
+        <!-- ZONE DE CONTENU -->
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            
+            <!-- ÉCRAN D'ACCUEIL PAR DÉFAUT (Esprit Apple : Sobre et Pro) -->
+            <div id="content-welcome" class="space-y-10 animate-fade-in">
+                <div class="max-w-2xl">
+                    <h2 class="text-4xl font-semibold tracking-tight text-[#1d1d1f]">Bonjour, <span id="welcome-store-name">Magasin</span></h2>
+                    <p class="text-xl text-[#86868b] mt-2 font-normal leading-relaxed">Bienvenue sur votre espace de gestion haute précision. Sélectionnez un outil ci-dessus ou parcourez vos accès rapides.</p>
+                </div>
+
+                <!-- Grille d'accès rapides style Dashboard Apple -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div onclick="switchTab('verres')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#0066cc]/5 text-[#0066cc] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#0066cc] group-hover:text-white transition-all">
+                            <i data-lucide="activity" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Suivi Verres</h3>
+                        <p class="text-xs text-[#86868b]">Consultez l'état de fabrication de vos verres en temps réel.</p>
+                    </div>
+
+                    <div onclick="switchTab('calcul')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#5856d6]/5 text-[#5856d6] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#5856d6] group-hover:text-white transition-all">
+                            <i data-lucide="layers" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Calcul Verre</h3>
+                        <p class="text-xs text-[#86868b]">Simulateur technique d'épaisseur et de précalibrage.</p>
+                    </div>
+
+                    <div onclick="switchTab('monture')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#ff9500]/5 text-[#ff9500] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#ff9500] group-hover:text-white transition-all">
+                            <i data-lucide="glasses" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Catalogue Montures</h3>
+                        <p class="text-xs text-[#86868b]">Vérification instantanée des stocks labo et magasin.</p>
+                    </div>
+
+                    <div onclick="switchTab('documents')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#34c759]/5 text-[#34c759] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#34c759] group-hover:text-white transition-all">
+                            <i data-lucide="file-text" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Documents</h3>
+                        <p class="text-xs text-[#86868b]">Téléchargez vos Factures-X, tarifs et catalogues.</p>
+                    </div>
+                </div>
             </div>
 
-            <!-- CONTENU DES ONGLETS -->
-            <main class="py-6">
-                
-                <!-- ONGLET 1 : COMMANDES -->
-                <div id="content-orders" class="tab-content space-y-4">
-                    <!-- Barre de recherche globale (IA / Texte) -->
-                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 flex flex-col md:flex-row gap-4 items-center justify-between">
-                        <div class="relative w-full md:max-w-md">
-                            <i data-lucide="search" class="w-5 h-5 text-slate-400 absolute left-3 top-3.5"></i>
-                            <input type="text" id="global-search" oninput="filterOrdersAndFrames()" placeholder="Rechercher un client, une réf de monture (ex: RB2057)..." 
-                                   class="w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all text-sm">
-                        </div>
-                        <div class="flex gap-2 w-full md:w-auto">
-                            <button onclick="filterStatus('tous')" class="status-filter bg-slate-900 text-white text-xs font-medium px-3 py-2 rounded-lg cursor-pointer">Tous</button>
-                            <button onclick="filterStatus('encours')" class="status-filter bg-white border border-slate-200 text-slate-600 text-xs font-medium px-3 py-2 rounded-lg hover:bg-slate-50 cursor-pointer">En cours</button>
-                            <button onclick="filterStatus('archive')" class="status-filter bg-white border border-slate-200 text-slate-600 text-xs font-medium px-3 py-2 rounded-lg hover:bg-slate-50 cursor-pointer">Archives</button>
-                        </div>
-                    </div>
-
-                    <!-- Tableau des commandes -->
-                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden">
-                        <div class="px-6 py-4 border-b border-slate-100">
-                            <h2 class="font-semibold text-slate-900">Historique des commandes & Montures</h2>
-                        </div>
-                        <div class="overflow-x-auto">
-                            <table class="w-full text-left border-collapse">
-                                <thead>
-                                    <tr class="bg-slate-50/70 text-slate-400 text-xs font-semibold uppercase tracking-wider border-b border-slate-100">
-                                        <th class="px-6 py-3">Réf / Client</th>
-                                        <th class="px-6 py-3">Détails / Modèle</th>
-                                        <th class="px-6 py-3">Statut / Stock</th>
-                                        <th class="px-6 py-3 text-right">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="orders-table-body" class="divide-y divide-slate-100 text-sm text-slate-600">
-                                    <!-- Rempli par le JavaScript -->
-                                </tbody>
-                            </table>
-                        </div>
+            <!-- CONTENU DE L'ONGLET 1 : SUIVI DE COMMANDE VERRES -->
+            <div id="content-verres" class="tab-content hidden space-y-6">
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-between bg-white p-4 rounded-2xl border border-[#e8e8ed]">
+                    <div class="relative w-full md:max-w-md">
+                        <i data-lucide="search" class="w-4 h-4 text-[#86868b] absolute left-3.5 top-3"></i>
+                        <input type="text" id="search-verres" oninput="renderVerres()" placeholder="Rechercher un patient ou un numéro de commande..." 
+                               class="w-full pl-10 pr-4 py-2 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                     </div>
                 </div>
+                <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm">
+                    <table class="w-full text-left border-collapse text-sm">
+                        <thead>
+                            <tr class="bg-[#f5f5f7] text-[#86868b] font-medium text-xs border-b border-[#e8e8ed]">
+                                <th class="px-6 py-3">Patient / Commande</th>
+                                <th class="px-6 py-3">Type de Verre</th>
+                                <th class="px-6 py-3">Statut de Fabrication</th>
+                                <th class="px-6 py-3 text-right">Document</th>
+                            </tr>
+                        </thead>
+                        <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
+                    </table>
+                </div>
+            </div>
 
-                <!-- ONGLET 2 : CALCULATEUR -->
-                <div id="content-calculator" class="tab-content hidden max-w-xl mx-auto">
-                    <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-slate-100 space-y-6">
-                        <div class="text-center">
-                            <h2 class="text-xl font-bold text-slate-900">Calculateur d'Épaisseur Technique</h2>
-                            <p class="text-sm text-slate-500 mt-1">Simulateur instantané pour vos ateliers</p>
+            <!-- CONTENU DE L'ONGLET 2 : CALCUL VERRE -->
+            <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
+                <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-sm space-y-6">
+                    <div class="text-center">
+                        <h2 class="text-xl font-semibold tracking-tight">Calculateur d'Épaisseur Index</h2>
+                        <p class="text-sm text-[#86868b] mt-1">Outil d'atelier pour le précalibrage</p>
+                    </div>
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
+                            <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
                         </div>
-                        <div class="space-y-4">
-                            <div>
-                                <label class="block text-xs font-semibold uppercase text-slate-500 mb-1.5">Longueur (mm)</label>
-                                <input type="number" id="calc-long" value="1200" oninput="runCalculation()" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500 bg-slate-50/50">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-semibold uppercase text-slate-500 mb-1.5">Contrainte / Charge (kg)</label>
-                                <input type="number" id="calc-charge" value="45" oninput="runCalculation()" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500 bg-slate-50/50">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-semibold uppercase text-slate-500 mb-1.5">Type de Matériau</label>
-                                <select id="calc-material" onchange="runCalculation()" class="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:outline-none focus:border-blue-500 bg-slate-50/50">
-                                    <option value="1.0">Acier Carbone (Idx 1.0)</option>
-                                    <option value="1.5">Aluminium Allégé (Idx 1.5)</option>
-                                    <option value="0.8">Verre Trempé Haute Densité (Idx 0.8)</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="bg-blue-50/50 rounded-2xl p-6 border border-blue-100/50 text-center space-y-1">
-                            <span class="text-xs font-semibold uppercase tracking-wider text-blue-600">Épaisseur Théorique Recommandée</span>
-                            <div class="text-4xl font-black text-blue-950"><span id="calc-result">2.74</span> <span class="text-xl font-bold">mm</span></div>
+                        <div>
+                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Diamètre du verre (mm)</label>
+                            <input type="number" id="calc-diam" value="70" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
                         </div>
                     </div>
-                </div>
-
-                <!-- ONGLET 3 : DOCUMENTATION -->
-                <div id="content-docs" class="tab-content hidden max-w-4xl mx-auto">
-                    <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6">
-                        <h2 class="font-semibold text-slate-900 mb-4">Documents & Catalogues Disponibles</h2>
-                        <div id="docs-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <!-- Rempli par le JavaScript selon les droits du magasin -->
-                        </div>
+                    <div class="bg-[#0066cc]/5 rounded-2xl p-6 text-center border border-[#0066cc]/10">
+                        <span class="text-xs font-semibold uppercase tracking-wider text-[#0066cc]">Épaisseur au bord estimée</span>
+                        <div class="text-4xl font-bold mt-1 text-[#1d1d1f]"><span id="calc-result">3.20</span> <span class="text-lg font-medium">mm</span></div>
                     </div>
                 </div>
+            </div>
 
-            </main>
+            <!-- CONTENU DE L'ONGLET 3 : MONTURE -->
+            <div id="content-monture" class="tab-content hidden space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="montures-grid">
+                    <!-- Rempli en JS avec du Banana Eyewear -->
+                </div>
+            </div>
+
+            <!-- CONTENU DE L'ONGLET 4 : DOCUMENTS -->
+            <div id="content-documents" class="tab-content hidden max-w-3xl mx-auto space-y-4">
+                <div class="bg-white rounded-2xl border border-[#e8e8ed] p-6">
+                    <h2 class="text-base font-semibold mb-4">Vos Factures-X & Catalogues</h2>
+                    <div id="docs-list" class="space-y-3"></div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <!-- 3. LOGIQUE JAVASCRIPT LOGICIELLE -->
     <script>
-        // Simulation de tes données JSON générées par Python (Mélange Commandes + Montures)
         let storeData = null;
-        let currentFilter = 'tous';
 
-        // Lancement initial des icônes
-        lucide.createIcons();
-
-        // Gestion de la Connexion Client
         function handleLogin(e) {
             e.preventDefault();
             const user = document.getElementById('username').value.trim().toLowerCase();
-            const pass = document.getElementById('password').value;
-
-            // SIMULATION : Le code va tenter de charger le fichier "lyon04_p@ssword123.json" sur GitHub
-            // Ici, pour la démo locale, on injecte de fausses données ultra-modernes :
-            if((user === 'lyon04' || user === 'bordeaux33') && pass !== '') {
+            
+            if(user !== '') {
                 document.getElementById('login-error').classList.add('hidden');
                 
-                // Données types reçues par le JSON
+                // Simulation de tes données injectées par Python (Esprit Hoya/Essilor/Banana)
                 storeData = {
                     storeName: user.toUpperCase(),
-                    items: [
-                        { type: 'commande', isArchive: false, title: 'M. Jean Dupont', subtitle: 'Réf: CMD-2026-883', info: 'Verres progressifs HD', status: 'En labo', color: 'blue', link: '#' },
-                        { type: 'commande', isArchive: false, title: 'Mme Marie Curie', subtitle: 'Réf: CMD-2026-894', info: 'Traitement Anti-reflet', status: 'Expédié', color: 'amber', link: '#' },
-                        { type: 'commande', isArchive: true, title: 'M. Arthur Rimbaud', subtitle: 'Réf: CMD-2025-102', info: 'Monture Solaire Sport', status: 'Livré', color: 'emerald', link: '#' },
-                        { type: 'monture', title: 'Modèle RB2057 - Aviator', subtitle: 'Réf: RB2057', info: 'Coloris: Écaille Or', status: 'Stock Labo: 14 | Mag: 2', color: 'purple', link: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=100&q=80' }
+                    verres: [
+                        { patient: 'M. Gérard Banana', ref: 'CMD-2026-912', detail: 'Progressif V2I HD - Indice 1.67 Sensity', status: 'Surfaçage en cours', color: 'text-blue-600 bg-blue-50 border-blue-100' },
+                        { patient: 'Mme Marie Curie', ref: 'CMD-2026-894', detail: 'Unifocal Asphérique Onyx - Anti-reflet Max', status: 'Prêt / Expédié', color: 'text-emerald-600 bg-emerald-50 border-emerald-100' }
                     ],
-                    documentations: [
-                        { title: 'Guide Technique Verres 2026', cat: 'Notices', size: '2.4 Mo' },
-                        { title: 'Grille Tarifaire Privilège ' + user.toUpperCase(), cat: 'Tarifs Pro', size: '1.1 Mo' }
+                    montures: [
+                        { model: 'Banana Gold - Aviator', ref: 'BN-2026-X', detail: 'Or Jaune Satiné / Branches titane', stock: 'Stock central : 12 | Magasin : 1', img: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=300&q=80' },
+                        { model: 'Banana Republic - Vintage', ref: 'BN-9942', detail: 'Acétate bio Écaille de tortue', stock: 'Stock central : 4 | Magasin : 0', img: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=300&q=80' }
+                    ],
+                    docs: [
+                        { name: 'Factur-X_CMD-2026-894.pdf', type: 'Facture Électronique', size: '142 Ko' },
+                        { name: 'Catalogue Général Tarifs V2I 2026.pdf', type: 'Tarif Technique', size: '4.8 Mo' }
                     ]
                 };
 
-                // Affichage de l'interface
                 document.getElementById('login-screen').classList.add('hidden');
                 document.getElementById('main-interface').classList.remove('hidden');
                 document.getElementById('store-badge').innerText = "Magasin : " + storeData.storeName;
-                
-                renderOrders();
+                document.getElementById('welcome-store-name').innerText = storeData.storeName;
+
+                // On initialise les données en arrière-plan
+                renderVerres();
+                renderMontures();
                 renderDocs();
-            } else {
-                document.getElementById('login-error').classList.remove('hidden');
+                lucide.createIcons();
             }
         }
 
-        // Affichage dynamique du tableau moderne
-        function renderOrders() {
-            const tbody = document.getElementById('orders-table-body');
-            tbody.innerHTML = '';
-            const search = document.getElementById('global-search').value.toLowerCase();
-
-            const filtered = storeData.items.filter(item => {
-                // Filtre Statut (En cours / Archives)
-                if (currentFilter === 'encours' && item.isArchive) return false;
-                if (currentFilter === 'archive' && !item.isArchive && item.type === 'commande') return false;
-                
-                // Filtre de recherche textuelle globale (M. X, RB2057...)
-                if (search) {
-                    return item.title.toLowerCase().includes(search) || item.subtitle.toLowerCase().includes(search) || item.info.toLowerCase().includes(search);
-                }
-                return true;
+        function switchTab(tabId) {
+            // Cacher l'écran d'accueil par défaut et tous les onglets
+            document.getElementById('content-welcome').classList.add('hidden');
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            
+            // Réinitialiser le style des boutons d'onglets
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
             });
 
-            if(filtered.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-8 text-center text-slate-400">Aucun résultat trouvé</td></tr>`;
-                return;
-            }
+            // Afficher l'onglet cliqué et lui appliquer la ligne bleue Apple
+            document.getElementById('content-' + tabId).classList.remove('hidden');
+            document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+        }
 
-            filtered.forEach(item => {
-                let badgeColor = item.color === 'blue' ? 'bg-blue-50 text-blue-700 border-blue-100' :
-                                 item.color === 'amber' ? 'bg-amber-50 text-amber-700 border-amber-100' :
-                                 item.color === 'purple' ? 'bg-purple-50 text-purple-700 border-purple-100' :
-                                 'bg-emerald-50 text-emerald-700 border-emerald-100';
+        function renderVerres() {
+            const tbody = document.getElementById('verres-table-body');
+            tbody.innerHTML = '';
+            const search = document.getElementById('search-verres').value.toLowerCase();
 
-                let icon = item.type === 'commande' ? '<i data-lucide="package" class="w-5 h-5 text-slate-400"></i>' : '<i data-lucide="glasses" class="w-5 h-5 text-slate-400"></i>';
-                
-                // Si c'est une monture avec une fausse image miniature moderne
-                if(item.type === 'monture') {
-                    icon = `<img src="${item.link}" class="w-10 h-10 object-cover rounded-lg border border-slate-100 shadow-sm" alt="">`;
-                }
-
+            storeData.verres.forEach(v => {
+                if(search && !v.patient.toLowerCase().includes(search) && !v.ref.toLowerCase().includes(search)) return;
                 tbody.innerHTML += `
-                    <tr class="hover:bg-slate-50/80 transition-colors">
-                        <td class="px-6 py-4 flex items-center gap-3">
-                            ${icon}
-                            <div>
-                                <div class="font-semibold text-slate-900">${item.title}</div>
-                                <div class="text-xs text-slate-400 font-medium">${item.subtitle}</div>
-                            </div>
-                        </td>
-                        <td class="px-6 py-4 text-slate-500 font-medium">${item.info}</td>
+                    <tr class="hover:bg-[#f5f5f7]/50 transition-colors">
                         <td class="px-6 py-4">
-                            <span class="px-2.5 py-1 text-xs font-semibold rounded-full border ${badgeColor}">
-                                ${item.status}
-                            </span>
+                            <div class="font-medium text-[#1d1d1f]">${v.patient}</div>
+                            <div class="text-xs text-[#86868b]">${v.ref}</div>
+                        </td>
+                        <td class="px-6 py-4 text-[#86868b] font-normal">${v.detail}</td>
+                        <td class="px-6 py-4">
+                            <span class="px-2.5 py-1 text-xs font-medium rounded-full border ${v.color}">${v.status}</span>
                         </td>
                         <td class="px-6 py-4 text-right">
-                            <a href="#" class="inline-flex items-center gap-1 text-xs font-semibold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100/70 px-3 py-1.5 rounded-lg transition-all">
-                                ${item.type === 'commande' ? 'Facture PDF <i data-lucide="external-link" class="w-3 h-3"></i>' : 'Fiche Stock'}
-                            </a>
+                            <button class="text-[#0066cc] hover:underline text-xs font-medium cursor-pointer">Factur-X (PDF)</button>
                         </td>
                     </tr>
                 `;
             });
-            lucide.createIcons();
         }
 
-        // Remplissage de l'onglet Documentation sécurisé
-        function renderDocs() {
-            const grid = document.getElementById('docs-grid');
+        function renderMontures() {
+            const grid = document.getElementById('montures-grid');
             grid.innerHTML = '';
-            storeData.documentations.forEach(doc => {
+            storeData.montures.forEach(m => {
                 grid.innerHTML += `
-                    <div class="p-4 border border-slate-100 bg-slate-50/50 rounded-xl flex items-center justify-between hover:border-slate-200 transition-all">
-                        <div class="flex items-center gap-3">
-                            <div class="p-2.5 bg-white border border-slate-100 text-red-500 rounded-lg shadow-sm">
-                                <i data-lucide="file-text" class="w-5 h-5"></i>
-                            </div>
+                    <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm hover:shadow-md transition-all">
+                        <img src="${m.img}" class="w-full h-44 object-cover border-b border-[#e8e8ed]" alt="">
+                        <div class="p-5 space-y-2">
                             <div>
-                                <h3 class="text-sm font-semibold text-slate-900">${doc.title}</h3>
-                                <p class="text-xs text-slate-400">${doc.cat} • ${doc.size}</p>
+                                <h4 class="font-semibold text-base">${m.model}</h4>
+                                <p class="text-xs text-[#86868b]">${m.ref} • ${m.detail}</p>
                             </div>
+                            <div class="text-xs bg-[#f5f5f7] p-2 rounded-lg text-[#1d1d1f] font-medium">${m.stock}</div>
                         </div>
-                        <a href="#" class="p-2 text-slate-400 hover:text-slate-800 bg-white hover:shadow-sm border border-slate-100 rounded-lg transition-all">
-                            <i data-lucide="download" class="w-4 h-4"></i>
-                        </a>
                     </div>
                 `;
             });
-            lucide.createIcons();
         }
 
-        // Moteur de recherche et Filtres
-        function filterOrdersAndFrames() { renderOrders(); }
-        function filterStatus(status) {
-            currentFilter = status;
-            document.querySelectorAll('.status-filter').forEach(btn => {
-                btn.className = "status-filter bg-white border border-slate-200 text-slate-600 text-xs font-medium px-3 py-2 rounded-lg hover:bg-slate-50 cursor-pointer";
+        function renderDocs() {
+            const container = document.getElementById('docs-list');
+            container.innerHTML = '';
+            storeData.docs.forEach(d => {
+                container.innerHTML += `
+                    <div class="flex items-center justify-between p-3 bg-[#f5f5f7] rounded-xl border border-transparent hover:border-[#e8e8ed] transition-all">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="file" class="w-4 h-4 text-[#86868b]"></i>
+                            <div>
+                                <p class="text-sm font-medium">${d.name}</p>
+                                <p class="text-xs text-[#86868b]">${d.type} • ${d.size}</p>
+                            </div>
+                        </div>
+                        <button class="text-[#0066cc] hover:text-[#0055bb] text-sm"><i data-lucide="download" class="w-4 h-4"></i></button>
+                    </div>
+                `;
             });
-            event.target.className = "status-filter bg-slate-900 text-white text-xs font-medium px-3 py-2 rounded-lg cursor-pointer";
-            renderOrders();
         }
 
-        // Logique de navigation par onglets (Effet fluide)
-        function switchTab(tabId) {
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.className = "tab-btn px-4 py-3 text-sm font-medium border-b-2 border-transparent text-slate-500 hover:text-slate-800 flex items-center gap-2 whitespace-nowrap cursor-pointer";
-            });
-            document.getElementById('content-' + tabId).classList.remove('hidden');
-            document.getElementById('tab-' + tabId).className = "tab-btn active px-4 py-3 text-sm font-medium border-b-2 border-blue-600 text-blue-600 flex items-center gap-2 whitespace-nowrap cursor-pointer";
-        }
-
-        // Logique Mathématique du Calculateur en temps réel
         function runCalculation() {
-            const l = parseFloat(document.getElementById('calc-long').value) || 0;
-            const c = parseFloat(document.getElementById('calc-charge').value) || 0;
-            const idx = parseFloat(document.getElementById('calc-material').value);
-            
-            if (l > 0 && c > 0) {
-                // Formule mathématique exemple
-                const res = Math.sqrt((l * c) / 5000) * idx;
-                document.getElementById('calc-result').innerText = res.toFixed(2);
-            } else {
-                document.getElementById('calc-result').innerText = "0.00";
-            }
+            const sphere = Math.abs(parseFloat(document.getElementById('calc-sphere').value)) || 0;
+            const diam = parseFloat(document.getElementById('calc-diam').value) || 0;
+            const result = 1.5 + (sphere * (diam / 100)); // Formule optique fictive
+            document.getElementById('calc-result').innerText = result.toFixed(2);
         }
 
         function logout() {
             document.getElementById('main-interface').classList.add('hidden');
             document.getElementById('login-screen').classList.remove('hidden');
-            document.getElementById('username').value = '';
-            document.getElementById('password').value = '';
+            document.getElementById('content-welcome').classList.remove('hidden');
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
         }
     </script>
 </body>
