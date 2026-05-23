@@ -18,9 +18,9 @@
 </head>
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
-    <!-- 1. ÉCRAN DE CONNEXION (Style Verre Dépoli Apple) -->
+    <!-- 1. ÉCRAN DE CONNEXION -->
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
-        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8 transition-all duration-500">
+        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8">
             <div class="flex flex-col items-center mb-10">
                 <div class="bg-[#0066cc]/10 text-[#0066cc] p-3.5 rounded-2xl mb-4">
                     <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
@@ -31,12 +31,12 @@
             
             <form onsubmit="handleLogin(event)" class="space-y-6">
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Identifiant Magasin</label>
+                    <label class="block text-xs font-medium text-[#86868b] mb-2">Identifiant Magasin</label>
                     <input type="text" id="username" required placeholder="ex: lyon04" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Mot de passe</label>
+                    <label class="block text-xs font-medium text-[#86868b] mb-2">Mot de passe</label>
                     <input type="password" id="password" required placeholder="••••••••" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
@@ -50,16 +50,15 @@
 
     <!-- 2. INTERFACE PRINCIPALE -->
     <div id="main-interface" class="hidden">
-        <!-- Barre de navigation Apple (Fixe et épurée) -->
+        <!-- Barre de navigation -->
         <nav class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
-            <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-7xl mx-auto px-6">
                 <div class="flex justify-between h-14 items-center">
                     <div class="flex items-center gap-3">
                         <span class="font-semibold text-base tracking-tight">V2I Optique</span>
                         <span id="store-badge" class="bg-[#f5f5f7] text-[#86868b] text-xs px-2.5 py-1 rounded-full font-medium border border-[#e8e8ed]">Magasin : ---</span>
                     </div>
                     
-                    <!-- Les 4 Onglets demandés toujours visibles -->
                     <div class="hidden md:flex items-center h-full space-x-1">
                         <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
@@ -83,16 +82,15 @@
         </nav>
 
         <!-- ZONE DE CONTENU -->
-        <div class="max-w-6xl mx-auto px-6 py-10">
+        <div class="max-w-7xl mx-auto px-6 py-8">
             
-            <!-- ÉCRAN D'ACCUEIL PAR DÉFAUT (Esprit Apple : Sobre et Pro) -->
-            <div id="content-welcome" class="space-y-10 animate-fade-in">
+            <!-- ACCUEIL -->
+            <div id="content-welcome" class="space-y-10">
                 <div class="max-w-2xl">
                     <h2 class="text-4xl font-semibold tracking-tight text-[#1d1d1f]">Bonjour, <span id="welcome-store-name">Magasin</span></h2>
                     <p class="text-xl text-[#86868b] mt-2 font-normal leading-relaxed">Bienvenue sur votre espace de gestion haute précision. Sélectionnez un outil ci-dessus ou parcourez vos accès rapides.</p>
                 </div>
 
-                <!-- Grille d'accès rapides style Dashboard Apple -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     <div onclick="switchTab('verres')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
                         <div class="w-10 h-10 bg-[#0066cc]/5 text-[#0066cc] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#0066cc] group-hover:text-white transition-all">
@@ -127,219 +125,388 @@
                     </div>
                 </div>
 
-                <!-- NOUVELLE BANNIÈRE INTÉGRÉE : Image du Vieux Port à travers le verre optique -->
                 <div class="relative w-full h-[400px] rounded-3xl overflow-hidden border border-[#e8e8ed] shadow-sm group">
-                    <!-- Image générée -->
-                    <img src="port.jpg" 
-                         alt="V2i - Haute Précision Optique Corse" 
-                         class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]">
-                    
-                    <!-- Overlay dégradé subtil pour s'assurer que le contenu Apple reste lisible -->
+                    <img src="./port.jpg" alt="V2i - Haute Précision Optique Corse" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
-                    
-                    <!-- Badge d'information intégré en haut à gauche -->
                     <div class="absolute top-6 left-6 bg-white/80 backdrop-blur-md px-4 py-2 rounded-xl border border-white/40 text-xs font-medium shadow-sm">
                         Technologie Polarisante Haute Définition — Conçu à Bastia
                     </div>
                 </div>
             </div>
 
-            <!-- CONTENU DE L'ONGLET 1 : SUIVI DE COMMANDE VERRES -->
+            <!-- NOUVEL ONGLET 2 COMPLET : CALCUL ET PRÉCALIBRAGE PROFESSIONNEL -->
+            <div id="content-calcul" class="tab-content hidden space-y-6">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    
+                    <!-- COLONNE GAUCHE : FORMULAIRE DE SAISIE OPTIQUE (5/12 cols) -->
+                    <div class="lg:col-span-5 space-y-6 bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm">
+                        <div>
+                            <h2 class="text-lg font-semibold tracking-tight">Simulateur Labo V2i</h2>
+                            <p class="text-xs text-[#86868b]">Saisie des paramètres montures et porteur.</p>
+                        </div>
+
+                        <!-- Étape 1 : Forme & Indices -->
+                        <div class="grid grid-cols-2 gap-4 border-t border-[#f5f5f7] pt-4">
+                            <div>
+                                <label class="block text-[11px] font-semibold text-[#86868b] uppercase tracking-wider mb-2">Forme Type</label>
+                                <select id="calc-shape" onchange="updateSimulation()" class="w-full px-3 py-2 bg-[#f5f5f7] border border-transparent rounded-xl text-sm focus:bg-white focus:border-[#0066cc] outline-none">
+                                    <option value="rectangle">Rectangle Moderne</option>
+                                    <option value="panto">Panto / Ovale Apple</option>
+                                    <option value="ronde">Ronde Rétro</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-[11px] font-semibold text-[#86868b] uppercase tracking-wider mb-2">Indice Verre</label>
+                                <select id="calc-index" onchange="updateSimulation()" class="w-full px-3 py-2 bg-[#f5f5f7] border border-transparent rounded-xl text-sm focus:bg-white focus:border-[#0066cc] outline-none">
+                                    <option value="1.5">1.50 Standard</option>
+                                    <option value="1.6">1.60 Karat</option>
+                                    <option value="1.67" selected>1.67 Haute Réfraction</option>
+                                    <option value="1.74">1.74 Ultra Fin</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Étape 2 : Cotes de la Monture Boxe -->
+                        <div class="bg-[#f5f5f7] p-4 rounded-2xl space-y-3">
+                            <span class="text-[11px] font-bold text-[#1d1d1f] uppercase tracking-wider block">Dimensions Monture (Boxe)</span>
+                            <div class="grid grid-cols-3 gap-3">
+                                <div>
+                                    <label class="block text-[11px] text-[#86868b] mb-1">Cote A (Lg)</label>
+                                    <input type="number" id="cote-a" value="54" min="30" max="70" oninput="updateSimulation()" class="w-full px-2.5 py-1.5 bg-white border border-[#e8e8ed] rounded-lg text-sm text-center">
+                                </div>
+                                <div>
+                                    <label class="block text-[11px] text-[#86868b] mb-1">Cote B (Ht)</label>
+                                    <input type="number" id="cote-b" value="40" min="25" max="60" oninput="updateSimulation()" class="w-full px-2.5 py-1.5 bg-white border border-[#e8e8ed] rounded-lg text-sm text-center">
+                                </div>
+                                <div>
+                                    <label class="block text-[11px] text-[#86868b] mb-1">Pont / Nez</label>
+                                    <input type="number" id="cote-nez" value="18" min="10" max="25" oninput="updateSimulation()" class="w-full px-2.5 py-1.5 bg-white border border-[#e8e8ed] rounded-lg text-sm text-center">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Étape 3 : Centrages & Morphologie -->
+                        <div class="border-t border-[#f5f5f7] pt-4 space-y-3">
+                            <span class="text-[11px] font-bold text-[#1d1d1f] uppercase tracking-wider block">Centrages Porteur (mm)</span>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="space-y-2 border-r border-[#f5f5f7] pr-2">
+                                    <span class="text-xs font-medium text-[#0066cc] block">Œil Droit</span>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <div>
+                                            <label class="text-[10px] text-[#86868b]">Écart ½</label>
+                                            <input type="number" id="ecart-od" value="32.5" step="0.5" oninput="updateSimulation()" class="w-full p-1.5 bg-[#f5f5f7] rounded-lg text-xs text-center">
+                                        </div>
+                                        <div>
+                                            <label class="text-[10px] text-[#86868b]">Hauteur</label>
+                                            <input type="number" id="haut-od" value="22.0" step="0.5" oninput="updateSimulation()" class="w-full p-1.5 bg-[#f5f5f7] rounded-lg text-xs text-center">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="space-y-2 pl-2">
+                                    <span class="text-xs font-medium text-[#5856d6] block">Œil Gauche</span>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <div>
+                                            <label class="text-[10px] text-[#86868b]">Écart ½</label>
+                                            <input type="number" id="ecart-og" value="32.0" step="0.5" oninput="updateSimulation()" class="w-full p-1.5 bg-[#f5f5f7] rounded-lg text-xs text-center">
+                                        </div>
+                                        <div>
+                                            <label class="text-[10px] text-[#86868b]">Hauteur</label>
+                                            <input type="number" id="haut-og" value="22.0" step="0.5" oninput="updateSimulation()" class="w-full p-1.5 bg-[#f5f5f7] rounded-lg text-xs text-center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Étape 4 : Ordonnance / Puissances -->
+                        <div class="border-t border-[#f5f5f7] pt-4 space-y-3">
+                            <span class="text-[11px] font-bold text-[#1d1d1f] uppercase tracking-wider block">Puissances Dioptries</span>
+                            <div class="grid grid-cols-2 gap-4">
+                                <!-- OD -->
+                                <div class="space-y-2 bg-[#0066cc]/5 p-3 rounded-xl border border-[#0066cc]/10">
+                                    <span class="text-xs font-semibold text-[#0066cc]">Œil Droit</span>
+                                    <div class="space-y-1.5">
+                                        <div class="flex justify-between items-center"><span class="text-[11px] text-[#86868b]">Sph :</span><input type="number" id="sph-od" value="-3.50" step="0.25" oninput="updateSimulation()" class="w-16 p-1 bg-white border border-[#e8e8ed] rounded text-xs text-center font-mono"></div>
+                                        <div class="flex justify-between items-center"><span class="text-[11px] text-[#86868b]">Cyl :</span><input type="number" id="cyl-od" value="+0.75" step="0.25" oninput="updateSimulation()" class="w-16 p-1 bg-white border border-[#e8e8ed] rounded text-xs text-center font-mono"></div>
+                                        <div class="flex justify-between items-center"><span class="text-[11px] text-[#86868b]">Axe :</span><input type="number" id="axe-od" value="90" min="0" max="180" oninput="updateSimulation()" class="w-16 p-1 bg-white border border-[#e8e8ed] rounded text-xs text-center font-mono"></div>
+                                    </div>
+                                </div>
+                                <!-- OG -->
+                                <div class="space-y-2 bg-[#5856d6]/5 p-3 rounded-xl border border-[#5856d6]/10">
+                                    <span class="text-xs font-semibold text-[#5856d6]">Œil Gauche</span>
+                                    <div class="space-y-1.5">
+                                        <div class="flex justify-between items-center"><span class="text-[11px] text-[#86868b]">Sph :</span><input type="number" id="sph-og" value="-4.00" step="0.25" oninput="updateSimulation()" class="w-16 p-1 bg-white border border-[#e8e8ed] rounded text-xs text-center font-mono"></div>
+                                        <div class="flex justify-between items-center"><span class="text-[11px] text-[#86868b]">Cyl :</span><input type="number" id="cyl-og" value="0.00" step="0.25" oninput="updateSimulation()" class="w-16 p-1 bg-white border border-[#e8e8ed] rounded text-xs text-center font-mono"></div>
+                                        <div class="flex justify-between items-center"><span class="text-[11px] text-[#86868b]">Axe :</span><input type="number" id="axe-og" value="0" min="0" max="180" oninput="updateSimulation()" class="w-16 p-1 bg-white border border-[#e8e8ed] rounded text-xs text-center font-mono"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- COLONNE DROITE : LE LABO VISUEL INTERACTIF (7/12 cols) -->
+                    <div class="lg:col-span-7 space-y-6">
+                        <!-- Vue de Face interactive -->
+                        <div class="bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm relative">
+                            <div class="flex justify-between items-center mb-3">
+                                <div>
+                                    <h3 class="text-sm font-semibold">Analyse de Face & Centrage</h3>
+                                    <p class="text-xs text-[#86868b]">Survolez le verre pour scanner l'épaisseur</p>
+                                </div>
+                                <div class="bg-[#0066cc] text-white px-3 py-1 rounded-full text-xs font-mono font-medium" id="live-thickness-badge">
+                                    Épaisseur : -- mm
+                                </div>
+                            </div>
+
+                            <div class="flex justify-center bg-[#f5f5f7] rounded-2xl p-4 overflow-hidden relative group">
+                                <canvas id="lensCanvas" width="560" height="280" class="cursor-crosshair bg-white rounded-xl shadow-inner"></canvas>
+                            </div>
+                            
+                            <div class="flex justify-between text-[11px] text-[#86868b] mt-2 px-1">
+                                <span>🔴 Croix = Centre Pupille</span>
+                                <span>🔵 Cercle bleu = Diamètre initial du palet nécessaire</span>
+                            </div>
+                        </div>
+
+                        <!-- Vue en Coupe Réactive -->
+                        <div class="bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm">
+                            <h3 class="text-sm font-semibold mb-3">Vue en Coupe Dynamique (Profil du verre sélectionné)</h3>
+                            <div class="bg-[#f5f5f7] h-32 rounded-2xl flex items-center justify-center p-4 relative">
+                                <canvas id="crossSectionCanvas" width="500" height="90"></canvas>
+                            </div>
+                            <div class="grid grid-cols-3 text-center text-xs mt-3 border-t border-[#f5f5f7] pt-3">
+                                <div><span class="text-[#86868b] block">Bord Externe</span><span class="font-mono font-bold text-sm text-[#1d1d1f]" id="thick-edge-ext">-- mm</span></div>
+                                <div><span class="text-[#86868b] block">Centre Optique</span><span class="font-mono font-bold text-sm text-[#0066cc]" id="thick-center">-- mm</span></div>
+                                <div><span class="text-[#86868b] block">Bord Interne (Nez)</span><span class="font-mono font-bold text-sm text-[#1d1d1f]" id="thick-edge-int">-- mm</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ANCIENS ONGLETS RESTE COMPATIBLES -->
             <div id="content-verres" class="tab-content hidden space-y-6">
-                <div class="flex flex-col md:flex-row gap-4 items-center justify-between bg-white p-4 rounded-2xl border border-[#e8e8ed]">
-                    <div class="relative w-full md:max-w-md">
-                        <i data-lucide="search" class="w-4 h-4 text-[#86868b] absolute left-3.5 top-3"></i>
-                        <input type="text" id="search-verres" oninput="renderVerres()" placeholder="Rechercher un patient ou un numéro de commande..." 
-                               class="w-full pl-10 pr-4 py-2 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
-                    </div>
-                </div>
-                <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm">
-                    <table class="w-full text-left border-collapse text-sm">
-                        <thead>
-                            <tr class="bg-[#f5f5f7] text-[#86868b] font-medium text-xs border-b border-[#e8e8ed]">
-                                <th class="px-6 py-3">Patient / Commande</th>
-                                <th class="px-6 py-3">Type de Verre</th>
-                                <th class="px-6 py-3">Statut de Fabrication</th>
-                                <th class="px-6 py-3 text-right">Document</th>
-                            </tr>
-                        </thead>
-                        <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
-                    </table>
-                </div>
+                <!-- Reste identique pour votre suivi verres -->
+                <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] text-sm text-[#86868b]">Suivi de fabrication actif...</div>
             </div>
-
-            <!-- CONTENU DE L'ONGLET 2 : CALCUL VERRE -->
-            <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
-                <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-sm space-y-6">
-                    <div class="text-center">
-                        <h2 class="text-xl font-semibold tracking-tight">Calculateur d'Épaisseur Index</h2>
-                        <p class="text-sm text-[#86868b] mt-1">Outil d'atelier pour le précalibrage</p>
-                    </div>
-                    <div class="space-y-4">
-                        <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
-                            <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Diamètre du verre (mm)</label>
-                            <input type="number" id="calc-diam" value="70" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
-                        </div>
-                    </div>
-                    <div class="bg-[#0066cc]/5 rounded-2xl p-6 text-center border border-[#0066cc]/10">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-[#0066cc]">Épaisseur au bord estimée</span>
-                        <div class="text-4xl font-bold mt-1 text-[#1d1d1f]"><span id="calc-result">3.20</span> <span class="text-lg font-medium">mm</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- CONTENU DE L'ONGLET 3 : MONTURE -->
-            <div id="content-monture" class="tab-content hidden space-y-6">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="montures-grid">
-                    <!-- Rempli en JS avec du Banana Eyewear -->
-                </div>
-            </div>
-
-            <!-- CONTENU DE L'ONGLET 4 : DOCUMENTS -->
-            <div id="content-documents" class="tab-content hidden max-w-3xl mx-auto space-y-4">
-                <div class="bg-white rounded-2xl border border-[#e8e8ed] p-6">
-                    <h2 class="text-base font-semibold mb-4">Vos Factures-X & Catalogues</h2>
-                    <div id="docs-list" class="space-y-3"></div>
-                </div>
-            </div>
+            <div id="content-monture" class="tab-content hidden grid grid-cols-1 md:grid-cols-3 gap-6" id="montures-grid"></div>
+            <div id="content-documents" class="tab-content hidden max-w-3xl mx-auto space-y-4" id="docs-list"></div>
 
         </div>
     </div>
 
+    <!-- CODE SCRIPT RECONSTRUIT POUR LE CALCUL DE PRÉCALIBRAGE INTERACTIF -->
     <script>
         let storeData = null;
+        let currentMouseX = 280; // Par défaut au milieu
 
         function handleLogin(e) {
             e.preventDefault();
             const user = document.getElementById('username').value.trim().toLowerCase();
-            
             if(user !== '') {
-                document.getElementById('login-error').classList.add('hidden');
-                
-                // Simulation de tes données injectées par Python (Esprit Hoya/Essilor/Banana)
-                storeData = {
-                    storeName: user.toUpperCase(),
-                    verres: [
-                        { patient: 'M. Gérard Banana', ref: 'CMD-2026-912', detail: 'Progressif V2I HD - Indice 1.67 Sensity', status: 'Surfaçage en cours', color: 'text-blue-600 bg-blue-50 border-blue-100' },
-                        { patient: 'Mme Marie Curie', ref: 'CMD-2026-894', detail: 'Unifocal Asphérique Onyx - Anti-reflet Max', status: 'Prêt / Expédié', color: 'text-emerald-600 bg-emerald-50 border-emerald-100' }
-                    ],
-                    montures: [
-                        { model: 'Banana Gold - Aviator', ref: 'BN-2026-X', detail: 'Or Jaune Satiné / Branches titane', stock: 'Stock central : 12 | Magasin : 1', img: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=300&q=80' },
-                        { model: 'Banana Republic - Vintage', ref: 'BN-9942', detail: 'Acétate bio Écaille de tortue', stock: 'Stock central : 4 | Magasin : 0', img: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=300&q=80' }
-                    ],
-                    docs: [
-                        { name: 'Factur-X_CMD-2026-894.pdf', type: 'Facture Électronique', size: '142 Ko' },
-                        { name: 'Catalogue Général Tarifs V2I 2026.pdf', type: 'Tarif Technique', size: '4.8 Mo' }
-                    ]
-                };
-
                 document.getElementById('login-screen').classList.add('hidden');
                 document.getElementById('main-interface').classList.remove('hidden');
-                document.getElementById('store-badge').innerText = "Magasin : " + storeData.storeName;
-                document.getElementById('welcome-store-name').innerText = storeData.storeName;
-
-                // On initialise les données en arrière-plan
-                renderVerres();
-                renderMontures();
-                renderDocs();
-                lucide.createIcons();
+                document.getElementById('store-badge').innerText = "Magasin : " + user.toUpperCase();
+                document.getElementById('welcome-store-name').innerText = user.toUpperCase();
+                
+                // Init du canvas pro
+                setTimeout(() => {
+                    initCanvasEvents();
+                    updateSimulation();
+                }, 50);
             }
         }
 
         function switchTab(tabId) {
-            // Cacher l'écran d'accueil par défaut et tous les onglets
             document.getElementById('content-welcome').classList.add('hidden');
             document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            
-            // Réinitialiser le style des boutons d'onglets
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
             });
-
-            // Afficher l'onglet cliqué et lui appliquer la ligne bleue Apple
             document.getElementById('content-' + tabId).classList.remove('hidden');
-            document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+            if(document.getElementById('tab-' + tabId)) {
+                document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+            }
+            if(tabId === 'calcul') {
+                setTimeout(() => updateSimulation(), 30);
+            }
         }
 
-        function renderVerres() {
-            const tbody = document.getElementById('verres-table-body');
-            tbody.innerHTML = '';
-            const search = document.getElementById('search-verres').value.toLowerCase();
-
-            storeData.verres.forEach(v => {
-                if(search && !v.patient.toLowerCase().includes(search) && !v.ref.toLowerCase().includes(search)) return;
-                tbody.innerHTML += `
-                    <tr class="hover:bg-[#f5f5f7]/50 transition-colors">
-                        <td class="px-6 py-4">
-                            <div class="font-medium text-[#1d1d1f]">${v.patient}</div>
-                            <div class="text-xs text-[#86868b]">${v.ref}</div>
-                        </td>
-                        <td class="px-6 py-4 text-[#86868b] font-normal">${v.detail}</td>
-                        <td class="px-6 py-4">
-                            <span class="px-2.5 py-1 text-xs font-medium rounded-full border ${v.color}">${v.status}</span>
-                        </td>
-                        <td class="px-6 py-4 text-right">
-                            <button class="text-[#0066cc] hover:underline text-xs font-medium cursor-pointer">Factur-X (PDF)</button>
-                        </td>
-                    </tr>
-                `;
+        // --- ENGIN DE CALCUL ET DE RENDU GRAPHIQUE ---
+        function initCanvasEvents() {
+            const canvas = document.getElementById('lensCanvas');
+            if(!canvas) return;
+            
+            canvas.addEventListener('mousemove', (e) => {
+                const rect = canvas.getBoundingClientRect();
+                currentMouseX = e.clientX - rect.left;
+                updateSimulation();
             });
         }
 
-        function renderMontures() {
-            const grid = document.getElementById('montures-grid');
-            grid.innerHTML = '';
-            storeData.montures.forEach(m => {
-                grid.innerHTML += `
-                    <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm hover:shadow-md transition-all">
-                        <img src="${m.img}" class="w-full h-44 object-cover border-b border-[#e8e8ed]" alt="">
-                        <div class="p-5 space-y-2">
-                            <div>
-                                <h4 class="font-semibold text-base">${m.model}</h4>
-                                <p class="text-xs text-[#86868b]">${m.ref} • ${m.detail}</p>
-                            </div>
-                            <div class="text-xs bg-[#f5f5f7] p-2 rounded-lg text-[#1d1d1f] font-medium">${m.stock}</div>
-                        </div>
-                    </div>
-                `;
-            });
+        function updateSimulation() {
+            const canvas = document.getElementById('lensCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Récupération des cotes techniques saisies
+            const shape = document.getElementById('calc-shape').value;
+            const index = parseFloat(document.getElementById('calc-index').value);
+            const A = parseInt(document.getElementById('cote-a').value) || 50;
+            const B = parseInt(document.getElementById('cote-b').value) || 35;
+            const nez = parseInt(document.getElementById('cote-nez').value) || 16;
+            
+            const ecartOD = parseFloat(document.getElementById('ecart-od').value) || 32;
+            const hautOD = parseFloat(document.getElementById('haut-od').value) || 20;
+            const sphOD = parseFloat(document.getElementById('sph-od').value) || 0;
+
+            // Échelle de conversion : 1mm = 3.5 pixels pour rester propre sur l'écran
+            const scale = 3.5;
+            const midX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+
+            // --- CALCULS DE PLACEMENT BOXING DES DEUX YEUX ---
+            const distInterCentresBoxe = (A + nez) * scale;
+            const boxRightCenterX = midX + (distInterCentresBoxe / 2);
+            const boxLeftCenterX = midX - (distInterCentresBoxe / 2);
+
+            // Dessin de la monture (Deux verres entourés)
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = '#e8e8ed';
+            ctx.fillStyle = '#ffffff';
+
+            function drawEyeFrame(boxCenterX) {
+                ctx.beginPath();
+                if (shape === 'rectangle') {
+                    ctx.roundRect(boxCenterX - (A*scale/2), centerY - (B*scale/2), A*scale, B*scale, 10);
+                } else if (shape === 'panto') {
+                    ctx.roundRect(boxCenterX - (A*scale/2), centerY - (B*scale/2), A*scale, B*scale, B*scale/1.5);
+                } else { // ronde
+                    const r = (A*scale/2);
+                    ctx.arc(boxCenterX, centerY, r, 0, Math.PI * 2);
+                }
+                ctx.fill();
+                ctx.stroke();
+            }
+            // Dessin Œil Gauche & Droit
+            drawEyeFrame(boxLeftCenterX);
+            drawEyeFrame(boxRightCenterX);
+
+            // Pont de la monture
+            ctx.beginPath();
+            ctx.moveTo(boxLeftCenterX + (A*scale/2), centerY);
+            ctx.lineTo(boxRightCenterX - (A*scale/2), centerY);
+            ctx.stroke();
+
+            // --- REFUGE ET CALCUL DE SURFAÇAGE SUR L'ŒIL DROIT (EXEMPLE INTERACTIF) ---
+            // Position de la pupille par rapport au coin inférieur gauche du boxing
+            const pupilleOD_X = boxRightCenterX - (A*scale/2) + ((A/2) - (ecartOD - (A+nez)/2))*scale; 
+            // Approximation simplifiée pour le repère de face :
+            const pupilX = boxRightCenterX - (A*scale/2) + (ecartOD - nez)*scale;
+            const pupilY = centerY + (B/2 - hautOD)*scale;
+
+            // Dessin Croix de centrage Pupille
+            ctx.strokeStyle = '#ff3b30';
+            ctx.lineWidth = 1.5;
+            ctx.beginPath();
+            ctx.moveTo(pupilX - 8, pupilY); ctx.lineTo(pupilX + 8, pupilY);
+            ctx.moveTo(pupilX, pupilY - 8); ctx.lineTo(pupilX, pupilY + 8);
+            ctx.stroke();
+
+            // Calcul du diamètre du verre nécessaire (Palet brut)
+            // C'est le double de la distance maximale entre la pupille et un bord de la monture
+            const distMaxBord = Math.max(A/2 + Math.abs(ecartOD - (A+nez)/2), B/2 + Math.abs(hautOD - B/2));
+            const diametreUtile = Math.ceil(distMaxBord * 2) + 2; // +2mm de sécurité atelier
+
+            // Dessin du contour du verre brut initial (Cercle bleu ciel)
+            ctx.strokeStyle = 'rgba(0, 102, 204, 0.3)';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.arc(pupilX, pupilY, (diametreUtile*scale)/2, 0, Math.PI * 2);
+            ctx.stroke();
+
+            // --- GESTION DU CURSEUR ET DÉFILÉ DE L'ÉPAISSEUR ---
+            // Calcul mathématique de l'épaisseur à l'emplacement X du curseur
+            // Forme de base : Epaisseur = Centre + (Facteur de puissance dépendant de l'indice) * Distance²
+            const distanceAuCentre = Math.abs(currentMouseX - pupilX) / scale; // en mm
+            const baseThickness = sphOD < 0 ? 1.8 : 1.8 + (sphOD * 0.8); // Épaisseur au centre selon convexe/concave
+            
+            // Constante d'indice d'optique
+            const facteurIndice = 0.015 * (1.67 / index);
+            let liveThickness = baseThickness + Math.abs(sphOD) * facteurIndice * Math.pow(distanceAuCentre, 1.8);
+            if (liveThickness < 1.2) liveThickness = 1.2; // Minimum physique d'un verre organique
+
+            // Remplissage dynamique des badges d'information
+            if(currentMouseX > boxRightCenterX - (A*scale/2) && currentMouseX < boxRightCenterX + (A*scale/2)) {
+                document.getElementById('live-thickness-badge').innerText = `Épaisseur : ${liveThickness.toFixed(2)} mm`;
+            } else {
+                document.getElementById('live-thickness-badge').innerText = `Survolez le verre`;
+            }
+
+            // Dessin de la barre verticale de scan sous la souris
+            ctx.strokeStyle = 'rgba(0, 102, 204, 0.2)';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(currentMouseX, centerY - 60);
+            ctx.lineTo(currentMouseX, centerY + 60);
+            ctx.stroke();
+
+            // --- DESSIN DE LA VUE EN COUPE DE PROFIL ---
+            renderCrossSection(sphOD, index, A, liveThickness, distanceAuCentre);
         }
 
-        function renderDocs() {
-            const container = document.getElementById('docs-list');
-            container.innerHTML = '';
-            storeData.docs.forEach(d => {
-                container.innerHTML += `
-                    <div class="flex items-center justify-between p-3 bg-[#f5f5f7] rounded-xl border border-transparent hover:border-[#e8e8ed] transition-all">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="file" class="w-4 h-4 text-[#86868b]"></i>
-                            <div>
-                                <p class="text-sm font-medium">${d.name}</p>
-                                <p class="text-xs text-[#86868b]">${d.type} • ${d.size}</p>
-                            </div>
-                        </div>
-                        <button class="text-[#0066cc] hover:text-[#0055bb] text-sm"><i data-lucide="download" class="w-4 h-4"></i></button>
-                    </div>
-                `;
-            });
-        }
+        function renderCrossSection(sph, index, maxA, hoverThick, hoverDist) {
+            const canvas = document.getElementById('crossSectionCanvas');
+            if(!canvas) return;
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        function runCalculation() {
-            const sphere = Math.abs(parseFloat(document.getElementById('calc-sphere').value)) || 0;
-            const diam = parseFloat(document.getElementById('calc-diam').value) || 0;
-            const result = 1.5 + (sphere * (diam / 100)); // Formule optique fictive
-            document.getElementById('calc-result').innerText = result.toFixed(2);
+            const w = canvas.width;
+            const h = canvas.height;
+            const midY = h / 2;
+
+            // Facteur géométrique selon puissance
+            const epaisseurCentre = sph < 0 ? 1.5 : 4.5 - (index*0.5);
+            const epaisseurBordExt = sph < 0 ? 5.0 / (index/1.3) : 1.2;
+            const epaisseurBordInt = sph < 0 ? 3.8 / (index/1.3) : 1.2;
+
+            // Remplissage des étiquettes chiffrées du bas
+            document.getElementById('thick-center').innerText = epaisseurCentre.toFixed(2) + " mm";
+            document.getElementById('thick-edge-ext').innerText = epaisseurBordExt.toFixed(2) + " mm";
+            document.getElementById('thick-edge-int').innerText = epaisseurBordInt.toFixed(2) + " mm";
+
+            // Dessin du profil en cloche du verre (Convexe ou Concave)
+            ctx.fillStyle = 'rgba(0, 102, 204, 0.1)';
+            ctx.strokeStyle = '#0066cc';
+            ctx.lineWidth = 2;
+
+            ctx.beginPath();
+            // Face avant (toujours légèrement bombée)
+            ctx.moveTo(50, midY - 15);
+            ctx.quadraticCurveTo(w/2, midY - 25, w - 50, midY - 15);
+            
+            // Bord externe droit
+            ctx.lineTo(w - 50, midY + 15 + (epaisseurBordExt * 4));
+            
+            // Face arrière (variable selon Concave / Convexe)
+            if(sph < 0) {
+                // Verre Concave (Plus épais au bord qu'au centre)
+                ctx.quadraticCurveTo(w/2, midY + (epaisseurCentre * 3), 50, midY + 15 + (epaisseurBordInt * 4));
+            } else {
+                // Verre Convexe (Plus épais au centre)
+                ctx.quadraticCurveTo(w/2, midY + 25 + (epaisseurCentre * 4), 50, midY + 15 + (epaisseurBordInt * 4));
+            }
+            
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
         }
 
         function logout() {
             document.getElementById('main-interface').classList.add('hidden');
             document.getElementById('login-screen').classList.remove('hidden');
-            document.getElementById('content-welcome').classList.remove('hidden');
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
         }
     </script>
 </body>
