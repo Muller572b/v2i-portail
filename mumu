@@ -28,8 +28,8 @@
             
             <form onsubmit="handleLogin(event)" class="space-y-6">
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Identifiant Magasin (Code Client)</label>
-                    <input type="text" id="username" required placeholder="ex: 10204 ou lyon04" 
+                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Identifiant Magasin (Code Client Lensware)</label>
+                    <input type="text" id="username" required placeholder="ex: 10204" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
                 <div>
@@ -132,7 +132,7 @@
                         <thead>
                             <tr class="bg-[#f5f5f7] text-[#86868b] font-medium text-xs border-b border-[#e8e8ed]">
                                 <th class="px-6 py-3">Patient / Commande</th>
-                                <th class="px-6 py-3">Détails de Production (Lensware)</th>
+                                <th class="px-6 py-3">Détails de Production</th>
                                 <th class="px-6 py-3">Statut Délai KPI</th>
                                 <th class="px-6 py-3 text-right">Document</th>
                             </tr>
@@ -140,7 +140,7 @@
                         <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]">
                             </tbody>
                     </table>
-                    <div id="no-orders-message" class="p-12 text-center text-[#86868b] hidden">Aucune commande en cours de fabrication.</div>
+                    <div id="no-orders-message" class="p-12 text-center text-[#86868b] hidden">Aucune commande en cours de fabrication pour ce magasin.</div>
                 </div>
             </div>
 
@@ -183,8 +183,8 @@
     </div>
 
     <script>
-        // URL du fichier JSON brut stocké sur votre GitHub
-        const JSON_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main/suivi_magasins.json";
+        // --- LIEN VERS LE FICHIER RAW GITHUB GENERÉ PAR PYTHON ---
+        const GITHUB_JSON_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main/suivi_magasins.json";
         
         let currentStoreData = null;
 
@@ -197,18 +197,17 @@
             
             errorEl.classList.add('hidden');
             loginBtn.disabled = true;
-            btnText.innerText = "Vérification...";
+            btnText.innerText = "Téléchargement des flux...";
 
             try {
-                // 1. Récupération du fichier global mis à jour par Python
-                const response = await fetch(JSON_URL);
-                if (!response.ok) throw new Error("Impossible de récupérer les fichiers de production.");
+                // 1. Récupération directe depuis GitHub Raw (Évite les blocages IONOS)
+                const response = await fetch(GITHUB_JSON_URL);
+                if (!response.ok) throw new Error("Serveur de données distant indisponible.");
                 
                 const dataGlobal = await response.json();
                 
-                // 2. Filtrage strict : On cherche si le code magasin existe dans la base globale
+                // 2. Filtrage cloisonné : l'opticien accède uniquement à sa clé "CustNumb"
                 if (dataGlobal && dataGlobal[usernameInput]) {
-                    // Le magasin existe ! On extrait uniquement ses données
                     const storeObj = dataGlobal[usernameInput];
                     
                     currentStoreData = {
@@ -222,25 +221,24 @@
                         ]
                     };
 
-                    // 3. Basculement d'écran
+                    // 3. Changement d'écran d'affichage
                     document.getElementById('login-screen').classList.add('hidden');
                     document.getElementById('main-interface').classList.remove('hidden');
                     document.getElementById('store-badge').innerText = "Magasin : " + currentStoreData.storeName;
                     document.getElementById('welcome-store-name').innerText = currentStoreData.storeName;
 
-                    // 4. Rendu visuel propre à l'opticien connecté
+                    // 4. Génération de l'encours du client connecté
                     renderVerres();
                     renderMontures();
                     renderDocs();
                     lucide.createIcons();
                 } else {
-                    // Identifiant absent du JSON
-                    errorEl.innerText = "Identifiant magasin inconnu ou pas de commande en cours.";
+                    errorEl.innerText = "Identifiant magasin incorrect ou aucune commande en cours.";
                     errorEl.classList.remove('hidden');
                 }
             } catch (error) {
                 console.error(error);
-                errorEl.innerText = "Erreur réseau. Impossible de joindre le serveur de synchronisation.";
+                errorEl.innerText = "Erreur réseau : Impossible de synchroniser les flux avec GitHub.";
                 errorEl.classList.remove('hidden');
             } finally {
                 loginBtn.disabled = false;
@@ -274,7 +272,7 @@
             const search = document.getElementById('search-verres').value.toLowerCase();
 
             currentStoreData.verres.forEach(v => {
-                // Recherche croisée par nom de patient ou n° commande
+                // Filtre de recherche dynamique par patient ou numéro de commande
                 if(search && !v.patient.toLowerCase().includes(search) && !v.id_commande.toLowerCase().includes(search)) return;
                 
                 tbody.innerHTML += `
