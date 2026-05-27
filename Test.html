@@ -18,9 +18,9 @@
 </head>
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
-    <!-- 1. ÉCRAN DE CONNEXION -->
+    <!-- 1. ÉCRAN DE CONNEXION (Style Verre Dépoli Apple) -->
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
-        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8">
+        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8 transition-all duration-500">
             <div class="flex flex-col items-center mb-10">
                 <div class="bg-[#0066cc]/10 text-[#0066cc] p-3.5 rounded-2xl mb-4">
                     <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
@@ -31,12 +31,12 @@
             
             <form onsubmit="handleLogin(event)" class="space-y-6">
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2">Identifiant Magasin</label>
+                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Identifiant Magasin</label>
                     <input type="text" id="username" required placeholder="ex: lyon04" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2">Mot de passe</label>
+                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Mot de passe</label>
                     <input type="password" id="password" required placeholder="••••••••" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                 </div>
@@ -44,19 +44,22 @@
                     Se connecter <i data-lucide="chevron-right" class="w-4 h-4"></i>
                 </button>
             </form>
+            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium">Identifiants incorrects.</p>
         </div>
     </div>
 
     <!-- 2. INTERFACE PRINCIPALE -->
     <div id="main-interface" class="hidden">
+        <!-- Barre de navigation Apple (Fixe et épurée) -->
         <nav class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
-            <div class="max-w-7xl mx-auto px-6">
+            <div class="max-w-6xl mx-auto px-6">
                 <div class="flex justify-between h-14 items-center">
                     <div class="flex items-center gap-3">
                         <span class="font-semibold text-base tracking-tight">V2I Optique</span>
                         <span id="store-badge" class="bg-[#f5f5f7] text-[#86868b] text-xs px-2.5 py-1 rounded-full font-medium border border-[#e8e8ed]">Magasin : ---</span>
                     </div>
                     
+                    <!-- Les 4 Onglets demandés toujours visibles -->
                     <div class="hidden md:flex items-center h-full space-x-1">
                         <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
@@ -71,405 +74,310 @@
                             <i data-lucide="file-text" class="w-4 h-4 stroke-[1.5]"></i> Documents
                         </button>
                     </div>
-                    <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] transition-colors text-xs font-medium cursor-pointer">Déconnexion</button>
+
+                    <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] transition-colors flex items-center gap-1.5 text-xs font-medium cursor-pointer">
+                        Déconnexion <i data-lucide="log-out" class="w-3.5 h-3.5"></i>
+                    </button>
                 </div>
             </div>
         </nav>
 
-        <div class="max-w-7xl mx-auto px-6 py-8">
-            <!-- ACCUEIL PAR DÉFAUT -->
-            <div id="content-welcome" class="space-y-10">
+        <!-- ZONE DE CONTENU -->
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            
+            <!-- ÉCRAN D'ACCUEIL PAR DÉFAUT (Esprit Apple : Sobre et Pro) -->
+            <div id="content-welcome" class="space-y-10 animate-fade-in">
                 <div class="max-w-2xl">
                     <h2 class="text-4xl font-semibold tracking-tight text-[#1d1d1f]">Bonjour, <span id="welcome-store-name">Magasin</span></h2>
-                    <p class="text-xl text-[#86868b] mt-2 font-normal">Accédez aux outils de précalibrage et surfaçage haute définition.</p>
+                    <p class="text-xl text-[#86868b] mt-2 font-normal leading-relaxed">Bienvenue sur votre espace de gestion haute précision. Sélectionnez un outil ci-dessus ou parcourez vos accès rapides.</p>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-                    <div onclick="switchTab('calcul')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer">
-                        <div class="w-10 h-10 bg-[#0066cc]/5 text-[#0066cc] rounded-xl flex items-center justify-center mb-4"><i data-lucide="layers" class="w-5 h-5"></i></div>
-                        <h3 class="font-semibold text-base mb-1">Calcul Verre Pro</h3>
-                        <p class="text-xs text-[#86868b]">Simulateur d'atelier aux normes boxing et géométrie ménisque.</p>
+
+                <!-- Grille d'accès rapides style Dashboard Apple -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div onclick="switchTab('verres')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#0066cc]/5 text-[#0066cc] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#0066cc] group-hover:text-white transition-all">
+                            <i data-lucide="activity" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Suivi Verres</h3>
+                        <p class="text-xs text-[#86868b]">Consultez l'état de fabrication de vos verres en temps réel.</p>
                     </div>
-                </div>
-                <div class="relative w-full h-[350px] rounded-3xl overflow-hidden border border-[#e8e8ed]">
-                    <img src="./port.jpg" alt="V2i Corse" class="w-full h-full object-cover">
+
+                    <div onclick="switchTab('calcul')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#5856d6]/5 text-[#5856d6] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#5856d6] group-hover:text-white transition-all">
+                            <i data-lucide="layers" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Calcul Verre</h3>
+                        <p class="text-xs text-[#86868b]">Simulateur technique d'épaisseur et de précalibrage.</p>
+                    </div>
+
+                    <div onclick="switchTab('monture')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#ff9500]/5 text-[#ff9500] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#ff9500] group-hover:text-white transition-all">
+                            <i data-lucide="glasses" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Catalogue Montures</h3>
+                        <p class="text-xs text-[#86868b]">Vérification instantanée des stocks labo et magasin.</p>
+                    </div>
+
+                    <div onclick="switchTab('documents')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
+                        <div class="w-10 h-10 bg-[#34c759]/5 text-[#34c759] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#34c759] group-hover:text-white transition-all">
+                            <i data-lucide="file-text" class="w-5 h-5 stroke-[1.5]"></i>
+                        </div>
+                        <h3 class="font-semibold text-base mb-1">Documents</h3>
+                        <p class="text-xs text-[#86868b]">Téléchargez vos Factures-X, tarifs et catalogues.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- ONGLET CALCUL INTERACTIF RECONSTRUIT -->
-            <div id="content-calcul" class="tab-content hidden space-y-6">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                    
-                    <!-- FORMULAIRE TECHNIQUE OPTICIEN -->
-                    <div class="lg:col-span-5 space-y-5 bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm">
+            <!-- CONTENU DE L'ONGLET 1 : SUIVI DE COMMANDE VERRES -->
+            <div id="content-verres" class="tab-content hidden space-y-6">
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-between bg-white p-4 rounded-2xl border border-[#e8e8ed]">
+                    <div class="relative w-full md:max-w-md">
+                        <i data-lucide="search" class="w-4 h-4 text-[#86868b] absolute left-3.5 top-3"></i>
+                        <input type="text" id="search-verres" oninput="renderVerres()" placeholder="Rechercher un patient ou un numéro de commande..." 
+                               class="w-full pl-10 pr-4 py-2 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm">
+                    <table class="w-full text-left border-collapse text-sm">
+                        <thead>
+                            <tr class="bg-[#f5f5f7] text-[#86868b] font-medium text-xs border-b border-[#e8e8ed]">
+                                <th class="px-6 py-3">Patient / Commande</th>
+                                <th class="px-6 py-3">Type de Verre</th>
+                                <th class="px-6 py-3">Statut de Fabrication</th>
+                                <th class="px-6 py-3 text-right">Document</th>
+                            </tr>
+                        </thead>
+                        <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- CONTENU DE L'ONGLET 2 : CALCUL VERRE -->
+            <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
+                <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-sm space-y-6">
+                    <div class="text-center">
+                        <h2 class="text-xl font-semibold tracking-tight">Calculateur d'Épaisseur Index</h2>
+                        <p class="text-sm text-[#86868b] mt-1">Outil d'atelier pour le précalibrage</p>
+                    </div>
+                    <div class="space-y-4">
                         <div>
-                            <h2 class="text-lg font-semibold tracking-tight">Configuration Labo V2i</h2>
-                            <p class="text-xs text-[#86868b]">Paramètres physiques de surfaçage.</p>
+                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
+                            <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
                         </div>
-
-                        <!-- Paramètres de base -->
-                        <div class="grid grid-cols-3 gap-3 border-t border-[#f5f5f7] pt-4">
-                            <div class="col-span-1">
-                                <label class="block text-[10px] font-bold text-[#86868b] uppercase mb-1">Forme</label>
-                                <select id="calc-shape" onchange="updateSimulation()" class="w-full px-2 py-1.5 bg-[#f5f5f7] rounded-xl text-xs outline-none">
-                                    <option value="rectangle">Rectangle</option>
-                                    <option value="panto">Panto</option>
-                                    <option value="ronde">Ronde</option>
-                                </select>
-                            </div>
-                            <div class="col-span-1">
-                                <label class="block text-[10px] font-bold text-[#86868b] uppercase mb-1">Indice</label>
-                                <select id="calc-index" onchange="updateSimulation()" class="w-full px-2 py-1.5 bg-[#f5f5f7] rounded-xl text-xs outline-none">
-                                    <option value="1.5">1.50</option>
-                                    <option value="1.6">1.60</option>
-                                    <option value="1.67" selected>1.67</option>
-                                    <option value="1.74">1.74</option>
-                                </select>
-                            </div>
-                            <div class="col-span-1">
-                                <label class="block text-[10px] font-bold text-[#86868b] uppercase mb-1">Base (Face AV)</label>
-                                <select id="calc-base" onchange="updateSimulation()" class="w-full px-2 py-1.5 bg-[#f5f5f7] rounded-xl text-xs outline-none">
-                                    <option value="2">Courbe 2.0</option>
-                                    <option value="4" selected>Courbe 4.0</option>
-                                    <option value="6">Courbe 6.0</option>
-                                    <option value="8">Courbe 8.0</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <!-- Calibre Monture Norme Boxing -->
-                        <div class="bg-[#f5f5f7] p-4 rounded-2xl space-y-2">
-                            <span class="text-[11px] font-bold text-[#1d1d1f] uppercase tracking-wider block">Dimensions Monture (Norme Boxing)</span>
-                            <div class="grid grid-cols-3 gap-3">
-                                <div>
-                                    <label class="block text-[10px] text-[#86868b] mb-1">Cote A (Largeur)</label>
-                                    <input type="number" id="cote-a" value="50" oninput="updateSimulation()" class="w-full px-2 py-1 bg-white border border-[#e8e8ed] rounded-lg text-xs text-center">
-                                </div>
-                                <div>
-                                    <label class="block text-[10px] text-[#86868b] mb-1">Cote B (Hauteur)</label>
-                                    <input type="number" id="cote-b" value="38" oninput="updateSimulation()" class="w-full px-2 py-1 bg-white border border-[#e8e8ed] rounded-lg text-xs text-center">
-                                </div>
-                                <div>
-                                    <label class="block text-[10px] text-[#86868b] mb-1">Pont (Nez)</label>
-                                    <input type="number" id="cote-nez" value="18" oninput="updateSimulation()" class="w-full px-2 py-1 bg-white border border-[#e8e8ed] rounded-lg text-xs text-center">
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Centrages Porteurs Dissociés -->
-                        <div class="border-t border-[#f5f5f7] pt-3 space-y-2">
-                            <span class="text-[11px] font-bold text-[#1d1d1f] uppercase tracking-wider block">Centrages Morphologiques (mm)</span>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="bg-[#0066cc]/5 p-3 rounded-xl border border-[#0066cc]/10">
-                                    <span class="text-xs font-semibold text-[#0066cc]">Œil Droit</span>
-                                    <div class="grid grid-cols-2 gap-2 mt-1">
-                                        <div><label class="text-[9px] text-[#86868b]">½ Écart</label><input type="number" id="ecart-od" value="32.5" step="0.5" oninput="updateSimulation()" class="w-full p-1 bg-white border rounded text-xs text-center"></div>
-                                        <div><label class="text-[9px] text-[#86868b]">Hauteur</label><input type="number" id="haut-od" value="22.0" step="0.5" oninput="updateSimulation()" class="w-full p-1 bg-white border rounded text-xs text-center"></div>
-                                    </div>
-                                </div>
-                                <div class="bg-[#5856d6]/5 p-3 rounded-xl border border-[#5856d6]/10">
-                                    <span class="text-xs font-semibold text-[#5856d6]">Œil Gauche</span>
-                                    <div class="grid grid-cols-2 gap-2 mt-1">
-                                        <div><label class="text-[9px] text-[#86868b]">½ Écart</label><input type="number" id="ecart-og" value="32.0" step="0.5" oninput="updateSimulation()" class="w-full p-1 bg-white border rounded text-xs text-center"></div>
-                                        <div><label class="text-[9px] text-[#86868b]">Hauteur</label><input type="number" id="haut-og" value="22.0" step="0.5" oninput="updateSimulation()" class="w-full p-1 bg-white border rounded text-xs text-center"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Puissances Ophtalmiques Sph / Cyl / Axe -->
-                        <div class="border-t border-[#f5f5f7] pt-3 space-y-2">
-                            <span class="text-[11px] font-bold text-[#1d1d1f] uppercase tracking-wider block">Réfraction Prescription</span>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="space-y-1.5 p-2 bg-gray-50 rounded-xl">
-                                    <span class="text-xs font-medium">Oeil Droit (OD)</span>
-                                    <div class="flex items-center justify-between text-xs"><span>Sph :</span><input type="number" id="sph-od" value="-4.00" step="0.25" oninput="updateSimulation()" class="w-14 p-0.5 bg-white border text-center font-mono"></div>
-                                    <div class="flex items-center justify-between text-xs"><span>Cyl :</span><input type="number" id="cyl-od" value="+1.00" step="0.25" oninput="updateSimulation()" class="w-14 p-0.5 bg-white border text-center font-mono"></div>
-                                    <div class="flex items-center justify-between text-xs"><span>Axe :</span><input type="number" id="axe-od" value="45" min="0" max="180" oninput="updateSimulation()" class="w-14 p-0.5 bg-white border text-center font-mono"></div>
-                                </div>
-                                <div class="space-y-1.5 p-2 bg-gray-50 rounded-xl">
-                                    <span class="text-xs font-medium">Oeil Gauche (OG)</span>
-                                    <div class="flex items-center justify-between text-xs"><span>Sph :</span><input type="number" id="sph-og" value="+2.00" step="0.25" oninput="updateSimulation()" class="w-14 p-0.5 bg-white border text-center font-mono"></div>
-                                    <div class="flex items-center justify-between text-xs"><span>Cyl :</span><input type="number" id="cyl-og" value="+0.50" step="0.25" oninput="updateSimulation()" class="w-14 p-0.5 bg-white border text-center font-mono"></div>
-                                    <div class="flex items-center justify-between text-xs"><span>Axe :</span><input type="number" id="axe-og" value="90" min="0" max="180" oninput="updateSimulation()" class="w-14 p-0.5 bg-white border text-center font-mono"></div>
-                                </div>
-                            </div>
+                        <div>
+                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Diamètre du verre (mm)</label>
+                            <input type="number" id="calc-diam" value="70" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
                         </div>
                     </div>
-
-                    <!-- VISUALISATION GRAPHIQUE INTERACTIVE -->
-                    <div class="lg:col-span-7 space-y-6">
-                        
-                        <!-- Bloc Face avec Switch d'oeil -->
-                        <div class="bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm">
-                            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-4">
-                                <div>
-                                    <h3 class="text-sm font-semibold">Analyse de Face & Centrage</h3>
-                                    <p class="text-xs text-[#86868b]">Survolez pour simuler le scan d'épaisseur angulaire.</p>
-                                </div>
-                                
-                                <!-- Sélecteur d'Oeil Actif -->
-                                <div class="inline-flex bg-[#f5f5f7] p-1 rounded-xl border border-[#e8e8ed]">
-                                    <button onclick="changeActiveEye('OD')" id="btn-eye-od" class="px-4 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer bg-white text-[#0066cc] shadow-sm">Œil Droit (OD)</button>
-                                    <button onclick="changeActiveEye('OG')" id="btn-eye-og" class="px-4 py-1.5 text-xs font-medium rounded-lg transition-all cursor-pointer text-[#86868b]">Œil Gauche (OG)</button>
-                                </div>
-                            </div>
-
-                            <div class="flex justify-center bg-[#f5f5f7] rounded-2xl p-4 relative group">
-                                <canvas id="lensCanvas" width="560" height="280" class="bg-white rounded-xl shadow-inner cursor-crosshair"></canvas>
-                            </div>
-                        </div>
-
-                        <!-- Bloc Profil Ménisque Dynamique -->
-                        <div class="bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm">
-                            <div class="flex justify-between items-center mb-4">
-                                <h3 class="text-sm font-semibold">Géométrie Réelle en Coupe (Ménisque Optique — Non biconcave)</h3>
-                                <div id="thickness-display-badge" class="bg-[#1d1d1f] text-white px-3 py-1 rounded-full text-xs font-mono">Épaisseur survolée : -- mm</div>
-                            </div>
-                            
-                            <div class="bg-[#f5f5f7] h-40 rounded-2xl flex items-center justify-center p-4">
-                                <canvas id="crossSectionCanvas" width="500" height="130"></canvas>
-                            </div>
-                            
-                            <div class="grid grid-cols-3 text-center text-xs mt-4 border-t border-[#f5f5f7] pt-4">
-                                <div><span class="text-[#86868b] block">Bord Externe (Temporal)</span><span class="font-mono font-bold text-base text-[#1d1d1f]" id="thick-edge-ext">-- mm</span></div>
-                                <div><span class="text-[#86868b] block">Centre Optique</span><span class="font-mono font-bold text-base text-[#0066cc]" id="thick-center">-- mm</span></div>
-                                <div><span class="text-[#86868b] block">Bord Interne (Nasal)</span><span class="font-mono font-bold text-base text-[#1d1d1f]" id="thick-edge-int">-- mm</span></div>
-                            </div>
-                        </div>
-
+                    <div class="bg-[#0066cc]/5 rounded-2xl p-6 text-center border border-[#0066cc]/10">
+                        <span class="text-xs font-semibold uppercase tracking-wider text-[#0066cc]">Épaisseur au bord estimée</span>
+                        <div class="text-4xl font-bold mt-1 text-[#1d1d1f]"><span id="calc-result">3.20</span> <span class="text-lg font-medium">mm</span></div>
                     </div>
                 </div>
             </div>
+
+            <!-- CONTENU DE L'ONGLET 3 : MONTURE -->
+            <div id="content-monture" class="tab-content hidden space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="montures-grid">
+                    <!-- Rempli en JS avec du Banana Eyewear -->
+                </div>
+            </div>
+
+            <!-- CONTENU DE L'ONGLET 4 : DOCUMENTS -->
+            <div id="content-documents" class="tab-content hidden max-w-3xl mx-auto space-y-4">
+                <div class="bg-white rounded-2xl border border-[#e8e8ed] p-6">
+                    <h2 class="text-base font-semibold mb-4">Vos Factures-X & Catalogues</h2>
+                    <div id="docs-list" class="space-y-3"></div>
+                </div>
+            </div>
+
         </div>
     </div>
 
     <script>
-        let activeEye = 'OD';
-        let cursorAngle = 0; // Angle calculé par rapport au centre de la pupille en fonction de la souris
+    // Variables globales pour stocker les données du magasin connecté
+    let storeData = null;
+    let allData = null;
 
-        function handleLogin(e) {
-            e.preventDefault();
-            document.getElementById('login-screen').classList.add('hidden');
-            document.getElementById('main-interface').classList.remove('hidden');
-            document.getElementById('store-badge').innerText = "Magasin : " + document.getElementById('username').value.toUpperCase();
-            document.getElementById('welcome-store-name').innerText = document.getElementById('username').value.toUpperCase();
-            setTimeout(() => { initCanvas(); updateSimulation(); }, 50);
-        }
+    // 1. FONCTION DE CONNEXION DYNAMIQUE
+    async function handleLogin(e) {
+        e.preventDefault();
+        const user = document.getElementById('username').value.trim().toLowerCase();
+        const pass = document.getElementById('password').value.trim();
+        const errorEl = document.getElementById('login-error');
+        
+        // URL de ton fichier JSON public/privé hébergé par GitHub Pages
+        const urlJson = "https://muller572b.github.io/v2i-portail/suivi_magasins.json";
 
-        function switchTab(tabId) {
-            document.getElementById('content-welcome').classList.add('hidden');
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-            document.getElementById('content-' + tabId).classList.remove('hidden');
-            if(tabId === 'calcul') setTimeout(() => updateSimulation(), 30);
-        }
+        try {
+            errorEl.classList.add('hidden');
+            
+            // On télécharge le fichier JSON complet depuis GitHub
+            const reponse = await fetch(urlJson);
+            if (!reponse.ok) throw new Error("Impossible de charger le fichier de suivi.");
+            
+            allData = await reponse.json();
 
-        function changeActiveEye(eye) {
-            activeEye = eye;
-            document.getElementById('btn-eye-od').className = eye === 'OD' ? "px-4 py-1.5 text-xs font-medium rounded-lg transition-all bg-white text-[#0066cc] shadow-sm" : "px-4 py-1.5 text-xs font-medium rounded-lg transition-all text-[#86868b]";
-            document.getElementById('btn-eye-og').className = eye === 'OG' ? "px-4 py-1.5 text-xs font-medium rounded-lg transition-all bg-white text-[#5856d6] shadow-sm" : "px-4 py-1.5 text-xs font-medium rounded-lg transition-all text-[#86868b]";
-            updateSimulation();
-        }
+            // On cherche si le magasin (ex: "16") existe dans le fichier JSON
+            if (allData && allData[user]) {
+                const magasinTrouve = allData[user];
 
-        function initCanvas() {
-            const canvas = document.getElementById('lensCanvas');
-            if(!canvas) return;
-            canvas.addEventListener('mousemove', (e) => {
-                const rect = canvas.getBoundingClientRect();
-                const mouseX = e.clientX - rect.left;
-                const mouseY = e.clientY - rect.top;
-                
-                // On détermine le centre de la pupille cible pour calculer l'angle du méridien survolé
-                const scale = 3.5;
-                const midX = canvas.width / 2;
-                const A = parseInt(document.getElementById('cote-a').value) || 50;
-                const nez = parseInt(document.getElementById('cote-nez').value) || 16;
-                const distInterCentresBoxe = (A + nez) * scale;
-                
-                const boxCenterX = activeEye === 'OD' ? midX + (distInterCentresBoxe / 2) : midX - (distInterCentresBoxe / 2);
-                const ecart = parseFloat(document.getElementById(activeEye === 'OD' ? 'ecart-od' : 'ecart-og').value) || 32;
-                const haut = parseFloat(document.getElementById(activeEye === 'OD' ? 'haut-od' : 'haut-og').value) || 20;
-                
-                const pupilX = activeEye === 'OD' ? boxCenterX - (A*scale/2) + (ecart - nez)*scale : boxCenterX + (A*scale/2) - (ecart - nez)*scale;
-                const pupilY = (canvas.height / 2) + (parseInt(document.getElementById('cote-b').value)/2 - haut)*scale;
+                // --- SÉCURITÉ MOT DE PASSE DE TEST ---
+                // Pour le test, on considère que le mot de passe est égal à l'identifiant (ex: ID: 16 / MDP: 16)
+                // Tu pourras ajouter un champ "password" dans ton JSON généré par Python plus tard !
+                if (pass !== user) {
+                    errorEl.innerText = "Mot de passe incorrect.";
+                    errorEl.classList.remove('hidden');
+                    return;
+                }
 
-                // Calcul de l'angle géométrique en radians par rapport à la pupille
-                cursorAngle = Math.atan2(mouseY - pupilY, mouseX - pupilX);
-                updateSimulation();
-            });
-        }
+                // Si tout est OK, on structure les données pour l'interface
+                storeData = {
+                    storeName: magasinTrouve.nom_magasin || user.toUpperCase(),
+                    verres: magasinTrouve.commandes_verres || [],
+                    montures: [
+                        { model: 'Café Brillant', ref: 'MR63C300', detail: 'Modèle Premium V2I', stock: 'Stock central : En cours', img: '0432891-MR63C300-Café Brillant.webp' }
+                    ],
+                    docs: magasinTrouve.documents || []
+                };
 
-        function updateSimulation() {
-            const canvas = document.getElementById('lensCanvas');
-            if(!canvas) return;
-            const ctx = canvas.getContext('2d');
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+                // Affichage de l'interface principale (Esprit Apple)
+                document.getElementById('login-screen').classList.add('hidden');
+                document.getElementById('main-interface').classList.remove('hidden');
+                document.getElementById('store-badge').innerText = "Magasin : " + storeData.storeName;
+                document.getElementById('welcome-store-name').innerText = storeData.storeName;
 
-            // Importation des valeurs
-            const shape = document.getElementById('calc-shape').value;
-            const index = parseFloat(document.getElementById('calc-index').value);
-            const baseAV = parseFloat(document.getElementById('calc-base').value);
-            const A = parseInt(document.getElementById('cote-a').value) || 50;
-            const B = parseInt(document.getElementById('cote-b').value) || 38;
-            const nez = parseInt(document.getElementById('cote-nez').value) || 18;
+                // Injection des données dans les tableaux
+                renderVerres();
+                renderMontures();
+                renderDocs();
+                lucide.createIcons();
 
-            const sph = parseFloat(document.getElementById(activeEye === 'OD' ? 'sph-od' : 'sph-og').value) || 0;
-            const cyl = parseFloat(document.getElementById(activeEye === 'OD' ? 'cyl-od' : 'cyl-og').value) || 0;
-            const axe = parseFloat(document.getElementById(activeEye === 'OD' ? 'axe-od' : 'axe-og').value) || 0;
-            const ecart = parseFloat(document.getElementById(activeEye === 'OD' ? 'ecart-od' : 'ecart-og').value) || 32;
-            const haut = parseFloat(document.getElementById(activeEye === 'OD' ? 'haut-od' : 'haut-og').value) || 20;
-
-            const scale = 3.5;
-            const midX = canvas.width / 2;
-            const centerY = canvas.height / 2;
-            const distInterCentresBoxe = (A + nez) * scale;
-
-            // Coordonnées des boîtes Boxing
-            const boxRightCenterX = midX + (distInterCentresBoxe / 2);
-            const boxLeftCenterX = midX - (distInterCentresBoxe / 2);
-
-            // Dessin des deux yeux (Monture complète pour repère visuel)
-            ctx.lineWidth = 1.5;
-            ctx.strokeStyle = '#e8e8ed';
-            function drawBox(centerX) {
-                ctx.fillStyle = '#ffffff';
-                ctx.beginPath();
-                if(shape === 'rectangle') ctx.roundRect(centerX - (A*scale/2), centerY - (B*scale/2), A*scale, B*scale, 8);
-                else if(shape === 'panto') ctx.roundRect(centerX - (A*scale/2), centerY - (B*scale/2), A*scale, B*scale, B*scale/1.6);
-                else ctx.arc(centerX, centerY, (A*scale/2), 0, Math.PI*2);
-                ctx.fill(); ctx.stroke();
-            }
-            drawBox(boxLeftCenterX);
-            drawBox(boxRightCenterX);
-
-            // Détermination de la pupille de l'œil sélectionné
-            const activeBoxCenterX = activeEye === 'OD' ? boxRightCenterX : boxLeftCenterX;
-            // Calcul du décentrement anatomique norme Boxing
-            const pupilX = activeEye === 'OD' ? activeBoxCenterX - (A*scale/2) + (ecart - nez)*scale : activeBoxCenterX + (A*scale/2) - (ecart - nez)*scale;
-            const pupilY = centerY + (B/2 - haut)*scale;
-
-            // Affichage de l'œil actif par surbrillance verte
-            ctx.strokeStyle = activeEye === 'OD' ? '#0066cc' : '#5856d6';
-            ctx.lineWidth = 2;
-            if(shape === 'rectangle') ctx.roundRect(activeBoxCenterX - (A*scale/2), centerY - (B*scale/2), A*scale, B*scale, 8);
-            else if(shape === 'panto') ctx.roundRect(activeBoxCenterX - (A*scale/2), centerY - (B*scale/2), A*scale, B*scale, B*scale/1.6);
-            else ctx.arc(activeBoxCenterX, centerY, (A*scale/2), 0, Math.PI*2);
-            ctx.stroke();
-
-            // Dessin de la croix de centrage rouge
-            ctx.strokeStyle = '#ff3b30';
-            ctx.lineWidth = 1.5;
-            ctx.beginPath();
-            ctx.moveTo(pupilX - 8, pupilY); ctx.lineTo(pupilX + 8, pupilY);
-            ctx.moveTo(pupilX, pupilY - 8); ctx.lineTo(pupilX, pupilY + 8);
-            ctx.stroke();
-
-            // --- ENGINE OPTIQUE PHYSIQUE POUR LE PRÉCALIBRAGE ET SURFAÇAGE ---
-            // Loi de section des puissances selon le méridien survolé (Formule de calcul d'astigmatisme oblique)
-            const angleDeg = (cursorAngle * 180 / Math.PI) - axe;
-            const puissanceDuMeridien = sph + cyl * Math.pow(Math.sin(angleDeg * Math.PI / 180), 2);
-
-            // Recherche du rayon critique maximal pour calculer le diamètre de palet brut minimal nécessaire
-            const distMaxBord = Math.max(A/2 + Math.abs(ecart - (A+nez)/2), B/2 + Math.abs(haut - B/2));
-            const diametreMinimalPalet = Math.ceil(distMaxBord * 2) + 2;
-
-            // Dessin du contour du palet circulaire nécessaire
-            ctx.strokeStyle = 'rgba(0, 102, 204, 0.25)';
-            ctx.lineWidth = 1;
-            ctx.setLineDash([4, 4]);
-            ctx.beginPath();
-            ctx.arc(pupilX, pupilY, (diametreMinimalPalet*scale)/2, 0, Math.PI*2);
-            ctx.stroke();
-            ctx.setLineDash([]);
-
-            // --- CALCULS DES ÉPAISSEURS REELLES AUX EXTRÊMES (MÉNISQUE CONCAVE/CONVEXE) ---
-            let eCentre = 1.5; // Valeur pivot par défaut
-            let eBordNasal = 1.2;
-            let eBordTemporal = 1.2;
-
-            const facteurIndex = 0.012 * (1.67 / index);
-
-            if (puissanceDuMeridien < 0) {
-                // CAS CONCAVE (Myopie) : Le centre est aminci au minimum de la norme mécanique (1.2 mm)
-                eCentre = 1.2;
-                eBordNasal = eCentre + Math.abs(puissanceDuMeridien) * facteurIndex * Math.pow(nez, 1.6);
-                eBordTemporal = eCentre + Math.abs(puissanceDuMeridien) * facteurIndex * Math.pow(A - nez, 1.6);
             } else {
-                // CAS CONVEXE (Hypermétropie) : Le bord critique doit respecter le minimum labo de 1.0 mm
-                // On applique un algorithme de précalibrage d'atelier
-                const distCritique = Math.max(nez, A - nez);
-                eCentre = 1.0 + (puissanceDuMeridien * facteurIndex * Math.pow(distCritique, 1.6));
-                eBordNasal = Math.max(1.0, eCentre - (puissanceDuMeridien * facteurIndex * Math.pow(nez, 1.6)));
-                eBordTemporal = Math.max(1.0, eCentre - (puissanceDuMeridien * facteurIndex * Math.pow(A - nez, 1.6)));
+                errorEl.innerText = "Identifiant magasin inconnu.";
+                errorEl.classList.remove('hidden');
             }
 
-            // Épaisseur survolée en direct sous le pointeur souris
-            const distanceSourisPupille = 25; // Constante moyenne simulée
-            let eLive = puissanceDuMeridien < 0 ? eCentre + Math.abs(puissanceDuMeridien)*facteurIndex*Math.pow(distanceSourisPupille, 1.4) : Math.max(1.0, eCentre - puissanceDuMeridien*facteurIndex*Math.pow(distanceSourisPupille, 1.4));
-            if(eLive < 1.0) eLive = 1.0;
+        } catch (erreur) {
+            console.error(erreur);
+            errorEl.innerText = "Erreur réseau ou fichier inaccessible.";
+            errorEl.classList.remove('hidden');
+        }
+    }
 
-            document.getElementById('thickness-display-badge').innerText = `Épaisseur méridien survolé : ${eLive.toFixed(2)} mm`;
-            document.getElementById('thick-center').innerText = eCentre.toFixed(2) + " mm";
-            document.getElementById('thick-edge-ext').innerText = eBordTemporal.toFixed(2) + " mm";
-            document.getElementById('thick-edge-int').innerText = eBordNasal.toFixed(2) + " mm";
+    // 2. INJECTION DES VERRES (Dynamique avec recherche)
+    function renderVerres() {
+        const tbody = document.getElementById('verres-table-body');
+        tbody.innerHTML = '';
+        const search = document.getElementById('search-verres').value.toLowerCase();
 
-            // Ligne de balayage dynamique sur le canvas de face
-            ctx.strokeStyle = 'rgba(255, 59, 48, 0.3)';
-            ctx.lineWidth = 1.5;
-            ctx.beginPath();
-            ctx.moveTo(pupilX, pupilY);
-            ctx.lineTo(pupilX + (diametreMinimalPalet*scale/2)*Math.cos(cursorAngle), pupilY + (diametreMinimalPalet*scale/2)*Math.sin(cursorAngle));
-            ctx.stroke();
-
-            // Dessin de la vue en coupe ménisque
-            drawMeniscusProfile(baseAV, puissanceDuMeridien, eCentre, eBordTemporal, eBordNasal);
+        if (!storeData || !storeData.verres.length) {
+            tbody.innerHTML = `<tr><td colspan="4" class="px-6 py-10 text-center text-[#86868b]">Aucune commande de verres en cours.</td></tr>`;
+            return;
         }
 
-        function drawMeniscusProfile(base, puissance, epCentre, epTemp, epNasal) {
-            const canvas = document.getElementById('crossSectionCanvas');
-            if(!canvas) return;
-            const ctx = canvas.getContext('2d');
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-            const w = canvas.width;
-            const h = canvas.height;
-            const midY = h / 2 - 10;
-
-            // Modélisation des flèches de courbures (Sagitta) selon la base avant demandée (0.5 à 10)
-            const flècheAvant = (base * 4); // Amplification graphique pour le rendu écran
-            const flècheArrière = flècheAvant - (puissance * 3.5);
-
-            ctx.fillStyle = 'rgba(0, 102, 204, 0.12)';
-            ctx.strokeStyle = '#0066cc';
-            ctx.lineWidth = 2.5;
-
-            ctx.beginPath();
+        storeData.verres.forEach(v => {
+            // Système de recherche par nom de patient ou numéro de commande
+            if(search && !v.patient.toLowerCase().includes(search) && !v.id_commande.toLowerCase().includes(search)) return;
             
-            // 1. TRACÉ FACE AVANT : Courbe unique ménisque convexe vers l'avant (Pas de biconvexe)
-            ctx.moveTo(40, midY - flècheAvant);
-            ctx.quadraticCurveTo(w/2, midY - flècheAvant - 20, w - 40, midY - flècheAvant);
-            
-            // 2. BORD TEMPORAL (EXTERNE)
-            ctx.lineTo(w - 40, midY - flècheAvant + (epTemp * 6));
-            
-            // 3. TRACÉ FACE ARRIÈRE : Suit la face avant en ménisque (Parallèle si plan, creusée si concave)
-            ctx.quadraticCurveTo(w/2, midY - flècheArrière - 20 + (epCentre * 6), 40, midY - flècheAvant + (epNasal * 6));
-            
-            // 4. BORD NASAL (INTERNE)
-            ctx.closePath();
-            ctx.fill();
-            ctx.stroke();
+            // On gère les couleurs par défaut si elles ne sont pas fournies par Lensware
+            const BadgeCouleur = v.style_couleur || "text-blue-600 bg-blue-50 border-blue-100";
 
-            // Axe optique de centrage vertical
-            ctx.setLineDash([2, 3]);
-            ctx.strokeStyle = 'rgba(255, 38, 0, 0.4)';
-            ctx.beginPath(); ctx.moveTo(w/2, 5); ctx.lineTo(w/2, h - 5); ctx.stroke();
-            ctx.setLineDash([]);
+            tbody.innerHTML += `
+                <tr class="hover:bg-[#f5f5f7]/50 transition-colors">
+                    <td class="px-6 py-4">
+                        <div class="font-medium text-[#1d1d1f]">${v.patient}</div>
+                        <div class="text-xs text-[#86868b]">${v.id_commande}</div>
+                    </td>
+                    <td class="px-6 py-4 text-[#86868b] font-normal max-w-xs truncate">${v.detail}</td>
+                    <td class="px-6 py-4">
+                        <span class="px-2.5 py-1 text-xs font-medium rounded-full border ${BadgeCouleur}">${v.statut}</span>
+                    </td>
+                    <td class="px-6 py-4 text-right">
+                        <button class="text-[#0066cc] hover:underline text-xs font-medium cursor-pointer">Factur-X (PDF)</button>
+                    </td>
+                </tr>
+            `;
+        });
+    }
+
+    // 3. INJECTION DES MONTURES
+    function renderMontures() {
+        const grid = document.getElementById('montures-grid');
+        grid.innerHTML = '';
+        storeData.montures.forEach(m => {
+            grid.innerHTML += `
+                <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm hover:shadow-md transition-all">
+                    <div class="w-full h-44 bg-gray-100 flex items-center justify-center border-b border-[#e8e8ed]">
+                        <span class="text-xs text-gray-400">Photo : ${m.model}</span>
+                    </div>
+                    <div class="p-5 space-y-2">
+                        <div>
+                            <h4 class="font-semibold text-base">${m.model}</h4>
+                            <p class="text-xs text-[#86868b]">${m.ref} • ${m.detail}</p>
+                        </div>
+                        <div class="text-xs bg-[#f5f5f7] p-2 rounded-lg text-[#1d1d1f] font-medium">${m.stock}</div>
+                    </div>
+                </div>
+            `;
+        });
+    }
+
+    // 4. INJECTION DES DOCUMENTS (Factures-X du magasin)
+    function renderDocs() {
+        const container = document.getElementById('docs-list');
+        container.innerHTML = '';
+        
+        if (!storeData || !storeData.docs.length) {
+            container.innerHTML = `<p class="text-sm text-[#86868b] text-center py-4">Aucun document comptable disponible pour ce magasin.</p>`;
+            return;
         }
 
-        function logout() {
-            document.getElementById('main-interface').classList.add('hidden');
-            document.getElementById('login-screen').classList.remove('hidden');
-        }
-    </script>
+        storeData.docs.forEach(d => {
+            container.innerHTML += `
+                <div class="flex items-center justify-between p-3 bg-[#f5f5f7] rounded-xl border border-transparent hover:border-[#e8e8ed] transition-all">
+                    <div class="flex items-center gap-3">
+                        <i data-lucide="file" class="w-4 h-4 text-[#86868b]"></i>
+                        <div>
+                            <p class="text-sm font-medium">${d.nom_fichier}</p>
+                            <p class="text-xs text-[#86868b]">${d.type} • ${d.taille}</p>
+                        </div>
+                    </div>
+                    <button class="text-[#0066cc] hover:text-[#0055bb] text-sm"><i data-lucide="download" class="w-4 h-4"></i></button>
+                </div>
+            `;
+        });
+    }
+
+    // 5. NAVIGUER ENTRE LES ONGLETS
+    function switchTab(tabId) {
+        document.getElementById('content-welcome').classList.add('hidden');
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
+        });
+
+        document.getElementById('content-' + tabId).classList.remove('hidden');
+        document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-bullet-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+    }
+
+    // 6. CALCULATEUR D'ÉPAISSEUR
+    function runCalculation() {
+        const sphere = Math.abs(parseFloat(document.getElementById('calc-sphere').value)) || 0;
+        const diam = parseFloat(document.getElementById('calc-diam').value) || 0;
+        const result = 1.5 + (sphere * (diam / 100)); 
+        document.getElementById('calc-result').innerText = result.toFixed(2);
+    }
+
+    // 7. DÉCONNEXION
+    function logout() {
+        document.getElementById('main-interface').classList.add('hidden');
+        document.getElementById('login-screen').classList.remove('hidden');
+        document.getElementById('content-welcome').classList.remove('hidden');
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        storeData = null;
+    }
+</script>
 </body>
 </html>
