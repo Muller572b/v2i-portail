@@ -507,4 +507,68 @@
             document.getElementById('og-axe').innerText = cmd.oeil_gauche.axe || '0';
             document.getElementById('og-add').innerText = cmd.oeil_gauche.addition || '0.00';
             document.getElementById('og-p1').innerText = cmd.oeil_gauche.prisme_1 || '0.0';
-            document.getElementById('og-b1').innerText = cmd.oeil_gauche.base_
+            document.getElementById('og-b1').innerText = cmd.oeil_gauche.base_1 || '0';
+            document.getElementById('og-p2').innerText = cmd.oeil_gauche.prisme_2 || cmd.oeil_gauche.prism2 || '0.0';
+            document.getElementById('og-b2').innerText = cmd.oeil_gauche.base_2 || cmd.oeil_gauche.prbase2 || '0';
+            document.getElementById('og-dia').innerText = cmd.oeil_gauche.diametre || cmd.oeil_gauche.diam1 || '—';
+            
+            document.getElementById('morpho-og-ecart').innerText = cmd.oeil_gauche.ecart_pupillaire ? cmd.oeil_gauche.ecart_pupillaire + " mm" : "—";
+            document.getElementById('morpho-og-haut').innerText = cmd.oeil_gauche.hauteur ? cmd.oeil_gauche.hauteur + " mm" : "—";
+        } else {
+            document.getElementById('panel-og-row').style.display = 'none';
+            document.getElementById('morpho-og-ecart').innerText = "—";
+            document.getElementById('morpho-og-haut').innerText = "—";
+        }
+
+        const containerSupps = document.getElementById('panel-supplements');
+        containerSupps.innerHTML = '';
+        const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
+        const uniques = [...new Set(allSupps)];
+
+        if (uniques.length > 0) {
+            uniques.forEach(s => {
+                containerSupps.innerHTML += `<span class="bg-[#f5f5f7] text-[#1d1d1f] border border-[#e8e8ed] px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
+            });
+        } else {
+            containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
+        }
+
+        document.getElementById('side-panel').classList.remove('hidden');
+        lucide.createIcons();
+    }
+
+    function closeSidePanel() {
+        document.getElementById('side-panel').classList.add('hidden');
+    }
+
+    function switchTab(tabId) {
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
+        });
+        document.getElementById('content-' + tabId).classList.remove('hidden');
+        document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+    }
+
+    function runCalculation() {
+        const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
+        const baseThickness = 2.0;
+        const calculated = (Math.abs(sph) * 0.3) + baseThickness;
+        document.getElementById('calc-result').innerText = calculated.toFixed(2);
+    }
+
+    function logout() {
+        window.removeEventListener('scroll', handleScrollLoad);
+        document.getElementById('main-interface').classList.add('hidden');
+        document.getElementById('login-screen').classList.remove('hidden');
+        currentStoreId = null;
+        storeEncours = [];
+        storeArchives = [];
+        loadedYears = [];
+        autoArchivesIncluded = false;
+    }
+    
+    lucide.createIcons();
+    </script>
+</body>
+</html>
