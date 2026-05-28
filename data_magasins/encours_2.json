@@ -1,0 +1,130 @@
+{
+  "infos_magasin": {
+    "code_client": "         2",
+    "code_cosium": "A36",
+    "nom": "Optique Balbi Ajaccio 36 (A36)",
+    "siret": "33860288100033",
+    "adresse": "36 Cours Napoléon",
+    "adresse2": "",
+    "code_postal": "20000",
+    "email": "a36@balbi.fr",
+    "mot_de_passe_portail": "a36"
+  },
+  "derniere_mise_a_jour": "28/05/2026 16:11",
+  "commandes_en_cours": [
+    {
+      "ord_numb": "            10159563",
+      "id_commande_v2i": "260528000079",
+      "code_cote": "B",
+      "patient": "NEUGEBAUER MARIE",
+      "job_cosium": "J123013535",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: NEUGEBAUER MARIE / J123013535 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Dans les temps (J-5)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159479",
+      "id_commande_v2i": "260527000201",
+      "code_cote": "B",
+      "patient": "DE MARI BLANCHE",
+      "job_cosium": "J123013534",
+      "date_entree": "27/05/2026",
+      "detail": "Réf: DE MARI BLANCHE / J123013534 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Dans les temps (J-12)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "21.0",
+        "supplements": [
+          "Delta Confort2 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "Delta Confort2 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    }
+  ]
+}
