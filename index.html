@@ -4,74 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V2I Portail - Espace Opticien</title>
-    <!-- Tailwind CSS Moderne -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- Icônes ultra-fines Lucide -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        body { 
-            font-family: 'Inter', sans-serif; 
-            letter-spacing: -0.01em;
-        }
+        body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
     </style>
 </head>
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
-    <!-- 1. ÉCRAN DE CONNEXION (Style Verre Dépoli Apple) -->
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
-        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8 transition-all duration-500">
+        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8 transition-all">
             <div class="flex flex-col items-center mb-10">
                 <div class="bg-[#0066cc]/10 text-[#0066cc] p-3.5 rounded-2xl mb-4">
                     <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
                 </div>
-                <h1 class="text-2xl font-semibold tracking-tight text-[#1d1d1f]">Portail Partenaires V2I</h1>
-                <p class="text-sm text-[#86868b] mt-1.5">Connectez-vous à votre espace optique</p>
+                <h1 class="text-2xl font-semibold tracking-tight">Portail Partenaires V2I</h1>
+                <p class="text-sm text-[#86868b] mt-1.5">Connectez-vous avec vos codes labo</p>
             </div>
             
-            <form onsubmit="handleLogin(event)" class="space-y-6">
+            <form onsubmit="handleLogin(event)" class="space-y-5">
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Identifiant Magasin</label>
-                    <input type="text" id="username" required placeholder="ex: lyon04" 
-                           class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
+                    <label class="block text-xs font-medium text-[#86868b] mb-2">Identifiant (N° Client)</label>
+                    <input type="text" id="username" required placeholder="ex: 12" 
+                           class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm font-mono">
                 </div>
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2 tracking-normal">Mot de passe</label>
-                    <input type="password" id="password" required placeholder="••••••••" 
-                           class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
+                    <label class="block text-xs font-medium text-[#86868b] mb-2">Mot de passe (Code Cosium)</label>
+                    <input type="password" id="password" required placeholder="ex: AOS" 
+                           class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm font-mono uppercase tracking-widest">
                 </div>
                 <button type="submit" class="w-full bg-[#0066cc] text-white font-medium py-3 rounded-xl hover:bg-[#0077ed] active:scale-[0.99] transition-all flex items-center justify-center gap-2 cursor-pointer text-sm shadow-sm">
                     Se connecter <i data-lucide="chevron-right" class="w-4 h-4"></i>
                 </button>
             </form>
-            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium">Identifiants incorrects.</p>
+            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium"></p>
         </div>
     </div>
 
-    <!-- 2. INTERFACE PRINCIPALE -->
     <div id="main-interface" class="hidden">
-        <!-- Barre de navigation Apple (Fixe et épurée) -->
         <nav class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
-            <div class="max-w-6xl mx-auto px-6">
+            <div class="max-w-7xl mx-auto px-6">
                 <div class="flex justify-between h-14 items-center">
                     <div class="flex items-center gap-3">
                         <span class="font-semibold text-base tracking-tight">V2I Optique</span>
                         <span id="store-badge" class="bg-[#f5f5f7] text-[#86868b] text-xs px-2.5 py-1 rounded-full font-medium border border-[#e8e8ed]">Magasin : ---</span>
                     </div>
                     
-                    <!-- Les 4 Onglets demandés toujours visibles -->
                     <div class="hidden md:flex items-center h-full space-x-1">
                         <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
                         </button>
                         <button onclick="switchTab('calcul')" id="tab-calcul" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="layers" class="w-4 h-4 stroke-[1.5]"></i> Calcul Verre
-                        </button>
-                        <button onclick="switchTab('monture')" id="tab-monture" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                            <i data-lucide="glasses" class="w-4 h-4 stroke-[1.5]"></i> Monture
-                        </button>
-                        <button onclick="switchTab('documents')" id="tab-documents" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                            <i data-lucide="file-text" class="w-4 h-4 stroke-[1.5]"></i> Documents
                         </button>
                     </div>
 
@@ -82,249 +67,357 @@
             </div>
         </nav>
 
-        <!-- ZONE DE CONTENU -->
-        <div class="max-w-6xl mx-auto px-6 py-10">
+        <div class="max-w-7xl mx-auto px-6 py-10">
             
-            <!-- ÉCRAN D'ACCUEIL PAR DÉFAUT (Esprit Apple : Sobre et Pro) -->
-            <div id="content-welcome" class="space-y-10 animate-fade-in">
-                <div class="max-w-2xl">
-                    <h2 class="text-4xl font-semibold tracking-tight text-[#1d1d1f]">Bonjour, <span id="welcome-store-name">Magasin</span></h2>
-                    <p class="text-xl text-[#86868b] mt-2 font-normal leading-relaxed">Bienvenue sur votre espace de gestion haute précision. Sélectionnez un outil ci-dessus ou parcourez vos accès rapides.</p>
+            <div id="content-verres" class="tab-content space-y-6">
+                
+                <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm flex flex-col md:flex-row gap-4 justify-between items-center">
+                    <div class="relative w-full md:flex-1">
+                        <i data-lucide="search" class="w-5 h-5 text-[#86868b] absolute left-4 top-3.5"></i>
+                        <input type="text" id="search-verres" oninput="renderVerres()" 
+                               placeholder="Recherche multicritères (Nom, N° de BL, Job Cosium, Date...)" 
+                               class="w-full pl-12 pr-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
+                    </div>
+                    
+                    <button id="btn-toggle-archive" onclick="toggleArchives()" class="w-full md:w-auto bg-[#f5f5f7] hover:bg-gray-200 text-[#1d1d1f] border border-gray-200 text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer">
+                        <i data-lucide="archive" class="w-4 h-4"></i> Inclure les archives de l'année
+                    </button>
                 </div>
 
-                <!-- Grille d'accès rapides style Dashboard Apple -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div onclick="switchTab('verres')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
-                        <div class="w-10 h-10 bg-[#0066cc]/5 text-[#0066cc] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#0066cc] group-hover:text-white transition-all">
-                            <i data-lucide="activity" class="w-5 h-5 stroke-[1.5]"></i>
-                        </div>
-                        <h3 class="font-semibold text-base mb-1">Suivi Verres</h3>
-                        <p class="text-xs text-[#86868b]">Consultez l'état de fabrication de vos verres en temps réel.</p>
-                    </div>
-
-                    <div onclick="switchTab('calcul')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
-                        <div class="w-10 h-10 bg-[#5856d6]/5 text-[#5856d6] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#5856d6] group-hover:text-white transition-all">
-                            <i data-lucide="layers" class="w-5 h-5 stroke-[1.5]"></i>
-                        </div>
-                        <h3 class="font-semibold text-base mb-1">Calcul Verre</h3>
-                        <p class="text-xs text-[#86868b]">Simulateur technique d'épaisseur et de précalibrage.</p>
-                    </div>
-
-                    <div onclick="switchTab('monture')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
-                        <div class="w-10 h-10 bg-[#ff9500]/5 text-[#ff9500] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#ff9500] group-hover:text-white transition-all">
-                            <i data-lucide="glasses" class="w-5 h-5 stroke-[1.5]"></i>
-                        </div>
-                        <h3 class="font-semibold text-base mb-1">Catalogue Montures</h3>
-                        <p class="text-xs text-[#86868b]">Vérification instantanée des stocks labo et magasin.</p>
-                    </div>
-
-                    <div onclick="switchTab('documents')" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all cursor-pointer group">
-                        <div class="w-10 h-10 bg-[#34c759]/5 text-[#34c759] rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#34c759] group-hover:text-white transition-all">
-                            <i data-lucide="file-text" class="w-5 h-5 stroke-[1.5]"></i>
-                        </div>
-                        <h3 class="font-semibold text-base mb-1">Documents</h3>
-                        <p class="text-xs text-[#86868b]">Téléchargez vos Factures-X, tarifs et catalogues.</p>
+                <div id="archive-status-banner" class="hidden text-xs bg-blue-50 border border-blue-100 text-blue-700 px-4 py-2.5 rounded-xl flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="info" class="w-4 h-4"></i>
+                        <span id="archive-status-text">Archives de l'année en cours chargées avec succès.</span>
                     </div>
                 </div>
-            </div>
 
-            <!-- CONTENU DE L'ONGLET 1 : SUIVI DE COMMANDE VERRES -->
-            <div id="content-verres" class="tab-content hidden space-y-6">
-                <div class="flex flex-col md:flex-row gap-4 items-center justify-between bg-white p-4 rounded-2xl border border-[#e8e8ed]">
-                    <div class="relative w-full md:max-w-md">
-                        <i data-lucide="search" class="w-4 h-4 text-[#86868b] absolute left-3.5 top-3"></i>
-                        <input type="text" id="search-verres" oninput="renderVerres()" placeholder="Rechercher un patient ou un numéro de commande..." 
-                               class="w-full pl-10 pr-4 py-2 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
-                    </div>
-                </div>
                 <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm">
-                    <table class="w-full text-left border-collapse text-sm">
-                        <thead>
-                            <tr class="bg-[#f5f5f7] text-[#86868b] font-medium text-xs border-b border-[#e8e8ed]">
-                                <th class="px-6 py-3">Patient / Commande</th>
-                                <th class="px-6 py-3">Type de Verre</th>
-                                <th class="px-6 py-3">Statut de Fabrication</th>
-                                <th class="px-6 py-3 text-right">Document</th>
-                            </tr>
-                        </thead>
-                        <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
-                    </table>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse text-sm">
+                            <thead>
+                                <tr class="bg-[#f5f5f7] text-[#86868b] font-semibold text-xs border-b border-[#e8e8ed] tracking-wider font-mono">
+                                    <th class="px-6 py-4">Type</th>
+                                    <th class="px-6 py-4">Référence (Patient)</th>
+                                    <th class="px-6 py-4">Type de Verre</th>
+                                    <th class="px-6 py-4">Date/Heure de Saisie</th>
+                                    <th class="px-6 py-4">Statut Fournisseur</th>
+                                    <th class="px-6 py-4">Date du statut</th>
+                                    <th class="px-6 py-4 font-sans">N° Cde (BL)</th>
+                                    <th class="px-6 py-4 text-center w-20">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <!-- CONTENU DE L'ONGLET 2 : CALCUL VERRE -->
             <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
                 <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-sm space-y-6">
-                    <div class="text-center">
-                        <h2 class="text-xl font-semibold tracking-tight">Calculateur d'Épaisseur Index</h2>
-                        <p class="text-sm text-[#86868b] mt-1">Outil d'atelier pour le précalibrage</p>
-                    </div>
+                    <h2 class="text-xl font-semibold text-center">Calculateur d'Épaisseur Index</h2>
                     <div class="space-y-4">
                         <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
-                            <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
-                        </div>
-                        <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Diamètre du verre (mm)</label>
-                            <input type="number" id="calc-diam" value="70" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all">
+                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique</label>
+                            <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc]">
                         </div>
                     </div>
                     <div class="bg-[#0066cc]/5 rounded-2xl p-6 text-center border border-[#0066cc]/10">
-                        <span class="text-xs font-semibold uppercase tracking-wider text-[#0066cc]">Épaisseur au bord estimée</span>
-                        <div class="text-4xl font-bold mt-1 text-[#1d1d1f]"><span id="calc-result">3.20</span> <span class="text-lg font-medium">mm</span></div>
+                        <div class="text-4xl font-bold text-[#1d1d1f]"><span id="calc-result">3.20</span> mm</div>
                     </div>
-                </div>
-            </div>
-
-            <!-- CONTENU DE L'ONGLET 3 : MONTURE -->
-            <div id="content-monture" class="tab-content hidden space-y-6">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="montures-grid">
-                    <!-- Rempli en JS avec du Banana Eyewear -->
-                </div>
-            </div>
-
-            <!-- CONTENU DE L'ONGLET 4 : DOCUMENTS -->
-            <div id="content-documents" class="tab-content hidden max-w-3xl mx-auto space-y-4">
-                <div class="bg-white rounded-2xl border border-[#e8e8ed] p-6">
-                    <h2 class="text-base font-semibold mb-4">Vos Factures-X & Catalogues</h2>
-                    <div id="docs-list" class="space-y-3"></div>
                 </div>
             </div>
 
         </div>
     </div>
 
-    <script>
-        let storeData = null;
-
-        function handleLogin(e) {
-            e.preventDefault();
-            const user = document.getElementById('username').value.trim().toLowerCase();
-            
-            if(user !== '') {
-                document.getElementById('login-error').classList.add('hidden');
+    <div id="side-panel" class="fixed inset-0 z-50 overflow-hidden hidden">
+        <div class="absolute inset-0 bg-black/20 backdrop-blur-sm transition-opacity" onclick="closeSidePanel()"></div>
+        <div class="absolute inset-y-0 right-0 max-w-xl w-full flex">
+            <div class="w-full bg-white shadow-2xl flex flex-col justify-between border-l border-[#e8e8ed] rounded-l-3xl overflow-y-auto">
                 
-                // Simulation de tes données injectées par Python (Esprit Hoya/Essilor/Banana)
-                storeData = {
-                    storeName: user.toUpperCase(),
-                    verres: [
-                        { patient: 'M. Gérard Banana', ref: 'CMD-2026-912', detail: 'Progressif V2I HD - Indice 1.67 Sensity', status: 'Surfaçage en cours', color: 'text-blue-600 bg-blue-50 border-blue-100' },
-                        { patient: 'Mme Marie Curie', ref: 'CMD-2026-894', detail: 'Unifocal Asphérique Onyx - Anti-reflet Max', status: 'Prêt / Expédié', color: 'text-emerald-600 bg-emerald-50 border-emerald-100' }
-                    ],
-                    montures: [
-                        { model: 'Banana Gold - Aviator', ref: 'BN-2026-X', detail: 'Or Jaune Satiné / Branches titane', stock: 'Stock central : 12 | Magasin : 1', img: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=300&q=80' },
-                        { model: 'Banana Republic - Vintage', ref: 'BN-9942', detail: 'Acétate bio Écaille de tortue', stock: 'Stock central : 4 | Magasin : 0', img: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=300&q=80' }
-                    ],
-                    docs: [
-                        { name: 'Factur-X_CMD-2026-894.pdf', type: 'Facture Électronique', size: '142 Ko' },
-                        { name: 'Catalogue Général Tarifs V2I 2026.pdf', type: 'Tarif Technique', size: '4.8 Mo' }
-                    ]
-                };
+                <div class="p-6 border-b border-[#e8e8ed] flex items-center justify-between bg-[#f5f5f7] rounded-tl-3xl">
+                    <div>
+                        <span class="text-xs uppercase font-semibold font-mono text-[#86868b]">Données Techniques du Job</span>
+                        <h2 id="panel-patient" class="text-xl font-bold text-[#1d1d1f] mt-0.5">---</h2>
+                        <p id="panel-bl" class="text-xs text-[#0066cc] font-mono mt-0.5">Cde: ---</p>
+                    </div>
+                    <button onclick="closeSidePanel()" class="p-2 hover:bg-gray-200 rounded-full transition-all cursor-pointer">
+                        <i data-lucide="x" class="w-5 h-5"></i>
+                    </button>
+                </div>
 
+                <div class="p-6 space-y-6 flex-1">
+                    <div class="bg-[#0066cc]/5 border border-[#0066cc]/20 rounded-xl p-4 flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <i data-lucide="file-check" class="text-[#0066cc] w-5 h-5"></i>
+                            <div>
+                                <h4 class="text-xs font-semibold">Fichier de livraison scellé</h4>
+                                <p class="text-[11px] text-[#86868b]">Document officiel Factur-X certifié.</p>
+                            </div>
+                        </div>
+                        <button class="bg-[#0066cc] hover:bg-[#0077ed] text-white text-xs font-medium px-4 py-2 rounded-lg transition-all flex items-center gap-1.5 cursor-pointer shadow-sm">
+                            <i data-lucide="download" class="w-3.5 h-3.5"></i> PDF Certifié
+                        </button>
+                    </div>
+
+                    <div class="space-y-4">
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Mesures de prescription</h3>
+                        <div class="border border-[#e8e8ed] rounded-xl overflow-hidden text-xs">
+                            <div class="grid grid-cols-8 bg-[#f5f5f7] p-2.5 font-semibold text-[#86868b] border-b border-[#e8e8ed] text-center font-mono">
+                                <div>Œil</div><div>Sph</div><div>Cyl</div><div>Axe</div><div>Add</div><div>Pr1</div><div>Base</div><div>Dia</div>
+                            </div>
+                            <div class="grid grid-cols-8 p-3 border-b border-[#e8e8ed] text-center font-medium items-center" id="panel-od-row">
+                                <div class="font-bold text-left text-amber-600 pl-1">OD</div>
+                                <div id="od-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
+                                <div id="od-cyl" class="font-mono">---</div>
+                                <div id="od-axe" class="font-mono">---</div>
+                                <div id="od-add" class="font-mono">---</div>
+                                <div id="od-p1" class="font-mono">---</div>
+                                <div id="od-b1" class="font-mono">---</div>
+                                <div id="od-dia" class="font-bold">---</div>
+                            </div>
+                            <div class="grid grid-cols-8 p-3 text-center font-medium items-center" id="panel-og-row">
+                                <div class="font-bold text-left text-blue-600 pl-1">OG</div>
+                                <div id="og-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
+                                <div id="og-cyl" class="font-mono">---</div>
+                                <div id="og-axe" class="font-mono">---</div>
+                                <div id="og-add" class="font-mono">---</div>
+                                <div id="og-p1" class="font-mono">---</div>
+                                <div id="og-b1" class="font-mono">---</div>
+                                <div id="og-dia" class="font-bold">---</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-4 text-xs">
+                        <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
+                            <span class="text-[#86868b] font-medium">Job Cosium lié</span>
+                            <p id="panel-cosium-id" class="font-mono font-bold mt-0.5 text-[#1d1d1f]">---</p>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
+                            <span class="text-[#86868b] font-medium">Écart Pupillaire (PD)</span>
+                            <p id="panel-pd" class="font-mono font-bold mt-0.5 text-[#1d1d1f]">---</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Traitements & Options</h3>
+                        <div id="panel-supplements" class="flex flex-wrap gap-1.5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    let currentStoreId = null;
+    let storeEncours = [];
+    let storeArchives = [];
+    let showArchives = false;
+
+    // 1. GESTION DU LOGIN VIA REQUÊTE DIRECTE GITHUB
+    async function handleLogin(e) {
+        e.preventDefault();
+        const clientNum = document.getElementById('username').value.trim();
+        const cosiumCode = document.getElementById('password').value.trim().toUpperCase();
+        const errorEl = document.getElementById('login-error');
+        
+        // Cible le fichier d'encours du client spécifié
+        const urlJsonEncours = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_magasins/encours_${clientNum}.json`;
+
+        try {
+            errorEl.classList.add('hidden');
+            const response = await fetch(urlJsonEncours);
+            if (!response.ok) throw new Error("Identifiant client introuvable.");
+            
+            const data = await response.json();
+
+            // Vérification stricte : le mot de passe correspond au code_cosium du fichier
+            if (data.infos_magasin && cosiumCode === String(data.infos_magasin.code_cosium).trim().toUpperCase()) {
+                currentStoreId = clientNum;
+                storeEncours = data.commandes_en_cours || [];
+
+                // Paramétrage de la Navbar Apple
                 document.getElementById('login-screen').classList.add('hidden');
                 document.getElementById('main-interface').classList.remove('hidden');
-                document.getElementById('store-badge').innerText = "Magasin : " + storeData.storeName;
-                document.getElementById('welcome-store-name').innerText = storeData.storeName;
-
-                // On initialise les données en arrière-plan
+                document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
+                
+                // Rendu ultra-rapide des données courantes du matin
                 renderVerres();
-                renderMontures();
-                renderDocs();
-                lucide.createIcons();
+                switchTab('verres');
+                
+                // Déclenche un pré-chargement silencieux de l'archive en arrière-plan sans bloquer l'UI
+                preloadArchivesSilently();
+            } else {
+                errorEl.innerText = "Code Cosium (mot de passe) invalide.";
+                errorEl.classList.remove('hidden');
             }
+        } catch (err) {
+            errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
+            errorEl.classList.remove('hidden');
+        }
+    }
+
+    // 2. PRÉ-CHARGEMENT TRANSPARENT DES ARCHIVES DE L'ANNÉE
+    async function preloadArchivesSilently() {
+        const anneeEnCours = new Date().getFullYear();
+        const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${anneeEnCours}/archive_${currentStoreId}.json`;
+        try {
+            const resp = await fetch(urlJsonArchive);
+            if (resp.ok) {
+                const archiveData = await resp.json();
+                storeArchives = archiveData.commandes_expediees || [];
+                document.getElementById('archive-status-text').innerText = `Archives de l'année ${anneeEnCours} synchronisées (Dernière validation : ${archiveData.derniere_validation || 'Ce matin'}).`;
+            }
+        } catch (e) {
+            console.log("Pas d'archive disponible pour ce magasin.");
+        }
+    }
+
+    // 3. ACTION SUR LE BOUTON ARCHIVE
+    function toggleArchives() {
+        showArchives = !showArchives;
+        const btn = document.getElementById('btn-toggle-archive');
+        const banner = document.getElementById('archive-status-banner');
+        
+        if (showArchives) {
+            btn.innerHTML = `<i data-lucide="archive-x" class="w-4 h-4"></i> Masquer les archives`;
+            btn.className = "w-full md:w-auto bg-[#0066cc] text-white border border-transparent text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm";
+            if (storeArchives.length > 0) banner.classList.remove('hidden');
+        } else {
+            btn.innerHTML = `<i data-lucide="archive" class="w-4 h-4"></i> Inclure les archives de l'année`;
+            btn.className = "w-full md:w-auto bg-[#f5f5f7] hover:bg-gray-200 text-[#1d1d1f] border border-gray-200 text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer";
+            banner.classList.add('hidden');
+        }
+        renderVerres();
+    }
+
+    // 4. MOTEUR DE RENDU DU TABLEAU ET MULTI-RECHERCHE GLOBALE
+    function renderVerres() {
+        const tbody = document.getElementById('verres-table-body');
+        tbody.innerHTML = '';
+        const search = document.getElementById('search-verres').value.toLowerCase().trim();
+
+        // Fusion adaptative si les archives sont activées
+        const donneesAAfficher = showArchives ? [...storeEncours, ...storeArchives] : storeEncours;
+
+        if (donneesAAfficher.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-12 text-center text-[#86868b] font-medium">Aucun enregistrement trouvé.</td></tr>`;
+            return;
         }
 
-        function switchTab(tabId) {
-            // Cacher l'écran d'accueil par défaut et tous les onglets
-            document.getElementById('content-welcome').classList.add('hidden');
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        donneesAAfficher.forEach((v, index) => {
+            // Recherche transversale complète demandée
+            const texteRecherche = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.date_entree} ${v.statut_affichage} ${v.detail} ${v.type_commande}`.toLowerCase();
+            if (search && !texteRecherche.includes(search)) return;
+
+            const styleBadge = v.style_couleur || "text-blue-600 bg-blue-50 border-blue-100";
             
-            // Réinitialiser le style des boutons d'onglets
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
+            // Formatage propre de la colonne du type de verre
+            let verreLabel = v.detail || "Fabrication";
+            if (verreLabel.includes('—')) verreLabel = verreLabel.split('—')[1];
+            verreLabel = verreLabel.replace(/[()]/g, '').trim();
+
+            tbody.innerHTML += `
+                <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs">
+                    <td class="px-6 py-4 text-gray-500 font-medium">${v.type_commande || 'Commande'}</td>
+                    <td class="px-6 py-4">
+                        <div class="font-bold text-[#1d1d1f] text-sm tracking-tight">${v.patient}</div>
+                        <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
+                    </td>
+                    <td class="px-6 py-4 text-gray-600 font-medium max-w-xs truncate">${verreLabel}</td>
+                    <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
+                    <td class="px-6 py-4 font-mono font-semibold text-gray-700">${v.statut_affichage}</td>
+                    <td class="px-6 py-4 font-mono text-gray-500">${v.date_statut || '—'}</td>
+                    <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${v.id_commande_v2i}</td>
+                    <td class="px-6 py-4 text-center">
+                        <button onclick="openSidePanel(${index}, ${storeEncours.includes(v)})" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] hover:bg-[#0066cc]/5 border border-gray-200 hover:border-[#0066cc]/20 rounded-xl transition-all cursor-pointer shadow-2xs">
+                            <i data-lucide="eye" class="w-4 h-4 stroke-[2]"></i>
+                        </button>
+                    </td>
+                </tr>
+            `;
+        });
+        lucide.createIcons();
+    }
+
+    // 5. OUVERTURE DU TIROIR ET AFFICHAGE DES VALEURS DU SCRIPT DE BASE (image_cb605e.png)
+    function openSidePanel(index, isFromEncours) {
+        const cmd = isFromEncours ? storeEncours[index] : storeArchives[index];
+        
+        document.getElementById('panel-patient').innerText = cmd.patient;
+        document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + cmd.id_commande_v2i;
+        document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
+        
+        // Remplissage OD (Récupère dynamiquement Sphere, Cylinder, Axis, Addition, Prism1, PrBase1, Diam1 du JSON)
+        if (cmd.oeil_droit) {
+            document.getElementById('panel-od-row').style.display = 'grid';
+            document.getElementById('od-sph').innerText = cmd.oeil_droit.sphere || '0.00';
+            document.getElementById('od-cyl').innerText = cmd.oeil_droit.cylindre || '0.00';
+            document.getElementById('od-axe').innerText = cmd.oeil_droit.axe || '0';
+            document.getElementById('od-add').innerText = cmd.oeil_droit.addition || '0.00';
+            document.getElementById('od-p1').innerText = cmd.oeil_droit.prisme_1 || '0.0';
+            document.getElementById('od-b1').innerText = cmd.oeil_droit.base_1 || '0';
+            document.getElementById('od-dia').innerText = cmd.oeil_droit.diametre || '—';
+            document.getElementById('panel-pd').innerText = cmd.oeil_droit.ecart_pupillaire ? cmd.oeil_droit.ecart_pupillaire + " mm" : "—";
+        } else {
+            document.getElementById('panel-od-row').style.display = 'none';
+        }
+
+        // Remplissage OG
+        if (cmd.oeil_gauche) {
+            document.getElementById('panel-og-row').style.display = 'grid';
+            document.getElementById('og-sph').innerText = cmd.oeil_gauche.sphere || '0.00';
+            document.getElementById('og-cyl').innerText = cmd.oeil_gauche.cylindre || '0.00';
+            document.getElementById('og-axe').innerText = cmd.oeil_gauche.axe || '0';
+            document.getElementById('og-add').innerText = cmd.oeil_gauche.addition || '0.00';
+            document.getElementById('og-p1').innerText = cmd.oeil_gauche.prisme_1 || '0.0';
+            document.getElementById('og-b1').innerText = cmd.oeil_gauche.base_1 || '0';
+            document.getElementById('og-dia').innerText = cmd.oeil_gauche.diametre || '—';
+            if(!cmd.oeil_droit) document.getElementById('panel-pd').innerText = cmd.oeil_gauche.ecart_pupillaire ? cmd.oeil_gauche.ecart_pupillaire + " mm" : "—";
+        } else {
+            document.getElementById('panel-og-row').style.display = 'none';
+        }
+
+        // Injection des Traitements récoltés
+        const containerSupps = document.getElementById('panel-supplements');
+        containerSupps.innerHTML = '';
+        const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
+        const uniques = [...new Set(allSupps)];
+
+        if (uniques.length > 0) {
+            uniques.forEach(s => {
+                containerSupps.innerHTML += `<span class="bg-gray-100 text-gray-800 border border-gray-200 px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
             });
-
-            // Afficher l'onglet cliqué et lui appliquer la ligne bleue Apple
-            document.getElementById('content-' + tabId).classList.remove('hidden');
-            document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+        } else {
+            containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
         }
 
-        function renderVerres() {
-            const tbody = document.getElementById('verres-table-body');
-            tbody.innerHTML = '';
-            const search = document.getElementById('search-verres').value.toLowerCase();
+        document.getElementById('side-panel').classList.remove('hidden');
+        lucide.createIcons();
+    }
 
-            storeData.verres.forEach(v => {
-                if(search && !v.patient.toLowerCase().includes(search) && !v.ref.toLowerCase().includes(search)) return;
-                tbody.innerHTML += `
-                    <tr class="hover:bg-[#f5f5f7]/50 transition-colors">
-                        <td class="px-6 py-4">
-                            <div class="font-medium text-[#1d1d1f]">${v.patient}</div>
-                            <div class="text-xs text-[#86868b]">${v.ref}</div>
-                        </td>
-                        <td class="px-6 py-4 text-[#86868b] font-normal">${v.detail}</td>
-                        <td class="px-6 py-4">
-                            <span class="px-2.5 py-1 text-xs font-medium rounded-full border ${v.color}">${v.status}</span>
-                        </td>
-                        <td class="px-6 py-4 text-right">
-                            <button class="text-[#0066cc] hover:underline text-xs font-medium cursor-pointer">Factur-X (PDF)</button>
-                        </td>
-                    </tr>
-                `;
-            });
-        }
+    function closeSidePanel() {
+        document.getElementById('side-panel').classList.add('hidden');
+    }
 
-        function renderMontures() {
-            const grid = document.getElementById('montures-grid');
-            grid.innerHTML = '';
-            storeData.montures.forEach(m => {
-                grid.innerHTML += `
-                    <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm hover:shadow-md transition-all">
-                        <img src="${m.img}" class="w-full h-44 object-cover border-b border-[#e8e8ed]" alt="">
-                        <div class="p-5 space-y-2">
-                            <div>
-                                <h4 class="font-semibold text-base">${m.model}</h4>
-                                <p class="text-xs text-[#86868b]">${m.ref} • ${m.detail}</p>
-                            </div>
-                            <div class="text-xs bg-[#f5f5f7] p-2 rounded-lg text-[#1d1d1f] font-medium">${m.stock}</div>
-                        </div>
-                    </div>
-                `;
-            });
-        }
+    function switchTab(tabId) {
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
+        });
+        document.getElementById('content-' + tabId).classList.remove('hidden');
+        document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+    }
 
-        function renderDocs() {
-            const container = document.getElementById('docs-list');
-            container.innerHTML = '';
-            storeData.docs.forEach(d => {
-                container.innerHTML += `
-                    <div class="flex items-center justify-between p-3 bg-[#f5f5f7] rounded-xl border border-transparent hover:border-[#e8e8ed] transition-all">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="file" class="w-4 h-4 text-[#86868b]"></i>
-                            <div>
-                                <p class="text-sm font-medium">${d.name}</p>
-                                <p class="text-xs text-[#86868b]">${d.type} • ${d.size}</p>
-                            </div>
-                        </div>
-                        <button class="text-[#0066cc] hover:text-[#0055bb] text-sm"><i data-lucide="download" class="w-4 h-4"></i></button>
-                    </div>
-                `;
-            });
-        }
-
-        function runCalculation() {
-            const sphere = Math.abs(parseFloat(document.getElementById('calc-sphere').value)) || 0;
-            const diam = parseFloat(document.getElementById('calc-diam').value) || 0;
-            const result = 1.5 + (sphere * (diam / 100)); // Formule optique fictive
-            document.getElementById('calc-result').innerText = result.toFixed(2);
-        }
-
-        function logout() {
-            document.getElementById('main-interface').classList.add('hidden');
-            document.getElementById('login-screen').classList.remove('hidden');
-            document.getElementById('content-welcome').classList.remove('hidden');
-            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-        }
+    function logout() {
+        document.getElementById('main-interface').classList.add('hidden');
+        document.getElementById('login-screen').classList.remove('hidden');
+        currentStoreId = null;
+        storeEncours = [];
+        storeArchives = [];
+        showArchives = false;
+    }
     </script>
 </body>
 </html>
