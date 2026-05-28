@@ -1,0 +1,71 @@
+{
+  "infos_magasin": {
+    "code_client": "        39",
+    "code_cosium": "OBR",
+    "nom": "L'atelier de l'optique (OBR)",
+    "siret": "79498632300010",
+    "adresse": "Rue Santa Madelena",
+    "adresse2": "Clos Sainte victoire",
+    "code_postal": "20600",
+    "email": "obr@balbi.fr",
+    "mot_de_passe_portail": "obr"
+  },
+  "derniere_mise_a_jour": "28/05/2026 16:11",
+  "commandes_en_cours": [
+    {
+      "ord_numb": "            10158834",
+      "id_commande_v2i": "260522000137",
+      "code_cote": "B",
+      "patient": "ERRACHIDI MOHAMED",
+      "job_cosium": "J147014119",
+      "date_entree": "22/05/2026",
+      "detail": "Réf: ERRACHIDI MOHAMED / J147014119 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Dans les temps (J-12)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    }
+  ]
+}
