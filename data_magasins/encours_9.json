@@ -1,0 +1,81 @@
+{
+  "infos_magasin": {
+    "code_client": "         9",
+    "code_cosium": "A40",
+    "nom": "Optique Balbi Ajaccio 40 (A40)",
+    "siret": "33860288100017",
+    "adresse": "40 cours Napoleon",
+    "adresse2": "",
+    "code_postal": "20000",
+    "email": "a40@balbi.fr",
+    "mot_de_passe_portail": "a40"
+  },
+  "derniere_mise_a_jour": "28/05/2026 16:11",
+  "commandes_en_cours": [
+    {
+      "ord_numb": "            10158959",
+      "id_commande_v2i": "260523000075",
+      "code_cote": "B",
+      "patient": "MARTI MARIE-FRANCE",
+      "job_cosium": "J124005403-01",
+      "date_entree": "23/05/2026",
+      "detail": "Réf: MARTI MARIE-FRANCE / J124005403-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Offert",
+          "Teinte au modèle uni A-C",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Offert",
+          "Teinte au modèle uni A-C",
+          "Optimized"
+        ]
+      }
+    }
+  ]
+}
