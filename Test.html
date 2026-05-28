@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
     </style>
 </head>
@@ -52,6 +52,9 @@
                     </div>
                     
                     <div class="hidden md:flex items-center h-full space-x-1">
+                        <button onclick="switchTab('accueil')" id="tab-accueil" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
+                            <i data-lucide="home" class="w-4 h-4 stroke-[1.5]"></i> Accueil
+                        </button>
                         <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
                         </button>
@@ -69,7 +72,41 @@
 
         <div class="max-w-7xl mx-auto px-6 py-10">
             
-            <div id="content-verres" class="tab-content space-y-6">
+            <div id="content-accueil" class="tab-content space-y-10">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <button onclick="switchTab('verres')" class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:border-[#0066cc] hover:scale-[1.02] transition-all text-center group cursor-pointer">
+                        <div class="p-4 bg-[#0066cc]/5 text-[#0066cc] rounded-2xl mb-4 group-hover:bg-[#0066cc]/10">
+                            <i data-lucide="package" class="w-8 h-8 stroke-[1.5]"></i>
+                        </div>
+                        <span class="text-lg font-semibold text-[#1d1d1f]">Suivi de commande</span>
+                    </button>
+
+                    <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:border-[#0066cc] hover:scale-[1.02] transition-all text-center group">
+                        <div class="p-4 bg-[#0066cc]/5 text-[#0066cc] rounded-2xl mb-4 group-hover:bg-[#0066cc]/10">
+                            <i data-lucide="glasses" class="w-8 h-8 stroke-[1.5]"></i>
+                        </div>
+                        <span class="text-lg font-semibold text-[#1d1d1f]">Montures</span>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.06)] hover:border-[#0066cc] hover:scale-[1.02] transition-all text-center group">
+                        <div class="p-4 bg-[#0066cc]/5 text-[#0066cc] rounded-2xl mb-4 group-hover:bg-[#0066cc]/10">
+                            <i data-lucide="file-text" class="w-8 h-8 stroke-[1.5]"></i>
+                        </div>
+                        <span class="text-lg font-semibold text-[#1d1d1f]">Document</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl border border-[#e8e8ed] p-6 shadow-sm">
+                    <h2 class="text-base font-bold text-[#1d1d1f] mb-4 flex items-center gap-2">
+                        <span class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span> Flux Acuité.fr — Actualités de l'optique
+                    </h2>
+                    <div class="w-full overflow-hidden rounded-2xl bg-[#f5f5f7]">
+                        <iframe src="https://rss.app/embed/v1/wall/t4m7YfFAnIAnXn0J" class="w-full h-[500px] border-0" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="content-verres" class="tab-content hidden space-y-6">
                 
                 <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm flex flex-col md:flex-row gap-4 justify-between items-center">
                     <div class="relative w-full md:flex-1">
@@ -96,12 +133,9 @@
                         <table class="w-full text-left border-collapse text-sm">
                             <thead>
                                 <tr class="bg-[#f5f5f7] text-[#86868b] font-semibold text-xs border-b border-[#e8e8ed] tracking-wider font-mono">
-                                    <th class="px-6 py-4">Type</th>
                                     <th class="px-6 py-4">Référence (Patient)</th>
-                                    <th class="px-6 py-4">Type de Verre</th>
-                                    <th class="px-6 py-4">Date/Heure de Saisie</th>
+                                    <th class="px-6 py-4">Produit</th> <th class="px-6 py-4">Date/Heure de Saisie</th>
                                     <th class="px-6 py-4">Statut Fournisseur</th>
-                                    <th class="px-6 py-4">Date du statut</th>
                                     <th class="px-6 py-4 text-amber-600 bg-amber-50/50 font-sans font-bold">Sortie / Livr. Prévue</th>
                                     <th class="px-6 py-4 font-sans">N° Cde (BL)</th>
                                     <th class="px-6 py-4 text-center w-20">Actions</th>
@@ -247,7 +281,7 @@
                 document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
                 
                 renderVerres();
-                switchTab('verres');
+                switchTab('accueil'); // Ouvre la nouvelle page d'accueil par défaut
                 preloadArchivesSilently();
             } else {
                 errorEl.innerText = "Code Cosium (mot de passe) invalide.";
@@ -298,29 +332,37 @@
         const donneesAAfficher = showArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
         if (donneesAAfficher.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="9" class="px-6 py-12 text-center text-[#86868b] font-medium">Aucun enregistrement trouvé.</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium">Aucun enregistrement trouvé.</td></tr>`;
             return;
         }
 
         donneesAAfficher.forEach((v, index) => {
-            const texteRecherche = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.date_entree} ${v.statut_affichage} ${v.detail} ${v.type_commande}`.toLowerCase();
+            const texteRecherche = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.date_entree} ${v.statut_affichage} ${v.type_commande}`.toLowerCase();
             if (search && !texteRecherche.includes(search)) return;
 
-            let verreLabel = v.detail || "Fabrication";
-            if (verreLabel.includes('—')) verreLabel = verreLabel.split('—')[1];
-            verreLabel = verreLabel.replace(/[()]/g, '').trim();
+            // Règle d'extraction des suppléments : OD par défaut, sinon OG
+            const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
+            const listeSupplements = cibleVerre && cibleVerre.supplements ? cibleVerre.supplements : [];
+            
+            let htmlSupplements = '';
+            if (listeSupplements.length > 0) {
+                htmlSupplements = `
+                    <div class="flex flex-col gap-0.5 text-[11px] text-gray-600 font-medium leading-relaxed">
+                        ${listeSupplements.map(supp => `<span>• ${supp}</span>`).join('')}
+                    </div>
+                `;
+            } else {
+                htmlSupplements = `<span class="text-gray-400 italic text-[11px]">Aucun supplément</span>`;
+            }
 
             tbody.innerHTML += `
                 <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs">
-                    <td class="px-6 py-4 text-gray-500 font-medium">${v.type_commande || 'Commande'}</td>
                     <td class="px-6 py-4">
                         <div class="font-bold text-[#1d1d1f] text-sm tracking-tight">${v.patient}</div>
                         <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
                     </td>
-                    <td class="px-6 py-4 text-gray-600 font-medium max-w-xs truncate">${verreLabel}</td>
-                    <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
+                    <td class="px-6 py-4 font-sans">${htmlSupplements}</td> <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
                     <td class="px-6 py-4 font-mono font-semibold text-gray-700">${v.statut_affichage}</td>
-                    <td class="px-6 py-4 font-mono text-gray-500">${v.date_statut || '—'}</td>
                     <td class="px-6 py-4 font-mono font-bold text-amber-700 bg-amber-50/40 text-sm">${v.date_livraison_prevue || 'En calcul'}</td>
                     <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${v.id_commande_v2i}</td>
                     <td class="px-6 py-4 text-center">
