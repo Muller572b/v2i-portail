@@ -452,10 +452,12 @@
 
             tbody.innerHTML += `
                 <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs">
+                    <!-- LIGNE CORRIGÉE (sans la virgule traîneresse après le premier </td>) -->
                     <td class="px-6 py-4">
                         <div class="font-bold text-[#1d1d1f] text-sm tracking-tight">${v.patient}</div>
                         <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
                     </td>
+                    <td class="px-6 py-4 font-sans">${htmlSupplements}</td> <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
                     <td class="px-6 py-4 font-sans">${htmlSupplements}</td> <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
                     <td class="px-6 py-4 font-mono font-semibold text-gray-700">${v.statut_affichage}</td>
                     <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${v.date_livraison_prevue || 'En calcul'}</td>
