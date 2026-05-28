@@ -21,8 +21,8 @@
         "id_commande": "        260520000002",
         "patient": "LEROUXEL MARIE PAULE",
         "detail": "Réf: LEROUXEL MARIE PAULE / J143053583 — (Fabrication RX) — État: Traitement",
-        "statut": "À produire d'urgence (J-0)",
-        "style_couleur": "text-amber-600 bg-amber-50 border-amber-100"
+        "statut": "En retard de 1 j.",
+        "style_couleur": "text-red-600 bg-red-50 border-red-100"
       },
       {
         "id_commande": "        260520000010",
@@ -497,7 +497,7 @@
         "id_commande": "        260527000001",
         "patient": "BALDRICHI",
         "detail": "Réf: BALDRICHI — (Fabrication RX) — État: Étape HARD",
-        "statut": "Dans les temps (J-6)",
+        "statut": "Dans les temps (J-5)",
         "style_couleur": "text-green-600 bg-green-50 border-green-100"
       },
       {
@@ -506,6 +506,13 @@
         "detail": "Réf: PIMENTEL TOUSSAINT / J129022413 — (Stock) — État: Étape PREP",
         "statut": "À produire d'urgence (J-2)",
         "style_couleur": "text-amber-600 bg-amber-50 border-amber-100"
+      },
+      {
+        "id_commande": "        260528000003",
+        "patient": "GIACOMETTI CAROLE",
+        "detail": "Réf: GIACOMETTI CAROLE — (Fabrication RX) — État: Étape PREP",
+        "statut": "Dans les temps (J-6)",
+        "style_couleur": "text-green-600 bg-green-50 border-green-100"
       }
     ],
     "documents": []
@@ -1015,7 +1022,7 @@
         "id_commande": "        260524000001",
         "patient": "BOLARIN SANDRINE",
         "detail": "Réf: BOLARIN SANDRINE / J131018766 — (Fabrication RX) — État: Étape HARD",
-        "statut": "Dans les temps (J-4)",
+        "statut": "Dans les temps (J-3)",
         "style_couleur": "text-green-600 bg-green-50 border-green-100"
       },
       {
@@ -1184,6 +1191,13 @@
         "patient": "VEPORI MARIE",
         "detail": "Réf: VEPORI MARIE / J152045046-02 — (Fabrication RX) — État: Étape PREP",
         "statut": "Dans les temps (J-7)",
+        "style_couleur": "text-green-600 bg-green-50 border-green-100"
+      },
+      {
+        "id_commande": "        260528000002",
+        "patient": "LEANDRI",
+        "detail": "Réf: LEANDRI — (Fabrication RX) — État: Étape PREP",
+        "statut": "Dans les temps (J-6)",
         "style_couleur": "text-green-600 bg-green-50 border-green-100"
       }
     ],
@@ -2736,7 +2750,7 @@
       {
         "id_commande": "        260523000057",
         "patient": "FRANCESCHI CHRISTINE",
-        "detail": "Réf: FRANCESCHI CHRISTINE — (Fabrication RX) — État: Étape MEAS",
+        "detail": "Réf: FRANCESCHI CHRISTINE — (Fabrication RX) — État: Étape PREP",
         "statut": "Dans les temps (J-3)",
         "style_couleur": "text-green-600 bg-green-50 border-green-100"
       },
@@ -2767,6 +2781,13 @@
         "detail": "Réf: FICAJA SERGE — (Fabrication RX) — État: Étape HARD",
         "statut": "Dans les temps (J-9)",
         "style_couleur": "text-green-600 bg-green-50 border-green-100"
+      },
+      {
+        "id_commande": "        260528000001",
+        "patient": "DEVICHI Ange",
+        "detail": "Réf: DEVICHI Ange — (Stock) — État: Étape PREP",
+        "statut": "À produire d'urgence (J-2)",
+        "style_couleur": "text-amber-600 bg-amber-50 border-amber-100"
       }
     ],
     "documents": []
