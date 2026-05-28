@@ -14,7 +14,7 @@
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
-        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8 transition-all">
+        <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/40 p-8">
             <div class="flex flex-col items-center mb-10">
                 <div class="bg-[#0066cc]/10 text-[#0066cc] p-3.5 rounded-2xl mb-4">
                     <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
@@ -23,7 +23,7 @@
                 <p class="text-sm text-[#86868b] mt-1.5">Connectez-vous avec vos codes labo</p>
             </div>
             
-            <form onsubmit="handleLogin(event)" class="space-y-5">
+            <form id="login-form" class="space-y-5">
                 <div>
                     <label class="block text-xs font-medium text-[#86868b] mb-2">Identifiant (N° Client)</label>
                     <input type="text" id="username" required placeholder="ex: 12" 
@@ -34,11 +34,11 @@
                     <input type="password" id="password" required placeholder="ex: AOS" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm font-mono uppercase tracking-widest">
                 </div>
-                <button type="submit" class="w-full bg-[#0066cc] text-white font-medium py-3 rounded-xl hover:bg-[#0077ed] active:scale-[0.99] transition-all flex items-center justify-center gap-2 cursor-pointer text-sm shadow-sm">
+                <button type="submit" class="w-full bg-[#0066cc] text-white font-medium py-3 rounded-xl hover:bg-[#0077ed] transition-all flex items-center justify-center gap-2 cursor-pointer text-sm shadow-sm">
                     Se connecter <i data-lucide="chevron-right" class="w-4 h-4"></i>
                 </button>
             </form>
-            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium"></p>
+            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium bg-red-50 p-2.5 rounded-xl border border-red-100"></p>
         </div>
     </div>
 
@@ -50,16 +50,6 @@
                         <span class="font-semibold text-base tracking-tight">V2I Optique</span>
                         <span id="store-badge" class="bg-[#f5f5f7] text-[#86868b] text-xs px-2.5 py-1 rounded-full font-medium border border-[#e8e8ed]">Magasin : ---</span>
                     </div>
-                    
-                    <div class="hidden md:flex items-center h-full space-x-1">
-                        <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                            <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
-                        </button>
-                        <button onclick="switchTab('calcul')" id="tab-calcul" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                            <i data-lucide="layers" class="w-4 h-4 stroke-[1.5]"></i> Calcul Verre
-                        </button>
-                    </div>
-
                     <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] transition-colors flex items-center gap-1.5 text-xs font-medium cursor-pointer">
                         Déconnexion <i data-lucide="log-out" class="w-3.5 h-3.5"></i>
                     </button>
@@ -68,14 +58,13 @@
         </nav>
 
         <div class="max-w-7xl mx-auto px-6 py-10">
-            
-            <div id="content-verres" class="tab-content space-y-6">
+            <div id="content-verres" class="space-y-6">
                 
                 <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm flex flex-col md:flex-row gap-4 justify-between items-center">
                     <div class="relative w-full md:flex-1">
                         <i data-lucide="search" class="w-5 h-5 text-[#86868b] absolute left-4 top-3.5"></i>
                         <input type="text" id="search-verres" oninput="renderVerres()" 
-                               placeholder="Recherche multicritères (Nom, N° de BL, Job Cosium, Date...)" 
+                               placeholder="Recherche multicritères (Nom, N° de commande, Cosium...)" 
                                class="w-full pl-12 pr-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                     </div>
                     
@@ -84,26 +73,19 @@
                     </button>
                 </div>
 
-                <div id="archive-status-banner" class="hidden text-xs bg-blue-50 border border-blue-100 text-blue-700 px-4 py-2.5 rounded-xl flex items-center justify-between">
-                    <div class="flex items-center gap-2">
-                        <i data-lucide="info" class="w-4 h-4"></i>
-                        <span id="archive-status-text">Archives de l'année en cours chargées avec succès.</span>
-                    </div>
-                </div>
-
                 <div class="bg-white rounded-2xl border border-[#e8e8ed] overflow-hidden shadow-sm">
                     <div class="overflow-x-auto">
                         <table class="w-full text-left border-collapse text-sm">
                             <thead>
-                                <tr class="bg-[#f5f5f7] text-[#86868b] font-semibold text-xs border-b border-[#e8e8ed] tracking-wider font-mono">
+                                <tr class="bg-[#f5f5f7] text-[#86868b] font-semibold text-xs border-b border-[#e8e8ed] font-mono">
                                     <th class="px-6 py-4">Type</th>
                                     <th class="px-6 py-4">Référence (Patient)</th>
                                     <th class="px-6 py-4">Type de Verre</th>
-                                    <th class="px-6 py-4">Date/Heure de Saisie</th>
+                                    <th class="px-6 py-4">Date de Saisie</th>
                                     <th class="px-6 py-4">Statut Fournisseur</th>
                                     <th class="px-6 py-4">Date du statut</th>
-                                    <th class="px-6 py-4 font-sans">N° Cde (BL)</th>
-                                    <th class="px-6 py-4 text-center w-20">Actions</th>
+                                    <th class="px-6 py-4">N° Cde</th>
+                                    <th class="px-6 py-4 text-center w-20">Détails</th>
                                 </tr>
                             </thead>
                             <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
@@ -111,97 +93,59 @@
                     </div>
                 </div>
             </div>
-
-            <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
-                <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-sm space-y-6">
-                    <h2 class="text-xl font-semibold text-center">Calculateur d'Épaisseur Index</h2>
-                    <div class="space-y-4">
-                        <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique</label>
-                            <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc]">
-                        </div>
-                    </div>
-                    <div class="bg-[#0066cc]/5 rounded-2xl p-6 text-center border border-[#0066cc]/10">
-                        <div class="text-4xl font-bold text-[#1d1d1f]"><span id="calc-result">3.20</span> mm</div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 
     <div id="side-panel" class="fixed inset-0 z-50 overflow-hidden hidden">
-        <div class="absolute inset-0 bg-black/20 backdrop-blur-sm transition-opacity" onclick="closeSidePanel()"></div>
+        <div class="absolute inset-0 bg-black/20 backdrop-blur-sm" onclick="closeSidePanel()"></div>
         <div class="absolute inset-y-0 right-0 max-w-xl w-full flex">
             <div class="w-full bg-white shadow-2xl flex flex-col justify-between border-l border-[#e8e8ed] rounded-l-3xl overflow-y-auto">
-                
                 <div class="p-6 border-b border-[#e8e8ed] flex items-center justify-between bg-[#f5f5f7] rounded-tl-3xl">
                     <div>
-                        <span class="text-xs uppercase font-semibold font-mono text-[#86868b]">Données Techniques du Job</span>
+                        <span class="text-xs uppercase font-semibold font-mono text-[#86868b]">Données Techniques</span>
                         <h2 id="panel-patient" class="text-xl font-bold text-[#1d1d1f] mt-0.5">---</h2>
                         <p id="panel-bl" class="text-xs text-[#0066cc] font-mono mt-0.5">Cde: ---</p>
                     </div>
-                    <button onclick="closeSidePanel()" class="p-2 hover:bg-gray-200 rounded-full transition-all cursor-pointer">
-                        <i data-lucide="x" class="w-5 h-5"></i>
-                    </button>
+                    <button onclick="closeSidePanel()" class="p-2 hover:bg-gray-200 rounded-full cursor-pointer"><i data-lucide="x" class="w-5 h-5"></i></button>
                 </div>
 
-                <div class="p-6 space-y-6 flex-1">
-                    <div class="bg-[#0066cc]/5 border border-[#0066cc]/20 rounded-xl p-4 flex items-center justify-between">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="file-check" class="text-[#0066cc] w-5 h-5"></i>
-                            <div>
-                                <h4 class="text-xs font-semibold">Fichier de livraison scellé</h4>
-                                <p class="text-[11px] text-[#86868b]">Document officiel Factur-X certifié.</p>
-                            </div>
-                        </div>
-                        <button class="bg-[#0066cc] hover:bg-[#0077ed] text-white text-xs font-medium px-4 py-2 rounded-lg transition-all flex items-center gap-1.5 cursor-pointer shadow-sm">
-                            <i data-lucide="download" class="w-3.5 h-3.5"></i> PDF Certifié
-                        </button>
-                    </div>
-
+                <div class="p-6 space-y-6 flex-1 text-xs">
                     <div class="space-y-4">
-                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Mesures de prescription</h3>
-                        <div class="border border-[#e8e8ed] rounded-xl overflow-hidden text-xs">
-                            <div class="grid grid-cols-8 bg-[#f5f5f7] p-2.5 font-semibold text-[#86868b] border-b border-[#e8e8ed] text-center font-mono">
-                                <div>Œil</div><div>Sph</div><div>Cyl</div><div>Axe</div><div>Add</div><div>Pr1</div><div>Base</div><div>Dia</div>
+                        <h3 class="text-xs font-bold uppercase text-[#86868b]">Mesures de réfraction</h3>
+                        <div class="border border-[#e8e8ed] rounded-xl overflow-hidden">
+                            <div class="grid grid-cols-9 bg-[#f5f5f7] p-2.5 font-semibold text-[#86868b] text-center font-mono border-b border-[#e8e8ed]">
+                                <div>Œil</div><div>Crib</div><div>Diam</div><div>Sph</div><div>Cyl</div><div>Axe</div><div>Add</div><div>Pris</div><div>Base</div>
                             </div>
-                            <div class="grid grid-cols-8 p-3 border-b border-[#e8e8ed] text-center font-medium items-center" id="panel-od-row">
-                                <div class="font-bold text-left text-amber-600 pl-1">OD</div>
-                                <div id="od-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
-                                <div id="od-cyl" class="font-mono">---</div>
-                                <div id="od-axe" class="font-mono">---</div>
-                                <div id="od-add" class="font-mono">---</div>
-                                <div id="od-p1" class="font-mono">---</div>
-                                <div id="od-b1" class="font-mono">---</div>
-                                <div id="od-dia" class="font-bold">---</div>
+                            <div class="grid grid-cols-9 p-3 text-center border-b border-[#e8e8ed] items-center" id="od-row">
+                                <div class="font-bold text-amber-600">OD</div>
+                                <div id="od-crib" class="font-mono"></div><div id="od-dia" class="font-bold"></div>
+                                <div id="od-sph" class="bg-gray-50 font-mono py-0.5"></div><div id="od-cyl" class="font-mono"></div>
+                                <div id="od-axe" class="font-mono"></div><div id="od-add" class="font-mono"></div>
+                                <div id="od-pris" class="font-mono"></div><div id="od-base" class="font-mono"></div>
                             </div>
-                            <div class="grid grid-cols-8 p-3 text-center font-medium items-center" id="panel-og-row">
-                                <div class="font-bold text-left text-blue-600 pl-1">OG</div>
-                                <div id="og-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
-                                <div id="og-cyl" class="font-mono">---</div>
-                                <div id="og-axe" class="font-mono">---</div>
-                                <div id="og-add" class="font-mono">---</div>
-                                <div id="og-p1" class="font-mono">---</div>
-                                <div id="og-b1" class="font-mono">---</div>
-                                <div id="og-dia" class="font-bold">---</div>
+                            <div class="grid grid-cols-9 p-3 text-center items-center" id="og-row">
+                                <div class="font-bold text-blue-600">OG</div>
+                                <div id="og-crib" class="font-mono"></div><div id="og-dia" class="font-bold"></div>
+                                <div id="og-sph" class="bg-gray-50 font-mono py-0.5"></div><div id="og-cyl" class="font-mono"></div>
+                                <div id="og-axe" class="font-mono"></div><div id="og-add" class="font-mono"></div>
+                                <div id="og-pris" class="font-mono"></div><div id="og-base" class="font-mono"></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-4 text-xs">
+                    <div class="grid grid-cols-2 gap-4">
                         <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
-                            <span class="text-[#86868b] font-medium">Job Cosium lié</span>
-                            <p id="panel-cosium-id" class="font-mono font-bold mt-0.5 text-[#1d1d1f]">---</p>
+                            <span class="text-[#86868b] font-medium">Job Cosium</span>
+                            <p id="panel-cosium-id" class="font-mono font-bold text-[#1d1d1f]"></p>
                         </div>
                         <div class="bg-gray-50 p-3 rounded-xl border border-gray-100">
-                            <span class="text-[#86868b] font-medium">Écart Pupillaire (PD)</span>
-                            <p id="panel-pd" class="font-mono font-bold mt-0.5 text-[#1d1d1f]">---</p>
+                            <span class="text-[#86868b] font-medium">Écart Pupillaire</span>
+                            <p id="panel-pd" class="font-mono font-bold text-[#1d1d1f]"></p>
                         </div>
                     </div>
 
                     <div class="space-y-2">
-                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Traitements & Options</h3>
+                        <h3 class="text-xs font-bold uppercase text-[#86868b]">Options & Traitements</h3>
                         <div id="panel-supplements" class="flex flex-wrap gap-1.5"></div>
                     </div>
                 </div>
@@ -215,124 +159,101 @@
     let storeArchives = [];
     let showArchives = false;
 
-    // 1. GESTION DU LOGIN VIA REQUÊTE DIRECTE GITHUB
-    async function handleLogin(e) {
-        e.preventDefault();
-        const clientNum = document.getElementById('username').value.trim();
-        const cosiumCode = document.getElementById('password').value.trim().toUpperCase();
+    // Écouteur d'événement ultra-sécurisé sur le formulaire
+    document.getElementById('login-form').addEventListener('submit', async function(e) {
+        e.preventDefault(); // Bloque STRICTEMENT le rechargement d'écran avec "?"
+        
+        // .replace(/\s+/g, '') supprime TOUS les espaces, tabulations ou retours à la ligne masqués
+        const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
+        const cosiumCode = document.getElementById('password').value.replace(/\s+/g, '').toUpperCase();
         const errorEl = document.getElementById('login-error');
         
-        // Cible le fichier d'encours du client spécifié
+        // URL brute sans passer par le cache du build
         const urlJsonEncours = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_magasins/encours_${clientNum}.json`;
 
         try {
             errorEl.classList.add('hidden');
             const response = await fetch(urlJsonEncours);
-            if (!response.ok) throw new Error("Identifiant client introuvable.");
+            if (!response.ok) throw new Error("Fichier introuvable");
             
             const data = await response.json();
 
-            // Vérification stricte : le mot de passe correspond au code_cosium du fichier
-            if (data.infos_magasin && cosiumCode === String(data.infos_magasin.code_cosium).trim().toUpperCase()) {
+            // Nettoyage des valeurs lues dans le JSON pour éviter les crashs si espaces présents côté Python
+            const jsonClient = String(data.infos_magasin.code_client).replace(/\s+/g, '');
+            const jsonCosium = String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase();
+
+            if (cosiumCode === jsonCosium) {
                 currentStoreId = clientNum;
                 storeEncours = data.commandes_en_cours || [];
 
-                // Paramétrage de la Navbar Apple
                 document.getElementById('login-screen').classList.add('hidden');
                 document.getElementById('main-interface').classList.remove('hidden');
-                document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
+                document.getElementById('store-badge').innerText = `${data.infos_magasin.nom} (N° ${clientNum})`;
                 
-                // Rendu ultra-rapide des données courantes du matin
                 renderVerres();
-                switchTab('verres');
-                
-                // Déclenche un pré-chargement silencieux de l'archive en arrière-plan sans bloquer l'UI
                 preloadArchivesSilently();
             } else {
-                errorEl.innerText = "Code Cosium (mot de passe) invalide.";
+                errorEl.innerText = "Code Cosium invalide pour ce magasin.";
                 errorEl.classList.remove('hidden');
             }
         } catch (err) {
-            errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
+            errorEl.innerText = `Accès refusé : Le numéro client "${clientNum}" n'existe pas ou le serveur est indisponible.`;
             errorEl.classList.remove('hidden');
         }
-    }
+    });
 
-    // 2. PRÉ-CHARGEMENT TRANSPARENT DES ARCHIVES DE L'ANNÉE
     async function preloadArchivesSilently() {
-        const anneeEnCours = new Date().getFullYear();
-        const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${anneeEnCours}/archive_${currentStoreId}.json`;
+        const currentYear = new Date().getFullYear();
+        const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${currentYear}/archive_${currentStoreId}.json`;
         try {
             const resp = await fetch(urlJsonArchive);
             if (resp.ok) {
                 const archiveData = await resp.json();
-                storeArchives = archiveData.commandes_expediees || [];
-                document.getElementById('archive-status-text').innerText = `Archives de l'année ${anneeEnCours} synchronisées (Dernière validation : ${archiveData.derniere_validation || 'Ce matin'}).`;
+                storeArchives = archiveData.commandes_archivees || [];
             }
-        } catch (e) {
-            console.log("Pas d'archive disponible pour ce magasin.");
-        }
+        } catch (e) { console.log("Pas d'archive disponible."); }
     }
 
-    // 3. ACTION SUR LE BOUTON ARCHIVE
     function toggleArchives() {
         showArchives = !showArchives;
         const btn = document.getElementById('btn-toggle-archive');
-        const banner = document.getElementById('archive-status-banner');
-        
         if (showArchives) {
             btn.innerHTML = `<i data-lucide="archive-x" class="w-4 h-4"></i> Masquer les archives`;
-            btn.className = "w-full md:w-auto bg-[#0066cc] text-white border border-transparent text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm";
-            if (storeArchives.length > 0) banner.classList.remove('hidden');
+            btn.className = "w-full md:w-auto bg-[#0066cc] text-white text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm";
         } else {
             btn.innerHTML = `<i data-lucide="archive" class="w-4 h-4"></i> Inclure les archives de l'année`;
             btn.className = "w-full md:w-auto bg-[#f5f5f7] hover:bg-gray-200 text-[#1d1d1f] border border-gray-200 text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer";
-            banner.classList.add('hidden');
         }
         renderVerres();
     }
 
-    // 4. MOTEUR DE RENDU DU TABLEAU ET MULTI-RECHERCHE GLOBALE
     function renderVerres() {
         const tbody = document.getElementById('verres-table-body');
         tbody.innerHTML = '';
         const search = document.getElementById('search-verres').value.toLowerCase().trim();
+        const dataset = showArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
-        // Fusion adaptative si les archives sont activées
-        const donneesAAfficher = showArchives ? [...storeEncours, ...storeArchives] : storeEncours;
-
-        if (donneesAAfficher.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-12 text-center text-[#86868b] font-medium">Aucun enregistrement trouvé.</td></tr>`;
+        if (dataset.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="8" class="px-6 py-12 text-center text-[#86868b]">Aucune commande active aujourd'hui.</td></tr>`;
             return;
         }
 
-        donneesAAfficher.forEach((v, index) => {
-            // Recherche transversale complète demandée
-            const texteRecherche = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.date_entree} ${v.statut_affichage} ${v.detail} ${v.type_commande}`.toLowerCase();
-            if (search && !texteRecherche.includes(search)) return;
-
-            const styleBadge = v.style_couleur || "text-blue-600 bg-blue-50 border-blue-100";
-            
-            // Formatage propre de la colonne du type de verre
-            let verreLabel = v.detail || "Fabrication";
-            if (verreLabel.includes('—')) verreLabel = verreLabel.split('—')[1];
-            verreLabel = verreLabel.replace(/[()]/g, '').trim();
+        dataset.forEach((v, index) => {
+            const searchContext = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.detail}`.toLowerCase();
+            if (search && !searchContext.includes(search)) return;
 
             tbody.innerHTML += `
-                <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs">
-                    <td class="px-6 py-4 text-gray-500 font-medium">${v.type_commande || 'Commande'}</td>
-                    <td class="px-6 py-4">
-                        <div class="font-bold text-[#1d1d1f] text-sm tracking-tight">${v.patient}</div>
-                        <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
-                    </td>
-                    <td class="px-6 py-4 text-gray-600 font-medium max-w-xs truncate">${verreLabel}</td>
+                <tr class="hover:bg-[#f5f5f7]/60 transition-colors text-xs">
+                    <td class="px-6 py-4 text-gray-500 font-medium">${v.type_commande}</td>
+                    <td class="px-6 py-4"><div class="font-bold text-[#1d1d1f] text-sm">${v.patient}</div></td>
+                    <td class="px-6 py-4 text-gray-600 font-medium max-w-xs truncate">${v.detail}</td>
                     <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
-                    <td class="px-6 py-4 font-mono font-semibold text-gray-700">${v.statut_affichage}</td>
+                    <td class="px-6 py-4 font-semibold text-gray-700">${v.statut_affichage}</td>
                     <td class="px-6 py-4 font-mono text-gray-500">${v.date_statut || '—'}</td>
-                    <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${v.id_commande_v2i}</td>
+                    <td class="px-6 py-4 font-mono font-bold text-sm">${v.id_commande_v2i}</td>
                     <td class="px-6 py-4 text-center">
-                        <button onclick="openSidePanel(${index}, ${storeEncours.includes(v)})" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] hover:bg-[#0066cc]/5 border border-gray-200 hover:border-[#0066cc]/20 rounded-xl transition-all cursor-pointer shadow-2xs">
-                            <i data-lucide="eye" class="w-4 h-4 stroke-[2]"></i>
+                        <button onclick="openSidePanel(${index}, ${storeEncours.includes(v)})" class="p-2 bg-[#f5f5f7] hover:bg-gray-200 border border-gray-200 rounded-xl cursor-pointer">
+                            <i data-lucide="eye" class="w-4 h-4 text-gray-600"></i>
                         </button>
                     </td>
                 </tr>
@@ -341,45 +262,36 @@
         lucide.createIcons();
     }
 
-    // 5. OUVERTURE DU TIROIR ET AFFICHAGE DES VALEURS DU SCRIPT DE BASE (image_cb605e.png)
     function openSidePanel(index, isFromEncours) {
         const cmd = isFromEncours ? storeEncours[index] : storeArchives[index];
         
         document.getElementById('panel-patient').innerText = cmd.patient;
-        document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + cmd.id_commande_v2i;
-        document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
+        document.getElementById('panel-bl').innerText = "N° COMMANDE : " + cmd.id_commande_v2i;
+        document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "—";
         
-        // Remplissage OD (Récupère dynamiquement Sphere, Cylinder, Axis, Addition, Prism1, PrBase1, Diam1 du JSON)
         if (cmd.oeil_droit) {
-            document.getElementById('panel-od-row').style.display = 'grid';
+            document.getElementById('od-crib').innerText = cmd.oeil_droit.cribtype || '—';
+            document.getElementById('od-dia').innerText = cmd.oeil_droit.diam1 || '—';
             document.getElementById('od-sph').innerText = cmd.oeil_droit.sphere || '0.00';
-            document.getElementById('od-cyl').innerText = cmd.oeil_droit.cylindre || '0.00';
-            document.getElementById('od-axe').innerText = cmd.oeil_droit.axe || '0';
+            document.getElementById('od-cyl').innerText = cmd.oeil_droit.cylinder || '0.00';
+            document.getElementById('od-axe').innerText = cmd.oeil_droit.axis || '0';
             document.getElementById('od-add').innerText = cmd.oeil_droit.addition || '0.00';
-            document.getElementById('od-p1').innerText = cmd.oeil_droit.prisme_1 || '0.0';
-            document.getElementById('od-b1').innerText = cmd.oeil_droit.base_1 || '0';
-            document.getElementById('od-dia').innerText = cmd.oeil_droit.diametre || '—';
+            document.getElementById('od-pris').innerText = cmd.oeil_droit.prism1 || '0.0';
+            document.getElementById('od-base').innerText = cmd.oeil_droit.prbase1 || '0';
             document.getElementById('panel-pd').innerText = cmd.oeil_droit.ecart_pupillaire ? cmd.oeil_droit.ecart_pupillaire + " mm" : "—";
-        } else {
-            document.getElementById('panel-od-row').style.display = 'none';
         }
 
-        // Remplissage OG
         if (cmd.oeil_gauche) {
-            document.getElementById('panel-og-row').style.display = 'grid';
+            document.getElementById('og-crib').innerText = cmd.oeil_gauche.cribtype || '—';
+            document.getElementById('og-dia').innerText = cmd.oeil_gauche.diam1 || '—';
             document.getElementById('og-sph').innerText = cmd.oeil_gauche.sphere || '0.00';
-            document.getElementById('og-cyl').innerText = cmd.oeil_gauche.cylindre || '0.00';
-            document.getElementById('og-axe').innerText = cmd.oeil_gauche.axe || '0';
+            document.getElementById('og-cyl').innerText = cmd.oeil_gauche.cylinder || '0.00';
+            document.getElementById('og-axe').innerText = cmd.oeil_gauche.axis || '0';
             document.getElementById('og-add').innerText = cmd.oeil_gauche.addition || '0.00';
-            document.getElementById('og-p1').innerText = cmd.oeil_gauche.prisme_1 || '0.0';
-            document.getElementById('og-b1').innerText = cmd.oeil_gauche.base_1 || '0';
-            document.getElementById('og-dia').innerText = cmd.oeil_gauche.diametre || '—';
-            if(!cmd.oeil_droit) document.getElementById('panel-pd').innerText = cmd.oeil_gauche.ecart_pupillaire ? cmd.oeil_gauche.ecart_pupillaire + " mm" : "—";
-        } else {
-            document.getElementById('panel-og-row').style.display = 'none';
+            document.getElementById('og-pris').innerText = cmd.oeil_gauche.prism1 || '0.0';
+            document.getElementById('og-base').innerText = cmd.oeil_gauche.prbase1 || '0';
         }
 
-        // Injection des Traitements récoltés
         const containerSupps = document.getElementById('panel-supplements');
         containerSupps.innerHTML = '';
         const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
@@ -387,37 +299,21 @@
 
         if (uniques.length > 0) {
             uniques.forEach(s => {
-                containerSupps.innerHTML += `<span class="bg-gray-100 text-gray-800 border border-gray-200 px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
+                containerSupps.innerHTML += `<span class="bg-gray-100 text-gray-800 border border-gray-200 px-2 py-0.5 rounded text-[10px] font-mono">${s}</span>`;
             });
         } else {
-            containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
+            containerSupps.innerHTML = `<span class="text-gray-400 italic">Aucun traitement.</span>`;
         }
 
         document.getElementById('side-panel').classList.remove('hidden');
         lucide.createIcons();
     }
 
-    function closeSidePanel() {
-        document.getElementById('side-panel').classList.add('hidden');
-    }
-
-    function switchTab(tabId) {
-        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
-        });
-        document.getElementById('content-' + tabId).classList.remove('hidden');
-        document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
-    }
-
-    function logout() {
-        document.getElementById('main-interface').classList.add('hidden');
-        document.getElementById('login-screen').classList.remove('hidden');
-        currentStoreId = null;
-        storeEncours = [];
-        storeArchives = [];
-        showArchives = false;
-    }
+    function closeSidePanel() { document.getElementById('side-panel').classList.add('hidden'); }
+    function logout() { window.location.reload(); }
+    
+    // Initialisation forcée des icônes au démarrage
+    lucide.createIcons();
     </script>
 </body>
 </html>
