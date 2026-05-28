@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "28/05/2026 18:15",
+  "derniere_mise_a_jour": "28/05/2026 18:30",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159541",
@@ -461,6 +461,91 @@
           "Optimized"
         ]
       }
+    },
+    {
+      "ord_numb": "            10159639",
+      "id_commande_v2i": "260528000155",
+      "code_cote": "B",
+      "patient": "DA CRUZ ALVES CATARINA",
+      "job_cosium": "J205030180",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: DA CRUZ ALVES CATARINA / J205030180 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Dans les temps (J-5)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159640",
+      "id_commande_v2i": "260528000156",
+      "code_cote": "R",
+      "patient": "SARACENO CAMILLE",
+      "job_cosium": "J205030179",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: SARACENO CAMILLE / J205030179 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "1.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de AS Uni 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10159338",
