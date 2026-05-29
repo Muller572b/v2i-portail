@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:31",
+  "derniere_mise_a_jour": "29/05/2026 12:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159724",
@@ -396,6 +396,65 @@
       }
     },
     {
+      "ord_numb": "            10159578",
+      "id_commande_v2i": "260528000094",
+      "code_cote": "B",
+      "patient": "FAFET RYAN",
+      "job_cosium": "J121042397",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: FAFET RYAN / J121042397 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "1.25",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "2.75",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159511",
       "id_commande_v2i": "260528000027",
       "code_cote": "B",
@@ -443,65 +502,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Non durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159578",
-      "id_commande_v2i": "260528000094",
-      "code_cote": "B",
-      "patient": "FAFET RYAN",
-      "job_cosium": "J121042397",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: FAFET RYAN / J121042397 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "1.25",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "2.75",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
         ]
       }
     },
