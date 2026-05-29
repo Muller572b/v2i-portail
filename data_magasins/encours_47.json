@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "29/05/2026 14:55",
+  "derniere_mise_a_jour": "29/05/2026 15:20",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159710",
@@ -22,7 +22,7 @@
       "detail": "Réf: TAFANI CHRISTIANE / J160020715-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison : 03/06",
+      "statut": "Livraison prévue : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -64,61 +64,6 @@
           "Uni 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159709",
-      "id_commande_v2i": "260529000025",
-      "code_cote": "B",
-      "patient": "TAFANI CHRISTIANE",
-      "job_cosium": "J160020715-01",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: TAFANI CHRISTIANE / J160020715-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison : 03/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "3.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "5.00",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
         ]
       }
     },
@@ -129,10 +74,10 @@
       "patient": "COUVIDAT ANNIE",
       "job_cosium": "J160020713",
       "date_entree": "29/05/2026",
-      "detail": "Réf: COUVIDAT ANNIE / J160020713 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison : 09/06",
+      "detail": "Réf: COUVIDAT ANNIE / J160020713 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -178,6 +123,61 @@
       }
     },
     {
+      "ord_numb": "            10159709",
+      "id_commande_v2i": "260529000025",
+      "code_cote": "B",
+      "patient": "TAFANI CHRISTIANE",
+      "job_cosium": "J160020715-01",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: TAFANI CHRISTIANE / J160020715-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 03/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "3.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "5.00",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159756",
       "id_commande_v2i": "260529000072",
       "code_cote": "B",
@@ -187,7 +187,7 @@
       "detail": "Réf: PHILIPPON JORDAN / J160020718 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Livraison : 10/06",
+      "statut": "Livraison prévue : 10/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -242,7 +242,7 @@
       "detail": "Réf: ALFARO BEATRICE / J160020716 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Livraison : 04/06",
+      "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -301,7 +301,7 @@
       "detail": "Réf: GOGEON BRUNO / J160020709-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison : 03/06",
+      "statut": "Livraison prévue : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -362,7 +362,7 @@
       "detail": "Réf: GOGEON BRUNO / J160020709-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison : 03/06",
+      "statut": "Livraison prévue : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -423,7 +423,7 @@
       "detail": "Réf: GREGORIO EMMANUEL / J160020698 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison : 05/06",
+      "statut": "Livraison prévue : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -484,7 +484,7 @@
       "detail": "Réf: SUSANA — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison : 29/05 (Urgent)",
+      "statut": "Livraison prévue : 29/05 (Urgent)",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
