@@ -101,30 +101,43 @@
                         <span class="w-2 h-2 bg-[#ff3b30] rounded-full animate-pulse"></span> Flux Acuité.fr — Actualités de l'optique
                     </h2>
                     <div class="w-full overflow-hidden rounded-2xl bg-[#f5f5f7]">
-                        <iframe src="https://rss.app/embed/v1/wall/t4m7YfFAnIAnXn0J" class="w-full h-[500px] border-0" allowtransparency="true"></iframe>
+                        <iframe src="https://rss.app/embed/v1/wall/7M8GPR78ylXPeJ94" class="w-full h-[500px] border-0" allowtransparency="true"></iframe>
                     </div>
                 </div>
             </div>
             
             <div id="content-verres" class="tab-content hidden space-y-6">
-                
-                <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-xs flex flex-col md:flex-row gap-4 justify-between items-center">
-                    <div class="relative w-full md:flex-1">
+                <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-xs flex flex-col lg:flex-row gap-4 justify-between items-center">
+                    <div class="relative w-full lg:flex-1">
                         <i data-lucide="search" class="w-5 h-5 text-[#86868b] absolute left-4 top-3.5"></i>
                         <input type="text" id="search-verres" oninput="renderVerres()" 
-                               placeholder="Recherche multicritères (Nom, N° de BL, Job Cosium, Date...)" 
+                               placeholder="Recherche par Nom du patient, N° de BL, Job Cosium..." 
                                class="w-full pl-12 pr-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                     </div>
                     
-                    <button id="btn-toggle-archive" onclick="toggleArchives()" class="w-full md:w-auto bg-[#f5f5f7] hover:bg-gray-200 text-[#1d1d1f] border border-[#e8e8ed] text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer">
-                        <i data-lucide="archive" class="w-4 h-4"></i> Inclure les archives de l'année
-                    </button>
+                    <div class="w-full lg:w-auto flex flex-col sm:flex-row items-center gap-3">
+                        <div class="w-full sm:w-auto flex items-center gap-2 bg-[#f5f5f7] border border-[#e8e8ed] px-3 py-2 rounded-xl">
+                            <label for="date-debut" class="text-xs font-semibold text-[#1d1d1f] whitespace-nowrap flex items-center gap-1.5">
+                                <i data-lucide="calendar" class="w-4 h-4 text-[#86868b]"></i> Du :
+                            </label>
+                            <input type="date" id="date-debut" onchange="handleDateBoundsChange()" 
+                                   class="bg-transparent text-xs font-medium text-[#1d1d1f] focus:outline-none cursor-pointer">
+                        </div>
+
+                        <div class="w-full sm:w-auto flex items-center gap-2 bg-[#f5f5f7] border border-[#e8e8ed] px-3 py-2 rounded-xl">
+                            <label for="date-fin" class="text-xs font-semibold text-[#1d1d1f] whitespace-nowrap flex items-center gap-1.5">
+                                <i data-lucide="calendar" class="w-4 h-4 text-[#86868b]"></i> Au :
+                            </label>
+                            <input type="date" id="date-fin" onchange="renderVerres()" 
+                                   class="bg-transparent text-xs font-medium text-[#1d1d1f] focus:outline-none cursor-pointer">
+                        </div>
+                    </div>
                 </div>
 
                 <div id="archive-status-banner" class="hidden text-xs bg-[#e2f1ff] border border-[#bfe0ff]/50 text-[#0066cc] px-4 py-2.5 rounded-xl flex items-center justify-between">
                     <div class="flex items-center gap-2">
                         <i data-lucide="info" class="w-4 h-4"></i>
-                        <span id="archive-status-text">Archives de l'année en cours chargées avec succès.</span>
+                        <span id="archive-status-text">Archives chargées.</span>
                     </div>
                 </div>
 
@@ -134,10 +147,11 @@
                             <thead>
                                 <tr class="bg-[#f5f5f7] text-[#86868b] font-semibold text-xs border-b border-[#e8e8ed] tracking-wider font-mono">
                                     <th class="px-6 py-4">Référence (Patient)</th>
-                                    <th class="px-6 py-4">Produit</th> <th class="px-6 py-4">Date/Heure de Saisie</th>
+                                    <th class="px-6 py-4">Produit</th> 
+                                    <th class="px-6 py-4">Date/Heure de Saisie</th>
                                     <th class="px-6 py-4">Statut Fournisseur</th>
                                     <th class="px-6 py-4 text-[#ff9500] bg-[#fff5e6]/60 font-sans font-bold">Sortie / Livr. Prévue</th>
-                                    <th class="px-6 py-4 font-sans">N° Cde (BL)</th>
+                                    <th class="px-6 py-4">N° Cde (BL)</th>
                                     <th class="px-6 py-4 text-center w-20">Actions</th>
                                 </tr>
                             </thead>
@@ -182,7 +196,6 @@
                 </div>
 
                 <div class="p-6 space-y-6 flex-1 text-xs">
-                    
                     <div class="space-y-4">
                         <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Mesures de réfraction</h3>
                         <div class="border border-[#e8e8ed] rounded-xl overflow-hidden">
@@ -197,7 +210,7 @@
                                 <div id="od-add" class="font-mono">---</div>
                                 <div id="od-p1" class="font-mono">---</div>
                                 <div id="od-b1" class="font-mono">---</div>
-                                <div id="od-p2" class="font-mono bg-[#fff5e6] text-[#运输ff9500]">---</div>
+                                <div id="od-p2" class="font-mono bg-[#fff5e6] text-[#ff9500]">---</div>
                                 <div id="od-b2" class="font-mono bg-[#fff5e6] text-[#ff9500]">---</div>
                                 <div id="od-dia" class="font-bold">---</div>
                             </div>
@@ -251,224 +264,6 @@
         </div>
     </div>
 
-    <script>
-    let currentStoreId = null;
-    let storeEncours = [];
-    let storeArchives = [];
-    let showArchives = false;
-
-    async function handleLogin(e) {
-        e.preventDefault();
-        const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
-        const cosiumCode = document.getElementById('password').value.replace(/\s+/g, '').toUpperCase();
-        const errorEl = document.getElementById('login-error');
-        
-        const urlJsonEncours = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_magasins/encours_${clientNum}.json`;
-
-        try {
-            errorEl.classList.add('hidden');
-            const response = await fetch(urlJsonEncours);
-            if (!response.ok) throw new Error();
-            
-            const data = await response.json();
-
-            if (data.infos_magasin && cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
-                currentStoreId = clientNum;
-                storeEncours = data.commandes_en_cours || [];
-
-                document.getElementById('login-screen').classList.add('hidden');
-                document.getElementById('main-interface').classList.remove('hidden');
-                document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
-                
-                renderVerres();
-                switchTab('accueil'); 
-                preloadArchivesSilently();
-            } else {
-                errorEl.innerText = "Code Cosium (mot de passe) invalide.";
-                errorEl.classList.remove('hidden');
-            }
-        } catch (err) {
-            errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
-            errorEl.classList.remove('hidden');
-        }
-    }
-
-    async function preloadArchivesSilently() {
-        const anneeEnCours = new Date().getFullYear();
-        const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${anneeEnCours}/archive_${currentStoreId}.json`;
-        try {
-            const resp = await fetch(urlJsonArchive);
-            if (resp.ok) {
-                const archiveData = await resp.json();
-                storeArchives = archiveData.commandes_expediees || [];
-                document.getElementById('archive-status-text').innerText = `Archives de l'année ${anneeEnCours} synchronisées.`;
-            }
-        } catch (e) {
-            console.log("Pas d'archive disponible pour ce magasin.");
-        }
-    }
-
-    function toggleArchives() {
-        showArchives = !showArchives;
-        const btn = document.getElementById('btn-toggle-archive');
-        const banner = document.getElementById('archive-status-banner');
-        
-        if (showArchives) {
-            btn.innerHTML = `<i data-lucide="archive-x" class="w-4 h-4"></i> Masquer les archives`;
-            btn.className = "w-full md:w-auto bg-[#0066cc] text-white border border-transparent text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer shadow-sm";
-            if (storeArchives.length > 0) banner.classList.remove('hidden');
-        } else {
-            btn.innerHTML = `<i data-lucide="archive" class="w-4 h-4"></i> Inclure les archives de l'année`;
-            btn.className = "w-full md:w-auto bg-[#f5f5f7] hover:bg-gray-200 text-[#1d1d1f] border border-gray-200 text-xs font-semibold px-4 py-3 rounded-xl transition-all flex items-center justify-center gap-2 cursor-pointer";
-            banner.classList.add('hidden');
-        }
-        renderVerres();
-    }
-
-    function renderVerres() {
-        const tbody = document.getElementById('verres-table-body');
-        tbody.innerHTML = '';
-        const search = document.getElementById('search-verres').value.toLowerCase().trim();
-        const donneesAAfficher = showArchives ? [...storeEncours, ...storeArchives] : storeEncours;
-
-        if (donneesAAfficher.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium">Aucun enregistrement trouvé.</td></tr>`;
-            return;
-        }
-
-        donneesAAfficher.forEach((v, index) => {
-            const texteRecherche = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.date_entree} ${v.statut_affichage} ${v.type_commande}`.toLowerCase();
-            if (search && !texteRecherche.includes(search)) return;
-
-            const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
-            const listeSupplements = cibleVerre && cibleVerre.supplements ? cibleVerre.supplements : [];
-            
-            let htmlSupplements = '';
-            if (listeSupplements.length > 0) {
-                htmlSupplements = `
-                    <div class="flex flex-col gap-0.5 text-[11px] text-gray-600 font-medium leading-relaxed">
-                        ${listeSupplements.map(supp => `<span>• ${supp}</span>`).join('')}
-                    </div>
-                `;
-            } else {
-                htmlSupplements = `<span class="text-gray-400 italic text-[11px]">Aucun supplément</span>`;
-            }
-
-            tbody.innerHTML += `
-                <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs">
-                    <td class="px-6 py-4">
-                        <div class="font-bold text-[#1d1d1f] text-sm tracking-tight">${v.patient}</div>
-                        <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
-                    </td>
-                    <td class="px-6 py-4 font-sans">${htmlSupplements}</td> <td class="px-6 py-4 font-mono text-gray-500">${v.date_entree}</td>
-                    <td class="px-6 py-4 font-mono font-semibold text-gray-700">${v.statut_affichage}</td>
-                    <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${v.date_livraison_prevue || 'En calcul'}</td>
-                    <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${v.id_commande_v2i}</td>
-                    <td class="px-6 py-4 text-center">
-                        <button onclick="openSidePanel(${index}, ${storeEncours.includes(v)})" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] hover:bg-[#e2f1ff] border border-gray-200 hover:border-[#bfe0ff] rounded-xl transition-all cursor-pointer">
-                            <i data-lucide="eye" class="w-4 h-4 stroke-[2]"></i>
-                        </button>
-                    </td>
-                </tr>
-            `;
-        });
-        lucide.createIcons();
-    }
-
-    function openSidePanel(index, isFromEncours) {
-        const cmd = isFromEncours ? storeEncours[index] : storeArchives[index];
-        
-        document.getElementById('panel-patient').innerText = cmd.patient;
-        document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + cmd.id_commande_v2i;
-        document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
-        
-        if (cmd.oeil_droit) {
-            document.getElementById('panel-od-row').style.display = 'grid';
-            document.getElementById('od-sph').innerText = cmd.oeil_droit.sphere || '0.00';
-            document.getElementById('od-cyl').innerText = cmd.oeil_droit.cylindre || '0.00';
-            document.getElementById('od-axe').innerText = cmd.oeil_droit.axe || '0';
-            document.getElementById('od-add').innerText = cmd.oeil_droit.addition || '0.00';
-            document.getElementById('od-p1').innerText = cmd.oeil_droit.prisme_1 || '0.0';
-            document.getElementById('od-b1').innerText = cmd.oeil_droit.base_1 || '0';
-            document.getElementById('od-p2').innerText = cmd.oeil_droit.prisme_2 || cmd.oeil_droit.prism2 || '0.0';
-            document.getElementById('od-b2').innerText = cmd.oeil_droit.base_2 || cmd.oeil_droit.prbase2 || '0';
-            document.getElementById('od-dia').innerText = cmd.oeil_droit.diametre || cmd.oeil_droit.diam1 || '—';
-            
-            document.getElementById('morpho-od-ecart').innerText = cmd.oeil_droit.ecart_pupillaire ? cmd.oeil_droit.ecart_pupillaire + " mm" : "—";
-            document.getElementById('morpho-od-haut').innerText = cmd.oeil_droit.hauteur ? cmd.oeil_droit.hauteur + " mm" : "—";
-        } else {
-            document.getElementById('panel-od-row').style.display = 'none';
-            document.getElementById('morpho-od-ecart').innerText = "—";
-            document.getElementById('morpho-od-haut').innerText = "—";
-        }
-
-        if (cmd.oeil_gauche) {
-            document.getElementById('panel-og-row').style.display = 'grid';
-            document.getElementById('og-sph').innerText = cmd.oeil_gauche.sphere || '0.00';
-            document.getElementById('og-cyl').innerText = cmd.oeil_gauche.cylindre || '0.00';
-            document.getElementById('og-axe').innerText = cmd.oeil_gauche.axe || '0';
-            document.getElementById('og-add').innerText = cmd.oeil_gauche.addition || '0.00';
-            document.getElementById('og-p1').innerText = cmd.oeil_gauche.prisme_1 || '0.0';
-            document.getElementById('og-b1').innerText = cmd.oeil_gauche.base_1 || '0';
-            document.getElementById('og-p2').innerText = cmd.oeil_gauche.prisme_2 || cmd.oeil_gauche.prism2 || '0.0';
-            document.getElementById('og-b2').innerText = cmd.oeil_gauche.base_2 || cmd.oeil_gauche.prbase2 || '0';
-            document.getElementById('og-dia').innerText = cmd.oeil_gauche.diametre || cmd.oeil_gauche.diam1 || '—';
-            
-            document.getElementById('morpho-og-ecart').innerText = cmd.oeil_gauche.ecart_pupillaire ? cmd.oeil_gauche.ecart_pupillaire + " mm" : "—";
-            document.getElementById('morpho-og-haut').innerText = cmd.oeil_gauche.hauteur ? cmd.oeil_gauche.hauteur + " mm" : "—";
-        } else {
-            document.getElementById('panel-og-row').style.display = 'none';
-            document.getElementById('morpho-og-ecart').innerText = "—";
-            document.getElementById('morpho-og-haut').innerText = "—";
-        }
-
-        const containerSupps = document.getElementById('panel-supplements');
-        containerSupps.innerHTML = '';
-        const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
-        const uniques = [...new Set(allSupps)];
-
-        if (uniques.length > 0) {
-            uniques.forEach(s => {
-                containerSupps.innerHTML += `<span class="bg-[#f5f5f7] text-[#1d1d1f] border border-[#e8e8ed] px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
-            });
-        } else {
-            containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
-        }
-
-        document.getElementById('side-panel').classList.remove('hidden');
-        lucide.createIcons();
-    }
-
-    function closeSidePanel() {
-        document.getElementById('side-panel').classList.add('hidden');
-    }
-
-    function switchTab(tabId) {
-        document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
-        });
-        document.getElementById('content-' + tabId).classList.remove('hidden');
-        document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
-    }
-
-    function runCalculation() {
-        const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
-        const baseThickness = 2.0;
-        const calculated = (Math.abs(sph) * 0.3) + baseThickness;
-        document.getElementById('calc-result').innerText = calculated.toFixed(2);
-    }
-
-    function logout() {
-        document.getElementById('main-interface').classList.add('hidden');
-        document.getElementById('login-screen').classList.remove('hidden');
-        currentStoreId = null;
-        storeEncours = [];
-        storeArchives = [];
-        showArchives = false;
-    }
-    
-    lucide.createIcons();
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
