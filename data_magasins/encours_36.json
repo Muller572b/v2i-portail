@@ -10,59 +10,8 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "29/05/2026 09:26",
+  "derniere_mise_a_jour": "29/05/2026 09:56",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10159601",
-      "id_commande_v2i": "260528000117",
-      "code_cote": "B",
-      "patient": "TRAORE AMINATA",
-      "job_cosium": "J139053099",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: TRAORE AMINATA / J139053099 — (Stock) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Odiscount St. Uni 1.5 Xblue"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Odiscount St. Uni 1.5 Xblue"
-        ]
-      }
-    },
     {
       "ord_numb": "            10159602",
       "id_commande_v2i": "260528000118",
@@ -70,9 +19,9 @@
       "patient": "FALCONETTI JEAN YVES",
       "job_cosium": "J139053101",
       "date_entree": "28/05/2026",
-      "detail": "Réf: FALCONETTI JEAN YVES / J139053101 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: FALCONETTI JEAN YVES / J139053101 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-11)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -125,9 +74,9 @@
       "patient": "NAJIM AZIZ",
       "job_cosium": "J139053097",
       "date_entree": "28/05/2026",
-      "detail": "Réf: NAJIM AZIZ / J139053097 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: NAJIM AZIZ / J139053097 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-14)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -180,9 +129,9 @@
       "patient": "BALDI CHRISTINA",
       "job_cosium": "J139053092",
       "date_entree": "28/05/2026",
-      "detail": "Réf: BALDI CHRISTINA / J139053092 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: BALDI CHRISTINA / J139053092 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-10)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -223,6 +172,112 @@
         "supplements": [
           "Prestige Flex 1.6 Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159607",
+      "id_commande_v2i": "260528000123",
+      "code_cote": "B",
+      "patient": "SOLAS JEAN FRANCOIS",
+      "job_cosium": "J139053087",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: SOLAS JEAN FRANCOIS / J139053087 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-14)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Prestige Flex 1.6 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.50",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Prestige Flex 1.6 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159601",
+      "id_commande_v2i": "260528000117",
+      "code_cote": "B",
+      "patient": "TRAORE AMINATA",
+      "job_cosium": "J139053099",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: TRAORE AMINATA / J139053099 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Dans les temps (J-4)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Odiscount St. Uni 1.5 Xblue"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Odiscount St. Uni 1.5 Xblue"
         ]
       }
     },
@@ -274,61 +329,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Odiscount St. Uni 1.5 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159607",
-      "id_commande_v2i": "260528000123",
-      "code_cote": "B",
-      "patient": "SOLAS JEAN FRANCOIS",
-      "job_cosium": "J139053087",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: SOLAS JEAN FRANCOIS / J139053087 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-14)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Prestige Flex 1.6 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.50",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Prestige Flex 1.6 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
         ]
       }
     },
