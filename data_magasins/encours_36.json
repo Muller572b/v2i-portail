@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:10",
+  "derniere_mise_a_jour": "29/05/2026 12:31",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159602",
@@ -176,6 +176,61 @@
       }
     },
     {
+      "ord_numb": "            10159607",
+      "id_commande_v2i": "260528000123",
+      "code_cote": "B",
+      "patient": "SOLAS JEAN FRANCOIS",
+      "job_cosium": "J139053087",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: SOLAS JEAN FRANCOIS / J139053087 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Dans les temps (J-14)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Prestige Flex 1.6 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.50",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Prestige Flex 1.6 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159660",
       "id_commande_v2i": "260528000176",
       "code_cote": "B",
@@ -286,70 +341,15 @@
       }
     },
     {
-      "ord_numb": "            10159607",
-      "id_commande_v2i": "260528000123",
-      "code_cote": "B",
-      "patient": "SOLAS JEAN FRANCOIS",
-      "job_cosium": "J139053087",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: SOLAS JEAN FRANCOIS / J139053087 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-14)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Prestige Flex 1.6 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.50",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Prestige Flex 1.6 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159668",
       "id_commande_v2i": "260528000184",
       "code_cote": "B",
       "patient": "FAIOLA GIOACCHINO",
       "job_cosium": "J139053107",
       "date_entree": "28/05/2026",
-      "detail": "Réf: FAIOLA GIOACCHINO / J139053107 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: FAIOLA GIOACCHINO / J139053107 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Dans les temps (J-17)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
