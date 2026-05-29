@@ -10,65 +10,8 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "29/05/2026 09:26",
+  "derniere_mise_a_jour": "29/05/2026 09:56",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10159503",
-      "id_commande_v2i": "260528000019",
-      "code_cote": "B",
-      "patient": "TPURNEMINE FRANCINE",
-      "job_cosium": "",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: TPURNEMINE FRANCINE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 40,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Lecture2 1.5 Durci",
-          "Teinte Noir C",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 150,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Lecture2 1.5 Durci",
-          "Teinte Noir C",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      }
-    },
     {
       "ord_numb": "            10159537",
       "id_commande_v2i": "260528000053",
@@ -76,9 +19,9 @@
       "patient": "CHARLES PHILIPPE",
       "job_cosium": "J133035680",
       "date_entree": "28/05/2026",
-      "detail": "Réf: CHARLES PHILIPPE / J133035680 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: CHARLES PHILIPPE / J133035680 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Dans les temps (J-11)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -243,66 +186,15 @@
       }
     },
     {
-      "ord_numb": "            10159539",
-      "id_commande_v2i": "260528000055",
-      "code_cote": "B",
-      "patient": "BOURDON JUSTINE YOLANDE",
-      "job_cosium": "J133035682",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: BOURDON JUSTINE YOLANDE / J133035682 — (Stock) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.3",
-        "hauteur": "26.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159585",
       "id_commande_v2i": "260528000101",
       "code_cote": "B",
       "patient": "PAHONTU MIHAELA",
       "job_cosium": "J133035684",
       "date_entree": "28/05/2026",
-      "detail": "Réf: PAHONTU MIHAELA / J133035684 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: PAHONTU MIHAELA / J133035684 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-11)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -351,6 +243,57 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159539",
+      "id_commande_v2i": "260528000055",
+      "code_cote": "B",
+      "patient": "BOURDON JUSTINE YOLANDE",
+      "job_cosium": "J133035682",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: BOURDON JUSTINE YOLANDE / J133035682 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Dans les temps (J-4)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.3",
+        "hauteur": "26.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -469,70 +412,15 @@
       }
     },
     {
-      "ord_numb": "            10159386",
-      "id_commande_v2i": "260527000108",
-      "code_cote": "B",
-      "patient": "GUIBLIN MELISSA",
-      "job_cosium": "J133035664",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: GUIBLIN MELISSA / J133035664 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.75",
-        "cylindre": "1.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "1.25",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Noir C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159392",
       "id_commande_v2i": "260527000114",
       "code_cote": "B",
       "patient": "GAUDIN JACQUELINE",
       "job_cosium": "J133035674-01",
       "date_entree": "27/05/2026",
-      "detail": "Réf: GAUDIN JACQUELINE / J133035674-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: GAUDIN JACQUELINE / J133035674-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Dans les temps (J-10)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -581,6 +469,61 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159419",
+      "id_commande_v2i": "260527000141",
+      "code_cote": "B",
+      "patient": "OPPE VERONIQUE",
+      "job_cosium": "J133035601",
+      "date_entree": "27/05/2026",
+      "detail": "Réf: OPPE VERONIQUE / J133035601 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Dans les temps (J-10)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -635,61 +578,6 @@
         "supplements": [
           "CLA Unifocal 1.5 HC AR",
           "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159419",
-      "id_commande_v2i": "260527000141",
-      "code_cote": "B",
-      "patient": "OPPE VERONIQUE",
-      "job_cosium": "J133035601",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: OPPE VERONIQUE / J133035601 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "0.75",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -803,67 +691,6 @@
         "supplements": [
           "Affiny Confort2 1.67 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159450",
-      "id_commande_v2i": "260527000172",
-      "code_cote": "B",
-      "patient": "PIETRI KARINE",
-      "job_cosium": "J133035677-01",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: PIETRI KARINE / J133035677-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-7.25",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-7.50",
-        "cylindre": "0.50",
-        "axe": 65,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.2",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Affiny Confort 1.6 Durci",
-          "Teinte Dégradée Brun C",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Offert",
