@@ -267,55 +267,56 @@
             </div>
         </div>
     </div>
+
     <script>
-    let currentStoreId = null;
-    let storeEncours = [];
-    let storeArchives = []; 
-    let autoArchivesIncluded = false; 
-    let loadedYears = []; 
+        let currentStoreId = null;
+        let storeEncours = [];
+        let storeArchives = []; 
+        let autoArchivesIncluded = false; 
+        let loadedYears = []; 
 
-    async function handleLogin(e) {
-    e.preventDefault();
-    const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
-    const cosiumCode = document.getElementById('password').value.replace(/\s+/g, '').toUpperCase();
-    const errorEl = document.getElementById('login-error');
-    
-    const urlJsonEncours = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_magasins/encours_${clientNum}.json`;
-
-    try {
-        errorEl.classList.add('hidden');
-        const response = await fetch(urlJsonEncours);
-        if (!response.ok) throw new Error();
-        
-        const data = await response.json();
-
-        if (data.infos_magasin && cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
-            currentStoreId = clientNum;
-            storeEncours = data.commandes_en_cours || [];
-
-            document.getElementById('login-screen').classList.add('hidden');
-            document.getElementById('main-interface').classList.remove('hidden');
-            document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
+        async function handleLogin(e) {
+            e.preventDefault();
+            const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
+            const cosiumCode = document.getElementById('password').value.replace(/\s+/g, '').toUpperCase();
+            const errorEl = document.getElementById('login-error');
             
-            autoArchivesIncluded = false;
-            storeArchives = [];
-            loadedYears = [];
-            document.getElementById('date-debut').value = '';
-            document.getElementById('date-fin').value = '';
-            document.getElementById('archive-status-banner').classList.add('hidden');
+            const urlJsonEncours = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_magasins/encours_${clientNum}.json`;
 
-            renderVerres();
-            switchTab('accueil'); 
-            
-            window.addEventListener('scroll', handleScrollLoad);
-        } else {
-            errorEl.innerText = "Code Cosium (mot de passe) invalide.";
-            errorEl.classList.remove('hidden');
-        }
-    } catch (err) {
-        errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
-        errorEl.classList.remove('hidden');
-    }
+            try {
+                errorEl.classList.add('hidden');
+                const response = await fetch(urlJsonEncours);
+                if (!response.ok) throw new Error();
+                
+                const data = await response.json();
+
+                if (data.infos_magasin && cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
+                    currentStoreId = clientNum;
+                    storeEncours = data.commandes_en_cours || [];
+
+                    document.getElementById('login-screen').classList.add('hidden');
+                    document.getElementById('main-interface').classList.remove('hidden');
+                    document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
+                    
+                    autoArchivesIncluded = false;
+                    storeArchives = [];
+                    loadedYears = [];
+                    document.getElementById('date-debut').value = '';
+                    document.getElementById('date-fin').value = '';
+                    document.getElementById('archive-status-banner').classList.add('hidden');
+
+                    renderVerres();
+                    switchTab('accueil'); 
+                    
+                    window.addEventListener('scroll', handleScrollLoad);
+                } else {
+                    errorEl.innerText = "Code Cosium (mot de passe) invalide.";
+                    errorEl.classList.remove('hidden');
+                }
+            } catch (err) {
+                errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
+                errorEl.classList.remove('hidden');
+            }
         }
         
         async function loadArchiveYear(year) {
@@ -448,7 +449,6 @@
                     `;
                 }
         
-                // Reconstruction propre des cellules correspondantes au TH du tableau original
                 tbody.innerHTML += `
                     <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs border-b border-[#e8e8ed]">
                         <td class="px-6 py-4">
@@ -572,7 +572,7 @@
         }
         
         // Initialisation globale des icônes au chargement initial du script
-    lucide.createIcons();
+        lucide.createIcons();
     </script>
 </body>
 </html>
