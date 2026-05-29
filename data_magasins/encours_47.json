@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:51",
+  "derniere_mise_a_jour": "29/05/2026 13:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159709",
@@ -22,7 +22,7 @@
       "detail": "Réf: TAFANI CHRISTIANE / J160020715-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -64,61 +64,6 @@
           "Vista Uni 1.6 Durci",
           "Durci Inclus",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159710",
-      "id_commande_v2i": "260529000026",
-      "code_cote": "B",
-      "patient": "TAFANI CHRISTIANE",
-      "job_cosium": "J160020715-02",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: TAFANI CHRISTIANE / J160020715-02 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "3.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "5.00",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -129,10 +74,10 @@
       "patient": "COUVIDAT ANNIE",
       "job_cosium": "J160020713",
       "date_entree": "29/05/2026",
-      "detail": "Réf: COUVIDAT ANNIE / J160020713 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-17)",
+      "detail": "Réf: COUVIDAT ANNIE / J160020713 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -178,6 +123,116 @@
       }
     },
     {
+      "ord_numb": "            10159710",
+      "id_commande_v2i": "260529000026",
+      "code_cote": "B",
+      "patient": "TAFANI CHRISTIANE",
+      "job_cosium": "J160020715-02",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: TAFANI CHRISTIANE / J160020715-02 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 03/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "3.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "5.00",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159756",
+      "id_commande_v2i": "260529000072",
+      "code_cote": "B",
+      "patient": "PHILIPPON JORDAN",
+      "job_cosium": "J160020718",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: PHILIPPON JORDAN / J160020718 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "1.75",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.2",
+        "supplements": [
+          "CLA Unifocal 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "2.00",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.3",
+        "supplements": [
+          "CLA Unifocal 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159580",
       "id_commande_v2i": "260528000096",
       "code_cote": "B",
@@ -187,7 +242,7 @@
       "detail": "Réf: GOGEON BRUNO / J160020709-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -248,7 +303,7 @@
       "detail": "Réf: GOGEON BRUNO / J160020709-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -309,7 +364,7 @@
       "detail": "Réf: CUSTODIO LEONARDO RAMOS MARIA / J160020694-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -364,7 +419,7 @@
       "detail": "Réf: LOPPE SWANN / J160020696 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -419,7 +474,7 @@
       "detail": "Réf: GOMES FERREIRA MIRANDA LILIANA / J160020701 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -480,7 +535,7 @@
       "detail": "Réf: SALOME NICOLE / J160020700-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -541,7 +596,7 @@
       "detail": "Réf: GOGEON MATHIS / J160020702 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -604,7 +659,7 @@
       "detail": "Réf: GREGORIO EMMANUEL / J160020698 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-13)",
+      "statut": "Livraison : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -665,8 +720,8 @@
       "detail": "Réf: SUSANA — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-5)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
