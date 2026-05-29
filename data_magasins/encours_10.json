@@ -10,8 +10,69 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:51",
+  "derniere_mise_a_jour": "29/05/2026 13:25",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159742",
+      "id_commande_v2i": "260529000058",
+      "code_cote": "B",
+      "patient": "LORET MARIE-PAULE",
+      "job_cosium": "J145063239",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: LORET MARIE-PAULE / J145063239 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.2",
+        "hauteur": "27.5",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.4",
+        "hauteur": "27.5",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159498",
       "id_commande_v2i": "260528000014",
@@ -22,7 +83,7 @@
       "detail": "Réf: SPAGNOLI PIERRE / J145063224-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -79,7 +140,7 @@
       "detail": "Réf: TROUVE EDITH MICHELE / J145063218-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -134,7 +195,7 @@
       "detail": "Réf: MANFREDI LESIA ISABELLE / J145063229 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-7)",
+      "statut": "Livraison : 01/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": null,
       "oeil_gauche": {
@@ -172,8 +233,8 @@
       "detail": "Réf: TROUVE EDITH MICHELE / J145063222-02 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-3)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 28/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -223,8 +284,8 @@
       "detail": "Réf: SPAGNOLI PIERRE / J145063224-02 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -276,8 +337,8 @@
       "detail": "Réf: HOAREAU BRUNO / J145063225 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -327,8 +388,8 @@
       "detail": "Réf: HOAREAU BRUNO / J145063226 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -378,7 +439,7 @@
       "detail": "Réf: BOUCINHA PORTELA MARIA JULIA / J145063227 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -433,7 +494,7 @@
       "detail": "Réf: CARSILLO MARIE / J145063216-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -488,7 +549,7 @@
       "detail": "Réf: CAMMAROTA HUMBERT / J145063201 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-14)",
+      "statut": "Livraison : 08/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -545,7 +606,7 @@
       "detail": "Réf: CAMMAROTA HUMBERT / J145063200 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-13)",
+      "statut": "Livraison : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -600,8 +661,8 @@
       "detail": "Réf: CARSILLO MARIE / J145063216-02 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-6)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
