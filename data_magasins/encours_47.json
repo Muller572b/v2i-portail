@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "29/05/2026 13:40",
+  "derniere_mise_a_jour": "29/05/2026 13:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159709",
@@ -233,6 +233,65 @@
       }
     },
     {
+      "ord_numb": "            10159761",
+      "id_commande_v2i": "260529000077",
+      "code_cote": "B",
+      "patient": "ALFARO BEATRICE",
+      "job_cosium": "J160020716",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: ALFARO BEATRICE / J160020716 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "27.6",
+        "hauteur": "37.1",
+        "supplements": [
+          "Vista Relax 1.5 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "27.6",
+        "hauteur": "36.7",
+        "supplements": [
+          "Vista Relax 1.5 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159580",
       "id_commande_v2i": "260528000096",
       "code_cote": "B",
@@ -355,61 +414,6 @@
       }
     },
     {
-      "ord_numb": "            10159335",
-      "id_commande_v2i": "260527000057",
-      "code_cote": "B",
-      "patient": "CUSTODIO LEONARDO RAMOS MARIA",
-      "job_cosium": "J160020694-01",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: CUSTODIO LEONARDO RAMOS MARIA / J160020694-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison : 02/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "0.75",
-        "axe": 150,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "0.75",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159422",
       "id_commande_v2i": "260527000144",
       "code_cote": "B",
@@ -462,67 +466,6 @@
         "hauteur": "28.8",
         "supplements": [
           "Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159424",
-      "id_commande_v2i": "260527000146",
-      "code_cote": "B",
-      "patient": "SALOME NICOLE",
-      "job_cosium": "J160020700-01",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: SALOME NICOLE / J160020700-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison : 02/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "29.1",
-        "supplements": [
-          "Delta Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "1.50",
-        "axe": 80,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "29.9",
-        "supplements": [
-          "Delta Equilibre2 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
