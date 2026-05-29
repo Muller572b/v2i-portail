@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "29/05/2026 11:10",
+  "derniere_mise_a_jour": "29/05/2026 11:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159602",
@@ -176,6 +176,61 @@
       }
     },
     {
+      "ord_numb": "            10159661",
+      "id_commande_v2i": "260528000177",
+      "code_cote": "B",
+      "patient": "DA SILVA AZEVEDO LAURINDA",
+      "job_cosium": "J139053102",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: DA SILVA AZEVEDO LAURINDA / J139053102 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Dans les temps (J-17)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159607",
       "id_commande_v2i": "260528000123",
       "code_cote": "B",
@@ -286,13 +341,13 @@
       }
     },
     {
-      "ord_numb": "            10159661",
-      "id_commande_v2i": "260528000177",
+      "ord_numb": "            10159668",
+      "id_commande_v2i": "260528000184",
       "code_cote": "B",
-      "patient": "DA SILVA AZEVEDO LAURINDA",
-      "job_cosium": "J139053102",
+      "patient": "FAIOLA GIOACCHINO",
+      "job_cosium": "J139053107",
       "date_entree": "28/05/2026",
-      "detail": "Réf: DA SILVA AZEVEDO LAURINDA / J139053102 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: FAIOLA GIOACCHINO / J139053107 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-17)",
@@ -300,20 +355,20 @@
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 165,
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 55,
         "addition": "2.50",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "29.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "21.0",
         "supplements": [
-          "CLA Progressif 1.6 HC AR",
+          "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
         ]
@@ -321,20 +376,20 @@
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 180,
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 20,
         "addition": "2.50",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "29.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "21.0",
         "supplements": [
-          "CLA Progressif 1.6 HC AR",
+          "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
         ]
@@ -496,70 +551,15 @@
       }
     },
     {
-      "ord_numb": "            10159668",
-      "id_commande_v2i": "260528000184",
-      "code_cote": "B",
-      "patient": "FAIOLA GIOACCHINO",
-      "job_cosium": "J139053107",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: FAIOLA GIOACCHINO / J139053107 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-17)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "21.0",
-        "supplements": [
-          "CLA Progressif 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "21.0",
-        "supplements": [
-          "CLA Progressif 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159474",
       "id_commande_v2i": "260527000196",
       "code_cote": "B",
       "patient": "MOSCARDINI BERNARD",
       "job_cosium": "J139053083-02",
       "date_entree": "27/05/2026",
-      "detail": "Réf: MOSCARDINI BERNARD / J139053083-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: MOSCARDINI BERNARD / J139053083-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Dans les temps (J-10)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -834,9 +834,9 @@
       "patient": "SERENI ANGE",
       "job_cosium": "J139053073",
       "date_entree": "26/05/2026",
-      "detail": "Réf: SERENI ANGE / J139053073 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: SERENI ANGE / J139053073 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Dans les temps (J-10)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
