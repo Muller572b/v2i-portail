@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "29/05/2026 11:25",
+  "derniere_mise_a_jour": "29/05/2026 11:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159655",
@@ -123,6 +123,61 @@
       }
     },
     {
+      "ord_numb": "            10159653",
+      "id_commande_v2i": "260528000169",
+      "code_cote": "B",
+      "patient": "FRIMIGACCI MARTINE",
+      "job_cosium": "J600029022",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: FRIMIGACCI MARTINE / J600029022 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-17)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "0.50",
+        "axe": 130,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.75",
+        "axe": 145,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159654",
       "id_commande_v2i": "260528000170",
       "code_cote": "B",
@@ -178,70 +233,15 @@
       }
     },
     {
-      "ord_numb": "            10159653",
-      "id_commande_v2i": "260528000169",
-      "code_cote": "B",
-      "patient": "FRIMIGACCI MARTINE",
-      "job_cosium": "J600029022",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: FRIMIGACCI MARTINE / J600029022 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-17)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "0.50",
-        "axe": 130,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "0.75",
-        "axe": 145,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159656",
       "id_commande_v2i": "260528000172",
       "code_cote": "B",
       "patient": "BELLINI MONIQUE",
       "job_cosium": "J600029018-01",
       "date_entree": "28/05/2026",
-      "detail": "Réf: BELLINI MONIQUE / J600029018-01 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: BELLINI MONIQUE / J600029018-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-17)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
