@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:31",
+  "derniere_mise_a_jour": "29/05/2026 12:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159703",
@@ -444,6 +444,67 @@
       }
     },
     {
+      "ord_numb": "            10159642",
+      "id_commande_v2i": "260528000158",
+      "code_cote": "B",
+      "patient": "BESSIERE ANGE",
+      "job_cosium": "J205030154",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: BESSIERE ANGE / J205030154 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.25",
+        "cylindre": "1.00",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "25.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.75",
+        "cylindre": "0.75",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "26.2",
+        "hauteur": "27.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159574",
       "id_commande_v2i": "260528000090",
       "code_cote": "B",
@@ -550,67 +611,6 @@
           "O2 2e St. Uni 1.5",
           "Teinte G15 C",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159642",
-      "id_commande_v2i": "260528000158",
-      "code_cote": "B",
-      "patient": "BESSIERE ANGE",
-      "job_cosium": "J205030154",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: BESSIERE ANGE / J205030154 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.25",
-        "cylindre": "1.00",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "25.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.75",
-        "cylindre": "0.75",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "26.2",
-        "hauteur": "27.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
