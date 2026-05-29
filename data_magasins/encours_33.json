@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "29/05/2026 16:30",
+  "derniere_mise_a_jour": "29/05/2026 17:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159748",
@@ -190,9 +190,9 @@
       "patient": "SOUADET CHRISTINE",
       "job_cosium": "J140026104-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: SOUADET CHRISTINE / J140026104-02 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: SOUADET CHRISTINE / J140026104-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -251,9 +251,9 @@
       "patient": "DE MARI GERARD",
       "job_cosium": "J140026113-01",
       "date_entree": "29/05/2026",
-      "detail": "Réf: DE MARI GERARD / J140026113-01 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: DE MARI GERARD / J140026113-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -314,9 +314,9 @@
       "patient": "DE MARI GERARD",
       "job_cosium": "J140026113-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: DE MARI GERARD / J140026113-02 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: DE MARI GERARD / J140026113-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -365,94 +365,6 @@
           "Optimized"
         ]
       }
-    },
-    {
-      "ord_numb": "            10159791",
-      "id_commande_v2i": "260529000107",
-      "code_cote": "B",
-      "patient": "MAESTRONI CELINE",
-      "job_cosium": "J140026116",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: MAESTRONI CELINE / J140026116 — (Stock) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Livraison prévue : 02/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10158833",
-      "id_commande_v2i": "260522000136",
-      "code_cote": "R",
-      "patient": "MIRAILLES",
-      "job_cosium": "",
-      "date_entree": "22/05/2026",
-      "detail": "Réf: MIRAILLES — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     }
   ]
 }
