@@ -10,8 +10,61 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "29/05/2026 09:26",
+  "derniere_mise_a_jour": "29/05/2026 09:56",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159677",
+      "id_commande_v2i": "260528000193",
+      "code_cote": "B",
+      "patient": "ROGNONI CHARLES PIERRE",
+      "job_cosium": "J143053704-01",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: ROGNONI CHARLES PIERRE / J143053704-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-10)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 165,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159669",
       "id_commande_v2i": "260528000185",
@@ -400,59 +453,6 @@
       }
     },
     {
-      "ord_numb": "            10159677",
-      "id_commande_v2i": "260528000193",
-      "code_cote": "B",
-      "patient": "ROGNONI CHARLES PIERRE",
-      "job_cosium": "J143053704-01",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: ROGNONI CHARLES PIERRE / J143053704-01 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 165,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159678",
       "id_commande_v2i": "260528000194",
       "code_cote": "B",
@@ -754,9 +754,9 @@
       "patient": "PIERUCCI JOSEPHINE",
       "job_cosium": "J143053679",
       "date_entree": "27/05/2026",
-      "detail": "Réf: PIERUCCI JOSEPHINE / J143053679 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: PIERUCCI JOSEPHINE / J143053679 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Dans les temps (J-10)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -803,59 +803,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159457",
-      "id_commande_v2i": "260527000179",
-      "code_cote": "B",
-      "patient": "MOSCONI PAULE-EMMANUELL",
-      "job_cosium": "J143053687",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: MOSCONI PAULE-EMMANUELL / J143053687 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-7)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 95,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "33.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "33.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
         ]
       }
     },
