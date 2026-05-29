@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:51",
+  "derniere_mise_a_jour": "29/05/2026 13:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159696",
@@ -22,7 +22,7 @@
       "detail": "Réf: GERBAUD MARYSE / J144101361-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -75,7 +75,7 @@
       "detail": "Réf: GERBAUD MARYSE / J144101361-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -130,7 +130,7 @@
       "detail": "Réf: ANGELOTTI JEAN-MARC / J144101366-02 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-5)",
+      "statut": "Livraison : 01/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -181,7 +181,7 @@
       "detail": "Réf: ANGELOTTI JEAN-MARC / J144101363 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-5)",
+      "statut": "Livraison : 01/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -223,6 +223,57 @@
       }
     },
     {
+      "ord_numb": "            10159755",
+      "id_commande_v2i": "260529000071",
+      "code_cote": "B",
+      "patient": "GIACOBBI ANGELIQUE",
+      "job_cosium": "J144101324",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: GIACOBBI ANGELIQUE / J144101324 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 01/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159689",
       "id_commande_v2i": "260529000005",
       "code_cote": "B",
@@ -232,7 +283,7 @@
       "detail": "Réf: AMORIM DE FARIA — (Fabrication RX) — État: Commande teintée",
       "statut_code": "TINT",
       "statut_affichage": "Commande teintée",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -287,7 +338,7 @@
       "detail": "Réf: CARDI MONIQUE / J144101342-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -342,7 +393,7 @@
       "detail": "Réf: ETTAQUI ABDELMALEK / J144101265 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-17)",
+      "statut": "Livraison : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -397,7 +448,7 @@
       "detail": "Réf: PANARIELLO ANNE MARIE / J144101349 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -458,7 +509,7 @@
       "detail": "Réf: ERSA ANGE / J144101357-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -513,7 +564,7 @@
       "detail": "Réf: AFONSO DA PINHEIRA LISANDRU / J144101352 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -568,8 +619,8 @@
       "detail": "Réf: BERTILORENZI HENRIETTE / J144101287 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -619,8 +670,8 @@
       "detail": "Réf: BERTILORENZI HENRIETTE / J144101286 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -670,8 +721,8 @@
       "detail": "Réf: VANNUCCI MARIE JOSEE / J144101246 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -721,8 +772,8 @@
       "detail": "Réf: PATUREL NADINE / J144101338 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -763,59 +814,6 @@
       }
     },
     {
-      "ord_numb": "            10159665",
-      "id_commande_v2i": "260528000181",
-      "code_cote": "B",
-      "patient": "ERSA ANGE",
-      "job_cosium": "J144101357-02",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: ERSA ANGE / J144101357-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "3.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "3.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159436",
       "id_commande_v2i": "260527000158",
       "code_cote": "B",
@@ -825,7 +823,7 @@
       "detail": "Réf: CAPRIN FRANCETTE / J144101326-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -880,7 +878,7 @@
       "detail": "Réf: POULY AXEL / J144101329 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -937,7 +935,7 @@
       "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101308-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -998,7 +996,7 @@
       "detail": "Réf: GUILLAUMIN CATHERINE / J144101318 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-14)",
+      "statut": "Livraison : 08/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -1053,7 +1051,7 @@
       "detail": "Réf: WOLNIEWICZ ANNE-SOPHIE / J144101331-01 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -1108,8 +1106,8 @@
       "detail": "Réf: WOLNIEWICZ ANNE-SOPHIE / J144101331-02 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-3)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 28/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -1159,8 +1157,8 @@
       "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101308-01 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-3)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 28/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -1210,8 +1208,8 @@
       "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101308-03 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -1263,7 +1261,7 @@
       "detail": "Réf: DOUKKALI ABDESLAM / J144101270 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -1318,7 +1316,7 @@
       "detail": "Réf: FILONI PASCAL / J144101273 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -1373,7 +1371,7 @@
       "detail": "Réf: CARRIER AYMERIC / J144101259 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "En retard de 1 j.",
+      "statut": "Livraison : 27/05 (En retard)",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -1426,8 +1424,8 @@
       "detail": "Réf: TOMASI TAMARA / J144101167-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-3)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 27/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -1481,8 +1479,8 @@
       "detail": "Réf: TOMASI TAMARA / J144101167-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-3)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 27/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -1536,8 +1534,8 @@
       "detail": "Réf: PIETRELLE ELODIE / J144101170-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-3)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 27/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
