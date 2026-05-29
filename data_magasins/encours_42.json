@@ -10,8 +10,69 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "29/05/2026 09:26",
+  "derniere_mise_a_jour": "29/05/2026 09:56",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159514",
+      "id_commande_v2i": "260528000030",
+      "code_cote": "B",
+      "patient": "DENEGRI LUCIE",
+      "job_cosium": "J148017813-02",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: DENEGRI LUCIE / J148017813-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159510",
       "id_commande_v2i": "260528000026",
@@ -64,67 +125,6 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159514",
-      "id_commande_v2i": "260528000030",
-      "code_cote": "B",
-      "patient": "DENEGRI LUCIE",
-      "job_cosium": "J148017813-02",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: DENEGRI LUCIE / J148017813-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.00",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
@@ -186,59 +186,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159517",
-      "id_commande_v2i": "260528000033",
-      "code_cote": "B",
-      "patient": "MARI DAVID",
-      "job_cosium": "J148017811-02",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: MARI DAVID / J148017811-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.25",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
         ]
       }
     },
@@ -310,9 +257,9 @@
       "patient": "MEHAL JEAN ELIE",
       "job_cosium": "J148017818-01",
       "date_entree": "28/05/2026",
-      "detail": "Réf: MEHAL JEAN ELIE / J148017818-01 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: MEHAL JEAN ELIE / J148017818-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-12)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -371,9 +318,9 @@
       "patient": "MEHAL JEAN ELIE",
       "job_cosium": "J148017818-02",
       "date_entree": "28/05/2026",
-      "detail": "Réf: MEHAL JEAN ELIE / J148017818-02 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: MEHAL JEAN ELIE / J148017818-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-11)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -430,9 +377,9 @@
       "patient": "MEHAL LE THUY TIEN",
       "job_cosium": "J148017817-01",
       "date_entree": "28/05/2026",
-      "detail": "Réf: MEHAL LE THUY TIEN / J148017817-01 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: MEHAL LE THUY TIEN / J148017817-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Dans les temps (J-11)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -530,6 +477,65 @@
       }
     },
     {
+      "ord_numb": "            10159462",
+      "id_commande_v2i": "260527000184",
+      "code_cote": "B",
+      "patient": "VAUGRAND JEAN JACQUES",
+      "job_cosium": "J148017807-02",
+      "date_entree": "27/05/2026",
+      "detail": "Réf: VAUGRAND JEAN JACQUES / J148017807-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Dans les temps (J-10)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159380",
       "id_commande_v2i": "260527000102",
       "code_cote": "B",
@@ -581,65 +587,6 @@
           "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159462",
-      "id_commande_v2i": "260527000184",
-      "code_cote": "B",
-      "patient": "VAUGRAND JEAN JACQUES",
-      "job_cosium": "J148017807-02",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: VAUGRAND JEAN JACQUES / J148017807-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-10)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
         ]
       }
     },
