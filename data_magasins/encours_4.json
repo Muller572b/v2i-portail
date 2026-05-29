@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "29/05/2026 09:56",
+  "derniere_mise_a_jour": "29/05/2026 10:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159689",
@@ -68,44 +68,45 @@
       }
     },
     {
-      "ord_numb": "            10159691",
-      "id_commande_v2i": "260529000007",
+      "ord_numb": "            10159696",
+      "id_commande_v2i": "260529000012",
       "code_cote": "B",
-      "patient": "PASQUALINI MARIE JEANNE",
-      "job_cosium": "J144101359-01",
+      "patient": "GERBAUD MARYSE",
+      "job_cosium": "J144101361-01",
       "date_entree": "29/05/2026",
-      "detail": "Réf: PASQUALINI MARIE JEANNE / J144101359-01 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: GERBAUD MARYSE / J144101361-01 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-7)",
+      "statut": "Dans les temps (J-10)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
+        "ecart_pupillaire": "31.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin Uni 1.5 Non Durci"
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
@@ -114,49 +115,52 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin Uni 1.5 Non Durci"
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
     {
-      "ord_numb": "            10159692",
-      "id_commande_v2i": "260529000008",
+      "ord_numb": "            10159697",
+      "id_commande_v2i": "260529000013",
       "code_cote": "B",
-      "patient": "PASQUALINI MARIE JEANNE",
-      "job_cosium": "J144101359-02",
+      "patient": "GERBAUD MARYSE",
+      "job_cosium": "J144101361-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: PASQUALINI MARIE JEANNE / J144101359-02 — (Stock) — État: Entry preparation",
+      "detail": "Réf: GERBAUD MARYSE / J144101361-02 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
+      "statut": "Dans les temps (J-11)",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
+        "ecart_pupillaire": "31.0",
         "hauteur": "0.0",
         "supplements": [
-          "Perfecte St. Uni 1.6 XBlue Durci Arh"
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
@@ -165,7 +169,9 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Perfecte St. Uni 1.6 XBlue Durci Arh"
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -331,6 +337,67 @@
           "Tchin Uni 1.6 Durci",
           "Durci Inclus",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159615",
+      "id_commande_v2i": "260528000131",
+      "code_cote": "B",
+      "patient": "PANARIELLO ANNE MARIE",
+      "job_cosium": "J144101349",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: PANARIELLO ANNE MARIE / J144101349 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.75",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Affiny Equilibre2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.75",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Affiny Equilibre2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
@@ -535,67 +602,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159615",
-      "id_commande_v2i": "260528000131",
-      "code_cote": "B",
-      "patient": "PANARIELLO ANNE MARIE",
-      "job_cosium": "J144101349",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: PANARIELLO ANNE MARIE / J144101349 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "32.0",
-        "supplements": [
-          "Affiny Equilibre2 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "32.0",
-        "supplements": [
-          "Affiny Equilibre2 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
