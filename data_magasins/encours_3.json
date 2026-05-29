@@ -10,8 +10,61 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "29/05/2026 14:40",
+  "derniere_mise_a_jour": "29/05/2026 14:55",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159769",
+      "id_commande_v2i": "260529000085",
+      "code_cote": "B",
+      "patient": "GARELLI Monique",
+      "job_cosium": "",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: GARELLI Monique — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 03/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Prog V2i 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Prog V2i 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159504",
       "id_commande_v2i": "260528000020",
@@ -396,124 +449,6 @@
           "Optimized",
           "Précalibrage",
           "Base speciale"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10158941",
-      "id_commande_v2i": "260523000057",
-      "code_cote": "B",
-      "patient": "FRANCESCHI CHRISTINE",
-      "job_cosium": "",
-      "date_entree": "23/05/2026",
-      "detail": "Réf: FRANCESCHI CHRISTINE — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison : 28/05 (En retard)",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "2.25",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "34.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5  Durci Arh",
-          "Teinte Dégradée Gris B",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "34.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5  Durci Arh",
-          "Teinte Dégradée Gris B",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10158942",
-      "id_commande_v2i": "260523000058",
-      "code_cote": "B",
-      "patient": "FRANCESCHI CHRISTINE",
-      "job_cosium": "",
-      "date_entree": "23/05/2026",
-      "detail": "Réf: FRANCESCHI CHRISTINE — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison : 28/05 (En retard)",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "2.25",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Lecture2 1.5  Durci Arh",
-          "Teinte Dégradée Gris B",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Lecture2 1.5  Durci Arh",
-          "Teinte Dégradée Gris B",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
         ]
       }
     }
