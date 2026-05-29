@@ -10,7 +10,7 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:31",
+  "derniere_mise_a_jour": "29/05/2026 12:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159504",
@@ -233,6 +233,61 @@
       }
     },
     {
+      "ord_numb": "            10159593",
+      "id_commande_v2i": "260528000109",
+      "code_cote": "B",
+      "patient": "RIQUET ZERBINI FLAVIEN",
+      "job_cosium": "J122023406",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: RIQUET ZERBINI FLAVIEN / J122023406 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159485",
       "id_commande_v2i": "260528000001",
       "code_cote": "B",
@@ -280,61 +335,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Blz"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159593",
-      "id_commande_v2i": "260528000109",
-      "code_cote": "B",
-      "patient": "RIQUET ZERBINI FLAVIEN",
-      "job_cosium": "J122023406",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: RIQUET ZERBINI FLAVIEN / J122023406 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
