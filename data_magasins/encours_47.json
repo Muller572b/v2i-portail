@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "29/05/2026 16:30",
+  "derniere_mise_a_jour": "29/05/2026 17:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159709",
@@ -178,70 +178,15 @@
       }
     },
     {
-      "ord_numb": "            10159756",
-      "id_commande_v2i": "260529000072",
-      "code_cote": "B",
-      "patient": "PHILIPPON JORDAN",
-      "job_cosium": "J160020718",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: PHILIPPON JORDAN / J160020718 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Livraison prévue : 10/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "1.75",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "23.2",
-        "supplements": [
-          "CLA Unifocal 1.74 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "2.00",
-        "axe": 135,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "23.3",
-        "supplements": [
-          "CLA Unifocal 1.74 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159761",
       "id_commande_v2i": "260529000077",
       "code_cote": "B",
       "patient": "ALFARO BEATRICE",
       "job_cosium": "J160020716",
       "date_entree": "29/05/2026",
-      "detail": "Réf: ALFARO BEATRICE / J160020716 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: ALFARO BEATRICE / J160020716 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -292,15 +237,70 @@
       }
     },
     {
+      "ord_numb": "            10159756",
+      "id_commande_v2i": "260529000072",
+      "code_cote": "B",
+      "patient": "PHILIPPON JORDAN",
+      "job_cosium": "J160020718",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: PHILIPPON JORDAN / J160020718 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "1.75",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.2",
+        "supplements": [
+          "CLA Unifocal 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "2.00",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.3",
+        "supplements": [
+          "CLA Unifocal 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159777",
       "id_commande_v2i": "260529000093",
       "code_cote": "B",
       "patient": "Molino Serge",
       "job_cosium": "",
       "date_entree": "29/05/2026",
-      "detail": "Réf: Molino Serge — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: Molino Serge — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
