@@ -10,7 +10,7 @@
     "email": "bof@balbi.fr",
     "mot_de_passe_portail": "bof"
   },
-  "derniere_mise_a_jour": "29/05/2026 16:30",
+  "derniere_mise_a_jour": "29/05/2026 17:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159784",
@@ -19,9 +19,9 @@
       "patient": "BECHERIGUI SARAH",
       "job_cosium": "J153011043-01",
       "date_entree": "29/05/2026",
-      "detail": "Réf: BECHERIGUI SARAH / J153011043-01 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: BECHERIGUI SARAH / J153011043-01 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -74,9 +74,9 @@
       "patient": "BECHERIGUI SARAH",
       "job_cosium": "J153011043-03",
       "date_entree": "29/05/2026",
-      "detail": "Réf: BECHERIGUI SARAH / J153011043-03 — (Stock) — État: Entry preparation",
+      "detail": "Réf: BECHERIGUI SARAH / J153011043-03 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -127,9 +127,9 @@
       "patient": "BECHERIGUI SARAH",
       "job_cosium": "J153011043-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: BECHERIGUI SARAH / J153011043-02 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: BECHERIGUI SARAH / J153011043-02 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -176,117 +176,15 @@
       }
     },
     {
-      "ord_numb": "            10159787",
-      "id_commande_v2i": "260529000103",
-      "code_cote": "B",
-      "patient": "MATTEI GISELE",
-      "job_cosium": "J153011040-01",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: MATTEI GISELE / J153011040-01 — (Stock) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Livraison prévue : 01/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.75",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159788",
-      "id_commande_v2i": "260529000104",
-      "code_cote": "B",
-      "patient": "MATTEI GISELE",
-      "job_cosium": "J153011040-02",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: MATTEI GISELE / J153011040-02 — (Stock) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Livraison prévue : 01/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159789",
       "id_commande_v2i": "260529000105",
       "code_cote": "B",
       "patient": "BERTHE DIDIER",
       "job_cosium": "J153011038-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: BERTHE DIDIER / J153011038-02 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: BERTHE DIDIER / J153011038-02 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -345,9 +243,9 @@
       "patient": "BERTHE DIDIER",
       "job_cosium": "J153011038-01",
       "date_entree": "29/05/2026",
-      "detail": "Réf: BERTHE DIDIER / J153011038-01 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: BERTHE DIDIER / J153011038-01 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -404,9 +302,9 @@
       "patient": "jimmy fairly",
       "job_cosium": "J153011034",
       "date_entree": "28/05/2026",
-      "detail": "Réf: jimmy fairly / J153011034 — (Stock) — État: Entry preparation",
+      "detail": "Réf: jimmy fairly / J153011034 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 01/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -451,70 +349,15 @@
       }
     },
     {
-      "ord_numb": "            10158858",
-      "id_commande_v2i": "260522000161",
-      "code_cote": "B",
-      "patient": "MAGDELEINE JACQUES",
-      "job_cosium": "J153010998",
-      "date_entree": "22/05/2026",
-      "detail": "Réf: MAGDELEINE JACQUES / J153010998 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "2.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10158859",
       "id_commande_v2i": "260522000162",
       "code_cote": "B",
       "patient": "BURDY PATRICIA",
       "job_cosium": "J153010997-01",
       "date_entree": "22/05/2026",
-      "detail": "Réf: BURDY PATRICIA / J153010997-01 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: BURDY PATRICIA / J153010997-01 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 29/05 (Urgent)",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
