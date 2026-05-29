@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V2I Portail - Espace Opticien v5</title>
-    <!-- Chargement de Tailwind CSS v4 via CDN Browser -->
+    <title>V2I Portail - Espace Opticien</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- Chargement des icônes Lucide -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap');
@@ -15,7 +13,6 @@
 </head>
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
-    <!-- ECRAN DE CONNEXION -->
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
         <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.03)] border border-white/60 p-8 transition-all">
             <div class="flex flex-col items-center mb-10">
@@ -23,17 +20,17 @@
                     <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
                 </div>
                 <h1 class="text-2xl font-semibold tracking-tight">Portail Partenaires V2I</h1>
-                <p class="text-sm text-[#86868b] mt-1.5">Version Globale Stable v5</p>
+                <p class="text-sm text-[#86868b] mt-1.5">Connectez-vous avec vos codes labo</p>
             </div>
             
             <form onsubmit="handleLogin(event)" class="space-y-5">
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2">Identifiant (N° Client)</label>
+                    <label for="username" class="block text-xs font-medium text-[#86868b] mb-2">Identifiant (N° Client)</label>
                     <input type="text" id="username" required placeholder="ex: 99" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm font-mono">
                 </div>
                 <div>
-                    <label class="block text-xs font-medium text-[#86868b] mb-2">Mot de passe (Code Cosium)</label>
+                    <label for="password" class="block text-xs font-medium text-[#86868b] mb-2">Mot de passe (Code Cosium)</label>
                     <input type="password" id="password" required placeholder="ex: XXX" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm font-mono uppercase tracking-widest">
                 </div>
@@ -41,10 +38,10 @@
                     Se connecter <i data-lucide="chevron-right" class="w-4 h-4"></i>
                 </button>
             </form>
+            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium bg-[#ffebe6] p-2.5 rounded-xl border border-[#ffcfc6]"></p>
         </div>
     </div>
 
-    <!-- INTERFACE PRINCIPALE -->
     <div id="main-interface" class="hidden">
         <nav class="bg-white/70 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
             <div class="max-w-7xl mx-auto px-6">
@@ -59,7 +56,7 @@
                             <i data-lucide="home" class="w-4 h-4 stroke-[1.5]"></i> Accueil
                         </button>
                         <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                            <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi Verres
+                            <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
                         </button>
                         <button onclick="switchTab('calcul')" id="tab-calcul" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="layers" class="w-4 h-4 stroke-[1.5]"></i> Calcul Verre
@@ -75,11 +72,10 @@
 
         <div class="max-w-7xl mx-auto px-6 py-10">
             
-            <!-- CONTENU : ACCUEIL -->
             <div id="content-accueil" class="tab-content space-y-10">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <button onclick="switchTab('verres')" class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#0066cc]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer">
-                        <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4">
+                        <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4 transition-colors">
                             <i data-lucide="package" class="w-8 h-8 stroke-[1.5]"></i>
                         </div>
                         <span class="text-lg font-semibold text-[#1d1d1f]">Suivi de commande</span>
@@ -89,19 +85,33 @@
                         <div class="p-4 bg-gray-100 text-gray-400 rounded-2xl mb-4">
                             <i data-lucide="glasses" class="w-8 h-8 stroke-[1.5]"></i>
                         </div>
-                        <span class="text-lg font-semibold text-gray-400">Catalogue Montures</span>
+                        <span class="text-lg font-semibold text-gray-400">Montures (Indisponible)</span>
                     </div>
 
                     <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl opacity-60 text-center">
                         <div class="p-4 bg-gray-100 text-gray-400 rounded-2xl mb-4">
                             <i data-lucide="file-text" class="w-8 h-8 stroke-[1.5]"></i>
                         </div>
-                        <span class="text-lg font-semibold text-gray-400">Documents Labo</span>
+                        <span class="text-lg font-semibold text-gray-400">Documents (Indisponible)</span>
+                    </div>
+                </div>
+
+                <div class="max-w-3xl mx-auto bg-white rounded-3xl border border-[#e8e8ed] p-6 shadow-xs">
+                    <h2 class="text-sm font-semibold text-[#1d1d1f] mb-4 flex items-center gap-2 tracking-tight">
+                        <span class="w-2 h-2 bg-[#34c759] rounded-full animate-pulse"></span> Informations & Notes du Laboratoire V2I
+                    </h2>
+                    <div class="space-y-3">
+                        <div class="p-4 bg-[#f5f5f7] rounded-xl border border-gray-100">
+                            <div class="flex justify-between items-start mb-1">
+                                <span class="font-semibold text-xs text-[#0066cc]">Disponibilité des Services</span>
+                                <span class="text-[10px] text-[#86868b] font-mono">En direct</span>
+                            </div>
+                            <p class="text-xs text-[#515154] leading-relaxed">Le traitement des commandes Cosium et l'accès EDI s'exécutent normalement. Les délais de livraison prévus dans votre tableau de bord intègrent les derniers transits logistiques.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             
-            <!-- CONTENU : SUIVI DE COMMANDE VERRES -->
             <div id="content-verres" class="tab-content hidden space-y-6">
                 <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-xs flex flex-col lg:flex-row gap-4 justify-between items-center">
                     <div class="relative w-full lg:flex-1">
@@ -113,16 +123,25 @@
                     
                     <div class="w-full lg:w-auto flex flex-col sm:flex-row items-center gap-3 bg-[#f5f5f7] border border-[#e8e8ed] px-4 py-2.5 rounded-xl">
                         <div class="flex items-center gap-2 w-full sm:w-auto">
-                            <label class="text-xs font-semibold text-[#1d1d1f] flex items-center gap-1.5">
+                            <label for="date-debut" class="text-xs font-semibold text-[#1d1d1f] whitespace-nowrap flex items-center gap-1.5">
                                 <i data-lucide="calendar" class="w-4 h-4 text-[#86868b]"></i> Du :
                             </label>
-                            <input type="date" id="date-debut" onchange="renderVerres()" class="bg-transparent text-xs font-medium focus:outline-none cursor-pointer">
+                            <input type="date" id="date-debut" onchange="renderVerres()" 
+                                   class="bg-transparent text-xs font-medium text-[#1d1d1f] focus:outline-none cursor-pointer">
                         </div>
                         <div class="hidden sm:block text-gray-300">|</div>
                         <div class="flex items-center gap-2 w-full sm:w-auto">
-                            <label class="text-xs font-semibold text-[#1d1d1f]">Au :</label>
-                            <input type="date" id="date-fin" onchange="renderVerres()" class="bg-transparent text-xs font-medium focus:outline-none cursor-pointer">
+                            <label for="date-fin" class="text-xs font-semibold text-[#1d1d1f] whitespace-nowrap">Au :</label>
+                            <input type="date" id="date-fin" onchange="renderVerres()" 
+                                   class="bg-transparent text-xs font-medium text-[#1d1d1f] focus:outline-none cursor-pointer">
                         </div>
+                    </div>
+                </div>
+
+                <div id="archive-status-banner" class="hidden text-xs bg-[#e2f1ff] border border-[#bfe0ff]/50 text-[#0066cc] px-4 py-2.5 rounded-xl flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <i data-lucide="info" class="w-4 h-4"></i>
+                        <span id="archive-status-text">Archives chargées.</span>
                     </div>
                 </div>
 
@@ -146,13 +165,12 @@
                 </div>
             </div>
 
-            <!-- CONTENU : CALCULATEUR -->
             <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
                 <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-xs space-y-6">
                     <h2 class="text-xl font-semibold text-center tracking-tight">Estimateur d'Épaisseur au Centre</h2>
                     <div class="space-y-4">
                         <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
+                            <label for="calc-sphere" class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
                             <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc]">
                         </div>
                     </div>
@@ -165,7 +183,6 @@
         </div>
     </div>
 
-    <!-- PANNEAU LATERAL TECHNIQUE -->
     <div id="side-panel" class="fixed inset-0 z-50 overflow-hidden hidden">
         <div class="absolute inset-0 bg-black/10 backdrop-blur-xs transition-opacity" onclick="closeSidePanel()"></div>
         <div class="absolute inset-y-0 right-0 max-w-2xl w-full flex">
@@ -189,7 +206,7 @@
                             <div class="grid grid-cols-10 bg-[#f5f5f7] p-2.5 font-semibold text-[#86868b] border-b border-[#e8e8ed] text-center font-mono text-[10px]">
                                 <div>Œil</div><div>Sph</div><div>Cyl</div><div>Axe</div><div>Add</div><div>Pr1</div><div>B1</div><div>Pr2</div><div>B2</div><div>Dia</div>
                             </div>
-                            <div class="grid grid-cols-10 p-3 border-b border-[#e8e8ed] text-center font-medium items-center">
+                            <div class="grid grid-cols-10 p-3 border-b border-[#e8e8ed] text-center font-medium items-center" id="panel-od-row">
                                 <div class="font-bold text-[#ff9500] text-left pl-1">OD</div>
                                 <div id="od-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
                                 <div id="od-cyl" class="font-mono">---</div>
@@ -201,7 +218,7 @@
                                 <div id="od-b2" class="font-mono bg-[#fff5e6] text-[#ff9500]">---</div>
                                 <div id="od-dia" class="font-bold">---</div>
                             </div>
-                            <div class="grid grid-cols-10 p-3 text-center font-medium items-center">
+                            <div class="grid grid-cols-10 p-3 text-center font-medium items-center" id="panel-og-row">
                                 <div class="font-bold text-[#0066cc] text-left pl-1">OG</div>
                                 <div id="og-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
                                 <div id="og-cyl" class="font-mono">---</div>
@@ -232,6 +249,16 @@
                         </div>
                     </div>
 
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="bg-gray-50 p-3 rounded-xl border border-gray-100 flex justify-between items-center">
+                            <div>
+                                <span class="text-[#86868b] font-medium block">Système ERP Associé</span>
+                                <p id="panel-cosium-id" class="font-mono font-bold mt-0.5 text-[#1d1d1f] text-sm">---</p>
+                            </div>
+                            <i data-lucide="layers" class="w-4 h-4 text-gray-400"></i>
+                        </div>
+                    </div>
+
                     <div class="space-y-2">
                         <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Options & Suppléments</h3>
                         <div id="panel-supplements" class="flex flex-wrap gap-1.5"></div>
@@ -240,9 +267,6 @@
             </div>
         </div>
     </div>
-
-    <!-- LOGIQUE DE L'APPLICATION -->
-    <script>
         let currentOrders = [];
 
         // Base de données simulée conforme aux structures de données de production
