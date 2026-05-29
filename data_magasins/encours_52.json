@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "29/05/2026 14:10",
+  "derniere_mise_a_jour": "29/05/2026 14:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159686",
@@ -255,9 +255,9 @@
       "patient": "GANDON JEAN FRANCOIS",
       "job_cosium": "J154014419",
       "date_entree": "29/05/2026",
-      "detail": "Réf: GANDON JEAN FRANCOIS / J154014419 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "detail": "Réf: GANDON JEAN FRANCOIS / J154014419 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -359,6 +359,59 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159767",
+      "id_commande_v2i": "260529000083",
+      "code_cote": "B",
+      "patient": "LOUNAS EVA",
+      "job_cosium": "J154014424",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: LOUNAS EVA / J154014424 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 03/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Non Durci",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Non Durci",
+          "Teinte Noir C"
         ]
       }
     },
