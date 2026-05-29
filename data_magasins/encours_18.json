@@ -10,8 +10,59 @@
     "email": "balbisoleililerousse@gmail.com",
     "mot_de_passe_portail": "ile"
   },
-  "derniere_mise_a_jour": "29/05/2026 14:55",
+  "derniere_mise_a_jour": "29/05/2026 15:20",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159775",
+      "id_commande_v2i": "260529000091",
+      "code_cote": "B",
+      "patient": "ALFIERI LESIA",
+      "job_cosium": "J125025730",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: ALFIERI LESIA / J125025730 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison prévue : 01/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159304",
       "id_commande_v2i": "260527000026",
@@ -22,7 +73,7 @@
       "detail": "Réf: COSTA LUCIENNE / J125025710 — (Fabrication RX) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Livraison : 05/06",
+      "statut": "Livraison prévue : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
