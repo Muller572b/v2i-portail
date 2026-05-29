@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "29/05/2026 12:51",
+  "derniere_mise_a_jour": "29/05/2026 13:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159708",
@@ -19,10 +19,10 @@
       "patient": "GHOMRICHE SAID",
       "job_cosium": "J133035566",
       "date_entree": "29/05/2026",
-      "detail": "Réf: GHOMRICHE SAID / J133035566 — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-10)",
+      "detail": "Réf: GHOMRICHE SAID / J133035566 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -72,6 +72,61 @@
       }
     },
     {
+      "ord_numb": "            10159754",
+      "id_commande_v2i": "260529000070",
+      "code_cote": "B",
+      "patient": "FORTAIN KARINE",
+      "job_cosium": "J133035692",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: FORTAIN KARINE / J133035692 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159537",
       "id_commande_v2i": "260528000053",
       "code_cote": "B",
@@ -81,7 +136,7 @@
       "detail": "Réf: CHARLES PHILIPPE / J133035680 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -142,7 +197,7 @@
       "detail": "Réf: LEDOUX FLORENCE / J133035683 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-17)",
+      "statut": "Livraison : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -197,7 +252,7 @@
       "detail": "Réf: M.CHARLES PHILIPPE — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -254,7 +309,7 @@
       "detail": "Réf: PAHONTU MIHAELA / J133035684 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -315,7 +370,7 @@
       "detail": "Réf: KALTENBACH VIRGINIE / J133035685 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-11)",
+      "statut": "Livraison : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -376,8 +431,8 @@
       "detail": "Réf: BOURDON JUSTINE YOLANDE / J133035682 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-4)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison : 29/05 (Urgent)",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -418,59 +473,6 @@
       }
     },
     {
-      "ord_numb": "            10159646",
-      "id_commande_v2i": "260528000162",
-      "code_cote": "B",
-      "patient": "NICOT NINON",
-      "job_cosium": "J133035687-01",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: NICOT NINON / J133035687-01 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Dans les temps (J-5)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Brun D"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Brun D"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159392",
       "id_commande_v2i": "260527000114",
       "code_cote": "B",
@@ -480,7 +482,7 @@
       "detail": "Réf: GAUDIN JACQUELINE / J133035674-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -541,7 +543,7 @@
       "detail": "Réf: OPPE VERONIQUE / J133035601 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -596,7 +598,7 @@
       "detail": "Réf: PIETRI KARINE / J133035677-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
       "statut_code": "COAT",
       "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Dans les temps (J-10)",
+      "statut": "Livraison : 02/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -657,7 +659,7 @@
       "detail": "Réf: BELGODERE SYLVIANE / J133035675 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-14)",
+      "statut": "Livraison : 08/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -712,7 +714,7 @@
       "detail": "Réf: BUCHAHAR BUTAIB / J133035631 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Dans les temps (J-14)",
+      "statut": "Livraison : 08/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -767,8 +769,8 @@
       "detail": "Réf: FERAUD WILLIAM / J133035649 — (Stock) — État: Entry preparation",
       "statut_code": "PREP",
       "statut_affichage": "Entry preparation",
-      "statut": "À produire d'urgence (J-0)",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "statut": "Livraison : 27/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
