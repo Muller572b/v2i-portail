@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V2I Portail - Espace Opticien</title>
+    <title>V2I Portail - Espace Opticien v5</title>
+    <!-- Chargement de Tailwind CSS v4 via CDN Browser -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Chargement des icônes Lucide -->
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap');
@@ -13,6 +15,7 @@
 </head>
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
+    <!-- ECRAN DE CONNEXION -->
     <div id="login-screen" class="flex min-h-screen items-center justify-center px-4">
         <div class="w-full max-w-md bg-white/80 backdrop-blur-md rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.03)] border border-white/60 p-8 transition-all">
             <div class="flex flex-col items-center mb-10">
@@ -20,7 +23,7 @@
                     <i data-lucide="shield" class="w-7 h-7 stroke-[1.5]"></i>
                 </div>
                 <h1 class="text-2xl font-semibold tracking-tight">Portail Partenaires V2I</h1>
-                <p class="text-sm text-[#86868b] mt-1.5">Connectez-vous avec vos codes labo</p>
+                <p class="text-sm text-[#86868b] mt-1.5">Version Globale Stable v5</p>
             </div>
             
             <form onsubmit="handleLogin(event)" class="space-y-5">
@@ -38,10 +41,10 @@
                     Se connecter <i data-lucide="chevron-right" class="w-4 h-4"></i>
                 </button>
             </form>
-            <p id="login-error" class="text-[#ff3b30] text-sm text-center mt-4 hidden font-medium bg-[#ffebe6] p-2.5 rounded-xl border border-[#ffcfc6]"></p>
         </div>
     </div>
 
+    <!-- INTERFACE PRINCIPALE -->
     <div id="main-interface" class="hidden">
         <nav class="bg-white/70 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
             <div class="max-w-7xl mx-auto px-6">
@@ -56,7 +59,7 @@
                             <i data-lucide="home" class="w-4 h-4 stroke-[1.5]"></i> Accueil
                         </button>
                         <button onclick="switchTab('verres')" id="tab-verres" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                            <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
+                            <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi Verres
                         </button>
                         <button onclick="switchTab('calcul')" id="tab-calcul" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
                             <i data-lucide="layers" class="w-4 h-4 stroke-[1.5]"></i> Calcul Verre
@@ -72,73 +75,54 @@
 
         <div class="max-w-7xl mx-auto px-6 py-10">
             
+            <!-- CONTENU : ACCUEIL -->
             <div id="content-accueil" class="tab-content space-y-10">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <button onclick="switchTab('verres')" class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#0066cc]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer">
-                        <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4 transition-colors">
+                        <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4">
                             <i data-lucide="package" class="w-8 h-8 stroke-[1.5]"></i>
                         </div>
                         <span class="text-lg font-semibold text-[#1d1d1f]">Suivi de commande</span>
                     </button>
 
-                    <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#34c759]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer">
-                        <div class="p-4 bg-[#e3f7e9] text-[#34c759] rounded-2xl mb-4">
+                    <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl opacity-60 text-center">
+                        <div class="p-4 bg-gray-100 text-gray-400 rounded-2xl mb-4">
                             <i data-lucide="glasses" class="w-8 h-8 stroke-[1.5]"></i>
                         </div>
-                        <span class="text-lg font-semibold text-[#1d1d1f]">Montures</span>
+                        <span class="text-lg font-semibold text-gray-400">Catalogue Montures</span>
                     </div>
 
-                    <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#af52de]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer">
-                        <div class="p-4 bg-[#f3e6f9] text-[#af52de] rounded-2xl mb-4">
+                    <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl opacity-60 text-center">
+                        <div class="p-4 bg-gray-100 text-gray-400 rounded-2xl mb-4">
                             <i data-lucide="file-text" class="w-8 h-8 stroke-[1.5]"></i>
                         </div>
-                        <span class="text-lg font-semibold text-[#1d1d1f]">Documents</span>
-                    </div>
-                </div>
-
-                <div class="max-w-2xl mx-auto bg-white rounded-3xl border border-[#e8e8ed] p-6 shadow-xs">
-                    <h2 class="text-sm font-semibold text-[#1d1d1f] mb-4 flex items-center gap-2 tracking-tight">
-                        <span class="w-2 h-2 bg-[#ff3b30] rounded-full animate-pulse"></span> Flux Acuité.fr — Actualités de l'optique
-                    </h2>
-                    <div class="w-full overflow-hidden rounded-2xl bg-[#f5f5f7]">
-                        <iframe src="https://rss.app/embed/v1/wall/7M8GPR78ylXPeJ94" class="w-full h-[500px] border-0" allowtransparency="true"></iframe>
+                        <span class="text-lg font-semibold text-gray-400">Documents Labo</span>
                     </div>
                 </div>
             </div>
             
+            <!-- CONTENU : SUIVI DE COMMANDE VERRES -->
             <div id="content-verres" class="tab-content hidden space-y-6">
-                
                 <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-xs flex flex-col lg:flex-row gap-4 justify-between items-center">
                     <div class="relative w-full lg:flex-1">
                         <i data-lucide="search" class="w-5 h-5 text-[#86868b] absolute left-4 top-3.5"></i>
                         <input type="text" id="search-verres" oninput="renderVerres()" 
-                               placeholder="Recherche multicritères (Nom, N° de BL, Job Cosium...)" 
+                               placeholder="Recherche par Nom, BL, Job Cosium..." 
                                class="w-full pl-12 pr-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm">
                     </div>
                     
                     <div class="w-full lg:w-auto flex flex-col sm:flex-row items-center gap-3 bg-[#f5f5f7] border border-[#e8e8ed] px-4 py-2.5 rounded-xl">
                         <div class="flex items-center gap-2 w-full sm:w-auto">
-                            <label for="date-debut" class="text-xs font-semibold text-[#1d1d1f] whitespace-nowrap flex items-center gap-1.5">
+                            <label class="text-xs font-semibold text-[#1d1d1f] flex items-center gap-1.5">
                                 <i data-lucide="calendar" class="w-4 h-4 text-[#86868b]"></i> Du :
                             </label>
-                            <input type="date" id="date-debut" onchange="handleDateRangeChange()" 
-                                   class="bg-transparent text-xs font-medium text-[#1d1d1f] focus:outline-none cursor-pointer">
+                            <input type="date" id="date-debut" onchange="renderVerres()" class="bg-transparent text-xs font-medium focus:outline-none cursor-pointer">
                         </div>
                         <div class="hidden sm:block text-gray-300">|</div>
                         <div class="flex items-center gap-2 w-full sm:w-auto">
-                            <label for="date-fin" class="text-xs font-semibold text-[#1d1d1f] whitespace-nowrap flex items-center gap-1.5">
-                                Au :
-                            </label>
-                            <input type="date" id="date-fin" onchange="handleDateRangeChange()" 
-                                   class="bg-transparent text-xs font-medium text-[#1d1d1f] focus:outline-none cursor-pointer">
+                            <label class="text-xs font-semibold text-[#1d1d1f]">Au :</label>
+                            <input type="date" id="date-fin" onchange="renderVerres()" class="bg-transparent text-xs font-medium focus:outline-none cursor-pointer">
                         </div>
-                    </div>
-                </div>
-
-                <div id="archive-status-banner" class="hidden text-xs bg-[#e2f1ff] border border-[#bfe0ff]/50 text-[#0066cc] px-4 py-2.5 rounded-xl flex items-center justify-between">
-                    <div class="flex items-center gap-2">
-                        <i data-lucide="info" class="w-4 h-4"></i>
-                        <span id="archive-status-text">Archives chargées.</span>
                     </div>
                 </div>
 
@@ -147,13 +131,13 @@
                         <table class="w-full text-left border-collapse text-sm">
                             <thead>
                                 <tr class="bg-[#f5f5f7] text-[#86868b] font-semibold text-xs border-b border-[#e8e8ed] tracking-wider font-mono">
-                                    <th class="px-6 py-4">Référence (Patient)</th>
-                                    <th class="px-6 py-4">Produit</th> 
-                                    <th class="px-6 py-4">Date/Heure de Saisie</th>
-                                    <th class="px-6 py-4">Statut Fournisseur</th>
-                                    <th class="px-6 py-4 text-[#ff9500] bg-[#fff5e6]/60 font-sans font-bold">Sortie / Livr. Prévue</th>
-                                    <th class="px-6 py-4 font-sans">N° Cde (BL)</th>
-                                    <th class="px-6 py-4 text-center w-20">Actions</th>
+                                    <th class="px-6 py-4">Porteur / Réf</th>
+                                    <th class="px-6 py-4">Désignation Produit</th>
+                                    <th class="px-6 py-4">Date Saisie</th>
+                                    <th class="px-6 py-4">État Fournisseur</th>
+                                    <th class="px-6 py-4 text-[#ff9500] bg-[#fff5e6]/60 font-sans font-bold">Livr. Prévue</th>
+                                    <th class="px-6 py-4 font-sans">N° de Commande</th>
+                                    <th class="px-6 py-4 text-center w-20">Détails</th>
                                 </tr>
                             </thead>
                             <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
@@ -162,12 +146,13 @@
                 </div>
             </div>
 
+            <!-- CONTENU : CALCULATEUR -->
             <div id="content-calcul" class="tab-content hidden max-w-xl mx-auto">
                 <div class="bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-xs space-y-6">
-                    <h2 class="text-xl font-semibold text-center tracking-tight">Calculateur d'Épaisseur Index</h2>
+                    <h2 class="text-xl font-semibold text-center tracking-tight">Estimateur d'Épaisseur au Centre</h2>
                     <div class="space-y-4">
                         <div>
-                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique</label>
+                            <label class="block text-xs font-medium text-[#86868b] mb-1.5">Puissance Sphérique (Dioptries)</label>
                             <input type="number" id="calc-sphere" value="-4.00" step="0.25" oninput="runCalculation()" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc]">
                         </div>
                     </div>
@@ -180,6 +165,7 @@
         </div>
     </div>
 
+    <!-- PANNEAU LATERAL TECHNIQUE -->
     <div id="side-panel" class="fixed inset-0 z-50 overflow-hidden hidden">
         <div class="absolute inset-0 bg-black/10 backdrop-blur-xs transition-opacity" onclick="closeSidePanel()"></div>
         <div class="absolute inset-y-0 right-0 max-w-2xl w-full flex">
@@ -187,7 +173,7 @@
                 
                 <div class="p-6 border-b border-[#e8e8ed] flex items-center justify-between bg-[#f5f5f7] rounded-tl-3xl">
                     <div>
-                        <span class="text-xs uppercase font-semibold font-mono text-[#86868b]">Données Techniques & Réfraction</span>
+                        <span class="text-xs uppercase font-semibold font-mono text-[#86868b]">Caractéristiques d'exécution</span>
                         <h2 id="panel-patient" class="text-xl font-bold text-[#1d1d1f] mt-0.5 tracking-tight">---</h2>
                         <p id="panel-bl" class="text-xs text-[#0066cc] font-mono mt-0.5">Cde: ---</p>
                     </div>
@@ -197,14 +183,13 @@
                 </div>
 
                 <div class="p-6 space-y-6 flex-1 text-xs">
-                    
                     <div class="space-y-4">
-                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Mesures de réfraction</h3>
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Données de Réfraction</h3>
                         <div class="border border-[#e8e8ed] rounded-xl overflow-hidden">
                             <div class="grid grid-cols-10 bg-[#f5f5f7] p-2.5 font-semibold text-[#86868b] border-b border-[#e8e8ed] text-center font-mono text-[10px]">
-                                <div>Œil</div><div>Sph</div><div>Cyl</div><div>Axe</div><div>Add</div><div>Pr1</div><div>Base1</div><div class="text-[#ff9500] font-bold">Pr2</div><div class="text-[#ff9500] font-bold">Base2</div><div>Dia</div>
+                                <div>Œil</div><div>Sph</div><div>Cyl</div><div>Axe</div><div>Add</div><div>Pr1</div><div>B1</div><div>Pr2</div><div>B2</div><div>Dia</div>
                             </div>
-                            <div class="grid grid-cols-10 p-3 border-b border-[#e8e8ed] text-center font-medium items-center" id="panel-od-row">
+                            <div class="grid grid-cols-10 p-3 border-b border-[#e8e8ed] text-center font-medium items-center">
                                 <div class="font-bold text-[#ff9500] text-left pl-1">OD</div>
                                 <div id="od-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
                                 <div id="od-cyl" class="font-mono">---</div>
@@ -216,7 +201,7 @@
                                 <div id="od-b2" class="font-mono bg-[#fff5e6] text-[#ff9500]">---</div>
                                 <div id="od-dia" class="font-bold">---</div>
                             </div>
-                            <div class="grid grid-cols-10 p-3 text-center font-medium items-center" id="panel-og-row">
+                            <div class="grid grid-cols-10 p-3 text-center font-medium items-center">
                                 <div class="font-bold text-[#0066cc] text-left pl-1">OG</div>
                                 <div id="og-sph" class="bg-gray-50 rounded py-0.5 font-mono">---</div>
                                 <div id="og-cyl" class="font-mono">---</div>
@@ -232,33 +217,23 @@
                     </div>
 
                     <div class="space-y-3">
-                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Mesures Morphologiques & Centrage</h3>
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Centrage & Morphologie</h3>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="bg-[#fff5e6]/60 border border-[#fff0d4] p-3 rounded-xl space-y-2">
                                 <span class="font-bold text-[#ff9500] block">Œil Droit (OD)</span>
-                                <div class="flex justify-between"><span>Écart pupillaire :</span><strong id="morpho-od-ecart" class="font-mono text-sm">—</strong></div>
+                                <div class="flex justify-between"><span>Écart :</span><strong id="morpho-od-ecart" class="font-mono text-sm">—</strong></div>
                                 <div class="flex justify-between"><span>Hauteur :</span><strong id="morpho-od-haut" class="font-mono text-sm">—</strong></div>
                             </div>
                             <div class="bg-[#e2f1ff]/60 border border-[#d0e8ff] p-3 rounded-xl space-y-2">
                                 <span class="font-bold text-[#0066cc] block">Œil Gauche (OG)</span>
-                                <div class="flex justify-between"><span>Écart pupillaire :</span><strong id="morpho-og-ecart" class="font-mono text-sm">—</strong></div>
+                                <div class="flex justify-between"><span>Écart :</span><strong id="morpho-og-ecart" class="font-mono text-sm">—</strong></div>
                                 <div class="flex justify-between"><span>Hauteur :</span><strong id="morpho-og-haut" class="font-mono text-sm">—</strong></div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 gap-4">
-                        <div class="bg-gray-50 p-3 rounded-xl border border-gray-100 flex justify-between items-center">
-                            <div>
-                                <span class="text-[#86868b] font-medium block">Job Cosium lié</span>
-                                <p id="panel-cosium-id" class="font-mono font-bold mt-0.5 text-[#1d1d1f] text-sm">---</p>
-                            </div>
-                            <i data-lucide="layers" class="w-4 h-4 text-gray-400"></i>
-                        </div>
-                    </div>
-
                     <div class="space-y-2">
-                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Traitements & Options</h3>
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-[#86868b]">Options & Suppléments</h3>
                         <div id="panel-supplements" class="flex flex-wrap gap-1.5"></div>
                     </div>
                 </div>
@@ -266,40 +241,38 @@
         </div>
     </div>
 
+    <!-- LOGIQUE DE L'APPLICATION -->
     <script>
-        // Simulation locale ou variables globales pour le fonctionnement des commandes
         let currentOrders = [];
 
-        // Exemple des structures JSON reçues via votre API Flask
-        // Intègre parfaitement le format '"statut": "Livraison prévue : 08/06"'
+        // Base de données simulée conforme aux structures de données de production
         const MOCK_DATA = [
             {
-                "reference": "DUPONT JEAN",
-                "produit": "Générique Progressif Index 1.6 MCO",
-                "date_saisie": "25/05/2026 10:45",
-                "statut_fournisseur": "En cours de surfaçage",
-                "statut": "Livraison prévue : 08/06",
-                "bl": "BL-884920",
-                "job_cosium": "COS-9921",
-                "od": { "sph": "-2.50", "cyl": "+0.50", "axe": "90", "add": "2.00", "p1": "", "b1": "", "p2": "", "b2": "", "dia": "70", "ecart": "32.5", "haut": "21.0" },
-                "og": { "sph": "-2.25", "cyl": "", "axe": "", "add": "2.00", "p1": "", "b1": "", "p2": "", "b2": "", "dia": "70", "ecart": "32.0", "haut": "21.5" },
-                "options": ["Durci", "Antireflet", "TMO"]
+                "reference": "BOULANGER PIERRE",
+                "produit": "Progressif Premium 1.67 HMC Max",
+                "date_saisie": "2026-05-24",
+                "statut_fournisseur": "Surfaçage",
+                "statut": "Livraison prévue : 02/06",
+                "bl": "BL-992811",
+                "job_cosium": "JOB-6012",
+                "od": { "sph": "-3.50", "cyl": "+1.00", "axe": "15", "add": "2.25", "p1": "", "b1": "", "p2": "1.5", "b2": "Bas", "dia": "75", "ecart": "33.0", "haut": "22.5" },
+                "og": { "sph": "-3.75", "cyl": "+0.50", "axe": "160", "add": "2.25", "p1": "", "b1": "", "p2": "1.5", "b2": "Bas", "dia": "75", "ecart": "33.5", "haut": "22.5" },
+                "options": ["Prisme", "Traitement Hydrophobe", "Filtre Bleu"]
             },
             {
-                "reference": "MARTIN SOPHIE",
-                "produit": "Unifocal Stock 1.5 HMC",
-                "date_saisie": "28/05/2026 14:12",
+                "reference": "ALESSANDRI ANNE",
+                "produit": "Unifocal Individualisé 1.60 Satiné",
+                "date_saisie": "2026-05-26",
                 "statut_fournisseur": "Expédié",
-                "statut": "Livraison prévue : 30/05",
-                "bl": "BL-884955",
-                "job_cosium": "COS-9943",
-                "od": { "sph": "+1.00", "cyl": "", "axe": "", "add": "", "p1": "", "b1": "", "p2": "", "b2": "", "dia": "65", "ecart": "30.0", "haut": "18.0" },
-                "og": { "sph": "+1.25", "cyl": "", "axe": "", "add": "", "p1": "", "b1": "", "p2": "", "b2": "", "dia": "65", "ecart": "30.5", "haut": "18.0" },
-                "options": ["HMC"]
+                "statut": "Livraison prévue : 29/05",
+                "bl": "BL-993042",
+                "job_cosium": "JOB-6099",
+                "od": { "sph": "+2.00", "cyl": "", "axe": "", "add": "", "p1": "", "b1": "", "p2": "", "b2": "", "dia": "65", "ecart": "31.0", "haut": "19.0" },
+                "og": { "sph": "+1.75", "cyl": "", "axe": "", "add": "", "p1": "", "b1": "", "p2": "", "b2": "", "dia": "65", "ecart": "31.0", "haut": "19.0" },
+                "options": ["Antireflet", "Durci"]
             }
         ];
 
-        // Gestion de l'authentification
         function handleLogin(e) {
             e.preventDefault();
             const user = document.getElementById('username').value;
@@ -307,11 +280,10 @@
             document.getElementById('login-screen').classList.add('hidden');
             document.getElementById('main-interface').classList.remove('hidden');
             
-            // Chargement initial des données
             currentOrders = MOCK_DATA;
             setDefaultDates();
+            switchTab('accueil');
             renderVerres();
-            lucide.createIcons();
         }
 
         function logout() {
@@ -319,7 +291,6 @@
             document.getElementById('login-screen').classList.remove('hidden');
         }
 
-        // Navigation par onglets
         function switchTab(tabId) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
             document.querySelectorAll('.tab-btn').forEach(el => {
@@ -330,57 +301,51 @@
             document.getElementById(`content-${tabId}`).classList.remove('hidden');
             const targetTabBtn = document.getElementById(`tab-${tabId}`);
             if (targetTabBtn) {
-                targetTabBtn.classList.remove('border-transparent', 'text-[#86868b]');
                 targetTabBtn.classList.add('border-[#0066cc]', 'text-[#0066cc]');
             }
+            lucide.createIcons();
         }
 
-        // Assignation des dates par défaut (30 derniers jours)
         function setDefaultDates() {
             const today = new Date();
-            const past30Days = new Date();
-            past30Days.setDate(today.getDate() - 30);
+            const past30 = new Date();
+            past30.setDate(today.getDate() - 30);
             
-            document.getElementById('date-debut').value = past30Days.toISOString().split('T')[0];
+            document.getElementById('date-debut').value = past30.toISOString().split('T')[0];
             document.getElementById('date-fin').value = today.toISOString().split('T')[0];
         }
 
-        function handleDateRangeChange() {
-            renderVerres();
-        }
-
-        // RENDER DU TABLEAU : Nettoie et affiche dynamiquement la ligne "Livraison prévue"
         function renderVerres() {
             const tbody = document.getElementById('verres-table-body');
             const searchVal = document.getElementById('search-verres').value.toLowerCase();
+            const dateDeb = document.getElementById('date-debut').value;
+            const dateFin = document.getElementById('date-fin').value;
+            
             tbody.innerHTML = '';
 
-            // Filtrage des résultats
             const filtered = currentOrders.filter(order => {
-                const matchesSearch = 
-                    order.reference.toLowerCase().includes(searchVal) ||
-                    order.produit.toLowerCase().includes(searchVal) ||
-                    order.bl.toLowerCase().includes(searchVal) ||
-                    order.job_cosium.toLowerCase().includes(searchVal);
-                return matchesSearch;
+                const matchSearch = order.reference.toLowerCase().includes(searchVal) ||
+                                    order.bl.toLowerCase().includes(searchVal) ||
+                                    order.job_cosium.toLowerCase().includes(searchVal);
+                                    
+                const matchDate = (!dateDeb || order.date_saisie >= dateDeb) && 
+                                  (!dateFin || order.date_saisie <= dateFin);
+                                  
+                return matchSearch && matchDate;
             });
 
             if (filtered.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-10 text-center text-[#86868b]">Aucune commande trouvée</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-10 text-center text-[#86868b]">Aucun dossier trouvé pour cette période</td></tr>`;
                 return;
             }
 
             filtered.forEach((order, index) => {
-                // ANALYSE ET NETTOYAGE DU CODE JSON "statut"
-                let dateLivraisonAffichage = "Non spécifiée";
-                
+                // Parsing intelligent du champ de livraison
+                let affichageDateLivraison = "—";
                 if (order.statut) {
-                    // Si la chaîne contient "Livraison prévue :", on extrait proprement ce qui se trouve après
-                    if (order.statut.includes("Livraison prévue :")) {
-                        dateLivraisonAffichage = order.statut.replace("Livraison prévue :", "").trim();
-                    } else {
-                        dateLivraisonAffichage = order.statut;
-                    }
+                    affichageDateLivraison = order.statut.includes("Livraison prévue :") 
+                        ? order.statut.replace("Livraison prévue :", "").trim() 
+                        : order.statut;
                 }
 
                 const tr = document.createElement('tr');
@@ -397,7 +362,7 @@
                     <td class="px-6 py-4 bg-[#fff5e6]/30">
                         <span class="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-bold rounded-lg bg-[#fff5e6] text-[#ff9500] border border-[#ffe0b3]">
                             <span class="w-1.5 h-1.5 bg-[#ff9500] rounded-full animate-pulse"></span>
-                            ${dateLivraisonAffichage}
+                            ${affichageDateLivraison}
                         </span>
                     </td>
                     <td class="px-6 py-4 font-mono text-xs text-[#0066cc]">
@@ -416,16 +381,15 @@
             lucide.createIcons();
         }
 
-        // Ouverture du volet technique latéral
         function openSidePanel(index) {
             const order = currentOrders[index];
             if (!order) return;
 
             document.getElementById('panel-patient').innerText = order.reference;
-            document.getElementById('panel-bl').innerText = `BL: ${order.bl} | ${order.job_cosium}`;
+            document.getElementById('panel-bl').innerText = `BL: ${order.bl} | Code Labo: ${order.job_cosium}`;
             
-            // Remplissage OD
-            document.getElementById('od-sph').innerText = order.od.sph || '—';
+            // Hydratation OD
+            document.getElementById('od-sph').innerText = order.od.sph || '0.00';
             document.getElementById('od-cyl').innerText = order.od.cyl || '—';
             document.getElementById('od-axe').innerText = order.od.axe || '—';
             document.getElementById('od-add').innerText = order.od.add || '—';
@@ -437,8 +401,8 @@
             document.getElementById('morpho-od-ecart').innerText = order.od.ecart ? `${order.od.ecart} mm` : '—';
             document.getElementById('morpho-od-haut').innerText = order.od.haut ? `${order.od.haut} mm` : '—';
 
-            // Remplissage OG
-            document.getElementById('og-sph').innerText = order.og.sph || '—';
+            // Hydratation OG
+            document.getElementById('og-sph').innerText = order.og.sph || '0.00';
             document.getElementById('og-cyl').innerText = order.og.cyl || '—';
             document.getElementById('og-axe').innerText = order.og.axe || '—';
             document.getElementById('og-add').innerText = order.og.add || '—';
@@ -450,9 +414,6 @@
             document.getElementById('morpho-og-ecart').innerText = order.og.ecart ? `${order.og.ecart} mm` : '—';
             document.getElementById('morpho-og-haut').innerText = order.og.haut ? `${order.og.haut} mm` : '—';
 
-            document.getElementById('panel-cosium-id').innerText = order.job_cosium;
-
-            // Gestion des options / suppléments
             const containerSupp = document.getElementById('panel-supplements');
             containerSupp.innerHTML = '';
             if(order.options && order.options.length > 0) {
@@ -474,14 +435,16 @@
             document.getElementById('side-panel').classList.add('hidden');
         }
 
-        // Fonction du calculateur d'index
         function runCalculation() {
             const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
-            const baseThickness = 2.0; 
-            const factor = 0.3;
-            const finalThickness = baseThickness + (Math.abs(sph) * factor);
-            document.getElementById('calc-result').innerText = finalThickness.toFixed(2);
+            const thk = 2.0 + (Math.abs(sph) * 0.3);
+            document.getElementById('calc-result').innerText = thk.toFixed(2);
         }
+
+        // Initialisation globale
+        window.onload = () => {
+            lucide.createIcons();
+        };
     </script>
 </body>
 </html>
