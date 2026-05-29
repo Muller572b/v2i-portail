@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "29/05/2026 11:25",
+  "derniere_mise_a_jour": "29/05/2026 11:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159498",
@@ -159,61 +159,6 @@
           "Montage",
           "Précalibrage",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159569",
-      "id_commande_v2i": "260528000085",
-      "code_cote": "B",
-      "patient": "BOUCINHA PORTELA MARIA JULIA",
-      "job_cosium": "J145063227",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: BOUCINHA PORTELA MARIA JULIA / J145063227 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "4.25",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "AS Uni 1.6 Durci",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "4.75",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "AS Uni 1.6 Durci",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },
@@ -420,6 +365,61 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159569",
+      "id_commande_v2i": "260528000085",
+      "code_cote": "B",
+      "patient": "BOUCINHA PORTELA MARIA JULIA",
+      "job_cosium": "J145063227",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: BOUCINHA PORTELA MARIA JULIA / J145063227 — (Fabrication RX) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.25",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.6 Durci",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.75",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.6 Durci",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
