@@ -10,8 +10,67 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "29/05/2026 11:10",
+  "derniere_mise_a_jour": "29/05/2026 11:25",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159730",
+      "id_commande_v2i": "260529000046",
+      "code_cote": "B",
+      "patient": "VANNUCCI YOLANDE",
+      "job_cosium": "J152045058",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: VANNUCCI YOLANDE / J152045058 — (Fabrication RX) — État: Order initialised",
+      "statut_code": "INIT",
+      "statut_affichage": "Order initialised",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159713",
       "id_commande_v2i": "260529000029",
