@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "29/05/2026 09:26",
+  "derniere_mise_a_jour": "29/05/2026 09:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159541",
@@ -139,6 +139,63 @@
       }
     },
     {
+      "ord_numb": "            10159592",
+      "id_commande_v2i": "260528000108",
+      "code_cote": "B",
+      "patient": "FAUQUENOIS MARIE HELENE",
+      "job_cosium": "",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: FAUQUENOIS MARIE HELENE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 40,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "O2 Supremu2 1.6 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 165,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "O2 Supremu2 1.6 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159574",
       "id_commande_v2i": "260528000090",
       "code_cote": "B",
@@ -190,63 +247,6 @@
           "2de Uni 1.5 Durci",
           "Teinte Dégradée Bleu C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159592",
-      "id_commande_v2i": "260528000108",
-      "code_cote": "B",
-      "patient": "FAUQUENOIS MARIE HELENE",
-      "job_cosium": "",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: FAUQUENOIS MARIE HELENE — (Fabrication RX) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 40,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "O2 Supremu2 1.6 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 165,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "O2 Supremu2 1.6 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
         ]
       }
     },
