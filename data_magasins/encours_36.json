@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "29/05/2026 11:40",
+  "derniere_mise_a_jour": "29/05/2026 11:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159602",
@@ -176,6 +176,61 @@
       }
     },
     {
+      "ord_numb": "            10159660",
+      "id_commande_v2i": "260528000176",
+      "code_cote": "B",
+      "patient": "CANNONI SEBASTIEN",
+      "job_cosium": "J139053103",
+      "date_entree": "28/05/2026",
+      "detail": "Réf: CANNONI SEBASTIEN / J139053103 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Dans les temps (J-11)",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159661",
       "id_commande_v2i": "260528000177",
       "code_cote": "B",
@@ -282,61 +337,6 @@
           "Prestige Flex 1.6 Foto Gris Durci Bz",
           "AR Blue Zen Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159660",
-      "id_commande_v2i": "260528000176",
-      "code_cote": "B",
-      "patient": "CANNONI SEBASTIEN",
-      "job_cosium": "J139053103",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: CANNONI SEBASTIEN / J139053103 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Dans les temps (J-11)",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
         ]
       }
     },
