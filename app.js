@@ -121,6 +121,7 @@ function parseDate(dateStr) {
 
 function renderVerres() {
     const tbody = document.getElementById('verres-table-body');
+    if (!tbody) return;
     tbody.innerHTML = '';
     
     const search = document.getElementById('search-verres').value.toLowerCase().trim();
@@ -136,16 +137,24 @@ function renderVerres() {
     const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
     let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
+    // Élimination des doublons en gérant les deux clés possibles (id_commande_v2i OU id_bl_v2i)
     const uniquesMap = new Map();
-    donneesAAfficher.forEach(item => uniquesMap.set(item.id_commande_v2i, item));
+    donneesAAfficher.forEach(item => {
+        const idUnique = item.id_commande_v2i || item.id_bl_v2i;
+        if (idUnique) uniquesMap.set(idUnique.trim(), item);
+    });
     donneesAAfficher = Array.from(uniquesMap.values());
 
+    // Filtrage croisé (Texte + Dates)
     const donneesFiltrees = donneesAAfficher.filter(v => {
-        // 1. Recherche croisée par critères textuels (dont Nom patient)
-        const texteRecherche = `${v.patient} ${v.id_commande_v2i} ${v.job_cosium} ${v.date_entree} ${v.statut_affichage} ${v.type_commande}`.toLowerCase();
+        const idCommande = (v.id_commande_v2i || v.id_bl_v2i || '').trim();
+        const statutFournisseur = v.statut_affichage || v.statut_final || '';
+        
+        // 1. Recherche par Nom, BL ou Job Cosium
+        const texteRecherche = `${v.patient} ${idCommande} ${v.job_cosium} ${v.date_entree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
-        // 2. Filtres temporels combinés (Période complète)
+        // 2. Filtrage par plage de dates (Du... Au...)
         const dateSaisie = parseDate(v.date_entree);
         if (dateSaisie) {
             if (dateDebutFilter && dateSaisie < dateDebutFilter) return false;
@@ -158,11 +167,15 @@ function renderVerres() {
     });
 
     if (donneesFiltrees.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium">Aucun enregistrement trouvé.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
         return;
     }
 
+    // Génération des lignes du tableau
     donneesFiltrees.forEach((v) => {
+        const idCommande = (v.id_commande_v2i || v.id_bl_v2i || '').trim();
+        const statutFournisseur = v.statut_affichage || v.statut_final || '—';
+        
         const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
         const listeSupplements = cibleVerre && cibleVerre.supplements ? cibleVerre.supplements : [];
         const typeVerre = cibleVerre && cibleVerre.libelle ? cibleVerre.libelle : (v.type_commande || 'Verre spécifié');
@@ -176,7 +189,7 @@ function renderVerres() {
             `;
         }
 
-        // Extraction intelligente de la date de livraison prévue
+        // Extraction de la livraison prévue
         let livraisonPrevue = 'En calcul';
         if (v.date_livraison_prevue && v.date_livraison_prevue.trim() !== '') {
             livraisonPrevue = v.date_livraison_prevue;
@@ -185,28 +198,34 @@ function renderVerres() {
             if (match && match[1]) {
                 livraisonPrevue = match[1];
             }
+        } else if (v.date_expedition) {
+            // Si c'est une archive pure avec seulement la date d'expédition
+            livraisonPrevue = v.date_expedition;
         }
 
         tbody.innerHTML += `
-            <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs">
+            <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
                     <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient}</div>
                     <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
                 </td>
                 <td class="px-6 py-4 font-sans">${htmlSupplements}</td> 
                 <td class="px-6 py-4 font-mono text-gray-600 font-medium">${v.date_entree || '—'}</td>
-                <td class="px-6 py-4 font-mono font-bold text-gray-700">${v.statut_affichage || '—'}</td>
+                <td class="px-6 py-4 font-mono font-bold text-gray-700">${statutFournisseur}</td>
                 <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
-                <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${v.id_commande_v2i}</td>
+                <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${idCommande}</td>
                 <td class="px-6 py-4 text-center">
-                    <button onclick="openSidePanel('${v.id_commande_v2i}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] hover:bg-[#e2f1ff] border border-gray-200 hover:border-[#bfe0ff] rounded-xl transition-all cursor-pointer">
+                    <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] hover:bg-[#e2f1ff] border border-gray-200 hover:border-[#bfe0ff] rounded-xl transition-all cursor-pointer">
                         <i data-lucide="eye" class="w-4 h-4 stroke-[2]"></i>
                     </button>
                 </td>
             </tr>
         `;
     });
-    lucide.createIcons();
+    
+    if (window.lucide) {
+        lucide.createIcons();
+    }
 }
 
 function openSidePanel(idCommande) {
