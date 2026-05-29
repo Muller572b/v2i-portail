@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "29/05/2026 15:20",
+  "derniere_mise_a_jour": "29/05/2026 15:35",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159703",
@@ -518,66 +518,15 @@
       }
     },
     {
-      "ord_numb": "            10159391",
-      "id_commande_v2i": "260527000113",
-      "code_cote": "B",
-      "patient": "CHERIAA AHMET",
-      "job_cosium": "J205030152",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: CHERIAA AHMET / J205030152 — (Stock) — État: Entry preparation",
-      "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
-      "statut": "Livraison prévue : 28/05 (En retard)",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Blz"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Blz"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159338",
       "id_commande_v2i": "260527000060",
       "code_cote": "B",
       "patient": "GRIMALDI ANTOINE",
       "job_cosium": "J205030151",
       "date_entree": "27/05/2026",
-      "detail": "Réf: GRIMALDI ANTOINE / J205030151 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "detail": "Réf: GRIMALDI ANTOINE / J205030151 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 03/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -628,6 +577,57 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159391",
+      "id_commande_v2i": "260527000113",
+      "code_cote": "B",
+      "patient": "CHERIAA AHMET",
+      "job_cosium": "J205030152",
+      "date_entree": "27/05/2026",
+      "detail": "Réf: CHERIAA AHMET / J205030152 — (Stock) — État: Entry preparation",
+      "statut_code": "PREP",
+      "statut_affichage": "Entry preparation",
+      "statut": "Livraison prévue : 28/05 (En retard)",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Blz"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Blz"
         ]
       }
     },
