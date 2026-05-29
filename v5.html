@@ -267,13 +267,14 @@
             </div>
         </div>
     </div>
-        let currentStoreId = null;
-let storeEncours = [];
-let storeArchives = []; 
-let autoArchivesIncluded = false; 
-let loadedYears = []; 
+<script>
+    let currentStoreId = null;
+    let storeEncours = [];
+    let storeArchives = []; 
+    let autoArchivesIncluded = false; 
+    let loadedYears = []; 
 
-async function handleLogin(e) {
+    async function handleLogin(e) {
     e.preventDefault();
     const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
     const cosiumCode = document.getElementById('password').value.replace(/\s+/g, '').toUpperCase();
