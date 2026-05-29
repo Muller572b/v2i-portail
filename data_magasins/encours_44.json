@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "29/05/2026 14:40",
+  "derniere_mise_a_jour": "29/05/2026 14:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159721",
@@ -19,9 +19,9 @@
       "patient": "MARIOTTI PHILIPPE",
       "job_cosium": "J150010116",
       "date_entree": "29/05/2026",
-      "detail": "Réf: MARIOTTI PHILIPPE / J150010116 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: MARIOTTI PHILIPPE / J150010116 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -127,67 +127,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Teinte Jaune C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159445",
-      "id_commande_v2i": "260527000167",
-      "code_cote": "B",
-      "patient": "FRATICELLI CATHERINE",
-      "job_cosium": "J150010110",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: FRATICELLI CATHERINE / J150010110 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison : 02/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 70,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Confort 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Confort 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
