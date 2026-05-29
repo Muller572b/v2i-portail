@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "29/05/2026 16:30",
+  "derniere_mise_a_jour": "29/05/2026 17:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10159740",
@@ -141,9 +141,9 @@
       "patient": "LASBOUYGUES STELLA",
       "job_cosium": "J152045064-03",
       "date_entree": "29/05/2026",
-      "detail": "Réf: LASBOUYGUES STELLA / J152045064-03 — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: LASBOUYGUES STELLA / J152045064-03 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -196,9 +196,9 @@
       "patient": "LASBOUYGUES STELLA",
       "job_cosium": "J152045064-01",
       "date_entree": "29/05/2026",
-      "detail": "Réf: LASBOUYGUES STELLA / J152045064-01 — (Stock) — État: Entry preparation",
+      "detail": "Réf: LASBOUYGUES STELLA / J152045064-01 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 01/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -247,9 +247,9 @@
       "patient": "chauderon annie",
       "job_cosium": "",
       "date_entree": "29/05/2026",
-      "detail": "Réf: chauderon annie — (Fabrication RX) — État: Entry preparation",
+      "detail": "Réf: chauderon annie — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -469,9 +469,9 @@
       "patient": "DA COSTA SIMOES ANTONIO",
       "job_cosium": "J152045042",
       "date_entree": "27/05/2026",
-      "detail": "Réf: DA COSTA SIMOES ANTONIO / J152045042 — (Stock) — État: Entry preparation",
+      "detail": "Réf: DA COSTA SIMOES ANTONIO / J152045042 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 29/05 (Urgent)",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -522,9 +522,9 @@
       "patient": "DA COSTA SIMOES ANTONIO",
       "job_cosium": "J152045041",
       "date_entree": "27/05/2026",
-      "detail": "Réf: DA COSTA SIMOES ANTONIO / J152045041 — (Stock) — État: Entry preparation",
+      "detail": "Réf: DA COSTA SIMOES ANTONIO / J152045041 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
-      "statut_affichage": "Entry preparation",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 29/05 (Urgent)",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -620,63 +620,6 @@
           "Retouche verre client",
           "Teinte Gris C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10158915",
-      "id_commande_v2i": "260523000031",
-      "code_cote": "B",
-      "patient": "LE HUEC VIRGINIE",
-      "job_cosium": "J152045028",
-      "date_entree": "23/05/2026",
-      "detail": "Réf: LE HUEC VIRGINIE / J152045028 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "1.00",
-        "axe": 95,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 65,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },
