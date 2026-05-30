@@ -3,7 +3,7 @@ let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; // Verrou de sécurité anti-freeze
+let isLoadingArchives = false; // Verrou unique de sécurité anti-freeze
 
 async function handleLogin(e) {
     e.preventDefault();
@@ -102,8 +102,6 @@ function handleScrollLoad() {
     }
 }
 
-let isLoadingArchives = false;
-
 async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
@@ -167,7 +165,8 @@ function parseDate(dateStr) {
     if (!dateStr) return null;
     const parts = dateStr.split(' ')[0].split('/');
     if (parts.length === 3) {
-        return new Date(parts[2], parts[1] - 1, parts[0]);
+        // Crée une date locale calée à minuit pile pour des comparaisons propres
+        return new Date(parts[2], parts[1] - 1, parts[0], 0, 0, 0, 0);
     }
     return null;
 }
@@ -181,11 +180,18 @@ function renderVerres() {
     const dateDebutVal = document.getElementById('date-debut').value;
     const dateFinVal = document.getElementById('date-fin').value;
     
-    const dateDebutFilter = dateDebutVal ? new Date(dateDebutVal) : null;
-    const dateFinFilter = dateFinVal ? new Date(dateFinVal) : null;
+    // Modification pour forcer le traitement en heure locale neutre (minuit)
+    let dateDebutFilter = null;
+    if (dateDebutVal) {
+        const parts = dateDebutVal.split('-');
+        if (parts.length === 3) dateDebutFilter = new Date(parts[0], parts[1] - 1, parts[2], 0, 0, 0, 0);
+    }
 
-    if (dateDebutFilter) dateDebutFilter.setHours(0,0,0,0);
-    if (dateFinFilter) dateFinFilter.setHours(23,59,59,999);
+    let dateFinFilter = null;
+    if (dateFinVal) {
+        const parts = dateFinVal.split('-');
+        if (parts.length === 3) dateFinFilter = new Date(parts[0], parts[1] - 1, parts[2], 23, 59, 59, 999);
+    }
 
     const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
     let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
@@ -238,7 +244,7 @@ function renderVerres() {
             `;
         }
 
-        // CORRECTION DE L'AFFICHAGE DE LA DATE DE LIVRAISON (Propriété "statut")
+        // AFFICHAGE FIABLE DE LA DATE DE LIVRAISON DIRECTEMENT DEPUIS LA CLÉ "statut" DU JSON
         let livraisonPrevue = 'En calcul';
         if (v.statut && String(v.statut).toLowerCase().includes('livraison')) {
             livraisonPrevue = String(v.statut).trim();
