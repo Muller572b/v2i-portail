@@ -61,15 +61,25 @@ async function loadArchiveYear(year) {
             const nouvellesCommandes = archiveData.commandes_expediees || [];
             
             nouvellesCommandes.forEach(cmd => {
-                if (!storeArchives.some(existing => existing.id_commande_v2i === cmd.id_commande_v2i)) {
+                // CORRECTION : Recherche multi-clés pour éviter les doublons d'ID d'archives
+                const idCmdNouvelle = (cmd.ord_numb || cmd.id_bl_v2i || '').trim();
+                const existe Deja = storeArchives.some(existing => {
+                    const idExisting = (existing.ord_numb || existing.id_bl_v2i || '').trim();
+                    return idExisting === idCmdNouvelle;
+                });
+
+                if (!existeDeja) {
                     storeArchives.push(cmd);
                 }
             });
 
+            // Tri pour trouver l'année maximale chargée à afficher dans la bannière
+            const anneeMax = Math.max(...loadedYears);
+
             const banner = document.getElementById('archive-status-banner');
             const bannerText = document.getElementById('archive-status-text');
             banner.classList.remove('hidden');
-            bannerText.innerText = `Archives synchronisées jusqu'en ${year}. Total archivé : ${storeArchives.length} commande(s).`;
+            bannerText.innerText = `Archives synchronisées jusqu'en ${anneeMax}. Total archivé : ${storeArchives.length} commande(s).`;
         }
     } catch (e) {
         console.log(`Pas d'archive disponible pour l'année ${year} ou ce magasin.`);
@@ -92,16 +102,21 @@ function handleScrollLoad() {
 
 async function handleDateBoundsChange() {
     const dateDebutVal = document.getElementById('date-debut').value;
+    const dateFinVal = document.getElementById('date-fin').value;
+    
     if (!dateDebutVal) {
         renderVerres();
         return;
     }
 
-    const anneeSelectionnee = new Date(dateDebutVal).getFullYear();
-    const anneeEnCours = new Date().getFullYear();
+    const anneeSelectionneeDebut = new Date(dateDebutVal).getFullYear();
+    // CORRECTION : On prend aussi l'année de fin du calendrier si elle est saisie, sinon l'année machine
+    const anneeSelectionneeFin = dateFinVal ? new Date(dateFinVal).getFullYear() : new Date().getFullYear();
+    const anneeMaxABoucler = Math.max(anneeSelectionneeFin, new Date().getFullYear());
 
-    if (anneeSelectionnee <= anneeEnCours) {
-        for (let y = anneeEnCours; y >= anneeSelectionnee; y--) {
+    // CORRECTION : Boucle ascendante (du passé vers le présent) pour charger l'intégralité de la plage demandée
+    if (anneeSelectionneeDebut <= anneeMaxABoucler) {
+        for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
             await loadArchiveYear(y);
         }
         autoArchivesIncluded = true;
@@ -134,34 +149,30 @@ function renderVerres() {
     if (dateDebutFilter) dateDebutFilter.setHours(0,0,0,0);
     if (dateFinFilter) dateFinFilter.setHours(23,59,59,999);
 
-    // Inclure les archives si la case est cochée OU si des dates de filtres sont saisies
     const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
     let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
-    // Suppression des doublons (Gestion intelligente des deux clés d'identifiants possibles)
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        const idUnique = item.id_commande_v2i || item.id_bl_v2i;
-        if (idUnique) uniquesMap.set(idUnique.trim(), item);
+        // CORRECTION : Prise en compte de toutes les variantes d'ID générées par l'archivage
+        const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
+        if (idUnique) uniquesMap.set(String(idUnique).trim(), item);
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // Filtrage Textuel + Filtrage par Plage de Dates
     const donneesFiltrees = donneesAAfficher.filter(v => {
-        const idCommande = (v.id_commande_v2i || v.id_bl_v2i || '').trim();
+        const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '';
         
-        // 1. Recherche globale par texte
         const texteRecherche = `${v.patient} ${idCommande} ${v.job_cosium} ${v.date_entree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
-        // 2. Filtrage par dates (basé sur la clé universelle v.date_entree)
-        const dateSaisie = parseDate(v.date_entree); // Ta fonction de parsing (ex: "12/05/2026" -> Date object)
+        const dateSaisie = parseDate(v.date_entree); 
         if (dateSaisie) {
             if (dateDebutFilter && dateSaisie < dateDebutFilter) return false;
             if (dateFinFilter && dateSaisie > dateFinFilter) return false;
         } else if (dateDebutFilter || dateFinFilter) {
-            return false; // Si le filtre est actif mais que la ligne n'a pas de date valide, on l'exclut
+            return false; 
         }
 
         return true;
@@ -172,12 +183,10 @@ function renderVerres() {
         return;
     }
 
-    // Boucle d'affichage des lignes du tableau HTML
     donneesFiltrees.forEach((v) => {
-        const idCommande = (v.id_commande_v2i || v.id_bl_v2i || '').trim();
+        const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '—';
         
-        // Extraction dynamique du type de verre et suppléments (œil droit par défaut, sinon gauche)
         const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
         const listeSupplements = cibleVerre && Array.isArray(cibleVerre.supplements) ? cibleVerre.supplements : [];
         const typeVerre = cibleVerre && cibleVerre.verre ? cibleVerre.verre : (v.type_commande || 'Verre V2i');
@@ -192,12 +201,11 @@ function renderVerres() {
             `;
         }
 
-        // Gestion intelligente de la date d'expédition / livraison prévue
         let livraisonPrevue = 'En calcul';
         if (v.date_livraison_prevue && v.date_livraison_prevue.trim() !== '') {
             livraisonPrevue = v.date_livraison_prevue;
         } else if (v.date_expedition) {
-            livraisonPrevue = v.date_expedition; // Pour les archives, on affiche directement la date d'expédition !
+            livraisonPrevue = v.date_expedition; 
         }
 
         tbody.innerHTML += `
@@ -225,11 +233,16 @@ function renderVerres() {
 
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
-    const cmd = toutesLesCommandes.find(c => c.id_commande_v2i === idCommande);
+    // CORRECTION : Recherche cross-compatible sur tous les types d'identifiants
+    const cmd = toutesLesCommandes.find(c => {
+        const idV2i = String(c.id_commande_v2i || c.ord_numb || c.id_bl_v2i || '').trim();
+        return idV2i === String(idCommande).trim();
+    });
+    
     if (!cmd) return;
     
     document.getElementById('panel-patient').innerText = cmd.patient;
-    document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + cmd.id_commande_v2i;
+    document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + (cmd.id_commande_v2i || cmd.ord_numb || cmd.id_bl_v2i);
     document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
     
     if (cmd.oeil_droit) {
