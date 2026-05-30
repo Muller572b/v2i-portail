@@ -5,6 +5,7 @@
     "nom": "AB Lunettes / Luni Di Sole (ABL)"
   },
   "annee_archive": "2026",
+  "derniere_validation": "30/05/2026 à 08:43",
   "commandes_expediees": [
     {
       "ord_numb": "            10150312",
@@ -12,9 +13,52 @@
       "code_cote": "B",
       "patient": "GOMES Ludovic",
       "job_cosium": "",
+      "detail": "Réf: GOMES Ludovic — (Fabrication RX) — État: Livré / Expédié",
       "date_entree": "30/03/2026",
       "date_expedition": "03/04/2026",
-      "statut_final": "SHIP"
+      "statut_final": "SHIP",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Non Durci",
+          "Teinte Dégradée Brun C",
+          "Décentrement"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Non Durci",
+          "Teinte Dégradée Brun C",
+          "Décentrement"
+        ]
+      }
     }
   ]
 }
