@@ -5,6 +5,7 @@
     "nom": "Optique Donati Borgo (BOR)"
   },
   "annee_archive": "2023",
+  "derniere_validation": "30/05/2026 à 08:43",
   "commandes_expediees": [
     {
       "ord_numb": "            10000472",
@@ -12,9 +13,52 @@
       "code_cote": "B",
       "patient": "ciccoli",
       "job_cosium": "",
+      "detail": "Réf: ciccoli — (Fabrication RX) — État: Livré / Expédié",
       "date_entree": "10/11/2023",
       "date_expedition": "15/11/2023",
-      "statut_final": "SHIP"
+      "statut_final": "SHIP",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "2.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "AS Uni 1.74 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "4.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "AS Uni 1.74 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Optimized"
+        ]
+      }
     }
   ]
 }
