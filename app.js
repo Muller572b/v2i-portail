@@ -3,7 +3,7 @@ let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; // Verrou unique de sécurité anti-freeze
+let isLoadingArchives = false; // Verrou de sécurité global
 
 async function handleLogin(e) {
     e.preventDefault();
@@ -63,15 +63,14 @@ async function loadArchiveYear(year) {
             const archiveData = await resp.json();
             const nouvellesCommandes = archiveData.commandes_expediees || [];
             
-            nouvellesCommandes.forEach(cmd => {
-                const idCmdNouvelle = (cmd.ord_numb || cmd.id_bl_v2i || '').trim();
-                const existeDeja = storeArchives.some(existing => {
-                    const idExisting = (existing.ord_numb || existing.id_bl_v2i || '').trim();
-                    return idExisting === idCmdNouvelle;
-                });
+            // Map d'identifiants existants pour aller beaucoup plus vite qu'un .some() imbriqué
+            const existingIds = new Set(storeArchives.map(existing => String(existing.ord_numb || existing.id_bl_v2i || '').trim()));
 
-                if (!existeDeja) {
+            nouvellesCommandes.forEach(cmd => {
+                const idCmdNouvelle = String(cmd.ord_numb || cmd.id_bl_v2i || '').trim();
+                if (!existingIds.has(idCmdNouvelle)) {
                     storeArchives.push(cmd);
+                    existingIds.add(idCmdNouvelle); // Évite les doublons internes
                 }
             });
 
@@ -90,15 +89,17 @@ async function loadArchiveYear(year) {
 
 function handleScrollLoad() {
     if (document.getElementById('content-verres').classList.contains('hidden')) return;
-    if (autoArchivesIncluded) return;
+    if (autoArchivesIncluded || isLoadingArchives) return;
 
     if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
         autoArchivesIncluded = true;
+        isLoadingArchives = true;
         const anneeEnCours = new Date().getFullYear();
         
         loadArchiveYear(anneeEnCours).then(() => {
+            isLoadingArchives = false;
             renderVerres();
-        });
+        }).catch(() => { isLoadingArchives = false; });
     }
 }
 
@@ -114,16 +115,12 @@ async function handleDateBoundsChange() {
     const dateDebutVal = dateDebutInput.value;
     const dateFinVal = dateFinInput ? dateFinInput.value : '';
     
-    // SÉCURITÉ : Bloque si l'utilisateur est en train de taper manuellement au clavier
     if (dateDebutVal.length < 10) return;
-
-    // SÉCURITÉ : Évite le déclenchement de requêtes parallèles infinies
     if (isLoadingArchives) return;
 
     const dateDebut = new Date(dateDebutVal);
     const anneeSelectionneeDebut = dateDebut.getFullYear();
     
-    // SÉCURITÉ CRITIQUE : Si l'année n'est pas un nombre ou est aberrante, on stoppe net pour éviter la boucle infinie !
     if (!anneeSelectionneeDebut || isNaN(anneeSelectionneeDebut) || anneeSelectionneeDebut < 2000 || anneeSelectionneeDebut > 2100) {
         renderVerres();
         return;
@@ -138,7 +135,6 @@ async function handleDateBoundsChange() {
     
     const anneeMaxABoucler = Math.max(anneeSelectionneeFin, currentYear);
 
-    // Double vérification pour s'assurer que la boucle n'est pas un piège pour la mémoire
     if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
         
@@ -148,7 +144,6 @@ async function handleDateBoundsChange() {
         }
 
         try {
-            // Chargement parallèle sans figer l'interface graphique
             await Promise.all(anneesACharger.map(year => loadArchiveYear(year)));
             autoArchivesIncluded = true;
         } catch (err) {
@@ -165,20 +160,17 @@ function parseDate(dateStr) {
     if (!dateStr) return null;
     const parts = dateStr.split(' ')[0].split('/');
     if (parts.length === 3) {
-        // Crée une date locale calée à minuit pile pour des comparaisons propres
         return new Date(parts[2], parts[1] - 1, parts[0], 0, 0, 0, 0);
     }
     return null;
 }
 
-// 1. AJOUTE CETTE VARIABLE TOUT EN HAUT DE APP.JS AVEC LES AUTRES
+// Variables globales de contrôle pour la recherche
 let searchTimeout = null;
 
-// 2. MODIFIE LA FONCTION RENDERVERRES POUR INTÉGRER LE FILTRAGE OPTIMISÉ
 function renderVerres() {
     const tbody = document.getElementById('verres-table-body');
     if (!tbody) return;
-    tbody.innerHTML = '';
     
     const search = document.getElementById('search-verres').value.toLowerCase().trim();
     const dateDebutVal = document.getElementById('date-debut').value;
@@ -199,7 +191,7 @@ function renderVerres() {
     const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
     let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
-    // Déduplication rapide
+    // Déduplication performante
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -210,8 +202,9 @@ function renderVerres() {
     const donneesFiltrees = donneesAAfficher.filter(v => {
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '';
+        const jobCosium = v.job_cosium || '';
         
-        const texteRecherche = `${v.patient} ${idCommande} ${v.job_cosium} ${v.date_entree} ${statutFournisseur}`.toLowerCase();
+        const texteRecherche = `${v.patient} ${idCommande} ${jobCosium} ${v.date_entree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
         const dateSaisie = parseDate(v.date_entree); 
@@ -230,8 +223,9 @@ function renderVerres() {
         return;
     }
 
-    // Limiter l'affichage initial à 50 lignes maximum pour éviter le freeze de l'écran à la saisie
-    const auMaximum = donneesFiltrees.slice(0, 50);
+    // Protection mémoire : Max 60 lignes visibles simultanément
+    const auMaximum = donneesFiltrees.slice(0, 60);
+    let rowsHtml = [];
 
     auMaximum.forEach((v) => {
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -258,7 +252,7 @@ function renderVerres() {
             livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
-        tbody.innerHTML += `
+        rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
                     <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient}</div>
@@ -275,38 +269,48 @@ function renderVerres() {
                     </button>
                 </td>
             </tr>
-        `;
+        `);
     });
     
+    // Injection de masse propre et instantanée (Zéro lag)
+    tbody.innerHTML = rowsHtml.join('');
     if (window.lucide) lucide.createIcons();
 }
 
-// 3. NOUVELLE FONCTION INTELLIGENTE APPELÉE PAR LE HTML (ANTI-FREEZE + SCAN ARCHIVES)
 function handleSearchInput() {
     clearTimeout(searchTimeout);
     
-    // On attend 300ms après la fin de la frappe pour agir
     searchTimeout = setTimeout(async () => {
         const searchValue = document.getElementById('search-verres').value.trim();
         
-        // Si l'utilisateur tape une référence longue (ex: numéro de job ou de BL à plus de 4 chiffres)
-        if (searchValue.length >= 4 && !isNaN(searchValue)) {
+        // RECHERCHE DIRECTE DANS LES ARCHIVES SI NUMÉRO LONG (Job ou BL)
+        if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
             const currentYear = new Date().getFullYear();
-            // On charge à la volée l'année actuelle et l'année passée en arrière-plan
-            if (!isLoadingArchives) {
-                isLoadingArchives = true;
-                await Promise.all([
-                    loadArchiveYear(currentYear),
-                    loadArchiveYear(currentYear - 1)
-                ]);
-                isLoadingArchives = false;
+            
+            // Sécurité : On ne lance l'appel que si ces années ne sont pas déjà indexées en mémoire
+            if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
+                if (!isLoadingArchives) {
+                    isLoadingArchives = true;
+                    try {
+                        await Promise.all([
+                            loadArchiveYear(currentYear),
+                            loadArchiveYear(currentYear - 1),
+                            loadArchiveYear(currentYear - 2) // Optionnel : check aussi l'année d'avant au cas où
+                        ]);
+                        autoArchivesIncluded = true;
+                    } catch (err) {
+                        console.error(err);
+                    } finally {
+                        isLoadingArchives = false;
+                    }
+                }
             }
         }
         
-        // Lance le rendu graphique soulagé
         renderVerres();
-    }, 300);
+    }, 350); // Attente de 350ms après la frappe
 }
+
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
     const cmd = toutesLesCommandes.find(c => {
@@ -374,7 +378,7 @@ function openSidePanel(idCommande) {
     }
 
     document.getElementById('side-panel').classList.remove('hidden');
-    lucide.createIcons();
+    if (window.lucide) lucide.createIcons();
 }
 
 function closeSidePanel() {
@@ -412,4 +416,4 @@ function logout() {
     autoArchivesIncluded = false;
 }
 
-lucide.createIcons();
+if (window.lucide) lucide.createIcons();
