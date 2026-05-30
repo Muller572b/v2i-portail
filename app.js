@@ -171,6 +171,10 @@ function parseDate(dateStr) {
     return null;
 }
 
+// 1. AJOUTE CETTE VARIABLE TOUT EN HAUT DE APP.JS AVEC LES AUTRES
+let searchTimeout = null;
+
+// 2. MODIFIE LA FONCTION RENDERVERRES POUR INTÉGRER LE FILTRAGE OPTIMISÉ
 function renderVerres() {
     const tbody = document.getElementById('verres-table-body');
     if (!tbody) return;
@@ -180,7 +184,6 @@ function renderVerres() {
     const dateDebutVal = document.getElementById('date-debut').value;
     const dateFinVal = document.getElementById('date-fin').value;
     
-    // Modification pour forcer le traitement en heure locale neutre (minuit)
     let dateDebutFilter = null;
     if (dateDebutVal) {
         const parts = dateDebutVal.split('-');
@@ -196,6 +199,7 @@ function renderVerres() {
     const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
     let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
+    // Déduplication rapide
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -222,14 +226,16 @@ function renderVerres() {
     });
 
     if (donneesFiltrees.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé pour ces critères.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
         return;
     }
 
-    donneesFiltrees.forEach((v) => {
+    // Limiter l'affichage initial à 50 lignes maximum pour éviter le freeze de l'écran à la saisie
+    const auMaximum = donneesFiltrees.slice(0, 50);
+
+    auMaximum.forEach((v) => {
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '—';
-        
         const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
         const listeSupplements = cibleVerre && Array.isArray(cibleVerre.supplements) ? cibleVerre.supplements : [];
         const typeVerre = cibleVerre && cibleVerre.verre ? cibleVerre.verre : (v.type_commande || 'Verre V2i');
@@ -239,12 +245,10 @@ function renderVerres() {
             htmlSupplements += `
                 <div class="flex flex-col gap-0.5 text-[11px] text-gray-500 font-medium mt-1 leading-relaxed">
                     ${listeSupplements.slice(0, 3).map(supp => `<span>• ${supp}</span>`).join('')}
-                    ${listeSupplements.length > 3 ? `<span class="text-[#0066cc] font-semibold">+ ${listeSupplements.length - 3} autres...</span>` : ''}
                 </div>
             `;
         }
 
-        // AFFICHAGE FIABLE DE LA DATE DE LIVRAISON DIRECTEMENT DEPUIS LA CLÉ "statut" DU JSON
         let livraisonPrevue = 'En calcul';
         if (v.statut && String(v.statut).toLowerCase().includes('livraison')) {
             livraisonPrevue = String(v.statut).trim();
@@ -258,16 +262,16 @@ function renderVerres() {
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
                     <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient}</div>
-                    <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job Cosium: ${v.job_cosium || '—'}</div>
+                    <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job: ${v.job_cosium || '—'}</div>
                 </td>
-                <td class="px-6 py-4 font-sans">${htmlSupplements}</td> 
-                <td class="px-6 py-4 font-mono text-gray-600 font-medium">${v.date_entree || '—'}</td>
-                <td class="px-6 py-4 font-mono font-bold text-gray-700">${statutFournisseur}</td>
+                <td class="px-6 py-4">${htmlSupplements}</td> 
+                <td class="px-6 py-4 font-mono">${v.date_entree || '—'}</td>
+                <td class="px-6 py-4 font-mono font-bold">${statutFournisseur}</td>
                 <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
-                <td class="px-6 py-4 font-mono font-bold text-[#1d1d1f] text-sm">${idCommande}</td>
+                <td class="px-6 py-4 font-mono font-bold">${idCommande}</td>
                 <td class="px-6 py-4 text-center">
-                    <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] hover:bg-[#e2f1ff] border border-gray-200 hover:border-[#bfe0ff] rounded-xl transition-all cursor-pointer">
-                        <i data-lucide="eye" class="w-4 h-4 stroke-[2]"></i>
+                    <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer">
+                        <i data-lucide="eye" class="w-4 h-4"></i>
                     </button>
                 </td>
             </tr>
@@ -277,6 +281,32 @@ function renderVerres() {
     if (window.lucide) lucide.createIcons();
 }
 
+// 3. NOUVELLE FONCTION INTELLIGENTE APPELÉE PAR LE HTML (ANTI-FREEZE + SCAN ARCHIVES)
+function handleSearchInput() {
+    clearTimeout(searchTimeout);
+    
+    // On attend 300ms après la fin de la frappe pour agir
+    searchTimeout = setTimeout(async () => {
+        const searchValue = document.getElementById('search-verres').value.trim();
+        
+        // Si l'utilisateur tape une référence longue (ex: numéro de job ou de BL à plus de 4 chiffres)
+        if (searchValue.length >= 4 && !isNaN(searchValue)) {
+            const currentYear = new Date().getFullYear();
+            // On charge à la volée l'année actuelle et l'année passée en arrière-plan
+            if (!isLoadingArchives) {
+                isLoadingArchives = true;
+                await Promise.all([
+                    loadArchiveYear(currentYear),
+                    loadArchiveYear(currentYear - 1)
+                ]);
+                isLoadingArchives = false;
+            }
+        }
+        
+        // Lance le rendu graphique soulagé
+        renderVerres();
+    }, 300);
+}
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
     const cmd = toutesLesCommandes.find(c => {
