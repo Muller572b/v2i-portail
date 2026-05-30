@@ -3,6 +3,7 @@ let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
 let loadedYears = []; 
+let isLoadingArchives = false; // Verrou de sécurité anti-freeze
 
 async function handleLogin(e) {
     e.preventDefault();
@@ -19,7 +20,6 @@ async function handleLogin(e) {
         
         const data = await response.json();
 
-        // Sécurisation de la vérification pour éviter les plantages si la propriété est absente ou numérique
         if (data && data.infos_magasin && data.infos_magasin.code_cosium && 
             cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
             
@@ -53,7 +53,7 @@ async function handleLogin(e) {
 }
 
 async function loadArchiveYear(year) {
-    if (loadedYears.includes(year) || !currentStoreId) return;
+    if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
 
     const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
@@ -64,7 +64,6 @@ async function loadArchiveYear(year) {
             const nouvellesCommandes = archiveData.commandes_expediees || [];
             
             nouvellesCommandes.forEach(cmd => {
-                // CORRECTION : Résolution de l'espace dans la variable 'existeDeja' qui bloquait l'exécution
                 const idCmdNouvelle = (cmd.ord_numb || cmd.id_bl_v2i || '').trim();
                 const existeDeja = storeArchives.some(existing => {
                     const idExisting = (existing.ord_numb || existing.id_bl_v2i || '').trim();
@@ -76,13 +75,13 @@ async function loadArchiveYear(year) {
                 }
             });
 
-            // Tri pour trouver l'année maximale chargée à afficher dans la bannière
             const anneeMax = Math.max(...loadedYears);
-
             const banner = document.getElementById('archive-status-banner');
             const bannerText = document.getElementById('archive-status-text');
-            banner.classList.remove('hidden');
-            bannerText.innerText = `Archives synchronisées jusqu'en ${anneeMax}. Total archivé : ${storeArchives.length} commande(s).`;
+            if (banner && bannerText) {
+                banner.classList.remove('hidden');
+                bannerText.innerText = `Archives synchronisées jusqu'en ${anneeMax}. Total archivé : ${storeArchives.length} commande(s).`;
+            }
         }
     } catch (e) {
         console.log(`Pas d'archive disponible pour l'année ${year} ou ce magasin.`);
@@ -107,20 +106,36 @@ async function handleDateBoundsChange() {
     const dateDebutVal = document.getElementById('date-debut').value;
     const dateFinVal = document.getElementById('date-fin').value;
     
-    if (!dateDebutVal) {
+    // Anti-freeze : si la date est incomplète au clavier, on ne lance rien
+    if (!dateDebutVal || dateDebutVal.length < 10) {
         renderVerres();
         return;
     }
 
-    const anneeSelectionneeDebut = new Date(dateDebutVal).getFullYear();
-    const anneeSelectionneeFin = dateFinVal ? new Date(dateFinVal).getFullYear() : new Date().getFullYear();
-    const anneeMaxABoucler = Math.max(anneeSelectionneeFin, new Date().getFullYear());
+    // Sécurité : empêche les exécutions simultanées conflictuelles
+    if (isLoadingArchives) return;
+
+    const dateDebut = new Date(dateDebutVal);
+    const anneeSelectionneeDebut = dateDebut.getFullYear();
+    if (isNaN(anneeSelectionneeDebut) || anneeSelectionneeDebut < 2000) return;
+
+    const currentYear = new Date().getFullYear();
+    const anneeSelectionneeFin = dateFinVal ? new Date(dateFinVal).getFullYear() : currentYear;
+    const anneeMaxABoucler = Math.max(isNaN(anneeSelectionneeFin) ? currentYear : anneeSelectionneeFin, currentYear);
 
     if (anneeSelectionneeDebut <= anneeMaxABoucler) {
+        isLoadingArchives = true;
+        
+        const anneesACharger = [];
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
-            await loadArchiveYear(y);
+            anneesACharger.push(y);
         }
+
+        // Requêtes asynchrones parallèles (Adieu le freeze !)
+        await Promise.all(anneesACharger.map(year => loadArchiveYear(year)));
+        
         autoArchivesIncluded = true;
+        isLoadingArchives = false;
     }
     
     renderVerres();
@@ -201,11 +216,12 @@ function renderVerres() {
             `;
         }
 
+        // CORRECTION : Lecture robuste de la date calculée par le fichier JSON
         let livraisonPrevue = 'En calcul';
-        if (v.date_livraison_prevue && v.date_livraison_prevue.trim() !== '') {
-            livraisonPrevue = v.date_livraison_prevue;
-        } else if (v.date_expedition) {
-            livraisonPrevue = v.date_expedition; 
+        if (v.date_livraison_prevue && String(v.date_livraison_prevue).trim() !== '') {
+            livraisonPrevue = String(v.date_livraison_prevue).trim();
+        } else if (v.date_expedition && String(v.date_expedition).trim() !== '') {
+            livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
         tbody.innerHTML += `
