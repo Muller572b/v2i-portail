@@ -5,18 +5,22 @@
     "nom": "LensWare International GmbH"
   },
   "annee_archive": "2023",
-  "derniere_validation": "30/05/2026 à 08:43",
+  "derniere_validation": "30/05/2026 à 12:03",
   "commandes_expediees": [
     {
       "ord_numb": "            10000565",
+      "id_commande_v2i": "231110000094",
       "id_bl_v2i": "231110000094",
       "code_cote": "B",
       "patient": "TEST DUG+ARG",
       "job_cosium": "",
-      "detail": "Réf: TEST DUG+ARG — (Fabrication RX) — État: Livré / Expédié",
+      "detail": "Réf: TEST DUG+ARG — (Fabrication RX) — État: CANC",
       "date_entree": "10/11/2023",
       "date_expedition": "14/11/2023",
-      "statut_final": "CANC",
+      "statut_code": "CANC",
+      "statut_affichage": "CANC",
+      "statut": "14/11/2023",
+      "style_couleur": "text-orange-500 font-semibold",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
