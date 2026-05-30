@@ -172,9 +172,15 @@ function renderVerres() {
     const tbody = document.getElementById('verres-table-body');
     if (!tbody) return;
     
-    const search = document.getElementById('search-verres').value.toLowerCase().trim();
-    const dateDebutVal = document.getElementById('date-debut').value;
-    const dateFinVal = document.getElementById('date-fin').value;
+    // Récupération sécurisée des éléments pour éviter les erreurs "undefined"
+    const searchInput = document.getElementById('search-verres');
+    const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
+    
+    const dateDebutEl = document.getElementById('date-debut');
+    const dateDebutVal = dateDebutEl ? dateDebutEl.value : '';
+    
+    const dateFinEl = document.getElementById('date-fin');
+    const dateFinVal = dateFinEl ? dateFinEl.value : '';
     
     let dateDebutFilter = null;
     if (dateDebutVal) {
@@ -188,29 +194,45 @@ function renderVerres() {
         if (parts.length === 3) dateFinFilter = new Date(parts[0], parts[1] - 1, parts[2], 23, 59, 59, 999);
     }
 
-    const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
-    let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
+    // Sécurisation des variables globales au cas où elles ne seraient pas encore définies
+    const archivesIncluses = (typeof autoArchivesIncluded !== 'undefined') ? autoArchivesIncluded : false;
+    const dataEncours = (typeof storeEncours !== 'undefined' && Array.isArray(storeEncours)) ? storeEncours : [];
+    const dataArchives = (typeof storeArchives !== 'undefined' && Array.isArray(storeArchives)) ? storeArchives : [];
 
-    // Déduplication performante
+    const inclureArchives = archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
+    let donneesAAfficher = inclureArchives ? [...dataEncours, ...dataArchives] : dataEncours;
+
+    // Déduplication performante et sécurisée
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
-        if (idUnique) uniquesMap.set(String(idUnique).trim(), item);
+        if (item) {
+            const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
+            if (idUnique) uniquesMap.set(String(idUnique).trim(), item);
+        }
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
+    // Filtrage des données
     const donneesFiltrees = donneesAAfficher.filter(v => {
+        if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '';
         const jobCosium = v.job_cosium || '';
+        const patientName = v.patient || '';
+        const dateEntree = v.date_entree || '';
         
-        const texteRecherche = `${v.patient} ${idCommande} ${jobCosium} ${v.date_entree} ${statutFournisseur}`.toLowerCase();
+        const texteRecherche = `${patientName} ${idCommande} ${jobCosium} ${dateEntree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
-        const dateSaisie = parseDate(v.date_entree); 
-        if (dateSaisie) {
-            if (dateDebutFilter && dateSaisie < dateDebutFilter) return false;
-            if (dateFinFilter && dateSaisie > dateFinFilter) return false;
+        // Vérification sécurisée de la fonction de parsing de date
+        if (typeof parseDate === 'function') {
+            const dateSaisie = parseDate(dateEntree); 
+            if (dateSaisie) {
+                if (dateDebutFilter && dateSaisie < dateDebutFilter) return false;
+                if (dateFinFilter && dateSaisie > dateFinFilter) return false;
+            } else if (dateDebutFilter || dateFinFilter) {
+                return false; 
+            }
         } else if (dateDebutFilter || dateFinFilter) {
             return false; 
         }
@@ -218,6 +240,7 @@ function renderVerres() {
         return true;
     });
 
+    // Si aucun résultat après filtrage
     if (donneesFiltrees.length === 0) {
         tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
         return;
@@ -228,6 +251,7 @@ function renderVerres() {
     let rowsHtml = [];
 
     auMaximum.forEach((v) => {
+        if (!v) return;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '—';
         const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
@@ -255,7 +279,7 @@ function renderVerres() {
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
-                    <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient}</div>
+                    <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient || '—'}</div>
                     <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job: ${v.job_cosium || '—'}</div>
                 </td>
                 <td class="px-6 py-4">${htmlSupplements}</td> 
@@ -272,7 +296,7 @@ function renderVerres() {
         `);
     });
     
-    // Injection de masse propre et instantanée (Zéro lag)
+    // Insertion propre dans le DOM
     tbody.innerHTML = rowsHtml.join('');
     if (window.lucide) lucide.createIcons();
 }
