@@ -134,10 +134,11 @@ function renderVerres() {
     if (dateDebutFilter) dateDebutFilter.setHours(0,0,0,0);
     if (dateFinFilter) dateFinFilter.setHours(23,59,59,999);
 
+    // Inclure les archives si la case est cochée OU si des dates de filtres sont saisies
     const inclureArchives = autoArchivesIncluded || dateDebutFilter !== null || dateFinFilter !== null;
     let donneesAAfficher = inclureArchives ? [...storeEncours, ...storeArchives] : storeEncours;
 
-    // Élimination des doublons en gérant les deux clés possibles (id_commande_v2i OU id_bl_v2i)
+    // Suppression des doublons (Gestion intelligente des deux clés d'identifiants possibles)
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.id_bl_v2i;
@@ -145,62 +146,58 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // Filtrage croisé (Texte + Dates)
+    // Filtrage Textuel + Filtrage par Plage de Dates
     const donneesFiltrees = donneesAAfficher.filter(v => {
         const idCommande = (v.id_commande_v2i || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '';
         
-        // 1. Recherche par Nom, BL ou Job Cosium
+        // 1. Recherche globale par texte
         const texteRecherche = `${v.patient} ${idCommande} ${v.job_cosium} ${v.date_entree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
-        // 2. Filtrage par plage de dates (Du... Au...)
-        const dateSaisie = parseDate(v.date_entree);
+        // 2. Filtrage par dates (basé sur la clé universelle v.date_entree)
+        const dateSaisie = parseDate(v.date_entree); // Ta fonction de parsing (ex: "12/05/2026" -> Date object)
         if (dateSaisie) {
             if (dateDebutFilter && dateSaisie < dateDebutFilter) return false;
             if (dateFinFilter && dateSaisie > dateFinFilter) return false;
         } else if (dateDebutFilter || dateFinFilter) {
-            return false; 
+            return false; // Si le filtre est actif mais que la ligne n'a pas de date valide, on l'exclut
         }
 
         return true;
     });
 
     if (donneesFiltrees.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé pour ces critères.</td></tr>`;
         return;
     }
 
-    // Génération des lignes du tableau
+    // Boucle d'affichage des lignes du tableau HTML
     donneesFiltrees.forEach((v) => {
         const idCommande = (v.id_commande_v2i || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '—';
         
+        // Extraction dynamique du type de verre et suppléments (œil droit par défaut, sinon gauche)
         const cibleVerre = v.oeil_droit ? v.oeil_droit : v.oeil_gauche;
-        const listeSupplements = cibleVerre && cibleVerre.supplements ? cibleVerre.supplements : [];
-        const typeVerre = cibleVerre && cibleVerre.libelle ? cibleVerre.libelle : (v.type_commande || 'Verre spécifié');
+        const listeSupplements = cibleVerre && Array.isArray(cibleVerre.supplements) ? cibleVerre.supplements : [];
+        const typeVerre = cibleVerre && cibleVerre.verre ? cibleVerre.verre : (v.type_commande || 'Verre V2i');
         
         let htmlSupplements = `<div class="font-semibold text-[#1d1d1f] text-xs">${typeVerre}</div>`;
         if (listeSupplements.length > 0) {
             htmlSupplements += `
                 <div class="flex flex-col gap-0.5 text-[11px] text-gray-500 font-medium mt-1 leading-relaxed">
-                    ${listeSupplements.map(supp => `<span>• ${supp}</span>`).join('')}
+                    ${listeSupplements.slice(0, 3).map(supp => `<span>• ${supp}</span>`).join('')}
+                    ${listeSupplements.length > 3 ? `<span class="text-[#0066cc] font-semibold">+ ${listeSupplements.length - 3} autres...</span>` : ''}
                 </div>
             `;
         }
 
-        // Extraction de la livraison prévue
+        // Gestion intelligente de la date d'expédition / livraison prévue
         let livraisonPrevue = 'En calcul';
         if (v.date_livraison_prevue && v.date_livraison_prevue.trim() !== '') {
             livraisonPrevue = v.date_livraison_prevue;
-        } else if (v.statut && v.statut.toLowerCase().includes('livraison prévue')) {
-            const match = v.statut.match(/livraison prévue\s*:\s*([\d\/]+)/i);
-            if (match && match[1]) {
-                livraisonPrevue = match[1];
-            }
         } else if (v.date_expedition) {
-            // Si c'est une archive pure avec seulement la date d'expédition
-            livraisonPrevue = v.date_expedition;
+            livraisonPrevue = v.date_expedition; // Pour les archives, on affiche directement la date d'expédition !
         }
 
         tbody.innerHTML += `
@@ -223,9 +220,7 @@ function renderVerres() {
         `;
     });
     
-    if (window.lucide) {
-        lucide.createIcons();
-    }
+    if (window.lucide) lucide.createIcons();
 }
 
 function openSidePanel(idCommande) {
