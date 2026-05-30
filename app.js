@@ -19,7 +19,10 @@ async function handleLogin(e) {
         
         const data = await response.json();
 
-        if (data.infos_magasin && cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
+        // Sécurisation de la vérification pour éviter les plantages si la propriété est absente ou numérique
+        if (data && data.infos_magasin && data.infos_magasin.code_cosium && 
+            cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
+            
             currentStoreId = clientNum;
             storeEncours = data.commandes_en_cours || [];
 
@@ -61,9 +64,9 @@ async function loadArchiveYear(year) {
             const nouvellesCommandes = archiveData.commandes_expediees || [];
             
             nouvellesCommandes.forEach(cmd => {
-                // CORRECTION : Recherche multi-clés pour éviter les doublons d'ID d'archives
+                // CORRECTION : Résolution de l'espace dans la variable 'existeDeja' qui bloquait l'exécution
                 const idCmdNouvelle = (cmd.ord_numb || cmd.id_bl_v2i || '').trim();
-                const existe Deja = storeArchives.some(existing => {
+                const existeDeja = storeArchives.some(existing => {
                     const idExisting = (existing.ord_numb || existing.id_bl_v2i || '').trim();
                     return idExisting === idCmdNouvelle;
                 });
@@ -110,11 +113,9 @@ async function handleDateBoundsChange() {
     }
 
     const anneeSelectionneeDebut = new Date(dateDebutVal).getFullYear();
-    // CORRECTION : On prend aussi l'année de fin du calendrier si elle est saisie, sinon l'année machine
     const anneeSelectionneeFin = dateFinVal ? new Date(dateFinVal).getFullYear() : new Date().getFullYear();
     const anneeMaxABoucler = Math.max(anneeSelectionneeFin, new Date().getFullYear());
 
-    // CORRECTION : Boucle ascendante (du passé vers le présent) pour charger l'intégralité de la plage demandée
     if (anneeSelectionneeDebut <= anneeMaxABoucler) {
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
             await loadArchiveYear(y);
@@ -154,7 +155,6 @@ function renderVerres() {
 
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        // CORRECTION : Prise en compte de toutes les variantes d'ID générées par l'archivage
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
         if (idUnique) uniquesMap.set(String(idUnique).trim(), item);
     });
@@ -233,7 +233,6 @@ function renderVerres() {
 
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
-    // CORRECTION : Recherche cross-compatible sur tous les types d'identifiants
     const cmd = toutesLesCommandes.find(c => {
         const idV2i = String(c.id_commande_v2i || c.ord_numb || c.id_bl_v2i || '').trim();
         return idV2i === String(idCommande).trim();
