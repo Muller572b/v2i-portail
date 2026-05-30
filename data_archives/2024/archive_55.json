@@ -5,18 +5,22 @@
     "nom": "AB Lunettes / Luni Di Sole (ABL)"
   },
   "annee_archive": "2024",
-  "derniere_validation": "30/05/2026 à 08:43",
+  "derniere_validation": "30/05/2026 à 12:03",
   "commandes_expediees": [
     {
       "ord_numb": "            10036804",
+      "id_commande_v2i": "240603000005",
       "id_bl_v2i": "240603000005",
       "code_cote": "B",
       "patient": "vilanova camille",
       "job_cosium": "",
-      "detail": "Réf: vilanova camille — (Fabrication RX) — État: Livré / Expédié",
+      "detail": "Réf: vilanova camille — (Fabrication RX) — État: Expédié",
       "date_entree": "03/06/2024",
       "date_expedition": "13/06/2024",
-      "statut_final": "SHIP",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "13/06/2024",
+      "style_couleur": "text-orange-500 font-semibold",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
