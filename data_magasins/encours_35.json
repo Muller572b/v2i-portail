@@ -10,8 +10,173 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "30/05/2026 09:12",
+  "derniere_mise_a_jour": "30/05/2026 12:00",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10159907",
+      "id_commande_v2i": "260530000014",
+      "code_cote": "B",
+      "patient": "CALVIA CHRISTIANE",
+      "job_cosium": "J120030272-01",
+      "date_entree": "30/05/2026",
+      "detail": "Réf: CALVIA CHRISTIANE / J120030272-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.25",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159908",
+      "id_commande_v2i": "260530000015",
+      "code_cote": "B",
+      "patient": "CALVIA CHRISTIANE",
+      "job_cosium": "J120030272-02",
+      "date_entree": "30/05/2026",
+      "detail": "Réf: CALVIA CHRISTIANE / J120030272-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 01/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "4.25",
+        "cylindre": "0.25",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "4.25",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159910",
+      "id_commande_v2i": "260530000017",
+      "code_cote": "B",
+      "patient": "GARRIGOU CHRISTELLE",
+      "job_cosium": "J120030285",
+      "date_entree": "30/05/2026",
+      "detail": "Réf: GARRIGOU CHRISTELLE / J120030285 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "27.5",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159714",
       "id_commande_v2i": "260529000030",
@@ -258,7 +423,7 @@
       "detail": "Réf: DE LIMA STANISCE CORREA VICTOR / J120030264 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 29/05 (En retard)",
+      "statut": "Livraison prévue : 29/05 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -369,7 +534,7 @@
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
+        "diametre": "75",
         "sphere": "-2.75",
         "cylindre": "0.00",
         "axe": 0,
@@ -390,7 +555,7 @@
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
+        "diametre": "75",
         "sphere": "-3.75",
         "cylindre": "0.25",
         "axe": 60,
@@ -527,7 +692,7 @@
       "detail": "Réf: FLOSI PAUL / J120030271 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 01/06 (Urgent)",
+      "statut": "Livraison prévue : 01/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -694,7 +859,7 @@
       "detail": "Réf: MARTINEZ CHRISTIANE / J120030243-02 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 28/05 (En retard)",
+      "statut": "Livraison prévue : 28/05 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -745,7 +910,7 @@
       "detail": "Réf: CARRERE JONATHAN / J120030236 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 27/05 (En retard)",
+      "statut": "Livraison prévue : 27/05 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -796,7 +961,7 @@
       "detail": "Réf: MASSEI LAURA / J120030221-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 29/05 (En retard)",
+      "statut": "Livraison prévue : 29/05 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -853,7 +1018,7 @@
       "detail": "Réf: CARLOTTI JEANINE / J120030203 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 01/06 (Urgent)",
+      "statut": "Livraison prévue : 01/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
