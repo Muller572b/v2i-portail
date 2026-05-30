@@ -102,28 +102,46 @@ function handleScrollLoad() {
     }
 }
 
+let isLoadingArchives = false;
+
 async function handleDateBoundsChange() {
-    const dateDebutVal = document.getElementById('date-debut').value;
-    const dateFinVal = document.getElementById('date-fin').value;
+    const dateDebutInput = document.getElementById('date-debut');
+    const dateFinInput = document.getElementById('date-fin');
     
-    // Anti-freeze : si la date est incomplète au clavier, on ne lance rien
-    if (!dateDebutVal || dateDebutVal.length < 10) {
+    if (!dateDebutInput || !dateDebutInput.value) {
         renderVerres();
         return;
     }
 
-    // Sécurité : empêche les exécutions simultanées conflictuelles
+    const dateDebutVal = dateDebutInput.value;
+    const dateFinVal = dateFinInput ? dateFinInput.value : '';
+    
+    // SÉCURITÉ : Bloque si l'utilisateur est en train de taper manuellement au clavier
+    if (dateDebutVal.length < 10) return;
+
+    // SÉCURITÉ : Évite le déclenchement de requêtes parallèles infinies
     if (isLoadingArchives) return;
 
     const dateDebut = new Date(dateDebutVal);
     const anneeSelectionneeDebut = dateDebut.getFullYear();
-    if (isNaN(anneeSelectionneeDebut) || anneeSelectionneeDebut < 2000) return;
+    
+    // SÉCURITÉ CRITIQUE : Si l'année n'est pas un nombre ou est aberrante, on stoppe net pour éviter la boucle infinie !
+    if (!anneeSelectionneeDebut || isNaN(anneeSelectionneeDebut) || anneeSelectionneeDebut < 2000 || anneeSelectionneeDebut > 2100) {
+        renderVerres();
+        return;
+    }
 
     const currentYear = new Date().getFullYear();
-    const anneeSelectionneeFin = dateFinVal ? new Date(dateFinVal).getFullYear() : currentYear;
-    const anneeMaxABoucler = Math.max(isNaN(anneeSelectionneeFin) ? currentYear : anneeSelectionneeFin, currentYear);
+    let anneeSelectionneeFin = dateFinVal ? new Date(dateFinVal).getFullYear() : currentYear;
+    
+    if (isNaN(anneeSelectionneeFin)) {
+        anneeSelectionneeFin = currentYear;
+    }
+    
+    const anneeMaxABoucler = Math.max(anneeSelectionneeFin, currentYear);
 
-    if (anneeSelectionneeDebut <= anneeMaxABoucler) {
+    // Double vérification pour s'assurer que la boucle n'est pas un piège pour la mémoire
+    if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
         
         const anneesACharger = [];
@@ -131,11 +149,15 @@ async function handleDateBoundsChange() {
             anneesACharger.push(y);
         }
 
-        // Requêtes asynchrones parallèles (Adieu le freeze !)
-        await Promise.all(anneesACharger.map(year => loadArchiveYear(year)));
-        
-        autoArchivesIncluded = true;
-        isLoadingArchives = false;
+        try {
+            // Chargement parallèle sans figer l'interface graphique
+            await Promise.all(anneesACharger.map(year => loadArchiveYear(year)));
+            autoArchivesIncluded = true;
+        } catch (err) {
+            console.error("Erreur lors du chargement des archives :", err);
+        } finally {
+            isLoadingArchives = false;
+        }
     }
     
     renderVerres();
@@ -216,9 +238,11 @@ function renderVerres() {
             `;
         }
 
-        // CORRECTION : Lecture robuste de la date calculée par le fichier JSON
+        // CORRECTION DE L'AFFICHAGE DE LA DATE DE LIVRAISON (Propriété "statut")
         let livraisonPrevue = 'En calcul';
-        if (v.date_livraison_prevue && String(v.date_livraison_prevue).trim() !== '') {
+        if (v.statut && String(v.statut).toLowerCase().includes('livraison')) {
+            livraisonPrevue = String(v.statut).trim();
+        } else if (v.date_livraison_prevue && String(v.date_livraison_prevue).trim() !== '') {
             livraisonPrevue = String(v.date_livraison_prevue).trim();
         } else if (v.date_expedition && String(v.date_expedition).trim() !== '') {
             livraisonPrevue = String(v.date_expedition).trim(); 
