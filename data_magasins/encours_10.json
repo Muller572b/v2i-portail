@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "01/06/2026 14:22",
+  "derniere_mise_a_jour": "01/06/2026 14:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160071",
@@ -158,6 +158,61 @@
       }
     },
     {
+      "ord_numb": "            10159919",
+      "id_commande_v2i": "260530000026",
+      "code_cote": "B",
+      "patient": "SERVAES VERONIQUE",
+      "job_cosium": "J145063245-01",
+      "date_entree": "30/05/2026",
+      "detail": "Réf: SERVAES VERONIQUE / J145063245-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "2.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159916",
       "id_commande_v2i": "260530000023",
       "code_cote": "B",
@@ -262,61 +317,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159919",
-      "id_commande_v2i": "260530000026",
-      "code_cote": "B",
-      "patient": "SERVAES VERONIQUE",
-      "job_cosium": "J145063245-01",
-      "date_entree": "30/05/2026",
-      "detail": "Réf: SERVAES VERONIQUE / J145063245-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "2.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
