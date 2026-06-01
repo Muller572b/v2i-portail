@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "01/06/2026 11:52",
+  "derniere_mise_a_jour": "01/06/2026 12:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160028",
@@ -553,9 +553,9 @@
       "patient": "LECADRE EMMA",
       "job_cosium": "J139053119-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: LECADRE EMMA / J139053119-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: LECADRE EMMA / J139053119-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 02/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -596,112 +596,6 @@
         "supplements": [
           "D2 St. Uni 1.5",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159865",
-      "id_commande_v2i": "260529000181",
-      "code_cote": "B",
-      "patient": "BATTAGLIA CHARLENE",
-      "job_cosium": "J139053116",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: BATTAGLIA CHARLENE / J139053116 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 02/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Jaune C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Jaune C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159866",
-      "id_commande_v2i": "260529000182",
-      "code_cote": "B",
-      "patient": "BETTICARE FARRAH",
-      "job_cosium": "J139053113-03",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: BETTICARE FARRAH / J139053113-03 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 02/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Gris C"
         ]
       }
     },
@@ -1303,9 +1197,9 @@
       "patient": "LAHURE CATHERINE",
       "job_cosium": "J139053069-02",
       "date_entree": "26/05/2026",
-      "detail": "Réf: LAHURE CATHERINE / J139053069-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: LAHURE CATHERINE / J139053069-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 28/05 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
