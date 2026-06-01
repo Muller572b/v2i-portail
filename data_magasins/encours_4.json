@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "01/06/2026 10:20",
+  "derniere_mise_a_jour": "01/06/2026 10:35",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160012",
@@ -225,6 +225,61 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159953",
+      "id_commande_v2i": "260530000060",
+      "code_cote": "B",
+      "patient": "GASPAROTTI LAORA",
+      "job_cosium": "J144101407",
+      "date_entree": "30/05/2026",
+      "detail": "Réf: GASPAROTTI LAORA / J144101407 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.00",
+        "cylindre": "3.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin AS Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.50",
+        "cylindre": "3.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin AS Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
         ]
       }
     },
@@ -563,61 +618,6 @@
       }
     },
     {
-      "ord_numb": "            10159953",
-      "id_commande_v2i": "260530000060",
-      "code_cote": "B",
-      "patient": "GASPAROTTI LAORA",
-      "job_cosium": "J144101407",
-      "date_entree": "30/05/2026",
-      "detail": "Réf: GASPAROTTI LAORA / J144101407 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.00",
-        "cylindre": "3.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin AS Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.50",
-        "cylindre": "3.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin AS Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159954",
       "id_commande_v2i": "260530000061",
       "code_cote": "B",
@@ -832,9 +832,9 @@
       "patient": "CAMPANA DOMINIQUE",
       "job_cosium": "J144101380-01",
       "date_entree": "29/05/2026",
-      "detail": "Réf: CAMPANA DOMINIQUE / J144101380-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: CAMPANA DOMINIQUE / J144101380-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -877,6 +877,122 @@
           "Perfecte Uni 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159821",
+      "id_commande_v2i": "260529000137",
+      "code_cote": "B",
+      "patient": "FERRIER SYLVIE",
+      "job_cosium": "J144101384-01",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: FERRIER SYLVIE / J144101384-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159846",
+      "id_commande_v2i": "260529000162",
+      "code_cote": "B",
+      "patient": "DOUKKALI ZAHRA",
+      "job_cosium": "J144101389-01",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: DOUKKALI ZAHRA / J144101389-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "1.75",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "1.25",
+        "axe": 165,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
@@ -928,61 +1044,6 @@
         "hauteur": "27.0",
         "supplements": [
           "Tchin Jeune 1er HD  1.5 Nu"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159821",
-      "id_commande_v2i": "260529000137",
-      "code_cote": "B",
-      "patient": "FERRIER SYLVIE",
-      "job_cosium": "J144101384-01",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: FERRIER SYLVIE / J144101384-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -1042,13 +1103,13 @@
       }
     },
     {
-      "ord_numb": "            10159846",
-      "id_commande_v2i": "260529000162",
+      "ord_numb": "            10159845",
+      "id_commande_v2i": "260529000161",
       "code_cote": "B",
       "patient": "DOUKKALI ZAHRA",
-      "job_cosium": "J144101389-01",
+      "job_cosium": "J144101389-02",
       "date_entree": "29/05/2026",
-      "detail": "Réf: DOUKKALI ZAHRA / J144101389-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: DOUKKALI ZAHRA / J144101389-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 04/06",
@@ -1056,7 +1117,7 @@
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
+        "diametre": "70",
         "sphere": "3.00",
         "cylindre": "1.75",
         "axe": 20,
@@ -1067,11 +1128,11 @@
         "base_2": "0",
         "epaisseur_bord": "1.0",
         "ecart_pupillaire": "30.5",
-        "hauteur": "27.0",
+        "hauteur": "28.0",
         "supplements": [
-          "Affiny Confort 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
+          "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
+          "Teinte Gris C",
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
@@ -1080,7 +1141,7 @@
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
+        "diametre": "70",
         "sphere": "3.75",
         "cylindre": "1.25",
         "axe": 165,
@@ -1091,11 +1152,11 @@
         "base_2": "0",
         "epaisseur_bord": "1.0",
         "ecart_pupillaire": "29.5",
-        "hauteur": "27.0",
+        "hauteur": "28.0",
         "supplements": [
-          "Affiny Confort 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
+          "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
+          "Teinte Gris C",
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
@@ -1268,67 +1329,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Dégradée Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159845",
-      "id_commande_v2i": "260529000161",
-      "code_cote": "B",
-      "patient": "DOUKKALI ZAHRA",
-      "job_cosium": "J144101389-02",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: DOUKKALI ZAHRA / J144101389-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.00",
-        "cylindre": "1.75",
-        "axe": 20,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.75",
-        "cylindre": "1.25",
-        "axe": 165,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
