@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "01/06/2026 11:37",
+  "derniere_mise_a_jour": "01/06/2026 11:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160017",
@@ -578,67 +578,6 @@
       }
     },
     {
-      "ord_numb": "            10159880",
-      "id_commande_v2i": "260529000196",
-      "code_cote": "B",
-      "patient": "MARY MURIEL",
-      "job_cosium": "J143053719",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: MARY MURIEL / J143053719 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 04/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Teinte Brun D",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Teinte Brun D",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159877",
       "id_commande_v2i": "260529000193",
       "code_cote": "B",
@@ -748,6 +687,67 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Précalibrage",
+          "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159880",
+      "id_commande_v2i": "260529000196",
+      "code_cote": "B",
+      "patient": "MARY MURIEL",
+      "job_cosium": "J143053719",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: MARY MURIEL / J143053719 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 04/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Teinte Brun D",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Teinte Brun D",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
           "Optimized"
         ]
       }
