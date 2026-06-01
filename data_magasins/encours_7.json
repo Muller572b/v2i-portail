@@ -10,8 +10,55 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "01/06/2026 10:35",
+  "derniere_mise_a_jour": "01/06/2026 11:07",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160038",
+      "id_commande_v2i": "260601000029",
+      "code_cote": "B",
+      "patient": "CHIAPPINI HENRI",
+      "job_cosium": "J128042405",
+      "date_entree": "01/06/2026",
+      "detail": "Réf: CHIAPPINI HENRI / J128042405 — (Fabrication RX) — État: Order imported",
+      "statut_code": "IMPT",
+      "statut_affichage": "Order imported",
+      "statut": "Livraison prévue : 05/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "30.0",
+        "supplements": []
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "30.0",
+        "supplements": []
+      }
+    },
     {
       "ord_numb": "            10160022",
       "id_commande_v2i": "260601000013",
@@ -119,6 +166,59 @@
         "supplements": [
           "St. Uni 1.5",
           "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160034",
+      "id_commande_v2i": "260601000025",
+      "code_cote": "B",
+      "patient": "REMITI JOSEPH",
+      "job_cosium": "J128042404",
+      "date_entree": "01/06/2026",
+      "detail": "Réf: REMITI JOSEPH / J128042404 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "2.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "2.00",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Gris C"
         ]
       }
     },
@@ -388,6 +488,61 @@
       }
     },
     {
+      "ord_numb": "            10159712",
+      "id_commande_v2i": "260529000028",
+      "code_cote": "B",
+      "patient": "HDHIRI YASSINE",
+      "job_cosium": "J128042383",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: HDHIRI YASSINE / J128042383 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 03/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-7.00",
+        "cylindre": "4.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.9",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-7.25",
+        "cylindre": "3.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.4",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159799",
       "id_commande_v2i": "260529000115",
       "code_cote": "B",
@@ -449,9 +604,9 @@
       "patient": "MASSARONI SYLVIANE JULIET",
       "job_cosium": "J128042391",
       "date_entree": "29/05/2026",
-      "detail": "Réf: MASSARONI SYLVIANE JULIET / J128042391 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: MASSARONI SYLVIANE JULIET / J128042391 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 04/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -549,61 +704,6 @@
           "Media 1.5 Durci",
           "Teinte Dégradée Brun B",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159712",
-      "id_commande_v2i": "260529000028",
-      "code_cote": "B",
-      "patient": "HDHIRI YASSINE",
-      "job_cosium": "J128042383",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: HDHIRI YASSINE / J128042383 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 03/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-7.00",
-        "cylindre": "4.50",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.9",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-7.25",
-        "cylindre": "3.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.4",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
         ]
       }
     },
