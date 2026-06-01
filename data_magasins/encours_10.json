@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "01/06/2026 12:37",
+  "derniere_mise_a_jour": "01/06/2026 12:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160071",
@@ -19,9 +19,9 @@
       "patient": "QUARANTA ANNE MARIE",
       "job_cosium": "J145063255",
       "date_entree": "01/06/2026",
-      "detail": "Réf: QUARANTA ANNE MARIE / J145063255 — (Fabrication RX) — État: Order imported",
-      "statut_code": "IMPT",
-      "statut_affichage": "Order imported",
+      "detail": "Réf: QUARANTA ANNE MARIE / J145063255 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 03/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": null,
@@ -40,7 +40,15 @@
         "epaisseur_bord": "0.8",
         "ecart_pupillaire": "29.0",
         "hauteur": "26.0",
-        "supplements": []
+        "supplements": [
+          "Affiny Horizon2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
       }
     },
     {
