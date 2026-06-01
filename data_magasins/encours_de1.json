@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "01/06/2026 15:37",
+  "derniere_mise_a_jour": "01/06/2026 15:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160085",
@@ -19,9 +19,9 @@
       "patient": "3095835843",
       "job_cosium": "",
       "date_entree": "01/06/2026",
-      "detail": "Réf: 3095835843 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: 3095835843 — (Fabrication RX) — État: Contrôle sortie de fabrication",
+      "statut_code": "SFAB",
+      "statut_affichage": "Contrôle sortie de fabrication",
       "statut": "Livraison prévue : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -227,40 +227,6 @@
           "Décentrement"
         ]
       }
-    },
-    {
-      "ord_numb": "            10159216",
-      "id_commande_v2i": "260526000142",
-      "code_cote": "R",
-      "patient": "3095671542",
-      "job_cosium": "",
-      "date_entree": "26/05/2026",
-      "detail": "Réf: 3095671542 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 01/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "1.75",
-        "axe": 180,
-        "addition": "3.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "INFORMANCE FR M COLORMATIC 3 1.54 CHESTNUT BROWN",
-          "Solitaire"
-        ]
-      },
-      "oeil_gauche": null
     }
   ]
 }
