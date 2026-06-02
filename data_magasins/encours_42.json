@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "02/06/2026 10:37",
+  "derniere_mise_a_jour": "02/06/2026 10:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160203",
@@ -19,9 +19,9 @@
       "patient": "CHAFFEL MARC CLAUDE",
       "job_cosium": "J148017843-01",
       "date_entree": "02/06/2026",
-      "detail": "Réf: CHAFFEL MARC CLAUDE / J148017843-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: CHAFFEL MARC CLAUDE / J148017843-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 04/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -261,6 +261,65 @@
       }
     },
     {
+      "ord_numb": "            10160156",
+      "id_commande_v2i": "260601000147",
+      "code_cote": "B",
+      "patient": "BAIN EDDY",
+      "job_cosium": "J148017836-01",
+      "date_entree": "01/06/2026",
+      "detail": "Réf: BAIN EDDY / J148017836-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 04/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160150",
       "id_commande_v2i": "260601000141",
       "code_cote": "B",
@@ -310,65 +369,6 @@
         "supplements": [
           "Jeune 1er HD 1.5 Nu",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160156",
-      "id_commande_v2i": "260601000147",
-      "code_cote": "B",
-      "patient": "BAIN EDDY",
-      "job_cosium": "J148017836-01",
-      "date_entree": "01/06/2026",
-      "detail": "Réf: BAIN EDDY / J148017836-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 04/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 155,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
@@ -430,6 +430,59 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160190",
+      "id_commande_v2i": "260601000181",
+      "code_cote": "B",
+      "patient": "BLERIOT MELISSA",
+      "job_cosium": "J148017841-01",
+      "date_entree": "01/06/2026",
+      "detail": "Réf: BLERIOT MELISSA / J148017841-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 04/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "1.00",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Gris Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -585,59 +638,6 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160190",
-      "id_commande_v2i": "260601000181",
-      "code_cote": "B",
-      "patient": "BLERIOT MELISSA",
-      "job_cosium": "J148017841-01",
-      "date_entree": "01/06/2026",
-      "detail": "Réf: BLERIOT MELISSA / J148017841-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 04/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "1.00",
-        "axe": 150,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
         "hauteur": "0.0",
         "supplements": [
           "Tchin Uni 1.5  Polar Gris Durci",
