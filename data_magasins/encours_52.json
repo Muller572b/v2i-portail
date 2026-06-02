@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "02/06/2026 15:22",
+  "derniere_mise_a_jour": "02/06/2026 15:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160231",
@@ -111,6 +111,53 @@
         ]
       },
       "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10160293",
+      "id_commande_v2i": "260602000097",
+      "code_cote": "B",
+      "patient": "MARAIS ESTELLE",
+      "job_cosium": "J154014447-02",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: MARAIS ESTELLE / J154014447-02 — (Fabrication RX) — État: Order imported",
+      "statut_code": "IMPT",
+      "statut_affichage": "Order imported",
+      "statut": "Livraison prévue : 05/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.75",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": []
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "1.00",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": []
+      }
     },
     {
       "ord_numb": "            10160124",
@@ -276,67 +323,6 @@
       }
     },
     {
-      "ord_numb": "            10159688",
-      "id_commande_v2i": "260529000004",
-      "code_cote": "B",
-      "patient": "LOMBARDO MARIE PIERRE",
-      "job_cosium": "J154014418-01",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: LOMBARDO MARIE PIERRE / J154014418-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 03/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.75",
-        "axe": 130,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Confort 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "4.00",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Confort 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10159802",
       "id_commande_v2i": "260529000118",
       "code_cote": "B",
@@ -388,6 +374,67 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159688",
+      "id_commande_v2i": "260529000004",
+      "code_cote": "B",
+      "patient": "LOMBARDO MARIE PIERRE",
+      "job_cosium": "J154014418-01",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: LOMBARDO MARIE PIERRE / J154014418-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 03/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.75",
+        "axe": 130,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Delta Confort 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "4.00",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Delta Confort 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
