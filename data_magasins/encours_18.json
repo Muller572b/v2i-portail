@@ -10,28 +10,28 @@
     "email": "balbisoleililerousse@gmail.com",
     "mot_de_passe_portail": "ile"
   },
-  "derniere_mise_a_jour": "01/06/2026 09:35",
+  "derniere_mise_a_jour": "02/06/2026 12:37",
   "commandes_en_cours": [
     {
-      "ord_numb": "            10159304",
-      "id_commande_v2i": "260527000026",
+      "ord_numb": "            10160259",
+      "id_commande_v2i": "260602000063",
       "code_cote": "B",
-      "patient": "COSTA LUCIENNE",
-      "job_cosium": "J125025710",
-      "date_entree": "27/05/2026",
-      "detail": "Réf: COSTA LUCIENNE / J125025710 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06",
+      "patient": "LAVARDE CAROLE",
+      "job_cosium": "J125025749",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: LAVARDE CAROLE / J125025749 — (Fabrication RX) — État: Order initialised",
+      "statut_code": "INIT",
+      "statut_affichage": "Order initialised",
+      "statut": "Livraison prévue : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "4.50",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
+        "sphere": "1.25",
+        "cylindre": "0.75",
+        "axe": 65,
+        "addition": "2.50",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
@@ -40,19 +40,19 @@
         "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Unifocal 1.74 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
+          "Media 1.5 Durci",
+          "Durci Inclus",
+          "Teinte au modèle uni A-C"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "4.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "2.50",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
@@ -61,9 +61,9 @@
         "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Unifocal 1.74 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
+          "Media 1.5 Durci",
+          "Durci Inclus",
+          "Teinte au modèle uni A-C"
         ]
       }
     }
