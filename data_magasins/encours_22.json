@@ -10,8 +10,43 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "02/06/2026 10:52",
+  "derniere_mise_a_jour": "02/06/2026 11:07",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160216",
+      "id_commande_v2i": "260602000020",
+      "code_cote": "R",
+      "patient": "SCICOLONE CALOGERO",
+      "job_cosium": "J134029211",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: SCICOLONE CALOGERO / J134029211 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 05/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.75",
+        "cylindre": "2.50",
+        "axe": 95,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Media 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
     {
       "ord_numb": "            10160210",
       "id_commande_v2i": "260602000014",
@@ -331,41 +366,6 @@
           "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
-    },
-    {
-      "ord_numb": "            10160216",
-      "id_commande_v2i": "260602000020",
-      "code_cote": "R",
-      "patient": "SCICOLONE CALOGERO",
-      "job_cosium": "J134029211",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: SCICOLONE CALOGERO / J134029211 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.75",
-        "cylindre": "2.50",
-        "axe": 95,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Media 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10160217",
