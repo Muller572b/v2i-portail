@@ -10,8 +10,59 @@
     "email": "atb@balbi.fr",
     "mot_de_passe_portail": "atb"
   },
-  "derniere_mise_a_jour": "02/06/2026 10:52",
+  "derniere_mise_a_jour": "02/06/2026 11:07",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160228",
+      "id_commande_v2i": "260602000032",
+      "code_cote": "B",
+      "patient": "MAHINGA N''DEKESSE HYACINTHE",
+      "job_cosium": "J602004754",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: MAHINGA N''DEKESSE HYACINTHE / J602004754 — (Stock) — État: Order initialised",
+      "statut_code": "INIT",
+      "statut_affichage": "Order initialised",
+      "statut": "Livraison prévue : 03/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159888",
       "id_commande_v2i": "260529000204",
