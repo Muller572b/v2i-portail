@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "02/06/2026 14:22",
+  "derniere_mise_a_jour": "02/06/2026 14:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160230",
@@ -66,66 +66,15 @@
       }
     },
     {
-      "ord_numb": "            10160265",
-      "id_commande_v2i": "260602000069",
-      "code_cote": "B",
-      "patient": "LUCIANI CORINNE",
-      "job_cosium": "J143053765",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: LUCIANI CORINNE / J143053765 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160266",
       "id_commande_v2i": "260602000070",
       "code_cote": "B",
       "patient": "GONIN DANIEL",
       "job_cosium": "J143053764-01",
       "date_entree": "02/06/2026",
-      "detail": "Réf: GONIN DANIEL / J143053764-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: GONIN DANIEL / J143053764-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 08/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -184,9 +133,9 @@
       "patient": "GONIN DANIEL",
       "job_cosium": "J143053764-02",
       "date_entree": "02/06/2026",
-      "detail": "Réf: GONIN DANIEL / J143053764-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: GONIN DANIEL / J143053764-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 05/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -233,6 +182,57 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160265",
+      "id_commande_v2i": "260602000069",
+      "code_cote": "B",
+      "patient": "LUCIANI CORINNE",
+      "job_cosium": "J143053765",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: LUCIANI CORINNE / J143053765 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 03/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 50,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -879,65 +879,6 @@
           "Antireflet interne face CC inclus",
           "Durci Inclus",
           "Teinte au modèle uni A-C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159879",
-      "id_commande_v2i": "260529000195",
-      "code_cote": "B",
-      "patient": "LOVICHI MARIE JEANNE",
-      "job_cosium": "J143053720",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: LOVICHI MARIE JEANNE / J143053720 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 04/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "1.00",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Minimu 1.6 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Minimu 1.6 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
         ]
       }
     },
