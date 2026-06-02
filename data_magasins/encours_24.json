@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "02/06/2026 11:07",
+  "derniere_mise_a_jour": "02/06/2026 11:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160208",
@@ -811,6 +811,61 @@
       }
     },
     {
+      "ord_numb": "            10160187",
+      "id_commande_v2i": "260601000178",
+      "code_cote": "B",
+      "patient": "LUCCHINI ANNONCIADE",
+      "job_cosium": "J133035737-01",
+      "date_entree": "01/06/2026",
+      "detail": "Réf: LUCCHINI ANNONCIADE / J133035737-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 05/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.75",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.4",
+        "hauteur": "24.0",
+        "supplements": [
+          "Jeune 1er HD 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "0.50",
+        "axe": 80,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.9",
+        "hauteur": "24.0",
+        "supplements": [
+          "Jeune 1er HD 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160126",
       "id_commande_v2i": "260601000117",
       "code_cote": "B",
@@ -1015,61 +1070,6 @@
         "supplements": [
           "St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160187",
-      "id_commande_v2i": "260601000178",
-      "code_cote": "B",
-      "patient": "LUCCHINI ANNONCIADE",
-      "job_cosium": "J133035737-01",
-      "date_entree": "01/06/2026",
-      "detail": "Réf: LUCCHINI ANNONCIADE / J133035737-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.75",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.4",
-        "hauteur": "24.0",
-        "supplements": [
-          "Jeune 1er HD 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "0.50",
-        "axe": 80,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.9",
-        "hauteur": "24.0",
-        "supplements": [
-          "Jeune 1er HD 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
