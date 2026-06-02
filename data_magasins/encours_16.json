@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "02/06/2026 14:07",
+  "derniere_mise_a_jour": "02/06/2026 14:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160230",
@@ -319,59 +319,6 @@
         ]
       },
       "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10160199",
-      "id_commande_v2i": "260602000003",
-      "code_cote": "B",
-      "patient": "LOPEZ MARIE JEANNE",
-      "job_cosium": "J143053755",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: LOPEZ MARIE JEANNE / J143053755 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 03/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Dégradée Brun C"
-        ]
-      }
     },
     {
       "ord_numb": "            10160017",
@@ -1106,67 +1053,6 @@
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159276",
-      "id_commande_v2i": "260526000202",
-      "code_cote": "B",
-      "patient": "DODDOLI CATHERINE",
-      "job_cosium": "J143053668",
-      "date_entree": "26/05/2026",
-      "detail": "Réf: DODDOLI CATHERINE / J143053668 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.75",
-        "axe": 110,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Teinte au modèle uni A-C",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "2.75",
-        "axe": 95,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Teinte au modèle uni A-C",
           "Optimized"
         ]
       }
