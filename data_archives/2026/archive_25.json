@@ -5,25 +5,25 @@
     "nom": "Optissimo (PLU)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "31/05/2026 à 05:00",
+  "derniere_validation": "02/06/2026 à 05:00",
   "commandes_expediees": [
     {
-      "ord_numb": "            10159685",
-      "id_commande_v2i": "260529000001",
-      "id_bl_v2i": "260529000001",
+      "ord_numb": "            10159629",
+      "id_commande_v2i": "260528000145",
+      "id_bl_v2i": "260528000145",
       "code_cote": "B",
-      "patient": "THOMAS",
+      "patient": "MENDEZ",
       "job_cosium": "",
-      "detail": "Réf: THOMAS — (Stock) — État: Expédié",
-      "date_entree": "29/05/2026",
-      "date_expedition": "30/05/2026",
+      "detail": "Réf: MENDEZ — (Fabrication RX) — État: Expédié",
+      "date_entree": "28/05/2026",
+      "date_expedition": "01/06/2026",
       "statut_code": "SHIP",
       "statut_affichage": "Expédié",
-      "statut": "30/05/2026",
+      "statut": "01/06/2026",
       "style_couleur": "text-orange-500 font-semibold",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "70",
         "sphere": "0.00",
         "cylindre": "0.00",
@@ -37,13 +37,15 @@
         "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5",
-          "Teinte Pink B"
+          "Uni 1.5  Polar Gris Durci Arh",
+          "Dégradé Polarisé",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "70",
         "sphere": "0.00",
         "cylindre": "0.00",
@@ -57,8 +59,10 @@
         "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5",
-          "Teinte Pink B"
+          "Uni 1.5  Polar Gris Durci Arh",
+          "Dégradé Polarisé",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -311,6 +315,61 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159685",
+      "id_commande_v2i": "260529000001",
+      "id_bl_v2i": "260529000001",
+      "code_cote": "B",
+      "patient": "THOMAS",
+      "job_cosium": "",
+      "detail": "Réf: THOMAS — (Stock) — État: Expédié",
+      "date_entree": "29/05/2026",
+      "date_expedition": "30/05/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "30/05/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Pink B"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Pink B"
         ]
       }
     },
