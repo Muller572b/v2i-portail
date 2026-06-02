@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "02/06/2026 13:52",
+  "derniere_mise_a_jour": "02/06/2026 14:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160239",
@@ -70,61 +70,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160234",
-      "id_commande_v2i": "260602000038",
-      "code_cote": "B",
-      "patient": "GOSLIN MARIE THERESE",
-      "job_cosium": "J144101430-01",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: GOSLIN MARIE THERESE / J144101430-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "2.50",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Brun Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "2.25",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Brun Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -298,6 +243,61 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160234",
+      "id_commande_v2i": "260602000038",
+      "code_cote": "B",
+      "patient": "GOSLIN MARIE THERESE",
+      "job_cosium": "J144101430-01",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: GOSLIN MARIE THERESE / J144101430-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "2.50",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "2.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
