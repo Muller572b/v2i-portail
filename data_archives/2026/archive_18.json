@@ -5,29 +5,29 @@
     "nom": "Optique Balbi Ile Rousse (ILE)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "31/05/2026 à 05:00",
+  "derniere_validation": "02/06/2026 à 05:00",
   "commandes_expediees": [
     {
-      "ord_numb": "            10159757",
-      "id_commande_v2i": "260529000073",
-      "id_bl_v2i": "260529000073",
+      "ord_numb": "            10159304",
+      "id_commande_v2i": "260527000026",
+      "id_bl_v2i": "260527000026",
       "code_cote": "B",
-      "patient": "WEIBEL CELINE",
-      "job_cosium": "J125025725",
-      "detail": "Réf: WEIBEL CELINE / J125025725 — (Stock) — État: Expédié",
-      "date_entree": "29/05/2026",
-      "date_expedition": "30/05/2026",
+      "patient": "COSTA LUCIENNE",
+      "job_cosium": "J125025710",
+      "detail": "Réf: COSTA LUCIENNE / J125025710 — (Fabrication RX) — État: Expédié",
+      "date_entree": "27/05/2026",
+      "date_expedition": "01/06/2026",
       "statut_code": "SHIP",
       "statut_affichage": "Expédié",
-      "statut": "30/05/2026",
+      "statut": "01/06/2026",
       "style_couleur": "text-orange-500 font-semibold",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "2.00",
+        "sphere": "4.50",
         "cylindre": "0.50",
-        "axe": 180,
+        "axe": 90,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -37,16 +37,18 @@
         "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
+          "CLA Unifocal 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 180,
+        "sphere": "4.50",
+        "cylindre": "0.00",
+        "axe": 0,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -56,60 +58,9 @@
         "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159775",
-      "id_commande_v2i": "260529000091",
-      "id_bl_v2i": "260529000091",
-      "code_cote": "B",
-      "patient": "ALFIERI LESIA",
-      "job_cosium": "J125025730",
-      "detail": "Réf: ALFIERI LESIA / J125025730 — (Stock) — État: Expédié",
-      "date_entree": "29/05/2026",
-      "date_expedition": "30/05/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédié",
-      "statut": "30/05/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
+          "CLA Unifocal 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     },
@@ -224,6 +175,112 @@
           "Media 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159757",
+      "id_commande_v2i": "260529000073",
+      "id_bl_v2i": "260529000073",
+      "code_cote": "B",
+      "patient": "WEIBEL CELINE",
+      "job_cosium": "J125025725",
+      "detail": "Réf: WEIBEL CELINE / J125025725 — (Stock) — État: Expédié",
+      "date_entree": "29/05/2026",
+      "date_expedition": "30/05/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "30/05/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159775",
+      "id_commande_v2i": "260529000091",
+      "id_bl_v2i": "260529000091",
+      "code_cote": "B",
+      "patient": "ALFIERI LESIA",
+      "job_cosium": "J125025730",
+      "detail": "Réf: ALFIERI LESIA / J125025730 — (Stock) — État: Expédié",
+      "date_entree": "29/05/2026",
+      "date_expedition": "30/05/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "30/05/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
     },
