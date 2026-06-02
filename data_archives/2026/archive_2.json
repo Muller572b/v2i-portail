@@ -5,61 +5,8 @@
     "nom": "Optique Balbi Ajaccio 36 (A36)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "31/05/2026 à 05:00",
+  "derniere_validation": "02/06/2026 à 05:00",
   "commandes_expediees": [
-    {
-      "ord_numb": "            10159563",
-      "id_commande_v2i": "260528000079",
-      "id_bl_v2i": "260528000079",
-      "code_cote": "B",
-      "patient": "NEUGEBAUER MARIE",
-      "job_cosium": "J123013535",
-      "detail": "Réf: NEUGEBAUER MARIE / J123013535 — (Stock) — État: Expédié",
-      "date_entree": "28/05/2026",
-      "date_expedition": "30/05/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédié",
-      "statut": "30/05/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
     {
       "ord_numb": "            10159479",
       "id_commande_v2i": "260527000201",
@@ -122,6 +69,59 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159563",
+      "id_commande_v2i": "260528000079",
+      "id_bl_v2i": "260528000079",
+      "code_cote": "B",
+      "patient": "NEUGEBAUER MARIE",
+      "job_cosium": "J123013535",
+      "detail": "Réf: NEUGEBAUER MARIE / J123013535 — (Stock) — État: Expédié",
+      "date_entree": "28/05/2026",
+      "date_expedition": "30/05/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "30/05/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
