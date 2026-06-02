@@ -5,8 +5,99 @@
     "nom": "RODENSTOCK GMBH (DE1)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "31/05/2026 à 05:00",
+  "derniere_validation": "02/06/2026 à 05:00",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10159216",
+      "id_commande_v2i": "260526000142",
+      "id_bl_v2i": "260526000142",
+      "code_cote": "R",
+      "patient": "3095671542",
+      "job_cosium": "",
+      "detail": "Réf: 3095671542 — (Fabrication RX) — État: CANC",
+      "date_entree": "26/05/2026",
+      "date_expedition": "01/06/2026",
+      "statut_code": "CANC",
+      "statut_affichage": "CANC",
+      "statut": "01/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "3.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE FR M COLORMATIC 3 1.54 CHESTNUT BROWN",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10159559",
+      "id_commande_v2i": "260528000075",
+      "id_bl_v2i": "260528000075",
+      "code_cote": "B",
+      "patient": "3095746358",
+      "job_cosium": "",
+      "detail": "Réf: 3095746358 — (Fabrication RX) — État: Expédié",
+      "date_entree": "28/05/2026",
+      "date_expedition": "29/05/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "29/05/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.9",
+        "hauteur": "27.5",
+        "supplements": [
+          "INFORMANCE FR M 1.60",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "3.00",
+        "axe": 30,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.6",
+        "hauteur": "26.8",
+        "supplements": [
+          "INFORMANCE FR M 1.60",
+          "Solitaire"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159343",
       "id_commande_v2i": "260527000065",
@@ -113,61 +204,6 @@
         "hauteur": "24.5",
         "supplements": [
           "INFORMANCE HD FR M 1.50",
-          "Solitaire"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159559",
-      "id_commande_v2i": "260528000075",
-      "id_bl_v2i": "260528000075",
-      "code_cote": "B",
-      "patient": "3095746358",
-      "job_cosium": "",
-      "detail": "Réf: 3095746358 — (Fabrication RX) — État: Expédié",
-      "date_entree": "28/05/2026",
-      "date_expedition": "29/05/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédié",
-      "statut": "29/05/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.9",
-        "hauteur": "27.5",
-        "supplements": [
-          "INFORMANCE FR M 1.60",
-          "Solitaire"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "3.00",
-        "axe": 30,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.6",
-        "hauteur": "26.8",
-        "supplements": [
-          "INFORMANCE FR M 1.60",
           "Solitaire"
         ]
       }
