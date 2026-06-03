@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "03/06/2026 14:56",
+  "derniere_mise_a_jour": "03/06/2026 15:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160436",
@@ -133,15 +133,68 @@
       }
     },
     {
+      "ord_numb": "            10160506",
+      "id_commande_v2i": "260603000078",
+      "code_cote": "B",
+      "patient": "ORSINI PIERRETTE",
+      "job_cosium": "J131018818",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: ORSINI PIERRETTE / J131018818 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "5.50",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.6 Foto Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "5.75",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.6 Foto Brun Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160454",
       "id_commande_v2i": "260603000026",
       "code_cote": "B",
       "patient": "VOISIN JEANNE",
       "job_cosium": "J131018813-01",
       "date_entree": "03/06/2026",
-      "detail": "Réf: VOISIN JEANNE / J131018813-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: VOISIN JEANNE / J131018813-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 08/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -183,59 +236,6 @@
         "supplements": [
           "Vista Uni 1.67 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160506",
-      "id_commande_v2i": "260603000078",
-      "code_cote": "B",
-      "patient": "ORSINI PIERRETTE",
-      "job_cosium": "J131018818",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: ORSINI PIERRETTE / J131018818 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "5.50",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.6 Foto Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "5.75",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.6 Foto Brun Durci",
           "Durci Inclus"
         ]
       }
@@ -398,16 +398,16 @@
       }
     },
     {
-      "ord_numb": "            10160503",
-      "id_commande_v2i": "260603000075",
+      "ord_numb": "            10160519",
+      "id_commande_v2i": "260603000091",
       "code_cote": "B",
       "patient": "CARLOTTI PAULINE",
-      "job_cosium": "J131018817",
+      "job_cosium": "J131018820",
       "date_entree": "03/06/2026",
-      "detail": "Réf: CARLOTTI PAULINE / J131018817 — (Stock) — État: Commande prise en compte",
+      "detail": "Réf: CARLOTTI PAULINE / J131018820 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 04/06 ",
+      "statut": "Livraison prévue : 05/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
@@ -425,7 +425,8 @@
         "ecart_pupillaire": "31.0",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
         ]
       },
       "oeil_gauche": {
@@ -444,7 +445,8 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
         ]
       }
     },
