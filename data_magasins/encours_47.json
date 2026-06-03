@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "03/06/2026 10:26",
+  "derniere_mise_a_jour": "03/06/2026 10:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160440",
@@ -272,13 +272,13 @@
       }
     },
     {
-      "ord_numb": "            10160343",
-      "id_commande_v2i": "260602000147",
+      "ord_numb": "            10160399",
+      "id_commande_v2i": "260602000203",
       "code_cote": "B",
-      "patient": "FERNANDES DA COSTA LUCIA MARIA",
-      "job_cosium": "J160020758",
+      "patient": "SANTOS TAVARES RENATA",
+      "job_cosium": "J160020768-02",
       "date_entree": "02/06/2026",
-      "detail": "Réf: FERNANDES DA COSTA LUCIA MARIA / J160020758 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: SANTOS TAVARES RENATA / J160020768-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 08/06",
@@ -286,20 +286,20 @@
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-5.25",
-        "cylindre": "1.75",
-        "axe": 135,
-        "addition": "2.25",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.5",
+        "ecart_pupillaire": "29.6",
+        "hauteur": "26.2",
         "supplements": [
-          "Media 1.67 Durci Arh",
+          "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -307,79 +307,22 @@
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-5.50",
-        "cylindre": "2.00",
-        "axe": 40,
-        "addition": "2.25",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 125,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.7",
-        "hauteur": "28.1",
+        "ecart_pupillaire": "31.8",
+        "hauteur": "29.2",
         "supplements": [
-          "Media 1.67 Durci Arh",
+          "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160361",
-      "id_commande_v2i": "260602000165",
-      "code_cote": "B",
-      "patient": "LE GUILLOU JENNIFER",
-      "job_cosium": "J160020764",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: LE GUILLOU JENNIFER / J160020764 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "0.25",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.67 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.2",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.67 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Noir C"
         ]
       }
     },
@@ -490,6 +433,118 @@
       }
     },
     {
+      "ord_numb": "            10160343",
+      "id_commande_v2i": "260602000147",
+      "code_cote": "B",
+      "patient": "FERNANDES DA COSTA LUCIA MARIA",
+      "job_cosium": "J160020758",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: FERNANDES DA COSTA LUCIA MARIA / J160020758 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.25",
+        "cylindre": "1.75",
+        "axe": 135,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "Media 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.50",
+        "cylindre": "2.00",
+        "axe": 40,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.7",
+        "hauteur": "28.1",
+        "supplements": [
+          "Media 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160361",
+      "id_commande_v2i": "260602000165",
+      "code_cote": "B",
+      "patient": "LE GUILLOU JENNIFER",
+      "job_cosium": "J160020764",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: LE GUILLOU JENNIFER / J160020764 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "0.25",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.2",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Noir C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160398",
       "id_commande_v2i": "260602000202",
       "code_cote": "B",
@@ -539,61 +594,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160399",
-      "id_commande_v2i": "260602000203",
-      "code_cote": "B",
-      "patient": "SANTOS TAVARES RENATA",
-      "job_cosium": "J160020768-02",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: SANTOS TAVARES RENATA / J160020768-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.6",
-        "hauteur": "26.2",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.8",
-        "hauteur": "29.2",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -857,6 +857,61 @@
       }
     },
     {
+      "ord_numb": "            10159711",
+      "id_commande_v2i": "260529000027",
+      "code_cote": "B",
+      "patient": "COUVIDAT ANNIE",
+      "job_cosium": "J160020713",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: COUVIDAT ANNIE / J160020713 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "1.50",
+        "axe": 30,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.3",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 130,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.2",
+        "hauteur": "32.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159761",
       "id_commande_v2i": "260529000077",
       "code_cote": "B",
@@ -912,61 +967,6 @@
           "Durci Inclus",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159711",
-      "id_commande_v2i": "260529000027",
-      "code_cote": "B",
-      "patient": "COUVIDAT ANNIE",
-      "job_cosium": "J160020713",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: COUVIDAT ANNIE / J160020713 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "1.50",
-        "axe": 30,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.3",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 130,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.2",
-        "hauteur": "32.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
