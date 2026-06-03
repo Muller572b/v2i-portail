@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "03/06/2026 11:26",
+  "derniere_mise_a_jour": "03/06/2026 11:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160266",
@@ -361,6 +361,43 @@
       }
     },
     {
+      "ord_numb": "            10160428",
+      "id_commande_v2i": "260602000232",
+      "code_cote": "R",
+      "patient": "IOCULANO RITA",
+      "job_cosium": "J143053773",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: IOCULANO RITA / J143053773 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 05/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10160413",
       "id_commande_v2i": "260602000217",
       "code_cote": "B",
@@ -408,67 +445,6 @@
         "hauteur": "24.0",
         "supplements": [
           "2de O2 Miladu 1.5 Nu"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160417",
-      "id_commande_v2i": "260602000221",
-      "code_cote": "B",
-      "patient": "SPINOSI MARC",
-      "job_cosium": "J143053783-01",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: SPINOSI MARC / J143053783-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 75,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.75",
-        "cylindre": "1.50",
-        "axe": 95,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
@@ -577,43 +553,6 @@
           "2de O2 Minimu 1.5 Nu"
         ]
       }
-    },
-    {
-      "ord_numb": "            10160428",
-      "id_commande_v2i": "260602000232",
-      "code_cote": "R",
-      "patient": "IOCULANO RITA",
-      "job_cosium": "J143053773",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: IOCULANO RITA / J143053773 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 05/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10160414",
@@ -826,15 +765,76 @@
       }
     },
     {
+      "ord_numb": "            10160417",
+      "id_commande_v2i": "260602000221",
+      "code_cote": "B",
+      "patient": "SPINOSI MARC",
+      "job_cosium": "J143053783-01",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: SPINOSI MARC / J143053783-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 75,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.75",
+        "cylindre": "1.50",
+        "axe": 95,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160424",
       "id_commande_v2i": "260602000228",
       "code_cote": "B",
       "patient": "FARELLACCI BARTOLI JOCELYNE",
       "job_cosium": "J143053776-03",
       "date_entree": "02/06/2026",
-      "detail": "Réf: FARELLACCI BARTOLI JOCELYNE / J143053776-03 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: FARELLACCI BARTOLI JOCELYNE / J143053776-03 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
