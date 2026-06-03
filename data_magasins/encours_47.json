@@ -10,8 +10,41 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "03/06/2026 09:41",
+  "derniere_mise_a_jour": "03/06/2026 09:56",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160440",
+      "id_commande_v2i": "260603000012",
+      "code_cote": "L",
+      "patient": "POLI MARINA",
+      "job_cosium": "J160020766",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: POLI MARINA / J160020766 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 03/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160341",
       "id_commande_v2i": "260602000145",
@@ -70,6 +103,61 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160343",
+      "id_commande_v2i": "260602000147",
+      "code_cote": "B",
+      "patient": "FERNANDES DA COSTA LUCIA MARIA",
+      "job_cosium": "J160020758",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: FERNANDES DA COSTA LUCIA MARIA / J160020758 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.25",
+        "cylindre": "1.75",
+        "axe": 135,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "Media 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.50",
+        "cylindre": "2.00",
+        "axe": 40,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.7",
+        "hauteur": "28.1",
+        "supplements": [
+          "Media 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -176,61 +264,6 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160343",
-      "id_commande_v2i": "260602000147",
-      "code_cote": "B",
-      "patient": "FERNANDES DA COSTA LUCIA MARIA",
-      "job_cosium": "J160020758",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: FERNANDES DA COSTA LUCIA MARIA / J160020758 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-5.25",
-        "cylindre": "1.75",
-        "axe": 135,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "Media 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-5.50",
-        "cylindre": "2.00",
-        "axe": 40,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.7",
-        "hauteur": "28.1",
-        "supplements": [
-          "Media 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
