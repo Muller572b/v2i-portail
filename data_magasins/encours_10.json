@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "03/06/2026 08:56",
+  "derniere_mise_a_jour": "03/06/2026 09:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160276",
@@ -439,9 +439,9 @@
       "patient": "CONCONI JOSEPH",
       "job_cosium": "J145063266",
       "date_entree": "01/06/2026",
-      "detail": "Réf: CONCONI JOSEPH / J145063266 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: CONCONI JOSEPH / J145063266 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 05/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -604,61 +604,6 @@
           "Montage",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159916",
-      "id_commande_v2i": "260530000023",
-      "code_cote": "B",
-      "patient": "NEGRONI PHILIPPE",
-      "job_cosium": "J145063247-02",
-      "date_entree": "30/05/2026",
-      "detail": "Réf: NEGRONI PHILIPPE / J145063247-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 04/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Gris Durci",
-          "Dégradé Polarisé",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "1.25",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Gris Durci",
-          "Dégradé Polarisé",
-          "Durci Inclus"
         ]
       }
     },
