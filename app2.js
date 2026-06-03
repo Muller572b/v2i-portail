@@ -289,7 +289,7 @@ function renderVerres() {
             livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
-        // Construction de l'URL cible pour le eBL (Ajustez le chemin du sous-dossier / format au besoin)
+        // Construction de l'URL cible pour le eBL
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_ebl/${currentStoreId}_${idCommande}.pdf`;
 
         rowsHtml.push(`
@@ -308,11 +308,9 @@ function renderVerres() {
                         <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
-                        ${v.isArchive ? `
-                            <a href="${urlEbl}" target="_blank" class="p-2 text-[#86868b] hover:text-[#28a745] bg-[#f5f5f7] rounded-xl cursor-pointer flex items-center justify-center" title="Télécharger le eBL">
-                                <i data-lucide="download" class="w-4 h-4"></i>
-                            </a>
-                        ` : ''}
+                        <a href="${urlEbl}" target="_blank" class="p-2 text-[#86868b] hover:text-[#28a745] bg-[#f5f5f7] rounded-xl cursor-pointer flex items-center justify-center" title="Télécharger le eBL">
+                            <i data-lucide="download" class="w-4 h-4"></i>
+                        </a>
                     </div>
                 </td>
             </tr>
