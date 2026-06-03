@@ -1,4 +1,5 @@
 let currentStoreId = null;
+let currentCosiumCode = null; // Stocke dynamiquement le code du magasin (ex: BFO, A36)
 let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
@@ -24,6 +25,7 @@ async function handleLogin(e) {
             cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
             
             currentStoreId = clientNum;
+            currentCosiumCode = cosiumCode; // Sauvegarde le code magasin pour la construction des URLs eBL
             storeEncours = data.commandes_en_cours || [];
 
             document.getElementById('login-screen').classList.add('hidden');
@@ -172,7 +174,6 @@ function renderVerres() {
     const tbody = document.getElementById('verres-table-body');
     if (!tbody) return;
     
-    // Récupération sécurisée des éléments pour éviter les erreurs "undefined"
     const searchInput = document.getElementById('search-verres');
     const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
     
@@ -194,14 +195,12 @@ function renderVerres() {
         if (parts.length === 3) dateFinFilter = new Date(parts[0], parts[1] - 1, parts[2], 23, 59, 59, 999);
     }
 
-    // Sécurisation des variables globales au cas où elles ne seraient pas encore définies
     const archivesIncluses = (typeof autoArchivesIncluded !== 'undefined') ? autoArchivesIncluded : false;
     const dataEncours = (typeof storeEncours !== 'undefined' && Array.isArray(storeEncours)) ? storeEncours : [];
     const dataArchives = (typeof storeArchives !== 'undefined' && Array.isArray(storeArchives)) ? storeArchives : [];
 
     const inclureArchives = archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
     
-    // Ajout d'un flag pour distinguer les commandes en cours des archives
     let donneesAAfficher = [];
     dataEncours.forEach(item => {
         if (item) donneesAAfficher.push({ ...item, isArchive: false });
@@ -212,7 +211,6 @@ function renderVerres() {
         });
     }
 
-    // Déduplication performante et sécurisée (priorité au statut archivé si doublon)
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -225,7 +223,6 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // Filtrage des données
     const donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -237,7 +234,6 @@ function renderVerres() {
         const texteRecherche = `${patientName} ${idCommande} ${jobCosium} ${dateEntree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
-        // Vérification sécurisée de la fonction de parsing de date
         if (typeof parseDate === 'function') {
             const dateSaisie = parseDate(dateEntree); 
             if (dateSaisie) {
@@ -253,13 +249,11 @@ function renderVerres() {
         return true;
     });
 
-    // Si aucun résultat après filtrage
     if (donneesFiltrees.length === 0) {
         tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
         return;
     }
 
-    // Protection mémoire : Max 60 lignes visibles simultanément
     const auMaximum = donneesFiltrees.slice(0, 60);
     let rowsHtml = [];
 
@@ -289,13 +283,12 @@ function renderVerres() {
             livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
-        // 1. Détermination du statut d'expédition (Insensible à la casse et aux accents)
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
 
-        // 2. Construction dynamique de l'URL conforme à la structure GitHub détectée
-        // Modifie la variable prefixeEbl si la date ou l'identifiant de lot change dynamiquement
-        const prefixeEbl = "20260603_A36_BL_";
+        // Correction du préfixe dynamique avec l'identifiant réel du magasin (ex: BFO)
+        const codeMagasinActuel = currentCosiumCode || "A36"; 
+        const prefixeEbl = `20260603_${codeMagasinActuel}_BL_`;
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/${prefixeEbl}${idCommande}.pdf`;
 
         rowsHtml.push(`
@@ -310,24 +303,24 @@ function renderVerres() {
                 <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
                 <td class="px-6 py-4 font-mono font-bold">${idCommande}</td>
                 <td class="px-6 py-4">
-                    <div class="flex items-center justify-center gap-1.5">
+                    <div class="flex items-center justify-center gap-2">
                         <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
                         
                         ${estExpedie ? `
-                            <a href="${urlEbl}" target="_blank" class="p-2 text-[#86868b] hover:text-[#28a745] bg-[#f5f5f7] rounded-xl cursor-pointer flex items-center justify-center" title="Télécharger le eBL">
-                                <i data-lucide="download" class="w-4 h-4"></i>
+                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
+                                <span>eBL</span>
+                                <i data-lucide="download" class="w-3.5 h-3.5"></i>
                             </a>
                         ` : `
-                            <div class="w-8 h-8"></div> `}
+                            <div class="w-14 h-8"></div> `}
                     </div>
                 </td>
             </tr>
         `);
     });
     
-    // Insertion propre dans le DOM
     tbody.innerHTML = rowsHtml.join('');
     if (window.lucide) lucide.createIcons();
 }
@@ -338,11 +331,9 @@ function handleSearchInput() {
     searchTimeout = setTimeout(async () => {
         const searchValue = document.getElementById('search-verres').value.trim();
         
-        // RECHERCHE DIRECTE DANS LES ARCHIVES SI NUMÉRO LONG (Job ou BL)
         if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
             const currentYear = new Date().getFullYear();
             
-            // Sécurité : On ne lance l'appel que si ces années ne sont pas déjà indexées en mémoire
             if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
                 if (!isLoadingArchives) {
                     isLoadingArchives = true;
@@ -350,7 +341,7 @@ function handleSearchInput() {
                         await Promise.all([
                             loadArchiveYear(currentYear),
                             loadArchiveYear(currentYear - 1),
-                            loadArchiveYear(currentYear - 2) // Optionnel : check aussi l'année d'avant au cas où
+                            loadArchiveYear(currentYear - 2)
                         ]);
                         autoArchivesIncluded = true;
                     } catch (err) {
@@ -363,7 +354,7 @@ function handleSearchInput() {
         }
         
         renderVerres();
-    }, 350); // Attente de 350ms après la frappe
+    }, 350);
 }
 
 function openSidePanel(idCommande) {
@@ -460,12 +451,12 @@ function runCalculation() {
     document.getElementById('calc-result').innerText = calculated.toFixed(2);
 }
 
-// Fonction de déconnexion
 function logout() {
     window.removeEventListener('scroll', handleScrollLoad);
     document.getElementById('main-interface').classList.add('hidden');
     document.getElementById('login-screen').classList.remove('hidden');
     currentStoreId = null;
+    currentCosiumCode = null; // Réinitialisation à la déconnexion
     storeEncours = [];
     storeArchives = [];
     loadedYears = [];
