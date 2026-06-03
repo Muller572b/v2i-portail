@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "03/06/2026 10:26",
+  "derniere_mise_a_jour": "03/06/2026 10:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160270",
@@ -490,6 +490,61 @@
       }
     },
     {
+      "ord_numb": "            10159802",
+      "id_commande_v2i": "260529000118",
+      "code_cote": "B",
+      "patient": "APELIAN NICOLE",
+      "job_cosium": "J154014426",
+      "date_entree": "29/05/2026",
+      "detail": "Réf: APELIAN NICOLE / J154014426 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10159688",
       "id_commande_v2i": "260529000004",
       "code_cote": "B",
@@ -547,61 +602,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159802",
-      "id_commande_v2i": "260529000118",
-      "code_cote": "B",
-      "patient": "APELIAN NICOLE",
-      "job_cosium": "J154014426",
-      "date_entree": "29/05/2026",
-      "detail": "Réf: APELIAN NICOLE / J154014426 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 10/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
