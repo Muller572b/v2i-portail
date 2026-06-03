@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "03/06/2026 17:11",
+  "derniere_mise_a_jour": "03/06/2026 17:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160453",
@@ -353,6 +353,65 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160569",
+      "id_commande_v2i": "260603000141",
+      "code_cote": "B",
+      "patient": "MILANI BERNADETTE",
+      "job_cosium": "J144101486",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: MILANI BERNADETTE / J144101486 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.1",
+        "hauteur": "29.0",
+        "supplements": [
+          "Affiny Lecture 1.5 Foto Brun Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 120,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.8",
+        "hauteur": "29.0",
+        "supplements": [
+          "Affiny Lecture 1.5 Foto Brun Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
