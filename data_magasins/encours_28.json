@@ -10,7 +10,7 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "03/06/2026 11:11",
+  "derniere_mise_a_jour": "03/06/2026 11:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160375",
@@ -76,6 +76,67 @@
       }
     },
     {
+      "ord_numb": "            10160373",
+      "id_commande_v2i": "260602000177",
+      "code_cote": "B",
+      "patient": "BACCHETTI CLAUDE",
+      "job_cosium": "J142010872-02",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: BACCHETTI CLAUDE / J142010872-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Delta Lecture2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Delta Lecture2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160374",
       "id_commande_v2i": "260602000178",
       "code_cote": "B",
@@ -128,67 +189,6 @@
         "hauteur": "24.0",
         "supplements": [
           "Delta Lecture2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160373",
-      "id_commande_v2i": "260602000177",
-      "code_cote": "B",
-      "patient": "BACCHETTI CLAUDE",
-      "job_cosium": "J142010872-02",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: BACCHETTI CLAUDE / J142010872-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "Vista Delta Lecture2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "25.5",
-        "supplements": [
-          "Vista Delta Lecture2 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
