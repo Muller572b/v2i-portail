@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "03/06/2026 10:26",
+  "derniere_mise_a_jour": "03/06/2026 10:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160266",
@@ -243,6 +243,67 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160417",
+      "id_commande_v2i": "260602000221",
+      "code_cote": "B",
+      "patient": "SPINOSI MARC",
+      "job_cosium": "J143053783-01",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: SPINOSI MARC / J143053783-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 75,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.75",
+        "cylindre": "1.50",
+        "axe": 95,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
           "Précalibrage Offert",
           "Optimized"
         ]
@@ -604,67 +665,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160417",
-      "id_commande_v2i": "260602000221",
-      "code_cote": "B",
-      "patient": "SPINOSI MARC",
-      "job_cosium": "J143053783-01",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: SPINOSI MARC / J143053783-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 75,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.75",
-        "cylindre": "1.50",
-        "axe": 95,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
