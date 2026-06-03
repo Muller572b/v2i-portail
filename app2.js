@@ -200,14 +200,27 @@ function renderVerres() {
     const dataArchives = (typeof storeArchives !== 'undefined' && Array.isArray(storeArchives)) ? storeArchives : [];
 
     const inclureArchives = archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
-    let donneesAAfficher = inclureArchives ? [...dataEncours, ...dataArchives] : dataEncours;
+    
+    // Ajout d'un flag pour distinguer les commandes en cours des archives
+    let donneesAAfficher = [];
+    dataEncours.forEach(item => {
+        if (item) donneesAAfficher.push({ ...item, isArchive: false });
+    });
+    if (inclureArchives) {
+        dataArchives.forEach(item => {
+            if (item) donneesAAfficher.push({ ...item, isArchive: true });
+        });
+    }
 
-    // Déduplication performante et sécurisée
+    // Déduplication performante et sécurisée (priorité au statut archivé si doublon)
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        if (item) {
-            const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
-            if (idUnique) uniquesMap.set(String(idUnique).trim(), item);
+        const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
+        if (idUnique) {
+            const key = String(idUnique).trim();
+            if (!uniquesMap.has(key) || item.isArchive) {
+                uniquesMap.set(key, item);
+            }
         }
     });
     donneesAAfficher = Array.from(uniquesMap.values());
@@ -276,6 +289,9 @@ function renderVerres() {
             livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
+        // Construction de l'URL cible pour le eBL (Ajustez le chemin du sous-dossier / format au besoin)
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_ebl/${currentStoreId}_${idCommande}.pdf`;
+
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
@@ -287,10 +303,17 @@ function renderVerres() {
                 <td class="px-6 py-4 font-mono font-bold">${statutFournisseur}</td>
                 <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
                 <td class="px-6 py-4 font-mono font-bold">${idCommande}</td>
-                <td class="px-6 py-4 text-center">
-                    <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer">
-                        <i data-lucide="eye" class="w-4 h-4"></i>
-                    </button>
+                <td class="px-6 py-4">
+                    <div class="flex items-center justify-center gap-1.5">
+                        <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
+                            <i data-lucide="eye" class="w-4 h-4"></i>
+                        </button>
+                        ${v.isArchive ? `
+                            <a href="${urlEbl}" target="_blank" class="p-2 text-[#86868b] hover:text-[#28a745] bg-[#f5f5f7] rounded-xl cursor-pointer flex items-center justify-center" title="Télécharger le eBL">
+                                <i data-lucide="download" class="w-4 h-4"></i>
+                            </a>
+                        ` : ''}
+                    </div>
                 </td>
             </tr>
         `);
