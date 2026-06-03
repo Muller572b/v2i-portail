@@ -10,8 +10,66 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "03/06/2026 15:41",
+  "derniere_mise_a_jour": "03/06/2026 15:56",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160518",
+      "id_commande_v2i": "260603000090",
+      "code_cote": "B",
+      "patient": "JUMEAUX THIERRY",
+      "job_cosium": "",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: JUMEAUX THIERRY — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-7.75",
+        "cylindre": "3.75",
+        "axe": 100,
+        "addition": "2.75",
+        "prisme_1": "1.00",
+        "base_1": "270",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Delta Equilibre 1.67 Foto Gris Dur",
+          "Super AR Antistatic",
+          "Durci Inclus",
+          "Optimized",
+          "Prisme inf à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-6.75",
+        "cylindre": "3.50",
+        "axe": 90,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Delta Equilibre 1.67 Foto Gris Dur",
+          "Super AR Antistatic",
+          "Durci Inclus",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160464",
       "id_commande_v2i": "260603000036",
@@ -111,64 +169,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160518",
-      "id_commande_v2i": "260603000090",
-      "code_cote": "B",
-      "patient": "JUMEAUX THIERRY",
-      "job_cosium": "",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: JUMEAUX THIERRY — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-7.75",
-        "cylindre": "3.75",
-        "axe": 100,
-        "addition": "2.75",
-        "prisme_1": "1.00",
-        "base_1": "270",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Delta Equilibre 1.67 Foto Gris Dur",
-          "Super AR Antistatic",
-          "Durci Inclus",
-          "Optimized",
-          "Prisme inf à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-6.75",
-        "cylindre": "3.50",
-        "axe": 90,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Delta Equilibre 1.67 Foto Gris Dur",
-          "Super AR Antistatic",
-          "Durci Inclus",
-          "Optimized"
         ]
       }
     },
