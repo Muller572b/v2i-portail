@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
     </style>
 </head>
@@ -26,7 +26,7 @@
             <form onsubmit="handleLogin(event)" class="space-y-5">
                 <div>
                     <label class="block text-xs font-medium text-[#86868b] mb-2">Identifiant (N° Client)</label>
-                    <input type="text" id="username" required placeholder="ex: 99" 
+                    <input type="text" id="username" required placeholder="ex: 2" 
                            class="w-full px-4 py-3 bg-[#f5f5f7] border border-transparent rounded-xl focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all text-sm font-mono">
                 </div>
                 <div>
@@ -152,7 +152,7 @@
                                     <th class="px-6 py-4">Statut Fournisseur</th>
                                     <th class="px-6 py-4 text-[#ff9500] bg-[#fff5e6]/60 font-sans font-bold">Sortie / Livr. Prévue</th>
                                     <th class="px-6 py-4">N° Cde (BL)</th>
-                                    <th class="px-6 py-4 text-center w-20">Actions</th>
+                                    <th class="px-6 py-4 text-center w-24">Actions</th>
                                 </tr>
                             </thead> 
                             <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed] text-[#1d1d1f]"></tbody>
@@ -263,22 +263,20 @@
             </div>
         </div>
     </div>
-
     <script>
         // Variables globales d'état
         let currentStoreId = "";
         let dataEncours = [];
         let dataArchives = [];
 
-        // Données d'exemple riches pour tester immédiatement l'interface
+        // Données fictives enrichies (Mise à jour pour correspondre à votre capture d'écran)
         const mockEncours = [
-            { id_commande_v2i: "260105", patient: "DUPONT JEAN", job_cosium: "JOB-991A", produit: "Prog 1.6 HMC", date_entree: "2026-06-01 10:30", statut: "En cours de fabrication", livraison_prevue: "2026-06-04", supplements: ["Satin", "Filtre Bleu"], od_sph: "+1.25", od_cyl: "-0.50", od_axe: "90", od_add: "2.00", od_p1: "0.0", od_b1: "0", od_p2: "0.0", od_b2: "0", od_dia: "65", og_sph: "+1.00", og_cyl: "0.00", og_axe: "0", og_add: "2.00", og_p1: "0.0", og_b1: "0", og_p2: "0.0", og_b2: "0", og_dia: "65", od_ecart: "32.0", od_haut: "21.5", og_ecart: "31.5", og_haut: "21.5" },
-            { id_commande_v2i: "260106", patient: "MARTIN SOPHIE", job_cosium: "JOB-992B", produit: "Unifocal 1.5 Durci", date_entree: "2026-06-02 14:15", statut: "Expédié", livraison_prevue: "2026-06-03", supplements: ["Antireflet standard"], od_sph: "-3.50", od_cyl: "0.00", od_axe: "0", od_add: "0.00", od_p1: "1.5", od_b1: "90", od_p2: "0.0", od_b2: "0", od_dia: "70", og_sph: "-3.75", og_cyl: "-0.25", og_axe: "15", og_add: "0.00", og_p1: "1.5", og_b1: "90", og_p2: "0.0", og_b2: "0", og_dia: "70", od_ecart: "33.5", od_haut: "18.0", og_ecart: "34.0", og_haut: "18.0" }
+            { id_commande_v2i: "260512000181", patient: "FAZI JOSELYNE", job_cosium: "J143053500-01", produit: "Fabrication RX", date_entree: "2026-05-12 09:15", statut: "Expédié", livraison_prevue: "2026-05-29", supplements: ["Uni 1.5 Durci Arh", "Antireflet interne face CC inclus", "Durci Inclus"], od_sph: "-4.00", od_cyl: "0.00", od_axe: "0", od_add: "0.00", od_p1: "0.0", od_b1: "0", od_p2: "0.0", od_b2: "0", od_dia: "70", og_sph: "-4.00", og_cyl: "0.00", og_axe: "0", og_add: "0.00", og_p1: "0.0", og_b1: "0", og_p2: "0.0", og_b2: "0", og_dia: "70", od_ecart: "32.5", od_haut: "19.0", og_ecart: "32.5", og_haut: "19.0" },
+            { id_commande_v2i: "260105", patient: "DUPONT JEAN", job_cosium: "JOB-991A", produit: "Prog 1.6 HMC", date_entree: "2026-06-01 10:30", statut: "En cours de fabrication", livraison_prevue: "2026-06-04", supplements: ["Satin", "Filtre Bleu"] }
         ];
 
         const mockArchives = [
-            { id_commande_v2i: "258941", patient: "RENAUD LUCAS", job_cosium: "JOB-781X", produit: "Prog 1.67 Polarisé", date_entree: "2026-04-12 09:00", statut: "Livré", livraison_prevue: "2026-04-15", supplements: ["Brun 85%", "Miroir Argent"], od_sph: "-1.00", od_cyl: "-1.25", od_axe: "180", od_add: "1.75", od_p1: "0.0", od_b1: "0", od_p2: "0.0", od_b2: "0", od_dia: "75", og_sph: "-1.25", og_cyl: "-0.75", og_axe: "165", og_add: "1.75", og_p1: "0.0", og_b1: "0", og_p2: "0.0", og_b2: "0", og_dia: "75", od_ecart: "31.0", od_haut: "22.0", og_ecart: "31.0", og_haut: "22.0" },
-            { id_commande_v2i: "258942", patient: "ALBERTI ANNE", job_cosium: "JOB-782Y", produit: "Unifocal 1.6 AS HMC", date_entree: "2026-04-15 16:45", statut: "Livré", livraison_prevue: "2026-04-18", supplements: ["Satin UV"], od_sph: "+2.50", od_cyl: "0.00", od_axe: "0", od_add: "0.00", od_p1: "0.0", od_b1: "0", od_p2: "0.0", og_p2: "0", od_dia: "65", og_sph: "+2.25", og_cyl: "-0.50", og_axe: "45", og_add: "0.00", og_p1: "0.0", og_b1: "0", og_p2: "0.0", og_b2: "0", og_dia: "65", od_ecart: "30.5", od_haut: "19.0", og_ecart: "31.0", og_haut: "19.0" }
+            { id_commande_v2i: "258941", patient: "RENAUD LUCAS", job_cosium: "JOB-781X", produit: "Prog 1.67 Polarisé", date_entree: "2026-04-12 09:00", statut: "Livré", livraison_prevue: "2026-04-15", supplements: ["Brun 85%", "Miroir Argent"] }
         ];
 
         // Initialisation au chargement de la page
@@ -297,11 +295,9 @@
                 currentStoreId = user;
                 document.getElementById("store-badge").textContent = `Magasin : ${currentStoreId}`;
                 
-                // Remplissage des données avec les exemples par défaut
                 dataEncours = mockEncours;
                 dataArchives = mockArchives;
 
-                // Transition d'écran
                 document.getElementById("login-screen").classList.add("hidden");
                 document.getElementById("main-interface").classList.remove("hidden");
                 switchTab("accueil");
@@ -322,7 +318,7 @@
             document.getElementById("login-error").classList.add("hidden");
         }
 
-        // Basculement d'onglets de navigation
+        // Basculement d'onglets
         function switchTab(tabId) {
             document.querySelectorAll(".tab-content").forEach(el => el.classList.add("hidden"));
             document.getElementById(`content-${tabId}`).classList.remove("hidden");
@@ -341,20 +337,13 @@
             if (tabId === "verres") {
                 renderVerres();
             }
-
             if (typeof lucide !== 'undefined') lucide.createIcons();
         }
 
-        // Actions déclenchées par les inputs de recherche
-        function handleSearchInput() {
-            renderVerres();
-        }
+        function handleSearchInput() { renderVerres(); }
+        function handleDateBoundsChange() { renderVerres(); }
 
-        function handleDateBoundsChange() {
-            renderVerres();
-        }
-
-        // Moteur de rendu dynamique du tableau des verres
+        // Moteur de rendu du tableau principal
         function renderVerres() {
             const tableBody = document.getElementById("verres-table-body");
             const searchText = document.getElementById("search-verres").value.toLowerCase().trim();
@@ -364,53 +353,35 @@
             const dateDebutFilter = dateDebutVal ? new Date(dateDebutVal) : null;
             const dateFinFilter = dateFinVal ? new Date(dateFinVal) : null;
 
-            // Détermination automatique du besoin d'inclure les archives
-            const archivesIncluses = false; // Par défaut sans filtre
-            const inclureArchives = archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null || searchText.length > 0;
+            const inclureArchives = dateDebutFilter !== null || dateFinFilter !== null || searchText.length > 0;
 
-            // Bannière informative d'état des archives
             const banner = document.getElementById("archive-status-banner");
-            if (inclureArchives) {
-                banner.classList.remove("hidden");
-            } else {
-                banner.classList.add("hidden");
-            }
+            if (inclureArchives) banner.classList.remove("hidden");
+            else banner.classList.add("hidden");
 
-            // --- ÉTAPE 1 : AJOUT DU DRAPEAU isArchive ET FUSION ---
             let donneesAAfficher = [];
-            dataEncours.forEach(item => {
-                if (item) donneesAAfficher.push({ ...item, isArchive: false });
-            });
+            dataEncours.forEach(item => { if (item) donneesAAfficher.push({ ...item, isArchive: false }); });
             if (inclureArchives) {
-                dataArchives.forEach(item => {
-                    if (item) donneesAAfficher.push({ ...item, isArchive: true });
-                });
+                dataArchives.forEach(item => { if (item) donneesAAfficher.push({ ...item, isArchive: true }); });
             }
 
-            // --- DÉDUPLICATION (Priorité absolue à la version archivée si doublon) ---
             const uniquesMap = new Map();
             donneesAAfficher.forEach(item => {
-                const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
+                const idUnique = item.id_commande_v2i || item.ord_numb;
                 if (idUnique) {
                     const key = String(idUnique).trim();
-                    if (!uniquesMap.has(key) || item.isArchive) {
-                        uniquesMap.set(key, item);
-                    }
+                    if (!uniquesMap.has(key) || item.isArchive) uniquesMap.set(key, item);
                 }
             });
             donneesAAfficher = Array.from(uniquesMap.values());
 
-            // --- FILTRAGE CHRONOLOGIQUE ET TEXTUEL ---
             const resultatsFiltres = donneesAAfficher.filter(v => {
-                // Filtre textuel multi-critères
                 if (searchText) {
                     const matchesPatient = v.patient && v.patient.toLowerCase().includes(searchText);
                     const matchesCosium = v.job_cosium && v.job_cosium.toLowerCase().includes(searchText);
                     const matchesCde = v.id_commande_v2i && String(v.id_commande_v2i).toLowerCase().includes(searchText);
                     if (!matchesPatient && !matchesCosium && !matchesCde) return false;
                 }
-
-                // Filtre par plage de dates de saisie
                 if (v.date_entree) {
                     const dateCommande = new Date(v.date_entree.split(" ")[0]);
                     if (dateDebutFilter && dateCommande < dateDebutFilter) return false;
@@ -419,7 +390,6 @@
                 return true;
             });
 
-            // Construction HTML de la table
             if (resultatsFiltres.length === 0) {
                 tableBody.innerHTML = `<tr><td colspan="7" class="px-6 py-10 text-center text-[#86868b]">Aucune commande trouvée.</td></tr>`;
                 return;
@@ -427,11 +397,10 @@
 
             const rowsHtml = [];
             resultatsFiltres.forEach(v => {
-                const idCommande = v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || "—";
+                const idCommande = v.id_commande_v2i || "—";
                 const statutFournisseur = v.statut || "—";
                 const livraisonPrevue = v.livraison_prevue || "—";
 
-                // Badges de traitements graphiques
                 let htmlSupplements = `<div class="font-medium text-[#1d1d1f]">${v.produit || '—'}</div>`;
                 if (v.supplements && v.supplements.length > 0) {
                     htmlSupplements += `<div class="flex flex-wrap gap-1 mt-1">`;
@@ -441,8 +410,14 @@
                     htmlSupplements += `</div>`;
                 }
 
-                // --- ÉTAPE 2 : URL UNIQUE ET BLOC DE CASE MODIFIÉ (Avec Download forcé) ---
-                const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_ebl/${currentStoreId}_${idCommande}.pdf`;
+                // FIX 1 : Modification de la visibilité du bouton (Archive OU Expédié OU Livré)
+                const conditionBlDisponible = v.isArchive || statutFournisseur === "Expédié" || statutFournisseur === "Livré";
+
+                // FIX 2 : Reconstruction de l'URL pour pointer vers la structure réelle 'eBLCertifie/{magasin}'
+                // Utilise la date système du jour (ex: 20260603) comme préfixe pour matcher votre bot d'envoi GitHub
+                const today = new Date();
+                const prefixeDate = today.getFullYear() + String(today.getMonth() + 1).padStart(2, '0') + String(today.getDate()).padStart(2, '0');
+                const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/${prefixeDate}_A36_BL_${idCommande}.pdf`;
 
                 rowsHtml.push(`
                     <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -460,7 +435,7 @@
                                 <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                                     <i data-lucide="eye" class="w-4 h-4"></i>
                                 </button>
-                                ${v.isArchive ? `
+                                ${conditionBlDisponible ? `
                                     <a href="${urlEbl}" 
                                        download="eBL_${currentStoreId}_${idCommande}.pdf" 
                                        target="_blank" 
@@ -475,86 +450,75 @@
                 `);
             });
 
-            tableBody.innerHTML = rowsHtml.join("");
+            tableBody.innerHTML = rowsHtml.join('');
             if (typeof lucide !== 'undefined') lucide.createIcons();
         }
 
-        // Contrôles d'ouverture du volet de détails techniques
-        function openSidePanel(idCde) {
-            // Recherche croisée de la structure de données
-            const tout = [...dataEncours, ...dataArchives];
-            const item = tout.find(x => String(x.id_commande_v2i || x.ord_numb || x.id_bl_v2i) === String(idCde));
+        // Ouverture du volet latéral de détails
+        function openSidePanel(idCommande) {
+            const allData = [...dataEncours, ...dataArchives];
+            const v = allData.find(item => String(item.id_commande_v2i).trim() === String(idCommande).trim());
             
-            if (!item) return;
-
-            // Remplissage des données structurelles dans le DOM du panneau
-            document.getElementById("panel-patient").textContent = item.patient || "—";
-            document.getElementById("panel-bl").textContent = `Cde (BL): ${idCde}`;
-            document.getElementById("panel-cosium-id").textContent = item.job_cosium || "—";
-
-            // Œil Droit
-            document.getElementById("od-sph").textContent = item.od_sph || "—";
-            document.getElementById("od-cyl").textContent = item.od_cyl || "—";
-            document.getElementById("od-axe").textContent = item.od_axe || "—";
-            document.getElementById("od-add").textContent = item.od_add || "—";
-            document.getElementById("od-p1").textContent = item.od_p1 || "—";
-            document.getElementById("od-b1").textContent = item.od_b1 || "—";
-            document.getElementById("od-p2").textContent = item.od_p2 || "—";
-            document.getElementById("od-b2").textContent = item.od_b2 || "—";
-            document.getElementById("od-dia").textContent = item.od_dia || "—";
-
-            // Œil Gauche
-            document.getElementById("og-sph").textContent = item.og_sph || "—";
-            document.getElementById("og-cyl").textContent = item.og_cyl || "—";
-            document.getElementById("og-axe").textContent = item.og_axe || "—";
-            document.getElementById("og-add").textContent = item.og_add || "—";
-            document.getElementById("og-p1").textContent = item.og_p1 || "—";
-            document.getElementById("og-b1").textContent = item.og_b1 || "—";
-            document.getElementById("og-p2").textContent = item.og_p2 || "—";
-            document.getElementById("og-b2").textContent = item.og_b2 || "—";
-            document.getElementById("og-dia").textContent = item.og_dia || "—";
-
-            // Données Morphologiques
-            document.getElementById("morpho-od-ecart").textContent = item.od_ecart ? `${item.od_ecart} mm` : "—";
-            document.getElementById("morpho-od-haut").textContent = item.od_haut ? `${item.od_haut} mm` : "—";
-            document.getElementById("morpho-og-ecart").textContent = item.og_ecart ? `${item.og_ecart} mm` : "—";
-            document.getElementById("morpho-og-haut").textContent = item.og_haut ? `${item.og_haut} mm` : "—";
-
-            // Traitements
-            const containerSupplements = document.getElementById("panel-supplements");
-            containerSupplements.innerHTML = "";
-            if (item.supplements && item.supplements.length > 0) {
-                item.supplements.forEach(sup => {
+            if (!v) return;
+            
+            document.getElementById("panel-patient").textContent = v.patient || "—";
+            document.getElementById("panel-bl").textContent = `Cde: ${idCommande}`;
+            
+            document.getElementById("od-sph").textContent = v.od_sph || "—";
+            document.getElementById("od-cyl").textContent = v.od_cyl || "—";
+            document.getElementById("od-axe").textContent = v.od_axe || "—";
+            document.getElementById("od-add").textContent = v.od_add || "—";
+            document.getElementById("od-p1").textContent = v.od_p1 || "—";
+            document.getElementById("od-b1").textContent = v.od_b1 || "—";
+            document.getElementById("od-p2").textContent = v.od_p2 || "—";
+            document.getElementById("od-b2").textContent = v.od_b2 || "—";
+            document.getElementById("od-dia").textContent = v.od_dia || "—";
+            
+            document.getElementById("og-sph").textContent = v.og_sph || "—";
+            document.getElementById("og-cyl").textContent = v.og_cyl || "—";
+            document.getElementById("og-axe").textContent = v.og_axe || "—";
+            document.getElementById("og-add").textContent = v.og_add || "—";
+            document.getElementById("og-p1").textContent = v.og_p1 || "—";
+            document.getElementById("og-b1").textContent = v.og_b1 || "—";
+            document.getElementById("og-p2").textContent = v.og_p2 || "—";
+            document.getElementById("og-b2").textContent = v.og_b2 || "—";
+            document.getElementById("og-dia").textContent = v.og_dia || "—";
+            
+            document.getElementById("morpho-od-ecart").textContent = v.od_ecart ? `${v.od_ecart} mm` : "—";
+            document.getElementById("morpho-od-haut").textContent = v.od_haut ? `${v.od_haut} mm` : "—";
+            document.getElementById("morpho-og-ecart").textContent = v.og_ecart ? `${v.og_ecart} mm` : "—";
+            document.getElementById("morpho-og-haut").textContent = v.og_haut ? `${v.og_haut} mm` : "—";
+            
+            document.getElementById("panel-cosium-id").textContent = v.job_cosium || "—";
+            
+            const suppContainer = document.getElementById("panel-supplements");
+            suppContainer.innerHTML = "";
+            if (v.supplements && v.supplements.length > 0) {
+                v.supplements.forEach(sup => {
                     const span = document.createElement("span");
-                    span.className = "bg-gray-100 text-gray-800 text-xs px-2.5 py-1 rounded-lg font-medium border border-gray-200/60";
+                    span.className = "bg-[#f5f5f7] text-[#86868b] text-[10px] px-2 py-1 rounded font-medium border border-gray-200/60";
                     span.textContent = sup;
-                    containerSupplements.appendChild(span);
+                    suppContainer.appendChild(span);
                 });
             } else {
-                containerSupplements.innerHTML = `<span class="text-gray-400 italic">Aucun traitement additionnel</span>`;
+                suppContainer.innerHTML = `<span class="text-[#86868b] italic">Aucun traitement optionnel</span>`;
             }
-
-            // Rendre le panneau visible
+            
             document.getElementById("side-panel").classList.remove("hidden");
+            if (typeof lucide !== 'undefined') lucide.createIcons();
         }
 
         function closeSidePanel() {
             document.getElementById("side-panel").classList.add("hidden");
         }
 
-        // Logique mathématique simplifiée du Calculateur d'Épaisseur
+        // Calculateur d'épaisseur simplifié
         function runCalculation() {
-            const sphereInput = document.getElementById("calc-sphere").value;
-            const sphere = parseFloat(sphereInput) || 0;
-            
-            // Simulation d'une formule de flèche (sagitte) optique réaliste
-            const epaisseurBase = 1.40; 
-            const calculSagitte = Math.abs(sphere) * 0.45;
-            const resultatFinal = (epaisseurBase + calculSagitte).toFixed(2);
-            
-            document.getElementById("calc-result").textContent = resultatFinal;
+            const sphere = parseFloat(document.getElementById("calc-sphere").value) || 0;
+            const baseThickness = 2.0;
+            const calculated = baseThickness + Math.abs(sphere) * 0.3;
+            document.getElementById("calc-result").textContent = calculated.toFixed(2);
         }
-</script>
-    <script src="app2.js"></script>
+    </script>
 </body>
 </html>
