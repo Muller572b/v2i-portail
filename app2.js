@@ -25,7 +25,7 @@ async function handleLogin(e) {
             cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
             
             currentStoreId = clientNum;
-            currentCosiumCode = cosiumCode; // Sauvegarde le code magasin pour la construction des URLs eBL
+            currentCosiumCode = cosiumCode; // Sauvegarde le code magasin (ex: BFO)
             storeEncours = data.commandes_en_cours || [];
 
             document.getElementById('login-screen').classList.add('hidden');
@@ -65,14 +65,13 @@ async function loadArchiveYear(year) {
             const archiveData = await resp.json();
             const nouvellesCommandes = archiveData.commandes_expediees || [];
             
-            // Map d'identifiants existants pour aller beaucoup plus vite qu'un .some() imbriqué
             const existingIds = new Set(storeArchives.map(existing => String(existing.ord_numb || existing.id_bl_v2i || '').trim()));
 
             nouvellesCommandes.forEach(cmd => {
                 const idCmdNouvelle = String(cmd.ord_numb || cmd.id_bl_v2i || '').trim();
                 if (!existingIds.has(idCmdNouvelle)) {
                     storeArchives.push(cmd);
-                    existingIds.add(idCmdNouvelle); // Évite les doublons internes
+                    existingIds.add(idCmdNouvelle);
                 }
             });
 
@@ -167,7 +166,6 @@ function parseDate(dateStr) {
     return null;
 }
 
-// Variables globales de contrôle pour la recherche
 let searchTimeout = null;
 
 function renderVerres() {
@@ -286,10 +284,14 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
 
-        // Correction du préfixe dynamique avec l'identifiant réel du magasin (ex: BFO)
         const codeMagasinActuel = currentCosiumCode || "A36"; 
-        const prefixeEbl = `20260603_${codeMagasinActuel}_BL_`;
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/${prefixeEbl}${idCommande}.pdf`;
+        
+        // CORRECTION : L'URL cible directement le format sans date : BFO_BL_[N°].pdf
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+
+        // NOTE : Si tes fichiers sur GitHub commencent par un Underscore (ex: _BFO_BL_260521000186.pdf),
+        // utilise plutôt la ligne ci-dessous en enlevant les deux barres de commentaire :
+        // const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -456,7 +458,7 @@ function logout() {
     document.getElementById('main-interface').classList.add('hidden');
     document.getElementById('login-screen').classList.remove('hidden');
     currentStoreId = null;
-    currentCosiumCode = null; // Réinitialisation à la déconnexion
+    currentCosiumCode = null;
     storeEncours = [];
     storeArchives = [];
     loadedYears = [];
