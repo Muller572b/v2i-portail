@@ -289,8 +289,14 @@ function renderVerres() {
             livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
-        // Construction de l'URL cible pour le eBL
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_ebl/${currentStoreId}_${idCommande}.pdf`;
+        // 1. Détermination du statut d'expédition (Insensible à la casse et aux accents)
+        const statutClean = String(statutFournisseur).toLowerCase().trim();
+        const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
+
+        // 2. Construction dynamique de l'URL conforme à la structure GitHub détectée
+        // Modifie la variable prefixeEbl si la date ou l'identifiant de lot change dynamiquement
+        const prefixeEbl = "20260603_A36_BL_";
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/${prefixeEbl}${idCommande}.pdf`;
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -308,9 +314,13 @@ function renderVerres() {
                         <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
-                        <a href="${urlEbl}" target="_blank" class="p-2 text-[#86868b] hover:text-[#28a745] bg-[#f5f5f7] rounded-xl cursor-pointer flex items-center justify-center" title="Télécharger le eBL">
-                            <i data-lucide="download" class="w-4 h-4"></i>
-                        </a>
+                        
+                        ${estExpedie ? `
+                            <a href="${urlEbl}" target="_blank" class="p-2 text-[#86868b] hover:text-[#28a745] bg-[#f5f5f7] rounded-xl cursor-pointer flex items-center justify-center" title="Télécharger le eBL">
+                                <i data-lucide="download" class="w-4 h-4"></i>
+                            </a>
+                        ` : `
+                            <div class="w-8 h-8"></div> `}
                     </div>
                 </td>
             </tr>
@@ -450,6 +460,7 @@ function runCalculation() {
     document.getElementById('calc-result').innerText = calculated.toFixed(2);
 }
 
+// Fonction de déconnexion
 function logout() {
     window.removeEventListener('scroll', handleScrollLoad);
     document.getElementById('main-interface').classList.add('hidden');
