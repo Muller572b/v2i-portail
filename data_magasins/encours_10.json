@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "04/06/2026 11:24",
+  "derniere_mise_a_jour": "04/06/2026 12:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160674",
@@ -19,9 +19,9 @@
       "patient": "MONDOLONI BLONDIO GUILLAUME",
       "job_cosium": "J145063305-02",
       "date_entree": "04/06/2026",
-      "detail": "Réf: MONDOLONI BLONDIO GUILLAUME / J145063305-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: MONDOLONI BLONDIO GUILLAUME / J145063305-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 05/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -193,112 +193,6 @@
       }
     },
     {
-      "ord_numb": "            10160531",
-      "id_commande_v2i": "260603000103",
-      "code_cote": "B",
-      "patient": "CASALONGA ANTOINE",
-      "job_cosium": "J145063297-02",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: CASALONGA ANTOINE / J145063297-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160537",
-      "id_commande_v2i": "260603000109",
-      "code_cote": "B",
-      "patient": "LAI PAOLA",
-      "job_cosium": "J145063288",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: LAI PAOLA / J145063288 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160538",
       "id_commande_v2i": "260603000110",
       "code_cote": "B",
@@ -401,6 +295,59 @@
       }
     },
     {
+      "ord_numb": "            10160531",
+      "id_commande_v2i": "260603000103",
+      "code_cote": "B",
+      "patient": "CASALONGA ANTOINE",
+      "job_cosium": "J145063297-02",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: CASALONGA ANTOINE / J145063297-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 05/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160536",
       "id_commande_v2i": "260603000108",
       "code_cote": "B",
@@ -450,6 +397,59 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160537",
+      "id_commande_v2i": "260603000109",
+      "code_cote": "B",
+      "patient": "LAI PAOLA",
+      "job_cosium": "J145063288",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: LAI PAOLA / J145063288 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 05/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Gris C"
         ]
       }
     },
@@ -790,9 +790,9 @@
       "patient": "SUSINI MARIE JOSEPHINE",
       "job_cosium": "J145063257",
       "date_entree": "01/06/2026",
-      "detail": "Réf: SUSINI MARIE JOSEPHINE / J145063257 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: SUSINI MARIE JOSEPHINE / J145063257 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 03/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
