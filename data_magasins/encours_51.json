@@ -10,8 +10,122 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "04/06/2026 14:28",
+  "derniere_mise_a_jour": "04/06/2026 14:54",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160722",
+      "id_commande_v2i": "260604000075",
+      "code_cote": "B",
+      "patient": "LECCIA NATHALIE",
+      "job_cosium": "J702020452",
+      "date_entree": "04/06/2026",
+      "detail": "Réf: LECCIA NATHALIE / J702020452 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 65,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "20.0",
+        "supplements": [
+          "K2 Cygn Confort2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "1.25",
+        "axe": 135,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "20.0",
+        "supplements": [
+          "K2 Cygn Confort2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160724",
+      "id_commande_v2i": "260604000077",
+      "code_cote": "B",
+      "patient": "CECCALDI ALBERTINA",
+      "job_cosium": "J702020410",
+      "date_entree": "04/06/2026",
+      "detail": "Réf: CECCALDI ALBERTINA / J702020410 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "2.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160716",
       "id_commande_v2i": "260604000069",
@@ -121,167 +235,6 @@
       }
     },
     {
-      "ord_numb": "            10160720",
-      "id_commande_v2i": "260604000073",
-      "code_cote": "B",
-      "patient": "JARNY MARIE",
-      "job_cosium": "J702020450-02",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: JARNY MARIE / J702020450-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys 2e St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160721",
-      "id_commande_v2i": "260604000074",
-      "code_cote": "B",
-      "patient": "JARNY MARIE",
-      "job_cosium": "J702020450-01",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: JARNY MARIE / J702020450-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160722",
-      "id_commande_v2i": "260604000075",
-      "code_cote": "B",
-      "patient": "LECCIA NATHALIE",
-      "job_cosium": "J702020452",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: LECCIA NATHALIE / J702020452 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 65,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "20.0",
-        "supplements": [
-          "K2 Cygn Confort2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "1.25",
-        "axe": 135,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "20.0",
-        "supplements": [
-          "K2 Cygn Confort2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160723",
       "id_commande_v2i": "260604000076",
       "code_cote": "B",
@@ -331,61 +284,6 @@
         "supplements": [
           "K2 Uni 1.5 Non Durci",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160724",
-      "id_commande_v2i": "260604000077",
-      "code_cote": "B",
-      "patient": "CECCALDI ALBERTINA",
-      "job_cosium": "J702020410",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: CECCALDI ALBERTINA / J702020410 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "2.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
@@ -663,43 +561,6 @@
           "CLA Unifocal 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160384",
-      "id_commande_v2i": "260602000188",
-      "code_cote": "L",
-      "patient": "CENTAMORE ELISA",
-      "job_cosium": "J702020427",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: CENTAMORE ELISA / J702020427 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 04/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.50",
-        "cylindre": "1.00",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
         ]
       }
     },
