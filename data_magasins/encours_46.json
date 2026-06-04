@@ -10,8 +10,63 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "04/06/2026 11:24",
+  "derniere_mise_a_jour": "04/06/2026 12:06",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160532",
+      "id_commande_v2i": "260603000104",
+      "code_cote": "B",
+      "patient": "MUFRAGGI CAROLINE",
+      "job_cosium": "J152045102",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: MUFRAGGI CAROLINE / J152045102 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "2.00",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160542",
       "id_commande_v2i": "260603000114",
@@ -253,61 +308,6 @@
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160532",
-      "id_commande_v2i": "260603000104",
-      "code_cote": "B",
-      "patient": "MUFRAGGI CAROLINE",
-      "job_cosium": "J152045102",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: MUFRAGGI CAROLINE / J152045102 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "2.00",
-        "axe": 135,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
         ]
       }
     },
@@ -652,61 +652,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159565",
-      "id_commande_v2i": "260528000081",
-      "code_cote": "B",
-      "patient": "BONARDI LAURENT",
-      "job_cosium": "J152045024-01",
-      "date_entree": "28/05/2026",
-      "detail": "Réf: BONARDI LAURENT / J152045024-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 03/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.25",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
