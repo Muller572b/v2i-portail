@@ -5,8 +5,63 @@
     "nom": "Optissimo (PLU)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "03/06/2026 à 05:00",
+  "derniere_validation": "04/06/2026 à 05:01",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10159804",
+      "id_commande_v2i": "260529000120",
+      "id_bl_v2i": "260529000120",
+      "code_cote": "B",
+      "patient": "DODDOLI LAURENCE",
+      "job_cosium": "J132017045",
+      "detail": "Réf: DODDOLI LAURENCE / J132017045 — (Fabrication RX) — État: Expédié",
+      "date_entree": "29/05/2026",
+      "date_expedition": "03/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "03/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10159638",
       "id_commande_v2i": "260528000154",
@@ -126,61 +181,6 @@
           "Dégradé Polarisé",
           "Antireflet interne face CC inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10159685",
-      "id_commande_v2i": "260529000001",
-      "id_bl_v2i": "260529000001",
-      "code_cote": "B",
-      "patient": "THOMAS",
-      "job_cosium": "",
-      "detail": "Réf: THOMAS — (Stock) — État: Expédié",
-      "date_entree": "29/05/2026",
-      "date_expedition": "30/05/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédié",
-      "statut": "30/05/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Teinte Pink B"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Teinte Pink B"
         ]
       }
     },
@@ -433,6 +433,61 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10159685",
+      "id_commande_v2i": "260529000001",
+      "id_bl_v2i": "260529000001",
+      "code_cote": "B",
+      "patient": "THOMAS",
+      "job_cosium": "",
+      "detail": "Réf: THOMAS — (Stock) — État: Expédié",
+      "date_entree": "29/05/2026",
+      "date_expedition": "30/05/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "30/05/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Pink B"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Pink B"
         ]
       }
     },
