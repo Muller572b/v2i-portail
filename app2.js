@@ -84,7 +84,7 @@ async function loadArchiveYear(year) {
             }
         }
     } catch (e) {
-        console.log(`Pas d'archive disponible pour l'année ${year} ou ce magasin.`);
+        console.log(`Pas d'archive disponie pour l'année ${year} ou ce magasin.`);
     }
 }
 
@@ -169,7 +169,7 @@ function parseDate(dateStr) {
 let searchTimeout = null;
 
 function renderVerres() {
-    const tbody = document.getElementById('verres-table-body');
+    const tbody = document.getElementById('verres-tae-body');
     if (!tbody) return;
     
     const searchInput = document.getElementById('search-verres');
@@ -211,7 +211,7 @@ function renderVerres() {
 
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
+        const idUnique = item.id_commande_v2i || item.ord_numb || item.id__v2i;
         if (idUnique) {
             const key = String(idUnique).trim();
             if (!uniquesMap.has(key) || item.isArchive) {
@@ -287,12 +287,13 @@ function renderVerres() {
         const codeMagasinActuel = currentCosiumCode || "A36"; 
         
         // CORRECTION : L'URL cible directement le format sans date : BFO_BL_[N°].pdf
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        // 1. Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
+        const anneeBL = "20" + idCommande.substring(0, 2);
+        
+        // 2. Construction de l'URL directe sans aucun préfixe parasite
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
 
-        // NOTE : Si tes fichiers sur GitHub commencent par un Underscore (ex: _BFO_BL_260521000186.pdf),
-        // utilise plutôt la ligne ci-dessous en enlevant les deux barres de commentaire :
-        // const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLCertifie/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
-
+        
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
