@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "04/06/2026 10:11",
+  "derniere_mise_a_jour": "04/06/2026 10:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160656",
@@ -278,6 +278,63 @@
       }
     },
     {
+      "ord_numb": "            10160361",
+      "id_commande_v2i": "260602000165",
+      "code_cote": "B",
+      "patient": "LE GUILLOU JENNIFER",
+      "job_cosium": "J160020764",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: LE GUILLOU JENNIFER / J160020764 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "0.25",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.2",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Noir C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160343",
       "id_commande_v2i": "260602000147",
       "code_cote": "B",
@@ -329,63 +386,6 @@
           "Media 1.67 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160361",
-      "id_commande_v2i": "260602000165",
-      "code_cote": "B",
-      "patient": "LE GUILLOU JENNIFER",
-      "job_cosium": "J160020764",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: LE GUILLOU JENNIFER / J160020764 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "0.25",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.67 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.2",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.67 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Noir C"
         ]
       }
     },
