@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "04/06/2026 11:24",
+  "derniere_mise_a_jour": "04/06/2026 12:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160436",
@@ -286,59 +286,6 @@
       }
     },
     {
-      "ord_numb": "            10160519",
-      "id_commande_v2i": "260603000091",
-      "code_cote": "B",
-      "patient": "CARLOTTI PAULINE",
-      "job_cosium": "J131018820",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: CARLOTTI PAULINE / J131018820 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 05/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160576",
       "id_commande_v2i": "260603000148",
       "code_cote": "B",
@@ -388,6 +335,59 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160519",
+      "id_commande_v2i": "260603000091",
+      "code_cote": "B",
+      "patient": "CARLOTTI PAULINE",
+      "job_cosium": "J131018820",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: CARLOTTI PAULINE / J131018820 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 05/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
         ]
       }
     }
