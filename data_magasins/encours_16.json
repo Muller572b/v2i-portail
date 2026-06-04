@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "04/06/2026 10:11",
+  "derniere_mise_a_jour": "04/06/2026 10:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160658",
@@ -180,9 +180,9 @@
       "patient": "LECA CHRISTELLE",
       "job_cosium": "J143053802",
       "date_entree": "03/06/2026",
-      "detail": "Réf: LECA CHRISTELLE / J143053802 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: LECA CHRISTELLE / J143053802 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -225,6 +225,67 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160646",
+      "id_commande_v2i": "260603000218",
+      "code_cote": "B",
+      "patient": "LIVRELLI-SAMPIERI ALEXANDRE",
+      "job_cosium": "J143053790-01",
+      "date_entree": "03/06/2026",
+      "detail": "Réf: LIVRELLI-SAMPIERI ALEXANDRE / J143053790-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "O2 Maximu2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 50,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "O2 Maximu2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
@@ -461,67 +522,6 @@
       }
     },
     {
-      "ord_numb": "            10160646",
-      "id_commande_v2i": "260603000218",
-      "code_cote": "B",
-      "patient": "LIVRELLI-SAMPIERI ALEXANDRE",
-      "job_cosium": "J143053790-01",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: LIVRELLI-SAMPIERI ALEXANDRE / J143053790-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "O2 Maximu2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 50,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "O2 Maximu2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160642",
       "id_commande_v2i": "260603000214",
       "code_cote": "B",
@@ -695,6 +695,63 @@
       }
     },
     {
+      "ord_numb": "            10160424",
+      "id_commande_v2i": "260602000228",
+      "code_cote": "B",
+      "patient": "FARELLACCI BARTOLI JOCELYNE",
+      "job_cosium": "J143053776-03",
+      "date_entree": "02/06/2026",
+      "detail": "Réf: FARELLACCI BARTOLI JOCELYNE / J143053776-03 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Bleu AB",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "1.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Bleu AB",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160415",
       "id_commande_v2i": "260602000219",
       "code_cote": "B",
@@ -807,63 +864,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160424",
-      "id_commande_v2i": "260602000228",
-      "code_cote": "B",
-      "patient": "FARELLACCI BARTOLI JOCELYNE",
-      "job_cosium": "J143053776-03",
-      "date_entree": "02/06/2026",
-      "detail": "Réf: FARELLACCI BARTOLI JOCELYNE / J143053776-03 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Bleu AB",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "1.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Bleu AB",
-          "Durci Inclus"
         ]
       }
     },
@@ -984,9 +984,9 @@
       "patient": "GIUDICELLI ANNE MARIE",
       "job_cosium": "J143053654-02",
       "date_entree": "01/06/2026",
-      "detail": "Réf: GIUDICELLI ANNE MARIE / J143053654-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: GIUDICELLI ANNE MARIE / J143053654-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 05/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1041,9 +1041,9 @@
       "patient": "MION PHILIPPE",
       "job_cosium": "J143053749",
       "date_entree": "01/06/2026",
-      "detail": "Réf: MION PHILIPPE / J143053749 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: MION PHILIPPE / J143053749 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 05/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1206,9 +1206,9 @@
       "patient": "NOWICKI ANNE-SOPHIE",
       "job_cosium": "J143053730",
       "date_entree": "30/05/2026",
-      "detail": "Réf: NOWICKI ANNE-SOPHIE / J143053730 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: NOWICKI ANNE-SOPHIE / J143053730 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 05/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
