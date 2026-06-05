@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "05/06/2026 11:24",
+  "derniere_mise_a_jour": "05/06/2026 11:39",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160867",
@@ -534,37 +534,36 @@
       }
     },
     {
-      "ord_numb": "            10160834",
-      "id_commande_v2i": "260604000187",
+      "ord_numb": "            10160777",
+      "id_commande_v2i": "260604000130",
       "code_cote": "B",
-      "patient": "TRAMONI MARINA",
-      "job_cosium": "J133035794-02",
+      "patient": "ORDRONNEAU BLANDINE",
+      "job_cosium": "J133035784",
       "date_entree": "04/06/2026",
-      "detail": "Réf: TRAMONI MARINA / J133035794-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: ORDRONNEAU BLANDINE / J133035784 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/06",
+      "statut": "Livraison prévue : 09/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "1.75",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "2.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "21.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
         "supplements": [
           "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
           "Individualisation",
-          "Teinte Noir C",
           "Précalibrage Offert",
           "Optimized"
         ]
@@ -572,23 +571,22 @@
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.75",
-        "axe": 85,
-        "addition": "1.75",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.4",
-        "hauteur": "20.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "31.0",
         "supplements": [
           "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
           "Individualisation",
-          "Teinte Noir C",
           "Précalibrage Offert",
           "Optimized"
         ]
@@ -646,65 +644,6 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160777",
-      "id_commande_v2i": "260604000130",
-      "code_cote": "B",
-      "patient": "ORDRONNEAU BLANDINE",
-      "job_cosium": "J133035784",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: ORDRONNEAU BLANDINE / J133035784 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
@@ -921,6 +860,67 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160834",
+      "id_commande_v2i": "260604000187",
+      "code_cote": "B",
+      "patient": "TRAMONI MARINA",
+      "job_cosium": "J133035794-02",
+      "date_entree": "04/06/2026",
+      "detail": "Réf: TRAMONI MARINA / J133035794-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.75",
+        "axe": 85,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.4",
+        "hauteur": "20.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
@@ -1151,9 +1151,9 @@
       "patient": "MARCELLESI DOMINIQUE",
       "job_cosium": "J133035728",
       "date_entree": "01/06/2026",
-      "detail": "Réf: MARCELLESI DOMINIQUE / J133035728 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: MARCELLESI DOMINIQUE / J133035728 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 03/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
