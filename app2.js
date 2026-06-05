@@ -291,7 +291,7 @@ function renderVerres() {
         const anneeBL = "20" + idCommande.substring(0, 2);
         
         // 2. Construction de l'URL directe sans aucun préfixe parasite
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        const urlEbl = `https://raw.githubusercontent.com/Muller527b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
 
         
         rowsHtml.push(`
