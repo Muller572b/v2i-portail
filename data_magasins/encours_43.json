@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "05/06/2026 17:10",
+  "derniere_mise_a_jour": "05/06/2026 17:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160877",
@@ -131,15 +131,66 @@
       }
     },
     {
+      "ord_numb": "            10161002",
+      "id_commande_v2i": "260605000140",
+      "code_cote": "B",
+      "patient": "EL FRAA HAYATE",
+      "job_cosium": "J149018323",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: EL FRAA HAYATE / J149018323 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160929",
       "id_commande_v2i": "260605000067",
       "code_cote": "B",
       "patient": "PECE PAULA",
       "job_cosium": "J149018322-02",
       "date_entree": "05/06/2026",
-      "detail": "Réf: PECE PAULA / J149018322-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: PECE PAULA / J149018322-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 11/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
