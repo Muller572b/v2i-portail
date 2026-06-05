@@ -58,7 +58,7 @@ async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
 
-    const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
+    const urlJsonArchive = `https://raw.githubusercontent.com/572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
     try {
         const resp = await fetch(urlJsonArchive);
         if (resp.ok) {
@@ -169,8 +169,10 @@ function parseDate(dateStr) {
 let searchTimeout = null;
 
 function renderVerres() {
-    const tbody = document.getElementById('verres-tae-body');
+    const tbody = document.getElementById('verres-table-body'); 
     if (!tbody) return;
+    
+    const searchInput = document.getElementById('search-verres');
     
     const searchInput = document.getElementById('search-verres');
     const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
@@ -291,7 +293,7 @@ function renderVerres() {
         const anneeBL = "20" + idCommande.substring(0, 2);
         
         // 2. Construction de l'URL directe sans aucun préfixe parasite
-        const urlEbl = `https://raw.githubusercontent.com/Muller527b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
 
         
         rowsHtml.push(`
