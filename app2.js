@@ -211,7 +211,7 @@ function renderVerres() {
 
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        const idUnique = item.id_commande_v2i || item.ord_numb || item.id__v2i;
+        const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
         if (idUnique) {
             const key = String(idUnique).trim();
             if (!uniquesMap.has(key) || item.isArchive) {
