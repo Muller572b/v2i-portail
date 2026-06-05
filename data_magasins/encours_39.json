@@ -10,8 +10,110 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "05/06/2026 10:09",
+  "derniere_mise_a_jour": "05/06/2026 10:24",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160875",
+      "id_commande_v2i": "260605000013",
+      "code_cote": "B",
+      "patient": "SILVARELLI JACQUELINE",
+      "job_cosium": "J147014131-02",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: SILVARELLI JACQUELINE / J147014131-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 05/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "1.00",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160876",
+      "id_commande_v2i": "260605000014",
+      "code_cote": "B",
+      "patient": "SILVARELLI JACQUELINE",
+      "job_cosium": "J147014131-01",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: SILVARELLI JACQUELINE / J147014131-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 05/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "1.00",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160518",
       "id_commande_v2i": "260603000090",
@@ -77,9 +179,9 @@
       "patient": "SIMON SLAVOMIR",
       "job_cosium": "J147014126",
       "date_entree": "02/06/2026",
-      "detail": "Réf: SIMON SLAVOMIR / J147014126 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: SIMON SLAVOMIR / J147014126 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -132,9 +234,9 @@
       "patient": "SCHETTINI MARIE JOSEE",
       "job_cosium": "J147014125",
       "date_entree": "02/06/2026",
-      "detail": "Réf: SCHETTINI MARIE JOSEE / J147014125 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: SCHETTINI MARIE JOSEE / J147014125 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
