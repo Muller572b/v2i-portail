@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "05/06/2026 11:39",
+  "derniere_mise_a_jour": "05/06/2026 11:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160879",
@@ -129,6 +129,65 @@
       }
     },
     {
+      "ord_numb": "            10160752",
+      "id_commande_v2i": "260604000105",
+      "code_cote": "B",
+      "patient": "NICOLINI J PHILIPPE",
+      "job_cosium": "J150010138-02",
+      "date_entree": "04/06/2026",
+      "detail": "Réf: NICOLINI J PHILIPPE / J150010138-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 09/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "19.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "35.5",
+        "hauteur": "19.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160751",
       "id_commande_v2i": "260604000104",
       "code_cote": "B",
@@ -182,65 +241,6 @@
         "supplements": [
           "Delta Confort2 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160752",
-      "id_commande_v2i": "260604000105",
-      "code_cote": "B",
-      "patient": "NICOLINI J PHILIPPE",
-      "job_cosium": "J150010138-02",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: NICOLINI J PHILIPPE / J150010138-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "19.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "35.5",
-        "hauteur": "19.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Offert",
