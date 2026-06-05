@@ -174,7 +174,6 @@ function renderVerres() {
     
     const searchInput = document.getElementById('search-verres');
     
-    const searchInput = document.getElementById('search-verres');
     const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
     
     const dateDebutEl = document.getElementById('date-debut');
