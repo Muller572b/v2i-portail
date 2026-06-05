@@ -10,8 +10,63 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "05/06/2026 09:09",
+  "derniere_mise_a_jour": "05/06/2026 09:24",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160824",
+      "id_commande_v2i": "260604000177",
+      "code_cote": "B",
+      "patient": "ROSSI MARIE LOUISE",
+      "job_cosium": "J139053197-02",
+      "date_entree": "04/06/2026",
+      "detail": "Réf: ROSSI MARIE LOUISE / J139053197-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "D2 First OD HD 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "D2 First OD HD 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160818",
       "id_commande_v2i": "260604000171",
@@ -340,61 +395,6 @@
         "hauteur": "0.0",
         "supplements": [
           "First OD HD 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160824",
-      "id_commande_v2i": "260604000177",
-      "code_cote": "B",
-      "patient": "ROSSI MARIE LOUISE",
-      "job_cosium": "J139053197-02",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: ROSSI MARIE LOUISE / J139053197-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "21.0",
-        "supplements": [
-          "D2 First OD HD 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "21.0",
-        "supplements": [
-          "D2 First OD HD 1.5 Durci",
-          "Teinte Dégradée Brun C",
           "Durci Inclus"
         ]
       }
