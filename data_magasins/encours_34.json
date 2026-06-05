@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "05/06/2026 11:09",
+  "derniere_mise_a_jour": "05/06/2026 11:24",
   "commandes_en_cours": [
     {
       "ord_numb": "            10160684",
@@ -129,6 +129,61 @@
       }
     },
     {
+      "ord_numb": "            10160747",
+      "id_commande_v2i": "260604000100",
+      "code_cote": "B",
+      "patient": "NICOLINI MARIE",
+      "job_cosium": "J137036038",
+      "date_entree": "04/06/2026",
+      "detail": "Réf: NICOLINI MARIE / J137036038 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 95,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.1",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.50",
+        "axe": 85,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.1",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160784",
       "id_commande_v2i": "260604000137",
       "code_cote": "B",
@@ -178,61 +233,6 @@
         "hauteur": "0.0",
         "supplements": [
           "2de O2 Miladu 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160747",
-      "id_commande_v2i": "260604000100",
-      "code_cote": "B",
-      "patient": "NICOLINI MARIE",
-      "job_cosium": "J137036038",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: NICOLINI MARIE / J137036038 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 95,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.1",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.50",
-        "axe": 85,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.1",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
