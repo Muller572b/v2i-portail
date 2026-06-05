@@ -58,7 +58,8 @@ async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
 
-    const urlJsonArchive = `https://raw.githubusercontent.com/572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
+    // Corrigé
+const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
     try {
         const resp = await fetch(urlJsonArchive);
         if (resp.ok) {
