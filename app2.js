@@ -54,6 +54,56 @@ async function handleLogin(e) {
     }
 }
 
+async function chargerFluxRSS() {
+    // 1. On cible l'élément HTML (on l'appelle par exemple 'bloc-actualites')
+    const conteneur = document.getElementById('bloc-actualites');
+    
+    // Sécurité : Si l'élément n'existe pas sur la page actuelle, on arrête la fonction sans faire d'erreur
+    if (!conteneur) return; 
+
+    const urlFlux = "https://www.acuite.fr/rss.xml";
+    const urlProxy = `https://api.allorigins.win/get?url=${encodeURIComponent(urlFlux)}`;
+
+    try {
+        const response = await fetch(urlProxy);
+        const data = await response.json();
+        
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(data.contents, "text/xml");
+        const items = xmlDoc.querySelectorAll("item");
+
+        let html = '<div class="flex flex-col gap-4 p-2">';
+        
+        // On prend les 3 derniers articles
+        const articles = Array.from(items).slice(0, 3);
+        articles.forEach(item => {
+            const title = item.querySelector("title").textContent;
+            const link = item.querySelector("link").textContent;
+            const description = item.querySelector("description")?.textContent || "";
+
+            html += `
+                <div class="border-b border-gray-100 pb-3 last:border-0 last:pb-0">
+                    <a href="${link}" target="_blank" class="font-semibold text-sm text-blue-600 hover:text-blue-800 hover:underline block mb-1">
+                        ${title}
+                    </a>
+                    <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed">
+                        ${description}
+                    </p>
+                </div>
+            `;
+        });
+        html += '</div>';
+
+        conteneur.innerHTML = html;
+    } catch (error) {
+        console.error("Erreur de chargement du flux RSS :", error);
+        conteneur.innerHTML = `<p class="text-xs text-gray-400 p-4 text-center">Impossible de charger les actualités pour le moment.</p>`;
+    }
+}
+
+// 2. Déclencher le chargement automatiquement dès que la page est prête
+document.addEventListener('DOMContentLoaded', chargerFluxRSS);
+
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
