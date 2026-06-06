@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "06/06/2026 18:59",
+  "derniere_mise_a_jour": "06/06/2026 19:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161072",
@@ -871,6 +871,59 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161205",
+      "id_commande_v2i": "260606000143",
+      "code_cote": "B",
+      "patient": "TUCCI GINA",
+      "job_cosium": "J205030299",
+      "date_entree": "06/06/2026",
+      "detail": "Réf: TUCCI GINA / J205030299 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "O2 Miladu 1.5 Foto Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "O2 Miladu 1.5 Foto Gris Durci",
+          "Durci Inclus"
         ]
       }
     },
