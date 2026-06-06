@@ -55,31 +55,41 @@ async function handleLogin(e) {
 }
 
 async function chargerFluxRSS() {
-    // 1. On cible l'élément HTML (on l'appelle par exemple 'bloc-actualites')
     const conteneur = document.getElementById('bloc-actualites');
-    
-    // Sécurité : Si l'élément n'existe pas sur la page actuelle, on arrête la fonction sans faire d'erreur
     if (!conteneur) return; 
 
     const urlFlux = "https://www.acuite.fr/rss.xml";
-    const urlProxy = `https://api.allorigins.win/get?url=${encodeURIComponent(urlFlux)}`;
+    // Utilisation de corsproxy.io (plus rapide, stable et renvoie directement le XML brut)
+    const urlProxy = `https://corsproxy.io/?${encodeURIComponent(urlFlux)}`;
 
     try {
         const response = await fetch(urlProxy);
-        const data = await response.json();
+        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+        
+        // On récupère directement le texte du XML
+        const xmlText = await response.text();
         
         const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(data.contents, "text/xml");
+        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+        
+        // Sécurité si le XML est malformé
+        if (xmlDoc.querySelector("parsererror")) {
+            throw new Error("Erreur de lecture du flux XML");
+        }
+
         const items = xmlDoc.querySelectorAll("item");
+        if (items.length === 0) throw new Error("Aucun article trouvé");
 
         let html = '<div class="flex flex-col gap-4 p-2">';
-        
-        // On prend les 3 derniers articles
         const articles = Array.from(items).slice(0, 3);
+        
         articles.forEach(item => {
-            const title = item.querySelector("title").textContent;
-            const link = item.querySelector("link").textContent;
+            const title = item.querySelector("title")?.textContent || "Article sans titre";
+            const link = item.querySelector("link")?.textContent || "#";
             const description = item.querySelector("description")?.textContent || "";
+
+            // Nettoyage des éventuelles balises HTML résiduelles dans la description
+            const cleanDesc = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
 
             html += `
                 <div class="border-b border-gray-100 pb-3 last:border-0 last:pb-0">
@@ -87,7 +97,7 @@ async function chargerFluxRSS() {
                         ${title}
                     </a>
                     <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed">
-                        ${description}
+                        ${cleanDesc}
                     </p>
                 </div>
             `;
@@ -96,13 +106,22 @@ async function chargerFluxRSS() {
 
         conteneur.innerHTML = html;
     } catch (error) {
-        console.error("Erreur de chargement du flux RSS :", error);
-        conteneur.innerHTML = `<p class="text-xs text-gray-400 p-4 text-center">Impossible de charger les actualités pour le moment.</p>`;
+        console.error("Détail de l'erreur RSS :", error);
+        
+        // Version de secours "élégante" : si le proxy flanche, on propose un lien direct
+        conteneur.innerHTML = `
+            <div class="text-center p-4">
+                <p class="text-xs text-gray-400 mb-2">Flux en direct indisponible.</p>
+                <a href="https://www.acuite.fr" target="_blank" class="text-xs text-blue-500 hover:underline font-medium inline-flex items-center gap-1">
+                    Ouvrir Acuité.fr ↗
+                </a>
+            </div>
+        `;
     }
 }
 
-// 2. Déclencher le chargement automatiquement dès que la page est prête
 document.addEventListener('DOMContentLoaded', chargerFluxRSS);
+
 
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
