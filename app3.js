@@ -506,6 +506,7 @@ function closeSidePanel() {
 }
 
 // Gère le basculement d'onglet et déclenche le rendu dynamique des données associées
+// Gère le basculement d'onglet et déclenche le rendu dynamique des données associées
 function switchTab(tabId) {
     // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
@@ -565,7 +566,7 @@ async function renderDocuments() {
         // Génération dynamique des cartes HTML pour chaque document trouvé
         catalogue.forEach(item => {
             const card = document.createElement('div');
-            card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group";
+            card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group relative";
             
             const estPdf = item.type === "pdf";
             const icone = estPdf 
@@ -589,13 +590,29 @@ async function renderDocuments() {
                         <p class="text-xs text-[#86868b] mt-1">${item.categorie}</p>
                     </div>
                 </div>
-                <div class="flex justify-end items-center text-xs font-medium text-[#0066cc] group-hover:underline mt-4">
-                    <span>Ouvrir</span>
-                    <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                <div class="flex justify-between items-center mt-4 pt-2 border-t border-gray-50">
+                    <button class="btn-download text-xs font-medium text-[#86868b] hover:text-[#0066cc] flex items-center gap-1 transition-colors py-1 px-2 rounded-lg hover:bg-gray-50">
+                        📥 Télécharger
+                    </button>
+                    <div class="text-xs font-medium text-[#0066cc] group-hover:underline flex items-center">
+                        <span>Aperçu</span>
+                        <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </div>
                 </div>
             `;
 
-            card.addEventListener('click', () => gererOuvertureDocument(item));
+            // Action 1 : Clic sur toute la carte -> Déploie l'aperçu latéral
+            card.addEventListener('click', () => {
+                ouvrirApercu(item.url, item.titre, item.type);
+            });
+
+            // Action 2 : Clic ciblé sur "Télécharger" -> Ouvre directement la cible (parfait pour le mobile/tablette)
+            const btnDownload = card.querySelector('.btn-download');
+            btnDownload.addEventListener('click', (e) => {
+                e.stopPropagation(); // Empêche de déclencher l'aperçu latéral en même temps
+                window.open(item.url, '_blank');
+            });
+
             container.appendChild(card);
         });
 
@@ -603,11 +620,6 @@ async function renderDocuments() {
         console.error("Erreur de chargement :", error);
         container.innerHTML = "<p class='text-sm text-[#ff453a] col-span-3 text-center py-8'>Erreur de chargement de la bibliothèque.</p>";
     }
-}
-
-// Fait la liaison entre l'événement de clic de la carte et le panneau d'affichage
-function gererOuvertureDocument(item) {
-    ouvrirApercu(item.url, item.titre, item.type);
 }
 
 // Déploie un panneau latéral fluide pour prévisualiser le document ou l'image sans quitter la page
@@ -628,11 +640,16 @@ function ouvrirApercu(url, titre, type) {
         : `<iframe src="${url}" class="w-full h-full border-none"></iframe>`;
 
     viewer.innerHTML = `
-        <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50">
-            <h4 class="text-sm font-bold text-gray-700 truncate pr-4">${titre}</h4>
-            <button onclick="fermierApercu()" class="text-gray-400 hover:text-gray-600 text-xs bg-gray-200/60 hover:bg-gray-200 px-3 py-1.5 rounded-lg transition-all cursor-pointer">
-                ✕ Fermer
-            </button>
+        <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50 gap-2">
+            <h4 class="text-sm font-bold text-gray-700 truncate flex-1 pr-2">${titre}</h4>
+            <div class="flex items-center gap-2 flex-shrink-0">
+                <a href="${url}" target="_blank" class="bg-[#0066cc] hover:bg-[#0055b3] text-white text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-all no-underline flex items-center gap-1">
+                    ↗️ Plein écran
+                </a>
+                <button onclick="fermierApercu()" class="text-gray-400 hover:text-gray-600 text-xs bg-gray-200/60 hover:bg-gray-200 px-2.5 py-1.5 rounded-lg transition-all cursor-pointer">
+                    ✕ Fermer
+                </button>
+            </div>
         </div>
         <div class="flex-1 bg-gray-100 overflow-auto">
             ${baliseContenu}
