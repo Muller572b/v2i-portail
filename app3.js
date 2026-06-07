@@ -550,58 +550,66 @@ const bibliothequePDF = [
 
 // Génère dynamiquement la grille de cartes de documents dans l'onglet actif
 // Fonction pour générer dynamiquement les cartes de documents dans l'interface
-function renderDocuments() {
+// Chargement dynamique du catalogue de documents généré par le script de scan
+async function renderDocuments() {
     const container = document.getElementById('documents-grid');
-    if (!container) {
-        console.warn("Attention : Le conteneur HTML id=\"documents-grid\" est introuvable.");
-        return;
-    }
+    if (!container) return;
 
-    // 1. Vider le conteneur existant pour éviter les doublons de rendu
     container.innerHTML = "";
 
-    // 2. Parcourir la bibliothèque officielle pour injecter chaque fichier
-    bibliothequePDF.forEach(item => {
-        const card = document.createElement('div');
+    try {
+        // Récupération du fichier JSON mis à jour automatiquement par GitHub Actions
+        const response = await fetch('./documents.json');
+        if (!response.ok) throw new Error("Fichier index introuvable");
         
-        // Styles de la carte (adaptés aux cartes blanches existantes du portail)
-        card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group";
-        
-        // Sélection des éléments visuels (icônes et badges) selon le format (PDF vs Image)
-        const estPdf = item.type === "pdf";
-        const icone = estPdf 
-            ? `<svg class="w-7 h-7 text-[#ff453a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`
-            : `<svg class="w-7 h-7 text-[#30d158]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>`;
-        
-        const badgeClass = estPdf ? "bg-[#ff453a]/10 text-[#ff453a]" : "bg-[#30d158]/10 text-[#30d158]";
+        const bibliothequePDF = await response.json();
 
-        // Structure HTML interne de la carte du document
-        card.innerHTML = `
-            <div class="flex items-start gap-4">
-                <div class="p-3 bg-[#f5f5f7] rounded-xl flex-shrink-0">
-                    ${icone}
-                </div>
-                <div class="flex-1 min-w-0">
-                    <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md ${badgeClass} mb-2">
-                        ${item.type}
-                    </span>
-                    <h3 class="text-sm font-semibold text-[#1d1d1f] line-clamp-2" title="${item.titre}">
-                        ${item.titre}
-                    </h3>
-                    <p class="text-xs text-[#86868b] mt-1">${item.categorie}</p>
-                </div>
-            </div>
-            <div class="flex justify-end items-center text-xs font-medium text-[#0066cc] group-hover:underline mt-4">
-                <span>Ouvrir</span>
-                <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            </div>
-        `;
+        if (bibliothequePDF.length === 0) {
+            container.innerHTML = "<p class='text-sm text-[#86868b] col-span-3 text-center py-8'>Aucun document disponible.</p>";
+            return;
+        }
 
-        // 3. Attacher l'action d'ouverture au clic sur l'ensemble de la carte
-        card.addEventListener('click', () => gererOuvertureDocument(item));
-        
-        container.appendChild(card);
-    });
+        // Génération dynamique des cartes HTML pour chaque document trouvé
+        bibliothequePDF.forEach(item => {
+            const card = document.createElement('div');
+            card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group";
+            
+            const estPdf = item.type === "pdf";
+            const icone = estPdf 
+                ? `<svg class="w-7 h-7 text-[#ff453a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`
+                : `<svg class="w-7 h-7 text-[#30d158]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>`;
+            
+            const badgeClass = estPdf ? "bg-[#ff453a]/10 text-[#ff453a]" : "bg-[#30d158]/10 text-[#30d158]";
+
+            card.innerHTML = `
+                <div class="flex items-start gap-4">
+                    <div class="p-3 bg-[#f5f5f7] rounded-xl flex-shrink-0">
+                        ${icone}
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md ${badgeClass} mb-2">
+                            ${item.type}
+                        </span>
+                        <h3 class="text-sm font-semibold text-[#1d1d1f] line-clamp-2" title="${item.titre}">
+                            ${item.titre}
+                        </h3>
+                        <p class="text-xs text-[#86868b] mt-1">${item.categorie}</p>
+                    </div>
+                </div>
+                <div class="flex justify-end items-center text-xs font-medium text-[#0066cc] group-hover:underline mt-4">
+                    <span>Ouvrir</span>
+                    <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </div>
+            `;
+
+            card.addEventListener('click', () => gererOuvertureDocument(item));
+            container.appendChild(card);
+        });
+
+    } catch (error) {
+        console.error("Erreur de chargement :", error);
+        container.innerHTML = "<p class='text-sm text-[#ff453a] col-span-3 text-center py-8'>Erreur de chargement de la bibliothèque.</p>";
+    }
 }
 
 // Déploie un panneau latéral fluide pour prévisualiser le document ou l'image sans quitter la page
