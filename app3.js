@@ -549,47 +549,59 @@ const bibliothequePDF = [
 ];
 
 // Génère dynamiquement la grille de cartes de documents dans l'onglet actif
+// Fonction pour générer dynamiquement les cartes de documents dans l'interface
 function renderDocuments() {
-    const conteneur = document.getElementById('content-documents');
-    if (!conteneur) return;
+    const container = document.getElementById('documents-grid');
+    if (!container) {
+        console.warn("Attention : Le conteneur HTML id=\"documents-grid\" est introuvable.");
+        return;
+    }
 
-    let html = `
-        <div class="max-w-6xl mx-auto animate-fade-in">
-            <div class="mb-6">
-                <h2 class="text-xl font-bold text-[#1d1d1f]">Espace Documentaire</h2>
-                <p class="text-xs text-gray-500 mt-0.5">Retrouvez les documentations et visuels de la gamme Polarisant.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-    `;
+    // 1. Vider le conteneur existant pour éviter les doublons de rendu
+    container.innerHTML = "";
 
-    bibliothequePDF.forEach(doc => {
-        const icone = doc.type === 'image' ? '🖼️' : '📄';
-        html += `
-            <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
-                <div>
-                    <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 bg-blue-50 text-blue-600 rounded-md mb-3">
-                        ${doc.categorie}
+    // 2. Parcourir la bibliothèque officielle pour injecter chaque fichier
+    bibliothequePDF.forEach(item => {
+        const card = document.createElement('div');
+        
+        // Styles de la carte (adaptés aux cartes blanches existantes du portail)
+        card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group";
+        
+        // Sélection des éléments visuels (icônes et badges) selon le format (PDF vs Image)
+        const estPdf = item.type === "pdf";
+        const icone = estPdf 
+            ? `<svg class="w-7 h-7 text-[#ff453a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`
+            : `<svg class="w-7 h-7 text-[#30d158]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>`;
+        
+        const badgeClass = estPdf ? "bg-[#ff453a]/10 text-[#ff453a]" : "bg-[#30d158]/10 text-[#30d158]";
+
+        // Structure HTML interne de la carte du document
+        card.innerHTML = `
+            <div class="flex items-start gap-4">
+                <div class="p-3 bg-[#f5f5f7] rounded-xl flex-shrink-0">
+                    ${icone}
+                </div>
+                <div class="flex-1 min-w-0">
+                    <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md ${badgeClass} mb-2">
+                        ${item.type}
                     </span>
-                    <h3 class="text-sm font-bold text-[#1d1d1f] group-hover:text-blue-600 transition-colors line-clamp-2 mb-1">
-                        ${icone} ${doc.titre}
+                    <h3 class="text-sm font-semibold text-[#1d1d1f] line-clamp-2" title="${item.titre}">
+                        ${item.titre}
                     </h3>
-                    <p class="text-[11px] text-gray-400 font-mono mb-4">Disponible</p>
+                    <p class="text-xs text-[#86868b] mt-1">${item.categorie}</p>
                 </div>
-                <div class="flex gap-2 pt-2 border-t border-gray-50">
-                    <a href="${doc.url}" target="_blank" class="flex-1 text-center text-xs bg-[#f5f5f7] hover:bg-[#e8e8ed] text-gray-700 font-semibold py-2 rounded-xl transition-colors">
-                        Ouvrir ↗
-                    </a>
-                    <button class="flex-1 text-xs bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-xl transition-colors cursor-pointer" 
-                            onclick="ouvrirApercu('${doc.url}', '${doc.titre}', '${doc.type}')">
-                        Prévisualiser
-                    </button>
-                </div>
+            </div>
+            <div class="flex justify-end items-center text-xs font-medium text-[#0066cc] group-hover:underline mt-4">
+                <span>Ouvrir</span>
+                <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             </div>
         `;
-    });
 
-    html += `</div></div>`;
-    conteneur.innerHTML = html;
+        // 3. Attacher l'action d'ouverture au clic sur l'ensemble de la carte
+        card.addEventListener('click', () => gererOuvertureDocument(item));
+        
+        container.appendChild(card);
+    });
 }
 
 // Déploie un panneau latéral fluide pour prévisualiser le document ou l'image sans quitter la page
