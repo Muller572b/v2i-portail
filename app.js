@@ -1,4 +1,5 @@
 let currentStoreId = null;
+let currentCosiumCode = null; // Stocke dynamiquement le code du magasin (ex: BFO, A36)
 let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
@@ -24,6 +25,7 @@ async function handleLogin(e) {
             cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
             
             currentStoreId = clientNum;
+            currentCosiumCode = cosiumCode; // Sauvegarde le code magasin (ex: BFO)
             storeEncours = data.commandes_en_cours || [];
 
             document.getElementById('login-screen').classList.add('hidden');
@@ -52,25 +54,94 @@ async function handleLogin(e) {
     }
 }
 
+async function chargerFluxRSS() {
+    const conteneur = document.getElementById('bloc-actualites');
+    if (!conteneur) return; 
+
+    const urlFlux = "https://www.acuite.fr/rss.xml";
+    // Utilisation de corsproxy.io (plus rapide, stable et renvoie directement le XML brut)
+    const urlProxy = `https://corsproxy.io/?${encodeURIComponent(urlFlux)}`;
+
+    try {
+        const response = await fetch(urlProxy);
+        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+        
+        // On récupère directement le texte du XML
+        const xmlText = await response.text();
+        
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+        
+        // Sécurité si le XML est malformé
+        if (xmlDoc.querySelector("parsererror")) {
+            throw new Error("Erreur de lecture du flux XML");
+        }
+
+        const items = xmlDoc.querySelectorAll("item");
+        if (items.length === 0) throw new Error("Aucun article trouvé");
+
+        let html = '<div class="flex flex-col gap-4 p-2">';
+        const articles = Array.from(items).slice(0, 3);
+        
+        articles.forEach(item => {
+            const title = item.querySelector("title")?.textContent || "Article sans titre";
+            const link = item.querySelector("link")?.textContent || "#";
+            const description = item.querySelector("description")?.textContent || "";
+
+            // Nettoyage des éventuelles balises HTML résiduelles dans la description
+            const cleanDesc = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
+
+            html += `
+                <div class="border-b border-gray-100 pb-3 last:border-0 last:pb-0">
+                    <a href="${link}" target="_blank" class="font-semibold text-sm text-blue-600 hover:text-blue-800 hover:underline block mb-1">
+                        ${title}
+                    </a>
+                    <p class="text-xs text-gray-500 line-clamp-2 leading-relaxed">
+                        ${cleanDesc}
+                    </p>
+                </div>
+            `;
+        });
+        html += '</div>';
+
+        conteneur.innerHTML = html;
+    } catch (error) {
+        console.error("Détail de l'erreur RSS :", error);
+        
+        // Version de secours "élégante" : si le proxy flanche, on propose un lien direct
+        conteneur.innerHTML = `
+            <div class="text-center p-4">
+                <p class="text-xs text-gray-400 mb-2">Flux en direct indisponible.</p>
+                <a href="https://www.acuite.fr" target="_blank" class="text-xs text-blue-500 hover:underline font-medium inline-flex items-center gap-1">
+                    Ouvrir Acuité.fr ↗
+                </a>
+            </div>
+        `;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', chargerFluxRSS);
+
+
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
 
-    const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
+    // Corrigé
+const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
     try {
         const resp = await fetch(urlJsonArchive);
         if (resp.ok) {
             const archiveData = await resp.json();
             const nouvellesCommandes = archiveData.commandes_expediees || [];
             
-            // Map d'identifiants existants pour aller beaucoup plus vite qu'un .some() imbriqué
             const existingIds = new Set(storeArchives.map(existing => String(existing.ord_numb || existing.id_bl_v2i || '').trim()));
 
             nouvellesCommandes.forEach(cmd => {
                 const idCmdNouvelle = String(cmd.ord_numb || cmd.id_bl_v2i || '').trim();
                 if (!existingIds.has(idCmdNouvelle)) {
                     storeArchives.push(cmd);
-                    existingIds.add(idCmdNouvelle); // Évite les doublons internes
+                    existingIds.add(idCmdNouvelle);
                 }
             });
 
@@ -83,7 +154,7 @@ async function loadArchiveYear(year) {
             }
         }
     } catch (e) {
-        console.log(`Pas d'archive disponible pour l'année ${year} ou ce magasin.`);
+        console.log(`Pas d'archive disponie pour l'année ${year} ou ce magasin.`);
     }
 }
 
@@ -165,15 +236,14 @@ function parseDate(dateStr) {
     return null;
 }
 
-// Variables globales de contrôle pour la recherche
 let searchTimeout = null;
 
 function renderVerres() {
-    const tbody = document.getElementById('verres-table-body');
+    const tbody = document.getElementById('verres-table-body'); 
     if (!tbody) return;
     
-    // Récupération sécurisée des éléments pour éviter les erreurs "undefined"
     const searchInput = document.getElementById('search-verres');
+    
     const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
     
     const dateDebutEl = document.getElementById('date-debut');
@@ -194,25 +264,34 @@ function renderVerres() {
         if (parts.length === 3) dateFinFilter = new Date(parts[0], parts[1] - 1, parts[2], 23, 59, 59, 999);
     }
 
-    // Sécurisation des variables globales au cas où elles ne seraient pas encore définies
     const archivesIncluses = (typeof autoArchivesIncluded !== 'undefined') ? autoArchivesIncluded : false;
     const dataEncours = (typeof storeEncours !== 'undefined' && Array.isArray(storeEncours)) ? storeEncours : [];
     const dataArchives = (typeof storeArchives !== 'undefined' && Array.isArray(storeArchives)) ? storeArchives : [];
 
     const inclureArchives = archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
-    let donneesAAfficher = inclureArchives ? [...dataEncours, ...dataArchives] : dataEncours;
+    
+    let donneesAAfficher = [];
+    dataEncours.forEach(item => {
+        if (item) donneesAAfficher.push({ ...item, isArchive: false });
+    });
+    if (inclureArchives) {
+        dataArchives.forEach(item => {
+            if (item) donneesAAfficher.push({ ...item, isArchive: true });
+        });
+    }
 
-    // Déduplication performante et sécurisée
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
-        if (item) {
-            const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
-            if (idUnique) uniquesMap.set(String(idUnique).trim(), item);
+        const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
+        if (idUnique) {
+            const key = String(idUnique).trim();
+            if (!uniquesMap.has(key) || item.isArchive) {
+                uniquesMap.set(key, item);
+            }
         }
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // Filtrage des données
     const donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -224,7 +303,6 @@ function renderVerres() {
         const texteRecherche = `${patientName} ${idCommande} ${jobCosium} ${dateEntree} ${statutFournisseur}`.toLowerCase();
         if (search && !texteRecherche.includes(search)) return false;
 
-        // Vérification sécurisée de la fonction de parsing de date
         if (typeof parseDate === 'function') {
             const dateSaisie = parseDate(dateEntree); 
             if (dateSaisie) {
@@ -240,13 +318,11 @@ function renderVerres() {
         return true;
     });
 
-    // Si aucun résultat après filtrage
     if (donneesFiltrees.length === 0) {
         tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
         return;
     }
 
-    // Protection mémoire : Max 60 lignes visibles simultanément
     const auMaximum = donneesFiltrees.slice(0, 60);
     let rowsHtml = [];
 
@@ -276,6 +352,19 @@ function renderVerres() {
             livraisonPrevue = String(v.date_expedition).trim(); 
         }
 
+        const statutClean = String(statutFournisseur).toLowerCase().trim();
+        const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
+
+        const codeMagasinActuel = currentCosiumCode || "A36"; 
+        
+        // CORRECTION : L'URL cible directement le format sans date : BFO_BL_[N°].pdf
+        // 1. Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
+        const anneeBL = "20" + idCommande.substring(0, 2);
+        
+        // 2. Construction de l'URL directe sans aucun préfixe parasite
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
+
+        
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
@@ -287,16 +376,25 @@ function renderVerres() {
                 <td class="px-6 py-4 font-mono font-bold">${statutFournisseur}</td>
                 <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
                 <td class="px-6 py-4 font-mono font-bold">${idCommande}</td>
-                <td class="px-6 py-4 text-center">
-                    <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer">
-                        <i data-lucide="eye" class="w-4 h-4"></i>
-                    </button>
+                <td class="px-6 py-4">
+                    <div class="flex items-center justify-center gap-2">
+                        <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
+                            <i data-lucide="eye" class="w-4 h-4"></i>
+                        </button>
+                        
+                        ${estExpedie ? `
+                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
+                                <span>eBL</span>
+                                <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                            </a>
+                        ` : `
+                            <div class="w-14 h-8"></div> `}
+                    </div>
                 </td>
             </tr>
         `);
     });
     
-    // Insertion propre dans le DOM
     tbody.innerHTML = rowsHtml.join('');
     if (window.lucide) lucide.createIcons();
 }
@@ -307,11 +405,9 @@ function handleSearchInput() {
     searchTimeout = setTimeout(async () => {
         const searchValue = document.getElementById('search-verres').value.trim();
         
-        // RECHERCHE DIRECTE DANS LES ARCHIVES SI NUMÉRO LONG (Job ou BL)
         if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
             const currentYear = new Date().getFullYear();
             
-            // Sécurité : On ne lance l'appel que si ces années ne sont pas déjà indexées en mémoire
             if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
                 if (!isLoadingArchives) {
                     isLoadingArchives = true;
@@ -319,7 +415,7 @@ function handleSearchInput() {
                         await Promise.all([
                             loadArchiveYear(currentYear),
                             loadArchiveYear(currentYear - 1),
-                            loadArchiveYear(currentYear - 2) // Optionnel : check aussi l'année d'avant au cas où
+                            loadArchiveYear(currentYear - 2)
                         ]);
                         autoArchivesIncluded = true;
                     } catch (err) {
@@ -332,7 +428,7 @@ function handleSearchInput() {
         }
         
         renderVerres();
-    }, 350); // Attente de 350ms après la frappe
+    }, 350);
 }
 
 function openSidePanel(idCommande) {
@@ -409,19 +505,160 @@ function closeSidePanel() {
     document.getElementById('side-panel').classList.add('hidden');
 }
 
+// Gère le basculement d'onglet et déclenche le rendu dynamique des données associées
+// Gère le basculement d'onglet et déclenche le rendu dynamique des données associées
 function switchTab(tabId) {
+    // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    
+    // 2. Réinitialiser le style de tous les boutons d'onglets existants
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
     });
-    document.getElementById('content-' + tabId).classList.remove('hidden');
-    document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
     
+    // 3. Afficher le contenu de l'onglet ciblé (sécurisé si l'élément n'existe pas)
+    const contentElement = document.getElementById('content-' + tabId);
+    if (contentElement) {
+        contentElement.classList.remove('hidden');
+    } else {
+        console.warn(`Attention : L'élément HTML id="content-${tabId}" est introuvable.`);
+    }
+    
+    // 4. Activer le style du bouton dans le menu (sécurisé si le bouton n'a pas d'ID attitré)
+    const tabButtonElement = document.getElementById('tab-' + tabId);
+    if (tabButtonElement) {
+        tabButtonElement.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+    }
+    
+    // --- APPELS DES SCRIPT DE RENDU (Placés en sécurité) ---
     if (tabId === 'verres') {
-        renderVerres();
+        if (typeof renderVerres === 'function') {
+            renderVerres();
+        }
+    }
+    
+    if (tabId === 'documents') {
+        if (typeof renderDocuments === 'function') {
+            renderDocuments();
+        }
     }
 }
 
+// Récupère le catalogue JSON généré par GitHub Actions pour bâtir la grille de documents
+// Récupère le catalogue JSON généré par GitHub Actions pour bâtir la grille de documents
+async function renderDocuments() {
+    const container = document.getElementById('documents-grid');
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    try {
+        const response = await fetch('./documents.json');
+        if (!response.ok) throw new Error("Fichier index introuvable");
+        
+        const catalogue = await response.json();
+
+        if (catalogue.length === 0) {
+            container.innerHTML = "<p class='text-sm text-[#86868b] col-span-3 text-center py-8'>Aucun document disponible.</p>";
+            return;
+        }
+
+        catalogue.forEach(item => {
+            const card = document.createElement('div');
+            card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group relative";
+            
+            const estPdf = item.type === "pdf";
+            const icone = estPdf 
+                ? `<svg class="w-7 h-7 text-[#ff453a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>`
+                : `<svg class="w-7 h-7 text-[#30d158]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>`;
+            
+            const badgeClass = estPdf ? "bg-[#ff453a]/10 text-[#ff453a]" : "bg-[#30d158]/10 text-[#30d158]";
+
+            card.innerHTML = `
+                <div class="flex items-start gap-4">
+                    <div class="p-3 bg-[#f5f5f7] rounded-xl flex-shrink-0">
+                        ${icone}
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <span class="inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md ${badgeClass} mb-2">
+                            ${item.type}
+                        </span>
+                        <h3 class="text-sm font-semibold text-[#1d1d1f] line-clamp-2" title="${item.titre}">
+                            ${item.titre}
+                        </h3>
+                        <p class="text-xs text-[#86868b] mt-1">${item.categorie}</p>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center mt-4 pt-2 border-t border-gray-50">
+                    <button class="btn-download text-xs font-medium text-[#86868b] hover:text-[#0066cc] flex items-center gap-1 transition-colors py-1 px-2 rounded-lg hover:bg-gray-50">
+                        📥 Télécharger
+                    </button>
+                    <div class="text-xs font-medium text-[#0066cc] group-hover:underline flex items-center">
+                        <span>Aperçu</span>
+                        <svg class="w-4 h-4 ml-1 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </div>
+                </div>
+            `;
+
+            // Clic sur la carte -> Ouvre l'aperçu à droite
+            card.addEventListener('click', () => {
+                ouvrirApercu(item.url, item.titre, item.type);
+            });
+
+            // Clic sur Télécharger -> Évite le déclenchement de l'aperçu et ouvre en natif
+            const btnDownload = card.querySelector('.btn-download');
+            btnDownload.addEventListener('click', (e) => {
+                e.stopPropagation();
+                window.open(item.url, '_blank');
+            });
+
+            container.appendChild(card);
+        });
+
+    } catch (error) {
+        console.error("Erreur de chargement :", error);
+        container.innerHTML = "<p class='text-sm text-[#ff453a] col-span-3 text-center py-8'>Erreur de chargement de la bibliothèque.</p>";
+    }
+}
+
+// Remplit et affiche le panneau de visionnage déjà présent dans le HTML
+function ouvrirApercu(url, titre, type) {
+    const viewer = document.getElementById('document-viewer');
+    const titleEl = document.getElementById('viewer-title');
+    const fullscreenBtn = document.getElementById('viewer-fullscreen');
+    const contentContainer = document.getElementById('viewer-content');
+    
+    if (!viewer || !titleEl || !fullscreenBtn || !contentContainer) return;
+
+    titleEl.innerText = titre;
+    fullscreenBtn.href = url;
+
+    // Injection propre sans perturber les classes Tailwind de structure
+    if (type === 'image') {
+        contentContainer.innerHTML = `
+            <div class="p-4 flex items-center justify-center w-full h-full">
+                <img src="${url}" class="max-w-full max-h-full rounded-xl shadow-md object-contain bg-white">
+            </div>`;
+    } else {
+        contentContainer.innerHTML = `<iframe src="${url}" class="w-full h-full border-0 bg-white"></iframe>`;
+    }
+
+    viewer.classList.remove('hidden');
+}
+
+// Ferme le panneau et vide l'iframe (pour couper les processus d'arrière-plan/vidéo/gros PDF)
+function fermerApercu() {
+    const viewer = document.getElementById('document-viewer');
+    if (viewer) {
+        viewer.classList.add('hidden');
+    }
+    const contentContainer = document.getElementById('viewer-content');
+    if (contentContainer) {
+        contentContainer.innerHTML = ""; 
+    }
+}
+
+// Calcule l'épaisseur d'une lentille selon sa puissance sphérique de base
 function runCalculation() {
     const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
     const baseThickness = 2.0;
@@ -429,15 +666,20 @@ function runCalculation() {
     document.getElementById('calc-result').innerText = calculated.toFixed(2);
 }
 
+// Nettoie les sessions et réinitialise l'affichage pour déconnecter l'utilisateur courant
 function logout() {
     window.removeEventListener('scroll', handleScrollLoad);
     document.getElementById('main-interface').classList.add('hidden');
     document.getElementById('login-screen').classList.remove('hidden');
     currentStoreId = null;
+    currentCosiumCode = null;
     storeEncours = [];
     storeArchives = [];
     loadedYears = [];
     autoArchivesIncluded = false;
 }
 
-if (window.lucide) lucide.createIcons();
+// Initialise la bibliothèque d'icônes SVG Lucide si elle est chargée globalement
+if (window.lucide) {
+    lucide.createIcons();
+}
