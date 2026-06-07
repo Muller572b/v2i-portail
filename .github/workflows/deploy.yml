@@ -1,0 +1,45 @@
+# Ce workflow configure Python, exécute le scanner de documents et déploie le portail mis à jour sur GitHub Pages.
+name: Déploiement Automatique du Portail
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Génération de l'index des documents
+        run: python scannerdocumentdispo.py
+
+      - name: Configuration de GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Téléchargement de l'artefact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Déploiement sur GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
