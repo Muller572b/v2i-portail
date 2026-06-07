@@ -505,6 +505,7 @@ function closeSidePanel() {
     document.getElementById('side-panel').classList.add('hidden');
 }
 
+// Gère le basculement d'onglet et déclenche le rendu dynamique des données associées
 function switchTab(tabId) {
     // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
@@ -541,16 +542,8 @@ function switchTab(tabId) {
         }
     }
 }
-// Liste officielle des documents du dossier Polarisant disponibles pour le portail
-const bibliothequePDF = [
-    { id: 1, titre: "NuPolar Advertising A4 — Print", categorie: "Polarisant", url: "./Polarisant/NuPolar_Advertising_A4_PRINT_FRE.pdf", type: "pdf", date: "Récent" },
-    { id: 2, titre: "NuPolar Leaflet 100x210 — 4 pages", categorie: "Polarisant", url: "./Polarisant/NuPolar_Leaflet_100x210_4-page_PRINT_FRE.pdf", type: "pdf", date: "Récent" },
-    { id: 3, titre: "Diving GLARE-NO-GLARE — Infographie", categorie: "Polarisant", url: "./Polarisant/Diving_GLARE-NO-GLARE.jpg", type: "image", date: "Récent" }
-];
 
-// Génère dynamiquement la grille de cartes de documents dans l'onglet actif
-// Fonction pour générer dynamiquement les cartes de documents dans l'interface
-// Chargement dynamique du catalogue de documents généré par le script de scan
+// Récupère le catalogue JSON généré par GitHub Actions pour bâtir la grille de documents
 async function renderDocuments() {
     const container = document.getElementById('documents-grid');
     if (!container) return;
@@ -562,15 +555,15 @@ async function renderDocuments() {
         const response = await fetch('./documents.json');
         if (!response.ok) throw new Error("Fichier index introuvable");
         
-        const bibliothequePDF = await response.json();
+        const catalogue = await response.json();
 
-        if (bibliothequePDF.length === 0) {
+        if (catalogue.length === 0) {
             container.innerHTML = "<p class='text-sm text-[#86868b] col-span-3 text-center py-8'>Aucun document disponible.</p>";
             return;
         }
 
         // Génération dynamique des cartes HTML pour chaque document trouvé
-        bibliothequePDF.forEach(item => {
+        catalogue.forEach(item => {
             const card = document.createElement('div');
             card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group";
             
@@ -612,6 +605,11 @@ async function renderDocuments() {
     }
 }
 
+// Fait la liaison entre l'événement de clic de la carte et le panneau d'affichage
+function gererOuvertureDocument(item) {
+    ouvrirApercu(item.url, item.titre, item.type);
+}
+
 // Déploie un panneau latéral fluide pour prévisualiser le document ou l'image sans quitter la page
 function ouvrirApercu(url, titre, type) {
     let viewer = document.getElementById('global-pdf-viewer');
@@ -645,7 +643,7 @@ function ouvrirApercu(url, titre, type) {
     setTimeout(() => viewer.classList.remove('translate-x-full'), 50);
 }
 
-// Referme le panneau latéral et nettoie le conteneur
+// Referme le panneau latéral d'affichage en le glissant hors de l'écran
 function fermierApercu() {
     const viewer = document.getElementById('global-pdf-viewer');
     if (viewer) {
@@ -653,6 +651,7 @@ function fermierApercu() {
     }
 }
 
+// Calcule l'épaisseur d'une lentille selon sa puissance sphérique de base
 function runCalculation() {
     const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
     const baseThickness = 2.0;
@@ -660,6 +659,7 @@ function runCalculation() {
     document.getElementById('calc-result').innerText = calculated.toFixed(2);
 }
 
+// Nettoie les sessions et réinitialise l'affichage pour déconnecter l'utilisateur courant
 function logout() {
     window.removeEventListener('scroll', handleScrollLoad);
     document.getElementById('main-interface').classList.add('hidden');
@@ -672,6 +672,7 @@ function logout() {
     autoArchivesIncluded = false;
 }
 
-if (window.lucide) lucide.createIcons();
-
-
+// Initialise la bibliothèque d'icônes SVG Lucide si elle est chargée globalement
+if (window.lucide) {
+    lucide.createIcons();
+}
