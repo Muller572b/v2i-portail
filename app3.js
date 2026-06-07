@@ -510,11 +510,18 @@ function switchTab(tabId) {
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
     });
+    
     document.getElementById('content-' + tabId).classList.remove('hidden');
     document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
     
+    // --- APPELS DES SCRIPT DE RENDU ---
     if (tabId === 'verres') {
         renderVerres();
+    }
+    
+    // AJOUT INDISPENSABLE : Déclenche l'affichage des PDF/Images Polarisants
+    if (tabId === 'documents') {
+        renderDocuments();
     }
 }
 // Liste officielle des documents du dossier Polarisant disponibles pour le portail
