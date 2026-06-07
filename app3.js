@@ -517,28 +517,6 @@ function switchTab(tabId) {
         renderVerres();
     }
 }
-
-function runCalculation() {
-    const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
-    const baseThickness = 2.0;
-    const calculated = (Math.abs(sph) * 0.3) + baseThickness;
-    document.getElementById('calc-result').innerText = calculated.toFixed(2);
-}
-
-function logout() {
-    window.removeEventListener('scroll', handleScrollLoad);
-    document.getElementById('main-interface').classList.add('hidden');
-    document.getElementById('login-screen').classList.remove('hidden');
-    currentStoreId = null;
-    currentCosiumCode = null;
-    storeEncours = [];
-    storeArchives = [];
-    loadedYears = [];
-    autoArchivesIncluded = false;
-}
-
-if (window.lucide) lucide.createIcons();
-
 // Liste officielle des documents du dossier Polarisant disponibles pour le portail
 const bibliothequePDF = [
     { id: 1, titre: "NuPolar Advertising A4 — Print", categorie: "Polarisant", url: "./Polarisant/NuPolar_Advertising_A4_PRINT_FRE.pdf", type: "pdf", date: "Récent" },
@@ -630,4 +608,26 @@ function fermierApercu() {
         viewer.classList.add('translate-x-full');
     }
 }
+
+function runCalculation() {
+    const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
+    const baseThickness = 2.0;
+    const calculated = (Math.abs(sph) * 0.3) + baseThickness;
+    document.getElementById('calc-result').innerText = calculated.toFixed(2);
+}
+
+function logout() {
+    window.removeEventListener('scroll', handleScrollLoad);
+    document.getElementById('main-interface').classList.add('hidden');
+    document.getElementById('login-screen').classList.remove('hidden');
+    currentStoreId = null;
+    currentCosiumCode = null;
+    storeEncours = [];
+    storeArchives = [];
+    loadedYears = [];
+    autoArchivesIncluded = false;
+}
+
+if (window.lucide) lucide.createIcons();
+
 
