@@ -506,22 +506,39 @@ function closeSidePanel() {
 }
 
 function switchTab(tabId) {
+    // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+    
+    // 2. Réinitialiser le style de tous les boutons d'onglets existants
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
     });
     
-    document.getElementById('content-' + tabId).classList.remove('hidden');
-    document.getElementById('tab-' + tabId).className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
-    
-    // --- APPELS DES SCRIPT DE RENDU ---
-    if (tabId === 'verres') {
-        renderVerres();
+    // 3. Afficher le contenu de l'onglet ciblé (sécurisé si l'élément n'existe pas)
+    const contentElement = document.getElementById('content-' + tabId);
+    if (contentElement) {
+        contentElement.classList.remove('hidden');
+    } else {
+        console.warn(`Attention : L'élément HTML id="content-${tabId}" est introuvable.`);
     }
     
-    // AJOUT INDISPENSABLE : Déclenche l'affichage des PDF/Images Polarisants
+    // 4. Activer le style du bouton dans le menu (sécurisé si le bouton n'a pas d'ID attitré)
+    const tabButtonElement = document.getElementById('tab-' + tabId);
+    if (tabButtonElement) {
+        tabButtonElement.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
+    }
+    
+    // --- APPELS DES SCRIPT DE RENDU (Placés en sécurité) ---
+    if (tabId === 'verres') {
+        if (typeof renderVerres === 'function') {
+            renderVerres();
+        }
+    }
+    
     if (tabId === 'documents') {
-        renderDocuments();
+        if (typeof renderDocuments === 'function') {
+            renderDocuments();
+        }
     }
 }
 // Liste officielle des documents du dossier Polarisant disponibles pour le portail
