@@ -545,6 +545,7 @@ function switchTab(tabId) {
 }
 
 // Récupère le catalogue JSON généré par GitHub Actions pour bâtir la grille de documents
+// Récupère le catalogue JSON généré par GitHub Actions pour bâtir la grille de documents
 async function renderDocuments() {
     const container = document.getElementById('documents-grid');
     if (!container) return;
@@ -552,7 +553,6 @@ async function renderDocuments() {
     container.innerHTML = "";
 
     try {
-        // Récupération du fichier JSON mis à jour automatiquement par GitHub Actions
         const response = await fetch('./documents.json');
         if (!response.ok) throw new Error("Fichier index introuvable");
         
@@ -563,7 +563,6 @@ async function renderDocuments() {
             return;
         }
 
-        // Génération dynamique des cartes HTML pour chaque document trouvé
         catalogue.forEach(item => {
             const card = document.createElement('div');
             card.className = "bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer group relative";
@@ -601,15 +600,15 @@ async function renderDocuments() {
                 </div>
             `;
 
-            // Action 1 : Clic sur toute la carte -> Déploie l'aperçu latéral
+            // Clic sur la carte -> Ouvre l'aperçu à droite
             card.addEventListener('click', () => {
                 ouvrirApercu(item.url, item.titre, item.type);
             });
 
-            // Action 2 : Clic ciblé sur "Télécharger" -> Ouvre directement la cible (parfait pour le mobile/tablette)
+            // Clic sur Télécharger -> Évite le déclenchement de l'aperçu et ouvre en natif
             const btnDownload = card.querySelector('.btn-download');
             btnDownload.addEventListener('click', (e) => {
-                e.stopPropagation(); // Empêche de déclencher l'aperçu latéral en même temps
+                e.stopPropagation();
                 window.open(item.url, '_blank');
             });
 
@@ -622,49 +621,40 @@ async function renderDocuments() {
     }
 }
 
-// Déploie un panneau latéral fluide pour prévisualiser le document ou l'image sans quitter la page
+// Remplit et affiche le panneau de visionnage déjà présent dans le HTML
 function ouvrirApercu(url, titre, type) {
-    let viewer = document.getElementById('global-pdf-viewer');
+    const viewer = document.getElementById('document-viewer');
+    const titleEl = document.getElementById('viewer-title');
+    const fullscreenBtn = document.getElementById('viewer-fullscreen');
+    const contentContainer = document.getElementById('viewer-content');
     
-    // Crée le composant s'il n'existe pas encore sur la page
-    if (!viewer) {
-        viewer = document.createElement('div');
-        viewer.id = 'global-pdf-viewer';
-        viewer.className = 'fixed inset-y-0 right-0 w-full md:w-[650px] bg-white shadow-2xl border-l border-gray-100 z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col';
-        document.body.appendChild(viewer);
+    if (!viewer || !titleEl || !fullscreenBtn || !contentContainer) return;
+
+    titleEl.innerText = titre;
+    fullscreenBtn.href = url;
+
+    // Injection propre sans perturber les classes Tailwind de structure
+    if (type === 'image') {
+        contentContainer.innerHTML = `
+            <div class="p-4 flex items-center justify-center w-full h-full">
+                <img src="${url}" class="max-w-full max-h-full rounded-xl shadow-md object-contain bg-white">
+            </div>`;
+    } else {
+        contentContainer.innerHTML = `<iframe src="${url}" class="w-full h-full border-0 bg-white"></iframe>`;
     }
 
-    // Adapte l'affichage interne selon qu'il s'agit d'un PDF (iframe) ou d'une image (img)
-    const baliseContenu = type === 'image' 
-        ? `<div class="w-full h-full flex items-center justify-center p-4"><img src="${url}" class="max-w-full max-h-full rounded-lg shadow-sm object-contain"></div>`
-        : `<iframe src="${url}" class="w-full h-full border-none"></iframe>`;
-
-    viewer.innerHTML = `
-        <div class="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50 gap-2">
-            <h4 class="text-sm font-bold text-gray-700 truncate flex-1 pr-2">${titre}</h4>
-            <div class="flex items-center gap-2 flex-shrink-0">
-                <a href="${url}" target="_blank" class="bg-[#0066cc] hover:bg-[#0055b3] text-white text-xs font-semibold px-2.5 py-1.5 rounded-lg transition-all no-underline flex items-center gap-1">
-                    ↗️ Plein écran
-                </a>
-                <button onclick="fermierApercu()" class="text-gray-400 hover:text-gray-600 text-xs bg-gray-200/60 hover:bg-gray-200 px-2.5 py-1.5 rounded-lg transition-all cursor-pointer">
-                    ✕ Fermer
-                </button>
-            </div>
-        </div>
-        <div class="flex-1 bg-gray-100 overflow-auto">
-            ${baliseContenu}
-        </div>
-    `;
-
-    // Déclenche l'animation d'ouverture fluide
-    setTimeout(() => viewer.classList.remove('translate-x-full'), 50);
+    viewer.classList.remove('hidden');
 }
 
-// Referme le panneau latéral d'affichage en le glissant hors de l'écran
-function fermierApercu() {
-    const viewer = document.getElementById('global-pdf-viewer');
+// Ferme le panneau et vide l'iframe (pour couper les processus d'arrière-plan/vidéo/gros PDF)
+function fermerApercu() {
+    const viewer = document.getElementById('document-viewer');
     if (viewer) {
-        viewer.classList.add('translate-x-full');
+        viewer.classList.add('hidden');
+    }
+    const contentContainer = document.getElementById('viewer-content');
+    if (contentContainer) {
+        contentContainer.innerHTML = ""; 
     }
 }
 
