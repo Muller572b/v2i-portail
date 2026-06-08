@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "08/06/2026 15:17",
+  "derniere_mise_a_jour": "08/06/2026 16:31",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161114",
@@ -243,6 +243,114 @@
       }
     },
     {
+      "ord_numb": "            10161131",
+      "id_commande_v2i": "260606000069",
+      "code_cote": "B",
+      "patient": "BARAIS ALAIN",
+      "job_cosium": "J120030339",
+      "date_entree": "06/06/2026",
+      "detail": "Réf: BARAIS ALAIN / J120030339 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 18,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 2,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161180",
+      "id_commande_v2i": "260606000118",
+      "code_cote": "B",
+      "patient": "FIESCHI CORALIE",
+      "job_cosium": "J120030350",
+      "date_entree": "06/06/2026",
+      "detail": "Réf: FIESCHI CORALIE / J120030350 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Dégradée Brun B",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Dégradée Brun B",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161113",
       "id_commande_v2i": "260606000051",
       "code_cote": "B",
@@ -298,13 +406,13 @@
       }
     },
     {
-      "ord_numb": "            10161131",
-      "id_commande_v2i": "260606000069",
+      "ord_numb": "            10161132",
+      "id_commande_v2i": "260606000070",
       "code_cote": "B",
-      "patient": "BARAIS ALAIN",
-      "job_cosium": "J120030339",
+      "patient": "FARAUD BERNARD",
+      "job_cosium": "J120030332",
       "date_entree": "06/06/2026",
-      "detail": "Réf: BARAIS ALAIN / J120030339 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: FARAUD BERNARD / J120030332 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 10/06 ",
@@ -312,96 +420,45 @@
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 18,
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "1.00",
+        "axe": 10,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "23.0",
         "supplements": [
-          "Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
+          "Uni 1.6 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 2,
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "1.25",
+        "axe": 170,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "23.0",
         "supplements": [
-          "Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161180",
-      "id_commande_v2i": "260606000118",
-      "code_cote": "B",
-      "patient": "FIESCHI CORALIE",
-      "job_cosium": "J120030350",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: FIESCHI CORALIE / J120030350 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Dégradée Brun B",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Dégradée Brun B",
-          "Durci Inclus"
+          "Uni 1.6 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
         ]
       }
     },
@@ -453,124 +510,6 @@
         "hauteur": "26.0",
         "supplements": [
           "Vista St. Uni 1.6 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161132",
-      "id_commande_v2i": "260606000070",
-      "code_cote": "B",
-      "patient": "FARAUD BERNARD",
-      "job_cosium": "J120030332",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: FARAUD BERNARD / J120030332 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "1.00",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160901",
-      "id_commande_v2i": "260605000039",
-      "code_cote": "B",
-      "patient": "FARAUD MARIE MICHELE",
-      "job_cosium": "J120030331",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: FARAUD MARIE MICHELE / J120030331 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Equilibre2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Equilibre2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
         ]
       }
     },
@@ -630,6 +569,67 @@
       }
     },
     {
+      "ord_numb": "            10160901",
+      "id_commande_v2i": "260605000039",
+      "code_cote": "B",
+      "patient": "FARAUD MARIE MICHELE",
+      "job_cosium": "J120030331",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: FARAUD MARIE MICHELE / J120030331 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160959",
       "id_commande_v2i": "260605000097",
       "code_cote": "B",
@@ -681,59 +681,6 @@
           "Vista Uni 1.6 Durci",
           "Teinte Dégradée Brun C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161016",
-      "id_commande_v2i": "260605000154",
-      "code_cote": "B",
-      "patient": "PERETTI MARIE-HELENE",
-      "job_cosium": "J120030338",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: PERETTI MARIE-HELENE / J120030338 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
         ]
       }
     },
