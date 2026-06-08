@@ -10,8 +10,43 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "08/06/2026 09:37",
+  "derniere_mise_a_jour": "08/06/2026 09:52",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161246",
+      "id_commande_v2i": "260608000028",
+      "code_cote": "L",
+      "patient": "COSTANTINO LAURENCE",
+      "job_cosium": "J143053663",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: COSTANTINO LAURENCE / J143053663 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 25,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161093",
       "id_commande_v2i": "260606000031",
@@ -256,6 +291,61 @@
         ]
       },
       "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10161003",
+      "id_commande_v2i": "260605000141",
+      "code_cote": "B",
+      "patient": "MION PHILIPPE",
+      "job_cosium": "J143053851",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: MION PHILIPPE / J143053851 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 35,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "1.00",
+        "axe": 140,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
     },
     {
       "ord_numb": "            10160970",
@@ -641,61 +731,6 @@
         "hauteur": "27.0",
         "supplements": [
           "O2 Miladu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161003",
-      "id_commande_v2i": "260605000141",
-      "code_cote": "B",
-      "patient": "MION PHILIPPE",
-      "job_cosium": "J143053851",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: MION PHILIPPE / J143053851 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 35,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "1.00",
-        "axe": 140,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
