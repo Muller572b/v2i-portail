@@ -10,8 +10,69 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "08/06/2026 15:17",
+  "derniere_mise_a_jour": "08/06/2026 16:31",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161317",
+      "id_commande_v2i": "260608000099",
+      "code_cote": "B",
+      "patient": "GALLUCCI MARIE ANGE",
+      "job_cosium": "J160020819",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: GALLUCCI MARIE ANGE / J160020819 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 12/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "29.1",
+        "supplements": [
+          "Vista Delta Equilibre 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.1",
+        "hauteur": "28.3",
+        "supplements": [
+          "Vista Delta Equilibre 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161312",
       "id_commande_v2i": "260608000094",
@@ -111,57 +172,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161314",
-      "id_commande_v2i": "260608000096",
-      "code_cote": "B",
-      "patient": "PEANA JOSEPH",
-      "job_cosium": "J160020822",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: PEANA JOSEPH / J160020822 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.9",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci"
         ]
       }
     },
@@ -280,96 +290,53 @@
       }
     },
     {
-      "ord_numb": "            10161317",
-      "id_commande_v2i": "260608000099",
+      "ord_numb": "            10161366",
+      "id_commande_v2i": "260608000148",
       "code_cote": "B",
-      "patient": "GALLUCCI MARIE ANGE",
-      "job_cosium": "J160020819",
+      "patient": "KOLSI BLANDINE",
+      "job_cosium": "J160020833",
       "date_entree": "08/06/2026",
-      "detail": "Réf: GALLUCCI MARIE ANGE / J160020819 — (Fabrication RX) — État: Commande prise en compte",
+      "detail": "Réf: KOLSI BLANDINE / J160020833 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "55",
+        "diametre": "75",
         "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "29.1",
-        "supplements": [
-          "Vista Delta Equilibre 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "2.50",
         "cylindre": "0.25",
-        "axe": 170,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.1",
-        "hauteur": "28.3",
-        "supplements": [
-          "Vista Delta Equilibre 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161318",
-      "id_commande_v2i": "260608000100",
-      "code_cote": "L",
-      "patient": "PEANA JOSEPH",
-      "job_cosium": "J160020823",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: PEANA JOSEPH / J160020823 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.00",
-        "axe": 0,
+        "axe": 160,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.9",
+        "ecart_pupillaire": "27.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista St. Uni 1.5"
+          "Vista Uni 1.5 Non durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci"
         ]
       }
     },
@@ -486,57 +453,6 @@
       }
     },
     {
-      "ord_numb": "            10161149",
-      "id_commande_v2i": "260606000087",
-      "code_cote": "B",
-      "patient": "ARISCI MARIANGELA",
-      "job_cosium": "J160020816",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: ARISCI MARIANGELA / J160020816 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160894",
       "id_commande_v2i": "260605000032",
       "code_cote": "B",
@@ -645,67 +561,6 @@
         "hauteur": "28.2",
         "supplements": [
           "Vista Delta Equilibre2 1.5 Polar Gris Dur",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160937",
-      "id_commande_v2i": "260605000075",
-      "code_cote": "B",
-      "patient": "GUISIPELLI ELISE",
-      "job_cosium": "J160020805",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: GUISIPELLI ELISE / J160020805 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "5.25",
-        "cylindre": "1.25",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.8",
-        "hauteur": "28.4",
-        "supplements": [
-          "Delta Lecture2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "5.00",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.9",
-        "hauteur": "30.1",
-        "supplements": [
-          "Delta Lecture2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Offert",
@@ -875,6 +730,67 @@
           "Vista Uni 1.6 Durci",
           "Teinte Dégradée G15 C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160937",
+      "id_commande_v2i": "260605000075",
+      "code_cote": "B",
+      "patient": "GUISIPELLI ELISE",
+      "job_cosium": "J160020805",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: GUISIPELLI ELISE / J160020805 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "5.25",
+        "cylindre": "1.25",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.8",
+        "hauteur": "28.4",
+        "supplements": [
+          "Delta Lecture2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "5.00",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.9",
+        "hauteur": "30.1",
+        "supplements": [
+          "Delta Lecture2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
