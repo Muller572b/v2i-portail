@@ -10,8 +10,59 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "08/06/2026 10:37",
+  "derniere_mise_a_jour": "08/06/2026 10:52",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161258",
+      "id_commande_v2i": "260608000040",
+      "code_cote": "B",
+      "patient": "SALHI NOAH",
+      "job_cosium": "J205030302",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: SALHI NOAH / J205030302 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161072",
       "id_commande_v2i": "260606000010",
@@ -883,9 +934,9 @@
       "patient": "BERTAUDIERE LILIAN",
       "job_cosium": "J205030275-02",
       "date_entree": "05/06/2026",
-      "detail": "Réf: BERTAUDIERE LILIAN / J205030275-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: BERTAUDIERE LILIAN / J205030275-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -934,6 +985,67 @@
           "Durci Inclus",
           "Individualisation",
           "Montage",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160984",
+      "id_commande_v2i": "260605000122",
+      "code_cote": "B",
+      "patient": "MIGHELI PAULA CRISTINA",
+      "job_cosium": "J205030272",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: MIGHELI PAULA CRISTINA / J205030272 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
           "Précalibrage Offert",
           "Optimized"
         ]
@@ -998,67 +1110,6 @@
           "Montage",
           "Précalibrage Offert",
           "Teinte au modèle uni A-C",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160984",
-      "id_commande_v2i": "260605000122",
-      "code_cote": "B",
-      "patient": "MIGHELI PAULA CRISTINA",
-      "job_cosium": "J205030272",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: MIGHELI PAULA CRISTINA / J205030272 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Offert",
           "Optimized"
         ]
       }
