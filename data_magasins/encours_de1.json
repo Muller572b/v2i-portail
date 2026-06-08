@@ -10,8 +10,61 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "08/06/2026 14:17",
+  "derniere_mise_a_jour": "08/06/2026 14:32",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10160863",
+      "id_commande_v2i": "260605000001",
+      "code_cote": "B",
+      "patient": "3095946950",
+      "job_cosium": "",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: 3095946950 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "20.5",
+        "supplements": [
+          "INFORMANCE HD FR M 1.50",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "20.5",
+        "supplements": [
+          "INFORMANCE HD FR M 1.50",
+          "Solitaire"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160945",
       "id_commande_v2i": "260605000083",
@@ -119,59 +172,6 @@
           "INFORMANCE FR L 1.50",
           "Solitaire",
           "Décentrement"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160863",
-      "id_commande_v2i": "260605000001",
-      "code_cote": "B",
-      "patient": "3095946950",
-      "job_cosium": "",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: 3095946950 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "20.5",
-        "supplements": [
-          "INFORMANCE HD FR M 1.50",
-          "Solitaire"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "20.5",
-        "supplements": [
-          "INFORMANCE HD FR M 1.50",
-          "Solitaire"
         ]
       }
     }
