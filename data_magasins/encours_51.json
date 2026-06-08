@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "08/06/2026 16:31",
+  "derniere_mise_a_jour": "08/06/2026 17:45",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161351",
@@ -129,55 +129,42 @@
       }
     },
     {
-      "ord_numb": "            10161365",
-      "id_commande_v2i": "260608000147",
-      "code_cote": "B",
-      "patient": "GRAS CATHERINE",
-      "job_cosium": "J702020502-02",
+      "ord_numb": "            10161422",
+      "id_commande_v2i": "260608000204",
+      "code_cote": "R",
+      "patient": "CATALA-FARRE LAURE",
+      "job_cosium": "J702020507",
       "date_entree": "08/06/2026",
-      "detail": "Réf: GRAS CATHERINE / J702020502-02 — (Fabrication RX) — État: Commande prise en compte",
+      "detail": "Réf: CATALA-FARRE LAURE / J702020507 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "statut": "Livraison prévue : 12/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.25",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "0.00",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 10,
+        "addition": "2.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "27.5",
         "supplements": [
-          "K2 Uni 1.5 Non Durci"
+          "Cygn Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.5 Non Durci"
-        ]
-      }
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10161098",
@@ -534,9 +521,9 @@
       "patient": "RAVERA LOLA",
       "job_cosium": "J702020492",
       "date_entree": "06/06/2026",
-      "detail": "Réf: RAVERA LOLA / J702020492 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: RAVERA LOLA / J702020492 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 09/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -631,61 +618,6 @@
         "supplements": [
           "K2 Uni 1.6 Durci",
           "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160988",
-      "id_commande_v2i": "260605000126",
-      "code_cote": "B",
-      "patient": "VIGNOLI SOPHIE",
-      "job_cosium": "J702020478-02",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: VIGNOLI SOPHIE / J702020478-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
