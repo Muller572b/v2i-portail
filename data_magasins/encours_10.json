@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "08/06/2026 09:37",
+  "derniere_mise_a_jour": "08/06/2026 09:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161239",
@@ -19,9 +19,9 @@
       "patient": "LIEVIN AARY",
       "job_cosium": "J145063342",
       "date_entree": "08/06/2026",
-      "detail": "Réf: LIEVIN AARY / J145063342 — (Stock) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
+      "detail": "Réf: LIEVIN AARY / J145063342 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 10/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -549,9 +549,9 @@
       "patient": "YAFRANI LAHOUARI",
       "job_cosium": "J145063324",
       "date_entree": "05/06/2026",
-      "detail": "Réf: YAFRANI LAHOUARI / J145063324 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: YAFRANI LAHOUARI / J145063324 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 11/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
