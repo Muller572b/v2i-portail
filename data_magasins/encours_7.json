@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "08/06/2026 16:31",
+  "derniere_mise_a_jour": "08/06/2026 17:45",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161232",
@@ -235,13 +235,13 @@
       }
     },
     {
-      "ord_numb": "            10161343",
-      "id_commande_v2i": "260608000125",
+      "ord_numb": "            10161412",
+      "id_commande_v2i": "260608000194",
       "code_cote": "B",
-      "patient": "KOUBARI ZOHRA",
-      "job_cosium": "J128042482",
+      "patient": "WEZRANOWSKI STEPHEN",
+      "job_cosium": "J128042485",
       "date_entree": "08/06/2026",
-      "detail": "Réf: KOUBARI ZOHRA / J128042482 — (Stock) — État: Commande prise en compte",
+      "detail": "Réf: WEZRANOWSKI STEPHEN / J128042485 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 09/06 ",
@@ -249,68 +249,17 @@
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 65,
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 90,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161344",
-      "id_commande_v2i": "260608000126",
-      "code_cote": "B",
-      "patient": "KOUBARI ZOHRA",
-      "job_cosium": "J128042481",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: KOUBARI ZOHRA / J128042481 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
@@ -319,17 +268,17 @@
       "oeil_gauche": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "65",
+        "diametre": "70",
         "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 95,
+        "cylindre": "0.25",
+        "axe": 155,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
@@ -512,61 +461,6 @@
       }
     },
     {
-      "ord_numb": "            10160916",
-      "id_commande_v2i": "260605000054",
-      "code_cote": "B",
-      "patient": "DUGUET LYSA",
-      "job_cosium": "J128042446",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: DUGUET LYSA / J128042446 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161019",
       "id_commande_v2i": "260605000157",
       "code_cote": "B",
@@ -671,61 +565,6 @@
         "hauteur": "25.0",
         "supplements": [
           "Reader3 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160783",
-      "id_commande_v2i": "260604000136",
-      "code_cote": "B",
-      "patient": "PADOVANI ANGELE",
-      "job_cosium": "J128042456",
-      "date_entree": "04/06/2026",
-      "detail": "Réf: PADOVANI ANGELE / J128042456 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "4.00",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
