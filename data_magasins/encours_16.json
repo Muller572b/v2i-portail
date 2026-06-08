@@ -10,43 +10,8 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "08/06/2026 09:52",
+  "derniere_mise_a_jour": "08/06/2026 10:07",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10161246",
-      "id_commande_v2i": "260608000028",
-      "code_cote": "L",
-      "patient": "COSTANTINO LAURENCE",
-      "job_cosium": "J143053663",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: COSTANTINO LAURENCE / J143053663 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.50",
-        "axe": 25,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "O2 Minimu 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10161093",
       "id_commande_v2i": "260606000031",
@@ -97,57 +62,6 @@
         "supplements": [
           "2de O2 Minimu 1.5 Nu",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161198",
-      "id_commande_v2i": "260606000136",
-      "code_cote": "B",
-      "patient": "SPOR SEBASTIEN",
-      "job_cosium": "J143053864",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: SPOR SEBASTIEN / J143053864 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
         ]
       }
     },
@@ -299,9 +213,9 @@
       "patient": "MION PHILIPPE",
       "job_cosium": "J143053851",
       "date_entree": "05/06/2026",
-      "detail": "Réf: MION PHILIPPE / J143053851 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: MION PHILIPPE / J143053851 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 11/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
