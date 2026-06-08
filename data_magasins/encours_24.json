@@ -10,69 +10,8 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "08/06/2026 11:52",
+  "derniere_mise_a_jour": "08/06/2026 12:07",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10161237",
-      "id_commande_v2i": "260608000019",
-      "code_cote": "B",
-      "patient": "BOUETARD DANIEL",
-      "job_cosium": "",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: BOUETARD DANIEL — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "5.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "5.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
     {
       "ord_numb": "            10161233",
       "id_commande_v2i": "260608000015",
@@ -125,6 +64,67 @@
           "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
           "Optimized"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161237",
+      "id_commande_v2i": "260608000019",
+      "code_cote": "B",
+      "patient": "BOUETARD DANIEL",
+      "job_cosium": "",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: BOUETARD DANIEL — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "5.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "5.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized",
+          "Précalibrage",
+          "Prisme supérieur à 4"
         ]
       }
     },
