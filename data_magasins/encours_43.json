@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "08/06/2026 15:17",
+  "derniere_mise_a_jour": "08/06/2026 16:31",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161265",
@@ -19,9 +19,9 @@
       "patient": "CROCE JEAN-PIERRE",
       "job_cosium": "J149018331",
       "date_entree": "08/06/2026",
-      "detail": "Réf: CROCE JEAN-PIERRE / J149018331 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: CROCE JEAN-PIERRE / J149018331 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -66,6 +66,165 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Teinte Orange C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161350",
+      "id_commande_v2i": "260608000132",
+      "code_cote": "B",
+      "patient": "OBANAISA HANANE",
+      "job_cosium": "J149018332",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: OBANAISA HANANE / J149018332 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161360",
+      "id_commande_v2i": "260608000142",
+      "code_cote": "B",
+      "patient": "GAFFORY MARIE FRANCE",
+      "job_cosium": "J149018334-02",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: GAFFORY MARIE FRANCE / J149018334-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161361",
+      "id_commande_v2i": "260608000143",
+      "code_cote": "B",
+      "patient": "GAFFORY MARIE FRANCE",
+      "job_cosium": "J149018334-01",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: GAFFORY MARIE FRANCE / J149018334-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 12/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
