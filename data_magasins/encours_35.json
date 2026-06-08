@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "08/06/2026 11:52",
+  "derniere_mise_a_jour": "08/06/2026 12:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161114",
@@ -63,6 +63,61 @@
         "supplements": [
           "CLA Unifocal 1.5 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161130",
+      "id_commande_v2i": "260606000068",
+      "code_cote": "B",
+      "patient": "LEROY BENEDICTE",
+      "job_cosium": "J120030345",
+      "date_entree": "06/06/2026",
+      "detail": "Réf: LEROY BENEDICTE / J120030345 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "2.00",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.8",
+        "hauteur": "27.2",
+        "supplements": [
+          "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -349,61 +404,6 @@
       }
     },
     {
-      "ord_numb": "            10161130",
-      "id_commande_v2i": "260606000068",
-      "code_cote": "B",
-      "patient": "LEROY BENEDICTE",
-      "job_cosium": "J120030345",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: LEROY BENEDICTE / J120030345 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.25",
-        "cylindre": "2.00",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.8",
-        "hauteur": "27.2",
-        "supplements": [
-          "Media 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Media 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161131",
       "id_commande_v2i": "260606000069",
       "code_cote": "B",
@@ -630,6 +630,61 @@
       }
     },
     {
+      "ord_numb": "            10161030",
+      "id_commande_v2i": "260605000168",
+      "code_cote": "B",
+      "patient": "BERNARD VIRGINIE",
+      "job_cosium": "J120030336",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: BERNARD VIRGINIE / J120030336 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 11/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 140,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.00",
+        "axe": 35,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160959",
       "id_commande_v2i": "260605000097",
       "code_cote": "B",
@@ -734,61 +789,6 @@
         "supplements": [
           "Vista Media 1.5 Nu",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161030",
-      "id_commande_v2i": "260605000168",
-      "code_cote": "B",
-      "patient": "BERNARD VIRGINIE",
-      "job_cosium": "J120030336",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: BERNARD VIRGINIE / J120030336 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 11/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 140,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.00",
-        "axe": 35,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
