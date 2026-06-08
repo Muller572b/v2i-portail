@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "08/06/2026 11:52",
+  "derniere_mise_a_jour": "08/06/2026 12:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161242",
@@ -237,6 +237,59 @@
       }
     },
     {
+      "ord_numb": "            10161127",
+      "id_commande_v2i": "260606000065",
+      "code_cote": "B",
+      "patient": "CIARLO JEAN MARIE",
+      "job_cosium": "J154014482-02",
+      "date_entree": "06/06/2026",
+      "detail": "Réf: CIARLO JEAN MARIE / J154014482-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161128",
       "id_commande_v2i": "260606000066",
       "code_cote": "B",
@@ -287,59 +340,6 @@
         "supplements": [
           "Reader3 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161127",
-      "id_commande_v2i": "260606000065",
-      "code_cote": "B",
-      "patient": "CIARLO JEAN MARIE",
-      "job_cosium": "J154014482-02",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: CIARLO JEAN MARIE / J154014482-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 45,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
