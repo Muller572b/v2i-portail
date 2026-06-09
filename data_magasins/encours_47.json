@@ -10,8 +10,71 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "09/06/2026 10:50",
+  "derniere_mise_a_jour": "09/06/2026 11:09",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161500",
+      "id_commande_v2i": "260609000036",
+      "code_cote": "B",
+      "patient": "BEKHTI RAHMA",
+      "job_cosium": "J160020844",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: BEKHTI RAHMA / J160020844 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-7.00",
+        "cylindre": "4.25",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.2",
+        "hauteur": "30.5",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-5.00",
+        "cylindre": "4.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161315",
       "id_commande_v2i": "260608000097",
@@ -194,9 +257,9 @@
       "patient": "TRAMONI CHARLENE",
       "job_cosium": "J160020827-02",
       "date_entree": "08/06/2026",
-      "detail": "Réf: TRAMONI CHARLENE / J160020827-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: TRAMONI CHARLENE / J160020827-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -238,6 +301,59 @@
         "supplements": [
           "Vista Uni 1.5  Polar Brun Durci",
           "Dégradé Polarisé",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161456",
+      "id_commande_v2i": "260608000238",
+      "code_cote": "B",
+      "patient": "BOUCHERY MICAEL",
+      "job_cosium": "J160020842-02",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: BOUCHERY MICAEL / J160020842-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 11/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.2",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5  Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "1.75",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.9",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5  Polar G15 Durci",
           "Durci Inclus"
         ]
       }
@@ -733,59 +849,6 @@
         "supplements": [
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161456",
-      "id_commande_v2i": "260608000238",
-      "code_cote": "B",
-      "patient": "BOUCHERY MICAEL",
-      "job_cosium": "J160020842-02",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: BOUCHERY MICAEL / J160020842-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.2",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5  Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "1.75",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.9",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5  Polar G15 Durci",
           "Durci Inclus"
         ]
       }
@@ -1298,9 +1361,9 @@
       "patient": "SURGET JULIE JOSEPHINE",
       "job_cosium": "J160020810",
       "date_entree": "05/06/2026",
-      "detail": "Réf: SURGET JULIE JOSEPHINE / J160020810 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "detail": "Réf: SURGET JULIE JOSEPHINE / J160020810 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
