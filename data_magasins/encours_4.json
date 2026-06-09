@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "09/06/2026 13:48",
+  "derniere_mise_a_jour": "09/06/2026 14:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161469",
@@ -860,67 +860,6 @@
       }
     },
     {
-      "ord_numb": "            10160897",
-      "id_commande_v2i": "260605000035",
-      "code_cote": "B",
-      "patient": "BOYER KARINE ROSAIRE",
-      "job_cosium": "J144101520-02",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: BOYER KARINE ROSAIRE / J144101520-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-5.25",
-        "cylindre": "0.50",
-        "axe": 40,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-6.75",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "22.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160950",
       "id_commande_v2i": "260605000088",
       "code_cote": "B",
@@ -1082,6 +1021,67 @@
           "Tchin Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160897",
+      "id_commande_v2i": "260605000035",
+      "code_cote": "B",
+      "patient": "BOYER KARINE ROSAIRE",
+      "job_cosium": "J144101520-02",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: BOYER KARINE ROSAIRE / J144101520-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 11/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-5.25",
+        "cylindre": "0.50",
+        "axe": 40,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-6.75",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
