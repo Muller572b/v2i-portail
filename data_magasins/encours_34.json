@@ -10,58 +10,117 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "09/06/2026 09:42",
+  "derniere_mise_a_jour": "09/06/2026 10:50",
   "commandes_en_cours": [
     {
-      "ord_numb": "            10161367",
-      "id_commande_v2i": "260608000149",
+      "ord_numb": "            10161495",
+      "id_commande_v2i": "260609000031",
       "code_cote": "B",
-      "patient": "ANGOT SOPHIE-LOU",
-      "job_cosium": "J137036063",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: ANGOT SOPHIE-LOU / J137036063 — (Fabrication RX) — État: Commande prise en compte",
+      "patient": "DUTENT STEPHANE",
+      "job_cosium": "J137036075-02",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: DUTENT STEPHANE / J137036075-02 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06 ",
+      "statut": "Livraison prévue : 10/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
+        "diametre": "65",
         "sphere": "2.00",
-        "cylindre": "1.00",
-        "axe": 85,
-        "addition": "0.00",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
+        "ecart_pupillaire": "30.7",
         "hauteur": "0.0",
         "supplements": [
-          "2de Uni 1.5 Non Durci",
-          "Teinte Brun C"
+          "2de O2 Miladu 1.5 Nu"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "3.50",
-        "axe": 100,
-        "addition": "0.00",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
+        "ecart_pupillaire": "31.4",
         "hauteur": "0.0",
         "supplements": [
-          "2de Uni 1.5 Non Durci",
-          "Teinte Brun C"
+          "2de O2 Miladu 1.5 Nu"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161496",
+      "id_commande_v2i": "260609000032",
+      "code_cote": "B",
+      "patient": "DUTENT STEPHANE",
+      "job_cosium": "J137036075-01",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: DUTENT STEPHANE / J137036075-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 12/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.3",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "26.3",
+        "supplements": [
+          "O2 Supremu2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.3",
+        "ecart_pupillaire": "31.4",
+        "hauteur": "26.1",
+        "supplements": [
+          "O2 Supremu2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimized"
         ]
       }
     },
@@ -120,57 +179,6 @@
       }
     },
     {
-      "ord_numb": "            10161410",
-      "id_commande_v2i": "260608000192",
-      "code_cote": "B",
-      "patient": "MARTINS RODRIGUES RAPHAEL",
-      "job_cosium": "J137036066-01",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: MARTINS RODRIGUES RAPHAEL / J137036066-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.75",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161411",
       "id_commande_v2i": "260608000193",
       "code_cote": "B",
@@ -224,57 +232,6 @@
       }
     },
     {
-      "ord_numb": "            10161442",
-      "id_commande_v2i": "260608000224",
-      "code_cote": "B",
-      "patient": "GALLET OCEANE",
-      "job_cosium": "J137036071-01",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: GALLET OCEANE / J137036071-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "1.25",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161443",
       "id_commande_v2i": "260608000225",
       "code_cote": "B",
@@ -324,57 +281,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161444",
-      "id_commande_v2i": "260608000226",
-      "code_cote": "B",
-      "patient": "SANOCKI STEPHANE",
-      "job_cosium": "J137036069",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: SANOCKI STEPHANE / J137036069 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-4.25",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-4.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
         ]
       }
     },
@@ -483,15 +389,68 @@
       }
     },
     {
+      "ord_numb": "            10161367",
+      "id_commande_v2i": "260608000149",
+      "code_cote": "B",
+      "patient": "ANGOT SOPHIE-LOU",
+      "job_cosium": "J137036063",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: ANGOT SOPHIE-LOU / J137036063 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 11/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "1.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Non Durci",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "3.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Non Durci",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161082",
       "id_commande_v2i": "260606000020",
       "code_cote": "B",
       "patient": "MAMINO FABRICE",
       "job_cosium": "J137036047-01",
       "date_entree": "06/06/2026",
-      "detail": "Réf: MAMINO FABRICE / J137036047-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: MAMINO FABRICE / J137036047-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -544,9 +503,9 @@
       "patient": "MAMINO STEPHANIE",
       "job_cosium": "J137036049",
       "date_entree": "06/06/2026",
-      "detail": "Réf: MAMINO STEPHANIE / J137036049 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: MAMINO STEPHANIE / J137036049 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -599,9 +558,9 @@
       "patient": "MAMINO STEPHANIE",
       "job_cosium": "J137036052",
       "date_entree": "06/06/2026",
-      "detail": "Réf: MAMINO STEPHANIE / J137036052 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: MAMINO STEPHANIE / J137036052 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
