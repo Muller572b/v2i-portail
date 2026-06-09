@@ -5,8 +5,65 @@
     "nom": "Optique Balbi Bastia Ville (BOF)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "07/06/2026 à 05:00",
+  "derniere_validation": "09/06/2026 à 16:22",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10158859",
+      "id_commande_v2i": "260522000162",
+      "id_bl_v2i": "260522000162",
+      "code_cote": "B",
+      "patient": "BURDY PATRICIA",
+      "job_cosium": "J153010997-01",
+      "detail": "Réf: BURDY PATRICIA / J153010997-01 — (Fabrication RX) — État: Expédié",
+      "date_entree": "22/05/2026",
+      "date_expedition": "06/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédié",
+      "statut": "06/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Prog V2i 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Prog V2i 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10160433",
       "id_commande_v2i": "260603000005",
@@ -240,63 +297,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10158859",
-      "id_commande_v2i": "260522000162",
-      "id_bl_v2i": "260522000162",
-      "code_cote": "B",
-      "patient": "BURDY PATRICIA",
-      "job_cosium": "J153010997-01",
-      "detail": "Réf: BURDY PATRICIA / J153010997-01 — (Fabrication RX) — État: Expédié",
-      "date_entree": "22/05/2026",
-      "date_expedition": "06/06/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédié",
-      "statut": "06/06/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Prog V2i 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Prog V2i 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
         ]
       }
     },
