@@ -10,63 +10,8 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "09/06/2026 14:33",
+  "derniere_mise_a_jour": "09/06/2026 14:48",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10161525",
-      "id_commande_v2i": "260609000061",
-      "code_cote": "B",
-      "patient": "MARCHISELLI FLORIAN",
-      "job_cosium": "J205030310",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: MARCHISELLI FLORIAN / J205030310 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.25",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.8",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.75",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10161531",
       "id_commande_v2i": "260609000067",
@@ -74,9 +19,9 @@
       "patient": "BESSON JEAN-CLAUDE",
       "job_cosium": "J205030312",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BESSON JEAN-CLAUDE / J205030312 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: BESSON JEAN-CLAUDE / J205030312 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
