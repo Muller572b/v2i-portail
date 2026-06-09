@@ -10,8 +10,59 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "09/06/2026 09:42",
+  "derniere_mise_a_jour": "09/06/2026 10:50",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161482",
+      "id_commande_v2i": "260609000018",
+      "code_cote": "B",
+      "patient": "FAITEAU CLARISSE",
+      "job_cosium": "J133035846",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: FAITEAU CLARISSE / J133035846 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161237",
       "id_commande_v2i": "260608000019",
@@ -19,9 +70,9 @@
       "patient": "BOUETARD DANIEL",
       "job_cosium": "",
       "date_entree": "08/06/2026",
-      "detail": "Réf: BOUETARD DANIEL — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: BOUETARD DANIEL — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -70,6 +121,61 @@
           "Optimized",
           "Précalibrage",
           "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161233",
+      "id_commande_v2i": "260608000015",
+      "code_cote": "B",
+      "patient": "DANET FREDERIC",
+      "job_cosium": "",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: DANET FREDERIC — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "35.5",
+        "hauteur": "28.5",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Optimized"
         ]
       }
     },
@@ -402,57 +508,57 @@
       }
     },
     {
-      "ord_numb": "            10161233",
-      "id_commande_v2i": "260608000015",
+      "ord_numb": "            10161362",
+      "id_commande_v2i": "260608000144",
       "code_cote": "B",
-      "patient": "DANET FREDERIC",
-      "job_cosium": "",
+      "patient": "CUCCHI JEAN BAPTISTE",
+      "job_cosium": "J133035833-01",
       "date_entree": "08/06/2026",
-      "detail": "Réf: DANET FREDERIC — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "detail": "Réf: CUCCHI JEAN BAPTISTE / J133035833-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 12/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "35.5",
-        "hauteur": "28.5",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Optimized"
+          "Tchin Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "0.75",
         "axe": 160,
-        "addition": "2.25",
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "28.5",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Optimized"
+          "Tchin Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -555,114 +661,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161340",
-      "id_commande_v2i": "260608000122",
-      "code_cote": "B",
-      "patient": "TOURNAYRE CELINE",
-      "job_cosium": "J133035829",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: TOURNAYRE CELINE / J133035829 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161362",
-      "id_commande_v2i": "260608000144",
-      "code_cote": "B",
-      "patient": "CUCCHI JEAN BAPTISTE",
-      "job_cosium": "J133035833-01",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: CUCCHI JEAN BAPTISTE / J133035833-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -775,141 +773,6 @@
       }
     },
     {
-      "ord_numb": "            10161408",
-      "id_commande_v2i": "260608000190",
-      "code_cote": "B",
-      "patient": "MENTINI ANDREE",
-      "job_cosium": "J133035837-01",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: MENTINI ANDREE / J133035837-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.50",
-        "cylindre": "1.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "1.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161409",
-      "id_commande_v2i": "260608000191",
-      "code_cote": "B",
-      "patient": "MENTINI ANDREE",
-      "job_cosium": "J133035837-02",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: MENTINI ANDREE / J133035837-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161429",
-      "id_commande_v2i": "260608000211",
-      "code_cote": "R",
-      "patient": "FABIEN",
-      "job_cosium": "",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: FABIEN — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "3.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
       "ord_numb": "            10161438",
       "id_commande_v2i": "260608000220",
       "code_cote": "B",
@@ -957,6 +820,59 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161340",
+      "id_commande_v2i": "260608000122",
+      "code_cote": "B",
+      "patient": "TOURNAYRE CELINE",
+      "job_cosium": "J133035829",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: TOURNAYRE CELINE / J133035829 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
         ]
       }
     },
@@ -1020,9 +936,9 @@
       "patient": "LABADIE AUDREY",
       "job_cosium": "J133035807-01",
       "date_entree": "06/06/2026",
-      "detail": "Réf: LABADIE AUDREY / J133035807-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: LABADIE AUDREY / J133035807-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
