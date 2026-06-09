@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "09/06/2026 14:03",
+  "derniere_mise_a_jour": "09/06/2026 14:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161465",
@@ -178,6 +178,57 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161535",
+      "id_commande_v2i": "260609000071",
+      "code_cote": "B",
+      "patient": "ALFONSI EXTREMERA ARTHUR",
+      "job_cosium": "J152045166",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: ALFONSI EXTREMERA ARTHUR / J152045166 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
     },
@@ -813,61 +864,6 @@
         "hauteur": "28.0",
         "supplements": [
           "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160923",
-      "id_commande_v2i": "260605000061",
-      "code_cote": "B",
-      "patient": "DECOSTANZA LAETITIA",
-      "job_cosium": "J152045113-01",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: DECOSTANZA LAETITIA / J152045113-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
