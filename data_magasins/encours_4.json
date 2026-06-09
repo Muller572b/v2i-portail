@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "09/06/2026 11:39",
+  "derniere_mise_a_jour": "09/06/2026 13:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161469",
@@ -19,9 +19,9 @@
       "patient": "LABROUSSE ISABELLE",
       "job_cosium": "J144101591",
       "date_entree": "09/06/2026",
-      "detail": "Réf: LABROUSSE ISABELLE / J144101591 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: LABROUSSE ISABELLE / J144101591 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -453,59 +453,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161255",
-      "id_commande_v2i": "260608000037",
-      "code_cote": "B",
-      "patient": "MEDORI NOEL JEAN",
-      "job_cosium": "J144101574-02",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: MEDORI NOEL JEAN / J144101574-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "2.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "1.75",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Noir C"
         ]
       }
     },
@@ -1249,9 +1196,9 @@
       "patient": "MARTELLI ALEXANDRA",
       "job_cosium": "",
       "date_entree": "03/06/2026",
-      "detail": "Réf: MARTELLI ALEXANDRA — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: MARTELLI ALEXANDRA — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
