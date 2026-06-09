@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "09/06/2026 14:18",
+  "derniere_mise_a_jour": "09/06/2026 14:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161509",
@@ -754,6 +754,67 @@
       }
     },
     {
+      "ord_numb": "            10160868",
+      "id_commande_v2i": "260605000006",
+      "code_cote": "B",
+      "patient": "CARVALHO",
+      "job_cosium": "",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: CARVALHO — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.50",
+        "cylindre": "1.50",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "6.00",
+        "base_1": "180",
+        "prisme_2": "1.50",
+        "base_2": "90",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "24.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.75",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "6.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "26.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160884",
       "id_commande_v2i": "260605000022",
       "code_cote": "B",
@@ -860,67 +921,6 @@
           "AS Uni 1.6 Durci",
           "Teinte Dégradée Gris C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160868",
-      "id_commande_v2i": "260605000006",
-      "code_cote": "B",
-      "patient": "CARVALHO",
-      "job_cosium": "",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: CARVALHO — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.50",
-        "cylindre": "1.50",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "6.00",
-        "base_1": "180",
-        "prisme_2": "1.50",
-        "base_2": "90",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "24.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "6.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "26.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized",
-          "Précalibrage",
-          "Prisme supérieur à 4"
         ]
       }
     },
