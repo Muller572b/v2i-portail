@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "09/06/2026 14:48",
+  "derniere_mise_a_jour": "09/06/2026 15:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161307",
@@ -74,9 +74,9 @@
       "patient": "LOULICHKI MOHAMED",
       "job_cosium": "J127030928",
       "date_entree": "06/06/2026",
-      "detail": "Réf: LOULICHKI MOHAMED / J127030928 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: LOULICHKI MOHAMED / J127030928 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -180,6 +180,65 @@
       }
     },
     {
+      "ord_numb": "            10160966",
+      "id_commande_v2i": "260605000104",
+      "code_cote": "B",
+      "patient": "PEDROSA FERREIRA DA ROCHA TERE",
+      "job_cosium": "J127030924-01",
+      "date_entree": "05/06/2026",
+      "detail": "Réf: PEDROSA FERREIRA DA ROCHA TERE / J127030924-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 11/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.5",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.5",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimized"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10160946",
       "id_commande_v2i": "260605000084",
       "code_cote": "B",
@@ -231,65 +290,6 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160966",
-      "id_commande_v2i": "260605000104",
-      "code_cote": "B",
-      "patient": "PEDROSA FERREIRA DA ROCHA TERE",
-      "job_cosium": "J127030924-01",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: PEDROSA FERREIRA DA ROCHA TERE / J127030924-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.5",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.5",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimized"
         ]
       }
     },
