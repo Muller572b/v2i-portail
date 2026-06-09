@@ -10,65 +10,8 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "09/06/2026 14:18",
+  "derniere_mise_a_jour": "09/06/2026 14:33",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10161511",
-      "id_commande_v2i": "260609000047",
-      "code_cote": "B",
-      "patient": "BUFFNOIR GISELE",
-      "job_cosium": "J148017895-01",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: BUFFNOIR GISELE / J148017895-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin 100% HD 1.5 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Noir B"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin 100% HD 1.5 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Noir B"
-        ]
-      }
-    },
     {
       "ord_numb": "            10161510",
       "id_commande_v2i": "260609000046",
@@ -76,9 +19,9 @@
       "patient": "BUFFNOIR GUY",
       "job_cosium": "J148017896",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BUFFNOIR GUY / J148017896 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: BUFFNOIR GUY / J148017896 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -129,9 +72,9 @@
       "patient": "BUFFNOIR GISELE",
       "job_cosium": "J148017895-02",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BUFFNOIR GISELE / J148017895-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: BUFFNOIR GISELE / J148017895-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 12/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -172,6 +115,63 @@
         "supplements": [
           "Tchin 100% HD 1.5 Nu",
           "Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161511",
+      "id_commande_v2i": "260609000047",
+      "code_cote": "B",
+      "patient": "BUFFNOIR GISELE",
+      "job_cosium": "J148017895-01",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: BUFFNOIR GISELE / J148017895-01 — (Fabrication RX) — État: Contrôle sortie de fabrication",
+      "statut_code": "SFAB",
+      "statut_affichage": "Contrôle sortie de fabrication",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin 100% HD 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Noir B"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin 100% HD 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Noir B"
         ]
       }
     },
