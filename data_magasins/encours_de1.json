@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "09/06/2026 18:26",
+  "derniere_mise_a_jour": "09/06/2026 18:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161515",
@@ -61,6 +61,59 @@
         "hauteur": "30.0",
         "supplements": [
           "INFORMANCE HD FR L 1.50",
+          "Solitaire"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161631",
+      "id_commande_v2i": "260609000167",
+      "code_cote": "B",
+      "patient": "3096063320",
+      "job_cosium": "",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: 3096063320 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "1.75",
+        "axe": 95,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE HD FR M 410 1.60",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "3.00",
+        "axe": 78,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE HD FR M 410 1.60",
           "Solitaire"
         ]
       }
