@@ -10,8 +10,63 @@
     "email": "",
     "mot_de_passe_portail": ""
   },
-  "derniere_mise_a_jour": "10/06/2026 15:00",
+  "derniere_mise_a_jour": "10/06/2026 15:15",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161799",
+      "id_commande_v2i": "260610000118",
+      "code_cote": "B",
+      "patient": "TEST TRANSITION EMERAUDE",
+      "job_cosium": "",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: TEST TRANSITION EMERAUDE — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Unitek2 1.5 Trans G15 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Unitek2 1.5 Trans G15 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161538",
       "id_commande_v2i": "260609000074",
