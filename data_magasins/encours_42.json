@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "10/06/2026 15:15",
+  "derniere_mise_a_jour": "10/06/2026 15:30",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161720",
@@ -123,6 +123,65 @@
       }
     },
     {
+      "ord_numb": "            10161770",
+      "id_commande_v2i": "260610000089",
+      "code_cote": "B",
+      "patient": "TAHAR NORA",
+      "job_cosium": "J148017917-01",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: TAHAR NORA / J148017917-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.50",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161739",
       "id_commande_v2i": "260610000058",
       "code_cote": "B",
@@ -170,65 +229,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.6 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161770",
-      "id_commande_v2i": "260610000089",
-      "code_cote": "B",
-      "patient": "TAHAR NORA",
-      "job_cosium": "J148017917-01",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: TAHAR NORA / J148017917-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
@@ -408,59 +408,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161769",
-      "id_commande_v2i": "260610000088",
-      "code_cote": "B",
-      "patient": "TAHAR NORA",
-      "job_cosium": "J148017917-02",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: TAHAR NORA / J148017917-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
         ]
       }
     },
