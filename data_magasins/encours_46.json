@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "10/06/2026 08:41",
+  "derniere_mise_a_jour": "10/06/2026 08:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161467",
@@ -19,9 +19,9 @@
       "patient": "GATINEAU",
       "job_cosium": "",
       "date_entree": "09/06/2026",
-      "detail": "Réf: GATINEAU — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: GATINEAU — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -68,6 +68,63 @@
           "Durci Inclus",
           "Optimized",
           "Précalibrage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161352",
+      "id_commande_v2i": "260608000134",
+      "code_cote": "B",
+      "patient": "poli",
+      "job_cosium": "",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: poli — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.4",
+        "hauteur": "33.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 125,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "33.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimized"
         ]
       }
     },
@@ -189,63 +246,6 @@
           "Teinte Gris C",
           "Individualisation",
           "Précalibrage Offert",
-          "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161352",
-      "id_commande_v2i": "260608000134",
-      "code_cote": "B",
-      "patient": "poli",
-      "job_cosium": "",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: poli — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.4",
-        "hauteur": "33.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimized"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 125,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "33.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
           "Optimized"
         ]
       }
