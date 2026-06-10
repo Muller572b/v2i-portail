@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "10/06/2026 15:00",
+  "derniere_mise_a_jour": "10/06/2026 15:15",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161759",
@@ -164,59 +164,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161751",
-      "id_commande_v2i": "260610000070",
-      "code_cote": "B",
-      "patient": "LESAGE ELISABETH",
-      "job_cosium": "J152045176-03",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: LESAGE ELISABETH / J152045176-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.00",
-        "cylindre": "0.50",
-        "axe": 18,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 172,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
         ]
       }
     },
@@ -734,6 +681,59 @@
       }
     },
     {
+      "ord_numb": "            10161751",
+      "id_commande_v2i": "260610000070",
+      "code_cote": "B",
+      "patient": "LESAGE ELISABETH",
+      "job_cosium": "J152045176-03",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: LESAGE ELISABETH / J152045176-03 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.00",
+        "cylindre": "0.50",
+        "axe": 18,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 172,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161467",
       "id_commande_v2i": "260609000003",
       "code_cote": "B",
@@ -799,9 +799,9 @@
       "patient": "COLLOMBET SANDRINE",
       "job_cosium": "J152045153-02",
       "date_entree": "08/06/2026",
-      "detail": "Réf: COLLOMBET SANDRINE / J152045153-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: COLLOMBET SANDRINE / J152045153-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
