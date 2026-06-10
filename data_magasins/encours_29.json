@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "10/06/2026 15:45",
+  "derniere_mise_a_jour": "10/06/2026 16:13",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161702",
@@ -133,9 +133,9 @@
       "patient": "JUNGO VANESSA",
       "job_cosium": "J121042545",
       "date_entree": "10/06/2026",
-      "detail": "Réf: JUNGO VANESSA / J121042545 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: JUNGO VANESSA / J121042545 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -685,59 +685,6 @@
       }
     },
     {
-      "ord_numb": "            10161089",
-      "id_commande_v2i": "260606000027",
-      "code_cote": "B",
-      "patient": "LUQUET FLORENCE",
-      "job_cosium": "J121042498-02",
-      "date_entree": "06/06/2026",
-      "detail": "Réf: LUQUET FLORENCE / J121042498-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "1.00",
-        "axe": 150,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10160884",
       "id_commande_v2i": "260605000022",
       "code_cote": "B",
@@ -789,59 +736,6 @@
           "CLA Unifocal 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161048",
-      "id_commande_v2i": "260605000186",
-      "code_cote": "B",
-      "patient": "MARTINI ROCH-ANTOINE",
-      "job_cosium": "J121042494",
-      "date_entree": "05/06/2026",
-      "detail": "Réf: MARTINI ROCH-ANTOINE / J121042494 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 09/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "1.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris B"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "1.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris B"
         ]
       }
     }
