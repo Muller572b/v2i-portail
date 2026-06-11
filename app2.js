@@ -160,20 +160,48 @@ async function loadArchiveYear(year) {
 
 function handleScrollLoad() {
     if (document.getElementById('content-verres').classList.contains('hidden')) return;
-    if (autoArchivesIncluded || isLoadingArchives) return;
+    if (isLoadingArchives) return;
 
-    if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
-        autoArchivesIncluded = true;
-        isLoadingArchives = true;
-        const anneeEnCours = new Date().getFullYear();
+    // Détecte si on est proche du bas de la page
+    if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 150) {
         
-        loadArchiveYear(anneeEnCours).then(() => {
-            isLoadingArchives = false;
+        // Étape A : Si on a des données chargées mais non affichées à cause de la limite, on augmente la limite
+        // On vérifie grossièrement si le tableau actuel contient potentiellement plus de données
+        const totalDataLength = storeEncours.length + storeArchives.length;
+        if (maxVisibleItems < totalDataLength) {
+            maxVisibleItems += 60;
             renderVerres();
-        }).catch(() => { isLoadingArchives = false; });
+            return; // On a juste étendu l'affichage, pas besoin de fetch GitHub pour l'instant
+        }
+
+        // Étape B : Si on a déjà tout affiché de ce qu'on avait en mémoire, on va chercher l'année précédente !
+        isLoadingArchives = true;
+        
+        // Calcul de la prochaine année à charger
+        const currentYear = new Date().getFullYear();
+        let yearToLoad = currentYear;
+
+        if (loadedYears.length > 0) {
+            yearToLoad = Math.min(...loadedYears) - 1; // Prend l'année la plus ancienne chargée et fait -1
+        }
+
+        // Sécurité pour ne pas remonter à l'âge de pierre (ex: pas plus loin que 2023)
+        if (yearToLoad < 2023) {
+            isLoadingArchives = false;
+            return;
+        }
+
+        console.log(`📜 Scroll bas de page : Tentative de chargement de l'année ${yearToLoad}`);
+        
+        loadArchiveYear(yearToLoad).then(() => {
+            isLoadingArchives = false;
+            maxVisibleItems += 60; // Donne de l'espace pour afficher la nouvelle année reçue
+            renderVerres();
+        }).catch(() => { 
+            isLoadingArchives = false; 
+        });
     }
 }
-
 async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
@@ -323,7 +351,7 @@ function renderVerres() {
         return;
     }
 
-    const auMaximum = donneesFiltrees.slice(0, 60);
+    const auMaximum = donneesFiltrees.slice(0, maxVisibleItems);
     let rowsHtml = [];
 
     auMaximum.forEach((v) => {
