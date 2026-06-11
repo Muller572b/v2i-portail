@@ -10,8 +10,124 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "11/06/2026 08:58",
+  "derniere_mise_a_jour": "11/06/2026 09:13",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10161902",
+      "id_commande_v2i": "260611000008",
+      "code_cote": "B",
+      "patient": "AMBROGGI JEAN-JACQUES",
+      "job_cosium": "J128042521",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: AMBROGGI JEAN-JACQUES / J128042521 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-6.75",
+        "cylindre": "2.00",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Delta Equilibre2 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-7.25",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Delta Equilibre2 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161819",
+      "id_commande_v2i": "260610000138",
+      "code_cote": "B",
+      "patient": "QUILICI MURIEL",
+      "job_cosium": "J128042506",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: QUILICI MURIEL / J128042506 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "25.3",
+        "supplements": [
+          "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.3",
+        "supplements": [
+          "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161818",
       "id_commande_v2i": "260610000137",
@@ -62,61 +178,6 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161819",
-      "id_commande_v2i": "260610000138",
-      "code_cote": "B",
-      "patient": "QUILICI MURIEL",
-      "job_cosium": "J128042506",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: QUILICI MURIEL / J128042506 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "25.3",
-        "supplements": [
-          "Media 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.3",
-        "supplements": [
-          "Media 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -174,57 +235,6 @@
       }
     },
     {
-      "ord_numb": "            10161856",
-      "id_commande_v2i": "260610000175",
-      "code_cote": "B",
-      "patient": "ROCHAT ROXANE",
-      "job_cosium": "J128042518",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: ROCHAT ROXANE / J128042518 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "1.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161860",
       "id_commande_v2i": "260610000179",
       "code_cote": "B",
@@ -274,57 +284,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161861",
-      "id_commande_v2i": "260610000180",
-      "code_cote": "B",
-      "patient": "MAOUCHI PRISCILLIA",
-      "job_cosium": "J128042519",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: MAOUCHI PRISCILLIA / J128042519 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
