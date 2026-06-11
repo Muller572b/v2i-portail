@@ -406,7 +406,7 @@ function handleSearchInput() {
                         autoArchivesIncluded = true;
                     } catch (err) {
                         console.error(err);
-                    } finaly {
+                    } finally { // <--- Corrigé avec deux "ll"
                         isLoadingArchives = false;
                     }
                 }
@@ -666,37 +666,41 @@ async function renderDocuments() {
 }
 
 function ouvrirApercu(url, titre, type) {
-    const viewer = document.getElementById('document-viewer');
-    const titleEl = document.getElementById('viewer-title');
-    const fullscreenBtn = document.getElementById('viewer-fullscreen');
-    const contentContainer = document.getElementById('viewer-content');
+    const viewer = document.getElementById('document-viewer'); // La modal globale
+    const titleEl = document.getElementById('viewer-title');   // Le titre de la modal
+    const contentEl = document.getElementById('viewer-content'); // La zone d'affichage (iframe/img)
     
-    if (!viewer || !titleEl || !fullscreenBtn || !contentContainer) return;
-
-    titleEl.innerText = titre;
-    fullscreenBtn.href = url;
-
-    if (type === 'image') {
-        contentContainer.innerHTML = `
-            <div class="p-4 flex items-center justify-center w-full h-full">
-                <img src="${url}" class="max-w-full max-h-full rounded-xl shadow-md object-contain bg-white">
-            </div>`;
-    } else {
-        contentContainer.innerHTML = `<iframe src="${url}" class="w-full h-full border-0 bg-white"></iframe>`;
+    if (!viewer || !titleEl || !contentEl) {
+        console.warn("Éléments HTML de la modal d'aperçu manquants.");
+        return;
     }
 
+    // Injection du titre
+    titleEl.innerText = titre;
+
+    // Génération du contenu selon le type de fichier
+    if (type.toLowerCase() === 'pdf') {
+        contentEl.innerHTML = `
+            <iframe src="${url}" class="w-full h-[75vh] rounded-xl border border-gray-100" type="application/pdf"></iframe>
+        `;
+    } else {
+        contentEl.innerHTML = `
+            <div class="flex items-center justify-center p-4 bg-[#f5f5f7] rounded-xl min-h-[50vh]">
+                <img src="${url}" alt="${titre}" class="max-w-full max-h-[70vh] rounded-lg shadow-sm object-contain" />
+            </div>
+        `;
+    }
+
+    // Affichage de la modal
     viewer.classList.remove('hidden');
 }
 
+// Pensez aussi à ajouter la fonction de fermeture si elle n'est pas ailleurs :
 function fermerApercu() {
     const viewer = document.getElementById('document-viewer');
-    if (viewer) {
-        viewer.classList.add('hidden');
-    }
-    const contentContainer = document.getElementById('viewer-content');
-    if (contentContainer) {
-        contentContainer.innerHTML = ""; 
-    }
+    const contentEl = document.getElementById('viewer-content');
+    if (viewer) viewer.classList.add('hidden');
+    if (contentEl) contentEl.innerHTML = ''; // Libère la mémoire de l'iframe
 }
 
 function runCalculation() {
