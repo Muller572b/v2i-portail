@@ -4,7 +4,8 @@ let storeEncours = [];
 let storeArchives = []; 
 let loadedYears = []; 
 let isLoadingArchives = false; 
-let maxVisibleItems = 60; // 👈 AJOUT : On commence à 60, et on augmentera au scroll
+let maxVisibleItems = 60;
+let autoArchivesIncluded = false; // 👈 AJOUT : Déclaration indispensable
 
 async function handleLogin(e) {
     e.preventDefault();
