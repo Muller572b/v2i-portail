@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "11/06/2026 09:13",
+  "derniere_mise_a_jour": "11/06/2026 09:28",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161747",
@@ -74,9 +74,9 @@
       "patient": "NICOLINI ANNE MARIE",
       "job_cosium": "J150010158",
       "date_entree": "10/06/2026",
-      "detail": "Réf: NICOLINI ANNE MARIE / J150010158 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: NICOLINI ANNE MARIE / J150010158 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -180,9 +180,9 @@
       "patient": "BOUKASSIOUI LAYLA",
       "job_cosium": "J150010152",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BOUKASSIOUI LAYLA / J150010152 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: BOUKASSIOUI LAYLA / J150010152 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -224,59 +224,6 @@
         "supplements": [
           "Uni 1.5 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161618",
-      "id_commande_v2i": "260609000154",
-      "code_cote": "B",
-      "patient": "MATHIEU CHANTAL",
-      "job_cosium": "J150010154",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: MATHIEU CHANTAL / J150010154 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 60,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Media 1.5 Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "1.75",
-        "axe": 155,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Media 1.5 Polar Gris Durci",
           "Durci Inclus"
         ]
       }
