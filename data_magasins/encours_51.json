@@ -10,27 +10,49 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "11/06/2026 14:44",
+  "derniere_mise_a_jour": "11/06/2026 15:41",
   "commandes_en_cours": [
     {
-      "ord_numb": "            10161994",
-      "id_commande_v2i": "260611000100",
+      "ord_numb": "            10162017",
+      "id_commande_v2i": "260611000123",
       "code_cote": "B",
-      "patient": "PARADIS JEAN PHILIPPE",
-      "job_cosium": "J702020528",
+      "patient": "DORADOUX YVAN",
+      "job_cosium": "J702020526",
       "date_entree": "11/06/2026",
-      "detail": "Réf: PARADIS JEAN PHILIPPE / J702020528 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06",
+      "detail": "Réf: DORADOUX YVAN / J702020526 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "1.25",
-        "axe": 5,
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Uni 1.5  Polar Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "0.75",
+        "axe": 175,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -40,27 +62,9 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "K2 Uni 1.5 Non Durci",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.5 Non Durci",
+          "K2 Uni 1.5  Polar Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
           "Montage"
         ]
       }
@@ -114,63 +118,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162017",
-      "id_commande_v2i": "260611000123",
-      "code_cote": "B",
-      "patient": "DORADOUX YVAN",
-      "job_cosium": "J702020526",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: DORADOUX YVAN / J702020526 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.5  Polar Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.5  Polar Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
           "Montage"
         ]
       }
