@@ -10,59 +10,8 @@
     "email": "bof@balbi.fr",
     "mot_de_passe_portail": "bof"
   },
-  "derniere_mise_a_jour": "11/06/2026 14:44",
+  "derniere_mise_a_jour": "11/06/2026 15:41",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10161993",
-      "id_commande_v2i": "260611000099",
-      "code_cote": "B",
-      "patient": "FILIPPI CHRISTOPHE",
-      "job_cosium": "J153011124",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: FILIPPI CHRISTOPHE / J153011124 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "1.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
     {
       "ord_numb": "            10161689",
       "id_commande_v2i": "260610000008",
@@ -70,9 +19,9 @@
       "patient": "BENEDITTINI ANGELIQUE",
       "job_cosium": "J153011107-04",
       "date_entree": "10/06/2026",
-      "detail": "Réf: BENEDITTINI ANGELIQUE / J153011107-04 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: BENEDITTINI ANGELIQUE / J153011107-04 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -180,70 +129,15 @@
       }
     },
     {
-      "ord_numb": "            10161514",
-      "id_commande_v2i": "260609000050",
-      "code_cote": "B",
-      "patient": "BURDY PATRICIA",
-      "job_cosium": "J153010997-01",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: BURDY PATRICIA / J153010997-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Prog V2i 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Prog V2i 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161620",
       "id_commande_v2i": "260609000156",
       "code_cote": "B",
       "patient": "BENEDITTINI ANGELIQUE",
       "job_cosium": "J153011107-02",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BENEDITTINI ANGELIQUE / J153011107-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: BENEDITTINI ANGELIQUE / J153011107-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -298,9 +192,9 @@
       "patient": "BENEDITTINI ANGELIQUE",
       "job_cosium": "J153011107-01",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BENEDITTINI ANGELIQUE / J153011107-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: BENEDITTINI ANGELIQUE / J153011107-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -344,6 +238,61 @@
           "Uni 1.5  Polar Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Dégradé Polarisé",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161514",
+      "id_commande_v2i": "260609000050",
+      "code_cote": "B",
+      "patient": "BURDY PATRICIA",
+      "job_cosium": "J153010997-01",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: BURDY PATRICIA / J153010997-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Prog V2i 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Prog V2i 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
         ]
       }
