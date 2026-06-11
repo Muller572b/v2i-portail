@@ -1,10 +1,10 @@
 let currentStoreId = null;
-let currentCosiumCode = null; // Stocke dynamiquement le code du magasin (ex: BFO, A36)
+let currentCosiumCode = null;
 let storeEncours = [];
 let storeArchives = []; 
-let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; // Verrou de sécurité global
+let isLoadingArchives = false; 
+let maxVisibleItems = 60; // 👈 AJOUT : On commence à 60, et on augmentera au scroll
 
 async function handleLogin(e) {
     e.preventDefault();
