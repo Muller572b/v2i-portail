@@ -44,10 +44,17 @@ async function handleLogin(e) {
             switchTab('accueil'); 
             
             window.addEventListener('scroll', handleScrollLoad);
-        } else {
-            errorEl.innerText = "Code Cosium (mot de passe) invalide.";
-            errorEl.classList.remove('hidden');
-        }
+
+            // 🚀 AJOUT : On force le chargement immédiat de l'année en cours pour remplir l'écran
+            const anneeActuelle = new Date().getFullYear();
+            isLoadingArchives = true;
+            loadArchiveYear(anneeActuelle).then(() => {
+                isLoadingArchives = false;
+                renderVerres(); // Re-calcul et affichage avec les archives fraîches
+            }).catch(() => { 
+                isLoadingArchives = false; 
+            });
+        } // <-- L'accolade manquante a été ajoutée ici pour fermer le "if"
     } catch (err) {
         errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
         errorEl.classList.remove('hidden');
