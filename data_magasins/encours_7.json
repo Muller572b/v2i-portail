@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "11/06/2026 17:27",
+  "derniere_mise_a_jour": "11/06/2026 17:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161902",
@@ -296,66 +296,15 @@
       }
     },
     {
-      "ord_numb": "            10162020",
-      "id_commande_v2i": "260611000126",
-      "code_cote": "B",
-      "patient": "PAQUIER ANTOINETTE",
-      "job_cosium": "J128042536",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: PAQUIER ANTOINETTE / J128042536 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "3.25",
-        "cylindre": "0.75",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "3.25",
-        "cylindre": "0.75",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162022",
       "id_commande_v2i": "260611000128",
       "code_cote": "B",
       "patient": "PAQUIER ANTOINETTE",
       "job_cosium": "J128042534",
       "date_entree": "11/06/2026",
-      "detail": "Réf: PAQUIER ANTOINETTE / J128042534 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: PAQUIER ANTOINETTE / J128042534 — (Stock) — État: Packed",
+      "statut_code": "PACK",
+      "statut_affichage": "Packed",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -404,9 +353,9 @@
       "patient": "PADOVANI ANGELE",
       "job_cosium": "J128042537",
       "date_entree": "11/06/2026",
-      "detail": "Réf: PADOVANI ANGELE / J128042537 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: PADOVANI ANGELE / J128042537 — (Stock) — État: Packed",
+      "statut_code": "PACK",
+      "statut_affichage": "Packed",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -442,6 +391,57 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162020",
+      "id_commande_v2i": "260611000126",
+      "code_cote": "B",
+      "patient": "PAQUIER ANTOINETTE",
+      "job_cosium": "J128042536",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: PAQUIER ANTOINETTE / J128042536 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "3.25",
+        "cylindre": "0.75",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "3.25",
+        "cylindre": "0.75",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
