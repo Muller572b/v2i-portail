@@ -357,12 +357,12 @@ function renderVerres() {
 
         const codeMagasinActuel = currentCosiumCode || "A36"; 
         
-        // Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
+        // Extraction de l'année depuis l'idCommande (ex: "260602..." -> "2026")
         const anneeBL = "20" + idCommande.substring(0, 2);
         
-        // Construction des URLs directes sans préfixe parasite (Modèle alias_magasin_numerobl)
+        // URLs corrigées dynamiquement
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
-        const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_CDV_${idCommande}.pdf`;
+        const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -509,15 +509,12 @@ function closeSidePanel() {
 }
 
 function switchTab(tabId) {
-    // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
     
-    // 2. Réinitialiser le style de tous les boutons d'onglets existants
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
     });
     
-    // 3. Afficher le contenu de l'onglet ciblé (sécurisé si l'élément n'existe pas)
     const contentElement = document.getElementById('content-' + tabId);
     if (contentElement) {
         contentElement.classList.remove('hidden');
@@ -525,13 +522,11 @@ function switchTab(tabId) {
         console.warn(`Attention : L'élément HTML id="content-${tabId}" est introuvable.`);
     }
     
-    // 4. Activer le style du bouton dans le menu (sécurisé si le bouton n'a pas d'ID attitré)
     const tabButtonElement = document.getElementById('tab-' + tabId);
     if (tabButtonElement) {
         tabButtonElement.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
     }
     
-    // --- APPELS DES SCRIPT DE RENDU (Placés en sécurité) ---
     if (tabId === 'verres') {
         if (typeof renderVerres === 'function') {
             renderVerres();
@@ -599,12 +594,10 @@ async function renderDocuments() {
                 </div>
             `;
 
-            // Clic sur la carte -> Ouvre l'aperçu à droite
             card.addEventListener('click', () => {
                 ouvrirApercu(item.url, item.titre, item.type);
             });
 
-            // Clic sur Télécharger -> Évite le déclenchement de l'aperçu et ouvre en natif
             const btnDownload = card.querySelector('.btn-download');
             btnDownload.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -654,6 +647,7 @@ function fermerApercu() {
     }
 }
 
+// Calcule l'épaisseur d'une lentille selon sa puissance sphérique de base
 function runCalculation() {
     const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
     const baseThickness = 2.0;
