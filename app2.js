@@ -40,7 +40,8 @@ async function handleLogin(e) {
             document.getElementById('date-fin').value = '';
             document.getElementById('archive-status-banner').classList.add('hidden');
 
-            switchTab('accueil'); // Déclenchera automatiquement renderAccueil()
+            renderVerres();
+            switchTab('accueil'); 
             
             window.addEventListener('scroll', handleScrollLoad);
         } else {
@@ -58,16 +59,20 @@ async function chargerFluxRSS() {
     if (!conteneur) return; 
 
     const urlFlux = "https://www.acuite.fr/rss.xml";
+    // Utilisation de corsproxy.io (plus rapide, stable et renvoie directement le XML brut)
     const urlProxy = `https://corsproxy.io/?${encodeURIComponent(urlFlux)}`;
 
     try {
         const response = await fetch(urlProxy);
         if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
         
+        // On récupère directement le texte du XML
         const xmlText = await response.text();
+        
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, "text/xml");
         
+        // Sécurité si le XML est malformé
         if (xmlDoc.querySelector("parsererror")) {
             throw new Error("Erreur de lecture du flux XML");
         }
@@ -82,6 +87,8 @@ async function chargerFluxRSS() {
             const title = item.querySelector("title")?.textContent || "Article sans titre";
             const link = item.querySelector("link")?.textContent || "#";
             const description = item.querySelector("description")?.textContent || "";
+
+            // Nettoyage des éventuelles balises HTML résiduelles dans la description
             const cleanDesc = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
 
             html += `
@@ -100,6 +107,8 @@ async function chargerFluxRSS() {
         conteneur.innerHTML = html;
     } catch (error) {
         console.error("Détail de l'erreur RSS :", error);
+        
+        // Version de secours "élégante" : si le proxy flanche, on propose un lien direct
         conteneur.innerHTML = `
             <div class="text-center p-4">
                 <p class="text-xs text-gray-400 mb-2">Flux en direct indisponible.</p>
@@ -113,10 +122,12 @@ async function chargerFluxRSS() {
 
 document.addEventListener('DOMContentLoaded', chargerFluxRSS);
 
+
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
 
+    // Corrigé
     const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
     try {
         const resp = await fetch(urlJsonArchive);
@@ -141,14 +152,9 @@ async function loadArchiveYear(year) {
                 banner.classList.remove('hidden');
                 bannerText.innerText = `Archives synchronisées jusqu'en ${anneeMax}. Total archivé : ${storeArchives.length} commande(s).`;
             }
-            
-            // Si l'on se trouve sur l'accueil, mettre à jour le compteur des archives en temps réel
-            if (!document.getElementById('content-accueil').classList.contains('hidden')) {
-                renderAccueil();
-            }
         }
     } catch (e) {
-        console.log(`Pas d'archive disponible pour l'année ${year} ou ce magasin.`);
+        console.log(`Pas d'archive disponie pour l'année ${year} ou ce magasin.`);
     }
 }
 
@@ -237,6 +243,7 @@ function renderVerres() {
     if (!tbody) return;
     
     const searchInput = document.getElementById('search-verres');
+    
     const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
     
     const dateDebutEl = document.getElementById('date-debut');
@@ -347,10 +354,15 @@ function renderVerres() {
 
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
+
         const codeMagasinActuel = currentCosiumCode || "A36"; 
+        
+        // Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
         const anneeBL = "20" + idCommande.substring(0, 2);
         
+        // Construction des URLs directes sans préfixe parasite (Modèle alias_magasin_numerobl)
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_CDV_${idCommande}.pdf`;
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -368,13 +380,18 @@ function renderVerres() {
                         <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
+                        
                         ${estExpedie ? `
-                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
+                            <a href="${urlEbl}" target="_blank" class="px-2.5 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
                                 <span>eBL</span>
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
                             </a>
+                            <a href="${urlCdv}" target="_blank" class="px-2.5 py-1.5 bg-[#0066cc] hover:bg-[#0052a3] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1 transition-colors text-[11px] tracking-wide" title="Télécharger la Carte de vue">
+                                <span>CDV</span>
+                                <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                            </a>
                         ` : `
-                            <div class="w-14 h-8"></div> `}
+                            <div class="w-24 h-8"></div> `}
                     </div>
                 </td>
             </tr>
@@ -406,7 +423,7 @@ function handleSearchInput() {
                         autoArchivesIncluded = true;
                     } catch (err) {
                         console.error(err);
-                    } finally { // <--- Corrigé avec deux "ll"
+                    } finally {
                         isLoadingArchives = false;
                     }
                 }
@@ -491,64 +508,6 @@ function closeSidePanel() {
     document.getElementById('side-panel').classList.add('hidden');
 }
 
-// --- AJOUT : Génère les cartes d'indicateurs KPIs de l'écran d'accueil ---
-function renderAccueil() {
-    const container = document.getElementById('accueil-cards');
-    if (!container) return;
-
-    const totalEncours = storeEncours.length;
-    const totalArchives = storeArchives.length;
-    
-    // Identification et tri chronologique du dernier dossier reçu
-    let dernierPatient = "Aucun dossier";
-    let derniereDate = "—";
-    if (totalEncours > 0) {
-        const commandesTriees = [...storeEncours].sort((a, b) => {
-            const dateA = parseDate(a.date_entree) || new Date(0);
-            const dateB = parseDate(b.date_entree) || new Date(0);
-            return dateB - dateA; // Plus récent en premier
-        });
-        dernierPatient = commandesTriees[0].patient || "Patient Anonyme";
-        derniereDate = commandesTriees[0].date_entree || "—";
-    }
-
-    container.innerHTML = `
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-2 w-full">
-            <div class="bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm flex items-center gap-4 transition-all hover:shadow-md">
-                <div class="p-3 bg-[#0066cc]/10 text-[#0066cc] rounded-xl flex-shrink-0">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
-                </div>
-                <div class="min-w-0 flex-1">
-                    <p class="text-[11px] text-[#86868b] font-bold uppercase tracking-wider">Suivi En Cours</p>
-                    <h4 class="text-2xl font-bold text-[#1d1d1f] mt-0.5 tracking-tight">${totalEncours} <span class="text-xs text-gray-400 font-normal">commande(s)</span></h4>
-                </div>
-            </div>
-
-            <div class="bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm flex items-center gap-4 transition-all hover:shadow-md">
-                <div class="p-3 bg-[#ff9500]/10 text-[#ff9500] rounded-xl flex-shrink-0">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
-                </div>
-                <div class="min-w-0 flex-1">
-                    <p class="text-[11px] text-[#86868b] font-bold uppercase tracking-wider">Dernier Dossier</p>
-                    <h4 class="text-sm font-bold text-[#1d1d1f] mt-1 truncate uppercase tracking-tight">${dernierPatient}</h4>
-                    <p class="text-[10px] text-[#86868b] font-mono mt-0.5">${derniereDate}</p>
-                </div>
-            </div>
-
-            <div class="bg-white p-5 rounded-2xl border border-[#e8e8ed] shadow-sm flex items-center gap-4 transition-all hover:shadow-md">
-                <div class="p-3 bg-[#30d158]/10 text-[#30d158] rounded-xl flex-shrink-0">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
-                </div>
-                <div class="min-w-0 flex-1">
-                    <p class="text-[11px] text-[#86868b] font-bold uppercase tracking-wider">Historique Livré</p>
-                    <h4 class="text-2xl font-bold text-[#1d1d1f] mt-0.5 tracking-tight">${totalArchives} <span class="text-xs text-gray-400 font-normal">archivée(s)</span></h4>
-                </div>
-            </div>
-        </div>
-    `;
-    if (window.lucide) lucide.createIcons();
-}
-
 function switchTab(tabId) {
     // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
@@ -572,13 +531,7 @@ function switchTab(tabId) {
         tabButtonElement.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
     }
     
-    // --- APPELS DES SCRIPTS DE RENDU DYNAMIQUES ---
-    if (tabId === 'accueil') {
-        if (typeof renderAccueil === 'function') {
-            renderAccueil();
-        }
-    }
-    
+    // --- APPELS DES SCRIPT DE RENDU (Placés en sécurité) ---
     if (tabId === 'verres') {
         if (typeof renderVerres === 'function') {
             renderVerres();
@@ -646,10 +599,12 @@ async function renderDocuments() {
                 </div>
             `;
 
+            // Clic sur la carte -> Ouvre l'aperçu à droite
             card.addEventListener('click', () => {
                 ouvrirApercu(item.url, item.titre, item.type);
             });
 
+            // Clic sur Télécharger -> Évite le déclenchement de l'aperçu et ouvre en natif
             const btnDownload = card.querySelector('.btn-download');
             btnDownload.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -666,41 +621,37 @@ async function renderDocuments() {
 }
 
 function ouvrirApercu(url, titre, type) {
-    const viewer = document.getElementById('document-viewer'); // La modal globale
-    const titleEl = document.getElementById('viewer-title');   // Le titre de la modal
-    const contentEl = document.getElementById('viewer-content'); // La zone d'affichage (iframe/img)
+    const viewer = document.getElementById('document-viewer');
+    const titleEl = document.getElementById('viewer-title');
+    const fullscreenBtn = document.getElementById('viewer-fullscreen');
+    const contentContainer = document.getElementById('viewer-content');
     
-    if (!viewer || !titleEl || !contentEl) {
-        console.warn("Éléments HTML de la modal d'aperçu manquants.");
-        return;
-    }
+    if (!viewer || !titleEl || !fullscreenBtn || !contentContainer) return;
 
-    // Injection du titre
     titleEl.innerText = titre;
+    fullscreenBtn.href = url;
 
-    // Génération du contenu selon le type de fichier
-    if (type.toLowerCase() === 'pdf') {
-        contentEl.innerHTML = `
-            <iframe src="${url}" class="w-full h-[75vh] rounded-xl border border-gray-100" type="application/pdf"></iframe>
-        `;
+    if (type === 'image') {
+        contentContainer.innerHTML = `
+            <div class="p-4 flex items-center justify-center w-full h-full">
+                <img src="${url}" class="max-w-full max-h-full rounded-xl shadow-md object-contain bg-white">
+            </div>`;
     } else {
-        contentEl.innerHTML = `
-            <div class="flex items-center justify-center p-4 bg-[#f5f5f7] rounded-xl min-h-[50vh]">
-                <img src="${url}" alt="${titre}" class="max-w-full max-h-[70vh] rounded-lg shadow-sm object-contain" />
-            </div>
-        `;
+        contentContainer.innerHTML = `<iframe src="${url}" class="w-full h-full border-0 bg-white"></iframe>`;
     }
 
-    // Affichage de la modal
     viewer.classList.remove('hidden');
 }
 
-// Pensez aussi à ajouter la fonction de fermeture si elle n'est pas ailleurs :
 function fermerApercu() {
     const viewer = document.getElementById('document-viewer');
-    const contentEl = document.getElementById('viewer-content');
-    if (viewer) viewer.classList.add('hidden');
-    if (contentEl) contentEl.innerHTML = ''; // Libère la mémoire de l'iframe
+    if (viewer) {
+        viewer.classList.add('hidden');
+    }
+    const contentContainer = document.getElementById('viewer-content');
+    if (contentContainer) {
+        contentContainer.innerHTML = ""; 
+    }
 }
 
 function runCalculation() {
