@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "11/06/2026 09:13",
+  "derniere_mise_a_jour": "11/06/2026 09:28",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161897",
@@ -353,6 +353,118 @@
       }
     },
     {
+      "ord_numb": "            10161550",
+      "id_commande_v2i": "260609000086",
+      "code_cote": "B",
+      "patient": "ROCCA SERRA SOLANGE",
+      "job_cosium": "J133035855-03",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: ROCCA SERRA SOLANGE / J133035855-03 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.00",
+        "cylindre": "1.00",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée Gris AB",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.00",
+        "cylindre": "1.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée Gris AB",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161614",
+      "id_commande_v2i": "260609000150",
+      "code_cote": "B",
+      "patient": "TRAMONI MARINA",
+      "job_cosium": "J133035860-01",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: TRAMONI MARINA / J133035860-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.7",
+        "hauteur": "25.0",
+        "supplements": [
+          "Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.3",
+        "hauteur": "25.5",
+        "supplements": [
+          "Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161505",
       "id_commande_v2i": "260609000041",
       "code_cote": "B",
@@ -466,63 +578,6 @@
         "supplements": [
           "Tchin Uni 1.5  Polar Gris Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161550",
-      "id_commande_v2i": "260609000086",
-      "code_cote": "B",
-      "patient": "ROCCA SERRA SOLANGE",
-      "job_cosium": "J133035855-03",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: ROCCA SERRA SOLANGE / J133035855-03 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.00",
-        "cylindre": "1.00",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée Gris AB",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.00",
-        "cylindre": "1.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée Gris AB",
           "Durci Inclus"
         ]
       }
@@ -648,61 +703,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimized"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161614",
-      "id_commande_v2i": "260609000150",
-      "code_cote": "B",
-      "patient": "TRAMONI MARINA",
-      "job_cosium": "J133035860-01",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: TRAMONI MARINA / J133035860-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.7",
-        "hauteur": "25.0",
-        "supplements": [
-          "Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.3",
-        "hauteur": "25.5",
-        "supplements": [
-          "Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
