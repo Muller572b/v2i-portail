@@ -1,19 +1,24 @@
 // login.js
 function handleLogin(event) {
-    if (event) event.preventDefault(); // Empêche le formulaire de rafraîchir la page
+    // 1. IMPORTANT : Empêche le formulaire de recharger la page login.html
+    if (event) event.preventDefault(); 
     
     const password = document.getElementById('password').value;
-    const username = document.getElementById('username').value;
     
-    // Remplacez "votre-code-securise" par votre vrai code
+    // 2. Logique de validation (Remplacez par votre vrai code secret)
     if (password === "votre-code-securise") {
         localStorage.setItem('v2i_authenticated', 'true');
-        // Redirection vers la page d'accueil réelle
-        window.location.href = 'index.html';
+        
+        // 3. IMPORTANT : On redirige explicitement vers accueil.html
+        window.location.href = 'accueil.html';
     } else {
-        // Affichage de l'erreur dans le HTML
-        const errorEl = document.getElementById('login-error');
-        errorEl.textContent = "Identifiant ou code incorrect";
-        errorEl.classList.remove('hidden');
+        alert("Code accès incorrect !");
     }
 }
+
+// Permettre la touche "Entrée" pour valider
+document.getElementById('password').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        handleLogin(e);
+    }
+});
