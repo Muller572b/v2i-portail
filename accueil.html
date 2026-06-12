@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full bg-[#f5f5f7]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2I Portail - Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+    </style>
+    <script>
+        // LE GARDIEN
+        if (localStorage.getItem('v2i_authenticated') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
+</head>
+<body class="h-full text-[#1d1d1f] flex flex-col">
+
+    <header class="bg-white border-b border-[#e8e8ed] sticky top-0 z-40">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <span class="font-bold text-xl tracking-tight text-[#1d1d1f]">V2I <span class="text-[#0066cc]">Optique</span></span>
+                <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-[#0066cc] border border-blue-100">
+                    Magasin : Optic 2000 Ajaccio (BFO)
+                </span>
+            </div>
+            
+            <div class="flex items-center gap-6">
+                <nav class="hidden md:flex items-center gap-1">
+                    <a href="index.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-blue-50/50 rounded-xl">Accueil</a>
+                    <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Suivi</a>
+                    <a href="document.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Documents</a>
+                </nav>
+                <button onclick="logout()" class="text-xs font-medium text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1.5">
+                    <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-1 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a href="suivi.html" class="bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center">
+                <i data-lucide="package" class="w-8 h-8 text-[#0066cc] mb-4"></i>
+                <h3 class="font-bold text-base">Suivi de commande</h3>
+            </a>
+            <a href="document.html" class="bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center">
+                <i data-lucide="file-text" class="w-8 h-8 text-purple-600 mb-4"></i>
+                <h3 class="font-bold text-base">Documents</h3>
+            </a>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+        function logout() {
+            localStorage.removeItem('v2i_authenticated');
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
