@@ -1,20 +1,11 @@
-// ==========================================
-// VARIABLES GLOBALES
-// ==========================================
 let currentStoreId = null;
-let currentCosiumCode = null;
+let currentCosiumCode = null; // Stocke dynamiquement le code du magasin (ex: BFO, A36)
 let storeEncours = [];
 let storeArchives = []; 
+let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; 
-let maxVisibleItems = 60;
-let autoArchivesIncluded = false;
-let archiveObserver = null; // 👈 AJOUT : Permet de suivre et nettoyer l'IntersectionObserver
-let searchTimeout = null;
+let isLoadingArchives = false; // Verrou de sécurité global
 
-// ==========================================
-// AUTHENTIFICATION & SESSIONS
-// ==========================================
 async function handleLogin(e) {
     e.preventDefault();
     const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
@@ -34,18 +25,17 @@ async function handleLogin(e) {
             cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
             
             currentStoreId = clientNum;
-            currentCosiumCode = cosiumCode; 
+            currentCosiumCode = cosiumCode; // Sauvegarde le code magasin (ex: BFO)
             storeEncours = data.commandes_en_cours || [];
 
             document.getElementById('login-screen').classList.add('hidden');
             document.getElementById('main-interface').classList.remove('hidden');
             document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
             
-            // Réinitialisation globale des filtres et états
+            // Réinitialisation globale des filtres
             autoArchivesIncluded = false;
             storeArchives = [];
             loadedYears = [];
-            maxVisibleItems = 60;
             document.getElementById('date-debut').value = '';
             document.getElementById('date-fin').value = '';
             document.getElementById('archive-status-banner').classList.add('hidden');
@@ -53,18 +43,10 @@ async function handleLogin(e) {
             renderVerres();
             switchTab('accueil'); 
             
-            // 🚀 OPTION A : Initialisation de l'IntersectionObserver à la place du scroll
-            initArchiveObserver();
-
-            // Force le chargement immédiat de l'année en cours pour remplir l'écran
-            const anneeActuelle = new Date().getFullYear();
-            isLoadingArchives = true;
-            loadArchiveYear(anneeActuelle).then(() => {
-                isLoadingArchives = false;
-                renderVerres(); 
-            }).catch(() => { 
-                isLoadingArchives = false; 
-            });
+            window.addEventListener('scroll', handleScrollLoad);
+        } else {
+            errorEl.innerText = "Code Cosium (mot de passe) invalide.";
+            errorEl.classList.remove('hidden');
         }
     } catch (err) {
         errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
@@ -72,43 +54,25 @@ async function handleLogin(e) {
     }
 }
 
-function logout() {
-    // 👈 NETTOYAGE : On déconnecte l'observer proprement pour éviter les fuites de mémoire
-    if (archiveObserver) {
-        archiveObserver.disconnect();
-        archiveObserver = null;
-    }
-
-    document.getElementById('main-interface').classList.add('hidden');
-    document.getElementById('login-screen').classList.remove('hidden');
-    
-    // Reset complet des variables
-    currentStoreId = null;
-    currentCosiumCode = null;
-    storeEncours = [];
-    storeArchives = [];
-    loadedYears = [];
-    autoArchivesIncluded = false;
-}
-
-// ==========================================
-// GESTION DU FLUX RSS
-// ==========================================
 async function chargerFluxRSS() {
     const conteneur = document.getElementById('bloc-actualites');
     if (!conteneur) return; 
 
     const urlFlux = "https://www.acuite.fr/rss.xml";
+    // Utilisation de corsproxy.io (plus rapide, stable et renvoie directement le XML brut)
     const urlProxy = `https://corsproxy.io/?${encodeURIComponent(urlFlux)}`;
 
     try {
         const response = await fetch(urlProxy);
         if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
         
+        // On récupère directement le texte du XML
         const xmlText = await response.text();
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
         
+        const parser = new DOMParser();
+        xmlDoc = parser.parseFromString(xmlText, "text/xml");
+        
+        // Sécurité si le XML est malformé
         if (xmlDoc.querySelector("parsererror")) {
             throw new Error("Erreur de lecture du flux XML");
         }
@@ -123,6 +87,8 @@ async function chargerFluxRSS() {
             const title = item.querySelector("title")?.textContent || "Article sans titre";
             const link = item.querySelector("link")?.textContent || "#";
             const description = item.querySelector("description")?.textContent || "";
+
+            // Nettoyage des éventuelles balises HTML résiduelles dans la description
             const cleanDesc = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
 
             html += `
@@ -137,9 +103,12 @@ async function chargerFluxRSS() {
             `;
         });
         html += '</div>';
+
         conteneur.innerHTML = html;
     } catch (error) {
         console.error("Détail de l'erreur RSS :", error);
+        
+        // Version de secours "élégante" : si le proxy flanche, on propose un lien direct
         conteneur.innerHTML = `
             <div class="text-center p-4">
                 <p class="text-xs text-gray-400 mb-2">Flux en direct indisponible.</p>
@@ -150,11 +119,10 @@ async function chargerFluxRSS() {
         `;
     }
 }
+
 document.addEventListener('DOMContentLoaded', chargerFluxRSS);
 
-// ==========================================
-// SYNCHRONISATION DES ARCHIVES (GITHUB)
-// ==========================================
+
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
@@ -189,65 +157,22 @@ async function loadArchiveYear(year) {
     }
 }
 
-function chargerArchivesSuivantes() {
+function handleScrollLoad() {
     if (document.getElementById('content-verres').classList.contains('hidden')) return;
-    if (isLoadingArchives) return;
+    if (autoArchivesIncluded || isLoadingArchives) return;
 
-    // Étape A : On étend d'abord l'affichage si on a de la donnée en mémoire
-    const totalDataLength = storeEncours.length + storeArchives.length;
-    if (maxVisibleItems < totalDataLength) {
-        maxVisibleItems += 60;
-        renderVerres();
-        return;
+    if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
+        autoArchivesIncluded = true;
+        isLoadingArchives = true;
+        const anneeEnCours = new Date().getFullYear();
+        
+        loadArchiveYear(anneeEnCours).then(() => {
+            isLoadingArchives = false;
+            renderVerres();
+        }).catch(() => { isLoadingArchives = false; });
     }
-
-    // Étape B : Sinon, on va chercher l'année précédente sur GitHub
-    isLoadingArchives = true;
-    const currentYear = new Date().getFullYear();
-    let yearToLoad = currentYear;
-
-    if (loadedYears.length > 0) {
-        yearToLoad = Math.min(...loadedYears) - 1;
-    }
-
-    if (yearToLoad < 2023) {
-        isLoadingArchives = false;
-        return;
-    }
-
-    console.log(`📜 Observer : Tentative de chargement de l'année ${yearToLoad}`);
-    
-    loadArchiveYear(yearToLoad).then(() => {
-        isLoadingArchives = false;
-        maxVisibleItems += 60; 
-        renderVerres();
-    }).catch(() => { 
-        isLoadingArchives = false; 
-    });
 }
 
-function initArchiveObserver() {
-    const trigger = document.getElementById('archive-trigger');
-    if (!trigger) return;
-
-    // Évite les doublons d'instances d'observers
-    if (archiveObserver) archiveObserver.disconnect();
-
-    archiveObserver = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting) {
-            chargerArchivesSuivantes();
-        }
-    }, {
-        root: null,          
-        rootMargin: '150px'  
-    });
-
-    archiveObserver.observe(trigger);
-}
-
-// ==========================================
-// FILTRES ET RECHERCHE
-// ==========================================
 async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
@@ -282,6 +207,7 @@ async function handleDateBoundsChange() {
 
     if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
+        
         const anneesACharger = [];
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
             anneesACharger.push(y);
@@ -300,38 +226,6 @@ async function handleDateBoundsChange() {
     renderVerres();
 }
 
-function handleSearchInput() {
-    clearTimeout(searchTimeout);
-    
-    searchTimeout = setTimeout(async () => {
-        const searchValue = document.getElementById('search-verres').value.trim();
-        
-        if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
-            const currentYear = new Date().getFullYear();
-            
-            if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
-                if (!isLoadingArchives) {
-                    isLoadingArchives = true;
-                    try {
-                        await Promise.all([
-                            loadArchiveYear(currentYear),
-                            loadArchiveYear(currentYear - 1),
-                            loadArchiveYear(currentYear - 2)
-                        ]);
-                        autoArchivesIncluded = true;
-                    } catch (err) {
-                        console.error(err);
-                    } finally {
-                        isLoadingArchives = false;
-                    }
-                }
-            }
-        }
-        
-        renderVerres();
-    }, 350);
-}
-
 function parseDate(dateStr) {
     if (!dateStr) return null;
     const parts = dateStr.split(' ')[0].split('/');
@@ -341,9 +235,8 @@ function parseDate(dateStr) {
     return null;
 }
 
-// ==========================================
-// RENDU DE L'INTERFACE (TABLEAU DES VERRES)
-// ==========================================
+let searchTimeout = null;
+
 function renderVerres() {
     const tbody = document.getElementById('verres-table-body'); 
     if (!tbody) return;
@@ -385,7 +278,6 @@ function renderVerres() {
         });
     }
 
-    // Déduplication par ID unique
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -398,7 +290,6 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // Application des filtres texte et date
     const donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -430,7 +321,7 @@ function renderVerres() {
         return;
     }
 
-    const auMaximum = donneesFiltrees.slice(0, maxVisibleItems);
+    const auMaximum = donneesFiltrees.slice(0, 60);
     let rowsHtml = [];
 
     auMaximum.forEach((v) => {
@@ -461,13 +352,14 @@ function renderVerres() {
 
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
-        const codeMagasinActuel = currentCosiumCode || "A36"; 
+
+        const codeMagasinActuel = currentCosiumCode; 
         
-        // 👈 SÉCURITÉ : Extraction sécurisée de l'année
-        const anneeBL = (idCommande && idCommande.length >= 2) ? "20" + idCommande.substring(0, 2) : new Date().getFullYear();
+        // 1. Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
+        const anneeBL = "20" + idCommande.substring(0, 2);
         
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
-        const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
+        // 2. Construction de l'URL directe dynamique sans valeur par défaut ni underscore parasite
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -485,17 +377,14 @@ function renderVerres() {
                         <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
+                        
                         ${estExpedie ? `
-                            <a href="${urlEbl}" target="_blank" class="px-2.5 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
+                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
                                 <span>eBL</span>
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
                             </a>
-                            <a href="${urlCdv}" target="_blank" class="px-2.5 py-1.5 bg-[#0066cc] hover:bg-[#0052a3] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1 transition-colors text-[11px] tracking-wide" title="Télécharger la Carte de vue">
-                                <span>CDV</span>
-                                <i data-lucide="download" class="w-3.5 h-3.5"></i>
-                            </a>
                         ` : `
-                            <div class="w-24 h-8"></div> `}
+                            <div class="w-14 h-8"></div> `}
                     </div>
                 </td>
             </tr>
@@ -506,9 +395,38 @@ function renderVerres() {
     if (window.lucide) lucide.createIcons();
 }
 
-// ==========================================
-// PANNEAU DÉTAILS PATIENT (SIDE PANEL)
-// ==========================================
+function handleSearchInput() {
+    clearTimeout(searchTimeout);
+    
+    searchTimeout = setTimeout(async () => {
+        const searchValue = document.getElementById('search-verres').value.trim();
+        
+        if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
+            const currentYear = new Date().getFullYear();
+            
+            if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
+                if (!isLoadingArchives) {
+                    isLoadingArchives = true;
+                    try {
+                        await Promise.all([
+                            loadArchiveYear(currentYear),
+                            loadArchiveYear(currentYear - 1),
+                            loadArchiveYear(currentYear - 2)
+                        ]);
+                        autoArchivesIncluded = true;
+                    } catch (err) {
+                        console.error(err);
+                    } finally {
+                        isLoadingArchives = false;
+                    }
+                }
+            }
+        }
+        
+        renderVerres();
+    }, 350);
+}
+
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
     const cmd = toutesLesCommandes.find(c => {
@@ -583,16 +501,16 @@ function closeSidePanel() {
     document.getElementById('side-panel').classList.add('hidden');
 }
 
-// ==========================================
-// NAVIGATION ET ONGLETS
-// ==========================================
 function switchTab(tabId) {
+    // 1. Masquer tous les contenus d'onglets existants
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
     
+    // 2. Réinitialiser le style de tous les boutons d'onglets existants
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all";
     });
     
+    // 3. Afficher le contenu de l'onglet ciblé (sécurisé si l'élément n'existe pas)
     const contentElement = document.getElementById('content-' + tabId);
     if (contentElement) {
         contentElement.classList.remove('hidden');
@@ -600,23 +518,26 @@ function switchTab(tabId) {
         console.warn(`Attention : L'élément HTML id="content-${tabId}" est introuvable.`);
     }
     
+    // 4. Activer le style du bouton dans le menu (sécurisé si le bouton n'a pas d'ID attitré)
     const tabButtonElement = document.getElementById('tab-' + tabId);
     if (tabButtonElement) {
         tabButtonElement.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
     }
     
-    if (tabId === 'verres' && typeof renderVerres === 'function') {
-        renderVerres();
+    // --- APPELS DES SCRIPT DE RENDU (Placés en sécurité) ---
+    if (tabId === 'verres') {
+        if (typeof renderVerres === 'function') {
+            renderVerres();
+        }
     }
     
-    if (tabId === 'documents' && typeof renderDocuments === 'function') {
-        renderDocuments();
+    if (tabId === 'documents') {
+        if (typeof renderDocuments === 'function') {
+            renderDocuments();
+        }
     }
 }
 
-// ==========================================
-// BIBLIOTHÈQUE DE DOCUMENTS
-// ==========================================
 async function renderDocuments() {
     const container = document.getElementById('documents-grid');
     if (!container) return;
@@ -671,10 +592,12 @@ async function renderDocuments() {
                 </div>
             `;
 
+            // Clic sur la carte -> Ouvre l'aperçu à droite
             card.addEventListener('click', () => {
                 ouvrirApercu(item.url, item.titre, item.type);
             });
 
+            // Clic sur Télécharger -> Évite le déclenchement de l'aperçu et ouvre en natif
             const btnDownload = card.querySelector('.btn-download');
             btnDownload.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -715,15 +638,15 @@ function ouvrirApercu(url, titre, type) {
 
 function fermerApercu() {
     const viewer = document.getElementById('document-viewer');
-    if (viewer) viewer.classList.add('hidden');
-    
+    if (viewer) {
+        viewer.classList.add('hidden');
+    }
     const contentContainer = document.getElementById('viewer-content');
-    if (contentContainer) contentContainer.innerHTML = ""; 
+    if (contentContainer) {
+        contentContainer.innerHTML = ""; 
+    }
 }
 
-// ==========================================
-// OUTILS DE CALCUL DE PRODUCTION
-// ==========================================
 function runCalculation() {
     const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
     const baseThickness = 2.0;
@@ -731,7 +654,18 @@ function runCalculation() {
     document.getElementById('calc-result').innerText = calculated.toFixed(2);
 }
 
-// Initialisation globale des icônes au premier chargement
+function logout() {
+    window.removeEventListener('scroll', handleScrollLoad);
+    document.getElementById('main-interface').classList.add('hidden');
+    document.getElementById('login-screen').classList.remove('hidden');
+    currentStoreId = null;
+    currentCosiumCode = null;
+    storeEncours = [];
+    storeArchives = [];
+    loadedYears = [];
+    autoArchivesIncluded = false;
+}
+
 if (window.lucide) {
     lucide.createIcons();
 }
