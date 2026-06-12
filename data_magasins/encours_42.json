@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "12/06/2026 11:27",
+  "derniere_mise_a_jour": "12/06/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162195",
@@ -536,66 +536,15 @@
       }
     },
     {
-      "ord_numb": "            10162073",
-      "id_commande_v2i": "260611000179",
-      "code_cote": "B",
-      "patient": "ROUSSEL ISABELLE",
-      "job_cosium": "J148017934-01",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: ROUSSEL ISABELLE / J148017934-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.50",
-        "axe": 25,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162072",
       "id_commande_v2i": "260611000178",
       "code_cote": "B",
       "patient": "ROUSSEL ISABELLE",
       "job_cosium": "J148017934-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: ROUSSEL ISABELLE / J148017934-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "detail": "Réf: ROUSSEL ISABELLE / J148017934-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -636,6 +585,57 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162073",
+      "id_commande_v2i": "260611000179",
+      "code_cote": "B",
+      "patient": "ROUSSEL ISABELLE",
+      "job_cosium": "J148017934-01",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: ROUSSEL ISABELLE / J148017934-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.50",
+        "axe": 25,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Jeune 1er HD  1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Jeune 1er HD  1.5 Nu"
         ]
       }
     },
