@@ -10,7 +10,7 @@
     "email": "obs@balbi.fr",
     "mot_de_passe_portail": "obs"
   },
-  "derniere_mise_a_jour": "12/06/2026 09:42",
+  "derniere_mise_a_jour": "12/06/2026 09:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161896",
@@ -127,6 +127,108 @@
       }
     },
     {
+      "ord_numb": "            10162091",
+      "id_commande_v2i": "260611000197",
+      "code_cote": "B",
+      "patient": "CRISTIANI JEAN MARIE",
+      "job_cosium": "J156003368-03",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: CRISTIANI JEAN MARIE / J156003368-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162092",
+      "id_commande_v2i": "260611000198",
+      "code_cote": "B",
+      "patient": "CRISTIANI JEAN MARIE",
+      "job_cosium": "J156003368-02",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: CRISTIANI JEAN MARIE / J156003368-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.00",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.75",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162090",
       "id_commande_v2i": "260611000196",
       "code_cote": "B",
@@ -176,108 +278,6 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162091",
-      "id_commande_v2i": "260611000197",
-      "code_cote": "B",
-      "patient": "CRISTIANI JEAN MARIE",
-      "job_cosium": "J156003368-03",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: CRISTIANI JEAN MARIE / J156003368-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162092",
-      "id_commande_v2i": "260611000198",
-      "code_cote": "B",
-      "patient": "CRISTIANI JEAN MARIE",
-      "job_cosium": "J156003368-02",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: CRISTIANI JEAN MARIE / J156003368-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "4.00",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
         ]
       }
     },
