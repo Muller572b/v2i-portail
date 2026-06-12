@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "12/06/2026 10:57",
+  "derniere_mise_a_jour": "12/06/2026 11:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162148",
@@ -19,9 +19,9 @@
       "patient": "BOUYJOU MARIE CHRISTINE",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: BOUYJOU MARIE CHRISTINE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: BOUYJOU MARIE CHRISTINE — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -282,6 +282,57 @@
       }
     },
     {
+      "ord_numb": "            10162180",
+      "id_commande_v2i": "260612000040",
+      "code_cote": "B",
+      "patient": "MANNONI--LAHBIBI MALAK",
+      "job_cosium": "J133035900",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: MANNONI--LAHBIBI MALAK / J133035900 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-6.25",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Afflelou St. As 1.67 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-5.75",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Afflelou St. As 1.67 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162164",
       "id_commande_v2i": "260612000024",
       "code_cote": "B",
@@ -392,57 +443,6 @@
         "supplements": [
           "Tchin Uni 1.5 Non Durci",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162180",
-      "id_commande_v2i": "260612000040",
-      "code_cote": "B",
-      "patient": "MANNONI--LAHBIBI MALAK",
-      "job_cosium": "J133035900",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: MANNONI--LAHBIBI MALAK / J133035900 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-6.25",
-        "cylindre": "1.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "32.0",
-        "supplements": [
-          "Afflelou St. As 1.67 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-5.75",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "Afflelou St. As 1.67 Durci Arh"
         ]
       }
     },
