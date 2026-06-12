@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "12/06/2026 15:57",
+  "derniere_mise_a_jour": "12/06/2026 16:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162147",
@@ -184,6 +184,61 @@
       }
     },
     {
+      "ord_numb": "            10162191",
+      "id_commande_v2i": "260612000051",
+      "code_cote": "B",
+      "patient": "CRISTOFARI MARIE PIERRE",
+      "job_cosium": "",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: CRISTOFARI MARIE PIERRE — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.75",
+        "axe": 85,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.5",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Lecture2 1.5 Polar Brun Durc",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "2.25",
+        "axe": 95,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.5",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Lecture2 1.5 Polar Brun Durc",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162261",
       "id_commande_v2i": "260612000121",
       "code_cote": "B",
@@ -235,61 +290,6 @@
           "Uni 1.67 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162191",
-      "id_commande_v2i": "260612000051",
-      "code_cote": "B",
-      "patient": "CRISTOFARI MARIE PIERRE",
-      "job_cosium": "",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: CRISTOFARI MARIE PIERRE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "1.75",
-        "axe": 85,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.5",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Lecture2 1.5 Polar Brun Durc",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "2.25",
-        "axe": 95,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.5",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Lecture2 1.5 Polar Brun Durc",
-          "Durci Inclus",
-          "Optimisé"
         ]
       }
     },
