@@ -3,55 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V2I Portail - Connexion</title>
+    <title>V2I Portail - Accueil</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
     </style>
+    <script>
+        // LE GARDIEN : Sécurité d'accès au tableau de bord
+        if (localStorage.getItem('v2i_authenticated') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
 </head>
 <body class="h-full text-[#1d1d1f] flex flex-col antialiased">
 
-    <div id="login-screen" class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8 bg-gradient-to-b from-[#f5f5f7] to-[#e8e8ed]">
-        <div class="sm:mx-auto w-full max-w-md">
-            <div class="flex justify-center">
-                <div class="p-3 bg-white rounded-2xl shadow-sm border border-[#e8e8ed]">
-                    <svg class="w-10 h-10 text-[#0066cc]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/>
-                    </svg>
+    <header class="bg-white border-b border-[#e8e8ed] sticky top-0 z-40">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            
+            <div class="flex items-center gap-4">
+                <div class="flex items-center gap-2">
+                    <img src="logo-v2i.png" alt="V2I Logo" class="h-8 w-auto fallback-logo" onerror="this.style.display='none'; document.getElementById('text-logo').classList.remove('hidden')">
+                    <span id="text-logo" class="hidden font-bold text-xl tracking-tight text-[#1d1d1f]">V2I <span class="text-[#0066cc]">Optique</span></span>
                 </div>
+                
+                <span id="store-badge" class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-[#0066cc] border border-blue-100">
+                    Magasin : Optic 2000 Ajaccio (BFO)
+                </span>
             </div>
-            <h2 class="mt-6 text-center text-2xl font-bold tracking-tight text-[#1d1d1f]">V2I Portail</h2>
-            <p class="mt-2 text-center text-sm text-[#86868b]">Accédez à votre espace laboratoire partenaire</p>
-        </div>
-
-        <div class="mt-8 sm:mx-auto w-full max-w-md">
-            <div class="bg-white py-8 px-4 shadow-sm border border-[#e8e8ed] sm:rounded-2xl sm:px-10">
-                <form class="space-y-6" onsubmit="handleLogin(event)">
-                    <div>
-                        <label for="username" class="block text-xs font-semibold uppercase tracking-wider text-[#86868b]">N° Identifiant Client</label>
-                        <div class="mt-1.5">
-                            <input id="username" type="text" required placeholder="Ex: 12345" class="block w-full rounded-xl border border-gray-300 px-4 py-3 text-sm outline-none focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc]">
-                        </div>
-                    </div>
-
-                    <div>
-                        <label for="password" class="block text-xs font-semibold uppercase tracking-wider text-[#86868b]">Code Cosium (Mot de passe)</label>
-                        <div class="mt-1.5">
-                            <input id="password" type="password" required placeholder="••••••••" class="block w-full rounded-xl border border-gray-300 px-4 py-3 text-sm outline-none focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc]">
-                        </div>
-                    </div>
-
-                    <div id="login-error" class="hidden text-xs font-medium text-red-600 bg-red-50 border border-red-100 p-3 rounded-xl"></div>
-
-                    <button type="submit" class="flex w-full justify-center rounded-xl bg-[#0066cc] px-4 py-3 text-sm font-semibold text-white shadow hover:bg-[#0055aa] transition-all cursor-pointer">
-                        Se connecter
-                    </button>
-                </form>
+            
+            <div class="flex items-center gap-6">
+                <nav class="hidden md:flex items-center gap-1">
+                    <a href="index.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-blue-50/50 rounded-xl">Accueil</a>
+                    <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Suivi de commande Verres</a>
+                    <a href="calcul.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Calcul Verre</a>
+                    <a href="bibliotheque.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Documents</a>
+                </nav>
+                
+                <button onclick="logout()" class="inline-flex items-center gap-1.5 text-xs font-medium text-[#86868b] hover:text-[#ff3b30] transition-colors py-1.5 px-3 rounded-lg hover:bg-gray-50 cursor-pointer">
+                    <i data-lucide="log-out" class="w-4 h-4"></i>
+                    Déconnexion
+                </button>
             </div>
         </div>
-    </div>
+    </header>
 
-    <script src="js/auth.js"></script>
+    <main class="flex-1 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <a href="suivi.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center justify-center min-h-[180px]">
+                <div class="p-4 bg-blue-50 rounded-2xl text-[#0066cc] group-hover:scale-105 transition-transform">
+                    <i data-lucide="package" class="w-8 h-8"></i>
+                </div>
+                <h3 class="mt-4 font-bold text-base text-[#1d1d1f]">Suivi de commande</h3>
+            </a>
+
+            <a href="montures.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center justify-center min-h-[180px]">
+                <div class="p-4 bg-emerald-50 rounded-2xl text-emerald-600 group-hover:scale-105 transition-transform">
+                    <i data-lucide="glasses" class="w-8 h-8"></i>
+                </div>
+                <h3 class="mt-4 font-bold text-base text-[#1d1d1f]">Montures</h3>
+            </a>
+
+            <a href="bibliotheque.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center justify-center min-h-[180px]">
+                <div class="p-4 bg-purple-50 rounded-2xl text-purple-600 group-hover:scale-105 transition-transform">
+                    <i data-lucide="file-text" class="w-8 h-8"></i>
+                </div>
+                <h3 class="mt-4 font-bold text-base text-[#1d1d1f]">Documents</h3>
+            </a>
+
+        </div>
+
+        <div class="bg-white rounded-2xl border border-[#e8e8ed] shadow-sm overflow-hidden grid grid-cols-1 md:grid-cols-2 items-center">
+            <div class="p-8 lg:p-12 space-y-4">
+                <span class="text-xs font-bold uppercase tracking-widest text-[#0066cc]">Votre Laboratoire Insulaire</span>
+                <h2 class="text-2xl font-bold tracking-tight text-[#1d1d1f] sm:text-3xl">La haute précision optique au service de vos clients.</h2>
+                <p class="text-sm text-[#86868b] leading-relaxed">Suivez vos productions de verres en temps réel, accédez à vos fiches techniques et optimisez vos commandes d'ateliers directement depuis votre espace partenaire.</p>
+            </div>
+            <div class="h-64 md:h-full min-h-[300px] bg-gray-100 relative">
+                <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1000&q=80" 
+                     alt="Atelier Optique de précision" 
+                     class="absolute inset-0 w-full h-full object-cover">
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        lucide.createIcons();
+
+        function logout() {
+            localStorage.removeItem('v2i_authenticated');
+            localStorage.removeItem('v2i_client_id');
+            window.location.href = 'login.html';
+        }
+    </script>
 </body>
 </html>
