@@ -31,8 +31,8 @@ function handleLogin(event) {
         "25": "PLU",
         "28": "BOB",
         "29": "ROC",
-        "31": "LAR",       // Mettez ici le vrai code Cosium du magasin 16
-        "33": "33",       // Mettez ici le vrai code Cosium du magasin 18
+        "31": "LAR",       
+        "33": "33",       
         "99": "TEST99",      // Magasin de test
         "ADMIN": "COSIUM2026" // Votre pass général pour vos démos
     };
@@ -47,18 +47,11 @@ function handleLogin(event) {
         // On mémorise le numéro du magasin connecté pour pouvoir personnaliser l'accueil après
         localStorage.setItem('v2i_client_id', username); 
         
-        // Redirection vers la page d'accueil
-        window.location.href = 'accueil.html';
+        // CORRECTION : Ajout de './' pour sécuriser le chemin relatif sur GitHub Pages
+        window.location.href = './accueil.html';
     } else {
         // Si l'identifiant n'existe pas ou que le code est faux -> Message rouge
         errorBlock.innerText = "Identifiant ou code Cosium incorrect.";
         errorBlock.classList.remove('hidden');
     }
 }
-
-// Permet de valider avec la touche "Entrée"
-document.getElementById('password').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        handleLogin(e);
-    }
-});
