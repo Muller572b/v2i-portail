@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "12/06/2026 14:42",
+  "derniere_mise_a_jour": "12/06/2026 14:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162243",
@@ -174,9 +174,9 @@
       "patient": "PASQUARELLI JOSETTE",
       "job_cosium": "J121042557",
       "date_entree": "11/06/2026",
-      "detail": "Réf: PASQUARELLI JOSETTE / J121042557 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: PASQUARELLI JOSETTE / J121042557 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -565,6 +565,67 @@
       }
     },
     {
+      "ord_numb": "            10161854",
+      "id_commande_v2i": "260610000173",
+      "code_cote": "B",
+      "patient": "MAGALHAES GONCALVES MATHILDE",
+      "job_cosium": "J121042555-01",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: MAGALHAES GONCALVES MATHILDE / J121042555-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.00",
+        "cylindre": "1.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "24.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Unitek2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "25.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Unitek2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161838",
       "id_commande_v2i": "260610000157",
       "code_cote": "B",
@@ -671,67 +732,6 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161854",
-      "id_commande_v2i": "260610000173",
-      "code_cote": "B",
-      "patient": "MAGALHAES GONCALVES MATHILDE",
-      "job_cosium": "J121042555-01",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: MAGALHAES GONCALVES MATHILDE / J121042555-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.00",
-        "cylindre": "1.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "24.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Unitek2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "25.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Unitek2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
         ]
       }
     },
