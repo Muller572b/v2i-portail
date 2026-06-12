@@ -1,3 +1,6 @@
+// ==========================================
+// VARIABLES GLOBALES
+// ==========================================
 let currentStoreId = null;
 let currentCosiumCode = null;
 let storeEncours = [];
@@ -5,8 +8,13 @@ let storeArchives = [];
 let loadedYears = []; 
 let isLoadingArchives = false; 
 let maxVisibleItems = 60;
-let autoArchivesIncluded = false; // 👈 AJOUT : Déclaration indispensable
+let autoArchivesIncluded = false;
+let archiveObserver = null; // 👈 AJOUT : Permet de suivre et nettoyer l'IntersectionObserver
+let searchTimeout = null;
 
+// ==========================================
+// AUTHENTIFICATION & SESSIONS
+// ==========================================
 async function handleLogin(e) {
     e.preventDefault();
     const clientNum = document.getElementById('username').value.replace(/\s+/g, '');
@@ -26,17 +34,18 @@ async function handleLogin(e) {
             cosiumCode === String(data.infos_magasin.code_cosium).replace(/\s+/g, '').toUpperCase()) {
             
             currentStoreId = clientNum;
-            currentCosiumCode = cosiumCode; // Sauvegarde le code magasin (ex: BFO)
+            currentCosiumCode = cosiumCode; 
             storeEncours = data.commandes_en_cours || [];
 
             document.getElementById('login-screen').classList.add('hidden');
             document.getElementById('main-interface').classList.remove('hidden');
             document.getElementById('store-badge').innerText = `Magasin : ${data.infos_magasin.nom} (${cosiumCode})`;
             
-            // Réinitialisation globale des filtres
+            // Réinitialisation globale des filtres et états
             autoArchivesIncluded = false;
             storeArchives = [];
             loadedYears = [];
+            maxVisibleItems = 60;
             document.getElementById('date-debut').value = '';
             document.getElementById('date-fin').value = '';
             document.getElementById('archive-status-banner').classList.add('hidden');
@@ -44,24 +53,47 @@ async function handleLogin(e) {
             renderVerres();
             switchTab('accueil'); 
             
-            window.addEventListener('scroll', handleScrollLoad);
+            // 🚀 OPTION A : Initialisation de l'IntersectionObserver à la place du scroll
+            initArchiveObserver();
 
-            // 🚀 AJOUT : On force le chargement immédiat de l'année en cours pour remplir l'écran
+            // Force le chargement immédiat de l'année en cours pour remplir l'écran
             const anneeActuelle = new Date().getFullYear();
             isLoadingArchives = true;
             loadArchiveYear(anneeActuelle).then(() => {
                 isLoadingArchives = false;
-                renderVerres(); // Re-calcul et affichage avec les archives fraîches
+                renderVerres(); 
             }).catch(() => { 
                 isLoadingArchives = false; 
             });
-        } // <-- L'accolade manquante a été ajoutée ici pour fermer le "if"
+        }
     } catch (err) {
         errorEl.innerText = "Erreur de connexion : Identifiant incorrect ou introuvable.";
         errorEl.classList.remove('hidden');
     }
 }
 
+function logout() {
+    // 👈 NETTOYAGE : On déconnecte l'observer proprement pour éviter les fuites de mémoire
+    if (archiveObserver) {
+        archiveObserver.disconnect();
+        archiveObserver = null;
+    }
+
+    document.getElementById('main-interface').classList.add('hidden');
+    document.getElementById('login-screen').classList.remove('hidden');
+    
+    // Reset complet des variables
+    currentStoreId = null;
+    currentCosiumCode = null;
+    storeEncours = [];
+    storeArchives = [];
+    loadedYears = [];
+    autoArchivesIncluded = false;
+}
+
+// ==========================================
+// GESTION DU FLUX RSS
+// ==========================================
 async function chargerFluxRSS() {
     const conteneur = document.getElementById('bloc-actualites');
     if (!conteneur) return; 
@@ -74,7 +106,6 @@ async function chargerFluxRSS() {
         if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
         
         const xmlText = await response.text();
-        
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, "text/xml");
         
@@ -92,7 +123,6 @@ async function chargerFluxRSS() {
             const title = item.querySelector("title")?.textContent || "Article sans titre";
             const link = item.querySelector("link")?.textContent || "#";
             const description = item.querySelector("description")?.textContent || "";
-
             const cleanDesc = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
 
             html += `
@@ -107,11 +137,9 @@ async function chargerFluxRSS() {
             `;
         });
         html += '</div>';
-
         conteneur.innerHTML = html;
     } catch (error) {
         console.error("Détail de l'erreur RSS :", error);
-        
         conteneur.innerHTML = `
             <div class="text-center p-4">
                 <p class="text-xs text-gray-400 mb-2">Flux en direct indisponible.</p>
@@ -122,10 +150,11 @@ async function chargerFluxRSS() {
         `;
     }
 }
-
 document.addEventListener('DOMContentLoaded', chargerFluxRSS);
 
-
+// ==========================================
+// SYNCHRONISATION DES ARCHIVES (GITHUB)
+// ==========================================
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
@@ -160,12 +189,11 @@ async function loadArchiveYear(year) {
     }
 }
 
-// 🚀 NOUVEAU LOGIQUE OPTION A : Se déclenche de façon autonome via l'Observer
 function chargerArchivesSuivantes() {
     if (document.getElementById('content-verres').classList.contains('hidden')) return;
     if (isLoadingArchives) return;
 
-    // Étape A : Si on a déjà chargé des données mais qu'elles dépassent la limite d'affichage
+    // Étape A : On étend d'abord l'affichage si on a de la donnée en mémoire
     const totalDataLength = storeEncours.length + storeArchives.length;
     if (maxVisibleItems < totalDataLength) {
         maxVisibleItems += 60;
@@ -173,9 +201,8 @@ function chargerArchivesSuivantes() {
         return;
     }
 
-    // Étape B : Si tout est déjà à l'écran, on va chercher l'année précédente sur GitHub
+    // Étape B : Sinon, on va chercher l'année précédente sur GitHub
     isLoadingArchives = true;
-    
     const currentYear = new Date().getFullYear();
     let yearToLoad = currentYear;
 
@@ -199,23 +226,28 @@ function chargerArchivesSuivantes() {
     });
 }
 
-// 🚀 INITIALISATION DE L'OBSERVER : À appeler dans handleLogin() à la place du scroll listener
 function initArchiveObserver() {
     const trigger = document.getElementById('archive-trigger');
     if (!trigger) return;
 
-    const observer = new IntersectionObserver((entries) => {
-        // Dès que la div invisible entre dans le champ de vision (à 150px près)
+    // Évite les doublons d'instances d'observers
+    if (archiveObserver) archiveObserver.disconnect();
+
+    archiveObserver = new IntersectionObserver((entries) => {
         if (entries[0].isIntersecting) {
             chargerArchivesSuivantes();
         }
     }, {
-        root: null,          // Viewport global (s'adapte à n'importe quel conteneur CSS overflow)
-        rootMargin: '150px'  // Déclenche l'action 150px avant que l'élément soit vu à l'écran
+        root: null,          
+        rootMargin: '150px'  
     });
 
-    observer.observe(trigger);
+    archiveObserver.observe(trigger);
 }
+
+// ==========================================
+// FILTRES ET RECHERCHE
+// ==========================================
 async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
@@ -250,7 +282,6 @@ async function handleDateBoundsChange() {
 
     if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
-        
         const anneesACharger = [];
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
             anneesACharger.push(y);
@@ -269,6 +300,38 @@ async function handleDateBoundsChange() {
     renderVerres();
 }
 
+function handleSearchInput() {
+    clearTimeout(searchTimeout);
+    
+    searchTimeout = setTimeout(async () => {
+        const searchValue = document.getElementById('search-verres').value.trim();
+        
+        if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
+            const currentYear = new Date().getFullYear();
+            
+            if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
+                if (!isLoadingArchives) {
+                    isLoadingArchives = true;
+                    try {
+                        await Promise.all([
+                            loadArchiveYear(currentYear),
+                            loadArchiveYear(currentYear - 1),
+                            loadArchiveYear(currentYear - 2)
+                        ]);
+                        autoArchivesIncluded = true;
+                    } catch (err) {
+                        console.error(err);
+                    } finally {
+                        isLoadingArchives = false;
+                    }
+                }
+            }
+        }
+        
+        renderVerres();
+    }, 350);
+}
+
 function parseDate(dateStr) {
     if (!dateStr) return null;
     const parts = dateStr.split(' ')[0].split('/');
@@ -278,14 +341,14 @@ function parseDate(dateStr) {
     return null;
 }
 
-let searchTimeout = null;
-
+// ==========================================
+// RENDU DE L'INTERFACE (TABLEAU DES VERRES)
+// ==========================================
 function renderVerres() {
     const tbody = document.getElementById('verres-table-body'); 
     if (!tbody) return;
     
     const searchInput = document.getElementById('search-verres');
-    
     const search = searchInput ? searchInput.value.toLowerCase().trim() : '';
     
     const dateDebutEl = document.getElementById('date-debut');
@@ -322,6 +385,7 @@ function renderVerres() {
         });
     }
 
+    // Déduplication par ID unique
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -334,6 +398,7 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
+    // Application des filtres texte et date
     const donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -396,13 +461,11 @@ function renderVerres() {
 
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
-
         const codeMagasinActuel = currentCosiumCode || "A36"; 
         
-        // Extraction de l'année depuis l'idCommande (ex: "260602..." -> "2026")
-        const anneeBL = "20" + idCommande.substring(0, 2);
+        // 👈 SÉCURITÉ : Extraction sécurisée de l'année
+        const anneeBL = (idCommande && idCommande.length >= 2) ? "20" + idCommande.substring(0, 2) : new Date().getFullYear();
         
-        // URLs corrigées dynamiquement
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
         const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
@@ -422,7 +485,6 @@ function renderVerres() {
                         <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
-                        
                         ${estExpedie ? `
                             <a href="${urlEbl}" target="_blank" class="px-2.5 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
                                 <span>eBL</span>
@@ -444,38 +506,9 @@ function renderVerres() {
     if (window.lucide) lucide.createIcons();
 }
 
-function handleSearchInput() {
-    clearTimeout(searchTimeout);
-    
-    searchTimeout = setTimeout(async () => {
-        const searchValue = document.getElementById('search-verres').value.trim();
-        
-        if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
-            const currentYear = new Date().getFullYear();
-            
-            if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
-                if (!isLoadingArchives) {
-                    isLoadingArchives = true;
-                    try {
-                        await Promise.all([
-                            loadArchiveYear(currentYear),
-                            loadArchiveYear(currentYear - 1),
-                            loadArchiveYear(currentYear - 2)
-                        ]);
-                        autoArchivesIncluded = true;
-                    } catch (err) {
-                        console.error(err);
-                    } finally {
-                        isLoadingArchives = false;
-                    }
-                }
-            }
-        }
-        
-        renderVerres();
-    }, 350);
-}
-
+// ==========================================
+// PANNEAU DÉTAILS PATIENT (SIDE PANEL)
+// ==========================================
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
     const cmd = toutesLesCommandes.find(c => {
@@ -550,6 +583,9 @@ function closeSidePanel() {
     document.getElementById('side-panel').classList.add('hidden');
 }
 
+// ==========================================
+// NAVIGATION ET ONGLETS
+// ==========================================
 function switchTab(tabId) {
     document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
     
@@ -569,19 +605,18 @@ function switchTab(tabId) {
         tabButtonElement.className = "tab-btn px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#0066cc] flex items-center gap-2 cursor-pointer transition-all";
     }
     
-    if (tabId === 'verres') {
-        if (typeof renderVerres === 'function') {
-            renderVerres();
-        }
+    if (tabId === 'verres' && typeof renderVerres === 'function') {
+        renderVerres();
     }
     
-    if (tabId === 'documents') {
-        if (typeof renderDocuments === 'function') {
-            renderDocuments();
-        }
+    if (tabId === 'documents' && typeof renderDocuments === 'function') {
+        renderDocuments();
     }
 }
 
+// ==========================================
+// BIBLIOTHÈQUE DE DOCUMENTS
+// ==========================================
 async function renderDocuments() {
     const container = document.getElementById('documents-grid');
     if (!container) return;
@@ -680,16 +715,15 @@ function ouvrirApercu(url, titre, type) {
 
 function fermerApercu() {
     const viewer = document.getElementById('document-viewer');
-    if (viewer) {
-        viewer.classList.add('hidden');
-    }
+    if (viewer) viewer.classList.add('hidden');
+    
     const contentContainer = document.getElementById('viewer-content');
-    if (contentContainer) {
-        contentContainer.innerHTML = ""; 
-    }
+    if (contentContainer) contentContainer.innerHTML = ""; 
 }
 
-// Calcule l'épaisseur d'une lentille selon sa puissance sphérique de base
+// ==========================================
+// OUTILS DE CALCUL DE PRODUCTION
+// ==========================================
 function runCalculation() {
     const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
     const baseThickness = 2.0;
@@ -697,18 +731,7 @@ function runCalculation() {
     document.getElementById('calc-result').innerText = calculated.toFixed(2);
 }
 
-function logout() {
-    window.removeEventListener('scroll', handleScrollLoad);
-    document.getElementById('main-interface').classList.add('hidden');
-    document.getElementById('login-screen').classList.remove('hidden');
-    currentStoreId = null;
-    currentCosiumCode = null;
-    storeEncours = [];
-    storeArchives = [];
-    loadedYears = [];
-    autoArchivesIncluded = false;
-}
-
+// Initialisation globale des icônes au premier chargement
 if (window.lucide) {
     lucide.createIcons();
 }
