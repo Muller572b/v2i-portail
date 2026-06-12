@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "12/06/2026 11:27",
+  "derniere_mise_a_jour": "12/06/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162149",
@@ -304,6 +304,69 @@
       }
     },
     {
+      "ord_numb": "            10162074",
+      "id_commande_v2i": "260611000180",
+      "code_cote": "B",
+      "patient": "FERREIRA VIANA REGO CLARA SILV",
+      "job_cosium": "J160020884",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: FERREIRA VIANA REGO CLARA SILV / J160020884 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 35,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "33.5",
+        "supplements": [
+          "Delta Horizon2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.50",
+        "cylindre": "2.75",
+        "axe": 130,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.3",
+        "hauteur": "32.4",
+        "supplements": [
+          "Delta Horizon2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161983",
       "id_commande_v2i": "260611000089",
       "code_cote": "B",
@@ -402,69 +465,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162074",
-      "id_commande_v2i": "260611000180",
-      "code_cote": "B",
-      "patient": "FERREIRA VIANA REGO CLARA SILV",
-      "job_cosium": "J160020884",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: FERREIRA VIANA REGO CLARA SILV / J160020884 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 35,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "33.5",
-        "supplements": [
-          "Delta Horizon2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.50",
-        "cylindre": "2.75",
-        "axe": 130,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.3",
-        "hauteur": "32.4",
-        "supplements": [
-          "Delta Horizon2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -683,9 +683,9 @@
       "patient": "DELSAUT ALAN",
       "job_cosium": "J160020866",
       "date_entree": "10/06/2026",
-      "detail": "Réf: DELSAUT ALAN / J160020866 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "detail": "Réf: DELSAUT ALAN / J160020866 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
