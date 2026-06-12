@@ -1,69 +1,145 @@
 <!DOCTYPE html>
-<html lang="fr" class="h-full bg-[#f5f5f7]">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V2I Portail - Accueil</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>V2i Portail - Suivi des commandes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
-    </style>
-    <script>
-        // LE GARDIEN
-        if (localStorage.getItem('v2i_authenticated') !== 'true') {
-            window.location.href = 'login.html';
-        }
-    </script>
+    <script src="suivi.js" defer></script>
 </head>
-<body class="h-full text-[#1d1d1f] flex flex-col">
+<body class="bg-[#f5f5f7] text-[#1d1d1f] font-sans antialiased min-h-screen flex">
 
-    <header class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-40">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <div class="flex items-center gap-4">
-                <span class="font-bold text-xl tracking-tight text-[#1d1d1f]">V2I <span class="text-[#0066cc]">Optique</span></span>
-                <span id="store-badge" class="inline-flex items-center rounded-full bg-[#e2f1ff] px-3 py-1 text-xs font-semibold text-[#0066cc] border border-blue-100 transition-all">
-                    Magasin : <span id="store-name" class="ml-1 font-mono font-bold">Chargement...</span>
-                </span>
+    <aside class="w-64 bg-white border-r border-[#e8e8ed] flex flex-col justify-between shrink-0 h-screen sticky top-0">
+        <div class="p-6">
+            <h1 class="text-xl font-bold tracking-tight text-[#1d1d1f] mb-8">V2I OPTIQUE</h1>
+            <nav class="space-y-2">
+                <a href="accueil.html" class="flex items-center gap-3 px-4 py-3 text-[#86868b] hover:bg-[#f5f5f7] hover:text-[#1d1d1f] font-medium rounded-xl transition-colors">
+                    <i data-lucide="home" class="w-5 h-5"></i> Accueil
+                </a>
+                <a href="suivi.html" class="flex items-center gap-3 px-4 py-3 bg-[#f5f5f7] text-[#0066cc] font-semibold rounded-xl">
+                    <i data-lucide="list" class="w-5 h-5"></i> Suivi Commandes
+                </a>
+                <a href="documents.html" class="flex items-center gap-3 px-4 py-3 text-[#86868b] hover:bg-[#f5f5f7] hover:text-[#1d1d1f] font-medium rounded-xl transition-colors">
+                    <i data-lucide="folder" class="w-5 h-5"></i> Documents
+                </a>
+            </nav>
+        </div>
+        <div class="p-6 border-t border-[#e8e8ed]">
+            <button onclick="logout()" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 text-[#ff3b30] bg-[#ff3b30]/10 hover:bg-[#ff3b30]/20 font-semibold rounded-xl transition-colors">
+                <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
+            </button>
+        </div>
+    </aside>
+
+    <main class="flex-1 p-10 relative">
+        <header class="mb-8 flex justify-between items-end">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight">Suivi des commandes</h2>
+                <p id="store-badge" class="text-[#86868b] mt-1 font-medium">Chargement...</p>
             </div>
-            
-            <div class="flex items-center gap-6">
-                <nav class="hidden md:flex items-center gap-1">
-                    <a href="accueil.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-[#e2f1ff]/60 rounded-xl">Accueil</a>
-                    <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-100/50 rounded-xl transition-all">Suivi</a>
-                    <a href="document.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-100/50 rounded-xl transition-all">Documents</a>
-                </nav>
-                <button onclick="logout()" class="text-xs font-medium text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1.5 cursor-pointer transition-colors">
-                    <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
-                </button>
+        </header>
+
+        <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm mb-6 flex flex-wrap gap-4 items-center">
+            <div class="flex-1 min-w-[250px] relative">
+                <i data-lucide="search" class="absolute left-3 top-3 w-5 h-5 text-gray-400"></i>
+                <input type="text" id="search-verres" placeholder="Rechercher patient, N° BL, Job..." class="w-full pl-10 pr-4 py-2.5 bg-[#f5f5f7] border-transparent rounded-xl focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc] outline-none transition-all text-sm font-medium placeholder-gray-400">
+            </div>
+            <div class="flex items-center gap-2">
+                <span class="text-sm font-semibold text-[#86868b]">Du</span>
+                <input type="date" id="date-debut" class="py-2 px-3 bg-[#f5f5f7] rounded-xl text-sm font-mono outline-none focus:ring-1 focus:ring-[#0066cc]">
+                <span class="text-sm font-semibold text-[#86868b]">au</span>
+                <input type="date" id="date-fin" class="py-2 px-3 bg-[#f5f5f7] rounded-xl text-sm font-mono outline-none focus:ring-1 focus:ring-[#0066cc]">
             </div>
         </div>
-    </header>
 
-    <main class="flex-1 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-12">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <a href="suivi.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-[0_2px_8px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.04)] hover:border-[#0066cc]/20 transition-all flex flex-col items-center text-center">
-                <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4 group-hover:scale-105 transition-transform">
-                    <i data-lucide="package" class="w-7 h-7 stroke-[1.8]"></i>
-                </div>
-                <h3 class="font-semibold text-base text-[#1d1d1f]">Suivi de commande</h3>
-                <p class="text-xs text-[#86868b] mt-1">Consultez l'état de fabrication en temps réel</p>
-            </a>
+        <div id="archive-status-banner" class="hidden mb-4 p-3 bg-[#fff5e6] text-[#ff9500] text-sm font-semibold rounded-xl border border-[#ffe0b2] flex items-center justify-center">
+            <i data-lucide="database" class="w-4 h-4 mr-2"></i> <span id="archive-status-text"></span>
+        </div>
 
-            <a href="document.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-[0_2px_8px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.04)] hover:border-purple-200 transition-all flex flex-col items-center text-center">
-                <div class="p-4 bg-purple-50 text-purple-600 rounded-2xl mb-4 group-hover:scale-105 transition-transform">
-                    <i data-lucide="file-text" class="w-7 h-7 stroke-[1.8]"></i>
-                </div>
-                <h3 class="font-semibold text-base text-[#1d1d1f]">Documents & Outils</h3>
-                <p class="text-xs text-[#86868b] mt-1">Téléchargez vos catalogues et fiches techniques</p>
-            </a>
+        <div class="bg-white border border-[#e8e8ed] rounded-2xl shadow-sm overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-[#f5f5f7]/80 border-b border-[#e8e8ed]">
+                        <tr>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Patient / Job</th>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Équipement</th>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Date</th>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Statut</th>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Livraison</th>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">N° BL</th>
+                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed]">
+                        </tbody>
+                </table>
+            </div>
         </div>
     </main>
 
-    <script>
-        lucide.createIcons();
-    </script>
-    <script src="accueil.js"></script>
+    <div id="side-panel" class="hidden fixed inset-y-0 right-0 w-96 bg-white shadow-2xl border-l border-[#e8e8ed] flex flex-col z-50 transform transition-transform duration-300">
+        <div class="p-6 border-b border-[#e8e8ed] flex justify-between items-center bg-[#f5f5f7]">
+            <div>
+                <h3 id="panel-patient" class="text-lg font-bold text-[#1d1d1f] tracking-tight uppercase">Nom du Patient</h3>
+                <p id="panel-bl" class="text-xs font-bold text-[#86868b] font-mono mt-1">N° DE COMMANDE : —</p>
+                <p class="text-xs font-medium text-[#86868b] mt-0.5">Job: <span id="panel-cosium-id" class="font-mono text-[#1d1d1f]">—</span></p>
+            </div>
+            <button onclick="closeSidePanel()" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-full transition-colors border border-[#d2d2d7]">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+        </div>
+        <div class="flex-1 overflow-y-auto p-6 space-y-6">
+            <div id="panel-od-row">
+                <h4 class="text-sm font-bold text-[#0066cc] mb-3 flex items-center border-b border-[#e8e8ed] pb-2">
+                    <i data-lucide="eye" class="w-4 h-4 mr-2"></i> OEIL DROIT
+                </h4>
+                <div class="grid grid-cols-4 gap-2 mb-3">
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center"><div class="text-[10px] text-[#86868b] font-bold uppercase">Sph</div><div id="od-sph" class="font-mono text-sm font-semibold"></div></div>
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center"><div class="text-[10px] text-[#86868b] font-bold uppercase">Cyl</div><div id="od-cyl" class="font-mono text-sm font-semibold"></div></div>
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center"><div class="text-[10px] text-[#86868b] font-bold uppercase">Axe</div><div id="od-axe" class="font-mono text-sm font-semibold"></div></div>
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center border border-[#0066cc]/20"><div class="text-[10px] text-[#0066cc] font-bold uppercase">Add</div><div id="od-add" class="font-mono text-sm font-bold text-[#0066cc]"></div></div>
+                </div>
+                <div class="flex gap-4 text-xs font-medium text-[#1d1d1f]">
+                    <div>Prisme 1: <span id="od-p1" class="font-mono"></span> (B: <span id="od-b1" class="font-mono"></span>)</div>
+                    <div>Prisme 2: <span id="od-p2" class="font-mono"></span> (B: <span id="od-b2" class="font-mono"></span>)</div>
+                    <div>Dia: <span id="od-dia" class="font-mono"></span></div>
+                </div>
+            </div>
+            <div id="panel-og-row">
+                <h4 class="text-sm font-bold text-[#30d158] mb-3 flex items-center border-b border-[#e8e8ed] pb-2 mt-4">
+                    <i data-lucide="eye" class="w-4 h-4 mr-2"></i> OEIL GAUCHE
+                </h4>
+                <div class="grid grid-cols-4 gap-2 mb-3">
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center"><div class="text-[10px] text-[#86868b] font-bold uppercase">Sph</div><div id="og-sph" class="font-mono text-sm font-semibold"></div></div>
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center"><div class="text-[10px] text-[#86868b] font-bold uppercase">Cyl</div><div id="og-cyl" class="font-mono text-sm font-semibold"></div></div>
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center"><div class="text-[10px] text-[#86868b] font-bold uppercase">Axe</div><div id="og-axe" class="font-mono text-sm font-semibold"></div></div>
+                    <div class="bg-[#f5f5f7] p-2 rounded-xl text-center border border-[#30d158]/20"><div class="text-[10px] text-[#30d158] font-bold uppercase">Add</div><div id="og-add" class="font-mono text-sm font-bold text-[#30d158]"></div></div>
+                </div>
+                <div class="flex gap-4 text-xs font-medium text-[#1d1d1f]">
+                    <div>Prisme 1: <span id="og-p1" class="font-mono"></span> (B: <span id="og-b1" class="font-mono"></span>)</div>
+                    <div>Prisme 2: <span id="og-p2" class="font-mono"></span> (B: <span id="og-b2" class="font-mono"></span>)</div>
+                    <div>Dia: <span id="og-dia" class="font-mono"></span></div>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-[#1d1d1f] mb-3 flex items-center border-b border-[#e8e8ed] pb-2 mt-4">
+                    <i data-lucide="ruler" class="w-4 h-4 mr-2"></i> PARAMÈTRES
+                </h4>
+                <div class="grid grid-cols-2 gap-4 text-xs font-medium bg-[#f5f5f7] p-3 rounded-xl border border-[#e8e8ed]">
+                    <div><span class="text-[#86868b]">Écart OD:</span> <span id="morpho-od-ecart" class="font-mono font-bold float-right"></span></div>
+                    <div><span class="text-[#86868b]">Haut OD:</span> <span id="morpho-od-haut" class="font-mono font-bold float-right"></span></div>
+                    <div><span class="text-[#86868b]">Écart OG:</span> <span id="morpho-og-ecart" class="font-mono font-bold float-right"></span></div>
+                    <div><span class="text-[#86868b]">Haut OG:</span> <span id="morpho-og-haut" class="font-mono font-bold float-right"></span></div>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-sm font-bold text-[#1d1d1f] mb-3 flex items-center border-b border-[#e8e8ed] pb-2 mt-4">
+                    <i data-lucide="layers" class="w-4 h-4 mr-2"></i> TRAITEMENTS
+                </h4>
+                <div id="panel-supplements" class="flex flex-wrap gap-2"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
