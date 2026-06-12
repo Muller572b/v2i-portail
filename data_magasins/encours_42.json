@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "12/06/2026 16:57",
+  "derniere_mise_a_jour": "12/06/2026 17:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162158",
@@ -298,63 +298,6 @@
       }
     },
     {
-      "ord_numb": "            10162204",
-      "id_commande_v2i": "260612000064",
-      "code_cote": "B",
-      "patient": "LOUE VERONIQUE",
-      "job_cosium": "J148017937-02",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: LOUE VERONIQUE / J148017937-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 19/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "32.0",
-        "supplements": [
-          "Tchin 100% HD 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "32.0",
-        "supplements": [
-          "Tchin 100% HD 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162209",
       "id_commande_v2i": "260612000069",
       "code_cote": "B",
@@ -611,6 +554,63 @@
         "supplements": [
           "Jeune 1er HD 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162204",
+      "id_commande_v2i": "260612000064",
+      "code_cote": "B",
+      "patient": "LOUE VERONIQUE",
+      "job_cosium": "J148017937-02",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: LOUE VERONIQUE / J148017937-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Tchin 100% HD 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Tchin 100% HD 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Brun C",
           "Durci Inclus"
         ]
       }
