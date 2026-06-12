@@ -3,66 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V2I Portail - Accueil</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>V2i Portail - Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; letter-spacing: -0.01em; }
-    </style>
+    <script src="accueil.js" defer></script>
 </head>
-<body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
+<body class="bg-[#f5f5f7] text-[#1d1d1f] font-sans antialiased min-h-screen flex">
 
-    <nav class="bg-white border-b border-[#e8e8ed] sticky top-0 z-50 h-14 flex items-center">
-        <div class="max-w-7xl mx-auto px-6 w-full flex justify-between items-center">
-            
-            <div class="flex items-center gap-3">
-                <span class="font-bold text-lg tracking-tight text-[#1d1d1f]">
-                    V2I <span class="text-[#0066cc]">Optique</span>
-                </span>
-                <span id="store-name" class="bg-[#e2f1ff] text-[#0066cc] text-xs px-3 py-1 rounded-full font-medium border border-[#bfe0ff]/30">
-                    Chargement...
-                </span>
-            </div>
-            
-            <div class="hidden md:flex items-center gap-6">
-                <a href="accueil.html" class="bg-[#e2f1ff] text-[#0066cc] px-3 py-1 rounded-full text-sm font-medium no-underline">
-                    Accueil
+    <aside class="w-64 bg-white border-r border-[#e8e8ed] flex flex-col justify-between">
+        <div class="p-6">
+            <h1 class="text-xl font-bold tracking-tight text-[#1d1d1f] mb-8">V2I OPTIQUE</h1>
+            <nav class="space-y-2">
+                <a href="accueil.html" class="flex items-center gap-3 px-4 py-3 bg-[#f5f5f7] text-[#0066cc] font-semibold rounded-xl">
+                    <i data-lucide="home" class="w-5 h-5"></i> Accueil
                 </a>
-                <a href="suivi.html" class="text-[#86868b] hover:text-[#1d1d1f] text-sm font-medium no-underline transition-colors">
-                    Suivi
+                <a href="suivi.html" class="flex items-center gap-3 px-4 py-3 text-[#86868b] hover:bg-[#f5f5f7] hover:text-[#1d1d1f] font-medium rounded-xl transition-colors">
+                    <i data-lucide="list" class="w-5 h-5"></i> Suivi Commandes
                 </a>
-                <a href="documents.html" class="text-[#86868b] hover:text-[#1d1d1f] text-sm font-medium no-underline transition-colors">
-                    Documents
+                <a href="documents.html" class="flex items-center gap-3 px-4 py-3 text-[#86868b] hover:bg-[#f5f5f7] hover:text-[#1d1d1f] font-medium rounded-xl transition-colors">
+                    <i data-lucide="folder" class="w-5 h-5"></i> Documents
                 </a>
-                <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1 text-sm font-medium cursor-pointer transition-colors border-0 bg-transparent">
-                    <i data-lucide="log-out" class="w-4 h-4 stroke-[1.5]"></i> Déconnexion
-                </button>
-            </div>
-
+            </nav>
         </div>
-    </nav>
+        <div class="p-6 border-t border-[#e8e8ed]">
+            <button onclick="logout()" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 text-[#ff3b30] bg-[#ff3b30]/10 hover:bg-[#ff3b30]/20 font-semibold rounded-xl transition-colors">
+                <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
+            </button>
+        </div>
+    </aside>
 
-    <main class="max-w-4xl mx-auto px-6 pt-20">
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            
-            <a href="suivi.html" class="flex flex-col items-center justify-center p-12 bg-white border border-[#e8e8ed] rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.03)] hover:scale-[1.01] transition-all text-center group cursor-pointer no-underline min-h-[180px]">
-                <div class="text-[#0066cc] mb-4 group-hover:scale-105 transition-transform">
-                    <i data-lucide="box" class="w-10 h-10 stroke-[1.5]"></i>
-                </div>
-                <span class="text-base font-semibold text-[#1d1d1f]">Suivi de commande</span>
-            </a>
+    <main class="flex-1 p-10">
+        <header class="mb-10">
+            <h2 class="text-3xl font-bold tracking-tight">Tableau de bord</h2>
+            <p id="store-name" class="text-[#86868b] mt-1 font-medium">Chargement du magasin...</p>
+        </header>
 
-            <a href="documents.html" class="flex flex-col items-center justify-center p-12 bg-white border border-[#e8e8ed] rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.03)] hover:scale-[1.01] transition-all text-center group cursor-pointer no-underline min-h-[180px]">
-                <div class="text-[#af52de] mb-4 group-hover:scale-105 transition-transform">
-                    <i data-lucide="file-text" class="w-10 h-10 stroke-[1.5]"></i>
-                </div>
-                <span class="text-base font-semibold text-[#1d1d1f]">Documents</span>
-            </a>
-
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm">
+                <h3 class="text-lg font-semibold mb-2">Bienvenue sur votre espace V2i</h3>
+                <p class="text-[#86868b] text-sm">Utilisez le menu de gauche pour naviguer vers le suivi de vos commandes de verres ou consulter la bibliothèque de documents techniques.</p>
+            </div>
         </div>
     </main>
 
-    <script src="accueil.js"></script>
 </body>
 </html>
