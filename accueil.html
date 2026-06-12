@@ -30,7 +30,7 @@
             
             <div class="flex items-center gap-6">
                 <nav class="hidden md:flex items-center gap-1">
-                    <a href="index.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-blue-50/50 rounded-xl">Accueil</a>
+                    <a href="accueil.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-blue-50/50 rounded-xl">Accueil</a>
                     <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Suivi</a>
                     <a href="document.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Documents</a>
                 </nav>
@@ -56,10 +56,7 @@
 
     <script>
         lucide.createIcons();
-        function logout() {
-            localStorage.removeItem('v2i_authenticated');
-            window.location.href = 'login.html';
-        }
     </script>
+    <script src="accueil.js"></script>
 </body>
 </html>
