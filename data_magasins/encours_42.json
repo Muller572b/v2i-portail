@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "12/06/2026 09:27",
+  "derniere_mise_a_jour": "12/06/2026 09:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161976",
@@ -119,6 +119,67 @@
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162030",
+      "id_commande_v2i": "260611000136",
+      "code_cote": "B",
+      "patient": "CHAMPENDALE GEORGES",
+      "job_cosium": "J148017929-03",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: CHAMPENDALE GEORGES / J148017929-03 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "33.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Teinte Dégradée Noir C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 135,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "33.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Teinte Dégradée Noir C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -402,67 +463,6 @@
       }
     },
     {
-      "ord_numb": "            10162030",
-      "id_commande_v2i": "260611000136",
-      "code_cote": "B",
-      "patient": "CHAMPENDALE GEORGES",
-      "job_cosium": "J148017929-03",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: CHAMPENDALE GEORGES / J148017929-03 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "33.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Teinte Dégradée Noir C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 135,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "33.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Teinte Dégradée Noir C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161717",
       "id_commande_v2i": "260610000036",
       "code_cote": "B",
@@ -642,9 +642,9 @@
       "patient": "BAZZALI NOELLE",
       "job_cosium": "J148017911-02",
       "date_entree": "10/06/2026",
-      "detail": "Réf: BAZZALI NOELLE / J148017911-02 — (Fabrication RX) — État: Packed",
+      "detail": "Réf: BAZZALI NOELLE / J148017911-02 — (Fabrication RX) — État: En attente expedition",
       "statut_code": "PACK",
-      "statut_affichage": "Packed",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -697,9 +697,9 @@
       "patient": "FILLACIER DIDIER",
       "job_cosium": "J148017918-01",
       "date_entree": "10/06/2026",
-      "detail": "Réf: FILLACIER DIDIER / J148017918-01 — (Fabrication RX) — État: Packed",
+      "detail": "Réf: FILLACIER DIDIER / J148017918-01 — (Fabrication RX) — État: En attente expedition",
       "statut_code": "PACK",
-      "statut_affichage": "Packed",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -813,9 +813,9 @@
       "patient": "POUSSET JANINE",
       "job_cosium": "J148017898-02",
       "date_entree": "09/06/2026",
-      "detail": "Réf: POUSSET JANINE / J148017898-02 — (Fabrication RX) — État: Packed",
+      "detail": "Réf: POUSSET JANINE / J148017898-02 — (Fabrication RX) — État: En attente expedition",
       "statut_code": "PACK",
-      "statut_affichage": "Packed",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -870,9 +870,9 @@
       "patient": "GUIGNET JOSE",
       "job_cosium": "J148017905-01",
       "date_entree": "09/06/2026",
-      "detail": "Réf: GUIGNET JOSE / J148017905-01 — (Fabrication RX) — État: Packed",
+      "detail": "Réf: GUIGNET JOSE / J148017905-01 — (Fabrication RX) — État: En attente expedition",
       "statut_code": "PACK",
-      "statut_affichage": "Packed",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
