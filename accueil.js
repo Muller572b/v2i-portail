@@ -5,24 +5,24 @@ document.addEventListener('DOMContentLoaded', () => {
     // Vérification de la session utilisateur
     const sessionData = localStorage.getItem('v2i_session');
     if (!sessionData) {
-        window.location.href = 'index.html';
+        window.location.href = 'index.html'; // Redirection vers la page de login si pas de session
         return;
     }
 
     const session = JSON.parse(sessionData);
     
-    // Injection du nom ou numéro du magasin dans le badge de la barre de navigation
+    // Injection du nom ou numéro du magasin dans le badge
     const storeNameEl = document.getElementById('store-name');
     if (storeNameEl) {
         storeNameEl.textContent = `Magasin : ${session.nom_magasin || session.username}`;
     }
 
-    // Chargement du flux d'actualités
+    // Appel sécurisé (ne fera rien si l'élément HTML n'existe pas)
     chargerActualites();
 });
 
 /**
- * Gère la déconnexion et redirige vers la page d'identification
+ * Gère la déconnexion et redirige vers index.html
  */
 function logout() {
     localStorage.removeItem('v2i_session');
@@ -30,11 +30,11 @@ function logout() {
 }
 
 /**
- * Récupère les actualités d'Acuite.fr via le endpoint de l'API pour contourner CORS
+ * Récupère les actualités (Sûr : s'arrête si le container n'est pas dans le HTML)
  */
 async function chargerActualites() {
     const blocActualites = document.getElementById('bloc-actualites');
-    if (!blocActualites) return;
+    if (!blocActualites) return; // Sécurité : évite l'erreur si le bloc est retiré du HTML
 
     try {
         const response = await fetch('/api/actualites');
@@ -43,7 +43,7 @@ async function chargerActualites() {
         const articles = await response.json();
         
         if (articles.length === 0) {
-            blocActualites.innerHTML = '<p class="text-xs text-gray-500 text-center p-4">Aucune actualité disponible pour le moment.</p>';
+            blocActualites.innerHTML = '<p class="text-xs text-gray-500 text-center p-4">Aucune actualité disponible.</p>';
             return;
         }
 
