@@ -10,8 +10,67 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "12/06/2026 16:42",
+  "derniere_mise_a_jour": "12/06/2026 16:57",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162248",
+      "id_commande_v2i": "260612000108",
+      "code_cote": "B",
+      "patient": "BOIVIN ERIC",
+      "job_cosium": "J154014508",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: BOIVIN ERIC / J154014508 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 110,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162247",
       "id_commande_v2i": "260612000107",
@@ -66,65 +125,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162248",
-      "id_commande_v2i": "260612000108",
-      "code_cote": "B",
-      "patient": "BOIVIN ERIC",
-      "job_cosium": "J154014508",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: BOIVIN ERIC / J154014508 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.75",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 110,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
