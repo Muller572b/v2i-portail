@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V2I Portail - Accueil</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
         body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
     </style>
     <script>
-        // LE GARDIEN
+        // LE GARDIEN UNIFIÉ
+        // Bloque immédiatement l'accès avant le rendu de la page si la session n'est pas active
         if (localStorage.getItem('v2i_authenticated') !== 'true') {
             window.location.href = 'login.html';
         }
@@ -19,38 +20,47 @@
 </head>
 <body class="h-full text-[#1d1d1f] flex flex-col">
 
-    <header class="bg-white border-b border-[#e8e8ed] sticky top-0 z-40">
+    <header class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-40">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center gap-4">
                 <span class="font-bold text-xl tracking-tight text-[#1d1d1f]">V2I <span class="text-[#0066cc]">Optique</span></span>
-                <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-[#0066cc] border border-blue-100">
-                    Magasin : Optic 2000 Ajaccio (BFO)
+                <span id="store-badge" class="inline-flex items-center rounded-full bg-[#e2f1ff] px-3 py-1 text-xs font-semibold text-[#0066cc] border border-blue-100/50 transition-all">
+                    Magasin : <span id="store-name" class="ml-1 font-mono font-bold">Chargement...</span>
                 </span>
             </div>
             
             <div class="flex items-center gap-6">
                 <nav class="hidden md:flex items-center gap-1">
-                    <a href="accueil.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-blue-50/50 rounded-xl">Accueil</a>
-                    <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Suivi</a>
-                    <a href="document.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-50 rounded-xl transition-all">Documents</a>
+                    <a href="accueil.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-[#e2f1ff]/60 rounded-xl">Accueil</a>
+                    <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-100/50 rounded-xl transition-all">Suivi</a>
+                    <a href="document.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-100/50 rounded-xl transition-all">Documents</a>
                 </nav>
-                <button onclick="logout()" class="text-xs font-medium text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1.5">
+                <button onclick="logout()" class="text-xs font-medium text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1.5 cursor-pointer transition-colors">
                     <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
                 </button>
             </div>
         </div>
     </header>
 
-    <main class="flex-1 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-10">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <a href="suivi.html" class="bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center">
-                <i data-lucide="package" class="w-8 h-8 text-[#0066cc] mb-4"></i>
-                <h3 class="font-bold text-base">Suivi de commande</h3>
+    <main class="flex-1 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            
+            <a href="suivi.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-[0_2px_8px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.04)] hover:border-[#0066cc]/20 transition-all flex flex-col items-center text-center">
+                <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4 group-hover:scale-105 transition-transform">
+                    <i data-lucide="package" class="w-7 h-7 stroke-[1.8]"></i>
+                </div>
+                <h3 class="font-semibold text-base text-[#1d1d1f]">Suivi de commande</h3>
+                <p class="text-xs text-[#86868b] mt-1">Consultez l'état de fabrication de vos verres en temps réel</p>
             </a>
-            <a href="document.html" class="bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-sm hover:shadow-md transition-all flex flex-col items-center text-center">
-                <i data-lucide="file-text" class="w-8 h-8 text-purple-600 mb-4"></i>
-                <h3 class="font-bold text-base">Documents</h3>
+
+            <a href="document.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-[0_2px_8px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.04)] hover:border-purple-200 transition-all flex flex-col items-center text-center">
+                <div class="p-4 bg-purple-50 text-purple-600 rounded-2xl mb-4 group-hover:scale-105 transition-transform">
+                    <i data-lucide="file-text" class="w-7 h-7 stroke-[1.8]"></i>
+                </div>
+                <h3 class="font-semibold text-base text-[#1d1d1f]">Documents & Outils</h3>
+                <p class="text-xs text-[#86868b] mt-1">Téléchargez vos catalogues, tarifs et fiches techniques</p>
             </a>
+
         </div>
     </main>
 
