@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full bg-gray-50">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion - V2I Optique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full flex items-center justify-center">
+    <div class="w-full max-w-sm p-8 bg-white rounded-2xl shadow-xl">
+        <h2 class="text-2xl font-bold mb-6 text-center">Connexion V2I</h2>
+        <input type="password" id="password" placeholder="Code d'accès" class="w-full p-3 mb-4 border rounded-lg">
+        <button onclick="checkLogin()" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700">
+            Accéder au portail
+        </button>
+    </div>
+
+    <script>
+        function checkLogin() {
+            const pass = document.getElementById('password').value;
+            // Exemple simple : en production, utilisez une validation sécurisée
+            if (pass === "v2i2026") {
+                localStorage.setItem('v2i_authenticated', 'true');
+                window.location.href = 'index.html';
+            } else {
+                alert("Code incorrect");
+            }
+        }
+    </script>
+</body>
+</html>
