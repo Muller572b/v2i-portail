@@ -10,63 +10,8 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "12/06/2026 10:42",
+  "derniere_mise_a_jour": "12/06/2026 10:57",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10162146",
-      "id_commande_v2i": "260612000006",
-      "code_cote": "B",
-      "patient": "ORSINI Annick",
-      "job_cosium": "",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: ORSINI Annick — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-1.00",
-        "cylindre": "1.50",
-        "axe": 155,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol Degradée Prog Eco 1.5",
-          "Teinte Dégradée Gris C",
-          "Couloir 20 mm"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 10,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol Degradée Prog Eco 1.5",
-          "Teinte Dégradée Gris C",
-          "Couloir 20 mm"
-        ]
-      }
-    },
     {
       "ord_numb": "            10162156",
       "id_commande_v2i": "260612000016",
@@ -123,6 +68,61 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162146",
+      "id_commande_v2i": "260612000006",
+      "code_cote": "B",
+      "patient": "ORSINI Annick",
+      "job_cosium": "",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: ORSINI Annick — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.00",
+        "cylindre": "1.50",
+        "axe": 155,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol Degradée Prog Eco 1.5",
+          "Teinte Dégradée Gris C",
+          "Couloir 20 mm"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 10,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol Degradée Prog Eco 1.5",
+          "Teinte Dégradée Gris C",
+          "Couloir 20 mm"
         ]
       }
     },
@@ -184,61 +184,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162117",
-      "id_commande_v2i": "260611000223",
-      "code_cote": "B",
-      "patient": "TARDIEU NATHALIE",
-      "job_cosium": "J600029178",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: TARDIEU NATHALIE / J600029178 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Primo Confort 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Primo Confort 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
         ]
       }
     },
@@ -514,15 +459,70 @@
       }
     },
     {
+      "ord_numb": "            10162117",
+      "id_commande_v2i": "260611000223",
+      "code_cote": "B",
+      "patient": "TARDIEU NATHALIE",
+      "job_cosium": "J600029178",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: TARDIEU NATHALIE / J600029178 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Primo Confort 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Primo Confort 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162130",
       "id_commande_v2i": "260611000236",
       "code_cote": "B",
       "patient": "GERANDI MARTINE",
       "job_cosium": "J600029187",
       "date_entree": "11/06/2026",
-      "detail": "Réf: GERANDI MARTINE / J600029187 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: GERANDI MARTINE / J600029187 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
