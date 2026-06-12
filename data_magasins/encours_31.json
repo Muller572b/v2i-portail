@@ -10,8 +10,63 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "12/06/2026 14:42",
+  "derniere_mise_a_jour": "12/06/2026 14:57",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162277",
+      "id_commande_v2i": "260612000137",
+      "code_cote": "B",
+      "patient": "VILLAIN ALBERTI MICKAEL",
+      "job_cosium": "J127030982",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: VILLAIN ALBERTI MICKAEL / J127030982 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.75",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "2.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162014",
       "id_commande_v2i": "260611000120",
@@ -174,6 +229,61 @@
       }
     },
     {
+      "ord_numb": "            10161599",
+      "id_commande_v2i": "260609000135",
+      "code_cote": "B",
+      "patient": "SUZZONI AGNES THERESE",
+      "job_cosium": "J127030955-01",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: SUZZONI AGNES THERESE / J127030955-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "1.50",
+        "axe": 110,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161595",
       "id_commande_v2i": "260609000131",
       "code_cote": "B",
@@ -221,61 +331,6 @@
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
         "hauteur": "24.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161599",
-      "id_commande_v2i": "260609000135",
-      "code_cote": "B",
-      "patient": "SUZZONI AGNES THERESE",
-      "job_cosium": "J127030955-01",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: SUZZONI AGNES THERESE / J127030955-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "1.50",
-        "axe": 110,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "1.25",
-        "axe": 80,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "32.0",
         "supplements": [
           "Media 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
