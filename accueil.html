@@ -14,82 +14,63 @@
 <body class="bg-[#f5f5f7] min-h-screen text-[#1d1d1f] antialiased">
 
     <!-- BARRE DE NAVIGATION -->
-    <nav class="bg-white/70 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="flex justify-between h-14 items-center">
-                <div class="flex items-center gap-3">
-                    <span class="font-semibold text-base tracking-tight text-[#1d1d1f]">V2I Optique</span>
-                    <!-- ID aligné avec accueil.js pour injecter le nom de l'enseigne -->
-                    <span id="store-name" class="bg-[#e2f1ff] text-[#0066cc] text-xs px-2.5 py-1 rounded-full font-medium border border-[#bfe0ff]/40">Chargement...</span>
-                </div>
-                
-                <!-- Liens de navigation inter-pages -->
-                <div class="hidden md:flex items-center h-full space-x-1">
-                    <a href="accueil.html" class="px-4 h-14 text-sm font-medium border-b-2 border-[#0066cc] text-[#1d1d1f] flex items-center gap-2 transition-all">
-                        <i data-lucide="home" class="w-4 h-4 stroke-[1.5]"></i> Accueil
-                    </a>
-                    <a href="suivi.html" class="px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 transition-all">
-                        <i data-lucide="activity" class="w-4 h-4 stroke-[1.5]"></i> Suivi de commande Verres
-                    </a>
-                    <a href="calcul.html" class="px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 transition-all">
-                        <i data-lucide="layers" class="w-4 h-4 stroke-[1.5]"></i> Calcul Verre
-                    </a>
-                    <a href="documents.html" class="px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 transition-all">
-                        <i data-lucide="file-text" class="w-4 h-4 stroke-[1.5]"></i> Documents
-                    </a>
-                </div>
-
-                <!-- Action de déconnexion gérée par accueil.js -->
-                <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] transition-colors flex items-center gap-1.5 text-xs font-medium cursor-pointer">
-                    Déconnexion <i data-lucide="log-out" class="w-3.5 h-3.5"></i>
+    <nav class="bg-white border-b border-[#e8e8ed] sticky top-0 z-50 h-14 flex items-center">
+        <div class="max-w-7xl mx-auto px-6 w-full flex justify-between items-center">
+            
+            <!-- Gauche : Logo & Badge Magasin -->
+            <div class="flex items-center gap-3">
+                <span class="font-semibold text-base tracking-tight text-[#1d1d1f]">
+                    V2I <span class="text-[#0066cc]">Optique</span>
+                </span>
+                <!-- Badge dynamique ajusté selon l'image -->
+                <span id="store-name" class="bg-[#e2f1ff] text-[#0066cc] text-xs px-3 py-1 rounded-full font-medium border border-[#bfe0ff]/30">
+                    Chargement...
+                </span>
+            </div>
+            
+            <!-- Droite : Liens de navigation simplifiés comme sur l'image -->
+            <div class="hidden md:flex items-center gap-6">
+                <a href="accueil.html" class="bg-[#e2f1ff] text-[#0066cc] px-3 py-1 rounded-full text-sm font-medium no-underline">
+                    Accueil
+                </a>
+                <a href="suivi.html" class="text-[#86868b] hover:text-[#1d1d1f] text-sm font-medium no-underline transition-colors">
+                    Suivi
+                </a>
+                <a href="documents.html" class="text-[#86868b] hover:text-[#1d1d1f] text-sm font-medium no-underline transition-colors">
+                    Documents
+                </a>
+                <button onclick="logout()" class="text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1 text-sm font-medium cursor-pointer transition-colors">
+                    <i data-lucide="log-out" class="w-4 h-4 stroke-[1.5]"></i> Déconnexion
                 </button>
             </div>
+
         </div>
     </nav>
 
-    <!-- CONTENU PRINCIPAL DE L'ACCUEIL -->
-    <main class="max-w-7xl mx-auto px-6 py-10">
-        <div class="space-y-10">
+    <!-- CONTENU PRINCIPAL (Grille à 2 colonnes parfaitement centrée) -->
+    <main class="max-w-4xl mx-auto px-6 pt-16">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
             
-            <!-- Raccourcis du Tableau de Bord -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <a href="suivi.html" class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#0066cc]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer no-underline">
-                    <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4 transition-colors">
-                        <i data-lucide="package" class="w-8 h-8 stroke-[1.5]"></i>
-                    </div>
-                    <span class="text-lg font-semibold text-[#1d1d1f]">Suivi de commande</span>
-                </a>
-
-                <div class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#34c759]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer">
-                    <div class="p-4 bg-[#e3f7e9] text-[#34c759] rounded-2xl mb-4">
-                        <i data-lucide="glasses" class="w-8 h-8 stroke-[1.5]"></i>
-                    </div>
-                    <span class="text-lg font-semibold text-[#1d1d1f]">Montures</span>
+            <!-- Carte 1 : Suivi de commande -->
+            <a href="suivi.html" class="flex flex-col items-center justify-center p-12 bg-white border border-[#e8e8ed] rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.03)] hover:scale-[1.01] transition-all text-center group cursor-pointer no-underline min-h-[180px]">
+                <div class="text-[#0066cc] mb-4">
+                    <i data-lucide="box" class="w-10 h-10 stroke-[1.5]"></i>
                 </div>
+                <span class="text-base font-semibold text-[#1d1d1f]">Suivi de commande</span>
+            </a>
 
-                <a href="documents.html" class="flex flex-col items-center justify-center p-8 bg-white border border-[#e8e8ed] rounded-3xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_35px_rgba(0,0,0,0.04)] hover:border-[#af52de]/30 hover:scale-[1.01] transition-all text-center group cursor-pointer no-underline">
-                    <div class="p-4 bg-[#f3e6f9] text-[#af52de] rounded-2xl mb-4">
-                        <i data-lucide="file-text" class="w-8 h-8 stroke-[1.5]"></i>
-                    </div>
-                    <span class="text-lg font-semibold text-[#1d1d1f]">Documents</span>
-                </a>
-            </div>
-
-            <!-- Bloc Actualités Métier -->
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 max-w-md">
-                <h3 class="text-sm font-bold text-gray-700 mb-3 flex items-center gap-2">
-                    <span class="w-2 h-2 rounded-full bg-red-500"></span>
-                    Flux Acuité.fr — Actualités de l'optique
-                </h3>
-                <div id="bloc-actualites">
-                    <p class="text-xs text-gray-400 p-4 text-center animate-pulse">Chargement des actualités...</p>
+            <!-- Carte 2 : Documents -->
+            <a href="documents.html" class="flex flex-col items-center justify-center p-12 bg-white border border-[#e8e8ed] rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.03)] hover:scale-[1.01] transition-all text-center group cursor-pointer no-underline min-h-[180px]">
+                <div class="text-[#af52de] mb-4">
+                    <i data-lucide="file-text" class="w-10 h-10 stroke-[1.5]"></i>
                 </div>
-            </div>
+                <span class="text-base font-semibold text-[#1d1d1f]">Documents</span>
+            </a>
 
         </div>
     </main>
 
-    <!-- CHARGEMENT DU SCRIPT DÉDIÉ -->
+    <!-- SCRIPT -->
     <script src="accueil.js"></script>
 </body>
 </html>
