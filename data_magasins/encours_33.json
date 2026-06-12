@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "12/06/2026 15:12",
+  "derniere_mise_a_jour": "12/06/2026 15:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162213",
@@ -178,6 +178,67 @@
       }
     },
     {
+      "ord_numb": "            10162255",
+      "id_commande_v2i": "260612000115",
+      "code_cote": "B",
+      "patient": "LEFRANCOIS CHRISTINE",
+      "job_cosium": "J140026195-02",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: LEFRANCOIS CHRISTINE / J140026195-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 150,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 XBlue Durci A",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Epaisseur spéciale",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162215",
       "id_commande_v2i": "260612000075",
       "code_cote": "B",
@@ -287,67 +348,6 @@
           "Durci Inclus",
           "Optimisé",
           "Epaisseur spéciale"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162255",
-      "id_commande_v2i": "260612000115",
-      "code_cote": "B",
-      "patient": "LEFRANCOIS CHRISTINE",
-      "job_cosium": "J140026195-02",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: LEFRANCOIS CHRISTINE / J140026195-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 150,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 XBlue Durci A",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Epaisseur spéciale",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
