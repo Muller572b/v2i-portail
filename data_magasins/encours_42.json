@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "12/06/2026 16:12",
+  "derniere_mise_a_jour": "12/06/2026 16:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162158",
@@ -190,6 +190,61 @@
       }
     },
     {
+      "ord_numb": "            10162205",
+      "id_commande_v2i": "260612000065",
+      "code_cote": "B",
+      "patient": "LOUE VERONIQUE",
+      "job_cosium": "J148017937-01",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: LOUE VERONIQUE / J148017937-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162210",
       "id_commande_v2i": "260612000070",
       "code_cote": "B",
@@ -295,61 +350,6 @@
           "Tchin 100% HD 1.6 Durci Arh",
           "Antireflet interne face CC inclus",
           "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162205",
-      "id_commande_v2i": "260612000065",
-      "code_cote": "B",
-      "patient": "LOUE VERONIQUE",
-      "job_cosium": "J148017937-01",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: LOUE VERONIQUE / J148017937-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "CLA Progressif 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "CLA Progressif 1.67 HC AR",
-          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
