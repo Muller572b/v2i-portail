@@ -1,60 +1,107 @@
 /**
  * V2i Portail - Module de Suivi des Commandes (suivi.js)
- * Gère l'affichage des encours, le lazy-loading des archives depuis GitHub,
- * les filtres dynamiques, la recherche globale et le panneau de détails techniques.
+ * Gère le flux des encours, le lazy-loading asynchrone des archives depuis GitHub,
+ * les filtres croisés (recherche + dates), le scroll infini et le panneau latéral technique.
  */
 
-// --- ÉTATS GLOBAUX (Partagés avec l'authentification) ---
-let currentStoreId = window.currentStoreId || null;
-let currentCosiumCode = window.currentCosiumCode || null;
-let storeEncours = window.storeEncours || [];
-let storeArchives = window.storeArchives || []; 
-let autoArchivesIncluded = false; 
-let loadedYears = []; 
-let isLoadingArchives = false; 
-let searchTimeout = null;
-
-// --- CONFIGURATION DE LA CONSTANTE GITHUB ---
+// --- CONFIGURATION CONSTANTE GITHUB ---
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
+// --- ÉTATS GLOBAUX PERSISTANTS (Extraits du LocalStorage) ---
+let currentStoreId = localStorage.getItem('v2i_client_id') || null;
+let currentCosiumCode = localStorage.getItem('v2i_cosium_code') || null;
+
+let storeEncours = [];
+let storeArchives = []; 
+let autoArchivesIncluded = false; 
+let loadedYears = []; 
+let isLoadingArchives = false; // Verrou de sécurité global
+let searchTimeout = null;
+
 /**
- * Sécurise l'accès à l'onglet de suivi
+ * Le Gardien : Vérifie l'état de la session avant d'afficher les données
  */
 function checkSession() {
-    if (!currentStoreId || !currentCosiumCode) {
-        console.warn("Session manquante. Redirection vers l'écran de connexion.");
-        if (typeof logout === 'function') logout();
+    if (localStorage.getItem('v2i_authenticated') !== 'true' || !currentStoreId) {
+        console.warn("Session non authentifiée. Éjection vers la page de connexion.");
+        window.location.href = './login.html';
         return false;
     }
     return true;
 }
 
+// Exécution immédiate du gardien à la lecture du script
+checkSession();
+
 /**
- * Génère des classes CSS pour les badges de statut
- * @param {string} statut 
- * @returns {string} Classes CSS Tailwind
+ * Initialisation au chargement de la page suivi.html
  */
-function getStatusBadgeClass(statut) {
-    const s = statut.toLowerCase().trim();
-    if (s.includes('expédi') || s.includes('expedi')) {
-        return "bg-green-50 text-green-700 border border-green-200/60";
+document.addEventListener('DOMContentLoaded', () => {
+    if (!checkSession()) return;
+
+    // Mise à jour de l'affichage du badge magasin si présent
+    const storeBadge = document.getElementById('store-badge');
+    if (storeBadge) {
+        storeBadge.innerText = `Magasin : N° ${currentStoreId} (${currentCosiumCode || 'Labo'})`;
     }
-    if (s.includes('attente') || s.includes('calcul')) {
-        return "bg-amber-50 text-amber-700 border border-amber-200/60";
+
+    // Chargement initial du flux des encours
+    loadStoreEncours();
+
+    // Activation du scroll infini pour les archives
+    window.addEventListener('scroll', handleScrollLoad);
+
+    // Liaison des écouteurs d'événements sur les éléments d'interface
+    setupFilters();
+});
+
+/**
+ * Configure les écouteurs sur les entrées de filtres et recherche
+ */
+function setupFilters() {
+    const searchInput = document.getElementById('search-verres');
+    if (searchInput) {
+        searchInput.addEventListener('input', handleSearchInput);
     }
-    if (s.includes('annul') || s.includes('rejet')) {
-        return "bg-red-50 text-red-700 border border-red-200/60";
-    }
-    if (s.includes('sblk') || s.includes('fabriqu')) {
-        return "bg-indigo-50 text-indigo-700 border border-indigo-200/60";
-    }
-    // Statut par défaut (En cours de fabrication / Montage...)
-    return "bg-blue-50 text-blue-700 border border-blue-200/60";
+
+    const dateDebutInput = document.getElementById('date-debut');
+    const dateFinInput = document.getElementById('date-fin');
+    if (dateDebutInput) dateDebutInput.addEventListener('change', handleDateBoundsChange);
+    if (dateFinInput) dateFinInput.addEventListener('change', handleDateBoundsChange);
 }
 
 /**
- * Charge les archives d'une année spécifique depuis GitHub
- * @param {number} year 
+ * Récupère le flux JSON des commandes en cours du magasin connecté
+ */
+async function loadStoreEncours() {
+    if (!currentStoreId) return;
+    
+    const urlJsonEncours = `${GITHUB_BASE_URL}/data_magasins/encours_${currentStoreId}.json`;
+    try {
+        const response = await fetch(urlJsonEncours);
+        if (!response.ok) throw new Error("Fichier encours introuvable");
+        
+        const data = await response.json();
+        storeEncours = data.commandes_en_cours || [];
+        
+        // Optionnel : Actualise dynamiquement le nom réel du magasin si disponible
+        const storeBadge = document.getElementById('store-badge');
+        if (storeBadge && data.infos_magasin && data.infos_magasin.nom) {
+            storeBadge.innerText = `Magasin : ${data.infos_magasin.nom} (${currentCosiumCode})`;
+        }
+
+        renderVerres();
+    } catch (err) {
+        console.error("Erreur lors de la récupération des encours:", err);
+        const tbody = document.getElementById('verres-table-body');
+        if (tbody) {
+            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-gray-400 bg-white">Aucune commande en cours trouvée pour ce magasin.</td></tr>`;
+        }
+    }
+}
+
+/**
+ * Charge à la volée le fichier d'archive d'une année spécifique
  */
 async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
@@ -91,11 +138,11 @@ async function loadArchiveYear(year) {
 }
 
 /**
- * Déclenche le chargement automatique des archives au défilement (Infinite Scroll)
+ * Déclenche le chargement automatique de l'année en cours lors d'un scroll en bas de page
  */
 function handleScrollLoad() {
-    if (!checkSession()) return;
-    if (document.getElementById('content-verres').classList.contains('hidden')) return;
+    const contentVerres = document.getElementById('content-verres');
+    if (contentVerres && contentVerres.classList.contains('hidden')) return;
     if (autoArchivesIncluded || isLoadingArchives) return;
 
     if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
@@ -111,11 +158,9 @@ function handleScrollLoad() {
 }
 
 /**
- * Gère le changement des filtres de dates pour charger massivement les archives cibles
+ * Intercepte les modifications des filtres de dates pour pré-charger les bonnes archives
  */
 async function handleDateBoundsChange() {
-    if (!checkSession()) return;
-    
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
     
@@ -159,7 +204,7 @@ async function handleDateBoundsChange() {
             await Promise.all(anneesACharger.map(year => loadArchiveYear(year)));
             autoArchivesIncluded = true;
         } catch (err) {
-            console.error("Erreur lors du chargement des archives :", err);
+            console.error("Erreur lors du chargement des blocs d'archives :", err);
         } finally {
             isLoadingArchives = false;
         }
@@ -169,13 +214,26 @@ async function handleDateBoundsChange() {
 }
 
 /**
- * Recherche adaptative intelligente (si recherche numérique >= 5 caractères, charge les archives)
+ * Convertit les chaînes de caractères de type DD/MM/YYYY en objet Date JavaScript
+ */
+function parseDate(dateStr) {
+    if (!dateStr) return null;
+    const parts = dateStr.split(' ')[0].split('/');
+    if (parts.length === 3) {
+        return new Date(parts[2], parts[1] - 1, parts[0], 0, 0, 0, 0);
+    }
+    return null;
+}
+
+/**
+ * Système de Debounce appliqué sur la saisie de recherche globale
  */
 function handleSearchInput() {
     clearTimeout(searchTimeout);
     
     searchTimeout = setTimeout(async () => {
-        const searchValue = document.getElementById('search-verres').value.trim();
+        const searchInput = document.getElementById('search-verres');
+        const searchValue = searchInput ? searchInput.value.trim() : '';
         
         if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
             const currentYear = new Date().getFullYear();
@@ -204,19 +262,7 @@ function handleSearchInput() {
 }
 
 /**
- * Transforme le format "DD/MM/YYYY" en objet Date JavaScript
- */
-function parseDate(dateStr) {
-    if (!dateStr) return null;
-    const parts = dateStr.split(' ')[0].split('/');
-    if (parts.length === 3) {
-        return new Date(parts[2], parts[1] - 1, parts[0], 0, 0, 0, 0);
-    }
-    return null;
-}
-
-/**
- * CONTRÔLEUR DE RENDU PRINCIPAL DU TABLEAU
+ * Construit et injecte les lignes de données filtrées dans le tableau HTML
  */
 function renderVerres() {
     const tbody = document.getElementById('verres-table-body'); 
@@ -259,7 +305,6 @@ function renderVerres() {
         });
     }
 
-    // Déduplication stricte des clés uniques de commandes
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -272,7 +317,6 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // Filtrage multi-critères (Recherche textuelle + Bornes temporelles)
     const donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -304,7 +348,6 @@ function renderVerres() {
         return;
     }
 
-    // Limitation d'affichage à 60 lignes pour des performances optimales de rendu DOM
     const auMaximum = donneesFiltrees.slice(0, 60);
     let rowsHtml = [];
 
@@ -336,12 +379,12 @@ function renderVerres() {
 
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
-
-        const codeMagasinActuel = currentCosiumCode; 
         
-        // Extraction intelligente de l'année pour localiser le bon dossier d'eBL sur GitHub
+        // Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
         const anneeBL = "20" + idCommande.substring(0, 2);
-        const urlEbl = `${GITHUB_BASE_URL}/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        
+        // Construction de l'URL directe pour l'eBL certifié PDF
+        const urlEbl = `${GITHUB_BASE_URL}/eBLcertifie/${anneeBL}/${currentStoreId}/${currentCosiumCode}_BL_${idCommande}.pdf`;
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -351,21 +394,17 @@ function renderVerres() {
                 </td>
                 <td class="px-6 py-4">${htmlSupplements}</td> 
                 <td class="px-6 py-4 font-mono">${v.date_entree || '—'}</td>
-                <td class="px-6 py-4">
-                    <span class="px-2.5 py-1 rounded-full text-[11px] font-semibold tracking-wide inline-block ${getStatusBadgeClass(statutFournisseur)}">
-                        ${statutFournisseur}
-                    </span>
-                </td>
-                <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/20 text-sm rounded-lg">${livraisonPrevue}</td>
-                <td class="px-6 py-4 font-mono font-medium text-gray-600">${idCommande}</td>
+                <td class="px-6 py-4 font-mono font-bold">${statutFournisseur}</td>
+                <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
+                <td class="px-6 py-4 font-mono font-bold">${idCommande}</td>
                 <td class="px-6 py-4">
                     <div class="flex items-center justify-center gap-2">
-                        <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer transition-colors" title="Voir les détails techniques">
+                        <button onclick="openSidePanel('${idCommande}')" class="p-2 text-[#86868b] hover:text-[#0066cc] bg-[#f5f5f7] rounded-xl cursor-pointer" title="Voir les détails">
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
                         
                         ${estExpedie ? `
-                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL certifié">
+                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
                                 <span>eBL</span>
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
                             </a>
@@ -382,8 +421,7 @@ function renderVerres() {
 }
 
 /**
- * Ouvre le panneau latéral droit et injecte les données techniques détaillées de la commande
- * @param {string} idCommande 
+ * Remplit et déploie le volet technique latéral pour une commande sélectionnée
  */
 function openSidePanel(idCommande) {
     const toutesLesCommandes = [...storeEncours, ...storeArchives];
@@ -398,7 +436,7 @@ function openSidePanel(idCommande) {
     document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + (cmd.id_commande_v2i || cmd.ord_numb || cmd.id_bl_v2i);
     document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
     
-    // Traitement de l'œil droit
+    // Traitement Données Œil Droit
     if (cmd.oeil_droit) {
         document.getElementById('panel-od-row').style.display = 'grid';
         document.getElementById('od-sph').innerText = cmd.oeil_droit.sphere || '0.00';
@@ -419,7 +457,7 @@ function openSidePanel(idCommande) {
         document.getElementById('morpho-od-haut').innerText = "—";
     }
 
-    // Traitement de l'œil gauche
+    // Traitement Données Œil Gauche
     if (cmd.oeil_gauche) {
         document.getElementById('panel-og-row').style.display = 'grid';
         document.getElementById('og-sph').innerText = cmd.oeil_gauche.sphere || '0.00';
@@ -440,38 +478,47 @@ function openSidePanel(idCommande) {
         document.getElementById('morpho-og-haut').innerText = "—";
     }
 
-    // Traitements additionnels et suppléments
+    // Traitements additionnels et suppléments verres
     const containerSupps = document.getElementById('panel-supplements');
-    containerSupps.innerHTML = '';
-    const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
-    const uniques = [...new Set(allSupps)];
+    if (containerSupps) {
+        containerSupps.innerHTML = '';
+        const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
+        const uniques = [...new Set(allSupps)];
 
-    if (uniques.length > 0) {
-        uniques.forEach(s => {
-            containerSupps.innerHTML += `<span class="bg-[#f5f5f7] text-[#1d1d1f] border border-[#e8e8ed] px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
-        });
-    } else {
-        containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
+        if (uniques.length > 0) {
+            uniques.forEach(s => {
+                containerSupps.innerHTML += `<span class="bg-[#f5f5f7] text-[#1d1d1f] border border-[#e8e8ed] px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
+            });
+        } else {
+            containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
+        }
     }
 
-    document.getElementById('side-panel').classList.remove('hidden');
+    const sidePanel = document.getElementById('side-panel');
+    if (sidePanel) sidePanel.classList.remove('hidden');
     if (window.lucide) lucide.createIcons();
 }
 
 /**
- * Ferme le panneau latéral droit
+ * Referme le volet technique latéral
  */
 function closeSidePanel() {
-    document.getElementById('side-panel').classList.add('hidden');
+    const sidePanel = document.getElementById('side-panel');
+    if (sidePanel) sidePanel.classList.add('hidden');
 }
 
-// Initialisation globale des Listeners si les éléments sont présents au chargement
-document.addEventListener('DOMContentLoaded', () => {
-    const searchEl = document.getElementById('search-verres');
-    if (searchEl) searchEl.addEventListener('input', handleSearchInput);
+/**
+ * Déconnexion de l'espace de suivi
+ */
+function logout() {
+    window.removeEventListener('scroll', handleScrollLoad);
+    localStorage.removeItem('v2i_authenticated');
+    localStorage.removeItem('v2i_client_id');
+    localStorage.removeItem('v2i_cosium_code');
+    window.location.href = './login.html';
+}
 
-    const dateDebutEl = document.getElementById('date-debut');
-    const dateFinEl = document.getElementById('date-fin');
-    if (dateDebutEl) dateDebutEl.addEventListener('change', handleDateBoundsChange);
-    if (dateFinEl) dateFinEl.addEventListener('change', handleDateBoundsChange);
-});
+// --- EXPOSITION DES FONCTIONS AU CONTEXTE GLOBAL (Pour attributs HTML onclick) ---
+window.openSidePanel = openSidePanel;
+window.closeSidePanel = closeSidePanel;
+window.logout = logout;
