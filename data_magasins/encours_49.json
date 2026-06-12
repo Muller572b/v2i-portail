@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "12/06/2026 11:42",
+  "derniere_mise_a_jour": "12/06/2026 11:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10161972",
@@ -66,116 +66,6 @@
           "Durci Inclus",
           "Teinte G15 C",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161754",
-      "id_commande_v2i": "260610000073",
-      "code_cote": "B",
-      "patient": "ANDARELLI CELINE",
-      "job_cosium": "J205030325",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: ANDARELLI CELINE / J205030325 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161775",
-      "id_commande_v2i": "260610000094",
-      "code_cote": "B",
-      "patient": "SEGARD PINELLI BASILE",
-      "job_cosium": "J205030332",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: SEGARD PINELLI BASILE / J205030332 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.50",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -292,6 +182,116 @@
           "2de Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161754",
+      "id_commande_v2i": "260610000073",
+      "code_cote": "B",
+      "patient": "ANDARELLI CELINE",
+      "job_cosium": "J205030325",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: ANDARELLI CELINE / J205030325 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161775",
+      "id_commande_v2i": "260610000094",
+      "code_cote": "B",
+      "patient": "SEGARD PINELLI BASILE",
+      "job_cosium": "J205030332",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: SEGARD PINELLI BASILE / J205030332 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
