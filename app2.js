@@ -67,20 +67,17 @@ async function chargerFluxRSS() {
     if (!conteneur) return; 
 
     const urlFlux = "https://www.acuite.fr/rss.xml";
-    // Utilisation de corsproxy.io (plus rapide, stable et renvoie directement le XML brut)
     const urlProxy = `https://corsproxy.io/?${encodeURIComponent(urlFlux)}`;
 
     try {
         const response = await fetch(urlProxy);
         if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
         
-        // On récupère directement le texte du XML
         const xmlText = await response.text();
         
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, "text/xml");
         
-        // Sécurité si le XML est malformé
         if (xmlDoc.querySelector("parsererror")) {
             throw new Error("Erreur de lecture du flux XML");
         }
@@ -96,7 +93,6 @@ async function chargerFluxRSS() {
             const link = item.querySelector("link")?.textContent || "#";
             const description = item.querySelector("description")?.textContent || "";
 
-            // Nettoyage des éventuelles balises HTML résiduelles dans la description
             const cleanDesc = description.replace(/<\/?[^>]+(>|$)/g, "").trim();
 
             html += `
@@ -116,7 +112,6 @@ async function chargerFluxRSS() {
     } catch (error) {
         console.error("Détail de l'erreur RSS :", error);
         
-        // Version de secours "élégante" : si le proxy flanche, on propose un lien direct
         conteneur.innerHTML = `
             <div class="text-center p-4">
                 <p class="text-xs text-gray-400 mb-2">Flux en direct indisponible.</p>
@@ -135,7 +130,6 @@ async function loadArchiveYear(year) {
     if (!year || isNaN(year) || loadedYears.includes(year) || !currentStoreId) return;
     loadedYears.push(year);
 
-    // Corrigé
     const urlJsonArchive = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/data_archives/${year}/archive_${currentStoreId}.json`;
     try {
         const resp = await fetch(urlJsonArchive);
@@ -162,53 +156,65 @@ async function loadArchiveYear(year) {
             }
         }
     } catch (e) {
-        console.log(`Pas d'archive disponie pour l'année ${year} ou ce magasin.`);
+        console.log(`Pas d'archive disponible pour l'année ${year} ou ce magasin.`);
     }
 }
 
-function handleScrollLoad() {
+// 🚀 NOUVEAU LOGIQUE OPTION A : Se déclenche de façon autonome via l'Observer
+function chargerArchivesSuivantes() {
     if (document.getElementById('content-verres').classList.contains('hidden')) return;
     if (isLoadingArchives) return;
 
-    // Détecte si on est proche du bas de la page
-    if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 150) {
-        
-        // Étape A : Si on a des données chargées mais non affichées à cause de la limite, on augmente la limite
-        // On vérifie grossièrement si le tableau actuel contient potentiellement plus de données
-        const totalDataLength = storeEncours.length + storeArchives.length;
-        if (maxVisibleItems < totalDataLength) {
-            maxVisibleItems += 60;
-            renderVerres();
-            return; // On a juste étendu l'affichage, pas besoin de fetch GitHub pour l'instant
-        }
-
-        // Étape B : Si on a déjà tout affiché de ce qu'on avait en mémoire, on va chercher l'année précédente !
-        isLoadingArchives = true;
-        
-        // Calcul de la prochaine année à charger
-        const currentYear = new Date().getFullYear();
-        let yearToLoad = currentYear;
-
-        if (loadedYears.length > 0) {
-            yearToLoad = Math.min(...loadedYears) - 1; // Prend l'année la plus ancienne chargée et fait -1
-        }
-
-        // Sécurité pour ne pas remonter à l'âge de pierre (ex: pas plus loin que 2023)
-        if (yearToLoad < 2023) {
-            isLoadingArchives = false;
-            return;
-        }
-
-        console.log(`📜 Scroll bas de page : Tentative de chargement de l'année ${yearToLoad}`);
-        
-        loadArchiveYear(yearToLoad).then(() => {
-            isLoadingArchives = false;
-            maxVisibleItems += 60; // Donne de l'espace pour afficher la nouvelle année reçue
-            renderVerres();
-        }).catch(() => { 
-            isLoadingArchives = false; 
-        });
+    // Étape A : Si on a déjà chargé des données mais qu'elles dépassent la limite d'affichage
+    const totalDataLength = storeEncours.length + storeArchives.length;
+    if (maxVisibleItems < totalDataLength) {
+        maxVisibleItems += 60;
+        renderVerres();
+        return;
     }
+
+    // Étape B : Si tout est déjà à l'écran, on va chercher l'année précédente sur GitHub
+    isLoadingArchives = true;
+    
+    const currentYear = new Date().getFullYear();
+    let yearToLoad = currentYear;
+
+    if (loadedYears.length > 0) {
+        yearToLoad = Math.min(...loadedYears) - 1;
+    }
+
+    if (yearToLoad < 2023) {
+        isLoadingArchives = false;
+        return;
+    }
+
+    console.log(`📜 Observer : Tentative de chargement de l'année ${yearToLoad}`);
+    
+    loadArchiveYear(yearToLoad).then(() => {
+        isLoadingArchives = false;
+        maxVisibleItems += 60; 
+        renderVerres();
+    }).catch(() => { 
+        isLoadingArchives = false; 
+    });
+}
+
+// 🚀 INITIALISATION DE L'OBSERVER : À appeler dans handleLogin() à la place du scroll listener
+function initArchiveObserver() {
+    const trigger = document.getElementById('archive-trigger');
+    if (!trigger) return;
+
+    const observer = new IntersectionObserver((entries) => {
+        // Dès que la div invisible entre dans le champ de vision (à 150px près)
+        if (entries[0].isIntersecting) {
+            chargerArchivesSuivantes();
+        }
+    }, {
+        root: null,          // Viewport global (s'adapte à n'importe quel conteneur CSS overflow)
+        rootMargin: '150px'  // Déclenche l'action 150px avant que l'élément soit vu à l'écran
+    });
+
+    observer.observe(trigger);
 }
 async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
