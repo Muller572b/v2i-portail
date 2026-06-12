@@ -3,357 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V2I Optique - Portail Client</title>
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <!-- Lucide Icons -->
+    <title>V2I Portail - Accueil</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        /* Masquage de la scrollbar pour une esthétique épurée */
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
     </style>
+    <script>
+        // LE GARDIEN
+        if (localStorage.getItem('v2i_authenticated') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
 </head>
-<body class="h-full font-sans text-[#1d1d1f] antialiased flex flex-col">
-     <nav>
-        <a href="index.html">Accueil</a>
-        <a href="suivi.html">Suivi de commande Verres</a>
-        <a href="document.html">Documents</a>
-    </nav>
-    <!-- ================= SCREEEN DE CONNEXION ================= -->
-    <div id="login-screen" class="fixed inset-0 z-50 flex items-center justify-center bg-[#f5f5f7] px-4">
-        <div class="w-full max-w-md bg-white p-8 rounded-3xl border border-[#e8e8ed] shadow-sm">
-            <div class="text-center mb-8">
-                <h1 class="text-2xl font-bold tracking-tight text-[#1d1d1f]">V2I Optique</h1>
-                <p class="text-sm text-[#86868b] mt-2">Connectez-vous à votre espace laboratoire</p>
+<body class="h-full text-[#1d1d1f] flex flex-col">
+
+    <header class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-40">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <span class="font-bold text-xl tracking-tight text-[#1d1d1f]">V2I <span class="text-[#0066cc]">Optique</span></span>
+                <span id="store-badge" class="inline-flex items-center rounded-full bg-[#e2f1ff] px-3 py-1 text-xs font-semibold text-[#0066cc] border border-blue-100 transition-all">
+                    Magasin : <span id="store-name" class="ml-1 font-mono font-bold">Chargement...</span>
+                </span>
             </div>
             
-            <form onsubmit="handleLogin(e); return false;" id="login-form" class="space-y-5">
-                <div>
-                    <label for="username" class="block text-xs font-semibold text-[#86868b] uppercase tracking-wider mb-2">Identifiant (N° Client)</label>
-                    <input type="text" id="username" required autocomplete="username" class="w-full px-4 py-3 bg-[#f5f5f7] border border-[#e8e8ed] rounded-xl text-sm focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all" placeholder="Ex: 57200">
-                </div>
-                <div>
-                    <label for="password" class="block text-xs font-semibold text-[#86868b] uppercase tracking-wider mb-2">Code Cosium (Mot de passe)</label>
-                    <input type="password" id="password" required autocomplete="current-password" class="w-full px-4 py-3 bg-[#f5f5f7] border border-[#e8e8ed] rounded-xl text-sm focus:outline-none focus:border-[#0066cc] focus:bg-white transition-all" placeholder="Ex: BFO">
-                </div>
-                
-                <div id="login-error" class="text-xs font-medium text-[#ff3b30] bg-[#ff3b30]/10 p-3 rounded-xl hidden"></div>
-                
-                <button type="submit" class="w-full py-3 bg-[#0066cc] hover:bg-[#0055b3] text-white font-semibold rounded-xl text-sm transition-colors cursor-pointer shadow-sm">
-                    Se connecter
-                </button>
-            </form>
-        </div>
-    </div>
-
-    <!-- ================= INTERFACE PRINCIPALE ================= -->
-    <div id="main-interface" class="hidden flex-1 flex flex-col min-h-screen">
-        
-        <!-- Barre de Navigation Supérieure -->
-        <header class="bg-white/80 backdrop-blur-md border-b border-[#e8e8ed] sticky top-0 z-40 px-6">
-            <div class="max-w-7xl mx-auto flex items-center justify-between h-14">
-                <div class="flex items-center gap-6">
-                    <span class="font-bold text-base tracking-tight">V2I Optique</span>
-                    <span id="store-badge" class="px-3 py-1 bg-[#0066cc]/10 text-[#0066cc] font-medium text-xs rounded-full"></span>
-                </div>
-                
-                <!-- Onglets de Navigation -->
-                <nav class="flex h-full">
-                    <button id="tab-accueil" onclick="switchTab('accueil')" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                        <i data-lucide="home" class="w-4 h-4"></i> Accueil
-                    </button>
-                    <button id="tab-verres" onclick="switchTab('verres')" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                        <i data-lucide="activity" class="w-4 h-4"></i> Suivi de commande Verres
-                    </button>
-                    <button id="tab-calcul" onclick="switchTab('calcul')" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                        <i data-lucide="calculator" class="w-4 h-4"></i> Calcul Verre
-                    </button>
-                    <button id="tab-documents" onclick="switchTab('documents')" class="tab-btn px-4 h-14 text-sm font-medium border-b-2 border-transparent text-[#86868b] hover:text-[#1d1d1f] flex items-center gap-2 cursor-pointer transition-all">
-                        <i data-lucide="folder-open" class="w-4 h-4"></i> Documents
-                    </button>
+            <div class="flex items-center gap-6">
+                <nav class="hidden md:flex items-center gap-1">
+                    <a href="accueil.html" class="px-3 py-2 text-sm font-semibold text-[#0066cc] bg-[#e2f1ff]/60 rounded-xl">Accueil</a>
+                    <a href="suivi.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-100/50 rounded-xl transition-all">Suivi</a>
+                    <a href="document.html" class="px-3 py-2 text-sm font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-gray-100/50 rounded-xl transition-all">Documents</a>
                 </nav>
-
-                <button onclick="logout()" class="text-sm font-medium text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1.5 transition-colors cursor-pointer">
-                    Déconnexion <i data-lucide="log-out" class="w-4 h-4"></i>
+                <button onclick="logout()" class="text-xs font-medium text-[#86868b] hover:text-[#ff3b30] flex items-center gap-1.5 cursor-pointer transition-colors">
+                    <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
                 </button>
             </div>
-        </header>
-
-        <!-- Zone de Contenu Principal -->
-        <main class="flex-1 max-w-7xl w-full mx-auto p-6 space-y-6">
-            
-            <!-- Bannière de Statut de Synchronisation des Archives -->
-            <div id="archive-status-banner" class="bg-white border border-[#e8e8ed] px-4 py-3 rounded-2xl flex items-center gap-3 hidden transition-all shadow-sm">
-                <div class="p-1.5 bg-[#30d158]/10 text-[#30d158] rounded-lg">
-                    <i data-lucide="refresh-cw" class="w-4 h-4 animate-spin"></i>
-                </div>
-                <p id="archive-status-text" class="text-xs font-medium text-[#1d1d1f]"></p>
-            </div>
-
-            <!-- TAB: ACCUEIL -->
-            <section id="content-accueil" class="tab-content hidden space-y-6">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm md:col-span-2">
-                        <h2 class="text-lg font-bold tracking-tight mb-2">Bienvenue sur votre espace V2i</h2>
-                        <p class="text-sm text-[#86868b] leading-relaxed">Suivez vos travaux de fabrication RX en temps réel, téléchargez vos eBL sécurisés et accédez à vos documents techniques directement depuis cette interface unifiée.</p>
-                    </div>
-                    <!-- Bloc Actualités Éléments RSS -->
-                    <div class="bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm flex flex-col justify-between">
-                        <div class="flex items-center justify-between border-b border-gray-100 pb-3 mb-3">
-                            <h3 class="text-xs font-bold text-[#1d1d1f] uppercase tracking-wider flex items-center gap-2">
-                                <i data-lucide="newspaper" class="w-4 h-4 text-[#0066cc]"></i> Flux Actu Optique
-                            </h3>
-                            <span class="text-[10px] font-medium bg-[#f5f5f7] text-[#86868b] px-2 py-0.5 rounded-md">Acuite.fr</span>
-                        </div>
-                        <div id="bloc-actualites" class="flex-1 min-h-[140px] flex flex-col justify-center">
-                            <!-- Chargé via Rss.js -->
-                            <div class="text-center p-4 text-xs text-gray-400">Chargement du flux d'actualités...</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- TAB: SUIVI VERRES (Conforme à image_94aadd.png) -->
-            <section id="content-verres" class="tab-content hidden space-y-4">
-                
-                <!-- Barre de Filtrage de Recherche -->
-                <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm flex flex-col sm:flex-row items-center gap-4">
-                    <div class="relative flex-1 w-full">
-                        <i data-lucide="search" class="absolute left-4 top-3.5 w-4 h-4 text-[#86868b]"></i>
-                        <input type="text" id="search-verres" oninput="handleSearchInput()" class="w-full pl-11 pr-4 py-3 bg-[#f5f5f7] rounded-xl text-sm focus:outline-none focus:bg-[#e8e8ed]/60 transition-all font-sans" placeholder="Recherche par Nom du patient, N° de BL, Job Cosium...">
-                    </div>
-                    <div class="flex items-center gap-3 w-full sm:w-auto">
-                        <div class="relative flex-1 sm:flex-initial">
-                            <span class="absolute left-3 top-3.5 text-xs text-[#86868b] font-medium flex items-center gap-1"><i data-lucide="calendar" class="w-3.5 h-3.5"></i> Du :</span>
-                            <input type="date" id="date-debut" onchange="handleDateBoundsChange()" class="pl-14 pr-3 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl text-xs font-mono font-bold focus:outline-none text-[#1d1d1f]">
-                        </div>
-                        <div class="relative flex-1 sm:flex-initial">
-                            <span class="absolute left-3 top-3.5 text-xs text-[#86868b] font-medium flex items-center gap-1"><i data-lucide="calendar" class="w-3.5 h-3.5"></i> Au :</span>
-                            <input type="date" id="date-fin" onchange="handleDateBoundsChange()" class="pl-14 pr-3 py-2.5 bg-[#f5f5f7] border border-transparent rounded-xl text-xs font-mono font-bold focus:outline-none text-[#1d1d1f]">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Table Container -->
-                <div class="bg-white rounded-2xl border border-[#e8e8ed] shadow-sm overflow-hidden">
-                    <div class="overflow-x-auto">
-                        <table class="w-full text-left border-collapse">
-                            <thead>
-                                <tr class="border-b border-[#e8e8ed] bg-[#f5f5f7]/50 text-[11px] font-bold tracking-tight text-[#86868b]">
-                                    <th class="px-6 py-3.5">Référence (Patient)</th>
-                                    <th class="px-6 py-3.5">Produit</th>
-                                    <th class="px-6 py-3.5">Date/Heure de Saisie</th>
-                                    <th class="px-6 py-3.5">Statut Fournisseur</th>
-                                    <th class="px-6 py-3.5 text-[#ff9500]">Sortie / Livr. Prévue</th>
-                                    <th class="px-6 py-3.5">N° Cde (BL)</th>
-                                    <th class="px-6 py-3.5 text-center">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed]">
-                                <!-- Rempli dynamiquement -->
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </section>
-
-            <!-- TAB: CALCUL VERRE -->
-            <section id="content-calcul" class="tab-content hidden space-y-6">
-                <div class="max-w-md bg-white p-6 rounded-3xl border border-[#e8e8ed] shadow-sm">
-                    <h2 class="text-lg font-bold tracking-tight mb-4">Calculateur d'Épaisseur Prédictif</h2>
-                    <div class="space-y-4">
-                        <div>
-                            <label class="block text-xs font-semibold text-[#86868b] uppercase mb-1">Sphère principale (Dioptries)</label>
-                            <input type="number" id="calc-sphere" step="0.25" value="0.00" class="w-full px-4 py-2.5 bg-[#f5f5f7] border border-[#e8e8ed] rounded-xl text-sm font-mono font-bold">
-                        </div>
-                        <button onclick="runCalculation()" class="w-full py-2.5 bg-[#1d1d1f] hover:bg-black text-white font-medium rounded-xl text-xs transition-colors cursor-pointer">
-                            Calculer l'épaisseur estimée
-                        </button>
-                        <div class="pt-4 border-t border-gray-100 flex justify-between items-center">
-                            <span class="text-xs font-medium text-[#86868b]">Épaisseur au centre estimée :</span>
-                            <span class="text-base font-bold font-mono text-[#0066cc]"><span id="calc-result">2.00</span> mm</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- TAB: DOCUMENTS LIBRARY -->
-            <section id="content-documents" class="tab-content hidden space-y-6">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Grille Catalogue -->
-                    <div id="documents-grid" class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <!-- Rempli par renderDocuments() -->
-                    </div>
-                    
-                    <!-- Visionneuse de document Intégrée (Aperçu à droite) -->
-                    <div id="document-viewer" class="bg-white border border-[#e8e8ed] rounded-3xl shadow-sm overflow-hidden flex flex-col h-[500px] sticky top-24 hidden">
-                        <div class="p-4 border-b border-[#e8e8ed] bg-[#f5f5f7]/50 flex items-center justify-between">
-                            <h3 id="viewer-title" class="text-xs font-bold text-[#1d1d1f] truncate max-w-[180px]">Visionneuse</h3>
-                            <div class="flex items-center gap-1.5">
-                                <a id="viewer-fullscreen" target="_blank" class="p-2 text-gray-500 hover:text-[#0066cc] bg-white rounded-xl border border-[#e8e8ed] cursor-pointer" title="Plein écran">
-                                    <i data-lucide="maximize" class="w-3.5 h-3.5"></i>
-                                </a>
-                                <button onclick="fermerApercu()" class="p-2 text-gray-500 hover:text-[#ff3b30] bg-white rounded-xl border border-[#e8e8ed] cursor-pointer" title="Fermer">
-                                    <i data-lucide="x" class="w-3.5 h-3.5"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div id="viewer-content" class="flex-1 bg-gray-50 overflow-hidden relative">
-                            <!-- Contenu dynamique (iframe ou img) -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
-
-    <!-- ================= DOUBLE SIDE PANEL (PANNEAU LATÉRAL MULTI-LIGNES) ================= -->
-    <div id="side-panel" class="fixed inset-0 z-50 overflow-hidden hidden">
-        <!-- Overlay Sombre Arrière-plan -->
-        <div class="absolute inset-0 bg-black/30 backdrop-blur-sm transition-opacity" onclick="closeSidePanel()"></div>
-        
-        <div class="absolute inset-y-0 right-0 max-w-full flex pl-10">
-            <div class="w-screen max-w-2xl bg-white border-l border-[#e8e8ed] shadow-2xl flex flex-col">
-                <!-- Header -->
-                <div class="px-6 py-5 bg-[#f5f5f7]/80 backdrop-blur border-b border-[#e8e8ed] flex items-center justify-between">
-                    <div>
-                        <div id="panel-patient" class="text-lg font-bold uppercase tracking-tight text-[#1d1d1f]">—</div>
-                        <div id="panel-bl" class="text-[10px] font-bold font-mono tracking-wider text-[#86868b] mt-0.5"></div>
-                    </div>
-                    <button onclick="closeSidePanel()" class="p-2 hover:bg-gray-200/60 rounded-xl transition-colors cursor-pointer text-[#86868b]">
-                        <i data-lucide="x" class="w-5 h-5"></i>
-                    </button>
-                </div>
-
-                <!-- Body (Scrollable) -->
-                <div class="flex-1 overflow-y-auto p-6 space-y-6 no-scrollbar">
-                    
-                    <!-- Fiche Technique d'Identification -->
-                    <div class="bg-[#f5f5f7] p-4 rounded-2xl border border-[#e8e8ed] flex justify-between items-center">
-                        <div>
-                            <span class="block text-[10px] font-bold text-[#86868b] uppercase tracking-wider">Identifiant Magasin Cosium</span>
-                            <span id="panel-cosium-id" class="text-sm font-bold font-mono text-[#1d1d1f]"></span>
-                        </div>
-                        <div class="px-3 py-1 bg-[#0066cc]/10 text-[#0066cc] rounded-lg text-xs font-bold font-mono">LAB RX PARTICULIER</div>
-                    </div>
-
-                    <!-- Grille Principale des Puissances Optiques Géométriques -->
-                    <div>
-                        <h4 class="text-xs font-bold text-[#86868b] uppercase tracking-wider mb-3 flex items-center gap-1.5">
-                            <i data-lucide="layers" class="w-3.5 h-3.5 text-gray-400"></i> Géométrie des verres commandés
-                        </h4>
-                        <div class="border border-[#e8e8ed] rounded-2xl overflow-hidden bg-white">
-                            <!-- Entête de la Grille -->
-                            <div class="grid grid-cols-10 gap-1 bg-[#f5f5f7] px-4 py-2 text-[10px] font-bold text-[#86868b] text-center uppercase border-b border-[#e8e8ed]">
-                                <div class="text-left col-span-1">Œil</div>
-                                <div>Sph</div>
-                                <div>Cyl</div>
-                                <div>Axe</div>
-                                <div>Add</div>
-                                <div>Pr1</div>
-                                <div>B1</div>
-                                <div>Pr2</div>
-                                <div>B2</div>
-                                <div>Dia</div>
-                            </div>
-                            
-                            <!-- Contenu des Lignes OD / OG -->
-                            <div class="divide-y divide-[#e8e8ed] text-xs font-mono font-bold text-[#1d1d1f] text-center">
-                                <!-- Œil Droit -->
-                                <div id="panel-od-row" class="grid grid-cols-10 gap-1 px-4 py-3 items-center hover:bg-gray-50/50">
-                                    <div class="text-left font-sans text-xs font-bold text-blue-600 col-span-1">OD</div>
-                                    <div id="od-sph" class="text-[#1d1d1f]"></div>
-                                    <div id="od-cyl"></div>
-                                    <div id="od-axe" class="text-gray-400"></div>
-                                    <div id="od-add" class="text-gray-400"></div>
-                                    <div id="od-p1" class="text-gray-400"></div>
-                                    <div id="od-b1" class="text-gray-400"></div>
-                                    <div id="od-p2" class="text-gray-400"></div>
-                                    <div id="od-b2" class="text-gray-400"></div>
-                                    <div id="od-dia" class="font-sans text-xs"></div>
-                                </div>
-                                <!-- Œil Gauche -->
-                                <div id="panel-og-row" class="grid grid-cols-10 gap-1 px-4 py-3 items-center hover:bg-gray-50/50">
-                                    <div class="text-left font-sans text-xs font-bold text-green-600 col-span-1">OG</div>
-                                    <div id="og-sph" class="text-[#1d1d1f]"></div>
-                                    <div id="og-cyl"></div>
-                                    <div id="og-axe" class="text-gray-400"></div>
-                                    <div id="og-add" class="text-gray-400"></div>
-                                    <div id="og-p1" class="text-gray-400"></div>
-                                    <div id="og-b1" class="text-gray-400"></div>
-                                    <div id="og-p2" class="text-gray-400"></div>
-                                    <div id="og-b2" class="text-gray-400"></div>
-                                    <div id="og-dia" class="font-sans text-xs"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Paramètres Centrage et Morphologie -->
-                    <div>
-                        <h4 class="text-xs font-bold text-[#86868b] uppercase tracking-wider mb-3 flex items-center gap-1.5">
-                            <i data-lucide="scan-eye" class="w-3.5 h-3.5 text-gray-400"></i> Données de Centrage & Morphologie
-                        </h4>
-                        <div class="grid grid-cols-2 gap-4">
-                            <!-- OD -->
-                            <div class="border border-[#e8e8ed] rounded-2xl p-4 bg-white space-y-3">
-                                <span class="text-xs font-bold text-blue-600 flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-blue-600"></span> Œil Droit</span>
-                                <div class="grid grid-cols-2 gap-2 text-xs">
-                                    <div>
-                                        <p class="text-[10px] font-medium text-[#86868b]">Écart Pupillaire</p>
-                                        <p id="morpho-od-ecart" class="font-mono font-bold text-sm text-[#1d1d1f] mt-0.5">—</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-[10px] font-medium text-[#86868b]">Hauteur de Montage</p>
-                                        <p id="morpho-od-haut" class="font-mono font-bold text-sm text-[#1d1d1f] mt-0.5">—</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- OG -->
-                            <div class="border border-[#e8e8ed] rounded-2xl p-4 bg-white space-y-3">
-                                <span class="text-xs font-bold text-green-600 flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-green-600"></span> Œil Gauche</span>
-                                <div class="grid grid-cols-2 gap-2 text-xs">
-                                    <div>
-                                        <p class="text-[10px] font-medium text-[#86868b]">Écart Pupillaire</p>
-                                        <p id="morpho-og-ecart" class="font-mono font-bold text-sm text-[#1d1d1f] mt-0.5">—</p>
-                                    </div>
-                                    <div>
-                                        <p class="text-[10px] font-medium text-[#86868b]">Hauteur de Montage</p>
-                                        <p id="morpho-og-haut" class="font-mono font-bold text-sm text-[#1d1d1f] mt-0.5">—</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Traitements Additionnels & Suppléments -->
-                    <div>
-                        <h4 class="text-xs font-bold text-[#86868b] uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-gray-400"></i> Traitements additionnels détectés
-                        </h4>
-                        <div id="panel-supplements" class="flex flex-wrap gap-1.5 p-1">
-                            <!-- Injecté par JS -->
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </div>
-    </div>
+    </header>
 
-    <!-- Script Application Métier -->
-    <script src="suivi.js"></script>
+    <main class="flex-1 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="suivi.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-[0_2px_8px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.04)] hover:border-[#0066cc]/20 transition-all flex flex-col items-center text-center">
+                <div class="p-4 bg-[#e2f1ff] text-[#0066cc] rounded-2xl mb-4 group-hover:scale-105 transition-transform">
+                    <i data-lucide="package" class="w-7 h-7 stroke-[1.8]"></i>
+                </div>
+                <h3 class="font-semibold text-base text-[#1d1d1f]">Suivi de commande</h3>
+                <p class="text-xs text-[#86868b] mt-1">Consultez l'état de fabrication en temps réel</p>
+            </a>
+
+            <a href="document.html" class="group bg-white p-8 rounded-2xl border border-[#e8e8ed] shadow-[0_2px_8px_rgba(0,0,0,0.01)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.04)] hover:border-purple-200 transition-all flex flex-col items-center text-center">
+                <div class="p-4 bg-purple-50 text-purple-600 rounded-2xl mb-4 group-hover:scale-105 transition-transform">
+                    <i data-lucide="file-text" class="w-7 h-7 stroke-[1.8]"></i>
+                </div>
+                <h3 class="font-semibold text-base text-[#1d1d1f]">Documents & Outils</h3>
+                <p class="text-xs text-[#86868b] mt-1">Téléchargez vos catalogues et fiches techniques</p>
+            </a>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="accueil.js"></script>
 </body>
 </html>
