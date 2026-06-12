@@ -1,62 +1,67 @@
 document.addEventListener('DOMContentLoaded', () => {
-    if (localStorage.getItem('v2i_authenticated') !== 'true') {
-        window.location.href = 'login.html';
+    // Initialisation des icônes Lucide
+    lucide.createIcons();
+
+    // Vérification de la session utilisateur
+    const sessionData = localStorage.getItem('v2i_session');
+    if (!sessionData) {
+        window.location.href = 'index.html';
         return;
     }
+
+    const session = JSON.parse(sessionData);
     
-    // Initialisation des icônes Lucide
-    if (typeof lucide !== 'undefined') {
-        lucide.createIcons();
+    // Injection du nom ou numéro du magasin dans le badge de la barre de navigation
+    const storeNameEl = document.getElementById('store-name');
+    if (storeNameEl) {
+        storeNameEl.textContent = `Magasin : ${session.nom_magasin || session.username}`;
     }
-    
-    // Charger le contenu par défaut
-    switchTab('accueil');
+
+    // Chargement du flux d'actualités
+    chargerActualites();
 });
 
-// 2. Fonctions de navigation
-function switchTab(tabId) {
-    // Masquer tous les contenus
-    document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
-    document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('border-[#0066cc]', 'text-[#1d1d1f]'));
-    
-    // Afficher le contenu sélectionné
-    document.getElementById(`content-${tabId}`).classList.remove('hidden');
-    
-    // Mettre à jour le style du bouton actif
-    const tabBtn = document.getElementById(`tab-${tabId}`);
-    if (tabBtn) {
-        tabBtn.classList.add('border-[#0066cc]', 'text-[#1d1d1f]');
-    }
-}
-
-// 3. Déconnexion
+/**
+ * Gère la déconnexion et redirige vers la page d'identification
+ */
 function logout() {
-    localStorage.removeItem('v2i_authenticated');
-    window.location.href = 'login.html';
+    localStorage.removeItem('v2i_session');
+    window.location.href = 'index.html';
 }
 
-// 4. Placeholder pour d'autres fonctions (recherche, calculs, etc.)
-function handleSearchInput() {
-    console.log("Recherche en cours...");
-}
+/**
+ * Récupère les actualités d'Acuite.fr via le endpoint de l'API pour contourner CORS
+ */
+async function chargerActualites() {
+    const blocActualites = document.getElementById('bloc-actualites');
+    if (!blocActualites) return;
 
-function handleDateBoundsChange() {
-    console.log("Dates modifiées");
-}
+    try {
+        const response = await fetch('/api/actualites');
+        if (!response.ok) throw new Error('Erreur lors de la récupération du flux');
+        
+        const articles = await response.json();
+        
+        if (articles.length === 0) {
+            blocActualites.innerHTML = '<p class="text-xs text-gray-500 text-center p-4">Aucune actualité disponible pour le moment.</p>';
+            return;
+        }
 
-function renderVerres() {
-    console.log("Rendu du tableau des verres");
-}
+        blocActualites.innerHTML = articles.map(article => `
+            <a href="${article.link}" target="_blank" class="block p-2.5 rounded-lg hover:bg-[#f5f5f7] transition-colors border-b border-gray-100 last:border-0 group no-underline">
+                <h4 class="text-xs font-semibold text-[#1d1d1f] group-hover:text-[#0066cc] line-clamp-2 transition-colors">
+                    ${article.title}
+                </h4>
+                <span class="text-[10px] text-[#86868b] block mt-1">${article.date}</span>
+            </a>
+        `).join('');
 
-function runCalculation() {
-    const sphere = document.getElementById('calc-sphere').value;
-    document.getElementById('calc-result').innerText = (Math.abs(sphere) * 0.8).toFixed(2);
-}
-
-function closeSidePanel() {
-    document.getElementById('side-panel').classList.add('hidden');
-}
-
-function fermerApercu() {
-    document.getElementById('document-viewer').classList.add('hidden');
+    } catch (error) {
+        console.error('Erreur flux actualités:', error);
+        blocActualites.innerHTML = `
+            <p class="text-xs text-[#ff3b30] text-center p-4 bg-[#ffebe6] rounded-xl border border-[#ffcfc6]">
+                Échec du chargement des actualités.
+            </p>
+        `;
+    }
 }
