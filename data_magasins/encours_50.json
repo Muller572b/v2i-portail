@@ -10,8 +10,63 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "12/06/2026 11:12",
+  "derniere_mise_a_jour": "12/06/2026 11:27",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162146",
+      "id_commande_v2i": "260612000006",
+      "code_cote": "B",
+      "patient": "ORSINI Annick",
+      "job_cosium": "",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: ORSINI Annick — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.00",
+        "cylindre": "1.50",
+        "axe": 155,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol Degradée Prog Eco 1.5",
+          "Teinte Dégradée Gris C",
+          "Couloir 20 mm"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 10,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol Degradée Prog Eco 1.5",
+          "Teinte Dégradée Gris C",
+          "Couloir 20 mm"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162156",
       "id_commande_v2i": "260612000016",
@@ -68,61 +123,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162146",
-      "id_commande_v2i": "260612000006",
-      "code_cote": "B",
-      "patient": "ORSINI Annick",
-      "job_cosium": "",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: ORSINI Annick — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-1.00",
-        "cylindre": "1.50",
-        "axe": 155,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol Degradée Prog Eco 1.5",
-          "Teinte Dégradée Gris C",
-          "Couloir 20 mm"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 10,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol Degradée Prog Eco 1.5",
-          "Teinte Dégradée Gris C",
-          "Couloir 20 mm"
         ]
       }
     },
@@ -194,9 +194,9 @@
       "patient": "VINCENTI ANTONIA",
       "job_cosium": "J600029174",
       "date_entree": "11/06/2026",
-      "detail": "Réf: VINCENTI ANTONIA / J600029174 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: VINCENTI ANTONIA / J600029174 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -355,59 +355,6 @@
       }
     },
     {
-      "ord_numb": "            10162118",
-      "id_commande_v2i": "260611000224",
-      "code_cote": "B",
-      "patient": "DEGENEVE VICTOR",
-      "job_cosium": "J600029176",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: DEGENEVE VICTOR / J600029176 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162121",
       "id_commande_v2i": "260611000227",
       "code_cote": "B",
@@ -510,6 +457,59 @@
           "Primo Confort 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162118",
+      "id_commande_v2i": "260611000224",
+      "code_cote": "B",
+      "patient": "DEGENEVE VICTOR",
+      "job_cosium": "J600029176",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: DEGENEVE VICTOR / J600029176 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 15/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Brun C"
         ]
       }
     },
