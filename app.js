@@ -582,4 +582,68 @@ async function renderDocuments() {
 
             const btnDownload = card.querySelector('.btn-download');
             btnDownload.addEventListener('click', (e) => {
-                e
+                e.stopPropagation();
+                window.open(item.url, '_blank');
+            });
+
+            container.appendChild(card);
+        });
+
+    } catch (error) {
+        console.error("Erreur de chargement de la bibliothèque :", error);
+        container.innerHTML = "<p class='text-sm text-[#ff453a] col-span-3 text-center py-8'>Erreur de chargement de la bibliothèque de documents.</p>";
+    }
+}
+
+function ouvrirApercu(url, titre, type) {
+    const viewer = document.getElementById('document-viewer');
+    const titleEl = document.getElementById('viewer-title');
+    const fullscreenBtn = document.getElementById('viewer-fullscreen');
+    const contentContainer = document.getElementById('viewer-content');
+    
+    if (!viewer || !titleEl || !fullscreenBtn || !contentContainer) return;
+
+    titleEl.innerText = titre;
+    fullscreenBtn.href = url;
+
+    if (type === 'image') {
+        contentContainer.innerHTML = `
+            <div class="p-4 flex items-center justify-center w-full h-full">
+                <img src="${url}" class="max-w-full max-h-full rounded-xl shadow-md object-contain bg-white">
+            </div>`;
+    } else {
+        contentContainer.innerHTML = `<iframe src="${url}" class="w-full h-full border-0 bg-white"></iframe>`;
+    }
+
+    viewer.classList.remove('hidden');
+}
+
+function fermerApercu() {
+    const viewer = document.getElementById('document-viewer');
+    if (viewer) viewer.classList.add('hidden');
+    
+    const contentContainer = document.getElementById('viewer-content');
+    if (contentContainer) contentContainer.innerHTML = ""; 
+}
+
+// --- OUTILS TECHNIQUES SECONDAIRES ---
+
+/**
+ * Calcule l'épaisseur théorique d'une lentille selon sa puissance sphérique de base
+ */
+function runCalculation() {
+    const sph = parseFloat(document.getElementById('calc-sphere').value) || 0;
+    const baseThickness = 2.0;
+    const calculated = (Math.abs(sph) * 0.3) + baseThickness;
+    const resultEl = document.getElementById('calc-result');
+    if (resultEl) resultEl.innerText = calculated.toFixed(2);
+}
+
+/**
+ * Détruit la session courante et verrouille l'accès du portail
+ */
+function logout() {
+    window.removeEventListener('scroll', handleScrollLoad);
+    localStorage.removeItem('v2i_session');
+    window.location.href = 'index.html';
+}
