@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "12/06/2026 11:57",
+  "derniere_mise_a_jour": "12/06/2026 12:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162014",
@@ -284,61 +284,6 @@
       }
     },
     {
-      "ord_numb": "            10161667",
-      "id_commande_v2i": "260609000203",
-      "code_cote": "B",
-      "patient": "MERCURI LAURA MARIANNE",
-      "job_cosium": "J127030958-02",
-      "date_entree": "09/06/2026",
-      "detail": "Réf: MERCURI LAURA MARIANNE / J127030958-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte au modèle uni A-C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte au modèle uni A-C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161598",
       "id_commande_v2i": "260609000134",
       "code_cote": "B",
@@ -394,15 +339,70 @@
       }
     },
     {
+      "ord_numb": "            10161667",
+      "id_commande_v2i": "260609000203",
+      "code_cote": "B",
+      "patient": "MERCURI LAURA MARIANNE",
+      "job_cosium": "J127030958-02",
+      "date_entree": "09/06/2026",
+      "detail": "Réf: MERCURI LAURA MARIANNE / J127030958-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte au modèle uni A-C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte au modèle uni A-C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161307",
       "id_commande_v2i": "260608000089",
       "code_cote": "B",
       "patient": "MARIANI IRENE",
       "job_cosium": "J127030943-02",
       "date_entree": "08/06/2026",
-      "detail": "Réf: MARIANI IRENE / J127030943-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: MARIANI IRENE / J127030943-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
