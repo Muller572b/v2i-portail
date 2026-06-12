@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "12/06/2026 13:57",
+  "derniere_mise_a_jour": "12/06/2026 14:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162151",
@@ -127,63 +127,57 @@
       }
     },
     {
-      "ord_numb": "            10162168",
-      "id_commande_v2i": "260612000028",
+      "ord_numb": "            10162181",
+      "id_commande_v2i": "260612000041",
       "code_cote": "B",
-      "patient": "FONTAINE MARIE CHRISTINE",
-      "job_cosium": "J144101440",
+      "patient": "GARIBALDI JEAN BAPTISTE",
+      "job_cosium": "J144101720",
       "date_entree": "12/06/2026",
-      "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101440 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: GARIBALDI JEAN BAPTISTE / J144101720 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "2.00",
-        "axe": 180,
-        "addition": "2.50",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "1.75",
+        "axe": 35,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "34.0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Tchin Affiny Equilibre2 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
+          "Tchin Uni 1.5 Durci",
           "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
+          "Teinte G15 C"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "3.00",
-        "axe": 180,
-        "addition": "2.50",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "34.0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Tchin Affiny Equilibre2 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
+          "Tchin Uni 1.5 Durci",
           "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
+          "Teinte G15 C"
         ]
       }
     },
@@ -449,6 +443,67 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162168",
+      "id_commande_v2i": "260612000028",
+      "code_cote": "B",
+      "patient": "FONTAINE MARIE CHRISTINE",
+      "job_cosium": "J144101440",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101440 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "2.00",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "34.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "3.00",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "34.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
         ]
       }
     },
@@ -1551,61 +1606,6 @@
         "supplements": [
           "Tchin Uni 1.5 Non Durci",
           "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162181",
-      "id_commande_v2i": "260612000041",
-      "code_cote": "B",
-      "patient": "GARIBALDI JEAN BAPTISTE",
-      "job_cosium": "J144101720",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: GARIBALDI JEAN BAPTISTE / J144101720 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "1.75",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
         ]
       }
     },
