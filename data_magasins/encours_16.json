@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "12/06/2026 09:42",
+  "derniere_mise_a_jour": "12/06/2026 09:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162058",
@@ -286,65 +286,6 @@
       }
     },
     {
-      "ord_numb": "            10162135",
-      "id_commande_v2i": "260611000241",
-      "code_cote": "B",
-      "patient": "PINNA PATRICE",
-      "job_cosium": "J143053929-01",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: PINNA PATRICE / J143053929-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Uni 1.6 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Uni 1.6 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162057",
       "id_commande_v2i": "260611000163",
       "code_cote": "B",
@@ -392,6 +333,108 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162134",
+      "id_commande_v2i": "260611000240",
+      "code_cote": "B",
+      "patient": "PINNA PATRICE",
+      "job_cosium": "J143053929-02",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: PINNA PATRICE / J143053929-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162138",
+      "id_commande_v2i": "260611000244",
+      "code_cote": "B",
+      "patient": "AZAM JEANNE",
+      "job_cosium": "J143053919",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: AZAM JEANNE / J143053919 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "1.00",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -557,22 +600,22 @@
       }
     },
     {
-      "ord_numb": "            10162134",
-      "id_commande_v2i": "260611000240",
+      "ord_numb": "            10162135",
+      "id_commande_v2i": "260611000241",
       "code_cote": "B",
       "patient": "PINNA PATRICE",
-      "job_cosium": "J143053929-02",
+      "job_cosium": "J143053929-01",
       "date_entree": "11/06/2026",
-      "detail": "Réf: PINNA PATRICE / J143053929-02 — (Stock) — État: Commande prise en compte",
+      "detail": "Réf: PINNA PATRICE / J143053929-01 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
         "cylindre": "0.50",
         "axe": 20,
         "addition": "0.00",
@@ -580,18 +623,22 @@
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.0",
         "supplements": [
-          "O2  2e St. Uni 1.5 Durci"
+          "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
         "cylindre": "0.50",
         "axe": 180,
         "addition": "0.00",
@@ -599,11 +646,15 @@
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.0",
         "supplements": [
-          "O2  2e St. Uni 1.5 Durci"
+          "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
@@ -708,57 +759,6 @@
         "hauteur": "28.0",
         "supplements": [
           "2de O2 Miladu 1.5 Nu"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162138",
-      "id_commande_v2i": "260611000244",
-      "code_cote": "B",
-      "patient": "AZAM JEANNE",
-      "job_cosium": "J143053919",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: AZAM JEANNE / J143053919 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
