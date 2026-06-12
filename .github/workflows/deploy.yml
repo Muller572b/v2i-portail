@@ -1,5 +1,4 @@
-# Ce workflow configure Python, exécute le scanner de documents et déploie le portail mis à jour sur GitHub Pages.
-name: Déploiement Automatique du Portail
+name: "Déploiement Automatique du Portail"
 
 on:
   push:
@@ -30,7 +29,10 @@ jobs:
           python-version: '3.x'
 
       - name: Génération de l'index des documents
-        run: python scannerdocumentdispo.py
+        run: |
+          # Si votre script a besoin de modules externes (ex: requests), décommentez la ligne suivante :
+          # pip install requests
+          python scannerdocumentdispo.py
 
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
