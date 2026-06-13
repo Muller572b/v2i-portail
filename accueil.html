@@ -12,7 +12,12 @@
 
     <aside class="w-64 bg-white border-r border-[#e8e8ed] flex flex-col justify-between">
         <div class="p-6">
-            <h1 class="text-xl font-bold tracking-tight text-[#1d1d1f] mb-8">V2I OPTIQUE</h1>
+            <!-- Logo ajouté ici -->
+            <div class="mb-8 flex items-center gap-3">
+                <img src="images/logov2i.png" alt="Logo V2I" class="w-8 h-8 object-contain">
+                <h1 class="text-xl font-bold tracking-tight text-[#1d1d1f]">V2I OPTIQUE</h1>
+            </div>
+            
             <nav class="space-y-2">
                 <a href="accueil.html" class="flex items-center gap-3 px-4 py-3 bg-[#f5f5f7] text-[#0066cc] font-semibold rounded-xl">
                     <i data-lucide="home" class="w-5 h-5"></i> Accueil
@@ -38,13 +43,23 @@
             <p id="store-name" class="text-[#86868b] mt-1 font-medium">Chargement du magasin...</p>
         </header>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm">
+        <div class="space-y-6">
+            <!-- Carré de bienvenue conservé -->
+            <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm max-w-2xl">
                 <h3 class="text-lg font-semibold mb-2">Bienvenue sur votre espace V2i</h3>
                 <p class="text-[#86868b] text-sm">Utilisez le menu de gauche pour naviguer vers le suivi de vos commandes de verres ou consulter la bibliothèque de documents techniques.</p>
+            </div>
+
+            <!-- Image ajoutée en dessous -->
+            <div class="rounded-2xl overflow-hidden border border-[#e8e8ed] shadow-sm">
+                <img src="images/v2iaccueil.jpg" alt="V2i Industrie Insulaire" class="w-full h-auto object-cover">
             </div>
         </div>
     </main>
 
+    <script>
+        // Initialisation des icônes Lucide
+        lucide.createIcons();
+    </script>
 </body>
 </html>
