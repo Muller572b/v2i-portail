@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "13/06/2026 09:12",
+  "derniere_mise_a_jour": "13/06/2026 09:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162217",
@@ -865,67 +865,6 @@
       }
     },
     {
-      "ord_numb": "            10162000",
-      "id_commande_v2i": "260611000106",
-      "code_cote": "B",
-      "patient": "CASANOVA YVELINE",
-      "job_cosium": "J120030390-02",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: CASANOVA YVELINE / J120030390-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.00",
-        "cylindre": "1.75",
-        "axe": 10,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "23.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 10,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "23.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161949",
       "id_commande_v2i": "260611000055",
       "code_cote": "B",
@@ -1031,6 +970,67 @@
           "Delta Confort 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162000",
+      "id_commande_v2i": "260611000106",
+      "code_cote": "B",
+      "patient": "CASANOVA YVELINE",
+      "job_cosium": "J120030390-02",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: CASANOVA YVELINE / J120030390-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.00",
+        "cylindre": "1.75",
+        "axe": 10,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 10,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "23.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
