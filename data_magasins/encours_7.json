@@ -10,67 +10,8 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "13/06/2026 09:57",
+  "derniere_mise_a_jour": "13/06/2026 10:12",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10162253",
-      "id_commande_v2i": "260612000113",
-      "code_cote": "B",
-      "patient": "ANTONESCU GENOVEVA",
-      "job_cosium": "J128042548",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: ANTONESCU GENOVEVA / J128042548 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
     {
       "ord_numb": "            10162161",
       "id_commande_v2i": "260612000021",
@@ -170,6 +111,65 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162253",
+      "id_commande_v2i": "260612000113",
+      "code_cote": "B",
+      "patient": "ANTONESCU GENOVEVA",
+      "job_cosium": "J128042548",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: ANTONESCU GENOVEVA / J128042548 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
