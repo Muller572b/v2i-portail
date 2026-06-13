@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "13/06/2026 11:12",
+  "derniere_mise_a_jour": "13/06/2026 11:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162217",
@@ -557,9 +557,9 @@
       "patient": "NOLOT BERNARD",
       "job_cosium": "J120030409-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: NOLOT BERNARD / J120030409-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: NOLOT BERNARD / J120030409-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -608,9 +608,9 @@
       "patient": "NOLOT BERNARD",
       "job_cosium": "J120030409-03",
       "date_entree": "12/06/2026",
-      "detail": "Réf: NOLOT BERNARD / J120030409-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: NOLOT BERNARD / J120030409-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -649,6 +649,57 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162332",
+      "id_commande_v2i": "260612000192",
+      "code_cote": "B",
+      "patient": "SKOWRON SOPHIE",
+      "job_cosium": "J120030406",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: SKOWRON SOPHIE / J120030406 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Afocal 1.5 Dégradé Brun"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Afocal 1.5 Dégradé Brun"
         ]
       }
     },
@@ -704,57 +755,6 @@
           "AS Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162332",
-      "id_commande_v2i": "260612000192",
-      "code_cote": "B",
-      "patient": "SKOWRON SOPHIE",
-      "job_cosium": "J120030406",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: SKOWRON SOPHIE / J120030406 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Afocal 1.5 Dégradé Brun"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Afocal 1.5 Dégradé Brun"
         ]
       }
     },
