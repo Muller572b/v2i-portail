@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "13/06/2026 07:57",
+  "derniere_mise_a_jour": "13/06/2026 08:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162148",
@@ -386,6 +386,59 @@
       }
     },
     {
+      "ord_numb": "            10162260",
+      "id_commande_v2i": "260612000120",
+      "code_cote": "B",
+      "patient": "DE BIASO ENZO",
+      "job_cosium": "J133035903",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: DE BIASO ENZO / J133035903 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.00",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162287",
       "id_commande_v2i": "260612000147",
       "code_cote": "B",
@@ -610,59 +663,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162260",
-      "id_commande_v2i": "260612000120",
-      "code_cote": "B",
-      "patient": "DE BIASO ENZO",
-      "job_cosium": "J133035903",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: DE BIASO ENZO / J133035903 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.00",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
         ]
       }
     },
@@ -1257,63 +1257,6 @@
       }
     },
     {
-      "ord_numb": "            10161871",
-      "id_commande_v2i": "260610000190",
-      "code_cote": "B",
-      "patient": "FAVRE HELENE",
-      "job_cosium": "J133035877-01",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: FAVRE HELENE / J133035877-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.50",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "7.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "7.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161695",
       "id_commande_v2i": "260610000014",
       "code_cote": "B",
@@ -1430,6 +1373,63 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161871",
+      "id_commande_v2i": "260610000190",
+      "code_cote": "B",
+      "patient": "FAVRE HELENE",
+      "job_cosium": "J133035877-01",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: FAVRE HELENE / J133035877-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "7.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 50,
+        "addition": "0.00",
+        "prisme_1": "7.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Prisme supérieur à 4"
         ]
       }
     },
