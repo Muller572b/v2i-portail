@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "13/06/2026 08:42",
+  "derniere_mise_a_jour": "13/06/2026 08:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162253",
@@ -541,122 +541,6 @@
       }
     },
     {
-      "ord_numb": "            10161902",
-      "id_commande_v2i": "260611000008",
-      "code_cote": "B",
-      "patient": "AMBROGGI JEAN-JACQUES",
-      "job_cosium": "J128042521",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: AMBROGGI JEAN-JACQUES / J128042521 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-6.75",
-        "cylindre": "2.00",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Delta Equilibre2 1.67 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-7.25",
-        "cylindre": "1.50",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Delta Equilibre2 1.67 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161992",
-      "id_commande_v2i": "260611000098",
-      "code_cote": "B",
-      "patient": "BALZLI SEBASTIEN",
-      "job_cosium": "J128042528",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: BALZLI SEBASTIEN / J128042528 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 25,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 150,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161955",
       "id_commande_v2i": "260611000061",
       "code_cote": "B",
@@ -765,6 +649,122 @@
           "Teinte Dégradée au modèle A-C",
           "Durci Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161902",
+      "id_commande_v2i": "260611000008",
+      "code_cote": "B",
+      "patient": "AMBROGGI JEAN-JACQUES",
+      "job_cosium": "J128042521",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: AMBROGGI JEAN-JACQUES / J128042521 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-6.75",
+        "cylindre": "2.00",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Delta Equilibre2 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-7.25",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Delta Equilibre2 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161992",
+      "id_commande_v2i": "260611000098",
+      "code_cote": "B",
+      "patient": "BALZLI SEBASTIEN",
+      "job_cosium": "J128042528",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: BALZLI SEBASTIEN / J128042528 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 150,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
