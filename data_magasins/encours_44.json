@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "13/06/2026 13:57",
+  "derniere_mise_a_jour": "13/06/2026 14:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162292",
@@ -123,15 +123,66 @@
       }
     },
     {
+      "ord_numb": "            10161965",
+      "id_commande_v2i": "260611000071",
+      "code_cote": "B",
+      "patient": "BOUKASSIOUI THAMI",
+      "job_cosium": "J150010162",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: BOUKASSIOUI THAMI / J150010162 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161984",
       "id_commande_v2i": "260611000090",
       "code_cote": "B",
       "patient": "CHILINI EDITH GABRIELLE",
       "job_cosium": "J150010165-01",
       "date_entree": "11/06/2026",
-      "detail": "Réf: CHILINI EDITH GABRIELLE / J150010165-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CHILINI EDITH GABRIELLE / J150010165-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -184,9 +235,9 @@
       "patient": "CHILINI EDITH GABRIELLE",
       "job_cosium": "J150010165-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: CHILINI EDITH GABRIELLE / J150010165-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CHILINI EDITH GABRIELLE / J150010165-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -237,9 +288,9 @@
       "patient": "FRATACCI DOMINIQUE",
       "job_cosium": "J150010168-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: FRATACCI DOMINIQUE / J150010168-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: FRATACCI DOMINIQUE / J150010168-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -288,9 +339,9 @@
       "patient": "FRATACCI DOMINIQUE",
       "job_cosium": "J150010168-01",
       "date_entree": "11/06/2026",
-      "detail": "Réf: FRATACCI DOMINIQUE / J150010168-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: FRATACCI DOMINIQUE / J150010168-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -339,9 +390,9 @@
       "patient": "GRIMAUX NATACHA",
       "job_cosium": "J150010169",
       "date_entree": "11/06/2026",
-      "detail": "Réf: GRIMAUX NATACHA / J150010169 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GRIMAUX NATACHA / J150010169 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -384,66 +435,15 @@
       }
     },
     {
-      "ord_numb": "            10161965",
-      "id_commande_v2i": "260611000071",
-      "code_cote": "B",
-      "patient": "BOUKASSIOUI THAMI",
-      "job_cosium": "J150010162",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: BOUKASSIOUI THAMI / J150010162 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "1.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161747",
       "id_commande_v2i": "260610000066",
       "code_cote": "B",
       "patient": "THEURET PATRICK",
       "job_cosium": "J150010156-02",
       "date_entree": "10/06/2026",
-      "detail": "Réf: THEURET PATRICK / J150010156-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: THEURET PATRICK / J150010156-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -496,9 +496,9 @@
       "patient": "VANUCCI DON-MARCEL",
       "job_cosium": "J150010153",
       "date_entree": "09/06/2026",
-      "detail": "Réf: VANUCCI DON-MARCEL / J150010153 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: VANUCCI DON-MARCEL / J150010153 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
