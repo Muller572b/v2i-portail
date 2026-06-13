@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "13/06/2026 17:42",
+  "derniere_mise_a_jour": "13/06/2026 17:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162447",
@@ -113,6 +113,61 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Blz"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162480",
+      "id_commande_v2i": "260613000101",
+      "code_cote": "B",
+      "patient": "MARINI JOSEPH",
+      "job_cosium": "J127030992",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: MARINI JOSEPH / J127030992 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "5.00",
+        "cylindre": "2.50",
+        "axe": 140,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "CLA Progressif 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "7.75",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "CLA Progressif 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     },
