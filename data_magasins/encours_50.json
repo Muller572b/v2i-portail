@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "13/06/2026 13:57",
+  "derniere_mise_a_jour": "13/06/2026 14:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162156",
@@ -72,15 +72,49 @@
       }
     },
     {
+      "ord_numb": "            10162369",
+      "id_commande_v2i": "260612000229",
+      "code_cote": "L",
+      "patient": "EHRMANN LAETITIA",
+      "job_cosium": "J600029192",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: EHRMANN LAETITIA / J600029192 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol 1.5  Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162146",
       "id_commande_v2i": "260612000006",
       "code_cote": "B",
       "patient": "ORSINI Annick",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: ORSINI Annick — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: ORSINI Annick — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -123,40 +157,6 @@
           "Acui Sol Degradée Prog Eco 1.5",
           "Teinte Dégradée Gris C",
           "Couloir 20 mm"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162369",
-      "id_commande_v2i": "260612000229",
-      "code_cote": "L",
-      "patient": "EHRMANN LAETITIA",
-      "job_cosium": "J600029192",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: EHRMANN LAETITIA / J600029192 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5  Polar Gris Durci",
-          "Durci Inclus"
         ]
       }
     },
@@ -277,15 +277,66 @@
       }
     },
     {
+      "ord_numb": "            10162121",
+      "id_commande_v2i": "260611000227",
+      "code_cote": "B",
+      "patient": "BEZANGER JEAN PIERRE",
+      "job_cosium": "J600029172",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: BEZANGER JEAN PIERRE / J600029172 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "1.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.25",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161901",
       "id_commande_v2i": "260611000007",
       "code_cote": "B",
       "patient": "CHIABRANDO TOUSSAINTE",
       "job_cosium": "J600029170",
       "date_entree": "11/06/2026",
-      "detail": "Réf: CHIABRANDO TOUSSAINTE / J600029170 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CHIABRANDO TOUSSAINTE / J600029170 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -344,9 +395,9 @@
       "patient": "TARDIEU NATHALIE",
       "job_cosium": "J600029178",
       "date_entree": "11/06/2026",
-      "detail": "Réf: TARDIEU NATHALIE / J600029178 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: TARDIEU NATHALIE / J600029178 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -399,9 +450,9 @@
       "patient": "DEGENEVE VICTOR",
       "job_cosium": "J600029176",
       "date_entree": "11/06/2026",
-      "detail": "Réf: DEGENEVE VICTOR / J600029176 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: DEGENEVE VICTOR / J600029176 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -452,9 +503,9 @@
       "patient": "VINCENTI JEAN MICHEL",
       "job_cosium": "J600029173",
       "date_entree": "11/06/2026",
-      "detail": "Réf: VINCENTI JEAN MICHEL / J600029173 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: VINCENTI JEAN MICHEL / J600029173 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -503,9 +554,9 @@
       "patient": "GERANDI MARTINE",
       "job_cosium": "J600029187",
       "date_entree": "11/06/2026",
-      "detail": "Réf: GERANDI MARTINE / J600029187 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GERANDI MARTINE / J600029187 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -548,57 +599,6 @@
           "Acui Uni 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162121",
-      "id_commande_v2i": "260611000227",
-      "code_cote": "B",
-      "patient": "BEZANGER JEAN PIERRE",
-      "job_cosium": "J600029172",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: BEZANGER JEAN PIERRE / J600029172 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.25",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -668,9 +668,9 @@
       "patient": "QUILICHINI ANASTASIE",
       "job_cosium": "J600029155",
       "date_entree": "09/06/2026",
-      "detail": "Réf: QUILICHINI ANASTASIE / J600029155 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: QUILICHINI ANASTASIE / J600029155 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
