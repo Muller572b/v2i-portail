@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "13/06/2026 11:12",
+  "derniere_mise_a_jour": "13/06/2026 11:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162380",
@@ -323,6 +323,39 @@
           "O2 St. Uni 1.6 Xblue Durci Arh"
         ]
       }
+    },
+    {
+      "ord_numb": "            10162379",
+      "id_commande_v2i": "260612000239",
+      "code_cote": "R",
+      "patient": "BRESCIA PHILIPPE",
+      "job_cosium": "J143053944",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: BRESCIA PHILIPPE / J143053944 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.6 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10162370",
@@ -785,39 +818,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10162379",
-      "id_commande_v2i": "260612000239",
-      "code_cote": "R",
-      "patient": "BRESCIA PHILIPPE",
-      "job_cosium": "J143053944",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: BRESCIA PHILIPPE / J143053944 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.6 Xblue Durci Arh"
         ]
       },
       "oeil_gauche": null
