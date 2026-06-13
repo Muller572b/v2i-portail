@@ -10,7 +10,7 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "13/06/2026 13:42",
+  "derniere_mise_a_jour": "13/06/2026 13:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162414",
@@ -74,9 +74,9 @@
       "patient": "GAGNE PAULETTE",
       "job_cosium": "J138020554-02",
       "date_entree": "12/06/2026",
-      "detail": "Réf: GAGNE PAULETTE / J138020554-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GAGNE PAULETTE / J138020554-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -125,9 +125,9 @@
       "patient": "GAGNE PAULETTE",
       "job_cosium": "J138020554-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: GAGNE PAULETTE / J138020554-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GAGNE PAULETTE / J138020554-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -176,9 +176,9 @@
       "patient": "MOREL SYLVIE",
       "job_cosium": "J138020548-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: MOREL SYLVIE / J138020548-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: MOREL SYLVIE / J138020548-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -231,9 +231,9 @@
       "patient": "MOREL SYLVIE",
       "job_cosium": "J138020548-01",
       "date_entree": "11/06/2026",
-      "detail": "Réf: MOREL SYLVIE / J138020548-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: MOREL SYLVIE / J138020548-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -286,9 +286,9 @@
       "patient": "GUYON SABRINA",
       "job_cosium": "J138020552-01",
       "date_entree": "11/06/2026",
-      "detail": "Réf: GUYON SABRINA / J138020552-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GUYON SABRINA / J138020552-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -339,9 +339,9 @@
       "patient": "GUYON SABRINA",
       "job_cosium": "J138020552-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: GUYON SABRINA / J138020552-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GUYON SABRINA / J138020552-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -445,15 +445,66 @@
       }
     },
     {
+      "ord_numb": "            10161734",
+      "id_commande_v2i": "260610000053",
+      "code_cote": "B",
+      "patient": "DZIN GENNARO",
+      "job_cosium": "J138020544",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: DZIN GENNARO / J138020544 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 11/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161738",
       "id_commande_v2i": "260610000057",
       "code_cote": "B",
       "patient": "ROSSI PAULE",
       "job_cosium": "J138020542-01",
       "date_entree": "10/06/2026",
-      "detail": "Réf: ROSSI PAULE / J138020542-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: ROSSI PAULE / J138020542-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -502,57 +553,6 @@
           "Individualisation",
           "Précalibrage Offert",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161734",
-      "id_commande_v2i": "260610000053",
-      "code_cote": "B",
-      "patient": "DZIN GENNARO",
-      "job_cosium": "J138020544",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: DZIN GENNARO / J138020544 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     }
