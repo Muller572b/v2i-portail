@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "13/06/2026 16:42",
+  "derniere_mise_a_jour": "13/06/2026 16:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162401",
@@ -341,6 +341,61 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162464",
+      "id_commande_v2i": "260613000085",
+      "code_cote": "B",
+      "patient": "DUILLET PAUL HENRI",
+      "job_cosium": "J133035924",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: DUILLET PAUL HENRI / J133035924 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "37.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.75",
+        "cylindre": "1.25",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "37.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
         ]
       }
     },
