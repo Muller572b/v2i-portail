@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "13/06/2026 19:27",
+  "derniere_mise_a_jour": "13/06/2026 19:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162506",
@@ -600,6 +600,61 @@
         "hauteur": "0.0",
         "supplements": [
           "D2 St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162532",
+      "id_commande_v2i": "260613000153",
+      "code_cote": "B",
+      "patient": "TASSIN OLIVIER",
+      "job_cosium": "J139053309",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: TASSIN OLIVIER / J139053309 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "23.5",
+        "supplements": [
+          "D2 Prestige Flex 1.6 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-4.00",
+        "cylindre": "4.25",
+        "axe": 85,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "23.5",
+        "supplements": [
+          "D2 Prestige Flex 1.6 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
         ]
       }
     },
