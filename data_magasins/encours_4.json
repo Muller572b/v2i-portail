@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "13/06/2026 08:27",
+  "derniere_mise_a_jour": "13/06/2026 08:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162151",
@@ -188,61 +188,6 @@
       }
     },
     {
-      "ord_numb": "            10162181",
-      "id_commande_v2i": "260612000041",
-      "code_cote": "B",
-      "patient": "GARIBALDI JEAN BAPTISTE",
-      "job_cosium": "J144101720",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: GARIBALDI JEAN BAPTISTE / J144101720 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "1.75",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162183",
       "id_commande_v2i": "260612000043",
       "code_cote": "B",
@@ -291,59 +236,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5 Foto Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162188",
-      "id_commande_v2i": "260612000048",
-      "code_cote": "B",
-      "patient": "ANTOMARCHI DOMINIQUE",
-      "job_cosium": "J144101715-03",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: ANTOMARCHI DOMINIQUE / J144101715-03 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar G15 Durci",
           "Durci Inclus"
         ]
       }
@@ -925,6 +817,61 @@
       }
     },
     {
+      "ord_numb": "            10162181",
+      "id_commande_v2i": "260612000041",
+      "code_cote": "B",
+      "patient": "GARIBALDI JEAN BAPTISTE",
+      "job_cosium": "J144101720",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: GARIBALDI JEAN BAPTISTE / J144101720 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "1.75",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162184",
       "id_commande_v2i": "260612000044",
       "code_cote": "B",
@@ -1125,6 +1072,59 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162188",
+      "id_commande_v2i": "260612000048",
+      "code_cote": "B",
+      "patient": "ANTOMARCHI DOMINIQUE",
+      "job_cosium": "J144101715-03",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: ANTOMARCHI DOMINIQUE / J144101715-03 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar G15 Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -3716,61 +3716,6 @@
       }
     },
     {
-      "ord_numb": "            10161844",
-      "id_commande_v2i": "260610000163",
-      "code_cote": "B",
-      "patient": "FRAGASSI CHRISTOPHE",
-      "job_cosium": "J144101651-01",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: FRAGASSI CHRISTOPHE / J144101651-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 75,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161696",
       "id_commande_v2i": "260610000015",
       "code_cote": "B",
@@ -3881,6 +3826,61 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161844",
+      "id_commande_v2i": "260610000163",
+      "code_cote": "B",
+      "patient": "FRAGASSI CHRISTOPHE",
+      "job_cosium": "J144101651-01",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: FRAGASSI CHRISTOPHE / J144101651-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
