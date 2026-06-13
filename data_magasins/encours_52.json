@@ -10,8 +10,59 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "13/06/2026 17:57",
+  "derniere_mise_a_jour": "13/06/2026 18:12",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162481",
+      "id_commande_v2i": "260613000102",
+      "code_cote": "B",
+      "patient": "AYKIN FABIEN",
+      "job_cosium": "J154014514",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: AYKIN FABIEN / J154014514 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162248",
       "id_commande_v2i": "260612000108",
