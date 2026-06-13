@@ -383,8 +383,16 @@ function renderVerres() {
         // Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
         const anneeBL = "20" + idCommande.substring(0, 2);
         
+        // --- MODIFICATIONS ICI ---
+        // Constante pour correspondre à ton nommage
+        const codeMagasinActuel = currentCosiumCode || '00'; 
+        
         // Construction de l'URL directe pour l'eBL certifié PDF
-        const urlEbl = `${GITHUB_BASE_URL}/eBLcertifie/${anneeBL}/${currentStoreId}/${currentCosiumCode}_BL_${idCommande}.pdf`;
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+
+        // Construction de l'URL directe pour la Carte de Vue (CDV) PDF
+        const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
+        // -------------------------
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
@@ -404,12 +412,16 @@ function renderVerres() {
                         </button>
                         
                         ${estExpedie ? `
-                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide" title="Télécharger le eBL">
+                            <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide shadow-sm" title="Télécharger le eBL">
                                 <span>eBL</span>
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
                             </a>
+                            <a href="${urlCdv}" target="_blank" class="px-3 py-1.5 bg-[#0066cc] hover:bg-[#005bb5] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide shadow-sm" title="Télécharger la Carte de Vue">
+                                <span>CDV</span>
+                                <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                            </a>
                         ` : `
-                            <div class="w-14 h-8"></div> `}
+                            <div class="w-28 h-8"></div> `}
                     </div>
                 </td>
             </tr>
