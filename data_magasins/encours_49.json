@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "13/06/2026 13:57",
+  "derniere_mise_a_jour": "13/06/2026 14:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162392",
@@ -127,108 +127,6 @@
       }
     },
     {
-      "ord_numb": "            10162328",
-      "id_commande_v2i": "260612000188",
-      "code_cote": "B",
-      "patient": "RAFINI LENA",
-      "job_cosium": "J205030345",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: RAFINI LENA / J205030345 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "0.50",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.6 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162355",
-      "id_commande_v2i": "260612000215",
-      "code_cote": "B",
-      "patient": "EMILY LAURENT",
-      "job_cosium": "J205030352",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: EMILY LAURENT / J205030352 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162329",
       "id_commande_v2i": "260612000189",
       "code_cote": "B",
@@ -282,15 +180,117 @@
       }
     },
     {
+      "ord_numb": "            10162328",
+      "id_commande_v2i": "260612000188",
+      "code_cote": "B",
+      "patient": "RAFINI LENA",
+      "job_cosium": "J205030345",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: RAFINI LENA / J205030345 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.6 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "0.50",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.6 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162355",
+      "id_commande_v2i": "260612000215",
+      "code_cote": "B",
+      "patient": "EMILY LAURENT",
+      "job_cosium": "J205030352",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: EMILY LAURENT / J205030352 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161972",
       "id_commande_v2i": "260611000078",
       "code_cote": "B",
       "patient": "BIRGY GUILLAUME",
       "job_cosium": "J205030342-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: BIRGY GUILLAUME / J205030342-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BIRGY GUILLAUME / J205030342-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -345,9 +345,9 @@
       "patient": "POGGI MARIE CHRISTINE",
       "job_cosium": "J205030327",
       "date_entree": "10/06/2026",
-      "detail": "Réf: POGGI MARIE CHRISTINE / J205030327 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: POGGI MARIE CHRISTINE / J205030327 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -406,9 +406,9 @@
       "patient": "HERRY KARINE",
       "job_cosium": "J205030331",
       "date_entree": "10/06/2026",
-      "detail": "Réf: HERRY KARINE / J205030331 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: HERRY KARINE / J205030331 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -461,9 +461,9 @@
       "patient": "ANDARELLI CELINE",
       "job_cosium": "J205030325",
       "date_entree": "10/06/2026",
-      "detail": "Réf: ANDARELLI CELINE / J205030325 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: ANDARELLI CELINE / J205030325 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -516,9 +516,9 @@
       "patient": "SEGARD PINELLI BASILE",
       "job_cosium": "J205030332",
       "date_entree": "10/06/2026",
-      "detail": "Réf: SEGARD PINELLI BASILE / J205030332 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: SEGARD PINELLI BASILE / J205030332 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -626,9 +626,9 @@
       "patient": "BERTAUDIERE LILIAN",
       "job_cosium": "J205030275-01",
       "date_entree": "05/06/2026",
-      "detail": "Réf: BERTAUDIERE LILIAN / J205030275-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BERTAUDIERE LILIAN / J205030275-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
