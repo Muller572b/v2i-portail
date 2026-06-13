@@ -10,7 +10,7 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "13/06/2026 13:27",
+  "derniere_mise_a_jour": "13/06/2026 13:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162066",
@@ -19,9 +19,9 @@
       "patient": "DODDOLI VERINA MARIE",
       "job_cosium": "J132017068",
       "date_entree": "11/06/2026",
-      "detail": "Réf: DODDOLI VERINA MARIE / J132017068 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: DODDOLI VERINA MARIE / J132017068 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -64,67 +64,6 @@
           "Uni 1.6 Durci",
           "Teinte Brun C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161867",
-      "id_commande_v2i": "260610000186",
-      "code_cote": "B",
-      "patient": "BELLAMY JANINE",
-      "job_cosium": "J132017067",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: BELLAMY JANINE / J132017067 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Teinte Dégradée Brun B",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Teinte Dégradée Brun B",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
         ]
       }
     },
@@ -180,15 +119,76 @@
       }
     },
     {
+      "ord_numb": "            10161867",
+      "id_commande_v2i": "260610000186",
+      "code_cote": "B",
+      "patient": "BELLAMY JANINE",
+      "job_cosium": "J132017067",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: BELLAMY JANINE / J132017067 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Teinte Dégradée Brun B",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Teinte Dégradée Brun B",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161625",
       "id_commande_v2i": "260609000161",
       "code_cote": "B",
       "patient": "PINELLI ALLEGRIA",
       "job_cosium": "J132017065",
       "date_entree": "09/06/2026",
-      "detail": "Réf: PINELLI ALLEGRIA / J132017065 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: PINELLI ALLEGRIA / J132017065 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
