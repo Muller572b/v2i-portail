@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "13/06/2026 11:27",
+  "derniere_mise_a_jour": "13/06/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162398",
@@ -19,9 +19,9 @@
       "patient": "EVANGELISTI JOSEPH",
       "job_cosium": "J145063404",
       "date_entree": "13/06/2026",
-      "detail": "Réf: EVANGELISTI JOSEPH / J145063404 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: EVANGELISTI JOSEPH / J145063404 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -70,9 +70,9 @@
       "patient": "EVANGELISTI JOSEPH",
       "job_cosium": "J145063403",
       "date_entree": "13/06/2026",
-      "detail": "Réf: EVANGELISTI JOSEPH / J145063403 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: EVANGELISTI JOSEPH / J145063403 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -121,9 +121,9 @@
       "patient": "EVANGELISTI JOSEPH",
       "job_cosium": "J145063402",
       "date_entree": "13/06/2026",
-      "detail": "Réf: EVANGELISTI JOSEPH / J145063402 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: EVANGELISTI JOSEPH / J145063402 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -506,6 +506,57 @@
       }
     },
     {
+      "ord_numb": "            10162311",
+      "id_commande_v2i": "260612000171",
+      "code_cote": "B",
+      "patient": "FARAUT ISABELLE RENEE",
+      "job_cosium": "J145063397",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: FARAUT ISABELLE RENEE / J145063397 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162305",
       "id_commande_v2i": "260612000165",
       "code_cote": "B",
@@ -730,57 +781,6 @@
           "Reader3 1.5 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162311",
-      "id_commande_v2i": "260612000171",
-      "code_cote": "B",
-      "patient": "FARAUT ISABELLE RENEE",
-      "job_cosium": "J145063397",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: FARAUT ISABELLE RENEE / J145063397 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
