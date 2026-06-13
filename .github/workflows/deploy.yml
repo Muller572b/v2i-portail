@@ -2,7 +2,7 @@ name: "Déploiement Automatique du Portail"
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "beta"] # Déclenche le script si tu mets à jour l'une ou l'autre branche
 
 permissions:
   contents: read
@@ -20,8 +20,36 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Récupération du code
+      - name: Récupération de la Production (main)
         uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Récupération des fichiers de Test (beta)
+        uses: actions/checkout@v4
+        with:
+          ref: beta
+          path: temp_beta # Télécharge temporairement la branche beta dans ce dossier
+
+      - name: Construction dynamique de l'espace Beta
+        run: |
+          # 1. Créer le dossier beta de destination
+          mkdir -p beta
+          
+          # 2. Copier l'application web de test (HTML, JS...) dans le dossier beta
+          cp -r temp_beta/* beta/ 2>/dev/null || true
+          
+          # 3. Supprimer les vieux dossiers de données de la branche beta pour ne pas polluer
+          rm -rf beta/data_magasins beta/data_archives beta/eBLCertifie beta/cartedevue beta/.github
+          
+          # 4. Copier les données réelles et fraîches (de main) dans beta pour tes tests
+          cp -r data_magasins beta/ 2>/dev/null || true
+          cp -r data_archives beta/ 2>/dev/null || true
+          cp -r eBLCertifie beta/ 2>/dev/null || true
+          cp -r cartedevue beta/ 2>/dev/null || true
+          
+          # 5. Nettoyer le dossier temporaire
+          rm -rf temp_beta
 
       - name: Configuration de Python
         uses: actions/setup-python@v5
@@ -30,8 +58,6 @@ jobs:
 
       - name: Génération de l'index des documents
         run: |
-          # Si votre script a besoin de modules externes (ex: requests), décommentez la ligne suivante :
-          # pip install requests
           python scannerdocumentdispo.py
 
       - name: Configuration de GitHub Pages
