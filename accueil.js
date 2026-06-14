@@ -27,13 +27,43 @@ document.addEventListener('DOMContentLoaded', () => {
         storeNameEl.innerText = `Magasin : N° ${clientId} (${cosiumCode})`;
     }
 
-    // 3. Initialisation des icônes Lucide
+    // 3. Récupération automatique du flux d'actualités (fluxactu.py)
+    const actusContainer = document.getElementById('flux-actus');
+    if (actusContainer) {
+        fetch('data/flux_optique.json')
+            .then(response => response.json())
+            .then(data => {
+                actusContainer.innerHTML = ''; // Nettoyage de l'indicateur de chargement
+                
+                if (!data || data.length === 0) {
+                    actusContainer.innerHTML = '<p class="text-gray-500 text-sm">Aucune actualité disponible pour le moment.</p>';
+                    return;
+                }
+
+                data.forEach(actu => {
+                    actusContainer.innerHTML += `
+                        <a href="${actu.lien}" target="_blank" class="block bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:border-[#0066cc] hover:shadow-md transition-all group">
+                            <h4 class="font-semibold text-[#1d1d1f] group-hover:text-[#0066cc] mb-3 transition-colors line-clamp-3">${actu.titre}</h4>
+                            <span class="text-xs text-[#86868b] flex items-center gap-1 font-medium">
+                                Lire l'article sur Acuité ↗
+                            </span>
+                        </a>
+                    `;
+                });
+            })
+            .catch(err => {
+                console.error("Erreur lors du chargement des actualités :", err);
+                actusContainer.innerHTML = '<p class="text-red-500 text-sm">Impossible de charger le flux d\'actualités.</p>';
+            });
+    }
+
+    // 4. Initialisation des icônes Lucide
     if (window.lucide) {
         lucide.createIcons();
     }
 });
 
-// 4. Fonction de déconnexion (Nettoyage propre des bonnes clés)
+// 5. Fonction de déconnexion (Nettoyage propre des bonnes clés)
 window.logout = function() {
     localStorage.removeItem('v2i_authenticated');
     localStorage.removeItem('v2i_client_id');
