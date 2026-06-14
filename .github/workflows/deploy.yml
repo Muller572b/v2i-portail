@@ -56,10 +56,14 @@ jobs:
             echo "→ Exécution de fluxactu.py depuis la racine..."
             python fluxactu.py
           elif [ -f "beta/fluxactu.py" ]; then
-            echo "→ fluxactu.py introuvable à la racine, exécution depuis le dossier beta..."
-            python beta/fluxactu.py
+            echo "→ fluxactu.py trouvé dans beta, copie et exécution..."
+            cp beta/fluxactu.py .
+            python fluxactu.py
           else
-            echo "⚠ fluxactu.py est introuvable. Étape ignorée."
+            echo "⚠ fluxactu.py introuvable. Création d'un flux vide de sécurité."
+            mkdir -p data beta/data 2>/dev/null || true
+            echo "[]" > data/flux_optique.json
+            echo "[]" > beta/data/flux_optique.json
           fi
 
       - name: Génération de l'index des documents
@@ -68,10 +72,11 @@ jobs:
             echo "→ Exécution de scannerdocumentdispo.py depuis la racine..."
             python scannerdocumentdispo.py
           elif [ -f "beta/scannerdocumentdispo.py" ]; then
-            echo "→ scannerdocumentdispo.py introuvable à la racine, exécution dans beta..."
-            cd beta && python scannerdocumentdispo.py
+            echo "→ scannerdocumentdispo.py trouvé dans beta, copie et exécution..."
+            cp beta/scannerdocumentdispo.py .
+            python scannerdocumentdispo.py
           else
-            echo "⚠ scannerdocumentdispo.py est introuvable. Étape ignorée."
+            echo "⚠ scannerdocumentdispo.py introuvable. Étape ignorée."
           fi
 
       - name: Configuration de GitHub Pages
