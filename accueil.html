@@ -12,7 +12,6 @@
 
     <aside class="w-64 bg-white border-r border-[#e8e8ed] flex flex-col justify-between">
         <div class="p-6">
-            <!-- Logo ajouté ici -->
             <div class="mb-8 flex items-center gap-3">
                 <img src="images/logov2i.png" alt="Logo V2I" class="w-12 h-12 object-contain">
                 <h1 class="text-xl font-bold tracking-tight text-[#1d1d1f]">V2I OPTIQUE</h1>
@@ -38,28 +37,32 @@
     </aside>
 
     <main class="flex-1 p-10">
+        
+        <div class="rounded-3xl overflow-hidden border border-[#e8e8ed] shadow-sm mb-10 w-full h-64">
+            <img src="images/v2iaccueil.png" alt="V2i Industrie Insulaire" class="w-full h-full object-cover">
+        </div>
+
         <header class="mb-10">
             <h2 class="text-3xl font-bold tracking-tight">Tableau de bord</h2>
             <p id="store-name" class="text-[#86868b] mt-1 font-medium">Chargement du magasin...</p>
         </header>
 
-        <div class="space-y-6">
-            <!-- Carré de bienvenue conservé -->
+        <div class="space-y-10">
             <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm max-w-2xl">
                 <h3 class="text-lg font-semibold mb-2">Bienvenue sur votre espace V2i</h3>
                 <p class="text-[#86868b] text-sm">Utilisez le menu de gauche pour naviguer vers le suivi de vos commandes de verres ou consulter la bibliothèque de documents techniques.</p>
             </div>
 
-            <!-- Image ajoutée en dessous -->
-            <div class="rounded-2xl overflow-hidden border border-[#e8e8ed] shadow-sm">
-                <img src="images/v2iaccueil.png" alt="V2i Industrie Insulaire" class="w-full h-auto object-cover">
-            </div>
+            <section>
+                <h3 class="text-xl font-bold mb-6 flex items-center gap-2">
+                    <i data-lucide="newspaper" class="w-6 h-6 text-[#0066cc]"></i> Actualités Optiques
+                </h3>
+                <div id="flux-actus" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <p class="text-gray-500 text-sm">Chargement des actualités en cours...</p>
+                </div>
+            </section>
         </div>
     </main>
 
-    <script>
-        // Initialisation des icônes Lucide
-        lucide.createIcons();
-    </script>
 </body>
 </html>
