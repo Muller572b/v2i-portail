@@ -424,6 +424,11 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
+        // --- GESTION CONDITIONNELLE DES DOCUMENTS (DISPO DEPUIS LE 08 JUIN 2026) ---
+        const dateCommande = parseDate(v.date_entree);
+        const dateLimiteDocs = new Date('2026-06-08');
+        const afficherDocs = estExpedie && dateCommande && dateCommande >= dateLimiteDocs;
+
         const anneeBL = "20" + idCommande.substring(0, 2);
         const codeMagasinActuel = currentCosiumCode || '00'; 
         
@@ -451,7 +456,7 @@ function renderVerres() {
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
                         
-                        ${estExpedie ? `
+                        ${afficherDocs ? `
                             <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide shadow-sm" title="Télécharger le eBL">
                                 <span>eBL</span>
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
