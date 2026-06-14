@@ -15,7 +15,7 @@ let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; // Verrou de sécurité global
+let isLoadingArchives = false; // Verrou de sécurité global et état de chargement
 let searchTimeout = null;
 
 // --- CONFIGURATION DU TRI DYNAMIQUE ---
@@ -45,10 +45,11 @@ checkSession();
 document.addEventListener('DOMContentLoaded', () => {
     if (!checkSession()) return;
 
-    // Mise à jour de l'affichage du badge magasin si présent
+    // Mise à jour de l'affichage du badge magasin si présent (Correction du null)
     const storeBadge = document.getElementById('store-badge');
     if (storeBadge) {
-        storeBadge.innerText = `Magasin : N° ${currentStoreId} (${currentCosiumCode || 'Labo'})`;
+        const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
+        storeBadge.innerText = `Magasin : N° ${currentStoreId}${cosiumText}`;
     }
 
     // Chargement initial du flux des encours
@@ -90,10 +91,11 @@ async function loadStoreEncours() {
         const data = await response.json();
         storeEncours = data.commandes_en_cours || [];
         
-        // Optionnel : Actualise dynamiquement le nom réel du magasin si disponible
+        // Actualise dynamiquement le nom réel du magasin sans le suffixe textuel (null)
         const storeBadge = document.getElementById('store-badge');
         if (storeBadge && data.infos_magasin && data.infos_magasin.nom) {
-            storeBadge.innerText = `Magasin : ${data.infos_magasin.nom} (${currentCosiumCode})`;
+            const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
+            storeBadge.innerText = `Magasin : ${data.infos_magasin.nom}${cosiumText}`;
         }
 
         renderVerres();
@@ -200,6 +202,7 @@ async function handleDateBoundsChange() {
 
     if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
+        renderVerres(); // Force l'état visuel "Chargement" immédiatement
         
         const anneesACharger = [];
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
@@ -226,14 +229,13 @@ function parseDate(dateStr) {
     if (!dateStr) return null;
     const parts = dateStr.split(' ')[0].split('/');
     if (parts.length === 3) {
-        return new Date(parts[2], parts[1] - 1, parts[0], 0, 0, 0, 0);
+        return new Date(parseInt(parts[2], 10), parseInt(parts[1], 10) - 1, parseInt(parts[0], 10), 0, 0, 0, 0);
     }
     return null;
 }
 
 /**
  * Système de Debounce appliqué sur la saisie de recherche globale
- * Va chercher de manière proactive dans l'ensemble des archives sur 4 ans
  */
 function handleSearchInput() {
     clearTimeout(searchTimeout);
@@ -242,16 +244,14 @@ function handleSearchInput() {
         const searchInput = document.getElementById('search-verres');
         const searchValue = searchInput ? searchInput.value.trim() : '';
         
-        // Des qu'un filtre textuel de 3 caractères ou plus est écrit (Nom, BL, Job), on interroge les archives
         if (searchValue.length >= 3) {
             const currentYear = new Date().getFullYear();
             const yearsToLoad = [currentYear, currentYear - 1, currentYear - 2, currentYear - 3];
-            
-            // On isole uniquement les années qui n'ont pas encore été fetchées
             const missingYears = yearsToLoad.filter(y => !loadedYears.includes(y));
             
             if (missingYears.length > 0 && !isLoadingArchives) {
                 isLoadingArchives = true;
+                renderVerres(); // Bascule l'écran sur le message d'attente
                 try {
                     await Promise.all(missingYears.map(year => loadArchiveYear(year)));
                     autoArchivesIncluded = true;
@@ -272,10 +272,10 @@ function handleSearchInput() {
  */
 function handleSort(colKey) {
     if (currentSort.key === colKey) {
-        currentSort.asc = !currentSort.asc; // Inverse l'ordre (A->Z ou Z->A)
+        currentSort.asc = !currentSort.asc;
     } else {
         currentSort.key = colKey;
-        currentSort.asc = (colKey === 'date') ? false : true; // Par défaut décroissant pour la date, croissant pour le texte
+        currentSort.asc = (colKey === 'date') ? false : true;
     }
     renderVerres();
 }
@@ -387,8 +387,13 @@ function renderVerres() {
         return 0;
     });
 
+    // Gestion de l'état vide ou en cours de chargement réseau
     if (donneesFiltrees.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
+        if (isLoadingArchives) {
+            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white"><div class="flex items-center justify-center gap-2.5"><span class="animate-spin rounded-full h-4 w-4 border-2 border-[#0066cc] border-t-transparent"></span> Recherche et synchronisation des archives en cours...</div></td></tr>`;
+        } else {
+            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
+        }
         return;
     }
 
@@ -424,13 +429,13 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
-        // --- GESTION CONDITIONNELLE DES DOCUMENTS (DISPO DEPUIS LE 08 JUIN 2026) ---
+        // --- SÉCURISATION DU COMPARATEUR DE TIMESTAMPS LOCAUX (AFFICHER DEPUIS LE 08 JUIN 2026) ---
         const dateCommande = parseDate(v.date_entree);
-        const dateLimiteDocs = new Date('2026-06-08');
-        const afficherDocs = estExpedie && dateCommande && dateCommande >= dateLimiteDocs;
+        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026 local
+        const afficherDocs = estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
         const anneeBL = "20" + idCommande.substring(0, 2);
-        const codeMagasinActuel = currentCosiumCode || '00'; 
+        const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
         
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
         const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
