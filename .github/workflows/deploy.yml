@@ -51,10 +51,28 @@ jobs:
         run: pip install beautifulsoup4 requests
 
       - name: Récupération des actualités
-        run: python fluxactu.py
+        run: |
+          if [ -f "fluxactu.py" ]; then
+            echo "→ Exécution de fluxactu.py depuis la racine..."
+            python fluxactu.py
+          elif [ -f "beta/fluxactu.py" ]; then
+            echo "→ fluxactu.py introuvable à la racine, exécution depuis le dossier beta..."
+            python beta/fluxactu.py
+          else
+            echo "⚠ fluxactu.py est introuvable. Étape ignorée."
+          fi
 
       - name: Génération de l'index des documents
-        run: python scannerdocumentdispo.py
+        run: |
+          if [ -f "scannerdocumentdispo.py" ]; then
+            echo "→ Exécution de scannerdocumentdispo.py depuis la racine..."
+            python scannerdocumentdispo.py
+          elif [ -f "beta/scannerdocumentdispo.py" ]; then
+            echo "→ scannerdocumentdispo.py introuvable à la racine, exécution dans beta..."
+            cd beta && python scannerdocumentdispo.py
+          else
+            echo "⚠ scannerdocumentdispo.py est introuvable. Étape ignorée."
+          fi
 
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
