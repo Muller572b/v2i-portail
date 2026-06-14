@@ -53,31 +53,36 @@ jobs:
       - name: Récupération des actualités
         run: |
           if [ -f "fluxactu.py" ]; then
-            echo "→ Exécution de fluxactu.py à la racine..."
-            python fluxactu.py
-          elif [ -f "beta/fluxactu.py" ]; then
-            echo "→ fluxactu.py trouvé dans beta. Copie et exécution..."
-            cp beta/fluxactu.py .
-            python fluxactu.py
-          else
-            echo "⚠ fluxactu.py introuvable. Création d'un flux vide pour éviter le crash JS."
-            mkdir -p data beta/data 2>/dev/null || true
-            echo "[]" > data/flux_optique.json
-            echo "[]" > beta/data/flux_optique.json
-          fi
+                      echo "→ Exécution de fluxactu.py à la racine..."
+                      python fluxactu.py
+                    elif [ -f "beta/fluxactu.py" ]; then
+                      echo "→ fluxactu.py trouvé dans beta. Copie et exécution..."
+                      cp beta/fluxactu.py .
+                      python fluxactu.py
+                    else
+                      echo "⚠ fluxactu.py introuvable. Création d'un flux vide pour éviter le crash JS."
+                      mkdir -p data beta/data 2>/dev/null || true
+                      echo "[]" > data/flux_optique.json
+                      echo "[]" > beta/data/flux_optique.json
+                    fi
 
-      - name: Génération de l'index des documents
-        run: |
-          if [ -f "scannerdocumentdispo.py" ]; then
-            echo "→ Exécution de scannerdocumentdispo.py à la racine..."
-            python scannerdocumentdispo.py
-          elif [ -f "beta/scannerdocumentdispo.py" ]; then
-            echo "→ scannerdocumentdispo.py trouvé dans beta. Copie et exécution..."
-            cp beta/scannerdocumentdispo.py .
-            python scannerdocumentdispo.py
-          else
-            echo "⚠ scannerdocumentdispo.py introuvable. Étape ignorée."
-          fi
+                - name: Génération de l'index des documents
+                  run: |
+                    if [ -f "scannerdocumentdispo.py" ]; then
+                      echo "→ Exécution de scannerdocumentdispo.py à la racine..."
+                      python scannerdocumentdispo.py
+                    elif [ -f "beta/scannerdocumentdispo.py" ]; then
+                      echo "→ scannerdocumentdispo.py trouvé dans beta. Copie et exécution..."
+                      cp beta/scannerdocumentdispo.py .
+                      python scannerdocumentdispo.py
+                    else
+                      echo "⚠ scannerdocumentdispo.py introuvable. Étape ignorée."
+                    fi
+                      cp beta/scannerdocumentdispo.py .
+                      python scannerdocumentdispo.py
+                    else
+                      echo "⚠ scannerdocumentdispo.py introuvable. Étape ignorée."
+                    fi
 
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
