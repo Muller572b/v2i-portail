@@ -26,7 +26,7 @@
             </nav>
         </div>
         <div class="p-6 border-t border-[#e8e8ed]">
-            <button onclick="logout()" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 text-[#ff3b30] bg-[#ff3b30]/10 hover:bg-[#ff3b30]/20 font-semibold rounded-xl transition-colors">
+            <button onclick="logout()" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 text-[#ff3b30] bg-[#ff3b30]/10 hover:bg-[#ff3b30]/20 font-semibold rounded-xl transition-colors cursor-pointer">
                 <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
             </button>
         </div>
@@ -60,11 +60,26 @@
         <div class="bg-white border border-[#e8e8ed] rounded-2xl shadow-sm overflow-hidden">
             <div class="overflow-x-auto">
                 <table class="w-full text-left border-collapse">
-                    <thead class="bg-[#f5f5f7]/80 border-b border-[#e8e8ed]">
+                    <thead class="bg-[#f5f5f7]/80 border-b border-[#e8e8ed] select-none">
                         <tr>
-                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Patient / Job</th>
-                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Équipement</th>
-                            <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Date</th>
+                            <th onclick="handleSort('patient')" class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider cursor-pointer hover:bg-gray-200/50 hover:text-[#1d1d1f] transition-colors group">
+                                <div class="flex items-center gap-1.5">
+                                    <span>Patient / Job</span>
+                                    <i data-lucide="arrow-up-down" class="w-3.5 h-3.5 text-gray-400 opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                                </div>
+                            </th>
+                            <th onclick="handleSort('equipement')" class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider cursor-pointer hover:bg-gray-200/50 hover:text-[#1d1d1f] transition-colors group">
+                                <div class="flex items-center gap-1.5">
+                                    <span>Équipement</span>
+                                    <i data-lucide="arrow-up-down" class="w-3.5 h-3.5 text-gray-400 opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                                </div>
+                            </th>
+                            <th onclick="handleSort('date')" class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider cursor-pointer hover:bg-gray-200/50 hover:text-[#1d1d1f] transition-colors group">
+                                <div class="flex items-center gap-1.5">
+                                    <span>Date</span>
+                                    <i data-lucide="arrow-up-down" class="w-3.5 h-3.5 text-gray-400 opacity-60 group-hover:opacity-100 transition-opacity"></i>
+                                </div>
+                            </th>
                             <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Statut</th>
                             <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">Livraison</th>
                             <th class="px-6 py-3.5 text-xs font-bold text-[#86868b] uppercase tracking-wider">N° BL</th>
@@ -85,7 +100,7 @@
                 <p id="panel-bl" class="text-xs font-bold text-[#86868b] font-mono mt-1">N° DE COMMANDE : —</p>
                 <p class="text-xs font-medium text-[#86868b] mt-0.5">Job: <span id="panel-cosium-id" class="font-mono text-[#1d1d1f]">—</span></p>
             </div>
-            <button onclick="closeSidePanel()" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-full transition-colors border border-[#d2d2d7]">
+            <button onclick="closeSidePanel()" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-full transition-colors border border-[#d2d2d7] cursor-pointer">
                 <i data-lucide="x" class="w-5 h-5"></i>
             </button>
         </div>
@@ -106,6 +121,7 @@
                     <div>Dia: <span id="od-dia" class="font-mono"></span></div>
                 </div>
             </div>
+
             <div id="panel-og-row">
                 <h4 class="text-sm font-bold text-[#30d158] mb-3 flex items-center border-b border-[#e8e8ed] pb-2 mt-4">
                     <i data-lucide="eye" class="w-4 h-4 mr-2"></i> OEIL GAUCHE
@@ -122,6 +138,7 @@
                     <div>Dia: <span id="og-dia" class="font-mono"></span></div>
                 </div>
             </div>
+
             <div>
                 <h4 class="text-sm font-bold text-[#1d1d1f] mb-3 flex items-center border-b border-[#e8e8ed] pb-2 mt-4">
                     <i data-lucide="ruler" class="w-4 h-4 mr-2"></i> PARAMÈTRES
@@ -133,6 +150,7 @@
                     <div><span class="text-[#86868b]">Haut OG:</span> <span id="morpho-og-haut" class="font-mono font-bold float-right"></span></div>
                 </div>
             </div>
+
             <div>
                 <h4 class="text-sm font-bold text-[#1d1d1f] mb-3 flex items-center border-b border-[#e8e8ed] pb-2 mt-4">
                     <i data-lucide="layers" class="w-4 h-4 mr-2"></i> TRAITEMENTS
