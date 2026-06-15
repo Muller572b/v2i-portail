@@ -10,8 +10,69 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "15/06/2026 14:14",
+  "derniere_mise_a_jour": "15/06/2026 14:29",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162584",
+      "id_commande_v2i": "260615000052",
+      "code_cote": "B",
+      "patient": "CHAUDON DOMINIQUE",
+      "job_cosium": "J154014510",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: CHAUDON DOMINIQUE / J154014510 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "Delta Confort2 1.6 Polar G15 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-3.50",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Delta Confort2 1.6 Polar G15 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162581",
       "id_commande_v2i": "260615000049",
@@ -117,67 +178,6 @@
           "Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162584",
-      "id_commande_v2i": "260615000052",
-      "code_cote": "B",
-      "patient": "CHAUDON DOMINIQUE",
-      "job_cosium": "J154014510",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: CHAUDON DOMINIQUE / J154014510 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 19/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-3.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "Delta Confort2 1.6 Polar G15 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-3.50",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Delta Confort2 1.6 Polar G15 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
