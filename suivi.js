@@ -1,4 +1,10 @@
+/**
+ * V2i Portail - Module de Suivi des Commandes (suivi.js)
+ * Gère le flux des encours, le lazy-loading asynchrone des archives depuis GitHub,
+ * les filtres croisés (recherche + dates), le scroll infini et le panneau latéral technique.
+ */
 
+// --- CONFIGURATION CONSTANTE GITHUB ---
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
 // --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
@@ -436,18 +442,15 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
-        // --- SÉCURISATION DU COMPARATEUR DE TIMESTAMPS LOCAUX (AFFICHER DEPUIS LE 08 JUIN 2026) ---
+        // --- FILTRAGE : UNIQUEMENT SUR LES COMMANDES ARCHIVÉES (DÈS LE 08 JUIN 2026) ---
         const dateCommande = parseDate(v.date_entree);
         const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026 local
-        const afficherDocs = estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
+        const afficherDocs = v.isArchive && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
         const anneeBL = "20" + idCommande.substring(0, 2);
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
         
-        // ESPION CONSOLE : Permet de voir en direct la valeur de test dans F12
-        console.log(`[Debug URL] Commande: ${idCommande} | Dans LocalStorage: "${currentCosiumCode}" | Retenu: "${codeMagasinActuel}"`);
-
-        // Génération des liens avec l'URL en dur
+        // Construction des urls de téléchargement GitHub
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
         const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
