@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "15/06/2026 13:29",
+  "derniere_mise_a_jour": "15/06/2026 13:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162541",
@@ -1278,65 +1278,6 @@
       }
     },
     {
-      "ord_numb": "            10162135",
-      "id_commande_v2i": "260611000241",
-      "code_cote": "B",
-      "patient": "PINNA PATRICE",
-      "job_cosium": "J143053929-01",
-      "date_entree": "11/06/2026",
-      "detail": "Réf: PINNA PATRICE / J143053929-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Uni 1.6 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Uni 1.6 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162139",
       "id_commande_v2i": "260611000245",
       "code_cote": "B",
@@ -1439,6 +1380,65 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162135",
+      "id_commande_v2i": "260611000241",
+      "code_cote": "B",
+      "patient": "PINNA PATRICE",
+      "job_cosium": "J143053929-01",
+      "date_entree": "11/06/2026",
+      "detail": "Réf: PINNA PATRICE / J143053929-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
