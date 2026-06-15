@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "15/06/2026 13:29",
+  "derniere_mise_a_jour": "15/06/2026 13:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162526",
@@ -341,15 +341,49 @@
       }
     },
     {
+      "ord_numb": "            10162369",
+      "id_commande_v2i": "260612000229",
+      "code_cote": "L",
+      "patient": "EHRMANN LAETITIA",
+      "job_cosium": "J600029192",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: EHRMANN LAETITIA / J600029192 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol 1.5  Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162156",
       "id_commande_v2i": "260612000016",
       "code_cote": "B",
       "patient": "AMORIN",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: AMORIN — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "detail": "Réf: AMORIN — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -396,40 +430,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162369",
-      "id_commande_v2i": "260612000229",
-      "code_cote": "L",
-      "patient": "EHRMANN LAETITIA",
-      "job_cosium": "J600029192",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: EHRMANN LAETITIA / J600029192 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5  Polar Gris Durci",
-          "Durci Inclus"
         ]
       }
     },
