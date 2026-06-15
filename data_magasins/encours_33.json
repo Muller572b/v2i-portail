@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "15/06/2026 14:44",
+  "derniere_mise_a_jour": "15/06/2026 15:05",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162383",
@@ -174,59 +174,6 @@
       }
     },
     {
-      "ord_numb": "            10162384",
-      "id_commande_v2i": "260613000005",
-      "code_cote": "B",
-      "patient": "VARRAUX SAMUEL",
-      "job_cosium": "J140026209-03",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: VARRAUX SAMUEL / J140026209-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162385",
       "id_commande_v2i": "260613000006",
       "code_cote": "B",
@@ -335,6 +282,59 @@
           "Tchin St. Uni 1.5",
           "Montage",
           "Teinte Noir C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162384",
+      "id_commande_v2i": "260613000005",
+      "code_cote": "B",
+      "patient": "VARRAUX SAMUEL",
+      "job_cosium": "J140026209-03",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: VARRAUX SAMUEL / J140026209-03 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
         ]
       }
     },
@@ -627,69 +627,6 @@
       }
     },
     {
-      "ord_numb": "            10162334",
-      "id_commande_v2i": "260612000194",
-      "code_cote": "B",
-      "patient": "araujo da silva maria",
-      "job_cosium": "J140026203-01",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: araujo da silva maria / J140026203-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 19/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 175,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Teinte Noir C",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 35,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Teinte Noir C",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162214",
       "id_commande_v2i": "260612000074",
       "code_cote": "B",
@@ -912,6 +849,69 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162334",
+      "id_commande_v2i": "260612000194",
+      "code_cote": "B",
+      "patient": "araujo da silva maria",
+      "job_cosium": "J140026203-01",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: araujo da silva maria / J140026203-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Teinte Noir C",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 35,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Teinte Noir C",
           "Précalibrage Inclus",
           "Optimisé"
         ]
