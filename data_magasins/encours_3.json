@@ -10,46 +10,129 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "14/06/2026 16:27",
+  "derniere_mise_a_jour": "15/06/2026 21:05",
   "commandes_en_cours": [
     {
-      "ord_numb": "            10162144",
-      "id_commande_v2i": "260612000004",
+      "ord_numb": "            10162640",
+      "id_commande_v2i": "260615000108",
       "code_cote": "B",
-      "patient": "CASELLA ANDREA",
-      "job_cosium": "J122023478",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: CASELLA ANDREA / J122023478 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 12/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "patient": "GUGLIELMI AUGUSTE DOMINIQ",
+      "job_cosium": "J122023501",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: GUGLIELMI AUGUSTE DOMINIQ / J122023501 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 20,
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "0.00",
+        "axe": 0,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
+        "ecart_pupillaire": "32.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista St. Uni 1.5"
+          "St. Uni 1.6 Xblue Arh"
         ]
       },
       "oeil_gauche": {
         "verre": "Stock",
         "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162641",
+      "id_commande_v2i": "260615000109",
+      "code_cote": "B",
+      "patient": "GUGLIELMI AUGUSTE DOMINIQ",
+      "job_cosium": "J122023499",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: GUGLIELMI AUGUSTE DOMINIQ / J122023499 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162659",
+      "id_commande_v2i": "260615000127",
+      "code_cote": "B",
+      "patient": "BONELLI BRUNO",
+      "job_cosium": "J122023510",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: BONELLI BRUNO / J122023510 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.50",
-        "axe": 160,
+        "sphere": "0.75",
+        "cylindre": "2.00",
+        "axe": 30,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -59,40 +142,8 @@
         "ecart_pupillaire": "28.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162252",
-      "id_commande_v2i": "260612000112",
-      "code_cote": "B",
-      "patient": "HAMEAUX JEANNE",
-      "job_cosium": "J122023475",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: HAMEAUX JEANNE / J122023475 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "2.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
+          "Uni 1.6 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       },
@@ -100,9 +151,62 @@
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.50",
-        "axe": 5,
+        "sphere": "0.75",
+        "cylindre": "3.00",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162716",
+      "id_commande_v2i": "260615000184",
+      "code_cote": "B",
+      "patient": "VIGER MARIE",
+      "job_cosium": "J122023511",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: VIGER MARIE / J122023511 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.50",
+        "axe": 40,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -112,9 +216,113 @@
         "ecart_pupillaire": "31.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162562",
+      "id_commande_v2i": "260615000030",
+      "code_cote": "B",
+      "patient": "PASQUALINI CORALIE",
+      "job_cosium": "J122023495-01",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: PASQUALINI CORALIE / J122023495-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162563",
+      "id_commande_v2i": "260615000031",
+      "code_cote": "B",
+      "patient": "PASQUALINI CORALIE",
+      "job_cosium": "J122023495-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: PASQUALINI CORALIE / J122023495-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -169,6 +377,112 @@
         "supplements": [
           "Retouche verre client",
           "Super AR Antistatic",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162144",
+      "id_commande_v2i": "260612000004",
+      "code_cote": "B",
+      "patient": "CASELLA ANDREA",
+      "job_cosium": "J122023478",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: CASELLA ANDREA / J122023478 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 12/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162252",
+      "id_commande_v2i": "260612000112",
+      "code_cote": "B",
+      "patient": "HAMEAUX JEANNE",
+      "job_cosium": "J122023475",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: HAMEAUX JEANNE / J122023475 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "2.00",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }

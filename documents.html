@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V2i Optique - Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="documents.js" defer></script>
+    
+    <style>
+        /* Styles spécifiques pour l'injection dynamique des cartes de documents */
+        .doc-card {
+            background: #ffffff;
+            border: 1px solid #e8e8ed;
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+        .doc-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        .doc-badge {
+            align-self: flex-start;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            tracking-wide;
+        }
+        /* Variations de couleurs des badges selon le type de fichier détecté par le scan */
+        .badge-pdf { background-color: rgba(255, 59, 48, 0.1); color: #ff3b30; }
+        .badge-image { background-color: rgba(52, 199, 89, 0.1); color: #34c759; }
+        .badge-archive { background-color: rgba(175, 82, 222, 0.1); color: #af52de; }
+
+        .doc-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0 0 4px 0;
+            color: #1d1d1f;
+            line-height: 1.4;
+            text-transform: uppercase;
+        }
+        .doc-category {
+            font-size: 12px;
+            color: #86868b;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .doc-actions {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e8e8ed;
+            padding-top: 16px;
+        }
+        .btn-action {
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .btn-action:hover {
+            opacity: 0.7;
+        }
+        .btn-download { color: #86868b; }
+        .btn-preview { color: #0066cc; }
+
+        /* Style des boutons filtres personnalisés pour s'accorder au JS */
+        .filter-btn {
+            padding: 8px 16px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 600;
+            background-color: #f5f5f7;
+            color: #86868b;
+            border: 1px solid transparent;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        .filter-btn:hover {
+            background-color: #e8e8ed;
+            color: #1d1d1f;
+        }
+        .filter-btn.active {
+            background-color: #0066cc;
+            color: #ffffff;
+        }
+        .no-result {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: #86868b;
+            padding: 40px;
+            font-style: italic;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="bg-[#f5f5f7] text-[#1d1d1f] font-sans antialiased min-h-screen flex">
+
+    <aside class="w-64 bg-white border-r border-[#e8e8ed] flex flex-col justify-between shrink-0 h-screen sticky top-0">
+        <div class="p-6">
+            <h1 class="text-xl font-bold tracking-tight text-[#1d1d1f] mb-8">V2I OPTIQUE</h1>
+            <nav class="space-y-2">
+                <a href="accueil.html" class="flex items-center gap-3 px-4 py-3 text-[#86868b] hover:bg-[#f5f5f7] hover:text-[#1d1d1f] font-medium rounded-xl transition-colors">
+                    <i data-lucide="home" class="w-5 h-5"></i> Accueil
+                </a>
+                <a href="suivi.html" class="flex items-center gap-3 px-4 py-3 text-[#86868b] hover:bg-[#f5f5f7] hover:text-[#1d1d1f] font-medium rounded-xl transition-colors">
+                    <i data-lucide="list" class="w-5 h-5"></i> Suivi Commandes
+                </a>
+                <a href="document.html" class="flex items-center gap-3 px-4 py-3 bg-[#f5f5f7] text-[#0066cc] font-semibold rounded-xl">
+                    <i data-lucide="folder" class="w-5 h-5"></i> Documents
+                </a>
+            </nav>
+        </div>
+        <div class="p-6 border-t border-[#e8e8ed]">
+            <button onclick="logout()" class="flex items-center justify-center w-full gap-2 px-4 py-2.5 text-[#ff3b30] bg-[#ff3b30]/10 hover:bg-[#ff3b30]/20 font-semibold rounded-xl transition-colors cursor-pointer">
+                <i data-lucide="log-out" class="w-4 h-4"></i> Déconnexion
+            </button>
+        </div>
+    </aside>
+
+    <main class="flex-1 p-10 relative">
+        <header class="mb-8">
+            <div>
+                <h2 class="text-3xl font-bold tracking-tight">Documentation & Outils</h2>
+                <p class="text-[#86868b] mt-1 font-medium">Retrouvez l'ensemble des catalogues et supports d'aide à la vente.</p>
+            </div>
+        </header>
+
+        <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm mb-6 flex flex-wrap gap-4 items-center">
+            <div class="flex-1 min-w-[250px] relative">
+                <i data-lucide="search" class="absolute left-3 top-3 w-5 h-5 text-gray-400"></i>
+                <input type="text" id="docSearch" placeholder="Rechercher un catalogue, un support, un mot-clé..." class="w-full pl-10 pr-4 py-2.5 bg-[#f5f5f7] border-transparent rounded-xl focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc] outline-none transition-all text-sm font-medium placeholder-gray-400">
+            </div>
+            <div class="flex items-center gap-2">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="pdf">PDF</button>
+                <button class="filter-btn" data-filter="image">Images</button>
+                <button class="filter-btn" data-filter="archive">Archives</button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="documentsContainer">
+            </div>
+    </main>
+
+    <script>
+        // Initialisation immédiate des icônes de navigation Lucide
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window.lucide) lucide.createIcons();
+        });
+
+        // Sécurité de déconnexion globale intégrée
+        function logout() {
+            localStorage.removeItem('v2i_authenticated');
+            localStorage.removeItem('v2i_client_id');
+            localStorage.removeItem('v2i_cosium_code');
+            window.location.href = './login.html';
+        }
+        window.logout = logout;
+    </script>
+</body>
+</html>

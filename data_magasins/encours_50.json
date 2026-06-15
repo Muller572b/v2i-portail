@@ -10,8 +10,41 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "14/06/2026 16:27",
+  "derniere_mise_a_jour": "15/06/2026 21:05",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162751",
+      "id_commande_v2i": "260615000219",
+      "code_cote": "R",
+      "patient": "MITEV MARION",
+      "job_cosium": "J600029211",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: MITEV MARION / J600029211 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "6.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": null
+    },
     {
       "ord_numb": "            10162526",
       "id_commande_v2i": "260613000147",
@@ -19,67 +52,14 @@
       "patient": "BUSTI ROMAIN",
       "job_cosium": "J600029202-01",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BUSTI ROMAIN / J600029202-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162527",
-      "id_commande_v2i": "260613000148",
-      "code_cote": "B",
-      "patient": "BUSTI ROMAIN",
-      "job_cosium": "J600029202-02",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: BUSTI ROMAIN / J600029202-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06 ",
+      "detail": "Réf: BUSTI ROMAIN / J600029202-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "70",
         "sphere": "0.25",
         "cylindre": "0.25",
@@ -93,12 +73,13 @@
         "ecart_pupillaire": "30.5",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
+          "Acui Sol 1.5 Polar G15 Durci",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "70",
         "sphere": "0.25",
         "cylindre": "0.25",
@@ -112,7 +93,8 @@
         "ecart_pupillaire": "31.5",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
+          "Acui Sol 1.5 Polar G15 Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -123,9 +105,9 @@
       "patient": "BOUMEDIANE BOUMALIK ABDELMALEK",
       "job_cosium": "J600029198",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BOUMEDIANE BOUMALIK ABDELMALEK / J600029198 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: BOUMEDIANE BOUMALIK ABDELMALEK / J600029198 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -178,9 +160,9 @@
       "patient": "PASTINI MARYLENE",
       "job_cosium": "J600029196",
       "date_entree": "13/06/2026",
-      "detail": "Réf: PASTINI MARYLENE / J600029196 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: PASTINI MARYLENE / J600029196 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -227,6 +209,59 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162531",
+      "id_commande_v2i": "260613000152",
+      "code_cote": "B",
+      "patient": "BONACCORSO ANGELO",
+      "job_cosium": "J600029194",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: BONACCORSO ANGELO / J600029194 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.50",
+        "cylindre": "1.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Uni 1.5 Non Durci",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.00",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Uni 1.5 Non Durci",
+          "Teinte G15 C"
         ]
       }
     },
@@ -288,44 +323,24 @@
       }
     },
     {
-      "ord_numb": "            10162531",
-      "id_commande_v2i": "260613000152",
+      "ord_numb": "            10162527",
+      "id_commande_v2i": "260613000148",
       "code_cote": "B",
-      "patient": "BONACCORSO ANGELO",
-      "job_cosium": "J600029194",
+      "patient": "BUSTI ROMAIN",
+      "job_cosium": "J600029202-02",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BONACCORSO ANGELO / J600029194 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "detail": "Réf: BUSTI ROMAIN / J600029202-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.50",
-        "cylindre": "1.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Uni 1.5 Non Durci",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.00",
-        "cylindre": "1.00",
-        "axe": 80,
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 175,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -335,8 +350,60 @@
         "ecart_pupillaire": "30.5",
         "hauteur": "0.0",
         "supplements": [
-          "Acui Uni 1.5 Non Durci",
-          "Teinte G15 C"
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162369",
+      "id_commande_v2i": "260612000229",
+      "code_cote": "L",
+      "patient": "EHRMANN LAETITIA",
+      "job_cosium": "J600029192",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: EHRMANN LAETITIA / J600029192 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol 1.5  Polar Gris Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -347,11 +414,11 @@
       "patient": "AMORIN",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: AMORIN — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "detail": "Réf: AMORIN — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -400,51 +467,17 @@
       }
     },
     {
-      "ord_numb": "            10162369",
-      "id_commande_v2i": "260612000229",
-      "code_cote": "L",
-      "patient": "EHRMANN LAETITIA",
-      "job_cosium": "J600029192",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: EHRMANN LAETITIA / J600029192 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162116",
       "id_commande_v2i": "260611000222",
       "code_cote": "B",
       "patient": "SERGENT DANIEL",
       "job_cosium": "J600029180",
       "date_entree": "11/06/2026",
-      "detail": "Réf: SERGENT DANIEL / J600029180 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "detail": "Réf: SERGENT DANIEL / J600029180 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -501,11 +534,11 @@
       "patient": "VINCENTI ANTONIA",
       "job_cosium": "J600029174",
       "date_entree": "11/06/2026",
-      "detail": "Réf: VINCENTI ANTONIA / J600029174 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "detail": "Réf: VINCENTI ANTONIA / J600029174 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -556,9 +589,9 @@
       "patient": "BEZANGER JEAN PIERRE",
       "job_cosium": "J600029172",
       "date_entree": "11/06/2026",
-      "detail": "Réf: BEZANGER JEAN PIERRE / J600029172 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: BEZANGER JEAN PIERRE / J600029172 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -607,9 +640,9 @@
       "patient": "THIRIET",
       "job_cosium": "",
       "date_entree": "10/06/2026",
-      "detail": "Réf: THIRIET — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: THIRIET — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -669,8 +702,8 @@
       "detail": "Réf: FIESCHI NOEL / J600029114 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -711,57 +744,6 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160606",
-      "id_commande_v2i": "260603000178",
-      "code_cote": "B",
-      "patient": "LUCCHINI MARIE THERESE",
-      "job_cosium": "J600029086",
-      "date_entree": "03/06/2026",
-      "detail": "Réf: LUCCHINI MARIE THERESE / J600029086 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 04/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "4.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "4.00",
-        "cylindre": "1.00",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Durci Arh"
         ]
       }
     }
