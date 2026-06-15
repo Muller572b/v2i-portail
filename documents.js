@@ -1,73 +1,85 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Récupération des éléments du DOM
     const container = document.getElementById('documentsContainer');
     const searchInput = document.getElementById('docSearch');
     const filterButtons = document.querySelectorAll('.filter-btn');
 
-    // Définition de la liste des documents stockés (reproduisant vos données réelles)
-    const documentsData = [
-        {
-            id: 1,
-            type: "image",
-            title: "Diving GLARE-NO-GLARE",
-            category: "Polarisant",
-            fileUrl: "docs/diving_glare_no_glare.jpg"
-        },
-        {
-            id: 2,
-            type: "pdf",
-            title: "NuPolar Leaflet 100x210 4-page PRINT FRE",
-            category: "Polarisant",
-            fileUrl: "docs/nupolar_leaflet_100x210.pdf"
-        },
-        {
-            id: 3,
-            type: "pdf",
-            title: "NuPolar Advertising A4 PRINT FRE",
-            category: "Polarisant",
-            fileUrl: "docs/nupolar_advertising_a4.pdf"
-        }
-    ];
+    // Récupération automatique du code magasin connecté stocké lors du login
+    // Si aucun code n'est trouvé, on applique une chaîne vide par sécurité
+    const codeMagasinConnecte = localStorage.getItem('v2i_client_id') || '';
 
+    // Initialisation de la variable globale qui contiendra les données du fichier JSON
+    let documentsData = [];
     let currentFilter = 'all';
     let searchQuery = '';
 
-    // Fonction de rendu principal de l'interface graphique
+    // --- 1. CHARGEMENT DYNAMIQUE DES DONNÉES DEPUIS LE FICHIER GENERÉ ---
+    function loadDocuments() {
+        fetch('documents.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Impossible de charger le fichier d\'index des documents.');
+                }
+                return response.json();
+            })
+            .then(data => {
+                documentsData = data; // Stockage des documents récupérés
+                renderDocuments();    // Premier affichage de la grille
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                container.innerHTML = `<div class="no-result text-red-500">Erreur lors du chargement des documents. Veuillez relancer le scanner.</div>`;
+            });
+    }
+
+    // --- 2. FONCTION DE RENDU PRINCIPAL DE L'INTERFACE ---
     function renderDocuments() {
         container.innerHTML = '';
 
-        // Filtrage croisé (recherche par texte + type de document)
+        // Filtrage croisé : Droits d'accès Magasin + Recherche textuelle + Filtre par type
         const filteredDocs = documentsData.filter(doc => {
-            const matchesSearch = doc.title.toLowerCase().includes(searchQuery) || 
-                                  doc.category.toLowerCase().includes(searchQuery);
+            // SÉCURITÉ : Le magasin a accès uniquement si le doc est public OU si le code correspond au dossier v2i
+            const aAcces = doc.code_magasin === 'public' || doc.code_magasin === codeMagasinConnecte;
+            if (!aAcces) return false;
+
+            // Filtre textuel (recherche sur le titre ou la catégorie)
+            // Adaptation aux clés du script Python : "titre" et "categorie"
+            const matchesSearch = doc.titre.toLowerCase().includes(searchQuery) || 
+                                  doc.categorie.toLowerCase().includes(searchQuery);
+                                  
+            // Filtre par boutons (Tous, PDF, Images, Archives)
             const matchesFilter = currentFilter === 'all' || doc.type === currentFilter;
             
             return matchesSearch && matchesFilter;
         });
 
-        // Gestion de la liste vide
+        // Gestion de l'affichage si aucun document ne correspond
         if (filteredDocs.length === 0) {
             container.innerHTML = `<div class="no-result">Aucun document ne correspond à vos critères de recherche.</div>`;
             return;
         }
 
-        // Génération de chaque bloc carte
+        // Génération dynamique et injection des cartes HTML
         filteredDocs.forEach(doc => {
             const card = document.createElement('div');
             card.className = 'doc-card';
             
-            // Assignation de la classe CSS du badge selon le format de fichier
-            const badgeClass = doc.type === 'pdf' ? 'badge-pdf' : 'badge-image';
+            // Assignation de la classe CSS du badge selon le type détecté par Python (pdf, image, archive)
+            let badgeClass = 'badge-pdf';
+            if (doc.type === 'image') badgeClass = 'badge-image';
+            if (doc.type === 'archive') badgeClass = 'badge-archive';
 
+            // Injection de la structure avec les correspondances de clés Python ("url", "titre", "categorie")
             card.innerHTML = `
                 <span class="doc-badge ${badgeClass}">${doc.type}</span>
-                <h3 class="doc-title">${escapeHtml(doc.title)}</h3>
-                <span class="doc-category">${escapeHtml(doc.category)}</span>
+                <h3 class="doc-title">${escapeHtml(doc.titre)}</h3>
+                <span class="doc-category">${escapeHtml(doc.categorie)}</span>
                 
                 <div class="doc-actions">
-                    <a href="${doc.fileUrl}" download class="btn-action btn-download">
+                    <a href="${doc.url}" download class="btn-action btn-download">
                         📥 Télécharger
                     </a>
-                    <a href="${doc.fileUrl}" target="_blank" class="btn-action btn-preview">
+                    <a href="${doc.url}" target="_blank" class="btn-action btn-preview">
                         Aperçu ❯
                     </a>
                 </div>
@@ -76,24 +88,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Gestionnaire de l'événement de saisie dans le champ recherche
+    // --- 3. GESTIONNAIRES D'ÉVÉNEMENTS (LISTENERS) ---
+
+    // Écouteur sur la barre de recherche textuelle
     searchInput.addEventListener('input', (e) => {
         searchQuery = e.target.value.toLowerCase().trim();
         renderDocuments();
     });
 
-    // Gestionnaire des boutons de filtrage (Tous, PDF, Images)
+    // Écouteur sur les boutons de filtrage
     filterButtons.forEach(button => {
         button.addEventListener('click', (e) => {
+            // Gestion visuelle de la classe active sur les boutons
             filterButtons.forEach(btn => btn.classList.remove('active'));
             e.target.classList.add('active');
             
+            // Récupération du type de filtre et actualisation
             currentFilter = e.target.getAttribute('data-filter');
             renderDocuments();
         });
     });
 
-    // Protection contre les failles d'injection (XSS)
+    // Éviter les attaques par injection (XSS) dans le DOM
     function escapeHtml(str) {
         if (!str) return '';
         return str.toString()
@@ -104,6 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
             .replace(/'/g, "&#039;");
     }
 
-    // Premier affichage initial à l'ouverture de l'application
-    renderDocuments();
+    // Lancement initial du script au chargement de la page
+    loadDocuments();
 });
