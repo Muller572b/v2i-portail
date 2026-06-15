@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "15/06/2026 10:12",
+  "derniere_mise_a_jour": "15/06/2026 10:43",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162451",
@@ -19,9 +19,9 @@
       "patient": "MARCUCCILLI THOMAS FELIX",
       "job_cosium": "J146022805-01",
       "date_entree": "13/06/2026",
-      "detail": "Réf: MARCUCCILLI THOMAS FELIX / J146022805-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: MARCUCCILLI THOMAS FELIX / J146022805-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -172,66 +172,15 @@
       }
     },
     {
-      "ord_numb": "            10162308",
-      "id_commande_v2i": "260612000168",
-      "code_cote": "B",
-      "patient": "MARIOTTI JEANINE",
-      "job_cosium": "J146022799-01",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: MARIOTTI JEANINE / J146022799-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 128,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  St. Uni 1.6 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "1.50",
-        "axe": 78,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162320",
       "id_commande_v2i": "260612000180",
       "code_cote": "B",
       "patient": "AABOUCH MOHAMED",
       "job_cosium": "J146022801-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: AABOUCH MOHAMED / J146022801-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: AABOUCH MOHAMED / J146022801-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -284,9 +233,9 @@
       "patient": "AABOUCH MOHAMED",
       "job_cosium": "J146022801-02",
       "date_entree": "12/06/2026",
-      "detail": "Réf: AABOUCH MOHAMED / J146022801-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: AABOUCH MOHAMED / J146022801-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 16/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -325,6 +274,57 @@
         "hauteur": "0.0",
         "supplements": [
           "2de Uni 1.5 Non Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162308",
+      "id_commande_v2i": "260612000168",
+      "code_cote": "B",
+      "patient": "MARIOTTI JEANINE",
+      "job_cosium": "J146022799-01",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: MARIOTTI JEANINE / J146022799-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 128,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  St. Uni 1.6 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 78,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  St. Uni 1.6 Durci Arh"
         ]
       }
     }
