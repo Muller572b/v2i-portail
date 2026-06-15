@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "15/06/2026 10:12",
+  "derniere_mise_a_jour": "15/06/2026 10:43",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162534",
@@ -161,6 +161,61 @@
       }
     },
     {
+      "ord_numb": "            10162551",
+      "id_commande_v2i": "260615000019",
+      "code_cote": "B",
+      "patient": "DE COSTANZA",
+      "job_cosium": "",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: DE COSTANZA — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162445",
       "id_commande_v2i": "260613000066",
       "code_cote": "B",
@@ -216,70 +271,15 @@
       }
     },
     {
-      "ord_numb": "            10162485",
-      "id_commande_v2i": "260613000106",
-      "code_cote": "B",
-      "patient": "KEDROFF ANNE SOPHIE",
-      "job_cosium": "J152045232-02",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Brun C",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Brun C",
-          "Montage"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162486",
       "id_commande_v2i": "260613000107",
       "code_cote": "B",
       "patient": "KEDROFF ANNE SOPHIE",
       "job_cosium": "J152045232-01",
       "date_entree": "13/06/2026",
-      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -330,9 +330,9 @@
       "patient": "KEDROFF ANNE SOPHIE",
       "job_cosium": "J152045232-03",
       "date_entree": "13/06/2026",
-      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-03 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-03 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -376,6 +376,61 @@
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162485",
+      "id_commande_v2i": "260613000106",
+      "code_cote": "B",
+      "patient": "KEDROFF ANNE SOPHIE",
+      "job_cosium": "J152045232-02",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Brun C",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Brun C",
           "Montage"
         ]
       }
@@ -444,9 +499,9 @@
       "patient": "GIACOMONI",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: GIACOMONI — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: GIACOMONI — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -501,9 +556,9 @@
       "patient": "CRISTOFARI MARIE PIERRE",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: CRISTOFARI MARIE PIERRE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: CRISTOFARI MARIE PIERRE — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -548,6 +603,61 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162261",
+      "id_commande_v2i": "260612000121",
+      "code_cote": "B",
+      "patient": "ADAM NATHALIE",
+      "job_cosium": "J152045215",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: ADAM NATHALIE / J152045215 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "2.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "1.50",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -603,61 +713,6 @@
           "Tchin Affiny Lecture2 1.5 Polar Brun Durc",
           "Durci Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162261",
-      "id_commande_v2i": "260612000121",
-      "code_cote": "B",
-      "patient": "ADAM NATHALIE",
-      "job_cosium": "J152045215",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: ADAM NATHALIE / J152045215 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "2.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "1.50",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -808,9 +863,9 @@
       "patient": "CEVOLI PHILIPPE",
       "job_cosium": "J152045207",
       "date_entree": "11/06/2026",
-      "detail": "Réf: CEVOLI PHILIPPE / J152045207 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: CEVOLI PHILIPPE / J152045207 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": null,
@@ -843,9 +898,9 @@
       "patient": "FROMENTIN SYLVIE",
       "job_cosium": "J152045190-01",
       "date_entree": "10/06/2026",
-      "detail": "Réf: FROMENTIN SYLVIE / J152045190-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "detail": "Réf: FROMENTIN SYLVIE / J152045190-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
