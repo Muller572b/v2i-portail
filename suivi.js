@@ -7,16 +7,35 @@
 // --- CONFIGURATION CONSTANTE GITHUB ---
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
-// --- ÉTATS GLOBAUX PERSISTANTS (Extraits du LocalStorage) ---
+// --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
+const listeMagasins = {
+        "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
+        "9": "A40", "10": "BAA", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
+        "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
+        "33": "33", "35": "OBP", "31": "LAR", "31": "LAR", "99": "TEST99", "ADMIN": "COSIUM2026"
+    };
+
+// --- ÉTATS GLOBAUX PERSISTANTS ---
 let currentStoreId = localStorage.getItem('v2i_client_id') || null;
 let currentCosiumCode = localStorage.getItem('v2i_cosium_code') || null;
+
+// NETTOYAGE ET SÉCURITÉ : Si le LocalStorage renvoie "null" (chaîne) ou est vide, on applique le dictionnaire
+if (!currentCosiumCode || currentCosiumCode === 'null' || currentCosiumCode.trim() === '') {
+    currentCosiumCode = LISTE_MAGASINS[currentStoreId] || '00';
+}
 
 let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; // Verrou de sécurité global
+let isLoadingArchives = false; // Verrou de sécurité global et état de chargement
 let searchTimeout = null;
+
+// --- CONFIGURATION DU TRI DYNAMIQUE ---
+let currentSort = {
+    key: 'date',  // Tri par défaut sur la date
+    asc: false    // Plus récent au plus ancien par défaut
+};
 
 /**
  * Le Gardien : Vérifie l'état de la session avant d'afficher les données
@@ -39,10 +58,11 @@ checkSession();
 document.addEventListener('DOMContentLoaded', () => {
     if (!checkSession()) return;
 
-    // Mise à jour de l'affichage du badge magasin si présent
+    // Mise à jour de l'affichage du badge magasin si présent (Correction du null)
     const storeBadge = document.getElementById('store-badge');
     if (storeBadge) {
-        storeBadge.innerText = `Magasin : N° ${currentStoreId} (${currentCosiumCode || 'Labo'})`;
+        const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
+        storeBadge.innerText = `Magasin : N° ${currentStoreId}${cosiumText}`;
     }
 
     // Chargement initial du flux des encours
@@ -84,10 +104,11 @@ async function loadStoreEncours() {
         const data = await response.json();
         storeEncours = data.commandes_en_cours || [];
         
-        // Optionnel : Actualise dynamiquement le nom réel du magasin si disponible
+        // Actualise dynamiquement le nom réel du magasin sans le suffixe textuel (null)
         const storeBadge = document.getElementById('store-badge');
         if (storeBadge && data.infos_magasin && data.infos_magasin.nom) {
-            storeBadge.innerText = `Magasin : ${data.infos_magasin.nom} (${currentCosiumCode})`;
+            const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
+            storeBadge.innerText = `Magasin : ${data.infos_magasin.nom}${cosiumText}`;
         }
 
         renderVerres();
@@ -194,6 +215,7 @@ async function handleDateBoundsChange() {
 
     if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
+        renderVerres(); // Force l'état visuel "Chargement" immédiatement
         
         const anneesACharger = [];
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
@@ -220,7 +242,7 @@ function parseDate(dateStr) {
     if (!dateStr) return null;
     const parts = dateStr.split(' ')[0].split('/');
     if (parts.length === 3) {
-        return new Date(parts[2], parts[1] - 1, parts[0], 0, 0, 0, 0);
+        return new Date(parseInt(parts[2], 10), parseInt(parts[1], 10) - 1, parseInt(parts[0], 10), 0, 0, 0, 0);
     }
     return null;
 }
@@ -235,30 +257,40 @@ function handleSearchInput() {
         const searchInput = document.getElementById('search-verres');
         const searchValue = searchInput ? searchInput.value.trim() : '';
         
-        if (searchValue.length >= 5 && !isNaN(searchValue.replace(/^[a-zA-Z]/, ''))) {
+        if (searchValue.length >= 3) {
             const currentYear = new Date().getFullYear();
+            const yearsToLoad = [currentYear, currentYear - 1, currentYear - 2, currentYear - 3];
+            const missingYears = yearsToLoad.filter(y => !loadedYears.includes(y));
             
-            if (!loadedYears.includes(currentYear) || !loadedYears.includes(currentYear - 1)) {
-                if (!isLoadingArchives) {
-                    isLoadingArchives = true;
-                    try {
-                        await Promise.all([
-                            loadArchiveYear(currentYear),
-                            loadArchiveYear(currentYear - 1),
-                            loadArchiveYear(currentYear - 2)
-                        ]);
-                        autoArchivesIncluded = true;
-                    } catch (err) {
-                        console.error(err);
-                    } finally {
-                        isLoadingArchives = false;
-                    }
+            if (missingYears.length > 0 && !isLoadingArchives) {
+                isLoadingArchives = true;
+                renderVerres(); // Bascule l'écran sur le message d'attente
+                try {
+                    await Promise.all(missingYears.map(year => loadArchiveYear(year)));
+                    autoArchivesIncluded = true;
+                } catch (err) {
+                    console.error("Erreur lors de la recherche transverse dans les archives:", err);
+                } finally {
+                    isLoadingArchives = false;
                 }
             }
         }
         
         renderVerres();
     }, 350);
+}
+
+/**
+ * Gestionnaire d'interactivité du Tri Dynamique des colonnes
+ */
+function handleSort(colKey) {
+    if (currentSort.key === colKey) {
+        currentSort.asc = !currentSort.asc;
+    } else {
+        currentSort.key = colKey;
+        currentSort.asc = (colKey === 'date') ? false : true;
+    }
+    renderVerres();
 }
 
 /**
@@ -317,7 +349,8 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    const donneesFiltrees = donneesAAfficher.filter(v => {
+    // 1. Filtrage multicritère
+    let donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
         const statutFournisseur = v.statut_affichage || v.statut_final || '';
@@ -343,8 +376,37 @@ function renderVerres() {
         return true;
     });
 
+    // 2. Tri Algorithmique Dynamique
+    donneesFiltrees.sort((a, b) => {
+        let valA, valB;
+
+        if (currentSort.key === 'patient') {
+            valA = (a.patient || "").toLowerCase();
+            valB = (b.patient || "").toLowerCase();
+        } else if (currentSort.key === 'equipement') {
+            const cibleA = a.oeil_droit ? a.oeil_droit : a.oeil_gauche;
+            const cibleB = b.oeil_droit ? b.oeil_droit : b.oeil_gauche;
+            valA = (cibleA && cibleA.verre ? cibleA.verre : (a.type_commande || '')).toLowerCase();
+            valB = (cibleB && cibleB.verre ? cibleB.verre : (b.type_commande || '')).toLowerCase();
+        } else if (currentSort.key === 'date') {
+            valA = parseDate(a.date_entree) || new Date(0);
+            valB = parseDate(b.date_entree) || new Date(0);
+        } else {
+            return 0;
+        }
+
+        if (valA < valB) return currentSort.asc ? -1 : 1;
+        if (valA > valB) return currentSort.asc ? 1 : -1;
+        return 0;
+    });
+
+    // Gestion de l'état vide ou en cours de chargement réseau
     if (donneesFiltrees.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
+        if (isLoadingArchives) {
+            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white"><div class="flex items-center justify-center gap-2.5"><span class="animate-spin rounded-full h-4 w-4 border-2 border-[#0066cc] border-t-transparent"></span> Recherche et synchronisation des archives en cours...</div></td></tr>`;
+        } else {
+            tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
+        }
         return;
     }
 
@@ -380,24 +442,26 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
-        // Extraction de l'année depuis l'idCommande (ex: "260528..." -> "2026")
-        const anneeBL = "20" + idCommande.substring(0, 2);
-        
-        // --- MODIFICATIONS ICI ---
-        // Constante pour correspondre à ton nommage
-        const codeMagasinActuel = currentCosiumCode || '00'; 
-        
-        // Construction de l'URL directe pour l'eBL certifié PDF
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        // --- SÉCURISATION DU FILTRAGE : STRICTEMENT SUR LES COMMANDES ARCHIVÉES (DÈS LE 08 JUIN 2026) ---
+        const dateCommande = parseDate(v.date_entree);
+        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026 local
+        const afficherDocs = (v.isArchive === true) && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
-        // Construction de l'URL directe pour la Carte de Vue (CDV) PDF
+        const anneeBL = "20" + idCommande.substring(0, 2);
+        const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
+        
+        // Construction des urls de téléchargement GitHub
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
         const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
-        // -------------------------
+
+        const archiveBadge = v.isArchive 
+            ? `<span class="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold bg-amber-100 text-amber-800 tracking-wide uppercase">Archive</span>`
+            : '';
 
         rowsHtml.push(`
             <tr class="hover:bg-[#f5f5f7]/60 transition-colors align-middle font-sans text-xs bg-white">
                 <td class="px-6 py-4">
-                    <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient || '—'}</div>
+                    <div class="font-bold text-[#1d1d1f] text-sm tracking-tight uppercase">${v.patient || '—'} ${archiveBadge}</div>
                     <div class="text-[11px] text-[#86868b] font-medium font-mono mt-0.5">Job: ${v.job_cosium || '—'}</div>
                 </td>
                 <td class="px-6 py-4">${htmlSupplements}</td> 
@@ -411,7 +475,7 @@ function renderVerres() {
                             <i data-lucide="eye" class="w-4 h-4"></i>
                         </button>
                         
-                        ${estExpedie ? `
+                        ${afficherDocs ? `
                             <a href="${urlEbl}" target="_blank" class="px-3 py-1.5 bg-[#ff3b30] hover:bg-[#e03126] text-white font-bold rounded-xl cursor-pointer flex items-center gap-1.5 transition-colors text-[11px] tracking-wide shadow-sm" title="Télécharger le eBL">
                                 <span>eBL</span>
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i>
@@ -534,3 +598,4 @@ function logout() {
 window.openSidePanel = openSidePanel;
 window.closeSidePanel = closeSidePanel;
 window.logout = logout;
+window.handleSort = handleSort;
