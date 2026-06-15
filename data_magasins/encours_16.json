@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "15/06/2026 14:44",
+  "derniere_mise_a_jour": "15/06/2026 15:05",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162541",
@@ -663,67 +663,6 @@
       }
     },
     {
-      "ord_numb": "            10162165",
-      "id_commande_v2i": "260612000025",
-      "code_cote": "B",
-      "patient": "BONNAFOUX DANIELLE",
-      "job_cosium": "J143053917",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: BONNAFOUX DANIELLE / J143053917 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-6.25",
-        "cylindre": "2.00",
-        "axe": 95,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "O2 Supremu2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-7.00",
-        "cylindre": "2.50",
-        "axe": 90,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "O2 Supremu2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162372",
       "id_commande_v2i": "260612000232",
       "code_cote": "B",
@@ -837,6 +776,67 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162165",
+      "id_commande_v2i": "260612000025",
+      "code_cote": "B",
+      "patient": "BONNAFOUX DANIELLE",
+      "job_cosium": "J143053917",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: BONNAFOUX DANIELLE / J143053917 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-6.25",
+        "cylindre": "2.00",
+        "axe": 95,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "O2 Supremu2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-7.00",
+        "cylindre": "2.50",
+        "axe": 90,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "O2 Supremu2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
