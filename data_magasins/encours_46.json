@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "15/06/2026 11:13",
+  "derniere_mise_a_jour": "15/06/2026 11:28",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162534",
@@ -102,65 +102,6 @@
       }
     },
     {
-      "ord_numb": "            10162536",
-      "id_commande_v2i": "260615000004",
-      "code_cote": "B",
-      "patient": "GENSON MARIE",
-      "job_cosium": "",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: GENSON MARIE — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "5.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "1.00",
-        "axe": 95,
-        "addition": "2.50",
-        "prisme_1": "5.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "25.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162551",
       "id_commande_v2i": "260615000019",
       "code_cote": "B",
@@ -212,6 +153,65 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162536",
+      "id_commande_v2i": "260615000004",
+      "code_cote": "B",
+      "patient": "GENSON MARIE",
+      "job_cosium": "",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: GENSON MARIE — (Fabrication RX) — État: Contrôle sortie de fabrication",
+      "statut_code": "SFAB",
+      "statut_affichage": "Contrôle sortie de fabrication",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "5.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 95,
+        "addition": "2.50",
+        "prisme_1": "5.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "25.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
         ]
       }
     },
