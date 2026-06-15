@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "15/06/2026 17:35",
+  "derniere_mise_a_jour": "15/06/2026 17:50",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162552",
@@ -459,6 +459,57 @@
       }
     },
     {
+      "ord_numb": "            10162626",
+      "id_commande_v2i": "260615000094",
+      "code_cote": "B",
+      "patient": "PIERINELLI RAYMOND",
+      "job_cosium": "J144101795",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: PIERINELLI RAYMOND / J144101795 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162555",
       "id_commande_v2i": "260615000023",
       "code_cote": "B",
@@ -510,57 +561,6 @@
           "CLA Unifocal 1.74 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162626",
-      "id_commande_v2i": "260615000094",
-      "code_cote": "B",
-      "patient": "PIERINELLI RAYMOND",
-      "job_cosium": "J144101795",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: PIERINELLI RAYMOND / J144101795 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.75",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
