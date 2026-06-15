@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "15/06/2026 15:20",
+  "derniere_mise_a_jour": "15/06/2026 15:35",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162534",
@@ -47,6 +47,59 @@
         ]
       },
       "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10162535",
+      "id_commande_v2i": "260615000003",
+      "code_cote": "B",
+      "patient": "POLI",
+      "job_cosium": "",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: POLI — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.4",
+        "hauteur": "34.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Polar G15 Dur",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 125,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "34.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Polar G15 Dur",
+          "Optimisé"
+        ]
+      }
     },
     {
       "ord_numb": "            10162536",
@@ -108,121 +161,15 @@
       }
     },
     {
-      "ord_numb": "            10162602",
-      "id_commande_v2i": "260615000070",
-      "code_cote": "B",
-      "patient": "ETTORI KARINE",
-      "job_cosium": "J152045234-01",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: ETTORI KARINE / J152045234-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162535",
-      "id_commande_v2i": "260615000003",
-      "code_cote": "B",
-      "patient": "POLI",
-      "job_cosium": "",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: POLI — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.4",
-        "hauteur": "34.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Polar G15 Dur",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 125,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "34.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Polar G15 Dur",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162551",
       "id_commande_v2i": "260615000019",
       "code_cote": "B",
       "patient": "DE COSTANZA",
       "job_cosium": "",
       "date_entree": "15/06/2026",
-      "detail": "Réf: DE COSTANZA — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: DE COSTANZA — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -275,9 +222,9 @@
       "patient": "ROSSI Y PEREZ ENZO",
       "job_cosium": "J152045238-02",
       "date_entree": "15/06/2026",
-      "detail": "Réf: ROSSI Y PEREZ ENZO / J152045238-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: ROSSI Y PEREZ ENZO / J152045238-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -322,6 +269,59 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162602",
+      "id_commande_v2i": "260615000070",
+      "code_cote": "B",
+      "patient": "ETTORI KARINE",
+      "job_cosium": "J152045234-01",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: ETTORI KARINE / J152045234-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -377,6 +377,130 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162615",
+      "id_commande_v2i": "260615000083",
+      "code_cote": "B",
+      "patient": "ANNE ANNABELLE",
+      "job_cosium": "J152045242-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: ANNE ANNABELLE / J152045242-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Bleu C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "2.00",
+        "axe": 165,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Bleu C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162616",
+      "id_commande_v2i": "260615000084",
+      "code_cote": "B",
+      "patient": "ANNE ANNABELLE",
+      "job_cosium": "J152045242-01",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: ANNE ANNABELLE / J152045242-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.2",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "2.00",
+        "axe": 165,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.2",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -591,130 +715,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162615",
-      "id_commande_v2i": "260615000083",
-      "code_cote": "B",
-      "patient": "ANNE ANNABELLE",
-      "job_cosium": "J152045242-02",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: ANNE ANNABELLE / J152045242-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 19/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Bleu C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "2.00",
-        "axe": 165,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Bleu C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162616",
-      "id_commande_v2i": "260615000084",
-      "code_cote": "B",
-      "patient": "ANNE ANNABELLE",
-      "job_cosium": "J152045242-01",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: ANNE ANNABELLE / J152045242-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.2",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "2.00",
-        "axe": 165,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.2",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
