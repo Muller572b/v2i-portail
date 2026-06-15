@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "15/06/2026 16:20",
+  "derniere_mise_a_jour": "15/06/2026 16:35",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162584",
@@ -80,9 +80,9 @@
       "patient": "D''AGOSTINO CATHERINE",
       "job_cosium": "J154014519",
       "date_entree": "15/06/2026",
-      "detail": "Réf: D''AGOSTINO CATHERINE / J154014519 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: D''AGOSTINO CATHERINE / J154014519 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 25/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -135,9 +135,9 @@
       "patient": "STCHCTOUSCHENKO--BRESSY LOLA",
       "job_cosium": "J154014520",
       "date_entree": "15/06/2026",
-      "detail": "Réf: STCHCTOUSCHENKO--BRESSY LOLA / J154014520 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: STCHCTOUSCHENKO--BRESSY LOLA / J154014520 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 19/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -180,6 +180,59 @@
           "Vista Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162581",
+      "id_commande_v2i": "260615000049",
+      "code_cote": "B",
+      "patient": "LAYRIE LUCIE",
+      "job_cosium": "J154014518-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: LAYRIE LUCIE / J154014518-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.75",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C"
         ]
       }
     },
@@ -235,59 +288,6 @@
           "Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162581",
-      "id_commande_v2i": "260615000049",
-      "code_cote": "B",
-      "patient": "LAYRIE LUCIE",
-      "job_cosium": "J154014518-02",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: LAYRIE LUCIE / J154014518-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.50",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.75",
-        "cylindre": "1.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Dégradée Brun C"
         ]
       }
     },
