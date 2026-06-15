@@ -8,12 +8,13 @@
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
 // --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
-const listeMagasins = {
-        "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
-        "9": "A40", "10": "BAA", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
-        "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
-        "33": "33", "35": "OBP", "31": "LAR", "31": "LAR", "99": "TEST99", "ADMIN": "COSIUM2026"
-    };
+// Passé en MAJUSCULES pour correspondre au reste du script et nettoyage des doublons "31"
+const LISTE_MAGASINS = {
+    "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
+    "9": "A40", "10": "BAA", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
+    "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
+    "33": "33", "35": "OBP", "99": "TEST99", "ADMIN": "COSIUM2026"
+};
 
 // --- ÉTATS GLOBAUX PERSISTANTS ---
 let currentStoreId = localStorage.getItem('v2i_client_id') || null;
@@ -21,7 +22,7 @@ let currentCosiumCode = localStorage.getItem('v2i_cosium_code') || null;
 
 // NETTOYAGE ET SÉCURITÉ : Si le LocalStorage renvoie "null" (chaîne) ou est vide, on applique le dictionnaire
 if (!currentCosiumCode || currentCosiumCode === 'null' || currentCosiumCode.trim() === '') {
-    currentCosiumCode = LISTE_MAGASINS[currentStoreId] || '00';
+    currentCosiumCode = LISTE_MAGASINS[currentStoreId] || '00'; // Maintenant, la variable globale matchera parfaitement !
 }
 
 let storeEncours = [];
