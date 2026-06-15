@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "15/06/2026 11:43",
+  "derniere_mise_a_jour": "15/06/2026 11:58",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162568",
@@ -186,9 +186,9 @@
       "patient": "BENGUE SANDRINE",
       "job_cosium": "J121042537",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BENGUE SANDRINE / J121042537 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: BENGUE SANDRINE / J121042537 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -235,76 +235,15 @@
       }
     },
     {
-      "ord_numb": "            10162420",
-      "id_commande_v2i": "260613000041",
-      "code_cote": "B",
-      "patient": "FRANCESCHI ANNE MARIE",
-      "job_cosium": "J121042586",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: FRANCESCHI ANNE MARIE / J121042586 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "2.75",
-        "axe": 85,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "20.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "2.75",
-        "axe": 85,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "20.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162493",
       "id_commande_v2i": "260613000114",
       "code_cote": "B",
       "patient": "MONDOLONI SANDIE",
       "job_cosium": "J121042596",
       "date_entree": "13/06/2026",
-      "detail": "Réf: MONDOLONI SANDIE / J121042596 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: MONDOLONI SANDIE / J121042596 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 18/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -712,6 +651,67 @@
           "Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162420",
+      "id_commande_v2i": "260613000041",
+      "code_cote": "B",
+      "patient": "FRANCESCHI ANNE MARIE",
+      "job_cosium": "J121042586",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: FRANCESCHI ANNE MARIE / J121042586 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 18/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "20.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "20.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
