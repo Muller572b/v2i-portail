@@ -437,7 +437,7 @@ function renderVerres() {
         const anneeBL = "20" + idCommande.substring(0, 2);
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
         
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${v2i_cosium_code}_BL_${idCommande}.pdf`;
         const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
         const archiveBadge = v.isArchive 
