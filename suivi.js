@@ -442,10 +442,10 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
-        // --- FILTRAGE : UNIQUEMENT SUR LES COMMANDES ARCHIVÉES (DÈS LE 08 JUIN 2026) ---
+        // --- SÉCURISATION DU FILTRAGE : STRICTEMENT SUR LES COMMANDES ARCHIVÉES (DÈS LE 08 JUIN 2026) ---
         const dateCommande = parseDate(v.date_entree);
         const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026 local
-        const afficherDocs = v.isArchive && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
+        const afficherDocs = (v.isArchive === true) && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
         const anneeBL = "20" + idCommande.substring(0, 2);
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
