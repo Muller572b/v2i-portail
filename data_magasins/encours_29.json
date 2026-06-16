@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "16/06/2026 11:06",
+  "derniere_mise_a_jour": "16/06/2026 11:21",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162770",
@@ -19,9 +19,9 @@
       "patient": "SUSINI LAURENT",
       "job_cosium": "J121042582",
       "date_entree": "16/06/2026",
-      "detail": "Réf: SUSINI LAURENT / J121042582 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: SUSINI LAURENT / J121042582 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": null,
@@ -884,67 +884,6 @@
       }
     },
     {
-      "ord_numb": "            10162381",
-      "id_commande_v2i": "260613000002",
-      "code_cote": "B",
-      "patient": "CARVALHO",
-      "job_cosium": "",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: CARVALHO — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.50",
-        "cylindre": "1.50",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "6.00",
-        "base_1": "180",
-        "prisme_2": "1.50",
-        "base_2": "90",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "24.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "6.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "26.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162493",
       "id_commande_v2i": "260613000114",
       "code_cote": "B",
@@ -1161,6 +1100,67 @@
           "Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162381",
+      "id_commande_v2i": "260613000002",
+      "code_cote": "B",
+      "patient": "CARVALHO",
+      "job_cosium": "",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: CARVALHO — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.50",
+        "cylindre": "1.50",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "6.00",
+        "base_1": "180",
+        "prisme_2": "1.50",
+        "base_2": "90",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "24.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.75",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "6.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "26.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage",
+          "Prisme supérieur à 4"
         ]
       }
     },
