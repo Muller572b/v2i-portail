@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "16/06/2026 16:59",
+  "derniere_mise_a_jour": "16/06/2026 17:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162882",
@@ -337,68 +337,6 @@
       }
     },
     {
-      "ord_numb": "            10162538",
-      "id_commande_v2i": "260615000006",
-      "code_cote": "B",
-      "patient": "EMMANUELLI NICOLAS",
-      "job_cosium": "J134029315",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 15:01",
-      "detail": "Réf: EMMANUELLI NICOLAS / J134029315 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 80,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Delta Lecture2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Delta Lecture2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162540",
       "id_commande_v2i": "260615000008",
       "code_cote": "B",
@@ -510,6 +448,68 @@
           "Teinte Brun B",
           "Durci Inclus",
           "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162538",
+      "id_commande_v2i": "260615000006",
+      "code_cote": "B",
+      "patient": "EMMANUELLI NICOLAS",
+      "job_cosium": "J134029315",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "16/06/2026 17:10",
+      "detail": "Réf: EMMANUELLI NICOLAS / J134029315 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Delta Lecture2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Delta Lecture2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
@@ -629,68 +629,6 @@
       }
     },
     {
-      "ord_numb": "            10162501",
-      "id_commande_v2i": "260613000122",
-      "code_cote": "B",
-      "patient": "BOUDREAUX CHRISTIAN",
-      "job_cosium": "J134029312",
-      "date_entree": "13/06/2026",
-      "date_dernier_statut": "16/06/2026 15:01",
-      "detail": "Réf: BOUDREAUX CHRISTIAN / J134029312 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.25",
-        "axe": 60,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162457",
       "id_commande_v2i": "260613000078",
       "code_cote": "B",
@@ -805,6 +743,68 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162501",
+      "id_commande_v2i": "260613000122",
+      "code_cote": "B",
+      "patient": "BOUDREAUX CHRISTIAN",
+      "job_cosium": "J134029312",
+      "date_entree": "13/06/2026",
+      "date_dernier_statut": "16/06/2026 17:11",
+      "detail": "Réf: BOUDREAUX CHRISTIAN / J134029312 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
