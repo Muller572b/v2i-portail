@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "16/06/2026 10:21",
+  "derniere_mise_a_jour": "16/06/2026 10:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162537",
@@ -161,57 +161,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162741",
-      "id_commande_v2i": "260615000209",
-      "code_cote": "B",
-      "patient": "GOULET ROMANE",
-      "job_cosium": "J133035943",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: GOULET ROMANE / J133035943 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -375,6 +324,57 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162741",
+      "id_commande_v2i": "260615000209",
+      "code_cote": "B",
+      "patient": "GOULET ROMANE",
+      "job_cosium": "J133035943",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: GOULET ROMANE / J133035943 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -556,9 +556,9 @@
       "patient": "NEMRI MAHFOUDH",
       "job_cosium": "J133035918",
       "date_entree": "13/06/2026",
-      "detail": "Réf: NEMRI MAHFOUDH / J133035918 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: NEMRI MAHFOUDH / J133035918 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -607,9 +607,9 @@
       "patient": "BARBIER FREDDY",
       "job_cosium": "J133035920-01",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BARBIER FREDDY / J133035920-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BARBIER FREDDY / J133035920-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -660,9 +660,9 @@
       "patient": "BARBIER FREDDY",
       "job_cosium": "J133035920-02",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BARBIER FREDDY / J133035920-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BARBIER FREDDY / J133035920-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -711,9 +711,9 @@
       "patient": "EL METHAMAN LISA",
       "job_cosium": "",
       "date_entree": "13/06/2026",
-      "detail": "Réf: EL METHAMAN LISA — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: EL METHAMAN LISA — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -890,9 +890,9 @@
       "patient": "DUBOIS CHANTAL",
       "job_cosium": "J133035895",
       "date_entree": "12/06/2026",
-      "detail": "Réf: DUBOIS CHANTAL / J133035895 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: DUBOIS CHANTAL / J133035895 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -951,9 +951,9 @@
       "patient": "DARMOUN SAMA",
       "job_cosium": "J133035909-02",
       "date_entree": "12/06/2026",
-      "detail": "Réf: DARMOUN SAMA / J133035909-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: DARMOUN SAMA / J133035909-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1246,9 +1246,9 @@
       "patient": "BIDAMANT HERVE",
       "job_cosium": "J133035888",
       "date_entree": "11/06/2026",
-      "detail": "Réf: BIDAMANT HERVE / J133035888 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BIDAMANT HERVE / J133035888 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1307,9 +1307,9 @@
       "patient": "MARCELLESI OLIVIA",
       "job_cosium": "J133035890",
       "date_entree": "11/06/2026",
-      "detail": "Réf: MARCELLESI OLIVIA / J133035890 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: MARCELLESI OLIVIA / J133035890 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
