@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "16/06/2026 16:06",
+  "derniere_mise_a_jour": "16/06/2026 16:21",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162820",
@@ -314,9 +314,9 @@
       "patient": "CASANOVA CORINNE",
       "job_cosium": "J144101835-01",
       "date_entree": "16/06/2026",
-      "detail": "Réf: CASANOVA CORINNE / J144101835-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: CASANOVA CORINNE / J144101835-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -367,57 +367,6 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162781",
-      "id_commande_v2i": "260616000022",
-      "code_cote": "B",
-      "patient": "FILICE EUGENE",
-      "job_cosium": "J144101816-01",
-      "date_entree": "16/06/2026",
-      "detail": "Réf: FILICE EUGENE / J144101816-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -1084,6 +1033,210 @@
       }
     },
     {
+      "ord_numb": "            10162906",
+      "id_commande_v2i": "260616000147",
+      "code_cote": "B",
+      "patient": "POGGI MARIE",
+      "job_cosium": "J144101844-02",
+      "date_entree": "16/06/2026",
+      "detail": "Réf: POGGI MARIE / J144101844-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Afflelou St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Afflelou St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162907",
+      "id_commande_v2i": "260616000148",
+      "code_cote": "B",
+      "patient": "POGGI MARIE",
+      "job_cosium": "J144101844-03",
+      "date_entree": "16/06/2026",
+      "detail": "Réf: POGGI MARIE / J144101844-03 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162908",
+      "id_commande_v2i": "260616000149",
+      "code_cote": "B",
+      "patient": "POGGI MARIE",
+      "job_cosium": "J144101844-01",
+      "date_entree": "16/06/2026",
+      "detail": "Réf: POGGI MARIE / J144101844-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162781",
+      "id_commande_v2i": "260616000022",
+      "code_cote": "B",
+      "patient": "FILICE EUGENE",
+      "job_cosium": "J144101816-01",
+      "date_entree": "16/06/2026",
+      "detail": "Réf: FILICE EUGENE / J144101816-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162552",
       "id_commande_v2i": "260615000020",
       "code_cote": "B",
@@ -1487,402 +1640,6 @@
       }
     },
     {
-      "ord_numb": "            10162548",
-      "id_commande_v2i": "260615000016",
-      "code_cote": "B",
-      "patient": "SAGOT VIRGINIE",
-      "job_cosium": "J144101784-03",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: SAGOT VIRGINIE / J144101784-03 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Dégradée Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162553",
-      "id_commande_v2i": "260615000021",
-      "code_cote": "B",
-      "patient": "COSTANTINI RAFAEL",
-      "job_cosium": "J144101753-03",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: COSTANTINI RAFAEL / J144101753-03 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.50",
-        "cylindre": "2.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.25",
-        "cylindre": "2.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162576",
-      "id_commande_v2i": "260615000044",
-      "code_cote": "B",
-      "patient": "FERRANDIS ANA-MARIA",
-      "job_cosium": "J144101787",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: FERRANDIS ANA-MARIA / J144101787 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 110,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162626",
-      "id_commande_v2i": "260615000094",
-      "code_cote": "B",
-      "patient": "PIERINELLI RAYMOND",
-      "job_cosium": "J144101795",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: PIERINELLI RAYMOND / J144101795 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.75",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162726",
-      "id_commande_v2i": "260615000194",
-      "code_cote": "B",
-      "patient": "LECCIA LISANDRA JEANNE",
-      "job_cosium": "J144101800-02",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: LECCIA LISANDRA JEANNE / J144101800-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "1.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "2.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162727",
-      "id_commande_v2i": "260615000195",
-      "code_cote": "B",
-      "patient": "LECCIA LUNA EDITH",
-      "job_cosium": "J144101799-01",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: LECCIA LUNA EDITH / J144101799-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.00",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162728",
-      "id_commande_v2i": "260615000196",
-      "code_cote": "B",
-      "patient": "LECCIA LUNA EDITH",
-      "job_cosium": "J144101799-02",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: LECCIA LUNA EDITH / J144101799-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.00",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162729",
-      "id_commande_v2i": "260615000197",
-      "code_cote": "L",
-      "patient": "LORENZI M ANTOINETTE",
-      "job_cosium": "J144101807",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: LORENZI M ANTOINETTE / J144101807 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162555",
       "id_commande_v2i": "260615000023",
       "code_cote": "B",
@@ -1938,24 +1695,130 @@
       }
     },
     {
-      "ord_numb": "            10162416",
-      "id_commande_v2i": "260613000037",
+      "ord_numb": "            10162548",
+      "id_commande_v2i": "260615000016",
       "code_cote": "B",
-      "patient": "BOURCET VALERIE",
-      "job_cosium": "J144101761-02",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: BOURCET VALERIE / J144101761-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "patient": "SAGOT VIRGINIE",
+      "job_cosium": "J144101784-03",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: SAGOT VIRGINIE / J144101784-03 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162553",
+      "id_commande_v2i": "260615000021",
+      "code_cote": "B",
+      "patient": "COSTANTINI RAFAEL",
+      "job_cosium": "J144101753-03",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: COSTANTINI RAFAEL / J144101753-03 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.50",
+        "cylindre": "2.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.25",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162576",
+      "id_commande_v2i": "260615000044",
+      "code_cote": "B",
+      "patient": "FERRANDIS ANA-MARIA",
+      "job_cosium": "J144101787",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: FERRANDIS ANA-MARIA / J144101787 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 80,
         "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -1963,21 +1826,155 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
+        "hauteur": "27.0",
         "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
+          "Jeune 1er HD 1.5 Durci",
           "Durci Inclus"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 110,
         "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162626",
+      "id_commande_v2i": "260615000094",
+      "code_cote": "B",
+      "patient": "PIERINELLI RAYMOND",
+      "job_cosium": "J144101795",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: PIERINELLI RAYMOND / J144101795 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162726",
+      "id_commande_v2i": "260615000194",
+      "code_cote": "B",
+      "patient": "LECCIA LISANDRA JEANNE",
+      "job_cosium": "J144101800-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: LECCIA LISANDRA JEANNE / J144101800-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "1.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "2.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162727",
+      "id_commande_v2i": "260615000195",
+      "code_cote": "B",
+      "patient": "LECCIA LUNA EDITH",
+      "job_cosium": "J144101799-01",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: LECCIA LUNA EDITH / J144101799-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.00",
+        "axe": 45,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
@@ -1986,9 +1983,110 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162728",
+      "id_commande_v2i": "260615000196",
+      "code_cote": "B",
+      "patient": "LECCIA LUNA EDITH",
+      "job_cosium": "J144101799-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: LECCIA LUNA EDITH / J144101799-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.00",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162729",
+      "id_commande_v2i": "260615000197",
+      "code_cote": "L",
+      "patient": "LORENZI M ANTOINETTE",
+      "job_cosium": "J144101807",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: LORENZI M ANTOINETTE / J144101807 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -2103,16 +2201,16 @@
       }
     },
     {
-      "ord_numb": "            10162417",
-      "id_commande_v2i": "260613000038",
+      "ord_numb": "            10162416",
+      "id_commande_v2i": "260613000037",
       "code_cote": "B",
       "patient": "BOURCET VALERIE",
-      "job_cosium": "J144101761-01",
+      "job_cosium": "J144101761-02",
       "date_entree": "13/06/2026",
-      "detail": "Réf: BOURCET VALERIE / J144101761-01 — (Fabrication RX) — État: En attente expedition",
+      "detail": "Réf: BOURCET VALERIE / J144101761-02 — (Fabrication RX) — État: En attente expedition",
       "statut_code": "PACK",
       "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/06 ",
+      "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
@@ -2130,7 +2228,8 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin Reader3 1.5 Durci",
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       },
@@ -2150,117 +2249,8 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162432",
-      "id_commande_v2i": "260613000053",
-      "code_cote": "B",
-      "patient": "ROCCHI ANDREA",
-      "job_cosium": "J144101765-01",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: ROCCHI ANDREA / J144101765-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
+          "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "2.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162466",
-      "id_commande_v2i": "260613000087",
-      "code_cote": "B",
-      "patient": "PIERRE THERESE",
-      "job_cosium": "J144101771-03",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: PIERRE THERESE / J144101771-03 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Brun C",
           "Durci Inclus"
         ]
       }
@@ -2474,6 +2464,169 @@
       }
     },
     {
+      "ord_numb": "            10162417",
+      "id_commande_v2i": "260613000038",
+      "code_cote": "B",
+      "patient": "BOURCET VALERIE",
+      "job_cosium": "J144101761-01",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: BOURCET VALERIE / J144101761-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162432",
+      "id_commande_v2i": "260613000053",
+      "code_cote": "B",
+      "patient": "ROCCHI ANDREA",
+      "job_cosium": "J144101765-01",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: ROCCHI ANDREA / J144101765-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "2.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162466",
+      "id_commande_v2i": "260613000087",
+      "code_cote": "B",
+      "patient": "PIERRE THERESE",
+      "job_cosium": "J144101771-03",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: PIERRE THERESE / J144101771-03 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162273",
       "id_commande_v2i": "260612000133",
       "code_cote": "B",
@@ -2641,15 +2794,66 @@
       }
     },
     {
+      "ord_numb": "            10162259",
+      "id_commande_v2i": "260612000119",
+      "code_cote": "B",
+      "patient": "GALINIER LAURENCE",
+      "job_cosium": "J144101738-02",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: GALINIER LAURENCE / J144101738-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "55",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "55",
+        "sphere": "1.25",
+        "cylindre": "1.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162151",
       "id_commande_v2i": "260612000011",
       "code_cote": "B",
       "patient": "EZZAHI SAMIRA",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: EZZAHI SAMIRA — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: EZZAHI SAMIRA — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -2704,9 +2908,9 @@
       "patient": "FONTAINE MARIE CHRISTINE",
       "job_cosium": "J144101440",
       "date_entree": "12/06/2026",
-      "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101440 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: FONTAINE MARIE CHRISTINE / J144101440 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -2765,9 +2969,9 @@
       "patient": "EDREIRA CASTRO CECILE",
       "job_cosium": "J144101710",
       "date_entree": "12/06/2026",
-      "detail": "Réf: EDREIRA CASTRO CECILE / J144101710 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: EDREIRA CASTRO CECILE / J144101710 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -2826,9 +3030,9 @@
       "patient": "BENLIAN MELANIE",
       "job_cosium": "J144101722",
       "date_entree": "12/06/2026",
-      "detail": "Réf: BENLIAN MELANIE / J144101722 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BENLIAN MELANIE / J144101722 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -2885,9 +3089,9 @@
       "patient": "COLLARI PAULE",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: COLLARI PAULE — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: COLLARI PAULE — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -2942,9 +3146,9 @@
       "patient": "BENLIAN MELANIE",
       "job_cosium": "",
       "date_entree": "12/06/2026",
-      "detail": "Réf: BENLIAN MELANIE — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BENLIAN MELANIE — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 19/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -3003,9 +3207,9 @@
       "patient": "CASTELLANI JOSIANE",
       "job_cosium": "J144101729-03",
       "date_entree": "12/06/2026",
-      "detail": "Réf: CASTELLANI JOSIANE / J144101729-03 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CASTELLANI JOSIANE / J144101729-03 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3064,9 +3268,9 @@
       "patient": "CASTELLANI JOSIANE",
       "job_cosium": "J144101729-02",
       "date_entree": "12/06/2026",
-      "detail": "Réf: CASTELLANI JOSIANE / J144101729-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CASTELLANI JOSIANE / J144101729-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3125,9 +3329,9 @@
       "patient": "LANOTTE MARIE",
       "job_cosium": "J144101732-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: LANOTTE MARIE / J144101732-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: LANOTTE MARIE / J144101732-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3186,9 +3390,9 @@
       "patient": "GALINIER MICHEL ANDRE",
       "job_cosium": "J144101741-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: GALINIER MICHEL ANDRE / J144101741-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GALINIER MICHEL ANDRE / J144101741-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 19/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -3243,9 +3447,9 @@
       "patient": "TOMASI TAMARA",
       "job_cosium": "J144101684-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: TOMASI TAMARA / J144101684-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: TOMASI TAMARA / J144101684-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3298,9 +3502,9 @@
       "patient": "FINO JEAN MARC",
       "job_cosium": "J144101746-02",
       "date_entree": "12/06/2026",
-      "detail": "Réf: FINO JEAN MARC / J144101746-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: FINO JEAN MARC / J144101746-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3353,9 +3557,9 @@
       "patient": "DIEU SYLVIE",
       "job_cosium": "J144101747",
       "date_entree": "12/06/2026",
-      "detail": "Réf: DIEU SYLVIE / J144101747 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: DIEU SYLVIE / J144101747 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3388,9 +3592,9 @@
       "patient": "GALINIER LAURENCE",
       "job_cosium": "J144101738-01",
       "date_entree": "12/06/2026",
-      "detail": "Réf: GALINIER LAURENCE / J144101738-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: GALINIER LAURENCE / J144101738-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3433,57 +3637,6 @@
           "Tchin Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162259",
-      "id_commande_v2i": "260612000119",
-      "code_cote": "B",
-      "patient": "GALINIER LAURENCE",
-      "job_cosium": "J144101738-02",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: GALINIER LAURENCE / J144101738-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "55",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "55",
-        "sphere": "1.25",
-        "cylindre": "1.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -3726,9 +3879,9 @@
       "patient": "ROCCHI GERARD EMMANUEL",
       "job_cosium": "J144101703-02",
       "date_entree": "11/06/2026",
-      "detail": "Réf: ROCCHI GERARD EMMANUEL / J144101703-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: ROCCHI GERARD EMMANUEL / J144101703-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3781,9 +3934,9 @@
       "patient": "SOU SAID",
       "job_cosium": "J144101708",
       "date_entree": "11/06/2026",
-      "detail": "Réf: SOU SAID / J144101708 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: SOU SAID / J144101708 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -3836,15 +3989,66 @@
       }
     },
     {
+      "ord_numb": "            10161777",
+      "id_commande_v2i": "260610000096",
+      "code_cote": "B",
+      "patient": "RICATTI LEA",
+      "job_cosium": "J144101639-02",
+      "date_entree": "10/06/2026",
+      "detail": "Réf: RICATTI LEA / J144101639-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 11/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.50",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Durci AR"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Durci AR"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161709",
       "id_commande_v2i": "260610000028",
       "code_cote": "B",
       "patient": "FILIPPINI MARIE CATHERINE",
       "job_cosium": "J144101635",
       "date_entree": "10/06/2026",
-      "detail": "Réf: FILIPPINI MARIE CATHERINE / J144101635 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: FILIPPINI MARIE CATHERINE / J144101635 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -3893,9 +4097,9 @@
       "patient": "MANFREDI JOSEPH ANTOINE",
       "job_cosium": "J144101658-02",
       "date_entree": "10/06/2026",
-      "detail": "Réf: MANFREDI JOSEPH ANTOINE / J144101658-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: MANFREDI JOSEPH ANTOINE / J144101658-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -3934,57 +4138,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161777",
-      "id_commande_v2i": "260610000096",
-      "code_cote": "B",
-      "patient": "RICATTI LEA",
-      "job_cosium": "J144101639-02",
-      "date_entree": "10/06/2026",
-      "detail": "Réf: RICATTI LEA / J144101639-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 11/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "0.50",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Durci AR"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Durci AR"
         ]
       }
     }
