@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "16/06/2026 13:36",
+  "derniere_mise_a_jour": "16/06/2026 13:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162771",
@@ -374,67 +374,6 @@
       }
     },
     {
-      "ord_numb": "            10162519",
-      "id_commande_v2i": "260613000140",
-      "code_cote": "B",
-      "patient": "PIQUET GEOLLOT SAVERIA",
-      "job_cosium": "J143053971",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: PIQUET GEOLLOT SAVERIA / J143053971 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "8.00",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "2de Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "7.75",
-        "cylindre": "0.50",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "2de Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162520",
       "id_commande_v2i": "260613000141",
       "code_cote": "B",
@@ -709,6 +648,67 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162519",
+      "id_commande_v2i": "260613000140",
+      "code_cote": "B",
+      "patient": "PIQUET GEOLLOT SAVERIA",
+      "job_cosium": "J143053971",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: PIQUET GEOLLOT SAVERIA / J143053971 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "8.00",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "2de Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "7.75",
+        "cylindre": "0.50",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "2de Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
