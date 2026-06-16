@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "16/06/2026 15:06",
+  "derniere_mise_a_jour": "16/06/2026 15:21",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162798",
@@ -1884,61 +1884,6 @@
       }
     },
     {
-      "ord_numb": "            10161387",
-      "id_commande_v2i": "260608000169",
-      "code_cote": "B",
-      "patient": "ALBEPART Stéphane",
-      "job_cosium": "",
-      "date_entree": "08/06/2026",
-      "detail": "Réf: ALBEPART Stéphane — (Fabrication RX) — État: Coating en cours (MC380X2)",
-      "statut_code": "COA2",
-      "statut_affichage": "Coating en cours (MC380X2)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "3.00",
-        "axe": 170,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "4.25",
-        "axe": 180,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161386",
       "id_commande_v2i": "260608000168",
       "code_cote": "B",
@@ -1988,6 +1933,61 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161387",
+      "id_commande_v2i": "260608000169",
+      "code_cote": "B",
+      "patient": "ALBEPART Stéphane",
+      "job_cosium": "",
+      "date_entree": "08/06/2026",
+      "detail": "Réf: ALBEPART Stéphane — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "3.00",
+        "axe": 170,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "4.25",
+        "axe": 180,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
         ]
