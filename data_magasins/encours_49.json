@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "16/06/2026 09:21",
+  "derniere_mise_a_jour": "16/06/2026 09:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162595",
@@ -457,65 +457,6 @@
       }
     },
     {
-      "ord_numb": "            10162483",
-      "id_commande_v2i": "260613000104",
-      "code_cote": "B",
-      "patient": "TRUDDAIU ROBERT",
-      "job_cosium": "J205030357",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: TRUDDAIU ROBERT / J205030357 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "1.50",
-        "axe": 130,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci",
-          "Durci Inclus",
-          "Montage",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci",
-          "Durci Inclus",
-          "Montage",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162392",
       "id_commande_v2i": "260613000013",
       "code_cote": "B",
@@ -567,6 +508,65 @@
           "Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162483",
+      "id_commande_v2i": "260613000104",
+      "code_cote": "B",
+      "patient": "TRUDDAIU ROBERT",
+      "job_cosium": "J205030357",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: TRUDDAIU ROBERT / J205030357 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "1.50",
+        "axe": 130,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci",
+          "Durci Inclus",
+          "Montage",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci",
+          "Durci Inclus",
+          "Montage",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
