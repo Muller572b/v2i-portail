@@ -8,7 +8,6 @@
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
 // --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
-// Passé en MAJUSCULES pour correspondre au reste du script et nettoyage des doublons "31"
 const LISTE_MAGASINS = {
     "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
     "9": "A40", "10": "BAA", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
@@ -20,22 +19,21 @@ const LISTE_MAGASINS = {
 let currentStoreId = localStorage.getItem('v2i_client_id') || null;
 let currentCosiumCode = localStorage.getItem('v2i_cosium_code') || null;
 
-// NETTOYAGE ET SÉCURITÉ : Si le LocalStorage renvoie "null" (chaîne) ou est vide, on applique le dictionnaire
 if (!currentCosiumCode || currentCosiumCode === 'null' || currentCosiumCode.trim() === '') {
-    currentCosiumCode = LISTE_MAGASINS[currentStoreId] || '00'; // Maintenant, la variable globale matchera parfaitement !
+    currentCosiumCode = LISTE_MAGASINS[currentStoreId] || '00';
 }
 
 let storeEncours = [];
 let storeArchives = []; 
 let autoArchivesIncluded = false; 
 let loadedYears = []; 
-let isLoadingArchives = false; // Verrou de sécurité global et état de chargement
+let isLoadingArchives = false; 
 let searchTimeout = null;
 
 // --- CONFIGURATION DU TRI DYNAMIQUE ---
 let currentSort = {
-    key: 'date',  // Tri par défaut sur la date
-    asc: false    // Plus récent au plus ancien par défaut
+    key: 'date',  
+    asc: false    
 };
 
 /**
@@ -50,7 +48,6 @@ function checkSession() {
     return true;
 }
 
-// Exécution immédiate du gardien à la lecture du script
 checkSession();
 
 /**
@@ -59,20 +56,14 @@ checkSession();
 document.addEventListener('DOMContentLoaded', () => {
     if (!checkSession()) return;
 
-    // Mise à jour de l'affichage du badge magasin si présent (Correction du null)
     const storeBadge = document.getElementById('store-badge');
     if (storeBadge) {
         const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
         storeBadge.innerText = `Magasin : N° ${currentStoreId}${cosiumText}`;
     }
 
-    // Chargement initial du flux des encours
     loadStoreEncours();
-
-    // Activation du scroll infini pour les archives
     window.addEventListener('scroll', handleScrollLoad);
-
-    // Liaison des écouteurs d'événements sur les éléments d'interface
     setupFilters();
 });
 
@@ -105,7 +96,6 @@ async function loadStoreEncours() {
         const data = await response.json();
         storeEncours = data.commandes_en_cours || [];
         
-        // Actualise dynamiquement le nom réel du magasin sans le suffixe textuel (null)
         const storeBadge = document.getElementById('store-badge');
         if (storeBadge && data.infos_magasin && data.infos_magasin.nom) {
             const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
@@ -216,7 +206,7 @@ async function handleDateBoundsChange() {
 
     if (anneeSelectionneeDebut <= anneeMaxABoucler && (anneeMaxABoucler - anneeSelectionneeDebut) < 10) {
         isLoadingArchives = true;
-        renderVerres(); // Force l'état visuel "Chargement" immédiatement
+        renderVerres(); 
         
         const anneesACharger = [];
         for (let y = anneeSelectionneeDebut; y <= anneeMaxABoucler; y++) {
@@ -265,7 +255,7 @@ function handleSearchInput() {
             
             if (missingYears.length > 0 && !isLoadingArchives) {
                 isLoadingArchives = true;
-                renderVerres(); // Bascule l'écran sur le message d'attente
+                renderVerres(); 
                 try {
                     await Promise.all(missingYears.map(year => loadArchiveYear(year)));
                     autoArchivesIncluded = true;
@@ -401,7 +391,6 @@ function renderVerres() {
         return 0;
     });
 
-    // Gestion de l'état vide ou en cours de chargement réseau
     if (donneesFiltrees.length === 0) {
         if (isLoadingArchives) {
             tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white"><div class="flex items-center justify-center gap-2.5"><span class="animate-spin rounded-full h-4 w-4 border-2 border-[#0066cc] border-t-transparent"></span> Recherche et synchronisation des archives en cours...</div></td></tr>`;
@@ -443,20 +432,23 @@ function renderVerres() {
         const statutClean = String(statutFournisseur).toLowerCase().trim();
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
-        // --- SÉCURISATION DU FILTRAGE : STRICTEMENT SUR LES COMMANDES ARCHIVÉES (DÈS LE 08 JUIN 2026) ---
         const dateCommande = parseDate(v.date_entree);
-        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026 local
+        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); 
         const afficherDocs = (v.isArchive === true) && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
         const anneeBL = "20" + idCommande.substring(0, 2);
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
         
-        // Construction des urls de téléchargement GitHub
         const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
         const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
         const archiveBadge = v.isArchive 
             ? `<span class="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold bg-amber-100 text-amber-800 tracking-wide uppercase">Archive</span>`
+            : '';
+
+        // Injection et sécurisation de la date du dernier statut sous le badge de statut
+        const htmlDernierStatut = v.date_dernier_statut 
+            ? `<div class="text-[11px] text-[#86868b] font-medium mt-0.5">${v.date_dernier_statut}</div>` 
             : '';
 
         rowsHtml.push(`
@@ -467,7 +459,10 @@ function renderVerres() {
                 </td>
                 <td class="px-6 py-4">${htmlSupplements}</td> 
                 <td class="px-6 py-4 font-mono">${v.date_entree || '—'}</td>
-                <td class="px-6 py-4 font-mono font-bold">${statutFournisseur}</td>
+                <td class="px-6 py-4 font-mono">
+                    <div class="font-bold text-[#1d1d1f]">${statutFournisseur}</div>
+                    ${htmlDernierStatut}
+                </td>
                 <td class="px-6 py-4 font-mono font-bold text-[#ff9500] bg-[#fff5e6]/30 text-sm">${livraisonPrevue}</td>
                 <td class="px-6 py-4 font-mono font-bold">${idCommande}</td>
                 <td class="px-6 py-4">
@@ -513,7 +508,6 @@ function openSidePanel(idCommande) {
     document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + (cmd.id_commande_v2i || cmd.ord_numb || cmd.id_bl_v2i);
     document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
     
-    // Traitement Données Œil Droit
     if (cmd.oeil_droit) {
         document.getElementById('panel-od-row').style.display = 'grid';
         document.getElementById('od-sph').innerText = cmd.oeil_droit.sphere || '0.00';
@@ -534,7 +528,6 @@ function openSidePanel(idCommande) {
         document.getElementById('morpho-od-haut').innerText = "—";
     }
 
-    // Traitement Données Œil Gauche
     if (cmd.oeil_gauche) {
         document.getElementById('panel-og-row').style.display = 'grid';
         document.getElementById('og-sph').innerText = cmd.oeil_gauche.sphere || '0.00';
@@ -555,7 +548,6 @@ function openSidePanel(idCommande) {
         document.getElementById('morpho-og-haut').innerText = "—";
     }
 
-    // Traitements additionnels et suppléments verres
     const containerSupps = document.getElementById('panel-supplements');
     if (containerSupps) {
         containerSupps.innerHTML = '';
@@ -595,7 +587,7 @@ function logout() {
     window.location.href = './login.html';
 }
 
-// --- EXPOSITION DES FONCTIONS AU CONTEXTE GLOBAL (Pour attributs HTML onclick) ---
+// --- EXPOSITION DES FONCTIONS AU CONTEXTE GLOBAL ---
 window.openSidePanel = openSidePanel;
 window.closeSidePanel = closeSidePanel;
 window.logout = logout;
