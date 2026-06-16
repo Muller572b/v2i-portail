@@ -10,7 +10,7 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "16/06/2026 14:36",
+  "derniere_mise_a_jour": "16/06/2026 14:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162792",
@@ -439,6 +439,65 @@
       }
     },
     {
+      "ord_numb": "            10162718",
+      "id_commande_v2i": "260615000186",
+      "code_cote": "B",
+      "patient": "DE SOUSA COSTA JOSE MANUEL",
+      "job_cosium": "J162005193",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: DE SOUSA COSTA JOSE MANUEL / J162005193 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 40,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162722",
       "id_commande_v2i": "260615000190",
       "code_cote": "B",
@@ -496,65 +555,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162718",
-      "id_commande_v2i": "260615000186",
-      "code_cote": "B",
-      "patient": "DE SOUSA COSTA JOSE MANUEL",
-      "job_cosium": "J162005193",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: DE SOUSA COSTA JOSE MANUEL / J162005193 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 40,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
         ]
       }
     },
