@@ -5,8 +5,65 @@
     "nom": "Optissimo (PLU)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "15/06/2026 à 14:51",
+  "derniere_validation": "16/06/2026 à 14:51",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10161625",
+      "id_commande_v2i": "260609000161",
+      "id_bl_v2i": "260609000161",
+      "code_cote": "B",
+      "patient": "PINELLI ALLEGRIA",
+      "job_cosium": "J132017065",
+      "detail": "Réf: PINELLI ALLEGRIA / J132017065 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "09/06/2026",
+      "date_expedition": "13/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "13/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10161867",
       "id_commande_v2i": "260610000186",
@@ -123,63 +180,6 @@
         "supplements": [
           "Uni 1.6 Durci",
           "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10161625",
-      "id_commande_v2i": "260609000161",
-      "id_bl_v2i": "260609000161",
-      "code_cote": "B",
-      "patient": "PINELLI ALLEGRIA",
-      "job_cosium": "J132017065",
-      "detail": "Réf: PINELLI ALLEGRIA / J132017065 — (Fabrication RX) — État: Expédiée",
-      "date_entree": "09/06/2026",
-      "date_expedition": "13/06/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "13/06/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Brun Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
