@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "16/06/2026 11:21",
+  "derniere_mise_a_jour": "16/06/2026 11:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162807",
@@ -990,6 +990,59 @@
       }
     },
     {
+      "ord_numb": "            10162647",
+      "id_commande_v2i": "260615000115",
+      "code_cote": "B",
+      "patient": "SIEBER LAETITIA",
+      "job_cosium": "J152045246-01",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: SIEBER LAETITIA / J152045246-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162708",
       "id_commande_v2i": "260615000176",
       "code_cote": "B",
@@ -1585,9 +1638,9 @@
       "patient": "SALINI MARINA",
       "job_cosium": "J152045138-02",
       "date_entree": "15/06/2026",
-      "detail": "Réf: SALINI MARINA / J152045138-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: SALINI MARINA / J152045138-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1624,59 +1677,6 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162647",
-      "id_commande_v2i": "260615000115",
-      "code_cote": "B",
-      "patient": "SIEBER LAETITIA",
-      "job_cosium": "J152045246-01",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: SIEBER LAETITIA / J152045246-01 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
         "hauteur": "0.0",
         "supplements": [
           "Tchin Uni 1.5 Non Durci",
