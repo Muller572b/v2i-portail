@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "16/06/2026 14:21",
+  "derniere_mise_a_jour": "16/06/2026 14:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162803",
@@ -171,65 +171,6 @@
           "Teinte Brun C",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162612",
-      "id_commande_v2i": "260615000080",
-      "code_cote": "B",
-      "patient": "CASTELLI MARIE HELENE",
-      "job_cosium": "J160020898-02",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: CASTELLI MARIE HELENE / J160020898-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.25",
-        "cylindre": "0.50",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.1",
-        "hauteur": "25.0",
-        "supplements": [
-          "Unitek2 1.6 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.25",
-        "cylindre": "0.25",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "25.0",
-        "supplements": [
-          "Unitek2 1.6 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
@@ -685,6 +626,65 @@
           "Anti Reflet CLA",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162612",
+      "id_commande_v2i": "260615000080",
+      "code_cote": "B",
+      "patient": "CASTELLI MARIE HELENE",
+      "job_cosium": "J160020898-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: CASTELLI MARIE HELENE / J160020898-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.25",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.1",
+        "hauteur": "25.0",
+        "supplements": [
+          "Unitek2 1.6 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.25",
+        "cylindre": "0.25",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "25.0",
+        "supplements": [
+          "Unitek2 1.6 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
