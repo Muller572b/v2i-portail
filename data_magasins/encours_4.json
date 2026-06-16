@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "16/06/2026 11:36",
+  "derniere_mise_a_jour": "16/06/2026 11:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162781",
@@ -1254,61 +1254,6 @@
       }
     },
     {
-      "ord_numb": "            10162432",
-      "id_commande_v2i": "260613000053",
-      "code_cote": "B",
-      "patient": "ROCCHI ANDREA",
-      "job_cosium": "J144101765-01",
-      "date_entree": "13/06/2026",
-      "detail": "Réf: ROCCHI ANDREA / J144101765-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "2.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162446",
       "id_commande_v2i": "260613000067",
       "code_cote": "B",
@@ -1467,6 +1412,61 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162432",
+      "id_commande_v2i": "260613000053",
+      "code_cote": "B",
+      "patient": "ROCCHI ANDREA",
+      "job_cosium": "J144101765-01",
+      "date_entree": "13/06/2026",
+      "detail": "Réf: ROCCHI ANDREA / J144101765-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "2.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -1849,63 +1849,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162266",
-      "id_commande_v2i": "260612000126",
-      "code_cote": "B",
-      "patient": "GALINIER MICHEL ANDRE",
-      "job_cosium": "J144101741-01",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: GALINIER MICHEL ANDRE / J144101741-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 19/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },
@@ -2494,6 +2437,63 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162266",
+      "id_commande_v2i": "260612000126",
+      "code_cote": "B",
+      "patient": "GALINIER MICHEL ANDRE",
+      "job_cosium": "J144101741-01",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: GALINIER MICHEL ANDRE / J144101741-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
