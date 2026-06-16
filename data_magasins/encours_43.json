@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "16/06/2026 15:21",
+  "derniere_mise_a_jour": "16/06/2026 15:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162786",
@@ -139,9 +139,9 @@
       "patient": "BELADEL HAMID",
       "job_cosium": "J149018365-01",
       "date_entree": "16/06/2026",
-      "detail": "Réf: BELADEL HAMID / J149018365-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BELADEL HAMID / J149018365-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -190,9 +190,9 @@
       "patient": "BELADEL HAMID",
       "job_cosium": "J149018365-02",
       "date_entree": "16/06/2026",
-      "detail": "Réf: BELADEL HAMID / J149018365-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BELADEL HAMID / J149018365-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -231,57 +231,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162688",
-      "id_commande_v2i": "260615000156",
-      "code_cote": "B",
-      "patient": "DUBOIS PASCALE JACQUE",
-      "job_cosium": "J149018361",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: DUBOIS PASCALE JACQUE / J149018361 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -337,15 +286,66 @@
       }
     },
     {
+      "ord_numb": "            10162688",
+      "id_commande_v2i": "260615000156",
+      "code_cote": "B",
+      "patient": "DUBOIS PASCALE JACQUE",
+      "job_cosium": "J149018361",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: DUBOIS PASCALE JACQUE / J149018361 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10161803",
       "id_commande_v2i": "260610000122",
       "code_cote": "B",
       "patient": "CAPRETTI RENE JOSEPH",
       "job_cosium": "J149018344",
       "date_entree": "10/06/2026",
-      "detail": "Réf: CAPRETTI RENE JOSEPH / J149018344 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CAPRETTI RENE JOSEPH / J149018344 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -394,9 +394,9 @@
       "patient": "CAPRETTI MARIE ESTELLE",
       "job_cosium": "J149018345",
       "date_entree": "10/06/2026",
-      "detail": "Réf: CAPRETTI MARIE ESTELLE / J149018345 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: CAPRETTI MARIE ESTELLE / J149018345 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 12/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
