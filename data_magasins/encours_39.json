@@ -10,7 +10,7 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "16/06/2026 09:51",
+  "derniere_mise_a_jour": "16/06/2026 10:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162762",
@@ -127,22 +127,22 @@
       }
     },
     {
-      "ord_numb": "            10162661",
-      "id_commande_v2i": "260615000129",
+      "ord_numb": "            10162662",
+      "id_commande_v2i": "260615000130",
       "code_cote": "B",
       "patient": "EMMANUELLI JEANNE",
-      "job_cosium": "J147014151-01",
+      "job_cosium": "J147014149",
       "date_entree": "15/06/2026",
-      "detail": "Réf: EMMANUELLI JEANNE / J147014151-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "detail": "Réf: EMMANUELLI JEANNE / J147014149 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "statut": "Livraison prévue : 25/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "3.00",
+        "sphere": "2.25",
         "cylindre": "0.50",
         "axe": 15,
         "addition": "0.00",
@@ -151,10 +151,11 @@
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
+        "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista AS Uni 1.6 Durci",
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       },
@@ -162,7 +163,7 @@
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "0.00",
+        "sphere": "0.50",
         "cylindre": "2.25",
         "axe": 5,
         "addition": "0.00",
@@ -171,10 +172,11 @@
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
+        "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista AS Uni 1.6 Durci",
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
@@ -282,22 +284,22 @@
       }
     },
     {
-      "ord_numb": "            10162662",
-      "id_commande_v2i": "260615000130",
+      "ord_numb": "            10162661",
+      "id_commande_v2i": "260615000129",
       "code_cote": "B",
       "patient": "EMMANUELLI JEANNE",
-      "job_cosium": "J147014149",
+      "job_cosium": "J147014151-01",
       "date_entree": "15/06/2026",
-      "detail": "Réf: EMMANUELLI JEANNE / J147014149 — (Fabrication RX) — État: Commande prise en compte",
+      "detail": "Réf: EMMANUELLI JEANNE / J147014151-01 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 25/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "2.25",
+        "sphere": "3.00",
         "cylindre": "0.50",
         "axe": 15,
         "addition": "0.00",
@@ -306,11 +308,10 @@
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
+          "Vista AS Uni 1.6 Durci",
           "Durci Inclus"
         ]
       },
@@ -318,7 +319,7 @@
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "0.50",
+        "sphere": "0.00",
         "cylindre": "2.25",
         "axe": 5,
         "addition": "0.00",
@@ -327,11 +328,10 @@
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
+          "Vista AS Uni 1.6 Durci",
           "Durci Inclus"
         ]
       }
