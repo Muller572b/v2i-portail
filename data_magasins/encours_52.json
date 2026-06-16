@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "16/06/2026 15:06",
+  "derniere_mise_a_jour": "16/06/2026 15:21",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162818",
@@ -251,9 +251,9 @@
       "patient": "LAYRIE LUCIE",
       "job_cosium": "J154014518-02",
       "date_entree": "15/06/2026",
-      "detail": "Réf: LAYRIE LUCIE / J154014518-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: LAYRIE LUCIE / J154014518-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -298,15 +298,70 @@
       }
     },
     {
+      "ord_numb": "            10162337",
+      "id_commande_v2i": "260612000197",
+      "code_cote": "B",
+      "patient": "GERONIMI MARIE FRANCOISE",
+      "job_cosium": "J154014512",
+      "date_entree": "12/06/2026",
+      "detail": "Réf: GERONIMI MARIE FRANCOISE / J154014512 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.50",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.75",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162247",
       "id_commande_v2i": "260612000107",
       "code_cote": "B",
       "patient": "MARCHAND NATHALIE",
       "job_cosium": "J154014509",
       "date_entree": "12/06/2026",
-      "detail": "Réf: MARCHAND NATHALIE / J154014509 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: MARCHAND NATHALIE / J154014509 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 19/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -361,9 +416,9 @@
       "patient": "BOIVIN ERIC",
       "job_cosium": "J154014508",
       "date_entree": "12/06/2026",
-      "detail": "Réf: BOIVIN ERIC / J154014508 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: BOIVIN ERIC / J154014508 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -420,9 +475,9 @@
       "patient": "VILLEMIN MONIQUE",
       "job_cosium": "J154014511",
       "date_entree": "12/06/2026",
-      "detail": "Réf: VILLEMIN MONIQUE / J154014511 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "detail": "Réf: VILLEMIN MONIQUE / J154014511 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -462,61 +517,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162337",
-      "id_commande_v2i": "260612000197",
-      "code_cote": "B",
-      "patient": "GERONIMI MARIE FRANCOISE",
-      "job_cosium": "J154014512",
-      "date_entree": "12/06/2026",
-      "detail": "Réf: GERONIMI MARIE FRANCOISE / J154014512 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.50",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.75",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
