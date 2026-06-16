@@ -10,41 +10,8 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "16/06/2026 11:36",
+  "derniere_mise_a_jour": "16/06/2026 11:51",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10162770",
-      "id_commande_v2i": "260616000011",
-      "code_cote": "L",
-      "patient": "SUSINI LAURENT",
-      "job_cosium": "J121042582",
-      "date_entree": "16/06/2026",
-      "detail": "Réf: SUSINI LAURENT / J121042582 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.00",
-        "cylindre": "1.50",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
     {
       "ord_numb": "            10162798",
       "id_commande_v2i": "260616000039",
@@ -52,9 +19,9 @@
       "patient": "PIRAS ANDRE JOSEPH",
       "job_cosium": "J121042619",
       "date_entree": "16/06/2026",
-      "detail": "Réf: PIRAS ANDRE JOSEPH / J121042619 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: PIRAS ANDRE JOSEPH / J121042619 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -95,6 +62,39 @@
         "supplements": [
           "Uni 1.5  Polar Gris Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162770",
+      "id_commande_v2i": "260616000011",
+      "code_cote": "L",
+      "patient": "SUSINI LAURENT",
+      "job_cosium": "J121042582",
+      "date_entree": "16/06/2026",
+      "detail": "Réf: SUSINI LAURENT / J121042582 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "1.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Durci Arh"
         ]
       }
     },
@@ -568,6 +568,59 @@
       }
     },
     {
+      "ord_numb": "            10162638",
+      "id_commande_v2i": "260615000106",
+      "code_cote": "B",
+      "patient": "CROCE ALISON",
+      "job_cosium": "J121042607",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: CROCE ALISON / J121042607 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "0.75",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.75",
+        "cylindre": "0.75",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162646",
       "id_commande_v2i": "260615000114",
       "code_cote": "B",
@@ -615,6 +668,59 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162730",
+      "id_commande_v2i": "260615000198",
+      "code_cote": "B",
+      "patient": "GIORGI JACQUELINE",
+      "job_cosium": "J121042617-02",
+      "date_entree": "15/06/2026",
+      "detail": "Réf: GIORGI JACQUELINE / J121042617-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun D"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun D"
         ]
       }
     },
@@ -774,112 +880,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162638",
-      "id_commande_v2i": "260615000106",
-      "code_cote": "B",
-      "patient": "CROCE ALISON",
-      "job_cosium": "J121042607",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: CROCE ALISON / J121042607 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "0.75",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.75",
-        "cylindre": "0.75",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162730",
-      "id_commande_v2i": "260615000198",
-      "code_cote": "B",
-      "patient": "GIORGI JACQUELINE",
-      "job_cosium": "J121042617-02",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: GIORGI JACQUELINE / J121042617-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun D"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun D"
         ]
       }
     },
@@ -1837,9 +1837,9 @@
       "patient": "BASSANI ANGELA",
       "job_cosium": "J121042543",
       "date_entree": "09/06/2026",
-      "detail": "Réf: BASSANI ANGELA / J121042543 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "detail": "Réf: BASSANI ANGELA / J121042543 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 11/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
