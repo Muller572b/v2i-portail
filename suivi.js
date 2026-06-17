@@ -8,7 +8,7 @@
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
 // --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
-const listeMagasins = {
+const LISTE_MAGASINS = {
         "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
         "9": "A40", "10": "BAA", "11": "BOR", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
         "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
