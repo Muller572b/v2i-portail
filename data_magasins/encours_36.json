@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "17/06/2026 14:44",
+  "derniere_mise_a_jour": "17/06/2026 14:59",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162862",
@@ -19,10 +19,10 @@
       "patient": "DESPRES STEPHANIE",
       "job_cosium": "J139053030",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 15:20",
-      "detail": "Réf: DESPRES STEPHANIE / J139053030 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 14:52",
+      "detail": "Réf: DESPRES STEPHANIE / J139053030 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -777,6 +777,64 @@
       }
     },
     {
+      "ord_numb": "            10162752",
+      "id_commande_v2i": "260615000220",
+      "code_cote": "B",
+      "patient": "CROPANESE GABRIEL",
+      "job_cosium": "J139053323",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "17/06/2026 14:53",
+      "detail": "Réf: CROPANESE GABRIEL / J139053323 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée G15 A",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée G15 A",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162759",
       "id_commande_v2i": "260615000227",
       "code_cote": "B",
@@ -828,64 +886,6 @@
         "supplements": [
           "Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162752",
-      "id_commande_v2i": "260615000220",
-      "code_cote": "B",
-      "patient": "CROPANESE GABRIEL",
-      "job_cosium": "J139053323",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 10:56",
-      "detail": "Réf: CROPANESE GABRIEL / J139053323 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée G15 A",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée G15 A",
           "Durci Inclus"
         ]
       }
