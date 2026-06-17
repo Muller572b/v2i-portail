@@ -10,8 +10,64 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "17/06/2026 08:44",
+  "derniere_mise_a_jour": "17/06/2026 08:59",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10162795",
+      "id_commande_v2i": "260616000036",
+      "code_cote": "B",
+      "patient": "AMBROSINI MARIE-NOELLE",
+      "job_cosium": "J127031008-01",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 08:55",
+      "detail": "Réf: AMBROSINI MARIE-NOELLE / J127031008-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Media 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Media 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162794",
       "id_commande_v2i": "260616000035",
@@ -64,62 +120,6 @@
         "supplements": [
           "Vista Prog V2i 1.5 Durci",
           "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162795",
-      "id_commande_v2i": "260616000036",
-      "code_cote": "B",
-      "patient": "AMBROSINI MARIE-NOELLE",
-      "job_cosium": "J127031008-01",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 12:01",
-      "detail": "Réf: AMBROSINI MARIE-NOELLE / J127031008-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Media 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Media 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
