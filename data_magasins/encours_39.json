@@ -10,8 +10,64 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "17/06/2026 17:55",
+  "derniere_mise_a_jour": "17/06/2026 18:10",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163152",
+      "id_commande_v2i": "260617000163",
+      "code_cote": "B",
+      "patient": "DA SILVA BARROS FILONI LUCAS",
+      "job_cosium": "J147014155",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 18:01",
+      "detail": "Réf: DA SILVA BARROS FILONI LUCAS / J147014155 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "4.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "3.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "24.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162762",
       "id_commande_v2i": "260616000003",
