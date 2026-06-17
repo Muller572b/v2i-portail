@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "17/06/2026 09:14",
+  "derniere_mise_a_jour": "17/06/2026 09:29",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162883",
@@ -289,66 +289,6 @@
       }
     },
     {
-      "ord_numb": "            10162678",
-      "id_commande_v2i": "260615000146",
-      "code_cote": "B",
-      "patient": "FEUILLAS MIREILLE",
-      "job_cosium": "J134029320",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 11:21",
-      "detail": "Réf: FEUILLAS MIREILLE / J134029320 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Media 1.5 Durci",
-          "Teinte Brun B",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Media 1.5 Durci",
-          "Teinte Brun B",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162538",
       "id_commande_v2i": "260615000006",
       "code_cote": "B",
@@ -468,6 +408,66 @@
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162678",
+      "id_commande_v2i": "260615000146",
+      "code_cote": "B",
+      "patient": "FEUILLAS MIREILLE",
+      "job_cosium": "J134029320",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "17/06/2026 09:16",
+      "detail": "Réf: FEUILLAS MIREILLE / J134029320 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Teinte Brun B",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Teinte Brun B",
+          "Durci Inclus",
+          "Précalibrage",
           "Optimisé"
         ]
       }
