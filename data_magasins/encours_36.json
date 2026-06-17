@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "17/06/2026 09:14",
+  "derniere_mise_a_jour": "17/06/2026 09:29",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162862",
@@ -75,10 +75,10 @@
       "patient": "TESTA Thibault",
       "job_cosium": "",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 16:09",
-      "detail": "Réf: TESTA Thibault — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "17/06/2026 09:17",
+      "detail": "Réf: TESTA Thibault — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -173,6 +173,62 @@
         "supplements": [
           "Prestige Flex 1.5 Nu",
           "Teinte au modèle uni A-C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162959",
+      "id_commande_v2i": "260616000200",
+      "code_cote": "B",
+      "patient": "DE PERETTI LOETITIA",
+      "job_cosium": "J139053330-01",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 09:20",
+      "detail": "Réf: DE PERETTI LOETITIA / J139053330-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 26/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     },
@@ -542,62 +598,6 @@
         "supplements": [
           "D2 Uni 1.5 Durci",
           "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162959",
-      "id_commande_v2i": "260616000200",
-      "code_cote": "B",
-      "patient": "DE PERETTI LOETITIA",
-      "job_cosium": "J139053330-01",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 19:14",
-      "detail": "Réf: DE PERETTI LOETITIA / J139053330-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 26/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
