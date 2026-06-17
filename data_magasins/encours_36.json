@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "17/06/2026 12:59",
+  "derniere_mise_a_jour": "17/06/2026 13:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162862",
@@ -461,6 +461,60 @@
       }
     },
     {
+      "ord_numb": "            10162952",
+      "id_commande_v2i": "260616000193",
+      "code_cote": "B",
+      "patient": "CORBLIN CAROLINE",
+      "job_cosium": "J139053337",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 13:12",
+      "detail": "Réf: CORBLIN CAROLINE / J139053337 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Dégradée Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162953",
       "id_commande_v2i": "260616000194",
       "code_cote": "B",
@@ -665,60 +719,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162952",
-      "id_commande_v2i": "260616000193",
-      "code_cote": "B",
-      "patient": "CORBLIN CAROLINE",
-      "job_cosium": "J139053337",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 12:01",
-      "detail": "Réf: CORBLIN CAROLINE / J139053337 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Dégradée Gris C"
         ]
       }
     },
