@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "17/06/2026 11:59",
+  "derniere_mise_a_jour": "17/06/2026 12:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162991",
@@ -85,50 +85,16 @@
       }
     },
     {
-      "ord_numb": "            10162992",
-      "id_commande_v2i": "260617000003",
-      "code_cote": "R",
-      "patient": "VALAIR",
-      "job_cosium": "",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 10:07",
-      "detail": "Réf: VALAIR — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
       "ord_numb": "            10163004",
       "id_commande_v2i": "260617000015",
       "code_cote": "B",
       "patient": "SALERNO JEAN",
       "job_cosium": "J144101849",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 09:58",
-      "detail": "Réf: SALERNO JEAN / J144101849 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 12:12",
+      "detail": "Réf: SALERNO JEAN / J144101849 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -179,6 +145,40 @@
           "Optimisé"
         ]
       }
+    },
+    {
+      "ord_numb": "            10162992",
+      "id_commande_v2i": "260617000003",
+      "code_cote": "R",
+      "patient": "VALAIR",
+      "job_cosium": "",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 10:07",
+      "detail": "Réf: VALAIR — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 50,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10163016",
