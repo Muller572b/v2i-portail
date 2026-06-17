@@ -63,13 +63,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. Récupération dynamique du nombre de commandes en cours
     const countElement = document.getElementById('commandes-en-cours-count');
     if (countElement && clientId) {
-        // Appelle le fichier JSON spécifique au magasin (ex: data/suivi_16.json)
+        // Appelle le fichier JSON spécifique au magasin (ex: data/suivi_62.json)
         fetch(`data/suivi_${clientId}.json`)
             .then(response => response.json())
-            .then(commandes => {
+            .then(data => {
+                // CORRECTION ICI : On extrait le tableau situé dans la clé "commandes_en_cours"
+                const listeCommandes = data.commandes_en_cours || [];
+
                 // Filtre les commandes pour ne garder que celles en cours de traitement
-                // Modifie ou ajuste les statuts exclus selon la nomenclature exacte de tes fichiers de suivi
-                const commandesEnCours = commandes.filter(cmd => {
+                const commandesEnCours = listeCommandes.filter(cmd => {
                     return cmd.statut !== "Livrée" && cmd.statut !== "Expédiée" && !cmd.archive;
                 });
 
