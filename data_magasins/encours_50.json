@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "17/06/2026 11:29",
+  "derniere_mise_a_jour": "17/06/2026 11:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162963",
@@ -125,6 +125,60 @@
       }
     },
     {
+      "ord_numb": "            10162970",
+      "id_commande_v2i": "260616000211",
+      "code_cote": "B",
+      "patient": "HENGGE JEANNE",
+      "job_cosium": "J600029227",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 11:36",
+      "detail": "Réf: HENGGE JEANNE / J600029227 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Sol 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162966",
       "id_commande_v2i": "260616000207",
       "code_cote": "B",
@@ -181,60 +235,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162970",
-      "id_commande_v2i": "260616000211",
-      "code_cote": "B",
-      "patient": "HENGGE JEANNE",
-      "job_cosium": "J600029227",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 11:12",
-      "detail": "Réf: HENGGE JEANNE / J600029227 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Sol 1.5  Polar Brun Durci",
-          "Durci Inclus"
         ]
       }
     },
