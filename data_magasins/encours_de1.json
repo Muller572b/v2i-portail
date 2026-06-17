@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "17/06/2026 17:25",
+  "derniere_mise_a_jour": "17/06/2026 17:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163094",
@@ -123,60 +123,6 @@
       }
     },
     {
-      "ord_numb": "            10162879",
-      "id_commande_v2i": "260616000120",
-      "code_cote": "B",
-      "patient": "3096234512",
-      "job_cosium": "",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 14:52",
-      "detail": "Réf: 3096234512 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-7.25",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "INFORMANCE HD FR M 1.67",
-          "Solitaire"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-6.25",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "INFORMANCE HD FR M 1.67",
-          "Solitaire"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162891",
       "id_commande_v2i": "260616000132",
       "code_cote": "B",
@@ -285,6 +231,60 @@
           "INFORMANCE HD FR L 1.50",
           "Solitaire",
           "Décentrement"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162879",
+      "id_commande_v2i": "260616000120",
+      "code_cote": "B",
+      "patient": "3096234512",
+      "job_cosium": "",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 17:33",
+      "detail": "Réf: 3096234512 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-7.25",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "INFORMANCE HD FR M 1.67",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-6.25",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "INFORMANCE HD FR M 1.67",
+          "Solitaire"
         ]
       }
     }
