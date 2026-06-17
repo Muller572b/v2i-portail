@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "17/06/2026 17:40",
+  "derniere_mise_a_jour": "17/06/2026 17:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163086",
@@ -75,10 +75,10 @@
       "patient": "GEOFFRE DANIEL RENE",
       "job_cosium": "J128042589",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 13:31",
-      "detail": "Réf: GEOFFRE DANIEL RENE / J128042589 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: GEOFFRE DANIEL RENE / J128042589 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -117,6 +117,62 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163085",
+      "id_commande_v2i": "260617000096",
+      "code_cote": "B",
+      "patient": "MARCANGELI EVA",
+      "job_cosium": "J128042591",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: MARCANGELI EVA / J128042591 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.00",
+        "cylindre": "0.25",
+        "axe": 50,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.25",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.9",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -171,62 +227,6 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163085",
-      "id_commande_v2i": "260617000096",
-      "code_cote": "B",
-      "patient": "MARCANGELI EVA",
-      "job_cosium": "J128042591",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 14:25",
-      "detail": "Réf: MARCANGELI EVA / J128042591 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.00",
-        "cylindre": "0.25",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.25",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.9",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
