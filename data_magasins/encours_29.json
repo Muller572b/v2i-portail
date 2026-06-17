@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "17/06/2026 12:59",
+  "derniere_mise_a_jour": "17/06/2026 13:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162995",
@@ -859,6 +859,60 @@
       }
     },
     {
+      "ord_numb": "            10162605",
+      "id_commande_v2i": "260615000073",
+      "code_cote": "B",
+      "patient": "DUPAS ALICE",
+      "job_cosium": "J121042601",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "17/06/2026 13:13",
+      "detail": "Réf: DUPAS ALICE / J121042601 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162624",
       "id_commande_v2i": "260615000092",
       "code_cote": "B",
@@ -1073,60 +1127,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162605",
-      "id_commande_v2i": "260615000073",
-      "code_cote": "B",
-      "patient": "DUPAS ALICE",
-      "job_cosium": "J121042601",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "17/06/2026 11:38",
-      "detail": "Réf: DUPAS ALICE / J121042601 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
         ]
       }
     },
