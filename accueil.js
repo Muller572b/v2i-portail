@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
         "9": "A40", "10": "BAA", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
         "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
-        "33": "33", "35": "OBP", "31": "LAR", "31": "LAR", "99": "TEST99", "ADMIN": "COSIUM2026"
+        "33": "33", "35": "OBP", "99": "TEST99", "ADMIN": "COSIUM2026"
     };
 
     // On récupère le code Cosium associé (ex: "BFO" pour le magasin "16")
@@ -57,13 +57,35 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // 4. Initialisation des icônes Lucide
+    // 4. Récupération dynamique du nombre de commandes en cours
+    const countElement = document.getElementById('commandes-en-cours-count');
+    if (countElement && clientId) {
+        // Appelle le fichier JSON spécifique au magasin (ex: data/suivi_16.json)
+        fetch(`data/suivi_${clientId}.json`)
+            .then(response => response.json())
+            .then(commandes => {
+                // Filtre les commandes pour ne garder que celles en cours de traitement
+                // Modifie ou ajuste les statuts exclus selon la nomenclature exacte de tes fichiers de suivi
+                const commandesEnCours = commandes.filter(cmd => {
+                    return cmd.statut !== "Livrée" && cmd.statut !== "Expédiée" && !cmd.archive;
+                });
+
+                // Injection du résultat dans le widget (Carré Rouge)
+                countElement.innerText = commandesEnCours.length;
+            })
+            .catch(err => {
+                console.error("Erreur lors du chargement du compteur de commandes :", err);
+                countElement.innerText = "0"; // Fallback visuel en cas d'absence de fichier ou d'erreur
+            });
+    }
+
+    // 5. Initialisation des icônes Lucide
     if (window.lucide) {
         lucide.createIcons();
     }
 });
 
-// 5. Fonction de déconnexion (Nettoyage propre des bonnes clés)
+// 6. Fonction de déconnexion (Nettoyage propre des bonnes clés)
 window.logout = function() {
     localStorage.removeItem('v2i_authenticated');
     localStorage.removeItem('v2i_client_id');
