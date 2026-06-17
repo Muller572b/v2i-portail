@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "17/06/2026 11:14",
+  "derniere_mise_a_jour": "17/06/2026 11:29",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162862",
@@ -118,6 +118,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162958",
+      "id_commande_v2i": "260616000199",
+      "code_cote": "B",
+      "patient": "DE PERETTI LOETITIA",
+      "job_cosium": "J139053330-02",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 11:14",
+      "detail": "Réf: DE PERETTI LOETITIA / J139053330-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Uni 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Uni 1.5 Durci",
+          "Teinte Dégradée Brun C",
           "Durci Inclus"
         ]
       }
@@ -663,62 +719,6 @@
         "supplements": [
           "D2 St. Uni 1.5",
           "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162958",
-      "id_commande_v2i": "260616000199",
-      "code_cote": "B",
-      "patient": "DE PERETTI LOETITIA",
-      "job_cosium": "J139053330-02",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 11:00",
-      "detail": "Réf: DE PERETTI LOETITIA / J139053330-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Uni 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Uni 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus"
         ]
       }
     },
