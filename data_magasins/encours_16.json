@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "17/06/2026 13:29",
+  "derniere_mise_a_jour": "17/06/2026 13:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162971",
@@ -1101,50 +1101,16 @@
       }
     },
     {
-      "ord_numb": "            10162988",
-      "id_commande_v2i": "260616000229",
-      "code_cote": "L",
-      "patient": "PINNA PATRICE",
-      "job_cosium": "J143054000",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 08:27",
-      "detail": "Réf: PINNA PATRICE / J143054000 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162984",
       "id_commande_v2i": "260616000225",
       "code_cote": "B",
       "patient": "PIERUCCI JOSEPHINE",
       "job_cosium": "J143054001",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 11:38",
-      "detail": "Réf: PIERUCCI JOSEPHINE / J143054001 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "17/06/2026 13:36",
+      "detail": "Réf: PIERUCCI JOSEPHINE / J143054001 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1185,6 +1151,40 @@
         "supplements": [
           "2de O2 Minimu 1.5 Nu",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162988",
+      "id_commande_v2i": "260616000229",
+      "code_cote": "L",
+      "patient": "PINNA PATRICE",
+      "job_cosium": "J143054000",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 08:27",
+      "detail": "Réf: PINNA PATRICE / J143054000 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Arh"
         ]
       }
     },
