@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "17/06/2026 17:40",
+  "derniere_mise_a_jour": "17/06/2026 17:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163070",
@@ -389,10 +389,10 @@
       "patient": "BOUDARD ANNICK",
       "job_cosium": "J145063462-02",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 13:14",
-      "detail": "Réf: BOUDARD ANNICK / J145063462-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: BOUDARD ANNICK / J145063462-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -443,10 +443,10 @@
       "patient": "SUSINI JULES",
       "job_cosium": "J145063460-02",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 13:15",
-      "detail": "Réf: SUSINI JULES / J145063460-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: SUSINI JULES / J145063460-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -497,10 +497,10 @@
       "patient": "SUSINI JULES",
       "job_cosium": "J145063460-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 13:15",
-      "detail": "Réf: SUSINI JULES / J145063460-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:42",
+      "detail": "Réf: SUSINI JULES / J145063460-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -541,6 +541,110 @@
         "supplements": [
           "Tchin Uni 1.5 Non Durci",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163096",
+      "id_commande_v2i": "260617000107",
+      "code_cote": "B",
+      "patient": "CHIOCCA ENZO",
+      "job_cosium": "J145063466-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: CHIOCCA ENZO / J145063466-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163116",
+      "id_commande_v2i": "260617000127",
+      "code_cote": "B",
+      "patient": "BENIGNI PIERRE HENRI",
+      "job_cosium": "J145063467",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: BENIGNI PIERRE HENRI / J145063467 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -601,78 +705,47 @@
       }
     },
     {
-      "ord_numb": "            10163096",
-      "id_commande_v2i": "260617000107",
+      "ord_numb": "            10163135",
+      "id_commande_v2i": "260617000146",
       "code_cote": "B",
-      "patient": "CHIOCCA ENZO",
-      "job_cosium": "J145063466-02",
+      "patient": "FARAUT ISABELLE RENEE",
+      "job_cosium": "J145063468",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 15:01",
-      "detail": "Réf: CHIOCCA ENZO / J145063466-02 — (Stock) — État: Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:47",
+      "detail": "Réf: FARAUT ISABELLE RENEE / J145063468 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "76",
+        "sphere": "0.25",
         "cylindre": "0.50",
-        "axe": 5,
-        "addition": "0.00",
+        "axe": 130,
+        "addition": "2.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
+        "ecart_pupillaire": "29.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin St. Uni 1.5 Durci Arh"
+          "Reader3 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163116",
-      "id_commande_v2i": "260617000127",
-      "code_cote": "B",
-      "patient": "BENIGNI PIERRE HENRI",
-      "job_cosium": "J145063467",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 16:32",
-      "detail": "Réf: BENIGNI PIERRE HENRI / J145063467 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "76",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
@@ -681,26 +754,9 @@
         "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
+          "Reader3 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
