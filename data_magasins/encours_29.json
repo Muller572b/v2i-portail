@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "17/06/2026 08:14",
+  "derniere_mise_a_jour": "17/06/2026 08:29",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162798",
@@ -275,6 +275,58 @@
       }
     },
     {
+      "ord_numb": "            10162923",
+      "id_commande_v2i": "260616000164",
+      "code_cote": "B",
+      "patient": "PERES LUCIEN",
+      "job_cosium": "J121042639",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 08:17",
+      "detail": "Réf: PERES LUCIEN / J121042639 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162799",
       "id_commande_v2i": "260616000040",
       "code_cote": "B",
@@ -491,58 +543,6 @@
         "supplements": [
           "Uni 1.5  Polar Gris Durci",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162923",
-      "id_commande_v2i": "260616000164",
-      "code_cote": "B",
-      "patient": "PERES LUCIEN",
-      "job_cosium": "J121042639",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 17:43",
-      "detail": "Réf: PERES LUCIEN / J121042639 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
         ]
       }
     },
