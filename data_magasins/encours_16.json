@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "17/06/2026 15:29",
+  "derniere_mise_a_jour": "17/06/2026 15:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162971",
@@ -475,6 +475,62 @@
       }
     },
     {
+      "ord_numb": "            10162979",
+      "id_commande_v2i": "260616000220",
+      "code_cote": "B",
+      "patient": "ROMANI GREGORY",
+      "job_cosium": "J143054007",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 15:37",
+      "detail": "Réf: ROMANI GREGORY / J143054007 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 85,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "2.00",
+        "axe": 95,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162980",
       "id_commande_v2i": "260616000221",
       "code_cote": "B",
@@ -882,62 +938,6 @@
         "supplements": [
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162979",
-      "id_commande_v2i": "260616000220",
-      "code_cote": "B",
-      "patient": "ROMANI GREGORY",
-      "job_cosium": "J143054007",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 15:07",
-      "detail": "Réf: ROMANI GREGORY / J143054007 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 85,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "O2 Minimu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "2.00",
-        "axe": 95,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "O2 Minimu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -2021,10 +2021,10 @@
       "patient": "SANTUCCI MARYLINE",
       "job_cosium": "J143053700-02",
       "date_entree": "28/05/2026",
-      "date_dernier_statut": "17/06/2026 15:21",
-      "detail": "Réf: SANTUCCI MARYLINE / J143053700-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "17/06/2026 15:40",
+      "detail": "Réf: SANTUCCI MARYLINE / J143053700-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 03/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
