@@ -10,7 +10,7 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "17/06/2026 09:14",
+  "derniere_mise_a_jour": "17/06/2026 09:29",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162764",
@@ -187,16 +187,72 @@
       }
     },
     {
+      "ord_numb": "            10162926",
+      "id_commande_v2i": "260616000167",
+      "code_cote": "B",
+      "patient": "DAUBERT FRANCK",
+      "job_cosium": "J122023519",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 09:21",
+      "detail": "Réf: DAUBERT FRANCK / J122023519 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Kadra 1.5 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Kadra 1.5 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162761",
       "id_commande_v2i": "260616000002",
       "code_cote": "B",
       "patient": "MARIINI JOSEPH",
       "job_cosium": "",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 10:35",
-      "detail": "Réf: MARIINI JOSEPH — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 09:14",
+      "detail": "Réf: MARIINI JOSEPH — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -251,10 +307,10 @@
       "patient": "TAGLIAZUCCHI CHRISTOPHE",
       "job_cosium": "",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 11:55",
-      "detail": "Réf: TAGLIAZUCCHI CHRISTOPHE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 09:17",
+      "detail": "Réf: TAGLIAZUCCHI CHRISTOPHE — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -299,62 +355,6 @@
           "Teinte Gris C",
           "Durci Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162926",
-      "id_commande_v2i": "260616000167",
-      "code_cote": "B",
-      "patient": "DAUBERT FRANCK",
-      "job_cosium": "J122023519",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 09:06",
-      "detail": "Réf: DAUBERT FRANCK / J122023519 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Kadra 1.5 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Kadra 1.5 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
