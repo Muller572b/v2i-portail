@@ -10,6 +10,7 @@
 </head>
 <body class="bg-[#f5f5f7] text-[#1d1d1f] font-sans antialiased min-h-screen flex">
 
+    <!-- Barre latérale de navigation -->
     <aside class="w-64 bg-white border-r border-[#e8e8ed] flex flex-col justify-between">
         <div class="p-6">
             <div class="mb-8 flex items-center gap-3">
@@ -36,23 +37,67 @@
         </div>
     </aside>
 
+    <!-- Zone principale de contenu -->
     <main class="flex-1 p-10">
         
+        <!-- Bannière d'accueil -->
         <div class="rounded-3xl overflow-hidden border border-[#e8e8ed] shadow-sm mb-15 w-full h-64">
             <img src="images/v2iaccueil.png" alt="V2i Industrie Insulaire" class="w-full h-full object-cover">
         </div>
 
+        <!-- En-tête du tableau de bord -->
         <header class="mb-10">
             <h2 class="text-3xl font-bold tracking-tight">Tableau de bord</h2>
             <p id="store-name" class="text-[#86868b] mt-1 font-medium">Chargement du magasin...</p>
         </header>
 
         <div class="space-y-10">
-            <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm max-w-2xl">
-                <h3 class="text-lg font-semibold mb-2">Bienvenue sur votre espace V2i</h3>
-                <p class="text-[#86868b] text-sm">Utilisez le menu de gauche pour naviguer vers le suivi de vos commandes de verres ou consulter la bibliothèque de documents techniques.</p>
+            
+            <!-- Conteneur en ligne (Bannière Bienvenue + Widgets statistiques de image_896601.jpg) -->
+            <div class="flex flex-col lg:flex-row gap-6 items-stretch w-full">
+                
+                <!-- Encadré Bienvenue (S'adapte dynamiquement en largeur) -->
+                <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm flex-1 flex flex-col justify-center">
+                    <h3 class="text-lg font-semibold mb-2">Bienvenue sur votre espace V2i</h3>
+                    <p class="text-[#86868b] text-sm">Utilisez le menu de gauche pour naviguer vers le suivi de vos commandes de verres ou consulter la bibliothèque de documents techniques.</p>
+                </div>
+
+                <!-- WIDGET INTERACTIF (Carré Rouge) : Commandes en cours -->
+                <a href="suivi.html" class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm w-full lg:w-64 flex flex-col justify-between hover:border-[#0066cc] hover:shadow-md transition-all group cursor-pointer">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="text-xs font-bold text-[#86868b] uppercase tracking-wider">Commandes en cours</h3>
+                            <div class="p-2 bg-[#0066cc]/10 text-[#0066cc] rounded-xl group-hover:bg-[#0066cc] group-hover:text-white transition-colors duration-200">
+                                <i data-lucide="package" class="w-5 h-5"></i>
+                            </div>
+                        </div>
+                        <!-- Compteur dynamique mis à jour par accueil.js -->
+                        <div id="commandes-en-cours-count" class="text-4xl font-bold tracking-tight text-[#1d1d1f] mt-3">
+                            <span class="text-xl text-gray-300 animate-pulse">...</span>
+                        </div>
+                    </div>
+                    <div class="text-xs text-[#0066cc] font-semibold flex items-center gap-1 mt-4">
+                        Voir le suivi 
+                        <i data-lucide="arrow-right" class="w-3.5 h-3.5 transform group-hover:translate-x-1 transition-transform duration-200"></i>
+                    </div>
+                </a>
+
+                <!-- ZONE DE RÉSERVATION (Carré Orange) : Futur module / Raccourci -->
+                <div class="bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm w-full lg:w-64 flex flex-col justify-between opacity-60 select-none">
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="text-xs font-bold text-[#86868b] uppercase tracking-wider">Prochain outil</h3>
+                            <div class="p-2 bg-gray-100 text-gray-400 rounded-xl">
+                                <i data-lucide="plus" class="w-5 h-5"></i>
+                            </div>
+                        </div>
+                        <div class="text-3xl font-bold tracking-tight text-gray-300 mt-3">—</div>
+                    </div>
+                </div>
+
             </div>
 
+            <!-- Section Flux d'actualités -->
             <section>
                 <h3 class="text-xl font-bold mb-6 flex items-center gap-2">
                     <i data-lucide="newspaper" class="w-6 h-6 text-[#0066cc]"></i> Actualités Optiques
@@ -61,6 +106,7 @@
                     <p class="text-gray-500 text-sm">Chargement des actualités en cours...</p>
                 </div>
             </section>
+            
         </div>
     </main>
 
