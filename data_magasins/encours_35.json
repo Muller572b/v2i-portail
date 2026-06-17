@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "17/06/2026 13:29",
+  "derniere_mise_a_jour": "17/06/2026 13:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162994",
@@ -1564,68 +1564,6 @@
       }
     },
     {
-      "ord_numb": "            10161832",
-      "id_commande_v2i": "260610000151",
-      "code_cote": "B",
-      "patient": "SPANO MIMO GERD",
-      "job_cosium": "J120030380",
-      "date_entree": "10/06/2026",
-      "date_dernier_statut": "17/06/2026 09:53",
-      "detail": "Réf: SPANO MIMO GERD / J120030380 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.5",
-        "supplements": [
-          "Delta Equilibre2 1.5 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.5",
-        "supplements": [
-          "Delta Equilibre2 1.5 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Offert",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10161833",
       "id_commande_v2i": "260610000152",
       "code_cote": "B",
@@ -1678,6 +1616,68 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10161832",
+      "id_commande_v2i": "260610000151",
+      "code_cote": "B",
+      "patient": "SPANO MIMO GERD",
+      "job_cosium": "J120030380",
+      "date_entree": "10/06/2026",
+      "date_dernier_statut": "17/06/2026 13:38",
+      "detail": "Réf: SPANO MIMO GERD / J120030380 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.5",
+        "supplements": [
+          "Delta Equilibre2 1.5 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.5",
+        "supplements": [
+          "Delta Equilibre2 1.5 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Offert",
+          "Optimisé"
         ]
       }
     }
