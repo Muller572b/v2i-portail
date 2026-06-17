@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "17/06/2026 10:59",
+  "derniere_mise_a_jour": "17/06/2026 11:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162991",
@@ -599,6 +599,68 @@
       }
     },
     {
+      "ord_numb": "            10162868",
+      "id_commande_v2i": "260616000109",
+      "code_cote": "B",
+      "patient": "CASANOVA CORINNE",
+      "job_cosium": "J144101835-02",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 11:00",
+      "detail": "Réf: CASANOVA CORINNE / J144101835-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Horizon2 1.5 Polar Brun Durc",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Horizon2 1.5 Polar Brun Durc",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162890",
       "id_commande_v2i": "260616000131",
       "code_cote": "B",
@@ -713,68 +775,6 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162868",
-      "id_commande_v2i": "260616000109",
-      "code_cote": "B",
-      "patient": "CASANOVA CORINNE",
-      "job_cosium": "J144101835-02",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 10:50",
-      "detail": "Réf: CASANOVA CORINNE / J144101835-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Horizon2 1.5 Polar Brun Durc",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Horizon2 1.5 Polar Brun Durc",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
