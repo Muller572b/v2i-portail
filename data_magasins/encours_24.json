@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "17/06/2026 13:29",
+  "derniere_mise_a_jour": "17/06/2026 13:44",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162990",
@@ -435,68 +435,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162831",
-      "id_commande_v2i": "260616000072",
-      "code_cote": "B",
-      "patient": "GIOVANANGELI PAUL MATHIEU",
-      "job_cosium": "J133035947-02",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 08:54",
-      "detail": "Réf: GIOVANANGELI PAUL MATHIEU / J133035947-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "1.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.4",
-        "hauteur": "29.0",
-        "supplements": [
-          "Affiny Confort 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.3",
-        "hauteur": "29.0",
-        "supplements": [
-          "Affiny Confort 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -1021,6 +959,68 @@
       }
     },
     {
+      "ord_numb": "            10162831",
+      "id_commande_v2i": "260616000072",
+      "code_cote": "B",
+      "patient": "GIOVANANGELI PAUL MATHIEU",
+      "job_cosium": "J133035947-02",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 13:41",
+      "detail": "Réf: GIOVANANGELI PAUL MATHIEU / J133035947-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "1.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.4",
+        "hauteur": "29.0",
+        "supplements": [
+          "Affiny Confort 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.3",
+        "hauteur": "29.0",
+        "supplements": [
+          "Affiny Confort 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162832",
       "id_commande_v2i": "260616000073",
       "code_cote": "B",
@@ -1159,45 +1159,6 @@
       }
     },
     {
-      "ord_numb": "            10162550",
-      "id_commande_v2i": "260615000018",
-      "code_cote": "L",
-      "patient": "ORDRONNEAU BLANDINE",
-      "job_cosium": "J133035655",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "17/06/2026 08:54",
-      "detail": "Réf: ORDRONNEAU BLANDINE / J133035655 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Affiny Confort 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162677",
       "id_commande_v2i": "260615000145",
       "code_cote": "B",
@@ -1314,6 +1275,45 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162550",
+      "id_commande_v2i": "260615000018",
+      "code_cote": "L",
+      "patient": "ORDRONNEAU BLANDINE",
+      "job_cosium": "J133035655",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "17/06/2026 13:40",
+      "detail": "Réf: ORDRONNEAU BLANDINE / J133035655 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Affiny Confort 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
         ]
       }
     },
@@ -1486,10 +1486,10 @@
       "patient": "ROTARU ROBERT-ANDREI",
       "job_cosium": "J133035917",
       "date_entree": "13/06/2026",
-      "date_dernier_statut": "17/06/2026 09:53",
-      "detail": "Réf: ROTARU ROBERT-ANDREI / J133035917 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "17/06/2026 13:39",
+      "detail": "Réf: ROTARU ROBERT-ANDREI / J133035917 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
