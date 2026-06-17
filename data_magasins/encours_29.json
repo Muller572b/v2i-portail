@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "17/06/2026 08:44",
+  "derniere_mise_a_jour": "17/06/2026 08:59",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162798",
@@ -547,6 +547,62 @@
       }
     },
     {
+      "ord_numb": "            10162645",
+      "id_commande_v2i": "260615000113",
+      "code_cote": "B",
+      "patient": "MARTIN-BASTION AGNES",
+      "job_cosium": "J121042609-01",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "17/06/2026 08:54",
+      "detail": "Réf: MARTIN-BASTION AGNES / J121042609-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162569",
       "id_commande_v2i": "260615000037",
       "code_cote": "B",
@@ -603,16 +659,52 @@
       }
     },
     {
+      "ord_numb": "            10162713",
+      "id_commande_v2i": "260615000181",
+      "code_cote": "R",
+      "patient": "FABBRI CORALIE",
+      "job_cosium": "J121042613",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "16/06/2026 09:51",
+      "detail": "Réf: FABBRI CORALIE / J121042613 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 25/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "3.75",
+        "axe": 50,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10162604",
       "id_commande_v2i": "260615000072",
       "code_cote": "B",
       "patient": "DUPAS ALICE",
       "job_cosium": "J121042602",
       "date_entree": "15/06/2026",
-      "date_dernier_statut": "15/06/2026 15:28",
-      "detail": "Réf: DUPAS ALICE / J121042602 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 08:55",
+      "detail": "Réf: DUPAS ALICE / J121042602 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -652,154 +744,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162645",
-      "id_commande_v2i": "260615000113",
-      "code_cote": "B",
-      "patient": "MARTIN-BASTION AGNES",
-      "job_cosium": "J121042609-01",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 14:44",
-      "detail": "Réf: MARTIN-BASTION AGNES / J121042609-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162713",
-      "id_commande_v2i": "260615000181",
-      "code_cote": "R",
-      "patient": "FABBRI CORALIE",
-      "job_cosium": "J121042613",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 09:51",
-      "detail": "Réf: FABBRI CORALIE / J121042613 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 25/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "3.75",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10162731",
-      "id_commande_v2i": "260615000199",
-      "code_cote": "B",
-      "patient": "GIORGI JACQUELINE",
-      "job_cosium": "J121042617-01",
-      "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 10:35",
-      "detail": "Réf: GIORGI JACQUELINE / J121042617-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Brun D",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Brun D",
           "Durci Inclus"
         ]
       }
@@ -856,6 +800,62 @@
         "supplements": [
           "Media 1.5 Foto Gris Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162731",
+      "id_commande_v2i": "260615000199",
+      "code_cote": "B",
+      "patient": "GIORGI JACQUELINE",
+      "job_cosium": "J121042617-01",
+      "date_entree": "15/06/2026",
+      "date_dernier_statut": "17/06/2026 08:56",
+      "detail": "Réf: GIORGI JACQUELINE / J121042617-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Brun D",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Brun D",
           "Durci Inclus"
         ]
       }
@@ -1303,10 +1303,10 @@
       "patient": "VALLANCE ERIC",
       "job_cosium": "J121042573",
       "date_entree": "12/06/2026",
-      "date_dernier_statut": "16/06/2026 10:37",
-      "detail": "Réf: VALLANCE ERIC / J121042573 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 08:54",
+      "detail": "Réf: VALLANCE ERIC / J121042573 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
