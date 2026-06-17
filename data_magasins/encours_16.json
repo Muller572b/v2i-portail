@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "17/06/2026 08:14",
+  "derniere_mise_a_jour": "17/06/2026 08:29",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162853",
@@ -167,6 +167,40 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162988",
+      "id_commande_v2i": "260616000229",
+      "code_cote": "L",
+      "patient": "PINNA PATRICE",
+      "job_cosium": "J143054000",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 08:27",
+      "detail": "Réf: PINNA PATRICE / J143054000 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Arh"
         ]
       }
     },
@@ -1151,40 +1185,6 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162988",
-      "id_commande_v2i": "260616000229",
-      "code_cote": "L",
-      "patient": "PINNA PATRICE",
-      "job_cosium": "J143054000",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 19:34",
-      "detail": "Réf: PINNA PATRICE / J143054000 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Arh"
         ]
       }
     },
