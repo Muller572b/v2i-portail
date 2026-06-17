@@ -10,114 +10,8 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "17/06/2026 13:14",
+  "derniere_mise_a_jour": "17/06/2026 13:29",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10163079",
-      "id_commande_v2i": "260617000090",
-      "code_cote": "B",
-      "patient": "PEREIRA MELYNA",
-      "job_cosium": "J162005206-01",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 13:13",
-      "detail": "Réf: PEREIRA MELYNA / J162005206-01 — (Stock) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163080",
-      "id_commande_v2i": "260617000091",
-      "code_cote": "B",
-      "patient": "PEREIRA MELYNA",
-      "job_cosium": "J162005206-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 13:13",
-      "detail": "Réf: PEREIRA MELYNA / J162005206-02 — (Fabrication RX) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
-        ]
-      }
-    },
     {
       "ord_numb": "            10163008",
       "id_commande_v2i": "260617000019",
@@ -221,6 +115,112 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163079",
+      "id_commande_v2i": "260617000090",
+      "code_cote": "B",
+      "patient": "PEREIRA MELYNA",
+      "job_cosium": "J162005206-01",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 13:15",
+      "detail": "Réf: PEREIRA MELYNA / J162005206-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163080",
+      "id_commande_v2i": "260617000091",
+      "code_cote": "B",
+      "patient": "PEREIRA MELYNA",
+      "job_cosium": "J162005206-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 13:15",
+      "detail": "Réf: PEREIRA MELYNA / J162005206-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
         ]
       }
     },
@@ -445,70 +445,16 @@
       }
     },
     {
-      "ord_numb": "            10162885",
-      "id_commande_v2i": "260616000126",
-      "code_cote": "B",
-      "patient": "DE BARTOLO FRANCOIS",
-      "job_cosium": "J162005201",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 15:20",
-      "detail": "Réf: DE BARTOLO FRANCOIS / J162005201 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10162861",
       "id_commande_v2i": "260616000102",
       "code_cote": "B",
       "patient": "GRAZIANI PIERRE-THOMAS",
       "job_cosium": "J162005196-02",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 10:51",
-      "detail": "Réf: GRAZIANI PIERRE-THOMAS / J162005196-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "17/06/2026 13:17",
+      "detail": "Réf: GRAZIANI PIERRE-THOMAS / J162005196-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -559,10 +505,10 @@
       "patient": "ROUSSEL MAXIME",
       "job_cosium": "J162005200-02",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 10:51",
-      "detail": "Réf: ROUSSEL MAXIME / J162005200-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "17/06/2026 13:17",
+      "detail": "Réf: ROUSSEL MAXIME / J162005200-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -603,6 +549,60 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162885",
+      "id_commande_v2i": "260616000126",
+      "code_cote": "B",
+      "patient": "DE BARTOLO FRANCOIS",
+      "job_cosium": "J162005201",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "16/06/2026 15:20",
+      "detail": "Réf: DE BARTOLO FRANCOIS / J162005201 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
         ]
       }
     },
