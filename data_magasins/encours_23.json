@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "17/06/2026 17:40",
+  "derniere_mise_a_jour": "17/06/2026 17:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163088",
@@ -19,10 +19,10 @@
       "patient": "PANTALACCI DOMINIQUE",
       "job_cosium": "J131018864-02",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 14:43",
-      "detail": "Réf: PANTALACCI DOMINIQUE / J131018864-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: PANTALACCI DOMINIQUE / J131018864-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -71,10 +71,10 @@
       "patient": "PANTALACCI DOMINIQUE",
       "job_cosium": "J131018864-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 14:43",
-      "detail": "Réf: PANTALACCI DOMINIQUE / J131018864-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/06/2026 17:43",
+      "detail": "Réf: PANTALACCI DOMINIQUE / J131018864-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -113,6 +113,60 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163141",
+      "id_commande_v2i": "260617000152",
+      "code_cote": "B",
+      "patient": "DA LAGE GUIMARAES MARIA",
+      "job_cosium": "J131018867",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 17:44",
+      "detail": "Réf: DA LAGE GUIMARAES MARIA / J131018867 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 25,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Prog V2i 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Prog V2i 1.5 Nu",
+          "Teinte Gris C"
         ]
       }
     },
