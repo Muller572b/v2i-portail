@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "17/06/2026 14:59",
+  "derniere_mise_a_jour": "17/06/2026 15:14",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163023",
@@ -289,6 +289,60 @@
       }
     },
     {
+      "ord_numb": "            10163020",
+      "id_commande_v2i": "260617000031",
+      "code_cote": "B",
+      "patient": "CANONICI Jill",
+      "job_cosium": "J157000025-01",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 15:04",
+      "detail": "Réf: CANONICI Jill / J157000025-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163021",
       "id_commande_v2i": "260617000032",
       "code_cote": "B",
@@ -441,60 +495,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Afocal 1.5 Dégradé Brun"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163020",
-      "id_commande_v2i": "260617000031",
-      "code_cote": "B",
-      "patient": "CANONICI Jill",
-      "job_cosium": "J157000025-01",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 14:54",
-      "detail": "Réf: CANONICI Jill / J157000025-01 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris C"
         ]
       }
     }
