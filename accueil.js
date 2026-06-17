@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. Récupération dynamique du nombre de commandes en cours
     const countElement = document.getElementById('commandes-en-cours-count');
     if (countElement && clientId) {
-        // Ciblage du bon dossier de synchronisation et vérification du statut HTTP
-        fetch(`data_magasins/encours_de${clientId}.json`)
+        // CORRECTION : Modification du pattern d'URL pour correspondre à "encours_X.json"
+        fetch(`data_magasins/encours_${clientId}.json`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
