@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "17/06/2026 14:44",
+  "derniere_mise_a_jour": "17/06/2026 14:59",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162994",
@@ -75,10 +75,10 @@
       "patient": "CLAIRE AURELIE",
       "job_cosium": "J120030456-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 14:38",
-      "detail": "Réf: CLAIRE AURELIE / J120030456-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "17/06/2026 14:48",
+      "detail": "Réf: CLAIRE AURELIE / J120030456-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -438,10 +438,10 @@
       "patient": "SAMMARTINI JEAN-MICHEL",
       "job_cosium": "J120030440",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 15:33",
-      "detail": "Réf: SAMMARTINI JEAN-MICHEL / J120030440 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 14:52",
+      "detail": "Réf: SAMMARTINI JEAN-MICHEL / J120030440 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -490,6 +490,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162848",
+      "id_commande_v2i": "260616000089",
+      "code_cote": "B",
+      "patient": "CHAPUIS ERIC",
+      "job_cosium": "J120030438",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 14:52",
+      "detail": "Réf: CHAPUIS ERIC / J120030438 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 175,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "21.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "21.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -550,62 +606,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162848",
-      "id_commande_v2i": "260616000089",
-      "code_cote": "B",
-      "patient": "CHAPUIS ERIC",
-      "job_cosium": "J120030438",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "16/06/2026 15:33",
-      "detail": "Réf: CHAPUIS ERIC / J120030438 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 175,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "21.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "21.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -836,10 +836,10 @@
       "patient": "CECCALDI ROSELYNE",
       "job_cosium": "J120030422",
       "date_entree": "15/06/2026",
-      "date_dernier_statut": "16/06/2026 16:10",
-      "detail": "Réf: CECCALDI ROSELYNE / J120030422 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 14:52",
+      "detail": "Réf: CECCALDI ROSELYNE / J120030422 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1176,10 +1176,10 @@
       "patient": "HARMAND BRUNO",
       "job_cosium": "J120030415-02",
       "date_entree": "13/06/2026",
-      "date_dernier_statut": "16/06/2026 16:10",
-      "detail": "Réf: HARMAND BRUNO / J120030415-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/06/2026 14:52",
+      "detail": "Réf: HARMAND BRUNO / J120030415-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
