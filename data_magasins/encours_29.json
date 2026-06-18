@@ -10,8 +10,66 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "18/06/2026 12:10",
+  "derniere_mise_a_jour": "18/06/2026 12:21",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163227",
+      "id_commande_v2i": "260618000003",
+      "code_cote": "B",
+      "patient": "PAGANI",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 12:17",
+      "detail": "Réf: PAGANI — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.25",
+        "cylindre": "3.25",
+        "axe": 90,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Confort2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.75",
+        "cylindre": "3.00",
+        "axe": 85,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Confort2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163266",
       "id_commande_v2i": "260618000042",
@@ -79,64 +137,6 @@
         ]
       },
       "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10163227",
-      "id_commande_v2i": "260618000003",
-      "code_cote": "B",
-      "patient": "PAGANI",
-      "job_cosium": "",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 11:27",
-      "detail": "Réf: PAGANI — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "4.25",
-        "cylindre": "3.25",
-        "axe": 90,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Confort2 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "5.75",
-        "cylindre": "3.00",
-        "axe": 85,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Confort2 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      }
     },
     {
       "ord_numb": "            10163242",
