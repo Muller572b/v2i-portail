@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "18/06/2026 09:10",
+  "derniere_mise_a_jour": "18/06/2026 09:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163229",
@@ -79,7 +79,7 @@
       "patient": "LAMBERTI",
       "job_cosium": "",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 09:08",
+      "date_dernier_statut": "18/06/2026 09:14",
       "detail": "Réf: LAMBERTI — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
@@ -89,7 +89,7 @@
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "6.50",
+        "sphere": "-6.50",
         "cylindre": "3.00",
         "axe": 15,
         "addition": "0.00",
@@ -137,7 +137,7 @@
       "patient": "CIPRIANI",
       "job_cosium": "",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 09:09",
+      "date_dernier_statut": "18/06/2026 09:13",
       "detail": "Réf: CIPRIANI — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
@@ -162,7 +162,8 @@
           "Affiny Confort2 1.67 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
-          "Optimisé"
+          "Optimisé",
+          "Prisme supérieur à 4"
         ]
       },
       "oeil_gauche": {
@@ -183,6 +184,297 @@
         "supplements": [
           "Affiny Confort2 1.67 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163232",
+      "id_commande_v2i": "260618000008",
+      "code_cote": "B",
+      "patient": "ALLOMBERT",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 09:11",
+      "detail": "Réf: ALLOMBERT — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 105,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163233",
+      "id_commande_v2i": "260618000009",
+      "code_cote": "B",
+      "patient": "CIPRIANI",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 09:12",
+      "detail": "Réf: CIPRIANI — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-6.50",
+        "cylindre": "0.50",
+        "axe": 150,
+        "addition": "2.75",
+        "prisme_1": "6.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.3",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.6 Polar Gris Durc",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-6.50",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "2.75",
+        "prisme_1": "6.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.3",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.6 Polar Gris Durc",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163234",
+      "id_commande_v2i": "260618000010",
+      "code_cote": "B",
+      "patient": "ARMANI",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 09:16",
+      "detail": "Réf: ARMANI — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.75",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "Unitek2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.50",
+        "cylindre": "0.25",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Unitek2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163235",
+      "id_commande_v2i": "260618000011",
+      "code_cote": "B",
+      "patient": "CARLETTI",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 09:17",
+      "detail": "Réf: CARLETTI — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "35.0",
+        "supplements": [
+          "Affiny Lecture2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "35.0",
+        "supplements": [
+          "Affiny Lecture2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163236",
+      "id_commande_v2i": "260618000012",
+      "code_cote": "B",
+      "patient": "ALLOMBERT",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 09:18",
+      "detail": "Réf: ALLOMBERT — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.5",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar Gris Durc",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 105,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.5",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar Gris Durc",
           "Durci Inclus",
           "Optimisé"
         ]
@@ -243,62 +535,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163014",
-      "id_commande_v2i": "260617000025",
-      "code_cote": "B",
-      "patient": "CARESME",
-      "job_cosium": "",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 15:03",
-      "detail": "Réf: CARESME — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Brun Durci",
-          "Dégradé Polarisé",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Brun Durci",
-          "Dégradé Polarisé",
-          "Durci Inclus"
         ]
       }
     },
@@ -795,6 +1031,62 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163014",
+      "id_commande_v2i": "260617000025",
+      "code_cote": "B",
+      "patient": "CARESME",
+      "job_cosium": "",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 09:22",
+      "detail": "Réf: CARESME — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Brun Durci",
+          "Dégradé Polarisé",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Brun Durci",
+          "Dégradé Polarisé",
+          "Durci Inclus"
         ]
       }
     },
