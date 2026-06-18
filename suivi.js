@@ -7,7 +7,7 @@
 // --- CONFIGURATION CONSTANTE GITHUB ---
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
-// --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM (Sécurisé contre les doubles déclarations) ---
+// --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
 window.LISTE_MAGASINS = window.LISTE_MAGASINS || {
     "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
     "9": "A40", "10": "BAA", "11": "BOR", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
@@ -93,7 +93,7 @@ if (checkSession()) {
 }
 
 /**
- * Configure les écouteurs sur les entrées de filtres, recherche, boutons et pagination
+ * Configure les écouteurs sur les entrées de filtres, recherche et boutons
  */
 function setupFilters() {
     const searchInput = document.getElementById('search-verres');
@@ -111,12 +111,6 @@ function setupFilters() {
     if (btnAll) btnAll.addEventListener('click', () => setFilterType('tous'));
     if (btnCours) btnCours.addEventListener('click', () => setFilterType('cours'));
     if (btnExpedie) btnExpedie.addEventListener('click', () => setFilterType('expedie'));
-
-    // Contrôles de la pagination
-    const btnPrev = document.getElementById('btn-prev');
-    const btnNext = document.getElementById('btn-next');
-    if (btnPrev) btnPrev.addEventListener('click', prevPage);
-    if (btnNext) btnNext.addEventListener('click', nextPage);
 }
 
 /**
@@ -381,51 +375,78 @@ function handleSort(colKey) {
 }
 
 /**
- * Met à jour les éléments de l'interface graphique de la pagination
+ * Met à jour les éléments de l'interface graphique de la pagination (HTML Harmonisé)
  */
 function updatePaginationUI(totalItems) {
-    const pageInfo = document.getElementById('page-info'); 
-    const btnPrev = document.getElementById('btn-prev');
-    const btnNext = document.getElementById('btn-next');
+    const startEl = document.getElementById('pagination-start');
+    const endEl = document.getElementById('pagination-end');
+    const totalEl = document.getElementById('pagination-total');
+    const btnPrev = document.getElementById('btn-prev-page');
+    const btnNext = document.getElementById('btn-next-page');
+    const numbersEl = document.getElementById('pagination-numbers');
 
-    if (pageInfo) {
-        pageInfo.innerText = `Page ${currentPage} sur ${totalPages} (${totalItems} commande${totalItems > 1 ? 's' : ''})`;
-    }
+    const startIndex = totalItems === 0 ? 0 : (currentPage - 1) * itemsPerPage;
+    const startDisplay = totalItems === 0 ? 0 : startIndex + 1;
+    const endDisplay = Math.min(startIndex + itemsPerPage, totalItems);
 
+    // Injection des compteurs de lignes
+    if (startEl) startEl.innerText = startDisplay;
+    if (endEl) endEl.innerText = endDisplay;
+    if (totalEl) totalEl.innerText = totalItems;
+
+    // État visuel et technique du bouton Précédent
     if (btnPrev) {
+        btnPrev.disabled = (currentPage === 1);
         if (currentPage === 1) {
-            btnPrev.disabled = true;
             btnPrev.classList.add('opacity-40', 'pointer-events-none');
         } else {
-            btnPrev.disabled = false;
             btnPrev.classList.remove('opacity-40', 'pointer-events-none');
         }
     }
 
+    // État visuel et technique du bouton Suivant
     if (btnNext) {
+        btnNext.disabled = (currentPage === totalPages);
         if (currentPage === totalPages) {
-            btnNext.disabled = true;
             btnNext.classList.add('opacity-40', 'pointer-events-none');
         } else {
-            btnNext.disabled = false;
             btnNext.classList.remove('opacity-40', 'pointer-events-none');
         }
     }
+
+    // Génération dynamique des pastilles numériques cliquables
+    if (numbersEl) {
+        let numbersHtml = '';
+        for (let i = 1; i <= totalPages; i++) {
+            if (i === currentPage) {
+                numbersHtml += `<span class="px-3 py-1.5 text-xs font-bold bg-[#0066cc] text-white rounded-lg shadow-sm">${i}</span>`;
+            } else {
+                numbersHtml += `<button onclick="goToPage(${i})" class="px-3 py-1.5 text-xs font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-lg transition-colors cursor-pointer">${i}</button>`;
+            }
+        }
+        numbersEl.innerHTML = numbersHtml;
+    }
 }
 
-function nextPage() {
-    if (currentPage < totalPages) {
+/**
+ * Routeurs globaux de navigation pour la pagination (Appelés par l'HTML)
+ */
+window.changePage = function(direction) {
+    if (direction === -1 && currentPage > 1) {
+        currentPage--;
+        renderVerres();
+    } else if (direction === 1 && currentPage < totalPages) {
         currentPage++;
         renderVerres();
     }
-}
+};
 
-function prevPage() {
-    if (currentPage > 1) {
-        currentPage--;
+window.goToPage = function(pageNumber) {
+    if (pageNumber >= 1 && pageNumber <= totalPages) {
+        currentPage = pageNumber;
         renderVerres();
     }
-}
+};
 
 /**
  * Construit et injecte les lignes de données filtrées dans le tableau HTML
@@ -600,7 +621,8 @@ function renderVerres() {
         const dateCommande = parseDate(v.date_entree);
         const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); 
 
-        const afficherDocs = estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
+        // SÉCURITÉ : N'affiche les eBL et CDV que s'il s'agit d'une archive expédiée (Pas pour les encours actifs)
+        const afficherDocs = v.isArchive && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
         const anneeBL = idCommande.length >= 2 ? "20" + idCommande.substring(0, 2) : new Date().getFullYear();
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
@@ -667,7 +689,6 @@ function openSidePanel(idCommande) {
     const panel = document.getElementById('side-panel');
     if (panel) {
         panel.classList.remove('translate-x-full');
-        // Optionnel : Ajoutez ici votre logique d'affichage interne du panneau si nécessaire.
     }
 }
 
@@ -680,3 +701,13 @@ function closeSidePanel() {
         panel.classList.add('translate-x-full');
     }
 }
+
+/**
+ * Déconnexion de la session utilisateur
+ */
+window.logout = function() {
+    localStorage.removeItem('v2i_authenticated');
+    localStorage.removeItem('v2i_client_id');
+    localStorage.removeItem('v2i_cosium_code');
+    window.location.href = './login.html';
+};
