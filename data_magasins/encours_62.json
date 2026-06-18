@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "18/06/2026 14:40",
+  "derniere_mise_a_jour": "18/06/2026 16:24",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163226",
@@ -81,10 +81,10 @@
       "patient": "QUINTERNET Lola",
       "job_cosium": "J157000033",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 11:40",
-      "detail": "Réf: QUINTERNET Lola / J157000033 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "18/06/2026 14:50",
+      "detail": "Réf: QUINTERNET Lola / J157000033 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -123,62 +123,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163024",
-      "id_commande_v2i": "260617000035",
-      "code_cote": "B",
-      "patient": "IOUDJAOUDENE Sasha",
-      "job_cosium": "J157000021",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 10:13",
-      "detail": "Réf: IOUDJAOUDENE Sasha / J157000021 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-6.50",
-        "cylindre": "4.00",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "25.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-6.25",
-        "cylindre": "3.00",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "25.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -307,16 +251,72 @@
       }
     },
     {
+      "ord_numb": "            10163024",
+      "id_commande_v2i": "260617000035",
+      "code_cote": "B",
+      "patient": "IOUDJAOUDENE Sasha",
+      "job_cosium": "J157000021",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 16:15",
+      "detail": "Réf: IOUDJAOUDENE Sasha / J157000021 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-6.50",
+        "cylindre": "4.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "25.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-6.25",
+        "cylindre": "3.00",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "25.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163026",
       "id_commande_v2i": "260617000037",
       "code_cote": "B",
       "patient": "REY Christiane",
       "job_cosium": "J157000019",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 10:15",
-      "detail": "Réf: REY Christiane / J157000019 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "18/06/2026 14:50",
+      "detail": "Réf: REY Christiane / J157000019 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -367,10 +367,10 @@
       "patient": "KISTOO Tarmattie",
       "job_cosium": "J157000030-02",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 17:43",
-      "detail": "Réf: KISTOO Tarmattie / J157000030-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "18/06/2026 14:50",
+      "detail": "Réf: KISTOO Tarmattie / J157000030-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -419,10 +419,10 @@
       "patient": "KISTOO Tarmattie",
       "job_cosium": "J157000030-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 17:43",
-      "detail": "Réf: KISTOO Tarmattie / J157000030-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "18/06/2026 14:50",
+      "detail": "Réf: KISTOO Tarmattie / J157000030-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
