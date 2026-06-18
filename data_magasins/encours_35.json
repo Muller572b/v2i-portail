@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "18/06/2026 11:36",
+  "derniere_mise_a_jour": "18/06/2026 11:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163275",
@@ -755,6 +755,60 @@
       }
     },
     {
+      "ord_numb": "            10163181",
+      "id_commande_v2i": "260617000192",
+      "code_cote": "B",
+      "patient": "VIALA LAURENCE",
+      "job_cosium": "J120030468-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 11:36",
+      "detail": "Réf: VIALA LAURENCE / J120030468-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163182",
       "id_commande_v2i": "260617000193",
       "code_cote": "B",
@@ -1349,60 +1403,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163181",
-      "id_commande_v2i": "260617000192",
-      "code_cote": "B",
-      "patient": "VIALA LAURENCE",
-      "job_cosium": "J120030468-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 10:41",
-      "detail": "Réf: VIALA LAURENCE / J120030468-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
           "Teinte Brun C"
         ]
       }
