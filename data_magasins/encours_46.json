@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "18/06/2026 10:55",
+  "derniere_mise_a_jour": "18/06/2026 11:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163236",
@@ -19,10 +19,10 @@
       "patient": "ALLOMBERT",
       "job_cosium": "",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 10:33",
-      "detail": "Réf: ALLOMBERT — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "18/06/2026 11:02",
+      "detail": "Réf: ALLOMBERT — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1187,6 +1187,68 @@
       }
     },
     {
+      "ord_numb": "            10163038",
+      "id_commande_v2i": "260617000049",
+      "code_cote": "B",
+      "patient": "BENEDETTI JEAN CLAUDE",
+      "job_cosium": "J152045258-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 11:05",
+      "detail": "Réf: BENEDETTI JEAN CLAUDE / J152045258-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Affiny Equilibre2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "2.00",
+        "axe": 160,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Affiny Equilibre2 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163014",
       "id_commande_v2i": "260617000025",
       "code_cote": "B",
@@ -1797,68 +1859,6 @@
         "supplements": [
           "Tchin Uni 1.5 Non Durci",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163038",
-      "id_commande_v2i": "260617000049",
-      "code_cote": "B",
-      "patient": "BENEDETTI JEAN CLAUDE",
-      "job_cosium": "J152045258-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 10:16",
-      "detail": "Réf: BENEDETTI JEAN CLAUDE / J152045258-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Affiny Equilibre2 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "2.00",
-        "axe": 160,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Affiny Equilibre2 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
