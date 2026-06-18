@@ -1,7 +1,7 @@
 /**
  * V2i Portail - Module de Suivi des Commandes (suivi.js)
  * Gère le flux des encours, le lazy-loading asynchrone des archives depuis GitHub,
- * les filtres croisés (recherche + dates), le scroll infini et le panneau latéral technique.
+ * les filtres croisés (recherche + dates + boutons d'état), le scroll infini et le panneau latéral technique.
  */
 
 // --- CONFIGURATION CONSTANTE GITHUB ---
@@ -32,6 +32,7 @@ let autoArchivesIncluded = false;
 let loadedYears = []; 
 let isLoadingArchives = false; 
 let searchTimeout = null;
+let currentFilterType = 'tous'; // Type de filtrage actif : 'tous', 'cours', ou 'expedie'
 
 // --- CONFIGURATION DU TRI DYNAMIQUE ---
 let currentSort = {
@@ -83,6 +84,58 @@ function setupFilters() {
     const dateFinInput = document.getElementById('date-fin');
     if (dateDebutInput) dateDebutInput.addEventListener('change', handleDateBoundsChange);
     if (dateFinInput) dateFinInput.addEventListener('change', handleDateBoundsChange);
+}
+
+/**
+ * Gère la sélection exclusive et les styles visuels des trois boutons de filtres d'état
+ */
+function setFilterType(type) {
+    if (currentFilterType === type) return;
+    currentFilterType = type;
+
+    const btnAll = document.getElementById('btn-filter-all');
+    const btnCours = document.getElementById('btn-filter-cours');
+    const btnExpedie = document.getElementById('btn-filter-expedie');
+
+    const activeClasses = ['bg-white', 'text-[#0066cc]', 'shadow-sm'];
+    const inactiveClasses = ['text-[#86868b]', 'hover:text-[#1d1d1f]'];
+
+    // Réinitialisation globale des classes des boutons
+    [btnAll, btnCours, btnExpedie].forEach(btn => {
+        if (btn) btn.classList.remove(...activeClasses, ...inactiveClasses);
+    });
+
+    // Application conditionnelle des styles d'activation exclusive
+    if (type === 'tous' && btnAll) {
+        btnAll.classList.add(...activeClasses);
+        if (btnCours) btnCours.classList.add(...inactiveClasses);
+        if (btnExpedie) btnExpedie.classList.add(...inactiveClasses);
+    } else if (type === 'cours' && btnCours) {
+        btnCours.classList.add(...activeClasses);
+        if (btnAll) btnAll.classList.add(...inactiveClasses);
+        if (btnExpedie) btnExpedie.classList.add(...inactiveClasses);
+    } else if (type === 'expedie' && btnExpedie) {
+        btnExpedie.classList.add(...activeClasses);
+        if (btnAll) btnAll.classList.add(...inactiveClasses);
+        if (btnCours) btnCours.classList.add(...inactiveClasses);
+    }
+
+    // UX préventive : Si filtrage sur Archives et vide, charger automatiquement l'année en cours
+    if (type === 'expedie' && storeArchives.length === 0 && !isLoadingArchives) {
+        isLoadingArchives = true;
+        renderVerres();
+        const anneeEnCours = new Date().getFullYear();
+        loadArchiveYear(anneeEnCours).then(() => {
+            isLoadingArchives = false;
+            autoArchivesIncluded = true;
+            renderVerres();
+        }).catch(() => { 
+            isLoadingArchives = false; 
+            renderVerres(); 
+        });
+    } else {
+        renderVerres();
+    }
 }
 
 /**
@@ -159,6 +212,7 @@ function handleScrollLoad() {
     const contentVerres = document.getElementById('content-verres');
     if (contentVerres && contentVerres.classList.contains('hidden')) return;
     if (autoArchivesIncluded || isLoadingArchives) return;
+    if (currentFilterType === 'cours') return; // Inutile de charger des archives si l'onglet "En cours" est actif
 
     if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
         autoArchivesIncluded = true;
@@ -319,16 +373,23 @@ function renderVerres() {
     const dataEncours = (typeof storeEncours !== 'undefined' && Array.isArray(storeEncours)) ? storeEncours : [];
     const dataArchives = (typeof storeArchives !== 'undefined' && Array.isArray(storeArchives)) ? storeArchives : [];
 
-    const inclureArchives = archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
-    
     let donneesAAfficher = [];
-    dataEncours.forEach(item => {
-        if (item) donneesAAfficher.push({ ...item, isArchive: false });
-    });
-    if (inclureArchives) {
-        dataArchives.forEach(item => {
-            if (item) donneesAAfficher.push({ ...item, isArchive: true });
+
+    // Inclusion conditionnelle de data_magasin (Encours)
+    if (currentFilterType === 'tous' || currentFilterType === 'cours') {
+        dataEncours.forEach(item => {
+            if (item) donneesAAfficher.push({ ...item, isArchive: false });
         });
+    }
+
+    // Inclusion conditionnelle de data_archives (Expédiée)
+    if (currentFilterType === 'tous' || currentFilterType === 'expedie') {
+        const inclureArchives = currentFilterType === 'expedie' || archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
+        if (inclureArchives) {
+            dataArchives.forEach(item => {
+                if (item) donneesAAfficher.push({ ...item, isArchive: true });
+            });
+        }
     }
 
     const uniquesMap = new Map();
@@ -343,7 +404,7 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // 1. Filtrage multicritère
+    // 1. Filtrage multicritère (Recherche textuelle + Bornes temporelles)
     let donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -449,7 +510,6 @@ function renderVerres() {
             ? `<span class="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold bg-amber-100 text-amber-800 tracking-wide uppercase">Archive</span>`
             : '';
 
-        // Injection et sécurisation de la date du dernier statut sous le badge de statut
         const htmlDernierStatut = v.date_dernier_statut 
             ? `<div class="text-[11px] text-[#86868b] font-medium mt-0.5">${v.date_dernier_statut}</div>` 
             : '';
@@ -595,3 +655,4 @@ window.openSidePanel = openSidePanel;
 window.closeSidePanel = closeSidePanel;
 window.logout = logout;
 window.handleSort = handleSort;
+window.setFilterType = setFilterType; // Rendu accessible pour l'attribut HTML onclick
