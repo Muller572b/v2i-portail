@@ -9,14 +9,14 @@ const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portai
 
 // --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
 const LISTE_MAGASINS = {
-        "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
-        "9": "A40", "10": "BAA", "11": "BOR", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
-        "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
-        "33": "CCA", "34": "COZ", "35": "OBP", "36": "CCB", "37": "CCF", "39": "OBR", "41": "CAO",
-        "42": "FAA","43": "FCA", "44": "FAL", "46": "BAO", "47": "POB", "48": "BOF", "49": "O2B",
-         "50": "ATS", "51": "OSM", "52": "OBB", "53": "ONA", "56": "OBS", "57": "OPM",
-         "58": "OBV", "59": "ATB", "60": "KBO", "62": "OBO","99": "TEST99", "ADMIN": "COSIUM2026"
-    };
+    "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
+    "9": "A40", "10": "BAA", "11": "BOR", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
+    "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
+    "33": "CCA", "34": "COZ", "35": "OBP", "36": "CCB", "37": "CCF", "39": "OBR", "41": "CAO",
+    "42": "FAA","43": "FCA", "44": "FAL", "46": "BAO", "47": "POB", "48": "BOF", "49": "O2B",
+    "50": "ATS", "51": "OSM", "52": "OBB", "53": "ONA", "56": "OBS", "57": "OPM",
+    "58": "OBV", "59": "ATB", "60": "KBO", "62": "OBO","99": "TEST99", "ADMIN": "COSIUM2026"
+};
 
 // --- ÉTATS GLOBAUX PERSISTANTS ---
 let currentStoreId = localStorage.getItem('v2i_client_id') || null;
@@ -52,24 +52,25 @@ function checkSession() {
     return true;
 }
 
-checkSession();
+// Exécution immédiate préventive
+if (checkSession()) {
+    /**
+     * Initialisation au chargement de la page suivi.html
+     */
+    document.addEventListener('DOMContentLoaded', () => {
+        if (!checkSession()) return;
 
-/**
- * Initialisation au chargement de la page suivi.html
- */
-document.addEventListener('DOMContentLoaded', () => {
-    if (!checkSession()) return;
+        const storeBadge = document.getElementById('store-badge');
+        if (storeBadge) {
+            const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
+            storeBadge.innerText = `Magasin : N° ${currentStoreId}${cosiumText}`;
+        }
 
-    const storeBadge = document.getElementById('store-badge');
-    if (storeBadge) {
-        const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
-        storeBadge.innerText = `Magasin : N° ${currentStoreId}${cosiumText}`;
-    }
-
-    loadStoreEncours();
-    window.addEventListener('scroll', handleScrollLoad);
-    setupFilters();
-});
+        loadStoreEncours();
+        window.addEventListener('scroll', handleScrollLoad);
+        setupFilters();
+    });
+}
 
 /**
  * Configure les écouteurs sur les entrées de filtres et recherche
@@ -212,7 +213,7 @@ function handleScrollLoad() {
     const contentVerres = document.getElementById('content-verres');
     if (contentVerres && contentVerres.classList.contains('hidden')) return;
     if (autoArchivesIncluded || isLoadingArchives) return;
-    if (currentFilterType === 'cours') return; // Inutile de charger des archives si l'onglet "En cours" est actif
+    if (currentFilterType === 'cours') return;
 
     if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
         autoArchivesIncluded = true;
@@ -336,7 +337,8 @@ function handleSort(colKey) {
         currentSort.asc = !currentSort.asc;
     } else {
         currentSort.key = colKey;
-        currentSort.asc = (colKey === 'date') ? false : true;
+        // Tri descendant par défaut pour les dates, ascendant pour le reste
+        currentSort.asc = (colKey === 'date' || colKey === 'livraison') ? false : true;
     }
     renderVerres();
 }
@@ -392,12 +394,13 @@ function renderVerres() {
         }
     }
 
+    // Dédoublonnement intelligent : Priorise la version "En cours" (plus fraîche) sur l'archive brute
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
         if (idUnique) {
             const key = String(idUnique).trim();
-            if (!uniquesMap.has(key) || item.isArchive) {
+            if (!uniquesMap.has(key) || (!item.isArchive && uniquesMap.get(key).isArchive)) {
                 uniquesMap.set(key, item);
             }
         }
@@ -431,7 +434,7 @@ function renderVerres() {
         return true;
     });
 
-    // 2. Tri Algorithmique Dynamique
+    // 2. Tri Algorithmique Dynamique (Correction : Couvre désormais l'intégralité des colonnes cliquables)
     donneesFiltrees.sort((a, b) => {
         let valA, valB;
 
@@ -446,6 +449,17 @@ function renderVerres() {
         } else if (currentSort.key === 'date') {
             valA = parseDate(a.date_entree) || new Date(0);
             valB = parseDate(b.date_entree) || new Date(0);
+        } else if (currentSort.key === 'status') {
+            valA = (a.statut_affichage || a.statut_final || '').toLowerCase();
+            valB = (b.statut_affichage || b.statut_final || '').toLowerCase();
+        } else if (currentSort.key === 'livraison') {
+            const livA = a.statut && String(a.statut).toLowerCase().includes('livraison') ? String(a.statut) : (a.date_livraison_prevue || a.date_expedition || '');
+            const livB = b.statut && String(b.statut).toLowerCase().includes('livraison') ? String(b.statut) : (b.date_livraison_prevue || b.date_expedition || '');
+            valA = livA.toLowerCase();
+            valB = livB.toLowerCase();
+        } else if (currentSort.key === 'bl') {
+            valA = String(a.id_commande_v2i || a.ord_numb || a.id_bl_v2i || '').toLowerCase();
+            valB = String(b.id_commande_v2i || b.ord_numb || b.id_bl_v2i || '').toLowerCase();
         } else {
             return 0;
         }
@@ -497,14 +511,16 @@ function renderVerres() {
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
         const dateCommande = parseDate(v.date_entree);
-        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); 
-        const afficherDocs = (v.isArchive === true) && estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
+        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026
 
-        const anneeBL = "20" + idCommande.substring(0, 2);
+        // Correction : Permet l'affichage des documents dès que l'état est Expédié, sans forcer la provenance de l'archive brute.
+        const afficherDocs = estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
+
+        const anneeBL = idCommande.length >= 2 ? "20" + idCommande.substring(0, 2) : new Date().getFullYear();
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
         
-        const urlEbl = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
-        const urlCdv = `https://raw.githubusercontent.com/Muller572b/v2i-portail/main/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
+        const urlEbl = `${GITHUB_BASE_URL}/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
+        const urlCdv = `${GITHUB_BASE_URL}/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
         const archiveBadge = v.isArchive 
             ? `<span class="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold bg-amber-100 text-amber-800 tracking-wide uppercase">Archive</span>`
@@ -655,4 +671,4 @@ window.openSidePanel = openSidePanel;
 window.closeSidePanel = closeSidePanel;
 window.logout = logout;
 window.handleSort = handleSort;
-window.setFilterType = setFilterType; // Rendu accessible pour l'attribut HTML onclick
+window.setFilterType = setFilterType;
