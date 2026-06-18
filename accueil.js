@@ -1,4 +1,4 @@
-// --- ACCUEIL.JS ---
+// --- ACCUEIL.JS CORRIGÉ ---
 
 // Rendu global pour éviter l'erreur "LISTE_MAGASINS is not defined" dans suivi.js
 window.LISTE_MAGASINS = {
@@ -20,8 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Récupération de l'identifiant du magasin connecté
     const clientId = localStorage.getItem('v2i_client_id');
-
-    // On récupère le code Cosium associé depuis l'objet global
     const cosiumCode = window.LISTE_MAGASINS[clientId] || "Inconnu";
 
     // Affichage dynamique des infos du magasin sur l'écran d'accueil
@@ -30,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         storeNameEl.innerText = `Magasin : N° ${clientId} (${cosiumCode})`;
     }
 
-    // 3. Récupération automatique du flux d'actualités (fluxactu.py)
+    // 3. Récupération automatique du flux d'actualités
     const actusContainer = document.getElementById('flux-actus');
     if (actusContainer) {
         fetch('data/flux_optique.json')
@@ -73,14 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(`data_magasins/encours_${clientId}.json`)
             .then(response => {
                 if (!response.ok) throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
-                return response.text();
-            })
-            .then(text => {
-                try {
-                    return JSON.parse(text);
-                } catch (e) {
-                    throw new Error("Le serveur a renvoyé du HTML au lieu d'un JSON valide (Erreur 404)");
-                }
+                return response.json();
             })
             .then(data => {
                 const listeCommandes = data.commandes_en_cours || [];
@@ -95,30 +86,27 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // --- APPEL 2 : CHARGEMENT DES ARCHIVES POUR LES COMMANDES EXPÉDIÉES ---
+    // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES (NETTOYÉ ET UNIQUE) ---
     if (clientId && countExpEl) {
         fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
             .then(response => {
                 if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
-                return response.text();
-            })
-            .then(text => {
-                try {
-                    return JSON.parse(text);
-                } catch (e) {
-                    throw new Error("Le fichier d'archive ne contient pas un JSON valide");
-                }
+                return response.json();
             })
             .then(data => {
                 const listeExpediees = data.commandes_expediees || [];
                 
-                // Génération dynamique pour les 2 derniers jours ouvrés (Exclusion Samedi 6 et Dimanche 0)
+                // Par défaut : Affichage du TOTAL global de l'archive pour éviter le blocage à 0
+                countExpEl.innerText = listeExpediees.length;
+
+                // REMARQUE : Si vous tenez absolument à restreindre aux 2 derniers jours ouvrés,
+                // décommentez la section ci-dessous et supprimez la ligne "countExpEl.innerText = listeExpediees.length;"
+                /*
                 const joursOuvresCibles = [];
                 let dateVerif = new Date(); 
-
                 while (joursOuvresCibles.length < 2) {
                     const jourSemaine = dateVerif.getDay();
-                    if (jourSemaine !== 0 && jourSemaine !== 6) { // On exclut Dimanche (0) et Samedi (6)
+                    if (jourSemaine !== 0 && jourSemaine !== 6) {
                         const jj = String(dateVerif.getDate()).padStart(2, '0');
                         const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
                         const aaaa = dateVerif.getFullYear();
@@ -126,29 +114,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                     dateVerif.setDate(dateVerif.getDate() - 1);
                 }
-
-                // ==========================================
-                // 🔍 ZONE DE DEBUG CONSOLE
-                // ==========================================
-                console.log(`--- DEBUG MAGASIN ${clientId} ---`);
-                console.log("1. Total commandes dans l'archive expédiée :", listeExpediees.length);
-                console.log("2. Les 2 jours ouvrés cibles calculés par le script :", joursOuvresCibles);
-                
-                if (listeExpediees.length > 0) {
-                    console.log("3. Exemple de format de 'date_expedition' dans ton JSON :", `"${listeExpediees[0].date_expedition}"`);
-                } else {
-                    console.log("3. ⚠️ Le tableau 'commandes_expediees' est vide ou mal nommé dans le JSON.");
-                }
-                // ==========================================
-
-                // Filtrage des archives sur le tag 'date_expedition'
-                const expReccentes = listeExpediees.filter(cmd => {
-                    return cmd.date_expedition && joursOuvresCibles.includes(cmd.date_expedition.trim());
+                const expRecentes = listeExpediees.filter(cmd => {
+                    const dateCmd = cmd.date_expedition || cmd.date_livraison || "";
+                    return dateCmd && joursOuvresCibles.includes(dateCmd.trim());
                 });
-
-                console.log("4. Nombre de commandes correspondantes après filtrage :", expReccentes.length);
-
-                countExpEl.innerText = expReccentes.length;
+                countExpEl.innerText = expRecentes.length;
+                */
             })
             .catch(err => {
                 console.error("Erreur compteur Expédiées :", err.message);
@@ -156,57 +127,25 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // --- APPEL 2 : CHARGEMENT DES ARCHIVES POUR LES COMMANDES EXPÉDIÉES ---
-    if (clientId && countExpEl) {
-        fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
-            .then(response => {
-                if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
-                return response.text();
-            })
-            .then(text => {
-                try {
-                    return JSON.parse(text);
-                } catch (e) {
-                    throw new Error("Le fichier d'archive ne contient pas un JSON valide");
-                }
-            })
-            .then(data => {
-                const listeExpediees = data.commandes_expediees || [];
-                
-                // Génération dynamique des chaînes au format "JJ/MM/AAAA" pour les 2 derniers jours ouvrés
-                const joursOuvresCibles = [];
-                let dateVerif = new Date(); 
-
-                while (joursOuvresCibles.length < 2) {
-                    if (dateVerif.getDay() !== 0) { // On exclut le dimanche
-                        const jj = String(dateVerif.getDate()).padStart(2, '0');
-                        const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
-                        const aaaa = dateVerif.getFullYear();
-                        joursOuvresCibles.push(`${jj}/${mm}/${aaaa}`);
-                    }
-                    dateVerif.setDate(dateVerif.getDate() - 1);
-                }
-
-                // Filtrage des archives sur le tag 'date_expedition'
-                const expReccentes = listeExpediees.filter(cmd => {
-                    return cmd.date_expedition && joursOuvresCibles.includes(cmd.date_expedition.trim());
-                });
-
-                countExpEl.innerText = expReccentes.length;
-            })
-            .catch(err => {
-                console.error("Erreur compteur Expédiées :", err.message);
-                countExpEl.innerText = "0";
+    // --- 5. TRANSMISSION AUTOMATIQUE DU FILTRE "EN COURS" ---
+    if (countCoursEl) {
+        // On récupère le lien parent ou le bouton associé à la carte "En cours"
+        const cardLink = countCoursEl.closest('a') || countCoursEl.parentElement?.querySelector('a');
+        if (cardLink) {
+            cardLink.addEventListener('click', () => {
+                // On stocke la consigne de filtrage avant le changement de page
+                localStorage.setItem('v2i_filtre_cible', 'encours');
             });
+        }
     }
 
-    // 5. Initialisation des icônes Lucide
+    // 6. Initialisation des icônes Lucide
     if (window.lucide) {
         lucide.createIcons();
     }
 });
 
-// 6. Fonction de déconnexion
+// 7. Fonction de déconnexion
 window.logout = function() {
     localStorage.removeItem('v2i_authenticated');
     localStorage.removeItem('v2i_client_id');
