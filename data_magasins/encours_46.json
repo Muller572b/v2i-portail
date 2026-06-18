@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "18/06/2026 11:36",
+  "derniere_mise_a_jour": "18/06/2026 11:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163230",
@@ -421,6 +421,58 @@
       }
     },
     {
+      "ord_numb": "            10163244",
+      "id_commande_v2i": "260618000020",
+      "code_cote": "B",
+      "patient": "CARLETTI",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 11:40",
+      "detail": "Réf: CARLETTI — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 18/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "3.75",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163229",
       "id_commande_v2i": "260618000005",
       "code_cote": "B",
@@ -477,58 +529,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163244",
-      "id_commande_v2i": "260618000020",
-      "code_cote": "B",
-      "patient": "CARLETTI",
-      "job_cosium": "",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 09:52",
-      "detail": "Réf: CARLETTI — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "3.75",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "3.50",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -1697,6 +1697,60 @@
       }
     },
     {
+      "ord_numb": "            10163147",
+      "id_commande_v2i": "260617000158",
+      "code_cote": "B",
+      "patient": "ALVES GAEL",
+      "job_cosium": "J152045298-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 11:38",
+      "detail": "Réf: ALVES GAEL / J152045298-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163148",
       "id_commande_v2i": "260617000159",
       "code_cote": "B",
@@ -1951,60 +2005,6 @@
         ]
       },
       "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10163147",
-      "id_commande_v2i": "260617000158",
-      "code_cote": "B",
-      "patient": "ALVES GAEL",
-      "job_cosium": "J152045298-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 10:53",
-      "detail": "Réf: ALVES GAEL / J152045298-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      }
     },
     {
       "ord_numb": "            10162925",
