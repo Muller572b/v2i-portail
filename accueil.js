@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES (NETTOYÉ ET UNIQUE) ---
+    // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES (FILTRÉ SUR LES 2 DERNIERS JOURS OUVRÉS RÉGULIERS) ---
     if (clientId && countExpEl) {
         fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
             .then(response => {
@@ -96,17 +96,16 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(data => {
                 const listeExpediees = data.commandes_expediees || [];
                 
-                // Par défaut : Affichage du TOTAL global de l'archive pour éviter le blocage à 0
-                countExpEl.innerText = listeExpediees.length;
-
-                // REMARQUE : Si vous tenez absolument à restreindre aux 2 derniers jours ouvrés,
-                // décommentez la section ci-dessous et supprimez la ligne "countExpEl.innerText = listeExpediees.length;"
-                /*
                 const joursOuvresCibles = [];
                 let dateVerif = new Date(); 
+                
+                // CORRECTION : On recule d'un jour immédiatement pour exclure aujourd'hui (le 18)
+                dateVerif.setDate(dateVerif.getDate() - 1);
+
+                // Recherche des 2 derniers jours ouvrés passés
                 while (joursOuvresCibles.length < 2) {
                     const jourSemaine = dateVerif.getDay();
-                    if (jourSemaine !== 0 && jourSemaine !== 6) {
+                    if (jourSemaine !== 0 && jourSemaine !== 6) { // Exclure Dimanche (0) et Samedi (6)
                         const jj = String(dateVerif.getDate()).padStart(2, '0');
                         const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
                         const aaaa = dateVerif.getFullYear();
@@ -114,12 +113,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                     dateVerif.setDate(dateVerif.getDate() - 1);
                 }
+
+                // Filtrage des commandes correspondant aux deux dates cibles calculées (ex: 17/06 et 16/06)
                 const expRecentes = listeExpediees.filter(cmd => {
                     const dateCmd = cmd.date_expedition || cmd.date_livraison || "";
                     return dateCmd && joursOuvresCibles.includes(dateCmd.trim());
                 });
+
                 countExpEl.innerText = expRecentes.length;
-                */
             })
             .catch(err => {
                 console.error("Erreur compteur Expédiées :", err.message);
@@ -129,11 +130,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 5. TRANSMISSION AUTOMATIQUE DU FILTRE "EN COURS" ---
     if (countCoursEl) {
-        // On récupère le lien parent ou le bouton associé à la carte "En cours"
         const cardLink = countCoursEl.closest('a') || countCoursEl.parentElement?.querySelector('a');
         if (cardLink) {
             cardLink.addEventListener('click', () => {
-                // On stocke la consigne de filtrage avant le changement de page
                 localStorage.setItem('v2i_filtre_cible', 'encours');
             });
         }
