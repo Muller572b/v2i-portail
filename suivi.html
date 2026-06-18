@@ -40,11 +40,25 @@
             </div>
         </header>
 
-        <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm mb-6 flex flex-wrap gap-4 items-center">
+        <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm mb-6 flex flex-wrap gap-4 items-center justify-between">
+            
             <div class="flex-1 min-w-[250px] relative">
                 <i data-lucide="search" class="absolute left-3 top-3 w-5 h-5 text-gray-400"></i>
                 <input type="text" id="search-verres" placeholder="Rechercher patient, N° BL, Job..." class="w-full pl-10 pr-4 py-2.5 bg-[#f5f5f7] border-transparent rounded-xl focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc] outline-none transition-all text-sm font-medium placeholder-gray-400">
             </div>
+
+            <div class="flex bg-[#f5f5f7] p-1 rounded-xl border border-[#e8e8ed] select-none shadow-inner">
+                <button id="btn-filter-all" onclick="setFilterType('tous')" class="px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg bg-white text-[#0066cc] shadow-sm transition-all duration-200 cursor-pointer">
+                    Tous
+                </button>
+                <button id="btn-filter-cours" onclick="setFilterType('cours')" class="px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg text-[#86868b] hover:text-[#1d1d1f] transition-all duration-200 cursor-pointer">
+                    En cours
+                </button>
+                <button id="btn-filter-expedie" onclick="setFilterType('expedie')" class="px-4 py-2 text-xs font-bold uppercase tracking-wider rounded-lg text-[#86868b] hover:text-[#1d1d1f] transition-all duration-200 cursor-pointer">
+                    Expédiée
+                </button>
+            </div>
+
             <div class="flex items-center gap-2">
                 <span class="text-sm font-semibold text-[#86868b]">Du</span>
                 <input type="date" id="date-debut" class="py-2 px-3 bg-[#f5f5f7] rounded-xl text-sm font-mono outline-none focus:ring-1 focus:ring-[#0066cc]">
@@ -90,7 +104,23 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+
+            <div class="px-6 py-4 bg-[#f5f5f7]/50 border-t border-[#e8e8ed] flex items-center justify-between select-none">
+                <div class="text-sm text-[#86868b] font-medium">
+                    Affichage de <span id="pagination-start" class="font-semibold text-[#1d1d1f]">0</span> à <span id="pagination-end" class="font-semibold text-[#1d1d1f]">0</span> sur <span id="pagination-total" class="font-semibold text-[#1d1d1f]">0</span> commandes
+                </div>
+                <div class="flex items-center gap-2">
+                    <button id="btn-prev-page" onclick="changePage(-1)" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] disabled:opacity-40 disabled:hover:bg-white rounded-xl transition-colors border border-[#e8e8ed] cursor-pointer flex items-center justify-center">
+                        <i data-lucide="chevron-left" class="w-4 h-4"></i>
+                    </button>
+                    <div id="pagination-numbers" class="flex items-center gap-1">
+                        </div>
+                    <button id="btn-next-page" onclick="changePage(1)" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] disabled:opacity-40 disabled:hover:bg-white rounded-xl transition-colors border border-[#e8e8ed] cursor-pointer flex items-center justify-center">
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+            </div>
     </main>
 
     <div id="side-panel" class="hidden fixed inset-y-0 right-0 w-96 bg-white shadow-2xl border-l border-[#e8e8ed] flex flex-col z-50 transform transition-transform duration-300">
