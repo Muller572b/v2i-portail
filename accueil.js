@@ -73,11 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch(`data_magasins/encours_${clientId}.json`)
             .then(response => {
                 if (!response.ok) throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
-                return response.text(); // On lit sous forme de texte pour intercepter le HTML intrusif
+                return response.text();
             })
             .then(text => {
                 try {
-                    return JSON.parse(text); // Parsing manuel sécurisé
+                    return JSON.parse(text);
                 } catch (e) {
                     throw new Error("Le serveur a renvoyé du HTML au lieu d'un JSON valide (Erreur 404)");
                 }
@@ -91,7 +91,68 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(err => {
                 console.error("Erreur compteur En Cours :", err.message);
-                countCoursEl.innerText = "0"; // Repli sécurisé pour l'utilisateur
+                countCoursEl.innerText = "0";
+            });
+    }
+
+    // --- APPEL 2 : CHARGEMENT DES ARCHIVES POUR LES COMMANDES EXPÉDIÉES ---
+    if (clientId && countExpEl) {
+        fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
+            .then(response => {
+                if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    return JSON.parse(text);
+                } catch (e) {
+                    throw new Error("Le fichier d'archive ne contient pas un JSON valide");
+                }
+            })
+            .then(data => {
+                const listeExpediees = data.commandes_expediees || [];
+                
+                // Génération dynamique pour les 2 derniers jours ouvrés (Exclusion Samedi 6 et Dimanche 0)
+                const joursOuvresCibles = [];
+                let dateVerif = new Date(); 
+
+                while (joursOuvresCibles.length < 2) {
+                    const jourSemaine = dateVerif.getDay();
+                    if (jourSemaine !== 0 && jourSemaine !== 6) { // On exclut Dimanche (0) et Samedi (6)
+                        const jj = String(dateVerif.getDate()).padStart(2, '0');
+                        const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
+                        const aaaa = dateVerif.getFullYear();
+                        joursOuvresCibles.push(`${jj}/${mm}/${aaaa}`);
+                    }
+                    dateVerif.setDate(dateVerif.getDate() - 1);
+                }
+
+                // ==========================================
+                // 🔍 ZONE DE DEBUG CONSOLE
+                // ==========================================
+                console.log(`--- DEBUG MAGASIN ${clientId} ---`);
+                console.log("1. Total commandes dans l'archive expédiée :", listeExpediees.length);
+                console.log("2. Les 2 jours ouvrés cibles calculés par le script :", joursOuvresCibles);
+                
+                if (listeExpediees.length > 0) {
+                    console.log("3. Exemple de format de 'date_expedition' dans ton JSON :", `"${listeExpediees[0].date_expedition}"`);
+                } else {
+                    console.log("3. ⚠️ Le tableau 'commandes_expediees' est vide ou mal nommé dans le JSON.");
+                }
+                // ==========================================
+
+                // Filtrage des archives sur le tag 'date_expedition'
+                const expReccentes = listeExpediees.filter(cmd => {
+                    return cmd.date_expedition && joursOuvresCibles.includes(cmd.date_expedition.trim());
+                });
+
+                console.log("4. Nombre de commandes correspondantes après filtrage :", expReccentes.length);
+
+                countExpEl.innerText = expReccentes.length;
+            })
+            .catch(err => {
+                console.error("Erreur compteur Expédiées :", err.message);
+                countExpEl.innerText = "0";
             });
     }
 
