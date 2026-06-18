@@ -1,4 +1,4 @@
-// --- ACCUEIL.JS CORRIGÉ ---
+// --- ACCUEIL.JS CORRIGÉ (AVEC FILTRES EN COURS / EXPÉDIÉES) ---
 
 // Rendu global pour éviter l'erreur "LISTE_MAGASINS is not defined" dans suivi.js
 window.LISTE_MAGASINS = {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES (FILTRÉ SUR LES 2 DERNIERS JOURS OUVRÉS RÉGULIERS) ---
+    // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES ---
     if (clientId && countExpEl) {
         fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
             .then(response => {
@@ -99,13 +99,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const joursOuvresCibles = [];
                 let dateVerif = new Date(); 
                 
-                // CORRECTION : On recule d'un jour immédiatement pour exclure aujourd'hui (le 18)
                 dateVerif.setDate(dateVerif.getDate() - 1);
 
-                // Recherche des 2 derniers jours ouvrés passés
                 while (joursOuvresCibles.length < 2) {
                     const jourSemaine = dateVerif.getDay();
-                    if (jourSemaine !== 0 && jourSemaine !== 6) { // Exclure Dimanche (0) et Samedi (6)
+                    if (jourSemaine !== 0 && jourSemaine !== 6) {
                         const jj = String(dateVerif.getDate()).padStart(2, '0');
                         const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
                         const aaaa = dateVerif.getFullYear();
@@ -114,7 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     dateVerif.setDate(dateVerif.getDate() - 1);
                 }
 
-                // Filtrage des commandes correspondant aux deux dates cibles calculées (ex: 17/06 et 16/06)
                 const expRecentes = listeExpediees.filter(cmd => {
                     const dateCmd = cmd.date_expedition || cmd.date_livraison || "";
                     return dateCmd && joursOuvresCibles.includes(dateCmd.trim());
@@ -128,12 +125,23 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // --- 5. TRANSMISSION AUTOMATIQUE DU FILTRE "EN COURS" ---
+    // --- 5. TRANSMISSION AUTOMATIQUE DES FILTRES ---
+    // Pour les commandes En Cours
     if (countCoursEl) {
-        const cardLink = countCoursEl.closest('a') || countCoursEl.parentElement?.querySelector('a');
-        if (cardLink) {
-            cardLink.addEventListener('click', () => {
+        const cardLinkCours = countCoursEl.closest('a') || countCoursEl.parentElement?.querySelector('a');
+        if (cardLinkCours) {
+            cardLinkCours.addEventListener('click', () => {
                 localStorage.setItem('v2i_filtre_cible', 'encours');
+            });
+        }
+    }
+
+    // Pour les commandes Expédiées
+    if (countExpEl) {
+        const cardLinkExp = countExpEl.closest('a') || countExpEl.parentElement?.querySelector('a');
+        if (cardLinkExp) {
+            cardLinkExp.addEventListener('click', () => {
+                localStorage.setItem('v2i_filtre_cible', 'expediees');
             });
         }
     }
