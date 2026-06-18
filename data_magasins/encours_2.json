@@ -10,8 +10,70 @@
     "email": "a36@balbi.fr",
     "mot_de_passe_portail": "a36"
   },
-  "derniere_mise_a_jour": "18/06/2026 10:10",
+  "derniere_mise_a_jour": "18/06/2026 10:25",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163253",
+      "id_commande_v2i": "260618000029",
+      "code_cote": "B",
+      "patient": "FRANCESCHI MARIE FRANCOISE",
+      "job_cosium": "J123013567",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 10:13",
+      "detail": "Réf: FRANCESCHI MARIE FRANCOISE / J123013567 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.75",
+        "cylindre": "2.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre2 1.6 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.25",
+        "cylindre": "2.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre2 1.6 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163065",
       "id_commande_v2i": "260617000076",
