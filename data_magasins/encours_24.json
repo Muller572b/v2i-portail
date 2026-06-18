@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "18/06/2026 09:25",
+  "derniere_mise_a_jour": "18/06/2026 09:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10162990",
@@ -353,42 +353,6 @@
           "Optimisé"
         ]
       }
-    },
-    {
-      "ord_numb": "            10162872",
-      "id_commande_v2i": "260616000113",
-      "code_cote": "R",
-      "patient": "BELLEC AYMERIC",
-      "job_cosium": "",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 14:52",
-      "detail": "Réf: BELLEC AYMERIC — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.50",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Unitek2 1.67 Xblue Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10162930",
@@ -873,6 +837,42 @@
           "Optimisé"
         ]
       }
+    },
+    {
+      "ord_numb": "            10162872",
+      "id_commande_v2i": "260616000113",
+      "code_cote": "R",
+      "patient": "BELLEC AYMERIC",
+      "job_cosium": "",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "18/06/2026 09:27",
+      "detail": "Réf: BELLEC AYMERIC — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.50",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Unitek2 1.67 Xblue Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10162550",
