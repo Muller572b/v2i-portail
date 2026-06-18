@@ -7,8 +7,8 @@
 // --- CONFIGURATION CONSTANTE GITHUB ---
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
 
-// --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
-const LISTE_MAGASINS = {
+// --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM (Sécurisé contre les doubles déclarations) ---
+window.LISTE_MAGASINS = window.LISTE_MAGASINS || {
     "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
     "9": "A40", "10": "BAA", "11": "BOR", "12": "AOS", "16": "BFO", "18": "ILE", "22": "O2C",
     "23": "COR", "24": "PAA", "25": "PLU", "28": "BOB", "29": "ROC", "31": "LAR",       
@@ -23,7 +23,7 @@ let currentStoreId = localStorage.getItem('v2i_client_id') || null;
 let currentCosiumCode = localStorage.getItem('v2i_cosium_code') || null;
 
 if (!currentCosiumCode || currentCosiumCode === 'null' || currentCosiumCode.trim() === '') {
-    currentCosiumCode = LISTE_MAGASINS[currentStoreId] || '00';
+    currentCosiumCode = window.LISTE_MAGASINS[currentStoreId] || '00';
 }
 
 let storeEncours = [];
@@ -32,12 +32,12 @@ let autoArchivesIncluded = false;
 let loadedYears = []; 
 let isLoadingArchives = false; 
 let searchTimeout = null;
-let currentFilterType = 'tous'; // Type de filtrage actif : 'tous', 'cours', ou 'expedie'
+let currentFilterType = 'tous'; // Type de filtrage actif par défaut : 'tous', 'cours', ou 'expedie'
 
 // --- CONFIGURATION DE LA PAGINATION ---
 let currentPage = 1;
 let totalPages = 1;
-const itemsPerPage = 15; // Nombre de commandes affichées par page
+const itemsPerPage = 15; 
 
 // --- CONFIGURATION DU TRI DYNAMIQUE ---
 let currentSort = {
@@ -65,33 +65,54 @@ if (checkSession()) {
     document.addEventListener('DOMContentLoaded', () => {
         if (!checkSession()) return;
 
+        // --- HARMONISATION ET CAPTURE DU FILTRE DE L'ACCUEIL ---
+        const filtreCible = localStorage.getItem('v2i_filtre_cible');
+        if (filtreCible === 'encours') {
+            currentFilterType = 'cours';
+        } else if (filtreCible === 'expediees') {
+            currentFilterType = 'expedie';
+        }
+        // Nettoyage immédiat pour éviter la rémanence au rafraîchissement
+        localStorage.removeItem('v2i_filtre_cible');
+
         const storeBadge = document.getElementById('store-badge');
         if (storeBadge) {
             const cosiumText = (currentCosiumCode && currentCosiumCode !== 'null') ? ` (${currentCosiumCode})` : '';
             storeBadge.innerText = `Magasin : N° ${currentStoreId}${cosiumText}`;
         }
 
-        loadStoreEncours();
-        window.addEventListener('scroll', handleScrollLoad);
+        // Configuration des événements et chargements initiaux
         setupFilters();
+        loadStoreEncours();
+        
+        // Force l'application visuelle et technique du filtre récupéré
+        setFilterType(currentFilterType, true);
+
+        window.addEventListener('scroll', handleScrollLoad);
     });
 }
 
 /**
- * Configure les écouteurs sur les entrées de filtres, recherche et pagination
+ * Configure les écouteurs sur les entrées de filtres, recherche, boutons et pagination
  */
 function setupFilters() {
     const searchInput = document.getElementById('search-verres');
-    if (searchInput) {
-        searchInput.addEventListener('input', handleSearchInput);
-    }
+    if (searchInput) searchInput.addEventListener('input', handleSearchInput);
 
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
     if (dateDebutInput) dateDebutInput.addEventListener('change', handleDateBoundsChange);
     if (dateFinInput) dateFinInput.addEventListener('change', handleDateBoundsChange);
 
-    // Liaison programmatique des contrôles de la pagination pour fiabiliser le cycle de vie du DOM
+    // Liaisons des boutons de filtrage d'état (Évite les pannes d'attributs HTML onclick)
+    const btnAll = document.getElementById('btn-filter-all');
+    const btnCours = document.getElementById('btn-filter-cours');
+    const btnExpedie = document.getElementById('btn-filter-expedie');
+    if (btnAll) btnAll.addEventListener('click', () => setFilterType('tous'));
+    if (btnCours) btnCours.addEventListener('click', () => setFilterType('cours'));
+    if (btnExpedie) btnExpedie.addEventListener('click', () => setFilterType('expedie'));
+
+    // Contrôles de la pagination
     const btnPrev = document.getElementById('btn-prev');
     const btnNext = document.getElementById('btn-next');
     if (btnPrev) btnPrev.addEventListener('click', prevPage);
@@ -99,12 +120,12 @@ function setupFilters() {
 }
 
 /**
- * Gère la sélection exclusive et les styles visuels des trois boutons de filtres d'état
+ * Gère la sélection exclusive, l'application et les styles visuels des trois boutons de filtres d'état
  */
-function setFilterType(type) {
-    if (currentFilterType === type) return;
+function setFilterType(type, forceRefresh = false) {
+    if (currentFilterType === type && !forceRefresh) return;
     currentFilterType = type;
-    currentPage = 1; // RàZ pagination lors du changement de filtre
+    currentPage = 1; 
 
     const btnAll = document.getElementById('btn-filter-all');
     const btnCours = document.getElementById('btn-filter-cours');
@@ -118,7 +139,7 @@ function setFilterType(type) {
         if (btn) btn.classList.remove(...activeClasses, ...inactiveClasses);
     });
 
-    // Application conditionnelle des styles d'activation exclusive
+    // Application conditionnelle des styles Apple-like
     if (type === 'tous' && btnAll) {
         btnAll.classList.add(...activeClasses);
         if (btnCours) btnCours.classList.add(...inactiveClasses);
@@ -133,7 +154,7 @@ function setFilterType(type) {
         if (btnCours) btnCours.classList.add(...inactiveClasses);
     }
 
-    // UX préventive : Si filtrage sur Archives et vide, charger automatiquement l'année en cours
+    // Si filtrage ciblé sur Archives et vide, charger automatiquement l'année en cours
     if (type === 'expedie' && storeArchives.length === 0 && !isLoadingArchives) {
         isLoadingArchives = true;
         renderVerres();
@@ -246,7 +267,7 @@ async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
     
-    currentPage = 1; // RàZ pagination lors du changement de période
+    currentPage = 1; 
 
     if (!dateDebutInput || !dateDebutInput.value) {
         renderVerres();
@@ -320,7 +341,7 @@ function handleSearchInput() {
         const searchInput = document.getElementById('search-verres');
         const searchValue = searchInput ? searchInput.value.trim() : '';
         
-        currentPage = 1; // RàZ pagination lors d'une nouvelle recherche
+        currentPage = 1; 
 
         if (searchValue.length >= 3) {
             const currentYear = new Date().getFullYear();
@@ -355,12 +376,12 @@ function handleSort(colKey) {
         currentSort.key = colKey;
         currentSort.asc = (colKey === 'date' || colKey === 'livraison') ? false : true;
     }
-    currentPage = 1; // RàZ pagination lors du tri
+    currentPage = 1; 
     renderVerres();
 }
 
 /**
- * Met à jour les éléments de l'interface graphique de la pagination (Texte + Boutons)
+ * Met à jour les éléments de l'interface graphique de la pagination
  */
 function updatePaginationUI(totalItems) {
     const pageInfo = document.getElementById('page-info'); 
@@ -371,7 +392,6 @@ function updatePaginationUI(totalItems) {
         pageInfo.innerText = `Page ${currentPage} sur ${totalPages} (${totalItems} commande${totalItems > 1 ? 's' : ''})`;
     }
 
-    // Gestion de l'état visuel et technique du bouton Précédent
     if (btnPrev) {
         if (currentPage === 1) {
             btnPrev.disabled = true;
@@ -382,7 +402,6 @@ function updatePaginationUI(totalItems) {
         }
     }
 
-    // Gestion de l'état visuel et technique du bouton Suivant
     if (btnNext) {
         if (currentPage === totalPages) {
             btnNext.disabled = true;
@@ -394,9 +413,6 @@ function updatePaginationUI(totalItems) {
     }
 }
 
-/**
- * Fonctions de navigation globale pour la pagination
- */
 function nextPage() {
     if (currentPage < totalPages) {
         currentPage++;
@@ -404,9 +420,6 @@ function nextPage() {
     }
 }
 
-/**
- * Fonctions de navigation globale pour la pagination
- */
 function prevPage() {
     if (currentPage > 1) {
         currentPage--;
@@ -448,14 +461,12 @@ function renderVerres() {
 
     let donneesAAfficher = [];
 
-    // Inclusion conditionnelle de data_magasin (Encours)
     if (currentFilterType === 'tous' || currentFilterType === 'cours') {
         dataEncours.forEach(item => {
             if (item) donneesAAfficher.push({ ...item, isArchive: false });
         });
     }
 
-    // Inclusion conditionnelle de data_archives (Expédiée)
     if (currentFilterType === 'tous' || currentFilterType === 'expedie') {
         const inclureArchives = currentFilterType === 'expedie' || archivesIncluses || dateDebutFilter !== null || dateFinFilter !== null;
         if (inclureArchives) {
@@ -465,7 +476,6 @@ function renderVerres() {
         }
     }
 
-    // Dédoublonnement intelligent
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -478,7 +488,6 @@ function renderVerres() {
     });
     donneesAAfficher = Array.from(uniquesMap.values());
 
-    // 1. Filtrage multicritère (Recherche textuelle + Bornes temporelles)
     let donneesFiltrees = donneesAAfficher.filter(v => {
         if (!v) return false;
         const idCommande = String(v.id_commande_v2i || v.ord_numb || v.id_bl_v2i || '').trim();
@@ -505,7 +514,6 @@ function renderVerres() {
         return true;
     });
 
-    // 2. Tri Algorithmique Dynamique
     donneesFiltrees.sort((a, b) => {
         let valA, valB;
 
@@ -540,7 +548,6 @@ function renderVerres() {
         return 0;
     });
 
-    // --- CALCULS ET SÉCURITÉS DE PAGINATION ---
     const totalItems = donneesFiltrees.length;
     totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
     
@@ -557,7 +564,6 @@ function renderVerres() {
         return;
     }
 
-    // Sélection de la tranche de données de la page active
     const startIndex = (currentPage - 1) * itemsPerPage;
     const auMaximum = donneesFiltrees.slice(startIndex, startIndex + itemsPerPage);
     let rowsHtml = [];
@@ -592,7 +598,7 @@ function renderVerres() {
         const estExpedie = statutClean.includes('expédi') || statutClean.includes('expedi');
         
         const dateCommande = parseDate(v.date_entree);
-        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026
+        const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); 
 
         const afficherDocs = estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
@@ -650,11 +656,27 @@ function renderVerres() {
     tbody.innerHTML = rowsHtml.join('');
     if (window.lucide) lucide.createIcons();
     
-    // Rendu graphique de l'état de la pagination
     updatePaginationUI(totalItems);
 }
 
 /**
  * Remplit et déploie le volet technique latéral pour une commande sélectionnée
  */
-function open
+function openSidePanel(idCommande) {
+    console.log("Ouverture du panneau technique pour le BL :", idCommande);
+    const panel = document.getElementById('side-panel');
+    if (panel) {
+        panel.classList.remove('translate-x-full');
+        // Optionnel : Ajoutez ici votre logique d'affichage interne du panneau si nécessaire.
+    }
+}
+
+/**
+ * Ferme le volet technique latéral
+ */
+function closeSidePanel() {
+    const panel = document.getElementById('side-panel');
+    if (panel) {
+        panel.classList.add('translate-x-full');
+    }
+}
