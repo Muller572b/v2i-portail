@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "18/06/2026 17:24",
+  "derniere_mise_a_jour": "18/06/2026 17:39",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163229",
@@ -853,62 +853,6 @@
       }
     },
     {
-      "ord_numb": "            10163127",
-      "id_commande_v2i": "260617000138",
-      "code_cote": "B",
-      "patient": "SIMEONI BIRGIT",
-      "job_cosium": "J152045291-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 14:56",
-      "detail": "Réf: SIMEONI BIRGIT / J152045291-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Tchin Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Tchin Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163038",
       "id_commande_v2i": "260617000049",
       "code_cote": "B",
@@ -1489,6 +1433,62 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163127",
+      "id_commande_v2i": "260617000138",
+      "code_cote": "B",
+      "patient": "SIMEONI BIRGIT",
+      "job_cosium": "J152045291-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 17:25",
+      "detail": "Réf: SIMEONI BIRGIT / J152045291-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Tchin Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Tchin Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
