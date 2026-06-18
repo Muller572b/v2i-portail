@@ -10,8 +10,60 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "18/06/2026 16:54",
+  "derniere_mise_a_jour": "18/06/2026 17:09",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163329",
+      "id_commande_v2i": "260618000105",
+      "code_cote": "B",
+      "patient": "VENTRON NICOLE",
+      "job_cosium": "J162005217",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 17:07",
+      "detail": "Réf: VENTRON NICOLE / J162005217 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163268",
       "id_commande_v2i": "260618000044",
@@ -65,58 +117,6 @@
           "AS Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163329",
-      "id_commande_v2i": "260618000105",
-      "code_cote": "B",
-      "patient": "VENTRON NICOLE",
-      "job_cosium": "J162005217",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 14:43",
-      "detail": "Réf: VENTRON NICOLE / J162005217 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
         ]
       }
     },
