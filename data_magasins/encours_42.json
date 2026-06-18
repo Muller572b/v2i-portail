@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "18/06/2026 09:40",
+  "derniere_mise_a_jour": "18/06/2026 09:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163007",
@@ -295,55 +295,16 @@
       }
     },
     {
-      "ord_numb": "            10163140",
-      "id_commande_v2i": "260617000151",
-      "code_cote": "L",
-      "patient": "GUIGNET MIREILLE",
-      "job_cosium": "J148017971",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 17:44",
-      "detail": "Réf: GUIGNET MIREILLE / J148017971 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 25,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "32.5",
-        "supplements": [
-          "Affiny Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163186",
       "id_commande_v2i": "260617000197",
       "code_cote": "B",
       "patient": "SANTELLI LISA-MARIE",
       "job_cosium": "J148017973-02",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 19:14",
-      "detail": "Réf: SANTELLI LISA-MARIE / J148017973-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "18/06/2026 09:50",
+      "detail": "Réf: SANTELLI LISA-MARIE / J148017973-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -392,10 +353,10 @@
       "patient": "SANTELLI LISA-MARIE",
       "job_cosium": "J148017973-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 19:15",
-      "detail": "Réf: SANTELLI LISA-MARIE / J148017973-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "18/06/2026 09:50",
+      "detail": "Réf: SANTELLI LISA-MARIE / J148017973-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -434,6 +395,45 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.6 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163140",
+      "id_commande_v2i": "260617000151",
+      "code_cote": "L",
+      "patient": "GUIGNET MIREILLE",
+      "job_cosium": "J148017971",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 17:44",
+      "detail": "Réf: GUIGNET MIREILLE / J148017971 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 25,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "32.5",
+        "supplements": [
+          "Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
