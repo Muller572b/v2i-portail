@@ -10,8 +10,188 @@
     "email": "a36@balbi.fr",
     "mot_de_passe_portail": "a36"
   },
-  "derniere_mise_a_jour": "15/06/2026 21:05",
+  "derniere_mise_a_jour": "18/06/2026 11:55",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163253",
+      "id_commande_v2i": "260618000029",
+      "code_cote": "B",
+      "patient": "FRANCESCHI MARIE FRANCOISE",
+      "job_cosium": "J123013567",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 10:13",
+      "detail": "Réf: FRANCESCHI MARIE FRANCOISE / J123013567 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.75",
+        "cylindre": "2.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre2 1.6 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.25",
+        "cylindre": "2.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre2 1.6 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163287",
+      "id_commande_v2i": "260618000063",
+      "code_cote": "B",
+      "patient": "PIETRI PIERRE",
+      "job_cosium": "J123013568",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 11:44",
+      "detail": "Réf: PIETRI PIERRE / J123013568 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.50",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.25",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163065",
+      "id_commande_v2i": "260617000076",
+      "code_cote": "B",
+      "patient": "LUNDH KAROLINA",
+      "job_cosium": "J123013565",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 15:04",
+      "detail": "Réf: LUNDH KAROLINA / J123013565 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162567",
       "id_commande_v2i": "260615000035",
@@ -19,6 +199,7 @@
       "patient": "MARTINS NATHALIE",
       "job_cosium": "J123013558",
       "date_entree": "15/06/2026",
+      "date_dernier_statut": "15/06/2026 15:07",
       "detail": "Réf: MARTINS NATHALIE / J123013558 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
@@ -66,43 +247,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10162701",
-      "id_commande_v2i": "260615000169",
-      "code_cote": "R",
-      "patient": "COMITI GINETTE",
-      "job_cosium": "J123013560",
-      "date_entree": "15/06/2026",
-      "detail": "Réf: COMITI GINETTE / J123013560 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 18/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 135,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Equilibre2 1.5 Foto Brun Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": null
     }
   ]
 }
