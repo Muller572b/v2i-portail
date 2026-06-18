@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "18/06/2026 14:06",
+  "derniere_mise_a_jour": "18/06/2026 14:10",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163229",
@@ -423,6 +423,64 @@
       }
     },
     {
+      "ord_numb": "            10163235",
+      "id_commande_v2i": "260618000011",
+      "code_cote": "B",
+      "patient": "CARLETTI",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 14:07",
+      "detail": "Réf: CARLETTI — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "35.0",
+        "supplements": [
+          "Affiny Lecture2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "35.0",
+        "supplements": [
+          "Affiny Lecture2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163244",
       "id_commande_v2i": "260618000020",
       "code_cote": "B",
@@ -471,64 +529,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163235",
-      "id_commande_v2i": "260618000011",
-      "code_cote": "B",
-      "patient": "CARLETTI",
-      "job_cosium": "",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 12:10",
-      "detail": "Réf: CARLETTI — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "35.0",
-        "supplements": [
-          "Affiny Lecture2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "35.0",
-        "supplements": [
-          "Affiny Lecture2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -1687,6 +1687,114 @@
       }
     },
     {
+      "ord_numb": "            10163032",
+      "id_commande_v2i": "260617000043",
+      "code_cote": "B",
+      "patient": "VOLPI--CARDONNA LEO",
+      "job_cosium": "J152045276-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 14:06",
+      "detail": "Réf: VOLPI--CARDONNA LEO / J152045276-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163033",
+      "id_commande_v2i": "260617000044",
+      "code_cote": "B",
+      "patient": "SIMONI JEROME",
+      "job_cosium": "J152045272",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 14:07",
+      "detail": "Réf: SIMONI JEROME / J152045272 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163036",
       "id_commande_v2i": "260617000047",
       "code_cote": "B",
@@ -2075,124 +2183,16 @@
       }
     },
     {
-      "ord_numb": "            10163032",
-      "id_commande_v2i": "260617000043",
-      "code_cote": "B",
-      "patient": "VOLPI--CARDONNA LEO",
-      "job_cosium": "J152045276-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 11:48",
-      "detail": "Réf: VOLPI--CARDONNA LEO / J152045276-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163033",
-      "id_commande_v2i": "260617000044",
-      "code_cote": "B",
-      "patient": "SIMONI JEROME",
-      "job_cosium": "J152045272",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 11:48",
-      "detail": "Réf: SIMONI JEROME / J152045272 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163149",
       "id_commande_v2i": "260617000160",
       "code_cote": "B",
       "patient": "ALVES GAEL",
       "job_cosium": "J152045298-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 11:48",
-      "detail": "Réf: ALVES GAEL / J152045298-01 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "18/06/2026 14:07",
+      "detail": "Réf: ALVES GAEL / J152045298-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
