@@ -101,10 +101,26 @@
                         </tr>
                     </thead>
                     <tbody id="verres-table-body" class="divide-y divide-[#e8e8ed]">
-                        </tbody>
+                    </tbody>
                 </table>
             </div>
-        </div>
+
+            <div class="px-6 py-4 bg-[#f5f5f7]/50 border-t border-[#e8e8ed] flex items-center justify-between select-none">
+                <div class="text-sm text-[#86868b] font-medium">
+                    Affichage de <span id="pagination-start" class="font-semibold text-[#1d1d1f]">0</span> à <span id="pagination-end" class="font-semibold text-[#1d1d1f]">0</span> sur <span id="pagination-total" class="font-semibold text-[#1d1d1f]">0</span> commandes
+                </div>
+                <div class="flex items-center gap-2">
+                    <button id="btn-prev-page" onclick="changePage(-1)" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] disabled:opacity-40 disabled:hover:bg-white rounded-xl transition-colors border border-[#e8e8ed] cursor-pointer flex items-center justify-center">
+                        <i data-lucide="chevron-left" class="w-4 h-4"></i>
+                    </button>
+                    <div id="pagination-numbers" class="flex items-center gap-1">
+                        </div>
+                    <button id="btn-next-page" onclick="changePage(1)" class="p-2 bg-white text-[#1d1d1f] hover:bg-[#e8e8ed] disabled:opacity-40 disabled:hover:bg-white rounded-xl transition-colors border border-[#e8e8ed] cursor-pointer flex items-center justify-center">
+                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+            </div>
     </main>
 
     <div id="side-panel" class="hidden fixed inset-y-0 right-0 w-96 bg-white shadow-2xl border-l border-[#e8e8ed] flex flex-col z-50 transform transition-transform duration-300">
