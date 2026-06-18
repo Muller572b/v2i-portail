@@ -1,4 +1,4 @@
-// --- ACCUEIL.JS ---
+// --- ACCUEIL.JS CORRIGÉ (AVEC FILTRES EN COURS / EXPÉDIÉES) ---
 
 // Rendu global pour éviter l'erreur "LISTE_MAGASINS is not defined" dans suivi.js
 window.LISTE_MAGASINS = {
@@ -12,16 +12,14 @@ window.LISTE_MAGASINS = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Vérification de la session (Le Gardien basé sur notre logique verrouillée)
+    // 1. Vérification de la session
     if (localStorage.getItem('v2i_authenticated') !== 'true') {
-        window.location.href = './login.html'; // Sécurisé pour GitHub Pages
+        window.location.href = './login.html'; 
         return;
     }
 
     // 2. Récupération de l'identifiant du magasin connecté
     const clientId = localStorage.getItem('v2i_client_id');
-
-    // On récupère le code Cosium associé depuis l'objet global
     const cosiumCode = window.LISTE_MAGASINS[clientId] || "Inconnu";
 
     // Affichage dynamique des infos du magasin sur l'écran d'accueil
@@ -30,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         storeNameEl.innerText = `Magasin : N° ${clientId} (${cosiumCode})`;
     }
 
-    // 3. Récupération automatique du flux d'actualités (fluxactu.py)
+    // 3. Récupération automatique du flux d'actualités
     const actusContainer = document.getElementById('flux-actus');
     if (actusContainer) {
         fetch('data/flux_optique.json')
@@ -63,42 +61,98 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // 4. Récupération dynamique du nombre de commandes en cours
-    const countElement = document.getElementById('commandes-en-cours-count');
-    if (countElement && clientId) {
-        // CORRECTION : Modification du pattern d'URL pour correspondre à "encours_X.json"
+    // 4. Traitement des indicateurs de commandes (En cours & Expédiées)
+    const countCoursEl = document.getElementById('commandes-en-cours-count');
+    const countExpEl = document.getElementById('commandes-expediees-count');
+    const currentYear = new Date().getFullYear(); 
+
+    // --- APPEL 1 : CHARGEMENT DES COMMANDES EN COURS ---
+    if (clientId && countCoursEl) {
         fetch(`data_magasins/encours_${clientId}.json`)
             .then(response => {
-                if (!response.ok) {
-                    throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
-                }
+                if (!response.ok) throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
                 return response.json();
             })
             .then(data => {
-                // Extraction du tableau situé dans la clé du modèle JSON fourni
                 const listeCommandes = data.commandes_en_cours || [];
-
-                // Filtre les commandes pour ne garder que celles en cours de traitement
                 const commandesEnCours = listeCommandes.filter(cmd => {
                     return cmd.statut !== "Livrée" && cmd.statut !== "Expédiée" && !cmd.archive;
                 });
-
-                // Injection du résultat final dans le widget
-                countElement.innerText = commandesEnCours.length;
+                countCoursEl.innerText = commandesEnCours.length;
             })
             .catch(err => {
-                console.error("Erreur lors du chargement du compteur de commandes :", err);
-                countElement.innerText = "0"; // Évite de laisser un indicateur vide ou cassé
+                console.error("Erreur compteur En Cours :", err.message);
+                countCoursEl.innerText = "0";
             });
     }
 
-    // 5. Initialisation des icônes Lucide
+    // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES ---
+    if (clientId && countExpEl) {
+        fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
+            .then(response => {
+                if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
+                return response.json();
+            })
+            .then(data => {
+                const listeExpediees = data.commandes_expediees || [];
+                
+                const joursOuvresCibles = [];
+                let dateVerif = new Date(); 
+                
+                dateVerif.setDate(dateVerif.getDate() - 1);
+
+                while (joursOuvresCibles.length < 2) {
+                    const jourSemaine = dateVerif.getDay();
+                    if (jourSemaine !== 0 && jourSemaine !== 6) {
+                        const jj = String(dateVerif.getDate()).padStart(2, '0');
+                        const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
+                        const aaaa = dateVerif.getFullYear();
+                        joursOuvresCibles.push(`${jj}/${mm}/${aaaa}`);
+                    }
+                    dateVerif.setDate(dateVerif.getDate() - 1);
+                }
+
+                const expRecentes = listeExpediees.filter(cmd => {
+                    const dateCmd = cmd.date_expedition || cmd.date_livraison || "";
+                    return dateCmd && joursOuvresCibles.includes(dateCmd.trim());
+                });
+
+                countExpEl.innerText = expRecentes.length;
+            })
+            .catch(err => {
+                console.error("Erreur compteur Expédiées :", err.message);
+                countExpEl.innerText = "0";
+            });
+    }
+
+    // --- 5. TRANSMISSION AUTOMATIQUE DES FILTRES ---
+    // Pour les commandes En Cours
+    if (countCoursEl) {
+        const cardLinkCours = countCoursEl.closest('a') || countCoursEl.parentElement?.querySelector('a');
+        if (cardLinkCours) {
+            cardLinkCours.addEventListener('click', () => {
+                localStorage.setItem('v2i_filtre_cible', 'encours');
+            });
+        }
+    }
+
+    // Pour les commandes Expédiées
+    if (countExpEl) {
+        const cardLinkExp = countExpEl.closest('a') || countExpEl.parentElement?.querySelector('a');
+        if (cardLinkExp) {
+            cardLinkExp.addEventListener('click', () => {
+                localStorage.setItem('v2i_filtre_cible', 'expediees');
+            });
+        }
+    }
+
+    // 6. Initialisation des icônes Lucide
     if (window.lucide) {
         lucide.createIcons();
     }
 });
 
-// 6. Fonction de déconnexion (Nettoyage propre des bonnes clés)
+// 7. Fonction de déconnexion
 window.logout = function() {
     localStorage.removeItem('v2i_authenticated');
     localStorage.removeItem('v2i_client_id');
