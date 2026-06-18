@@ -1,7 +1,7 @@
 /**
  * V2i Portail - Module de Suivi des Commandes (suivi.js)
  * Gère le flux des encours, le lazy-loading asynchrone des archives depuis GitHub,
- * les filtres croisés (recherche + dates + boutons d'état), le scroll infini et le panneau latéral technique.
+ * les filtres croisés (recherche + dates + boutons d'état), la pagination et le panneau latéral technique.
  */
 
 // --- CONFIGURATION CONSTANTE GITHUB ---
@@ -33,6 +33,11 @@ let loadedYears = [];
 let isLoadingArchives = false; 
 let searchTimeout = null;
 let currentFilterType = 'tous'; // Type de filtrage actif : 'tous', 'cours', ou 'expedie'
+
+// --- CONFIGURATION DE LA PAGINATION ---
+let currentPage = 1;
+let totalPages = 1;
+const itemsPerPage = 15; // Nombre de commandes affichées par page (Ajustable)
 
 // --- CONFIGURATION DU TRI DYNAMIQUE ---
 let currentSort = {
@@ -93,6 +98,7 @@ function setupFilters() {
 function setFilterType(type) {
     if (currentFilterType === type) return;
     currentFilterType = type;
+    currentPage = 1; // RàZ pagination lors du changement de filtre
 
     const btnAll = document.getElementById('btn-filter-all');
     const btnCours = document.getElementById('btn-filter-cours');
@@ -234,6 +240,8 @@ async function handleDateBoundsChange() {
     const dateDebutInput = document.getElementById('date-debut');
     const dateFinInput = document.getElementById('date-fin');
     
+    currentPage = 1; // RàZ pagination lors du changement de période
+
     if (!dateDebutInput || !dateDebutInput.value) {
         renderVerres();
         return;
@@ -306,6 +314,8 @@ function handleSearchInput() {
         const searchInput = document.getElementById('search-verres');
         const searchValue = searchInput ? searchInput.value.trim() : '';
         
+        currentPage = 1; // RàZ pagination lors d'une nouvelle recherche
+
         if (searchValue.length >= 3) {
             const currentYear = new Date().getFullYear();
             const yearsToLoad = [currentYear, currentYear - 1, currentYear - 2, currentYear - 3];
@@ -337,10 +347,62 @@ function handleSort(colKey) {
         currentSort.asc = !currentSort.asc;
     } else {
         currentSort.key = colKey;
-        // Tri descendant par défaut pour les dates, ascendant pour le reste
         currentSort.asc = (colKey === 'date' || colKey === 'livraison') ? false : true;
     }
+    currentPage = 1; // RàZ pagination lors du tri
     renderVerres();
+}
+
+/**
+ * Met à jour les éléments de l'interface graphique de la pagination (Texte + Boutons)
+ */
+function updatePaginationUI(totalItems) {
+    const pageInfo = document.getElementById('page-info'); 
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+
+    if (pageInfo) {
+        pageInfo.innerText = `Page ${currentPage} sur ${totalPages} (${totalItems} commande${totalItems > 1 ? 's' : ''})`;
+    }
+
+    // Gestion de l'état visuel et technique du bouton Précédent
+    if (btnPrev) {
+        if (currentPage === 1) {
+            btnPrev.disabled = true;
+            btnPrev.classList.add('opacity-40', 'pointer-events-none');
+        } else {
+            btnPrev.disabled = false;
+            btnPrev.classList.remove('opacity-40', 'pointer-events-none');
+        }
+    }
+
+    // Gestion de l'état visuel et technique du bouton Suivant
+    if (btnNext) {
+        if (currentPage === totalPages) {
+            btnNext.disabled = true;
+            btnNext.classList.add('opacity-40', 'pointer-events-none');
+        } else {
+            btnNext.disabled = false;
+            btnNext.classList.remove('opacity-40', 'pointer-events-none');
+        }
+    }
+}
+
+/**
+ * Fonctions de navigation globale pour la pagination
+ */
+function nextPage() {
+    if (currentPage < totalPages) {
+        currentPage++;
+        renderVerres();
+    }
+}
+
+function prevPage() {
+    if (currentPage > 1) {
+        currentPage--;
+        renderVerres();
+    }
 }
 
 /**
@@ -394,7 +456,7 @@ function renderVerres() {
         }
     }
 
-    // Dédoublonnement intelligent : Priorise la version "En cours" (plus fraîche) sur l'archive brute
+    // Dédoublonnement intelligent
     const uniquesMap = new Map();
     donneesAAfficher.forEach(item => {
         const idUnique = item.id_commande_v2i || item.ord_numb || item.id_bl_v2i;
@@ -434,7 +496,7 @@ function renderVerres() {
         return true;
     });
 
-    // 2. Tri Algorithmique Dynamique (Correction : Couvre désormais l'intégralité des colonnes cliquables)
+    // 2. Tri Algorithmique Dynamique
     donneesFiltrees.sort((a, b) => {
         let valA, valB;
 
@@ -469,16 +531,26 @@ function renderVerres() {
         return 0;
     });
 
-    if (donneesFiltrees.length === 0) {
+    // --- CALCULS ET SÉCURITÉS DE PAGINATION ---
+    const totalItems = donneesFiltrees.length;
+    totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
+    
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    if (totalItems === 0) {
         if (isLoadingArchives) {
             tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white"><div class="flex items-center justify-center gap-2.5"><span class="animate-spin rounded-full h-4 w-4 border-2 border-[#0066cc] border-t-transparent"></span> Recherche et synchronisation des archives en cours...</div></td></tr>`;
         } else {
             tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-12 text-center text-[#86868b] font-medium bg-white">Aucun enregistrement trouvé.</td></tr>`;
         }
+        updatePaginationUI(0);
         return;
     }
 
-    const auMaximum = donneesFiltrees.slice(0, 60);
+    // Sélection de la tranche de données de la page active
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const auMaximum = donneesFiltrees.slice(startIndex, startIndex + itemsPerPage);
     let rowsHtml = [];
 
     auMaximum.forEach((v) => {
@@ -513,7 +585,6 @@ function renderVerres() {
         const dateCommande = parseDate(v.date_entree);
         const dateLimiteDocs = new Date(2026, 5, 8, 0, 0, 0, 0); // 8 Juin 2026
 
-        // Correction : Permet l'affichage des documents dès que l'état est Expédié, sans forcer la provenance de l'archive brute.
         const afficherDocs = estExpedie && dateCommande && (dateCommande.getTime() >= dateLimiteDocs.getTime());
 
         const anneeBL = idCommande.length >= 2 ? "20" + idCommande.substring(0, 2) : new Date().getFullYear();
@@ -569,6 +640,9 @@ function renderVerres() {
     
     tbody.innerHTML = rowsHtml.join('');
     if (window.lucide) lucide.createIcons();
+    
+    // Rendu graphique de l'état de la pagination
+    updatePaginationUI(totalItems);
 }
 
 /**
@@ -672,3 +746,5 @@ window.closeSidePanel = closeSidePanel;
 window.logout = logout;
 window.handleSort = handleSort;
 window.setFilterType = setFilterType;
+window.nextPage = nextPage;
+window.prevPage = prevPage;
