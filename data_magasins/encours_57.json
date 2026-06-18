@@ -10,7 +10,7 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "18/06/2026 13:55",
+  "derniere_mise_a_jour": "18/06/2026 14:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163268",
@@ -283,6 +283,60 @@
       }
     },
     {
+      "ord_numb": "            10163080",
+      "id_commande_v2i": "260617000091",
+      "code_cote": "B",
+      "patient": "PEREIRA MELYNA",
+      "job_cosium": "J162005206-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "18/06/2026 14:06",
+      "detail": "Réf: PEREIRA MELYNA / J162005206-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163109",
       "id_commande_v2i": "260617000120",
       "code_cote": "B",
@@ -437,60 +491,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163080",
-      "id_commande_v2i": "260617000091",
-      "code_cote": "B",
-      "patient": "PEREIRA MELYNA",
-      "job_cosium": "J162005206-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 11:48",
-      "detail": "Réf: PEREIRA MELYNA / J162005206-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
         ]
       }
     },
