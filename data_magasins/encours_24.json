@@ -10,8 +10,45 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "18/06/2026 12:06",
+  "derniere_mise_a_jour": "18/06/2026 12:10",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163293",
+      "id_commande_v2i": "260618000069",
+      "code_cote": "L",
+      "patient": "CIABRINI MARTINE",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 12:08",
+      "detail": "Réf: CIABRINI MARTINE — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "5.00",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Affiny Confort2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162990",
       "id_commande_v2i": "260617000001",
