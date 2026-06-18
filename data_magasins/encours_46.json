@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "18/06/2026 11:40",
+  "derniere_mise_a_jour": "18/06/2026 11:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163230",
@@ -1809,16 +1809,52 @@
       }
     },
     {
+      "ord_numb": "            10163166",
+      "id_commande_v2i": "260617000177",
+      "code_cote": "R",
+      "patient": "CEVOLI PHILIPPE",
+      "job_cosium": "J152045300",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "17/06/2026 18:55",
+      "detail": "Réf: CEVOLI PHILIPPE / J152045300 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10163032",
       "id_commande_v2i": "260617000043",
       "code_cote": "B",
       "patient": "VOLPI--CARDONNA LEO",
       "job_cosium": "J152045276-02",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 11:25",
-      "detail": "Réf: VOLPI--CARDONNA LEO / J152045276-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "18/06/2026 11:48",
+      "detail": "Réf: VOLPI--CARDONNA LEO / J152045276-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1869,10 +1905,10 @@
       "patient": "SIMONI JEROME",
       "job_cosium": "J152045272",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 11:25",
-      "detail": "Réf: SIMONI JEROME / J152045272 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "18/06/2026 11:48",
+      "detail": "Réf: SIMONI JEROME / J152045272 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1923,10 +1959,10 @@
       "patient": "ALVES GAEL",
       "job_cosium": "J152045298-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 18:01",
-      "detail": "Réf: ALVES GAEL / J152045298-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "18/06/2026 11:48",
+      "detail": "Réf: ALVES GAEL / J152045298-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1969,42 +2005,6 @@
           "Teinte Gris C"
         ]
       }
-    },
-    {
-      "ord_numb": "            10163166",
-      "id_commande_v2i": "260617000177",
-      "code_cote": "R",
-      "patient": "CEVOLI PHILIPPE",
-      "job_cosium": "J152045300",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "17/06/2026 18:55",
-      "detail": "Réf: CEVOLI PHILIPPE / J152045300 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10162925",
