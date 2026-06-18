@@ -12,9 +12,9 @@ window.LISTE_MAGASINS = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Vérification de la session (Le Gardien basé sur notre logique verrouillée)
+    // 1. Vérification de la session
     if (localStorage.getItem('v2i_authenticated') !== 'true') {
-        window.location.href = './login.html'; // Sécurisé pour GitHub Pages
+        window.location.href = './login.html'; 
         return;
     }
 
@@ -66,14 +66,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. Traitement des indicateurs de commandes (En cours & Expédiées)
     const countCoursEl = document.getElementById('commandes-en-cours-count');
     const countExpEl = document.getElementById('commandes-expediees-count');
-    const currentYear = new Date().getFullYear(); // Récupère l'année en cours (ex: 2026)
+    const currentYear = new Date().getFullYear(); 
 
     // --- APPEL 1 : CHARGEMENT DES COMMANDES EN COURS ---
     if (clientId && countCoursEl) {
         fetch(`data_magasins/encours_${clientId}.json`)
             .then(response => {
-                if (!response.ok) throw new Error("Fichier encours introuvable");
-                return response.json();
+                if (!response.ok) throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
+                return response.text(); // On lit sous forme de texte pour intercepter le HTML intrusif
+            })
+            .then(text => {
+                try {
+                    return JSON.parse(text); // Parsing manuel sécurisé
+                } catch (e) {
+                    throw new Error("Le serveur a renvoyé du HTML au lieu d'un JSON valide (Erreur 404)");
+                }
             })
             .then(data => {
                 const listeCommandes = data.commandes_en_cours || [];
@@ -83,8 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 countCoursEl.innerText = commandesEnCours.length;
             })
             .catch(err => {
-                console.error("Erreur compteur En Cours :", err);
-                countCoursEl.innerText = "0";
+                console.error("Erreur compteur En Cours :", err.message);
+                countCoursEl.innerText = "0"; // Repli sécurisé pour l'utilisateur
             });
     }
 
@@ -92,18 +99,24 @@ document.addEventListener('DOMContentLoaded', () => {
     if (clientId && countExpEl) {
         fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
             .then(response => {
-                if (!response.ok) throw new Error("Fichier d'archive introuvable pour cette année");
-                return response.json();
+                if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    return JSON.parse(text);
+                } catch (e) {
+                    throw new Error("Le fichier d'archive ne contient pas un JSON valide");
+                }
             })
             .then(data => {
                 const listeExpediees = data.commandes_expediees || [];
                 
                 // Génération dynamique des chaînes au format "JJ/MM/AAAA" pour les 2 derniers jours ouvrés
                 const joursOuvresCibles = [];
-                let dateVerif = new Date(); // Départ à aujourd'hui
+                let dateVerif = new Date(); 
 
                 while (joursOuvresCibles.length < 2) {
-                    // getDay() : 0 = Dimanche, 1 = Lundi, ..., 6 = Samedi
                     if (dateVerif.getDay() !== 0) { // On exclut le dimanche
                         const jj = String(dateVerif.getDate()).padStart(2, '0');
                         const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
@@ -121,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 countExpEl.innerText = expReccentes.length;
             })
             .catch(err => {
-                console.error("Erreur compteur Expédiées (Pas encore d'archive ou fichier manquant) :", err);
+                console.error("Erreur compteur Expédiées :", err.message);
                 countExpEl.innerText = "0";
             });
     }
