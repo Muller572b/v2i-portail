@@ -63,10 +63,12 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 
-    // 4. Récupération dynamique du nombre de commandes en cours
-    const countElement = document.getElementById('commandes-en-cours-count');
-    if (countElement && clientId) {
-        // CORRECTION : Modification du pattern d'URL pour correspondre à "encours_X.json"
+    // 4. Traitement des indicateurs de commandes (En cours & Expédiées)
+    const countCoursEl = document.getElementById('commandes-en-cours-count');
+    const countExpEl = document.getElementById('commandes-expediees-count');
+
+    if (clientId && (countCoursEl || countExpEl)) {
+        // Un seul appel HTTP pour charger l'intégralité des données du magasin
         fetch(`data_magasins/encours_${clientId}.json`)
             .then(response => {
                 if (!response.ok) {
@@ -75,20 +77,49 @@ document.addEventListener('DOMContentLoaded', () => {
                 return response.json();
             })
             .then(data => {
-                // Extraction du tableau situé dans la clé du modèle JSON fourni
-                const listeCommandes = data.commandes_en_cours || [];
+                
+                // --- COMPTEUR A : COMMANDES EN COURS ---
+                if (countCoursEl) {
+                    const listeCommandes = data.commandes_en_cours || [];
+                    // Filtrage : Exclure les livrées, expédiées ou déjà archivées
+                    const commandesEnCours = listeCommandes.filter(cmd => {
+                        return cmd.statut !== "Livrée" && cmd.statut !== "Expédiée" && !cmd.archive;
+                    });
+                    countCoursEl.innerText = commandesEnCours.length;
+                }
 
-                // Filtre les commandes pour ne garder que celles en cours de traitement
-                const commandesEnCours = listeCommandes.filter(cmd => {
-                    return cmd.statut !== "Livrée" && cmd.statut !== "Expédiée" && !cmd.archive;
-                });
+                // --- COMPTEUR B : EXPÉDIÉES RÉCEMMENT (2 DERNIERS JOURS OUVRÉS) ---
+                if (countExpEl) {
+                    const listeExpediees = data.commandes_expediees || [];
+                    
+                    // Génération dynamique des chaînes au format "JJ/MM/AAAA" pour les 2 derniers jours ouvrés
+                    const joursOuvresCibles = [];
+                    let dateVerif = new Date(); // Départ à aujourd'hui
 
-                // Injection du résultat final dans le widget
-                countElement.innerText = commandesEnCours.length;
+                    while (joursOuvresCibles.length < 2) {
+                        // getDay() renvoie : 0 = Dimanche, 1 = Lundi, ..., 6 = Samedi
+                        if (dateVerif.getDay() !== 0) { 
+                            const jj = String(dateVerif.getDate()).padStart(2, '0');
+                            const mm = String(dateVerif.getMonth() + 1).padStart(2, '0');
+                            const aaaa = dateVerif.getFullYear();
+                            joursOuvresCibles.push(`${jj}/${mm}/${aaaa}`);
+                        }
+                        // On recule d'un jour sur le calendrier pour continuer l'analyse
+                        dateVerif.setDate(dateVerif.getDate() - 1);
+                    }
+
+                    // Filtrage des archives pour ne comptabiliser que les correspondances de date exactes
+                    const expReccentes = listeExpediees.filter(cmd => {
+                        return cmd.date_expedition && joursOuvresCibles.includes(cmd.date_expedition.trim());
+                    });
+
+                    countExpEl.innerText = expReccentes.length;
+                }
             })
             .catch(err => {
-                console.error("Erreur lors du chargement du compteur de commandes :", err);
-                countElement.innerText = "0"; // Évite de laisser un indicateur vide ou cassé
+                console.error("Erreur lors du traitement des compteurs de commandes :", err);
+                if (countCoursEl) countCoursEl.innerText = "0";
+                if (countExpEl) countExpEl.innerText = "0";
             });
     }
 
