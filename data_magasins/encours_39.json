@@ -10,8 +10,64 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "18/06/2026 16:54",
+  "derniere_mise_a_jour": "18/06/2026 17:09",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163365",
+      "id_commande_v2i": "260618000141",
+      "code_cote": "B",
+      "patient": "MARIANI ISABELLE",
+      "job_cosium": "J147014156",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 17:07",
+      "detail": "Réf: MARIANI ISABELLE / J147014156 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "1.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163152",
       "id_commande_v2i": "260617000163",
