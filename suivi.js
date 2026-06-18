@@ -414,16 +414,45 @@ function updatePaginationUI(totalItems) {
         }
     }
 
-    // Génération dynamique des pastilles numériques cliquables
+    // Génération dynamique des pastilles numériques cliquables (AVEC LIMITATION INTELLIGENTE)
     if (numbersEl) {
+        // Ajoute dynamiquement Flexbox et le retour à la ligne sécurisé sur le conteneur
+        numbersEl.classList.add('flex', 'flex-wrap', 'gap-1', 'justify-center');
+        
         let numbersHtml = '';
-        for (let i = 1; i <= totalPages; i++) {
+        const maxBoutons = 5; // Nombre maximum de boutons à afficher autour de la page courante
+        let startPage = Math.max(1, currentPage - Math.floor(maxBoutons / 2));
+        let endPage = Math.min(totalPages, startPage + maxBoutons - 1);
+
+        if (endPage - startPage + 1 < maxBoutons) {
+            startPage = Math.max(1, endPage - maxBoutons + 1);
+        }
+
+        // Affiche toujours la page 1 et des points de suspension si on est loin du début
+        if (startPage > 1) {
+            numbersHtml += `<button onclick="goToPage(1)" class="px-3 py-1.5 text-xs font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-lg transition-colors cursor-pointer">1</button>`;
+            if (startPage > 2) {
+                numbersHtml += `<span class="px-2 py-1.5 text-xs text-[#86868b]">...</span>`;
+            }
+        }
+
+        // Génère les boutons de la plage calculée
+        for (let i = startPage; i <= endPage; i++) {
             if (i === currentPage) {
                 numbersHtml += `<span class="px-3 py-1.5 text-xs font-bold bg-[#0066cc] text-white rounded-lg shadow-sm">${i}</span>`;
             } else {
                 numbersHtml += `<button onclick="goToPage(${i})" class="px-3 py-1.5 text-xs font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-lg transition-colors cursor-pointer">${i}</button>`;
             }
         }
+
+        // Affiche toujours la dernière page et des points de suspension si on est loin de la fin
+        if (endPage < totalPages) {
+            if (endPage < totalPages - 1) {
+                numbersHtml += `<span class="px-2 py-1.5 text-xs text-[#86868b]">...</span>`;
+            }
+            numbersHtml += `<button onclick="goToPage(${totalPages})" class="px-3 py-1.5 text-xs font-medium text-[#86868b] hover:text-[#1d1d1f] hover:bg-[#e8e8ed] rounded-lg transition-colors cursor-pointer">${totalPages}</button>`;
+        }
+
         numbersEl.innerHTML = numbersHtml;
     }
 }
