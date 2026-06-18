@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "18/06/2026 09:40",
+  "derniere_mise_a_jour": "18/06/2026 09:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163240",
@@ -19,10 +19,10 @@
       "patient": "MAZED NEHEOI",
       "job_cosium": "J160020926",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 09:37",
-      "detail": "Réf: MAZED NEHEOI / J160020926 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "18/06/2026 09:50",
+      "detail": "Réf: MAZED NEHEOI / J160020926 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 18/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -61,6 +61,62 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163246",
+      "id_commande_v2i": "260618000022",
+      "code_cote": "B",
+      "patient": "FERREIRA Clara",
+      "job_cosium": "",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "18/06/2026 09:53",
+      "detail": "Réf: FERREIRA Clara — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Dégradée Gris D",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "2.75",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Dégradée Gris D",
+          "Durci Inclus"
         ]
       }
     },
