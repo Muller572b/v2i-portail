@@ -37,7 +37,7 @@ let currentFilterType = 'tous'; // Type de filtrage actif : 'tous', 'cours', ou 
 // --- CONFIGURATION DE LA PAGINATION ---
 let currentPage = 1;
 let totalPages = 1;
-const itemsPerPage = 15; // Nombre de commandes affichées par page (Ajustable)
+const itemsPerPage = 15; // Nombre de commandes affichées par page
 
 // --- CONFIGURATION DU TRI DYNAMIQUE ---
 let currentSort = {
@@ -78,7 +78,7 @@ if (checkSession()) {
 }
 
 /**
- * Configure les écouteurs sur les entrées de filtres et recherche
+ * Configure les écouteurs sur les entrées de filtres, recherche et pagination
  */
 function setupFilters() {
     const searchInput = document.getElementById('search-verres');
@@ -90,6 +90,12 @@ function setupFilters() {
     const dateFinInput = document.getElementById('date-fin');
     if (dateDebutInput) dateDebutInput.addEventListener('change', handleDateBoundsChange);
     if (dateFinInput) dateFinInput.addEventListener('change', handleDateBoundsChange);
+
+    // Liaison programmatique des contrôles de la pagination pour fiabiliser le cycle de vie du DOM
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    if (btnPrev) btnPrev.addEventListener('click', prevPage);
+    if (btnNext) btnNext.addEventListener('click', nextPage);
 }
 
 /**
@@ -398,6 +404,9 @@ function nextPage() {
     }
 }
 
+/**
+ * Fonctions de navigation globale pour la pagination
+ */
 function prevPage() {
     if (currentPage > 1) {
         currentPage--;
@@ -648,103 +657,4 @@ function renderVerres() {
 /**
  * Remplit et déploie le volet technique latéral pour une commande sélectionnée
  */
-function openSidePanel(idCommande) {
-    const toutesLesCommandes = [...storeEncours, ...storeArchives];
-    const cmd = toutesLesCommandes.find(c => {
-        const idV2i = String(c.id_commande_v2i || c.ord_numb || c.id_bl_v2i || '').trim();
-        return idV2i === String(idCommande).trim();
-    });
-    
-    if (!cmd) return;
-    
-    document.getElementById('panel-patient').innerText = cmd.patient || '—';
-    document.getElementById('panel-bl').innerText = "N° DE COMMANDE (BL) : " + (cmd.id_commande_v2i || cmd.ord_numb || cmd.id_bl_v2i);
-    document.getElementById('panel-cosium-id').innerText = cmd.job_cosium || "Non spécifié";
-    
-    if (cmd.oeil_droit) {
-        document.getElementById('panel-od-row').style.display = 'grid';
-        document.getElementById('od-sph').innerText = cmd.oeil_droit.sphere || '0.00';
-        document.getElementById('od-cyl').innerText = cmd.oeil_droit.cylindre || '0.00';
-        document.getElementById('od-axe').innerText = cmd.oeil_droit.axe || '0';
-        document.getElementById('od-add').innerText = cmd.oeil_droit.addition || '0.00';
-        document.getElementById('od-p1').innerText = cmd.oeil_droit.prisme_1 || '0.0';
-        document.getElementById('od-b1').innerText = cmd.oeil_droit.base_1 || '0';
-        document.getElementById('od-p2').innerText = cmd.oeil_droit.prisme_2 || cmd.oeil_droit.prism2 || '0.0';
-        document.getElementById('od-b2').innerText = cmd.oeil_droit.base_2 || cmd.oeil_droit.prbase2 || '0';
-        document.getElementById('od-dia').innerText = cmd.oeil_droit.diametre || cmd.oeil_droit.diam1 || '—';
-        
-        document.getElementById('morpho-od-ecart').innerText = cmd.oeil_droit.ecart_pupillaire ? cmd.oeil_droit.ecart_pupillaire + " mm" : "—";
-        document.getElementById('morpho-od-haut').innerText = cmd.oeil_droit.hauteur ? cmd.oeil_droit.hauteur + " mm" : "—";
-    } else {
-        document.getElementById('panel-od-row').style.display = 'none';
-        document.getElementById('morpho-od-ecart').innerText = "—";
-        document.getElementById('morpho-od-haut').innerText = "—";
-    }
-
-    if (cmd.oeil_gauche) {
-        document.getElementById('panel-og-row').style.display = 'grid';
-        document.getElementById('og-sph').innerText = cmd.oeil_gauche.sphere || '0.00';
-        document.getElementById('og-cyl').innerText = cmd.oeil_gauche.cylindre || '0.00';
-        document.getElementById('og-axe').innerText = cmd.oeil_gauche.axe || '0';
-        document.getElementById('og-add').innerText = cmd.oeil_gauche.addition || '0.00';
-        document.getElementById('og-p1').innerText = cmd.oeil_gauche.prisme_1 || '0.0';
-        document.getElementById('og-b1').innerText = cmd.oeil_gauche.base_1 || '0';
-        document.getElementById('og-p2').innerText = cmd.oeil_gauche.prisme_2 || cmd.oeil_gauche.prism2 || '0.0';
-        document.getElementById('og-b2').innerText = cmd.oeil_gauche.base_2 || cmd.oeil_gauche.prbase2 || '0';
-        document.getElementById('og-dia').innerText = cmd.oeil_gauche.diametre || cmd.oeil_gauche.diam1 || '—';
-        
-        document.getElementById('morpho-og-ecart').innerText = cmd.oeil_gauche.ecart_pupillaire ? cmd.oeil_gauche.ecart_pupillaire + " mm" : "—";
-        document.getElementById('morpho-og-haut').innerText = cmd.oeil_gauche.hauteur ? cmd.oeil_gauche.hauteur + " mm" : "—";
-    } else {
-        document.getElementById('panel-og-row').style.display = 'none';
-        document.getElementById('morpho-og-ecart').innerText = "—";
-        document.getElementById('morpho-og-haut').innerText = "—";
-    }
-
-    const containerSupps = document.getElementById('panel-supplements');
-    if (containerSupps) {
-        containerSupps.innerHTML = '';
-        const allSupps = [...(cmd.oeil_droit?.supplements || []), ...(cmd.oeil_gauche?.supplements || [])];
-        const uniques = [...new Set(allSupps)];
-
-        if (uniques.length > 0) {
-            uniques.forEach(s => {
-                containerSupps.innerHTML += `<span class="bg-[#f5f5f7] text-[#1d1d1f] border border-[#e8e8ed] px-2.5 py-1 rounded-lg text-[11px] font-medium font-mono">${s}</span>`;
-            });
-        } else {
-            containerSupps.innerHTML = `<span class="text-gray-400 italic text-xs">Aucun traitement additionnel détecté.</span>`;
-        }
-    }
-
-    const sidePanel = document.getElementById('side-panel');
-    if (sidePanel) sidePanel.classList.remove('hidden');
-    if (window.lucide) lucide.createIcons();
-}
-
-/**
- * Referme le volet technique latéral
- */
-function closeSidePanel() {
-    const sidePanel = document.getElementById('side-panel');
-    if (sidePanel) sidePanel.classList.add('hidden');
-}
-
-/**
- * Déconnexion de l'espace de suivi
- */
-function logout() {
-    window.removeEventListener('scroll', handleScrollLoad);
-    localStorage.removeItem('v2i_authenticated');
-    localStorage.removeItem('v2i_client_id');
-    localStorage.removeItem('v2i_cosium_code');
-    window.location.href = './login.html';
-}
-
-// --- EXPOSITION DES FONCTIONS AU CONTEXTE GLOBAL ---
-window.openSidePanel = openSidePanel;
-window.closeSidePanel = closeSidePanel;
-window.logout = logout;
-window.handleSort = handleSort;
-window.setFilterType = setFilterType;
-window.nextPage = nextPage;
-window.prevPage = prevPage;
+function open
