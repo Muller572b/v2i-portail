@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "19/06/2026 15:39",
+  "derniere_mise_a_jour": "19/06/2026 15:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163491",
@@ -69,74 +69,16 @@
       }
     },
     {
-      "ord_numb": "            10163503",
-      "id_commande_v2i": "260619000085",
-      "code_cote": "B",
-      "patient": "GHIPPONI ANNE MARIE",
-      "job_cosium": "J146022828-01",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 15:05",
-      "detail": "Réf: GHIPPONI ANNE MARIE / J146022828-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 26/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 135,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "1.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163507",
       "id_commande_v2i": "260619000089",
       "code_cote": "B",
       "patient": "GHIPPONI ANNE MARIE",
       "job_cosium": "J146022832-01",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 15:04",
-      "detail": "Réf: GHIPPONI ANNE MARIE / J146022832-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "19/06/2026 15:52",
+      "detail": "Réf: GHIPPONI ANNE MARIE / J146022832-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 25/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -283,6 +225,64 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163503",
+      "id_commande_v2i": "260619000085",
+      "code_cote": "B",
+      "patient": "GHIPPONI ANNE MARIE",
+      "job_cosium": "J146022828-01",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 15:47",
+      "detail": "Réf: GHIPPONI ANNE MARIE / J146022828-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 26/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "1.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Gris C"
         ]
       }
     },
