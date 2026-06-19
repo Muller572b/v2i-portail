@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "19/06/2026 08:39",
+  "derniere_mise_a_jour": "19/06/2026 08:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163302",
@@ -515,10 +515,10 @@
       "patient": "IBAYI",
       "job_cosium": "",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 09:11",
-      "detail": "Réf: IBAYI — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "19/06/2026 08:50",
+      "detail": "Réf: IBAYI — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -559,6 +559,124 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163209",
+      "id_commande_v2i": "260617000220",
+      "code_cote": "B",
+      "patient": "LIVRELLI-SAMPIERI ALEXANDRE",
+      "job_cosium": "J143054041-04",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 08:50",
+      "detail": "Réf: LIVRELLI-SAMPIERI ALEXANDRE / J143054041-04 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "2de O2 Maximu2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 50,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "2de O2 Maximu2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163218",
+      "id_commande_v2i": "260617000229",
+      "code_cote": "B",
+      "patient": "SUSINI FRANCE",
+      "job_cosium": "J143054019-02",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 08:50",
+      "detail": "Réf: SUSINI FRANCE / J143054019-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "O2 Minimu 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "O2 Minimu 1.5 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -881,68 +999,6 @@
       }
     },
     {
-      "ord_numb": "            10163209",
-      "id_commande_v2i": "260617000220",
-      "code_cote": "B",
-      "patient": "LIVRELLI-SAMPIERI ALEXANDRE",
-      "job_cosium": "J143054041-04",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 14:26",
-      "detail": "Réf: LIVRELLI-SAMPIERI ALEXANDRE / J143054041-04 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "2de O2 Maximu2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 50,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "2de O2 Maximu2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163210",
       "id_commande_v2i": "260617000221",
       "code_cote": "B",
@@ -1167,62 +1223,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163218",
-      "id_commande_v2i": "260617000229",
-      "code_cote": "B",
-      "patient": "SUSINI FRANCE",
-      "job_cosium": "J143054019-02",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 14:04",
-      "detail": "Réf: SUSINI FRANCE / J143054019-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "O2 Minimu 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "O2 Minimu 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -1735,10 +1735,10 @@
       "patient": "MOUCHON THIERRY",
       "job_cosium": "J143053979-01",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "18/06/2026 11:15",
-      "detail": "Réf: MOUCHON THIERRY / J143053979-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "19/06/2026 08:50",
+      "detail": "Réf: MOUCHON THIERRY / J143053979-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
