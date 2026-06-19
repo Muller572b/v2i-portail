@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "19/06/2026 14:54",
+  "derniere_mise_a_jour": "19/06/2026 15:09",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163486",
@@ -237,60 +237,6 @@
       }
     },
     {
-      "ord_numb": "            10163488",
-      "id_commande_v2i": "260619000070",
-      "code_cote": "B",
-      "patient": "STUART DAVID",
-      "job_cosium": "J143054061",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 13:14",
-      "detail": "Réf: STUART DAVID / J143054061 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Orange C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Orange C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163432",
       "id_commande_v2i": "260619000014",
       "code_cote": "B",
@@ -345,16 +291,70 @@
       }
     },
     {
+      "ord_numb": "            10163488",
+      "id_commande_v2i": "260619000070",
+      "code_cote": "B",
+      "patient": "STUART DAVID",
+      "job_cosium": "J143054061",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 14:56",
+      "detail": "Réf: STUART DAVID / J143054061 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Orange C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Orange C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163302",
       "id_commande_v2i": "260618000078",
       "code_cote": "B",
       "patient": "TOMI JOCELYNE",
       "job_cosium": "J143054053",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "19/06/2026 09:17",
-      "detail": "Réf: TOMI JOCELYNE / J143054053 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "19/06/2026 14:57",
+      "detail": "Réf: TOMI JOCELYNE / J143054053 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -395,6 +395,62 @@
         "hauteur": "23.0",
         "supplements": [
           "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163306",
+      "id_commande_v2i": "260618000082",
+      "code_cote": "B",
+      "patient": "BATTINI AUGUSTE",
+      "job_cosium": "J143054045",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "19/06/2026 14:57",
+      "detail": "Réf: BATTINI AUGUSTE / J143054045 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "2.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-7.00",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -457,62 +513,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163306",
-      "id_commande_v2i": "260618000082",
-      "code_cote": "B",
-      "patient": "BATTINI AUGUSTE",
-      "job_cosium": "J143054045",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "19/06/2026 09:22",
-      "detail": "Réf: BATTINI AUGUSTE / J143054045 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "2.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-7.00",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -1209,6 +1209,62 @@
           "O2 Minimu 1.67 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163220",
+      "id_commande_v2i": "260617000231",
+      "code_cote": "B",
+      "patient": "LEBRUN CATHERINE",
+      "job_cosium": "J143054016-01",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 14:56",
+      "detail": "Réf: LEBRUN CATHERINE / J143054016-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 105,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "O2 Miladu 1.5 Durci",
+          "Durci Inclus",
+          "Teinte au modèle uni A-C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "O2 Miladu 1.5 Durci",
+          "Durci Inclus",
+          "Teinte au modèle uni A-C"
         ]
       }
     },
@@ -1941,62 +1997,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2  2e St. As 1.59 Poly Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163220",
-      "id_commande_v2i": "260617000231",
-      "code_cote": "B",
-      "patient": "LEBRUN CATHERINE",
-      "job_cosium": "J143054016-01",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "19/06/2026 14:49",
-      "detail": "Réf: LEBRUN CATHERINE / J143054016-01 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 105,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "O2 Miladu 1.5 Durci",
-          "Durci Inclus",
-          "Teinte au modèle uni A-C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "O2 Miladu 1.5 Durci",
-          "Durci Inclus",
-          "Teinte au modèle uni A-C"
         ]
       }
     },
