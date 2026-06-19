@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "19/06/2026 15:54",
+  "derniere_mise_a_jour": "19/06/2026 16:09",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163423",
@@ -179,6 +179,60 @@
       }
     },
     {
+      "ord_numb": "            10163505",
+      "id_commande_v2i": "260619000087",
+      "code_cote": "B",
+      "patient": "FILIPPI ROLL CHIARA",
+      "job_cosium": "J205030428-01",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 16:02",
+      "detail": "Réf: FILIPPI ROLL CHIARA / J205030428-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163506",
       "id_commande_v2i": "260619000088",
       "code_cote": "B",
@@ -227,60 +281,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2  2e St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163505",
-      "id_commande_v2i": "260619000087",
-      "code_cote": "B",
-      "patient": "FILIPPI ROLL CHIARA",
-      "job_cosium": "J205030428-01",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 15:47",
-      "detail": "Réf: FILIPPI ROLL CHIARA / J205030428-01 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte G15 C"
         ]
       }
     },
