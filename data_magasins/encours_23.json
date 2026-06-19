@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "19/06/2026 10:24",
+  "derniere_mise_a_jour": "19/06/2026 10:39",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163431",
@@ -61,6 +61,62 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163437",
+      "id_commande_v2i": "260619000019",
+      "code_cote": "B",
+      "patient": "COLOMBANI CECILE MARIE",
+      "job_cosium": "J131018874",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 10:31",
+      "detail": "Réf: COLOMBANI CECILE MARIE / J131018874 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-7.50",
+        "cylindre": "2.25",
+        "axe": 75,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "CLA Progressif 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-6.50",
+        "cylindre": "1.75",
+        "axe": 105,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "CLA Progressif 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     },
