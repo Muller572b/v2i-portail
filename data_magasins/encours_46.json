@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "19/06/2026 14:54",
+  "derniere_mise_a_jour": "19/06/2026 15:09",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163419",
@@ -19,10 +19,10 @@
       "patient": "BATTISTELLI ANTOINETTE",
       "job_cosium": "",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 10:31",
-      "detail": "Réf: BATTISTELLI ANTOINETTE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "19/06/2026 14:57",
+      "detail": "Réf: BATTISTELLI ANTOINETTE — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -129,6 +129,60 @@
       }
     },
     {
+      "ord_numb": "            10163482",
+      "id_commande_v2i": "260619000064",
+      "code_cote": "B",
+      "patient": "PATE STEPHANE",
+      "job_cosium": "J152045311-01",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 14:56",
+      "detail": "Réf: PATE STEPHANE / J152045311-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 115,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163483",
       "id_commande_v2i": "260619000065",
       "code_cote": "B",
@@ -180,60 +234,6 @@
         "supplements": [
           "Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163482",
-      "id_commande_v2i": "260619000064",
-      "code_cote": "B",
-      "patient": "PATE STEPHANE",
-      "job_cosium": "J152045311-01",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 14:42",
-      "detail": "Réf: PATE STEPHANE / J152045311-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 115,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
@@ -525,10 +525,10 @@
       "patient": "KEDROFF ANNE SOPHIE",
       "job_cosium": "J152045232-02",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 14:01",
-      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "19/06/2026 14:56",
+      "detail": "Réf: KEDROFF ANNE SOPHIE / J152045232-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": null,
@@ -673,6 +673,68 @@
       }
     },
     {
+      "ord_numb": "            10163296",
+      "id_commande_v2i": "260618000072",
+      "code_cote": "B",
+      "patient": "ACQUAVIVA AUDREY",
+      "job_cosium": "J152045303-02",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "19/06/2026 14:57",
+      "detail": "Réf: ACQUAVIVA AUDREY / J152045303-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "1.75",
+        "axe": 175,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "1.50",
+        "axe": 15,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163229",
       "id_commande_v2i": "260618000005",
       "code_cote": "B",
@@ -729,68 +791,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163296",
-      "id_commande_v2i": "260618000072",
-      "code_cote": "B",
-      "patient": "ACQUAVIVA AUDREY",
-      "job_cosium": "J152045303-02",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 15:21",
-      "detail": "Réf: ACQUAVIVA AUDREY / J152045303-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "1.75",
-        "axe": 175,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "1.50",
-        "axe": 15,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
