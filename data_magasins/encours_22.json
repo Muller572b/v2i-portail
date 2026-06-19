@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "19/06/2026 09:39",
+  "derniere_mise_a_jour": "19/06/2026 09:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163263",
@@ -64,6 +64,62 @@
         "supplements": [
           "Media 1.5 Durci",
           "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163265",
+      "id_commande_v2i": "260618000041",
+      "code_cote": "B",
+      "patient": "LUCIANI ANNE-CHARLOTTE",
+      "job_cosium": "J134029350",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "19/06/2026 09:48",
+      "detail": "Réf: LUCIANI ANNE-CHARLOTTE / J134029350 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
         ]
       }
@@ -395,62 +451,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163265",
-      "id_commande_v2i": "260618000041",
-      "code_cote": "B",
-      "patient": "LUCIANI ANNE-CHARLOTTE",
-      "job_cosium": "J134029350",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 10:49",
-      "detail": "Réf: LUCIANI ANNE-CHARLOTTE / J134029350 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
         ]
       }
     },
