@@ -10,49 +10,47 @@
     "email": "ona@balbi.fr",
     "mot_de_passe_portail": "ona"
   },
-  "derniere_mise_a_jour": "16/06/2026 23:44",
+  "derniere_mise_a_jour": "19/06/2026 12:39",
   "commandes_en_cours": [
     {
-      "ord_numb": "            10162233",
-      "id_commande_v2i": "260612000093",
+      "ord_numb": "            10163478",
+      "id_commande_v2i": "260619000060",
       "code_cote": "B",
-      "patient": "COLONNA DE LECA CRISTINAC FRED",
-      "job_cosium": "J700006064-02",
-      "date_entree": "12/06/2026",
-      "date_dernier_statut": "16/06/2026 15:18",
-      "detail": "Réf: COLONNA DE LECA CRISTINAC FRED / J700006064-02 — (Fabrication RX) — État: Expediée",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expediée",
-      "statut": "Livraison prévue : 18/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "patient": "CARVALHO DOS SANTOS RODRIGO",
+      "job_cosium": "J700006072",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 12:37",
+      "detail": "Réf: CARVALHO DOS SANTOS RODRIGO / J700006072 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 5,
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.25",
+        "axe": 95,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
+        "ecart_pupillaire": "28.5",
         "hauteur": "0.0",
         "supplements": [
-          "Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       },
       "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 160,
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "1.25",
+        "axe": 80,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -62,9 +60,7 @@
         "ecart_pupillaire": "29.5",
         "hauteur": "0.0",
         "supplements": [
-          "Uni 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     }
