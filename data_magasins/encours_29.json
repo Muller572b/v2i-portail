@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "19/06/2026 14:24",
+  "derniere_mise_a_jour": "19/06/2026 14:39",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163443",
@@ -75,10 +75,10 @@
       "patient": "GIACOBINELLI PATRICK",
       "job_cosium": "J121042680",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 14:19",
-      "detail": "Réf: GIACOBINELLI PATRICK / J121042680 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "19/06/2026 14:33",
+      "detail": "Réf: GIACOBINELLI PATRICK / J121042680 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -231,6 +231,58 @@
       }
     },
     {
+      "ord_numb": "            10163477",
+      "id_commande_v2i": "260619000059",
+      "code_cote": "B",
+      "patient": "GIACOBINELLI PATRICK",
+      "job_cosium": "J121042671",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 14:38",
+      "detail": "Réf: GIACOBINELLI PATRICK / J121042671 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "1.00",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163466",
       "id_commande_v2i": "260619000048",
       "code_cote": "B",
@@ -283,58 +335,6 @@
           "Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163477",
-      "id_commande_v2i": "260619000059",
-      "code_cote": "B",
-      "patient": "GIACOBINELLI PATRICK",
-      "job_cosium": "J121042671",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 12:37",
-      "detail": "Réf: GIACOBINELLI PATRICK / J121042671 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
         ]
       }
     },
