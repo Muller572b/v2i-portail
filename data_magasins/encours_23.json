@@ -10,8 +10,62 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "19/06/2026 11:39",
+  "derniere_mise_a_jour": "19/06/2026 11:54",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163445",
+      "id_commande_v2i": "260619000027",
+      "code_cote": "B",
+      "patient": "VERI",
+      "job_cosium": "",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 11:46",
+      "detail": "Réf: VERI — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-10.25",
+        "cylindre": "5.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163431",
       "id_commande_v2i": "260619000013",
@@ -116,60 +170,6 @@
         "supplements": [
           "CLA Progressif 1.74 HC AR",
           "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163445",
-      "id_commande_v2i": "260619000027",
-      "code_cote": "B",
-      "patient": "VERI",
-      "job_cosium": "",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 10:57",
-      "detail": "Réf: VERI — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-10.25",
-        "cylindre": "5.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Polar Gris Durci",
           "Durci Inclus"
         ]
       }
