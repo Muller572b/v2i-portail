@@ -10,8 +10,70 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "19/06/2026 10:54",
+  "derniere_mise_a_jour": "19/06/2026 11:09",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163446",
+      "id_commande_v2i": "260619000028",
+      "code_cote": "B",
+      "patient": "PIETRI MADELEINE JOSIA",
+      "job_cosium": "J142010918",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 11:07",
+      "detail": "Réf: PIETRI MADELEINE JOSIA / J142010918 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 25/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Delta Equilibre 1.5 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "1.50",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Delta Equilibre 1.5 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163388",
       "id_commande_v2i": "260618000164",
