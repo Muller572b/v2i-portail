@@ -10,8 +10,60 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "19/06/2026 09:39",
+  "derniere_mise_a_jour": "19/06/2026 09:54",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163426",
+      "id_commande_v2i": "260619000008",
+      "code_cote": "B",
+      "patient": "CECCARELLI",
+      "job_cosium": "",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 09:49",
+      "detail": "Réf: CECCARELLI — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog V2i 1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog V2i 1.5 Nu"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163059",
       "id_commande_v2i": "260617000070",
@@ -75,10 +127,10 @@
       "patient": "CANET MARTHE",
       "job_cosium": "J122023522-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 16:12",
-      "detail": "Réf: CANET MARTHE / J122023522-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "19/06/2026 09:40",
+      "detail": "Réf: CANET MARTHE / J122023522-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -131,10 +183,10 @@
       "patient": "DAUBERT FRANCK",
       "job_cosium": "J122023519",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "18/06/2026 16:12",
-      "detail": "Réf: DAUBERT FRANCK / J122023519 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "19/06/2026 09:40",
+      "detail": "Réf: DAUBERT FRANCK / J122023519 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
