@@ -10,8 +10,68 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "19/06/2026 14:24",
+  "derniere_mise_a_jour": "19/06/2026 14:39",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163458",
+      "id_commande_v2i": "260619000040",
+      "code_cote": "B",
+      "patient": "FILIPPI MARYSE",
+      "job_cosium": "J149018381-01",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 14:33",
+      "detail": "Réf: FILIPPI MARYSE / J149018381-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 35,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163448",
       "id_commande_v2i": "260619000030",
@@ -63,66 +123,6 @@
         "supplements": [
           "Vista Prog V2i 1.5 Nu",
           "Teinte Dégradée au modèle A-C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163458",
-      "id_commande_v2i": "260619000040",
-      "code_cote": "B",
-      "patient": "FILIPPI MARYSE",
-      "job_cosium": "J149018381-01",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 12:43",
-      "detail": "Réf: FILIPPI MARYSE / J149018381-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 35,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
