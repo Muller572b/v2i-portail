@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": ""
   },
-  "derniere_mise_a_jour": "19/06/2026 10:24",
+  "derniere_mise_a_jour": "19/06/2026 10:39",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163421",
@@ -19,10 +19,10 @@
       "patient": "SAULI",
       "job_cosium": "",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 09:58",
-      "detail": "Réf: SAULI — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "19/06/2026 10:29",
+      "detail": "Réf: SAULI — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -67,60 +67,6 @@
           "Anti Reflet interne face CC",
           "Durci Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163433",
-      "id_commande_v2i": "260619000015",
-      "code_cote": "B",
-      "patient": "ANTHONY",
-      "job_cosium": "",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 10:21",
-      "detail": "Réf: ANTHONY — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Unifocal 1.5 Xtra Polar Gris Durci Arh",
-          "Antireflet interne face CC inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Unifocal 1.5 Xtra Polar Gris Durci Arh",
-          "Antireflet interne face CC inclus"
         ]
       }
     },
