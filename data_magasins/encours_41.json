@@ -10,7 +10,7 @@
     "email": "optique.calvi@wanadoo.fr",
     "mot_de_passe_portail": "cao"
   },
-  "derniere_mise_a_jour": "19/06/2026 11:09",
+  "derniere_mise_a_jour": "19/06/2026 11:24",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163370",
@@ -179,6 +179,62 @@
       }
     },
     {
+      "ord_numb": "            10163373",
+      "id_commande_v2i": "260618000149",
+      "code_cote": "B",
+      "patient": "PROFIR IONUT",
+      "job_cosium": "J151012160-01",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "19/06/2026 11:09",
+      "detail": "Réf: PROFIR IONUT / J151012160-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog V2i 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog V2i 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163374",
       "id_commande_v2i": "260618000150",
       "code_cote": "B",
@@ -284,62 +340,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163373",
-      "id_commande_v2i": "260618000149",
-      "code_cote": "B",
-      "patient": "PROFIR IONUT",
-      "job_cosium": "J151012160-01",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 17:43",
-      "detail": "Réf: PROFIR IONUT / J151012160-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Prog V2i 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Prog V2i 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
