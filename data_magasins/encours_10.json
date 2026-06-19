@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "19/06/2026 14:24",
+  "derniere_mise_a_jour": "19/06/2026 14:39",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163485",
@@ -73,6 +73,64 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163502",
+      "id_commande_v2i": "260619000084",
+      "code_cote": "B",
+      "patient": "BAYAM GUILLAUME",
+      "job_cosium": "J145063492",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 14:25",
+      "detail": "Réf: BAYAM GUILLAUME / J145063492 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus"
         ]
       }
     },
