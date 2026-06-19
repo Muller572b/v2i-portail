@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "19/06/2026 15:54",
+  "derniere_mise_a_jour": "19/06/2026 16:09",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163489",
@@ -183,70 +183,16 @@
       }
     },
     {
-      "ord_numb": "            10163488",
-      "id_commande_v2i": "260619000070",
-      "code_cote": "B",
-      "patient": "STUART DAVID",
-      "job_cosium": "J143054061",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 15:27",
-      "detail": "Réf: STUART DAVID / J143054061 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Orange C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Orange C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163486",
       "id_commande_v2i": "260619000068",
       "code_cote": "B",
       "patient": "ANDREANI ANTOINE",
       "job_cosium": "J143054063-01",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 15:47",
-      "detail": "Réf: ANDREANI ANTOINE / J143054063-01 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "19/06/2026 16:02",
+      "detail": "Réf: ANDREANI ANTOINE / J143054063-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -297,10 +243,10 @@
       "patient": "ANDREANI ANTOINE",
       "job_cosium": "J143054063-02",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 15:47",
-      "detail": "Réf: ANDREANI ANTOINE / J143054063-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "19/06/2026 16:02",
+      "detail": "Réf: ANDREANI ANTOINE / J143054063-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 24/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -341,6 +287,60 @@
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163488",
+      "id_commande_v2i": "260619000070",
+      "code_cote": "B",
+      "patient": "STUART DAVID",
+      "job_cosium": "J143054061",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 15:27",
+      "detail": "Réf: STUART DAVID / J143054061 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Orange C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Orange C"
         ]
       }
     },
