@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "19/06/2026 15:39",
+  "derniere_mise_a_jour": "19/06/2026 15:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163419",
@@ -1405,62 +1405,6 @@
       "oeil_gauche": null
     },
     {
-      "ord_numb": "            10163128",
-      "id_commande_v2i": "260617000139",
-      "code_cote": "B",
-      "patient": "SIMEONI BIRGIT",
-      "job_cosium": "J152045291-01",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "19/06/2026 09:17",
-      "detail": "Réf: SIMEONI BIRGIT / J152045291-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163006",
       "id_commande_v2i": "260617000017",
       "code_cote": "B",
@@ -2099,6 +2043,62 @@
         ]
       },
       "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10163128",
+      "id_commande_v2i": "260617000139",
+      "code_cote": "B",
+      "patient": "SIMEONI BIRGIT",
+      "job_cosium": "J152045291-01",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 15:48",
+      "detail": "Réf: SIMEONI BIRGIT / J152045291-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
     },
     {
       "ord_numb": "            10162924",
