@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "19/06/2026 13:39",
+  "derniere_mise_a_jour": "19/06/2026 13:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163423",
@@ -297,68 +297,6 @@
       }
     },
     {
-      "ord_numb": "            10163156",
-      "id_commande_v2i": "260617000167",
-      "code_cote": "B",
-      "patient": "FAUQUENOIS MARIE HELENE",
-      "job_cosium": "J205030406",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "19/06/2026 08:50",
-      "detail": "Réf: FAUQUENOIS MARIE HELENE / J205030406 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 40,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 165,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.6",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163097",
       "id_commande_v2i": "260617000108",
       "code_cote": "B",
@@ -583,6 +521,68 @@
         "supplements": [
           "2de Uni 1.5 Foto Gris Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163156",
+      "id_commande_v2i": "260617000167",
+      "code_cote": "B",
+      "patient": "FAUQUENOIS MARIE HELENE",
+      "job_cosium": "J205030406",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 13:46",
+      "detail": "Réf: FAUQUENOIS MARIE HELENE / J205030406 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 40,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 165,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.6",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
