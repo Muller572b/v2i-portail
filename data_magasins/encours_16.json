@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "19/06/2026 10:09",
+  "derniere_mise_a_jour": "19/06/2026 10:24",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163427",
@@ -63,6 +63,60 @@
         "supplements": [
           "Retouche verre client",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163432",
+      "id_commande_v2i": "260619000014",
+      "code_cote": "B",
+      "patient": "MION PHILIPPE",
+      "job_cosium": "J143053934",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 10:13",
+      "detail": "Réf: MION PHILIPPE / J143053934 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 35,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.00",
+        "axe": 140,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte G15 C"
         ]
       }
     },
@@ -1109,184 +1163,6 @@
       }
     },
     {
-      "ord_numb": "            10163212",
-      "id_commande_v2i": "260617000223",
-      "code_cote": "B",
-      "patient": "TOMI FELIX",
-      "job_cosium": "J143054033",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 12:00",
-      "detail": "Réf: TOMI FELIX / J143054033 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 22/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163214",
-      "id_commande_v2i": "260617000225",
-      "code_cote": "B",
-      "patient": "TONAPANI CRISTELLE",
-      "job_cosium": "J143054026",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 11:02",
-      "detail": "Réf: TONAPANI CRISTELLE / J143054026 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 120,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163221",
-      "id_commande_v2i": "260617000232",
-      "code_cote": "B",
-      "patient": "BOYER CLAUDE",
-      "job_cosium": "J143054013",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 11:02",
-      "detail": "Réf: BOYER CLAUDE / J143054013 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-0.50",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-1.00",
-        "cylindre": "2.00",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163210",
       "id_commande_v2i": "260617000221",
       "code_cote": "B",
@@ -1338,6 +1214,60 @@
         "supplements": [
           "2de O2 Minimu 1.6 Durci",
           "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163212",
+      "id_commande_v2i": "260617000223",
+      "code_cote": "B",
+      "patient": "TOMI FELIX",
+      "job_cosium": "J143054033",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 10:15",
+      "detail": "Réf: TOMI FELIX / J143054033 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
@@ -1395,6 +1325,68 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163214",
+      "id_commande_v2i": "260617000225",
+      "code_cote": "B",
+      "patient": "TONAPANI CRISTELLE",
+      "job_cosium": "J143054026",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 10:11",
+      "detail": "Réf: TONAPANI CRISTELLE / J143054026 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 120,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -1557,6 +1549,68 @@
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
           "Teinte Dégradée Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163221",
+      "id_commande_v2i": "260617000232",
+      "code_cote": "B",
+      "patient": "BOYER CLAUDE",
+      "job_cosium": "J143054013",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 10:12",
+      "detail": "Réf: BOYER CLAUDE / J143054013 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-0.50",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-1.00",
+        "cylindre": "2.00",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
