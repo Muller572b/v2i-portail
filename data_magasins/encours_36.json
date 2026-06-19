@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "19/06/2026 10:39",
+  "derniere_mise_a_jour": "19/06/2026 10:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163356",
@@ -157,62 +157,6 @@
           "Uni 1.6 Foto Gris Durci Bz",
           "AR Blue Zen Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163358",
-      "id_commande_v2i": "260618000134",
-      "code_cote": "B",
-      "patient": "CHERRIER DENIS",
-      "job_cosium": "J139053351-02",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "19/06/2026 09:45",
-      "detail": "Réf: CHERRIER DENIS / J139053351-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "D2 Prestige Flex 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "2.00",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "D2 Prestige Flex 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
         ]
       }
     },
@@ -429,6 +373,62 @@
         "supplements": [
           "D2 Uni 1.5  Polar G15 Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163358",
+      "id_commande_v2i": "260618000134",
+      "code_cote": "B",
+      "patient": "CHERRIER DENIS",
+      "job_cosium": "J139053351-02",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "19/06/2026 10:48",
+      "detail": "Réf: CHERRIER DENIS / J139053351-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "D2 Prestige Flex 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "2.00",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "D2 Prestige Flex 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
         ]
       }
     },
