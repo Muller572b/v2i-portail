@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "19/06/2026 08:39",
+  "derniere_mise_a_jour": "19/06/2026 08:54",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163273",
@@ -411,6 +411,45 @@
       }
     },
     {
+      "ord_numb": "            10163140",
+      "id_commande_v2i": "260617000151",
+      "code_cote": "L",
+      "patient": "GUIGNET MIREILLE",
+      "job_cosium": "J148017971",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 08:50",
+      "detail": "Réf: GUIGNET MIREILLE / J148017971 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 19/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 25,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "32.5",
+        "supplements": [
+          "Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163011",
       "id_commande_v2i": "260617000022",
       "code_cote": "B",
@@ -519,45 +558,6 @@
           "Uni 1.6 Polar Gris Durci Arh",
           "Antireflet interne face CC inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163140",
-      "id_commande_v2i": "260617000151",
-      "code_cote": "L",
-      "patient": "GUIGNET MIREILLE",
-      "job_cosium": "J148017971",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 12:21",
-      "detail": "Réf: GUIGNET MIREILLE / J148017971 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 19/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 25,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "32.5",
-        "supplements": [
-          "Affiny Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
