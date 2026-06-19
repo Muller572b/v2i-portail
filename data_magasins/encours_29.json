@@ -10,8 +10,64 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "19/06/2026 12:24",
+  "derniere_mise_a_jour": "19/06/2026 12:39",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163443",
+      "id_commande_v2i": "260619000025",
+      "code_cote": "B",
+      "patient": "GIARRIZZO LAURENT",
+      "job_cosium": "J121042675",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 12:26",
+      "detail": "Réf: GIARRIZZO LAURENT / J121042675 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "1.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "2.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163444",
       "id_commande_v2i": "260619000026",
@@ -117,62 +173,6 @@
       }
     },
     {
-      "ord_numb": "            10163443",
-      "id_commande_v2i": "260619000025",
-      "code_cote": "B",
-      "patient": "GIARRIZZO LAURENT",
-      "job_cosium": "J121042675",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 10:32",
-      "detail": "Réf: GIARRIZZO LAURENT / J121042675 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "1.25",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "2.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163466",
       "id_commande_v2i": "260619000048",
       "code_cote": "B",
@@ -225,6 +225,116 @@
           "Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163477",
+      "id_commande_v2i": "260619000059",
+      "code_cote": "B",
+      "patient": "GIACOBINELLI PATRICK",
+      "job_cosium": "J121042671",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 12:37",
+      "detail": "Réf: GIACOBINELLI PATRICK / J121042671 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "1.00",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163479",
+      "id_commande_v2i": "260619000061",
+      "code_cote": "B",
+      "patient": "GIACOBINELLI PATRICK",
+      "job_cosium": "J121042680",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 12:37",
+      "detail": "Réf: GIACOBINELLI PATRICK / J121042680 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "1.00",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "14.5",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "14.5",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
