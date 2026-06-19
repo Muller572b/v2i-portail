@@ -10,8 +10,66 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "19/06/2026 08:54",
+  "derniere_mise_a_jour": "19/06/2026 09:09",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10163423",
+      "id_commande_v2i": "260619000005",
+      "code_cote": "B",
+      "patient": "POIRIER JEAN CLAUDE",
+      "job_cosium": "",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 09:07",
+      "detail": "Réf: POIRIER JEAN CLAUDE — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "3.00",
+        "prisme_1": "5.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci",
+          "Optimisé",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.50",
+        "cylindre": "1.25",
+        "axe": 10,
+        "addition": "3.00",
+        "prisme_1": "4.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci",
+          "Optimisé",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      }
+    },
     {
       "ord_numb": "            10163380",
       "id_commande_v2i": "260618000156",
