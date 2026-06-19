@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "19/06/2026 15:09",
+  "derniere_mise_a_jour": "19/06/2026 15:24",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163451",
@@ -243,68 +243,6 @@
       }
     },
     {
-      "ord_numb": "            10163473",
-      "id_commande_v2i": "260619000055",
-      "code_cote": "B",
-      "patient": "GOMES CORREIA MARIA DA CONCEI",
-      "job_cosium": "J133035986-02",
-      "date_entree": "19/06/2026",
-      "date_dernier_statut": "19/06/2026 12:42",
-      "detail": "Réf: GOMES CORREIA MARIA DA CONCEI / J133035986-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 25/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.3",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163450",
       "id_commande_v2i": "260619000032",
       "code_cote": "B",
@@ -411,6 +349,120 @@
           "Uni 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163517",
+      "id_commande_v2i": "260619000099",
+      "code_cote": "B",
+      "patient": "CHOUZENOUX EDITH",
+      "job_cosium": "J133035989",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 15:19",
+      "detail": "Réf: CHOUZENOUX EDITH / J133035989 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "3.75",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.75",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163473",
+      "id_commande_v2i": "260619000055",
+      "code_cote": "B",
+      "patient": "GOMES CORREIA MARIA DA CONCEI",
+      "job_cosium": "J133035986-02",
+      "date_entree": "19/06/2026",
+      "date_dernier_statut": "19/06/2026 15:17",
+      "detail": "Réf: GOMES CORREIA MARIA DA CONCEI / J133035986-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 25/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.3",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
