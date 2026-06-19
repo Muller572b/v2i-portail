@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "19/06/2026 09:54",
+  "derniere_mise_a_jour": "19/06/2026 10:09",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163393",
@@ -763,72 +763,16 @@
       }
     },
     {
-      "ord_numb": "            10163076",
-      "id_commande_v2i": "260617000087",
-      "code_cote": "B",
-      "patient": "SUSINI JULES",
-      "job_cosium": "J145063458",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 14:35",
-      "detail": "Réf: SUSINI JULES / J145063458 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "AS Uni 1.5 Durci",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "AS Uni 1.5 Durci",
-          "Durci Inclus",
-          "Montage"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163095",
       "id_commande_v2i": "260617000106",
       "code_cote": "B",
       "patient": "CHIOCCA ENZO",
       "job_cosium": "J145063466-01",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 09:11",
-      "detail": "Réf: CHIOCCA ENZO / J145063466-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "19/06/2026 09:55",
+      "detail": "Réf: CHIOCCA ENZO / J145063466-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -881,10 +825,10 @@
       "patient": "FARAUT ISABELLE RENEE",
       "job_cosium": "J145063468",
       "date_entree": "17/06/2026",
-      "date_dernier_statut": "18/06/2026 12:21",
-      "detail": "Réf: FARAUT ISABELLE RENEE / J145063468 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "19/06/2026 09:55",
+      "detail": "Réf: FARAUT ISABELLE RENEE / J145063468 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1115,6 +1059,62 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163076",
+      "id_commande_v2i": "260617000087",
+      "code_cote": "B",
+      "patient": "SUSINI JULES",
+      "job_cosium": "J145063458",
+      "date_entree": "17/06/2026",
+      "date_dernier_statut": "19/06/2026 10:03",
+      "detail": "Réf: SUSINI JULES / J145063458 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.5 Durci",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.5 Durci",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
