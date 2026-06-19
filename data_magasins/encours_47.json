@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "19/06/2026 09:54",
+  "derniere_mise_a_jour": "19/06/2026 10:09",
   "commandes_en_cours": [
     {
       "ord_numb": "            10163246",
@@ -125,6 +125,62 @@
       }
     },
     {
+      "ord_numb": "            10163354",
+      "id_commande_v2i": "260618000130",
+      "code_cote": "B",
+      "patient": "OUSTOU FOUZIA",
+      "job_cosium": "J160020932",
+      "date_entree": "18/06/2026",
+      "date_dernier_statut": "19/06/2026 10:05",
+      "detail": "Réf: OUSTOU FOUZIA / J160020932 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 24/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10163392",
       "id_commande_v2i": "260618000168",
       "code_cote": "B",
@@ -187,10 +243,10 @@
       "patient": "BOUATAOUN LINDA",
       "job_cosium": "J160020930",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 14:43",
-      "detail": "Réf: BOUATAOUN LINDA / J160020930 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "19/06/2026 10:08",
+      "detail": "Réf: BOUATAOUN LINDA / J160020930 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 19/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -239,10 +295,10 @@
       "patient": "BARBOSA FERREIRA ANTONIO",
       "job_cosium": "J160020936",
       "date_entree": "18/06/2026",
-      "date_dernier_statut": "19/06/2026 09:24",
-      "detail": "Réf: BARBOSA FERREIRA ANTONIO / J160020936 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "19/06/2026 10:08",
+      "detail": "Réf: BARBOSA FERREIRA ANTONIO / J160020936 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -287,62 +343,6 @@
           "Anti Reflet CLA",
           "Durci Inclus",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163354",
-      "id_commande_v2i": "260618000130",
-      "code_cote": "B",
-      "patient": "OUSTOU FOUZIA",
-      "job_cosium": "J160020932",
-      "date_entree": "18/06/2026",
-      "date_dernier_statut": "18/06/2026 16:31",
-      "detail": "Réf: OUSTOU FOUZIA / J160020932 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 24/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -457,16 +457,74 @@
       }
     },
     {
+      "ord_numb": "            10162969",
+      "id_commande_v2i": "260616000210",
+      "code_cote": "B",
+      "patient": "GOGEON MATHIS",
+      "job_cosium": "J160020917",
+      "date_entree": "16/06/2026",
+      "date_dernier_statut": "17/06/2026 07:45",
+      "detail": "Réf: GOGEON MATHIS / J160020917 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.25",
+        "cylindre": "5.75",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.1",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista AS Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Power Gold"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.50",
+        "cylindre": "4.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista AS Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Power Gold"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10162914",
       "id_commande_v2i": "260616000155",
       "code_cote": "B",
       "patient": "VIAN MARION",
       "job_cosium": "J160020914",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "18/06/2026 10:25",
-      "detail": "Réf: VIAN MARION / J160020914 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "19/06/2026 10:08",
+      "detail": "Réf: VIAN MARION / J160020914 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -527,10 +585,10 @@
       "patient": "GUISIPELLI ELISE",
       "job_cosium": "J160020916",
       "date_entree": "16/06/2026",
-      "date_dernier_statut": "18/06/2026 15:12",
-      "detail": "Réf: GUISIPELLI ELISE / J160020916 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "19/06/2026 10:08",
+      "detail": "Réf: GUISIPELLI ELISE / J160020916 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -579,64 +637,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10162969",
-      "id_commande_v2i": "260616000210",
-      "code_cote": "B",
-      "patient": "GOGEON MATHIS",
-      "job_cosium": "J160020917",
-      "date_entree": "16/06/2026",
-      "date_dernier_statut": "17/06/2026 07:45",
-      "detail": "Réf: GOGEON MATHIS / J160020917 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "5.75",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.1",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista AS Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Power Gold"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.50",
-        "cylindre": "4.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista AS Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Power Gold"
         ]
       }
     },
