@@ -5,8 +5,61 @@
     "nom": "Neri Optique (ONA)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "19/06/2026 à 14:51",
+  "derniere_validation": "24/06/2026 à 14:55",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10163478",
+      "id_commande_v2i": "260619000060",
+      "id_bl_v2i": "260619000060",
+      "code_cote": "B",
+      "patient": "CARVALHO DOS SANTOS RODRIGO",
+      "job_cosium": "J700006072",
+      "detail": "Réf: CARVALHO DOS SANTOS RODRIGO / J700006072 — (Stock) — État: Expédiée",
+      "date_entree": "19/06/2026",
+      "date_expedition": "20/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "20/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10162233",
       "id_commande_v2i": "260612000093",
@@ -61,6 +114,59 @@
           "Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10160667",
+      "id_commande_v2i": "260604000020",
+      "id_bl_v2i": "260604000020",
+      "code_cote": "B",
+      "patient": "AYADI AKRI",
+      "job_cosium": "J700006044-02",
+      "detail": "Réf: AYADI AKRI / J700006044-02 — (Stock) — État: Expédiée",
+      "date_entree": "04/06/2026",
+      "date_expedition": "13/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "13/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -167,59 +273,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10160667",
-      "id_commande_v2i": "260604000020",
-      "id_bl_v2i": "260604000020",
-      "code_cote": "B",
-      "patient": "AYADI AKRI",
-      "job_cosium": "J700006044-02",
-      "detail": "Réf: AYADI AKRI / J700006044-02 — (Stock) — État: Expédiée",
-      "date_entree": "04/06/2026",
-      "date_expedition": "13/06/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "13/06/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
