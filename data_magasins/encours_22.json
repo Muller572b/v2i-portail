@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "25/06/2026 10:31",
+  "derniere_mise_a_jour": "25/06/2026 11:01",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164202",
@@ -421,6 +421,68 @@
       }
     },
     {
+      "ord_numb": "            10164130",
+      "id_commande_v2i": "260623000149",
+      "code_cote": "B",
+      "patient": "CARBONI CATHERINE",
+      "job_cosium": "J134029400-01",
+      "date_entree": "23/06/2026",
+      "date_dernier_statut": "25/06/2026 10:38",
+      "detail": "Réf: CARBONI CATHERINE / J134029400-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "2.75",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Delta Lecture2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "2.75",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Delta Lecture2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164128",
       "id_commande_v2i": "260623000147",
       "code_cote": "B",
@@ -535,68 +597,6 @@
         "hauteur": "25.0",
         "supplements": [
           "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164130",
-      "id_commande_v2i": "260623000149",
-      "code_cote": "B",
-      "patient": "CARBONI CATHERINE",
-      "job_cosium": "J134029400-01",
-      "date_entree": "23/06/2026",
-      "date_dernier_statut": "24/06/2026 11:50",
-      "detail": "Réf: CARBONI CATHERINE / J134029400-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "2.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Lecture2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "2.75",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Lecture2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
