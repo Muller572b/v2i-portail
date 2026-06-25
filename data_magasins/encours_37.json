@@ -10,68 +10,8 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "25/06/2026 09:16",
+  "derniere_mise_a_jour": "25/06/2026 10:16",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10164214",
-      "id_commande_v2i": "260624000019",
-      "code_cote": "B",
-      "patient": "BIONDI JEAN-LOUIS",
-      "job_cosium": "J138020588",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "24/06/2026 12:14",
-      "detail": "Réf: BIONDI JEAN-LOUIS / J138020588 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-1.25",
-        "cylindre": "1.50",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
     {
       "ord_numb": "            10164216",
       "id_commande_v2i": "260624000021",
@@ -188,6 +128,66 @@
           "Delta Confort2 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164214",
+      "id_commande_v2i": "260624000019",
+      "code_cote": "B",
+      "patient": "BIONDI JEAN-LOUIS",
+      "job_cosium": "J138020588",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "25/06/2026 09:42",
+      "detail": "Réf: BIONDI JEAN-LOUIS / J138020588 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.25",
+        "cylindre": "1.50",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
