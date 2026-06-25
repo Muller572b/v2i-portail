@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "25/06/2026 15:18",
+  "derniere_mise_a_jour": "25/06/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164451",
@@ -675,58 +675,56 @@
       }
     },
     {
-      "ord_numb": "            10164219",
-      "id_commande_v2i": "260624000024",
+      "ord_numb": "            10164488",
+      "id_commande_v2i": "260625000113",
       "code_cote": "B",
-      "patient": "CHARLAIX SMILLA",
-      "job_cosium": "J133036047-01",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "25/06/2026 10:38",
-      "detail": "Réf: CHARLAIX SMILLA / J133036047-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 30/06",
+      "patient": "BALZA VICTORIA",
+      "job_cosium": "J133036071",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 15:19",
+      "detail": "Réf: BALZA VICTORIA / J133036071 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 29/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
+        "verre": "Stock",
+        "type": "Stock",
         "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 45,
+        "sphere": "-3.00",
+        "cylindre": "0.25",
+        "axe": 50,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
+        "ecart_pupillaire": "28.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Tchin St. Uni 1.5",
+          "Teinte Gris C"
         ]
       },
       "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
+        "verre": "Stock",
+        "type": "Stock",
         "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 155,
+        "sphere": "-3.00",
+        "cylindre": "1.25",
+        "axe": 70,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
+        "ecart_pupillaire": "30.0",
         "hauteur": "0.0",
         "supplements": [
-          "Tchin Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Tchin St. Uni 1.5",
+          "Teinte Gris C"
         ]
       }
     },
@@ -973,6 +971,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164219",
+      "id_commande_v2i": "260624000024",
+      "code_cote": "B",
+      "patient": "CHARLAIX SMILLA",
+      "job_cosium": "J133036047-01",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: CHARLAIX SMILLA / J133036047-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
