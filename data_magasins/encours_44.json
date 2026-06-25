@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "25/06/2026 15:18",
+  "derniere_mise_a_jour": "25/06/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164416",
@@ -69,110 +69,6 @@
       }
     },
     {
-      "ord_numb": "            10164396",
-      "id_commande_v2i": "260625000021",
-      "code_cote": "B",
-      "patient": "DUBREUIL ANDRE",
-      "job_cosium": "J150010203",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 11:17",
-      "detail": "Réf: DUBREUIL ANDRE / J150010203 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 25/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164406",
-      "id_commande_v2i": "260625000031",
-      "code_cote": "B",
-      "patient": "SANTINI ANTOINE",
-      "job_cosium": "J150010204",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 11:59",
-      "detail": "Réf: SANTINI ANTOINE / J150010204 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 25/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "1.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164447",
       "id_commande_v2i": "260625000072",
       "code_cote": "B",
@@ -221,6 +117,110 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164396",
+      "id_commande_v2i": "260625000021",
+      "code_cote": "B",
+      "patient": "DUBREUIL ANDRE",
+      "job_cosium": "J150010203",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: DUBREUIL ANDRE / J150010203 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 25/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164406",
+      "id_commande_v2i": "260625000031",
+      "code_cote": "B",
+      "patient": "SANTINI ANTOINE",
+      "job_cosium": "J150010204",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: SANTINI ANTOINE / J150010204 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 25/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "1.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
@@ -455,10 +455,10 @@
       "patient": "RICHARD TADZIO",
       "job_cosium": "J150010196",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "24/06/2026 15:48",
-      "detail": "Réf: RICHARD TADZIO / J150010196 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: RICHARD TADZIO / J150010196 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -507,10 +507,10 @@
       "patient": "AUDRIN CECILE",
       "job_cosium": "J150010202",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "24/06/2026 17:33",
-      "detail": "Réf: AUDRIN CECILE / J150010202 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: AUDRIN CECILE / J150010202 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -559,10 +559,10 @@
       "patient": "BENAOUDA TOUFFIR",
       "job_cosium": "J150010198-02",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "24/06/2026 17:33",
-      "detail": "Réf: BENAOUDA TOUFFIR / J150010198-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: BENAOUDA TOUFFIR / J150010198-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -667,10 +667,10 @@
       "patient": "CALENZO Giuseppe",
       "job_cosium": "J150010194",
       "date_entree": "23/06/2026",
-      "date_dernier_statut": "25/06/2026 14:21",
-      "detail": "Réf: CALENZO Giuseppe / J150010194 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: CALENZO Giuseppe / J150010194 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 29/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -835,10 +835,10 @@
       "patient": "CIORNEI CRENGUTA",
       "job_cosium": "J150010184",
       "date_entree": "22/06/2026",
-      "date_dernier_statut": "25/06/2026 14:26",
-      "detail": "Réf: CIORNEI CRENGUTA / J150010184 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: CIORNEI CRENGUTA / J150010184 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -895,10 +895,10 @@
       "patient": "BONNEAU JEAN CLAUDE",
       "job_cosium": "J150010179-01",
       "date_entree": "19/06/2026",
-      "date_dernier_statut": "24/06/2026 16:56",
-      "detail": "Réf: BONNEAU JEAN CLAUDE / J150010179-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:21",
+      "detail": "Réf: BONNEAU JEAN CLAUDE / J150010179-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
