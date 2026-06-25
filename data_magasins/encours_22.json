@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "25/06/2026 14:22",
+  "derniere_mise_a_jour": "25/06/2026 14:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164269",
@@ -699,64 +699,6 @@
       }
     },
     {
-      "ord_numb": "            10163967",
-      "id_commande_v2i": "260622000310",
-      "code_cote": "B",
-      "patient": "CARBONI PIERRICK",
-      "job_cosium": "J134029386-02",
-      "date_entree": "22/06/2026",
-      "date_dernier_statut": "25/06/2026 09:04",
-      "detail": "Réf: CARBONI PIERRICK / J134029386-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163674",
       "id_commande_v2i": "260622000017",
       "code_cote": "B",
@@ -869,6 +811,64 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163967",
+      "id_commande_v2i": "260622000310",
+      "code_cote": "B",
+      "patient": "CARBONI PIERRICK",
+      "job_cosium": "J134029386-02",
+      "date_entree": "22/06/2026",
+      "date_dernier_statut": "25/06/2026 14:29",
+      "detail": "Réf: CARBONI PIERRICK / J134029386-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
         ]
       }
     },
