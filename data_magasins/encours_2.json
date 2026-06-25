@@ -10,7 +10,7 @@
     "email": "a36@balbi.fr",
     "mot_de_passe_portail": "a36"
   },
-  "derniere_mise_a_jour": "25/06/2026 10:16",
+  "derniere_mise_a_jour": "25/06/2026 10:31",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164100",
@@ -73,70 +73,6 @@
           "Durci Inclus",
           "Individualisation",
           "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164101",
-      "id_commande_v2i": "260623000120",
-      "code_cote": "B",
-      "patient": "BORODINE MARTINE",
-      "job_cosium": "J123013579-01",
-      "date_entree": "23/06/2026",
-      "date_dernier_statut": "24/06/2026 10:58",
-      "detail": "Réf: BORODINE MARTINE / J123013579-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Teinte Noir C",
           "Précalibrage Inclus",
           "Optimisé"
         ]
@@ -246,6 +182,70 @@
         ]
       },
       "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10164101",
+      "id_commande_v2i": "260623000120",
+      "code_cote": "B",
+      "patient": "BORODINE MARTINE",
+      "job_cosium": "J123013579-01",
+      "date_entree": "23/06/2026",
+      "date_dernier_statut": "25/06/2026 10:18",
+      "detail": "Réf: BORODINE MARTINE / J123013579-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Teinte Noir C",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
     },
     {
       "ord_numb": "            10163253",
