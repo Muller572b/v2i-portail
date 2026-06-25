@@ -10,8 +10,64 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "25/06/2026 11:01",
+  "derniere_mise_a_jour": "25/06/2026 11:31",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10164416",
+      "id_commande_v2i": "260625000041",
+      "code_cote": "B",
+      "patient": "TUMEO ARMAND",
+      "job_cosium": "J150010205",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:24",
+      "detail": "Réf: TUMEO ARMAND / J150010205 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 125,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164396",
       "id_commande_v2i": "260625000021",
@@ -19,10 +75,10 @@
       "patient": "DUBREUIL ANDRE",
       "job_cosium": "J150010203",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:14",
-      "detail": "Réf: DUBREUIL ANDRE / J150010203 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "25/06/2026 11:17",
+      "detail": "Réf: DUBREUIL ANDRE / J150010203 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -113,62 +169,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164416",
-      "id_commande_v2i": "260625000041",
-      "code_cote": "B",
-      "patient": "TUMEO ARMAND",
-      "job_cosium": "J150010205",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:49",
-      "detail": "Réf: TUMEO ARMAND / J150010205 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 125,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
