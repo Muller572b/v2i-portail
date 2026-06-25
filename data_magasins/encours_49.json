@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "25/06/2026 19:18",
+  "derniere_mise_a_jour": "25/06/2026 19:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164420",
@@ -277,6 +277,58 @@
         "supplements": [
           "AS Uni 1.5 Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164586",
+      "id_commande_v2i": "260625000211",
+      "code_cote": "B",
+      "patient": "BRUCKERT GAEL",
+      "job_cosium": "J205030500",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 19:31",
+      "detail": "Réf: BRUCKERT GAEL / J205030500 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
     },
