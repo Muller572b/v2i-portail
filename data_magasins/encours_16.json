@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "25/06/2026 09:16",
+  "derniere_mise_a_jour": "25/06/2026 10:16",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164171",
@@ -423,68 +423,6 @@
       }
     },
     {
-      "ord_numb": "            10164170",
-      "id_commande_v2i": "260623000189",
-      "code_cote": "B",
-      "patient": "VERSINI STEPHANIE",
-      "job_cosium": "J143054124-01",
-      "date_entree": "23/06/2026",
-      "date_dernier_statut": "24/06/2026 11:02",
-      "detail": "Réf: VERSINI STEPHANIE / J143054124-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Maximu2 1.5 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Maximu2 1.5 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164174",
       "id_commande_v2i": "260623000193",
       "code_cote": "B",
@@ -827,6 +765,68 @@
           "Antireflet interne face CC inclus",
           "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164170",
+      "id_commande_v2i": "260623000189",
+      "code_cote": "B",
+      "patient": "VERSINI STEPHANIE",
+      "job_cosium": "J143054124-01",
+      "date_entree": "23/06/2026",
+      "date_dernier_statut": "25/06/2026 09:37",
+      "detail": "Réf: VERSINI STEPHANIE / J143054124-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Maximu2 1.5 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Maximu2 1.5 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
