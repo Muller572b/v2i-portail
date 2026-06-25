@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "25/06/2026 11:01",
+  "derniere_mise_a_jour": "25/06/2026 11:31",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164376",
@@ -125,6 +125,64 @@
       }
     },
     {
+      "ord_numb": "            10164379",
+      "id_commande_v2i": "260625000004",
+      "code_cote": "B",
+      "patient": "CANUTI ELISABETH",
+      "job_cosium": "",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:08",
+      "detail": "Réf: CANUTI ELISABETH — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164380",
       "id_commande_v2i": "260625000005",
       "code_cote": "B",
@@ -181,70 +239,16 @@
       }
     },
     {
-      "ord_numb": "            10164403",
-      "id_commande_v2i": "260625000028",
-      "code_cote": "B",
-      "patient": "ALMEIDA MOREIRA RUI MANUEL",
-      "job_cosium": "J144102078-01",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 11:00",
-      "detail": "Réf: ALMEIDA MOREIRA RUI MANUEL / J144102078-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu",
-          "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164404",
       "id_commande_v2i": "260625000029",
       "code_cote": "B",
       "patient": "ALMEIDA MOREIRA RUI MANUEL",
       "job_cosium": "J144102078-02",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:56",
-      "detail": "Réf: ALMEIDA MOREIRA RUI MANUEL / J144102078-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "25/06/2026 11:08",
+      "detail": "Réf: ALMEIDA MOREIRA RUI MANUEL / J144102078-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 29/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -284,6 +288,60 @@
         "hauteur": "19.0",
         "supplements": [
           "Jeune 1er HD 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164407",
+      "id_commande_v2i": "260625000032",
+      "code_cote": "B",
+      "patient": "PREZIOSI",
+      "job_cosium": "",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:29",
+      "detail": "Réf: PREZIOSI — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-4.75",
+        "cylindre": "2.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.00",
+        "cylindre": "4.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Polar G15 Durci",
           "Durci Inclus"
         ]
       }
@@ -393,6 +451,162 @@
       }
     },
     {
+      "ord_numb": "            10164393",
+      "id_commande_v2i": "260625000018",
+      "code_cote": "B",
+      "patient": "PALMA PATRICK",
+      "job_cosium": "J144102003",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:17",
+      "detail": "Réf: PALMA PATRICK / J144102003 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 25/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164394",
+      "id_commande_v2i": "260625000019",
+      "code_cote": "B",
+      "patient": "PALMA PATRICK",
+      "job_cosium": "J144102002",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:17",
+      "detail": "Réf: PALMA PATRICK / J144102002 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 25/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164395",
+      "id_commande_v2i": "260625000020",
+      "code_cote": "B",
+      "patient": "BARILI NATALIE",
+      "job_cosium": "J144101976",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:17",
+      "detail": "Réf: BARILI NATALIE / J144101976 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 25/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164388",
       "id_commande_v2i": "260625000013",
       "code_cote": "B",
@@ -447,128 +661,43 @@
       }
     },
     {
-      "ord_numb": "            10164393",
-      "id_commande_v2i": "260625000018",
+      "ord_numb": "            10164422",
+      "id_commande_v2i": "260625000047",
       "code_cote": "B",
-      "patient": "PALMA PATRICK",
-      "job_cosium": "J144102003",
+      "patient": "GUERRINI FRANCK",
+      "job_cosium": "J144102080-01",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:13",
-      "detail": "Réf: PALMA PATRICK / J144102003 — (Stock) — État: Commande prise en compte",
+      "date_dernier_statut": "25/06/2026 11:25",
+      "detail": "Réf: GUERRINI FRANCK / J144102080-01 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 25/06 ",
+      "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 70,
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 10,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
+          "Afflelou St. Uni 1.5 Durci"
         ]
       },
       "oeil_gauche": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164394",
-      "id_commande_v2i": "260625000019",
-      "code_cote": "B",
-      "patient": "PALMA PATRICK",
-      "job_cosium": "J144102002",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:13",
-      "detail": "Réf: PALMA PATRICK / J144102002 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 25/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164395",
-      "id_commande_v2i": "260625000020",
-      "code_cote": "B",
-      "patient": "BARILI NATALIE",
-      "job_cosium": "J144101976",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:13",
-      "detail": "Réf: BARILI NATALIE / J144101976 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 25/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.50",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
         "axe": 170,
         "addition": "0.00",
         "prisme_1": "0.00",
@@ -576,141 +705,120 @@
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
+          "Afflelou St. Uni 1.5 Durci"
         ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 15,
+      }
+    },
+    {
+      "ord_numb": "            10164423",
+      "id_commande_v2i": "260625000048",
+      "code_cote": "B",
+      "patient": "GUERRINI FRANCK",
+      "job_cosium": "J144102080-02",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 11:25",
+      "detail": "Réf: GUERRINI FRANCK / J144102080-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
+          "Tchin Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
     {
-      "ord_numb": "            10164407",
-      "id_commande_v2i": "260625000032",
+      "ord_numb": "            10164403",
+      "id_commande_v2i": "260625000028",
       "code_cote": "B",
-      "patient": "PREZIOSI",
-      "job_cosium": "",
+      "patient": "ALMEIDA MOREIRA RUI MANUEL",
+      "job_cosium": "J144102078-01",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:40",
-      "detail": "Réf: PREZIOSI — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "25/06/2026 11:24",
+      "detail": "Réf: ALMEIDA MOREIRA RUI MANUEL / J144102078-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 29/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "-4.75",
-        "cylindre": "2.25",
-        "axe": 90,
-        "addition": "0.00",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.0",
         "supplements": [
-          "Uni 1.6 Polar G15 Durci",
-          "Durci Inclus"
+          "Tchin Jeune 1er HD  1.5 Nu",
+          "Teinte Dégradée Gris C"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "65",
-        "sphere": "-5.00",
-        "cylindre": "4.50",
-        "axe": 85,
-        "addition": "0.00",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.0",
         "supplements": [
-          "Uni 1.6 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164379",
-      "id_commande_v2i": "260625000004",
-      "code_cote": "B",
-      "patient": "CANUTI ELISABETH",
-      "job_cosium": "",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:52",
-      "detail": "Réf: CANUTI ELISABETH — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Optimisé"
+          "Tchin Jeune 1er HD  1.5 Nu",
+          "Teinte Dégradée Gris C"
         ]
       }
     },
@@ -1735,6 +1843,58 @@
       }
     },
     {
+      "ord_numb": "            10163996",
+      "id_commande_v2i": "260623000015",
+      "code_cote": "B",
+      "patient": "LUCCINI ALEX",
+      "job_cosium": "J144102014-03",
+      "date_entree": "23/06/2026",
+      "date_dernier_statut": "25/06/2026 11:29",
+      "detail": "Réf: LUCCINI ALEX / J144102014-03 — (Stock) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 23/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Afflelou St. Uni 1.5 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "1.50",
+        "cylindre": "1.00",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Afflelou St. Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164108",
       "id_commande_v2i": "260623000127",
       "code_cote": "B",
@@ -1787,6 +1947,58 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163998",
+      "id_commande_v2i": "260623000017",
+      "code_cote": "B",
+      "patient": "LUCCINI ALEX",
+      "job_cosium": "J144102014-01",
+      "date_entree": "23/06/2026",
+      "date_dernier_statut": "25/06/2026 11:17",
+      "detail": "Réf: LUCCINI ALEX / J144102014-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "1.50",
+        "cylindre": "1.00",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -1900,110 +2112,6 @@
           "Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163996",
-      "id_commande_v2i": "260623000015",
-      "code_cote": "B",
-      "patient": "LUCCINI ALEX",
-      "job_cosium": "J144102014-03",
-      "date_entree": "23/06/2026",
-      "date_dernier_statut": "23/06/2026 09:37",
-      "detail": "Réf: LUCCINI ALEX / J144102014-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Afflelou St. Uni 1.5 Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.50",
-        "cylindre": "1.00",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Afflelou St. Uni 1.5 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163998",
-      "id_commande_v2i": "260623000017",
-      "code_cote": "B",
-      "patient": "LUCCINI ALEX",
-      "job_cosium": "J144102014-01",
-      "date_entree": "23/06/2026",
-      "date_dernier_statut": "23/06/2026 09:37",
-      "detail": "Réf: LUCCINI ALEX / J144102014-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "1.50",
-        "cylindre": "1.00",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
