@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "25/06/2026 17:03",
+  "derniere_mise_a_jour": "25/06/2026 17:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164457",
@@ -225,62 +225,6 @@
       }
     },
     {
-      "ord_numb": "            10164322",
-      "id_commande_v2i": "260624000127",
-      "code_cote": "B",
-      "patient": "GERONIMI LOUISE",
-      "job_cosium": "J131018894",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "25/06/2026 14:51",
-      "detail": "Réf: GERONIMI LOUISE / J131018894 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "2.00",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.25",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164271",
       "id_commande_v2i": "260624000076",
       "code_cote": "B",
@@ -332,6 +276,62 @@
         "supplements": [
           "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164322",
+      "id_commande_v2i": "260624000127",
+      "code_cote": "B",
+      "patient": "GERONIMI LOUISE",
+      "job_cosium": "J131018894",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "25/06/2026 17:14",
+      "detail": "Réf: GERONIMI LOUISE / J131018894 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "2.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.25",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
