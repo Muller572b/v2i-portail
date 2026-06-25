@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "25/06/2026 11:46",
+  "derniere_mise_a_jour": "25/06/2026 12:01",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164414",
@@ -19,10 +19,10 @@
       "patient": "PERISSE LOU",
       "job_cosium": "J121042740",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 10:49",
-      "detail": "Réf: PERISSE LOU / J121042740 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "25/06/2026 11:59",
+      "detail": "Réf: PERISSE LOU / J121042740 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -61,6 +61,60 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164442",
+      "id_commande_v2i": "260625000067",
+      "code_cote": "B",
+      "patient": "TORRE M NOELLE",
+      "job_cosium": "J121042742",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 12:01",
+      "detail": "Réf: TORRE M NOELLE / J121042742 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "20.0",
+        "supplements": [
+          "Media 1.5 Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 160,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "20.0",
+        "supplements": [
+          "Media 1.5 Polar Brun Durci",
+          "Durci Inclus"
         ]
       }
     },
