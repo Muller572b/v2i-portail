@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "25/06/2026 17:18",
+  "derniere_mise_a_jour": "25/06/2026 17:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164416",
@@ -225,62 +225,6 @@
       }
     },
     {
-      "ord_numb": "            10164326",
-      "id_commande_v2i": "260624000131",
-      "code_cote": "B",
-      "patient": "DE CASTELLI SABRINA",
-      "job_cosium": "J150010200",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "25/06/2026 14:51",
-      "detail": "Réf: DE CASTELLI SABRINA / J150010200 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Media 1.5 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Media 1.5 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164307",
       "id_commande_v2i": "260624000112",
       "code_cote": "B",
@@ -443,6 +387,62 @@
         "hauteur": "30.0",
         "supplements": [
           "Vista Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164326",
+      "id_commande_v2i": "260624000131",
+      "code_cote": "B",
+      "patient": "DE CASTELLI SABRINA",
+      "job_cosium": "J150010200",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "25/06/2026 17:20",
+      "detail": "Réf: DE CASTELLI SABRINA / J150010200 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Media 1.5 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Media 1.5 Trans G15 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
