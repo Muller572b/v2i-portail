@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "25/06/2026 15:18",
+  "derniere_mise_a_jour": "25/06/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164420",
@@ -62,6 +62,62 @@
         "hauteur": "0.0",
         "supplements": [
           "2de Uni 1.5  Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164486",
+      "id_commande_v2i": "260625000111",
+      "code_cote": "B",
+      "patient": "COUMAILLEAU NATHALIE",
+      "job_cosium": "J205030496",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 15:19",
+      "detail": "Réf: COUMAILLEAU NATHALIE / J205030496 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "23.4",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.4",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
@@ -295,10 +351,10 @@
       "patient": "MATTEI NUNZIA",
       "job_cosium": "J205030486-01",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "25/06/2026 15:01",
-      "detail": "Réf: MATTEI NUNZIA / J205030486-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "25/06/2026 15:20",
+      "detail": "Réf: MATTEI NUNZIA / J205030486-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 30/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
