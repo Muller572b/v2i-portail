@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "25/06/2026 11:46",
+  "derniere_mise_a_jour": "25/06/2026 12:01",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164368",
@@ -177,6 +177,60 @@
       }
     },
     {
+      "ord_numb": "            10164371",
+      "id_commande_v2i": "260624000176",
+      "code_cote": "B",
+      "patient": "BERNARDI LAUREVA",
+      "job_cosium": "J139053403-01",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "25/06/2026 11:59",
+      "detail": "Réf: BERNARDI LAUREVA / J139053403-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Non Durci",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Non Durci",
+          "Teinte Dégradée Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164373",
       "id_commande_v2i": "260624000178",
       "code_cote": "B",
@@ -277,60 +331,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164371",
-      "id_commande_v2i": "260624000176",
-      "code_cote": "B",
-      "patient": "BERNARDI LAUREVA",
-      "job_cosium": "J139053403-01",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "25/06/2026 10:39",
-      "detail": "Réf: BERNARDI LAUREVA / J139053403-01 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Non Durci",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Non Durci",
-          "Teinte Dégradée Gris C"
         ]
       }
     },
