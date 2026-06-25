@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "25/06/2026 11:46",
+  "derniere_mise_a_jour": "25/06/2026 12:01",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164419",
@@ -19,10 +19,10 @@
       "patient": "BOURDEILH STEACY MAILY",
       "job_cosium": "J205030494-01",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 11:07",
-      "detail": "Réf: BOURDEILH STEACY MAILY / J205030494-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "25/06/2026 11:59",
+      "detail": "Réf: BOURDEILH STEACY MAILY / J205030494-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -403,6 +403,60 @@
       }
     },
     {
+      "ord_numb": "            10164256",
+      "id_commande_v2i": "260624000061",
+      "code_cote": "B",
+      "patient": "COLONNA MARIE-PIERRE",
+      "job_cosium": "J205030479",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "25/06/2026 11:59",
+      "detail": "Réf: COLONNA MARIE-PIERRE / J205030479 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.4",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164257",
       "id_commande_v2i": "260624000062",
       "code_cote": "B",
@@ -513,60 +567,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164256",
-      "id_commande_v2i": "260624000061",
-      "code_cote": "B",
-      "patient": "COLONNA MARIE-PIERRE",
-      "job_cosium": "J205030479",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "25/06/2026 10:39",
-      "detail": "Réf: COLONNA MARIE-PIERRE / J205030479 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 135,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.4",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Dégradée Brun C"
         ]
       }
     },
