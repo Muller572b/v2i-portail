@@ -10,7 +10,7 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "25/06/2026 15:33",
+  "derniere_mise_a_jour": "25/06/2026 15:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164433",
@@ -189,16 +189,68 @@
       }
     },
     {
+      "ord_numb": "            10164489",
+      "id_commande_v2i": "260625000114",
+      "code_cote": "B",
+      "patient": "BURESI CHRISTIAN",
+      "job_cosium": "J132017104",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 15:37",
+      "detail": "Réf: BURESI CHRISTIAN / J132017104 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-6.00",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-6.25",
+        "cylindre": "0.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164293",
       "id_commande_v2i": "260624000098",
       "code_cote": "B",
       "patient": "CASTA JEAN FREDERIC",
       "job_cosium": "J132017097",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "24/06/2026 16:42",
-      "detail": "Réf: CASTA JEAN FREDERIC / J132017097 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:44",
+      "detail": "Réf: CASTA JEAN FREDERIC / J132017097 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -247,10 +299,10 @@
       "patient": "CHARMILLON MAXIME",
       "job_cosium": "J132017094-02",
       "date_entree": "23/06/2026",
-      "date_dernier_statut": "25/06/2026 08:58",
-      "detail": "Réf: CHARMILLON MAXIME / J132017094-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:44",
+      "detail": "Réf: CHARMILLON MAXIME / J132017094-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -301,10 +353,10 @@
       "patient": "CHARMILLON MAXIME",
       "job_cosium": "J132017094-01",
       "date_entree": "23/06/2026",
-      "date_dernier_statut": "24/06/2026 17:04",
-      "detail": "Réf: CHARMILLON MAXIME / J132017094-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "25/06/2026 15:44",
+      "detail": "Réf: CHARMILLON MAXIME / J132017094-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 29/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
