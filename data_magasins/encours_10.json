@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "26/06/2026 15:03",
+  "derniere_mise_a_jour": "26/06/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164627",
@@ -959,6 +959,60 @@
       }
     },
     {
+      "ord_numb": "            10164408",
+      "id_commande_v2i": "260625000033",
+      "code_cote": "B",
+      "patient": "GENTILI MICHEL ANGE",
+      "job_cosium": "J145063566",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 15:12",
+      "detail": "Réf: GENTILI MICHEL ANGE / J145063566 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "1.50",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164441",
       "id_commande_v2i": "260625000066",
       "code_cote": "B",
@@ -1169,60 +1223,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164408",
-      "id_commande_v2i": "260625000033",
-      "code_cote": "B",
-      "patient": "GENTILI MICHEL ANGE",
-      "job_cosium": "J145063566",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 10:54",
-      "detail": "Réf: GENTILI MICHEL ANGE / J145063566 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "1.50",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
         ]
       }
     },
