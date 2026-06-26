@@ -10,64 +10,8 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "26/06/2026 09:03",
+  "derniere_mise_a_jour": "26/06/2026 09:18",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10164416",
-      "id_commande_v2i": "260625000041",
-      "code_cote": "B",
-      "patient": "TUMEO ARMAND",
-      "job_cosium": "J150010205",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 11:34",
-      "detail": "Réf: TUMEO ARMAND / J150010205 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 125,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10164447",
       "id_commande_v2i": "260625000072",
@@ -117,6 +61,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164416",
+      "id_commande_v2i": "260625000041",
+      "code_cote": "B",
+      "patient": "TUMEO ARMAND",
+      "job_cosium": "J150010205",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 09:09",
+      "detail": "Réf: TUMEO ARMAND / J150010205 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 125,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -403,10 +403,10 @@
       "patient": "MAZZONI DOMINIQUE",
       "job_cosium": "J150010192-01",
       "date_entree": "23/06/2026",
-      "date_dernier_statut": "25/06/2026 08:49",
-      "detail": "Réf: MAZZONI DOMINIQUE / J150010192-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "26/06/2026 09:05",
+      "detail": "Réf: MAZZONI DOMINIQUE / J150010192-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 29/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
