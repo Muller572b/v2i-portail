@@ -10,60 +10,8 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "26/06/2026 14:18",
+  "derniere_mise_a_jour": "26/06/2026 14:33",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10164681",
-      "id_commande_v2i": "260626000083",
-      "code_cote": "B",
-      "patient": "GUGLIELMI AUGUSTE DOMINIQ",
-      "job_cosium": "J122023499",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 12:06",
-      "detail": "Réf: GUGLIELMI AUGUSTE DOMINIQ / J122023499 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
     {
       "ord_numb": "            10164603",
       "id_commande_v2i": "260626000005",
@@ -343,6 +291,58 @@
       }
     },
     {
+      "ord_numb": "            10164681",
+      "id_commande_v2i": "260626000083",
+      "code_cote": "B",
+      "patient": "GUGLIELMI AUGUSTE DOMINIQ",
+      "job_cosium": "J122023499",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 14:19",
+      "detail": "Réf: GUGLIELMI AUGUSTE DOMINIQ / J122023499 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164519",
       "id_commande_v2i": "260625000144",
       "code_cote": "B",
@@ -405,10 +405,10 @@
       "patient": "VINCENT AURELIE",
       "job_cosium": "J122023541",
       "date_entree": "23/06/2026",
-      "date_dernier_statut": "25/06/2026 08:59",
-      "detail": "Réf: VINCENT AURELIE / J122023541 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "26/06/2026 14:19",
+      "detail": "Réf: VINCENT AURELIE / J122023541 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -515,10 +515,10 @@
       "patient": "VINCENTI GABRIEL",
       "job_cosium": "J122023516",
       "date_entree": "22/06/2026",
-      "date_dernier_statut": "25/06/2026 16:29",
-      "detail": "Réf: VINCENTI GABRIEL / J122023516 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "26/06/2026 14:19",
+      "detail": "Réf: VINCENTI GABRIEL / J122023516 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": null,
