@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "26/06/2026 18:18",
+  "derniere_mise_a_jour": "26/06/2026 18:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164712",
@@ -550,6 +550,60 @@
         "supplements": [
           "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164780",
+      "id_commande_v2i": "260626000182",
+      "code_cote": "B",
+      "patient": "BOURDERIONNET JESSICA",
+      "job_cosium": "J121042760",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 18:30",
+      "detail": "Réf: BOURDERIONNET JESSICA / J121042760 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Polar Brun Durci",
           "Durci Inclus"
         ]
       }
