@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "26/06/2026 10:48",
+  "derniere_mise_a_jour": "26/06/2026 11:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164378",
@@ -469,60 +469,6 @@
       }
     },
     {
-      "ord_numb": "            10164563",
-      "id_commande_v2i": "260625000188",
-      "code_cote": "B",
-      "patient": "ANZIANI PHILIPPE",
-      "job_cosium": "J128042673",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 09:37",
-      "detail": "Réf: ANZIANI PHILIPPE / J128042673 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 50,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164505",
       "id_commande_v2i": "260625000130",
       "code_cote": "B",
@@ -679,6 +625,60 @@
         "supplements": [
           "Vista Media 1.5 Nu",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164563",
+      "id_commande_v2i": "260625000188",
+      "code_cote": "B",
+      "patient": "ANZIANI PHILIPPE",
+      "job_cosium": "J128042673",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 10:52",
+      "detail": "Réf: ANZIANI PHILIPPE / J128042673 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 50,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
         ]
       }
     },
