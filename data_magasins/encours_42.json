@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "26/06/2026 14:48",
+  "derniere_mise_a_jour": "26/06/2026 15:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164678",
@@ -135,10 +135,10 @@
       "patient": "VINCIGUERRA CHARLES MATHIEU",
       "job_cosium": "J148018045-01",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 12:46",
-      "detail": "Réf: VINCIGUERRA CHARLES MATHIEU / J148018045-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "26/06/2026 14:50",
+      "detail": "Réf: VINCIGUERRA CHARLES MATHIEU / J148018045-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 30/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -605,62 +605,6 @@
       }
     },
     {
-      "ord_numb": "            10164264",
-      "id_commande_v2i": "260624000069",
-      "code_cote": "B",
-      "patient": "UCHOA TOLEDO JAMIR",
-      "job_cosium": "J148018031",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "26/06/2026 10:22",
-      "detail": "Réf: UCHOA TOLEDO JAMIR / J148018031 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "CLA Progressif 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "CLA Progressif 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164209",
       "id_commande_v2i": "260624000014",
       "code_cote": "B",
@@ -712,6 +656,62 @@
         "supplements": [
           "Reader3 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164264",
+      "id_commande_v2i": "260624000069",
+      "code_cote": "B",
+      "patient": "UCHOA TOLEDO JAMIR",
+      "job_cosium": "J148018031",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "26/06/2026 14:56",
+      "detail": "Réf: UCHOA TOLEDO JAMIR / J148018031 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 130,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
