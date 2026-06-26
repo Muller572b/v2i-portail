@@ -10,60 +10,8 @@
     "email": "balbisoleililerousse@gmail.com",
     "mot_de_passe_portail": "ile"
   },
-  "derniere_mise_a_jour": "26/06/2026 09:18",
+  "derniere_mise_a_jour": "26/06/2026 09:33",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10164526",
-      "id_commande_v2i": "260625000151",
-      "code_cote": "B",
-      "patient": "CALASSA ROGER",
-      "job_cosium": "J125025959",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 16:49",
-      "detail": "Réf: CALASSA ROGER / J125025959 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "1.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
     {
       "ord_numb": "            10164568",
       "id_commande_v2i": "260625000193",
@@ -71,10 +19,10 @@
       "patient": "GATTEBOIS PHILIPPE",
       "job_cosium": "J125025961",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 18:33",
-      "detail": "Réf: GATTEBOIS PHILIPPE / J125025961 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "26/06/2026 09:26",
+      "detail": "Réf: GATTEBOIS PHILIPPE / J125025961 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -127,10 +75,10 @@
       "patient": "GATTEBOIS PHILIPPE",
       "job_cosium": "J125025960",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 18:33",
-      "detail": "Réf: GATTEBOIS PHILIPPE / J125025960 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "26/06/2026 09:30",
+      "detail": "Réf: GATTEBOIS PHILIPPE / J125025960 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -173,6 +121,58 @@
           "Media 1.5 Durci Bz",
           "AR Blue Zen Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164526",
+      "id_commande_v2i": "260625000151",
+      "code_cote": "B",
+      "patient": "CALASSA ROGER",
+      "job_cosium": "J125025959",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 16:49",
+      "detail": "Réf: CALASSA ROGER / J125025959 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "1.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
