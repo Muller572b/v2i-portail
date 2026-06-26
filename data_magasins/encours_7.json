@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "26/06/2026 10:18",
+  "derniere_mise_a_jour": "26/06/2026 10:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164378",
@@ -469,114 +469,6 @@
       }
     },
     {
-      "ord_numb": "            10164458",
-      "id_commande_v2i": "260625000083",
-      "code_cote": "B",
-      "patient": "KAVCIC PATRICK",
-      "job_cosium": "J128042661",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 14:52",
-      "detail": "Réf: KAVCIC PATRICK / J128042661 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.75",
-        "cylindre": "1.25",
-        "axe": 25,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.00",
-        "cylindre": "1.75",
-        "axe": 175,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164464",
-      "id_commande_v2i": "260625000089",
-      "code_cote": "B",
-      "patient": "MONDOLONI DENISE",
-      "job_cosium": "J128042663",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 14:50",
-      "detail": "Réf: MONDOLONI DENISE / J128042663 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 60,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164563",
       "id_commande_v2i": "260625000188",
       "code_cote": "B",
@@ -679,6 +571,114 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164458",
+      "id_commande_v2i": "260625000083",
+      "code_cote": "B",
+      "patient": "KAVCIC PATRICK",
+      "job_cosium": "J128042661",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 10:22",
+      "detail": "Réf: KAVCIC PATRICK / J128042661 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.75",
+        "cylindre": "1.25",
+        "axe": 25,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "1.75",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164464",
+      "id_commande_v2i": "260625000089",
+      "code_cote": "B",
+      "patient": "MONDOLONI DENISE",
+      "job_cosium": "J128042663",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 10:22",
+      "detail": "Réf: MONDOLONI DENISE / J128042663 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Gris C"
         ]
       }
     },
