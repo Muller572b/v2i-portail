@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "26/06/2026 17:33",
+  "derniere_mise_a_jour": "26/06/2026 17:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164726",
@@ -217,6 +217,60 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164762",
+      "id_commande_v2i": "260626000164",
+      "code_cote": "B",
+      "patient": "CANONICI Jacques",
+      "job_cosium": "J157000054",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 17:43",
+      "detail": "Réf: CANONICI Jacques / J157000054 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "2.25",
+        "axe": 175,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "26.5",
+        "supplements": [
+          "Media 1.5 Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Media 1.5 Polar G15 Durci",
+          "Durci Inclus"
         ]
       }
     },
