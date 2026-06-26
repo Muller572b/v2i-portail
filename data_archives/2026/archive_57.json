@@ -5,58 +5,117 @@
     "nom": "Optissimo Mezzavia (OPM)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "25/06/2026 à 14:51",
+  "derniere_validation": "26/06/2026 à 06:05",
   "commandes_expediees": [
     {
-      "ord_numb": "            10164118",
-      "id_commande_v2i": "260623000137",
-      "id_bl_v2i": "260623000137",
+      "ord_numb": "            10164033",
+      "id_commande_v2i": "260623000052",
+      "id_bl_v2i": "260623000052",
       "code_cote": "B",
-      "patient": "APPIETTO CARINE",
-      "job_cosium": "J162005233",
-      "detail": "Réf: APPIETTO CARINE / J162005233 — (Stock) — État: Expédiée",
+      "patient": "PIERI EVA",
+      "job_cosium": "J162005228",
+      "detail": "Réf: PIERI EVA / J162005228 — (Fabrication RX) — État: Expédiée",
       "date_entree": "23/06/2026",
-      "date_expedition": "24/06/2026",
+      "date_expedition": "25/06/2026",
       "statut_code": "SHIP",
       "statut_affichage": "Expédiée",
-      "statut": "24/06/2026",
+      "statut": "25/06/2026",
       "style_couleur": "text-orange-500 font-semibold",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 110,
-        "addition": "0.00",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.50",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
+        "ecart_pupillaire": "31.0",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
+          "Prog V2i 1.5 Durci",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "1.00",
-        "axe": 70,
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog V2i 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164034",
+      "id_commande_v2i": "260623000053",
+      "id_bl_v2i": "260623000053",
+      "code_cote": "B",
+      "patient": "TORRE ALEXANDRE",
+      "job_cosium": "J162005231",
+      "detail": "Réf: TORRE ALEXANDRE / J162005231 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "23/06/2026",
+      "date_expedition": "25/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "25/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "5.25",
+        "axe": 115,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
+        "ecart_pupillaire": "33.0",
         "hauteur": "0.0",
         "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "3.00",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -167,6 +226,59 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Bleu C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164118",
+      "id_commande_v2i": "260623000137",
+      "id_bl_v2i": "260623000137",
+      "code_cote": "B",
+      "patient": "APPIETTO CARINE",
+      "job_cosium": "J162005233",
+      "detail": "Réf: APPIETTO CARINE / J162005233 — (Stock) — État: Expédiée",
+      "date_entree": "23/06/2026",
+      "date_expedition": "24/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "24/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "1.00",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
