@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "26/06/2026 11:33",
+  "derniere_mise_a_jour": "26/06/2026 11:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164616",
@@ -652,64 +652,6 @@
       }
     },
     {
-      "ord_numb": "            10163949",
-      "id_commande_v2i": "260622000292",
-      "code_cote": "B",
-      "patient": "COJEAN SEBASTIEN",
-      "job_cosium": "J120030499-02",
-      "date_entree": "22/06/2026",
-      "date_dernier_statut": "26/06/2026 09:05",
-      "detail": "Réf: COJEAN SEBASTIEN / J120030499-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10163858",
       "id_commande_v2i": "260622000201",
       "code_cote": "B",
@@ -761,6 +703,64 @@
         "supplements": [
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163949",
+      "id_commande_v2i": "260622000292",
+      "code_cote": "B",
+      "patient": "COJEAN SEBASTIEN",
+      "job_cosium": "J120030499-02",
+      "date_entree": "22/06/2026",
+      "date_dernier_statut": "26/06/2026 11:46",
+      "detail": "Réf: COJEAN SEBASTIEN / J120030499-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
         ]
       }
