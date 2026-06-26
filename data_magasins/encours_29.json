@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "26/06/2026 16:48",
+  "derniere_mise_a_jour": "26/06/2026 17:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164712",
@@ -75,10 +75,10 @@
       "patient": "DE SOUSA MOREIRA JORGE",
       "job_cosium": "J121042685",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 09:37",
-      "detail": "Réf: DE SOUSA MOREIRA JORGE / J121042685 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "26/06/2026 16:51",
+      "detail": "Réf: DE SOUSA MOREIRA JORGE / J121042685 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -434,6 +434,122 @@
         "supplements": [
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164736",
+      "id_commande_v2i": "260626000138",
+      "code_cote": "B",
+      "patient": "CASTELLANI HUGO",
+      "job_cosium": "J121042758",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 16:49",
+      "detail": "Réf: CASTELLANI HUGO / J121042758 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "2.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164737",
+      "id_commande_v2i": "260626000139",
+      "code_cote": "B",
+      "patient": "CAZE CHRISTINE",
+      "job_cosium": "J121042759",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 16:49",
+      "detail": "Réf: CAZE CHRISTINE / J121042759 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "1.00",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
