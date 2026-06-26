@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "26/06/2026 10:03",
+  "derniere_mise_a_jour": "26/06/2026 10:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164601",
@@ -199,6 +199,62 @@
       }
     },
     {
+      "ord_numb": "            10164610",
+      "id_commande_v2i": "260626000012",
+      "code_cote": "B",
+      "patient": "GUILLERMIN ANDREA",
+      "job_cosium": "J152045408",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 10:13",
+      "detail": "Réf: GUILLERMIN ANDREA / J152045408 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 120,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164385",
       "id_commande_v2i": "260625000010",
       "code_cote": "B",
@@ -321,10 +377,10 @@
       "patient": "PAOLETTI",
       "job_cosium": "",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 09:53",
-      "detail": "Réf: PAOLETTI — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "26/06/2026 10:14",
+      "detail": "Réf: PAOLETTI — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 30/06",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
