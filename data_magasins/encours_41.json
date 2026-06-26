@@ -10,8 +10,62 @@
     "email": "optique.calvi@wanadoo.fr",
     "mot_de_passe_portail": "cao"
   },
-  "derniere_mise_a_jour": "26/06/2026 10:33",
+  "derniere_mise_a_jour": "26/06/2026 10:48",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10164621",
+      "id_commande_v2i": "260626000023",
+      "code_cote": "B",
+      "patient": "GAUER JEAN LUC",
+      "job_cosium": "J151012185",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 10:41",
+      "detail": "Réf: GAUER JEAN LUC / J151012185 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 100,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164415",
       "id_commande_v2i": "260625000040",
