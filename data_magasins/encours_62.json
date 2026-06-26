@@ -10,8 +10,60 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "26/06/2026 09:33",
+  "derniere_mise_a_jour": "26/06/2026 09:48",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10164535",
+      "id_commande_v2i": "260625000160",
+      "code_cote": "B",
+      "patient": "PACINI Jean-Marie",
+      "job_cosium": "J157000057-01",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 09:34",
+      "detail": "Réf: PACINI Jean-Marie / J157000057-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.75",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164533",
       "id_commande_v2i": "260625000158",
@@ -112,58 +164,6 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164535",
-      "id_commande_v2i": "260625000160",
-      "code_cote": "B",
-      "patient": "PACINI Jean-Marie",
-      "job_cosium": "J157000057-01",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 17:25",
-      "detail": "Réf: PACINI Jean-Marie / J157000057-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.75",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Durci Arh"
