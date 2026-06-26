@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "26/06/2026 10:33",
+  "derniere_mise_a_jour": "26/06/2026 10:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164609",
@@ -273,6 +273,66 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164631",
+      "id_commande_v2i": "260626000033",
+      "code_cote": "B",
+      "patient": "MARCUCCI LUCIEN",
+      "job_cosium": "J144102106",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 10:43",
+      "detail": "Réf: MARCUCCI LUCIEN / J144102106 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 175,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -553,68 +613,6 @@
         ]
       },
       "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10164450",
-      "id_commande_v2i": "260625000075",
-      "code_cote": "B",
-      "patient": "GILLES VANNINA",
-      "job_cosium": "J144102087-01",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 12:49",
-      "detail": "Réf: GILLES VANNINA / J144102087-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 01/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.75",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "28.8",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
     },
     {
       "ord_numb": "            10164546",
@@ -1525,6 +1523,68 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164450",
+      "id_commande_v2i": "260625000075",
+      "code_cote": "B",
+      "patient": "GILLES VANNINA",
+      "job_cosium": "J144102087-01",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 10:44",
+      "detail": "Réf: GILLES VANNINA / J144102087-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.8",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
