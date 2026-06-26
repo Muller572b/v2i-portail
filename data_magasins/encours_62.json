@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "26/06/2026 10:18",
+  "derniere_mise_a_jour": "26/06/2026 10:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164535",
@@ -61,60 +61,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164533",
-      "id_commande_v2i": "260625000158",
-      "code_cote": "B",
-      "patient": "QUINTERNET Lola",
-      "job_cosium": "J157000058",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 17:25",
-      "detail": "Réf: QUINTERNET Lola / J157000058 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Gris C"
         ]
       }
     },
@@ -221,6 +167,60 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164533",
+      "id_commande_v2i": "260625000158",
+      "code_cote": "B",
+      "patient": "QUINTERNET Lola",
+      "job_cosium": "J157000058",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 10:22",
+      "detail": "Réf: QUINTERNET Lola / J157000058 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Gris C"
         ]
       }
     },
