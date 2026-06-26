@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "26/06/2026 09:18",
+  "derniere_mise_a_jour": "26/06/2026 09:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164423",
@@ -127,70 +127,16 @@
       }
     },
     {
-      "ord_numb": "            10164407",
-      "id_commande_v2i": "260625000032",
-      "code_cote": "B",
-      "patient": "PREZIOSI",
-      "job_cosium": "",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 11:29",
-      "detail": "Réf: PREZIOSI — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 29/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-4.75",
-        "cylindre": "2.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-5.00",
-        "cylindre": "4.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164449",
       "id_commande_v2i": "260625000074",
       "code_cote": "B",
       "patient": "GILLES VANNINA",
       "job_cosium": "J144102087-02",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 12:49",
-      "detail": "Réf: GILLES VANNINA / J144102087-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "26/06/2026 09:25",
+      "detail": "Réf: GILLES VANNINA / J144102087-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -700,6 +646,60 @@
         "hauteur": "19.0",
         "supplements": [
           "Jeune 1er HD 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164407",
+      "id_commande_v2i": "260625000032",
+      "code_cote": "B",
+      "patient": "PREZIOSI",
+      "job_cosium": "",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 09:25",
+      "detail": "Réf: PREZIOSI — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-4.75",
+        "cylindre": "2.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.00",
+        "cylindre": "4.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Polar G15 Durci",
           "Durci Inclus"
         ]
       }
