@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "26/06/2026 08:48",
+  "derniere_mise_a_jour": "26/06/2026 09:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164430",
@@ -63,6 +63,60 @@
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
           "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164508",
+      "id_commande_v2i": "260625000133",
+      "code_cote": "B",
+      "patient": "VENTURINI PAUL JULIEN",
+      "job_cosium": "J137036220",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 09:02",
+      "detail": "Réf: VENTURINI PAUL JULIEN / J137036220 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.1",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte G15 B"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte G15 B"
         ]
       }
     },
@@ -219,60 +273,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164508",
-      "id_commande_v2i": "260625000133",
-      "code_cote": "B",
-      "patient": "VENTURINI PAUL JULIEN",
-      "job_cosium": "J137036220",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 15:55",
-      "detail": "Réf: VENTURINI PAUL JULIEN / J137036220 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.1",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte G15 B"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte G15 B"
         ]
       }
     },
