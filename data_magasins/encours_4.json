@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "27/06/2026 09:48",
+  "derniere_mise_a_jour": "27/06/2026 10:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164631",
@@ -585,68 +585,6 @@
       }
     },
     {
-      "ord_numb": "            10164450",
-      "id_commande_v2i": "260625000075",
-      "code_cote": "B",
-      "patient": "GILLES VANNINA",
-      "job_cosium": "J144102087-01",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 11:28",
-      "detail": "Réf: GILLES VANNINA / J144102087-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 01/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.75",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "28.8",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164546",
       "id_commande_v2i": "260625000171",
       "code_cote": "B",
@@ -771,16 +709,114 @@
       }
     },
     {
+      "ord_numb": "            10164584",
+      "id_commande_v2i": "260625000209",
+      "code_cote": "R",
+      "patient": "DEFENDINI MARIE ANGE",
+      "job_cosium": "J144102096",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "26/06/2026 10:20",
+      "detail": "Réf: DEFENDINI MARIE ANGE / J144102096 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10164450",
+      "id_commande_v2i": "260625000075",
+      "code_cote": "B",
+      "patient": "GILLES VANNINA",
+      "job_cosium": "J144102087-01",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "27/06/2026 09:49",
+      "detail": "Réf: GILLES VANNINA / J144102087-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.8",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164576",
       "id_commande_v2i": "260625000201",
       "code_cote": "B",
       "patient": "MOTHES EMMANUELLE",
       "job_cosium": "J144102094-02",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 10:27",
-      "detail": "Réf: MOTHES EMMANUELLE / J144102094-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "27/06/2026 09:49",
+      "detail": "Réf: MOTHES EMMANUELLE / J144102094-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 01/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -831,42 +867,6 @@
           "Optimisé"
         ]
       }
-    },
-    {
-      "ord_numb": "            10164584",
-      "id_commande_v2i": "260625000209",
-      "code_cote": "R",
-      "patient": "DEFENDINI MARIE ANGE",
-      "job_cosium": "J144102096",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 10:20",
-      "detail": "Réf: DEFENDINI MARIE ANGE / J144102096 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 01/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10164388",
