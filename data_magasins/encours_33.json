@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "27/06/2026 14:33",
+  "derniere_mise_a_jour": "27/06/2026 14:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164828",
@@ -640,6 +640,60 @@
       }
     },
     {
+      "ord_numb": "            10164738",
+      "id_commande_v2i": "260626000140",
+      "code_cote": "B",
+      "patient": "LAFRANCESCA MICKAEL",
+      "job_cosium": "J140026302",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "27/06/2026 14:38",
+      "detail": "Réf: LAFRANCESCA MICKAEL / J140026302 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164665",
       "id_commande_v2i": "260626000067",
       "code_cote": "B",
@@ -742,60 +796,6 @@
         "supplements": [
           "Tchin Uni 1.5 Non Durci",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164738",
-      "id_commande_v2i": "260626000140",
-      "code_cote": "B",
-      "patient": "LAFRANCESCA MICKAEL",
-      "job_cosium": "J140026302",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 16:49",
-      "detail": "Réf: LAFRANCESCA MICKAEL / J140026302 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Montage"
         ]
       }
     },
