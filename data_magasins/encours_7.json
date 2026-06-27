@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "27/06/2026 23:48",
+  "derniere_mise_a_jour": "28/06/2026 00:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164821",
@@ -453,8 +453,8 @@
       "detail": "Réf: GEORGE SOUMIA / J128042679 — (Stock) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -705,62 +705,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163086",
-      "id_commande_v2i": "260617000097",
-      "code_cote": "B",
-      "patient": "BALZLI SEBASTIEN",
-      "job_cosium": "J128042529",
-      "date_entree": "17/06/2026",
-      "date_dernier_statut": "27/06/2026 16:15",
-      "detail": "Réf: BALZLI SEBASTIEN / J128042529 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 29/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 25,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 150,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     }
