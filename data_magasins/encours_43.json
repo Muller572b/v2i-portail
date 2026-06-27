@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "27/06/2026 11:33",
+  "derniere_mise_a_jour": "27/06/2026 11:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164827",
@@ -71,6 +71,58 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164842",
+      "id_commande_v2i": "260627000028",
+      "code_cote": "B",
+      "patient": "CIPRIANI SOPHIE",
+      "job_cosium": "J149018402",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "27/06/2026 11:43",
+      "detail": "Réf: CIPRIANI SOPHIE / J149018402 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 29/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.00",
+        "cylindre": "1.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
         ]
       }
     },
