@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "27/06/2026 10:18",
+  "derniere_mise_a_jour": "27/06/2026 10:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164648",
@@ -71,6 +71,60 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164647",
+      "id_commande_v2i": "260626000049",
+      "code_cote": "B",
+      "patient": "DOMINICI PATRICK",
+      "job_cosium": "J146022856-02",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "27/06/2026 10:25",
+      "detail": "Réf: DOMINICI PATRICK / J146022856-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "1.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte Gris C"
         ]
       }
     },
@@ -549,60 +603,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Noir C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164647",
-      "id_commande_v2i": "260626000049",
-      "code_cote": "B",
-      "patient": "DOMINICI PATRICK",
-      "job_cosium": "J146022856-02",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 15:50",
-      "detail": "Réf: DOMINICI PATRICK / J146022856-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 01/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte Gris C"
         ]
       }
     },
