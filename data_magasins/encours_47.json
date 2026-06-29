@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "29/06/2026 10:57",
+  "derniere_mise_a_jour": "29/06/2026 11:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164955",
@@ -189,10 +189,10 @@
       "patient": "ZARROU MUSTAPHA",
       "job_cosium": "J160020999",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 10:31",
-      "detail": "Réf: ZARROU MUSTAPHA / J160020999 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "29/06/2026 11:00",
+      "detail": "Réf: ZARROU MUSTAPHA / J160020999 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -243,10 +243,10 @@
       "patient": "MOHTARIM HASSAN",
       "job_cosium": "J160021007",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 10:51",
-      "detail": "Réf: MOHTARIM HASSAN / J160021007 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "29/06/2026 11:10",
+      "detail": "Réf: MOHTARIM HASSAN / J160021007 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 03/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -297,6 +297,64 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164769",
+      "id_commande_v2i": "260626000171",
+      "code_cote": "B",
+      "patient": "MOHTARIM AYOUB",
+      "job_cosium": "J160021006-01",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "29/06/2026 11:11",
+      "detail": "Réf: MOHTARIM AYOUB / J160021006-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.9",
+        "hauteur": "26.4",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.6",
+        "hauteur": "29.2",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
@@ -462,64 +520,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Gris C",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164769",
-      "id_commande_v2i": "260626000171",
-      "code_cote": "B",
-      "patient": "MOHTARIM AYOUB",
-      "job_cosium": "J160021006-01",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 18:01",
-      "detail": "Réf: MOHTARIM AYOUB / J160021006-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "1.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.9",
-        "hauteur": "26.4",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.6",
-        "hauteur": "29.2",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
           "Montage"
         ]
       }
