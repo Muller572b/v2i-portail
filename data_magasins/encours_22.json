@@ -10,8 +10,64 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "29/06/2026 13:12",
+  "derniere_mise_a_jour": "29/06/2026 13:23",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10164998",
+      "id_commande_v2i": "260629000091",
+      "code_cote": "B",
+      "patient": "FERNANDEZ MARIE CLAIRE",
+      "job_cosium": "J134029435",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 13:13",
+      "detail": "Réf: FERNANDEZ MARIE CLAIRE / J134029435 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 140,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "33.5",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 50,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "33.5",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164822",
       "id_commande_v2i": "260627000008",
