@@ -10,8 +10,116 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "29/06/2026 09:42",
+  "derniere_mise_a_jour": "29/06/2026 09:48",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10164894",
+      "id_commande_v2i": "260627000080",
+      "code_cote": "B",
+      "patient": "LIBERATORE CECILE",
+      "job_cosium": "J137036250-01",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "29/06/2026 09:45",
+      "detail": "Réf: LIBERATORE CECILE / J137036250-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164897",
+      "id_commande_v2i": "260627000083",
+      "code_cote": "B",
+      "patient": "ALBERTI MARIE CLAIRE",
+      "job_cosium": "J137036242",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "29/06/2026 09:45",
+      "detail": "Réf: ALBERTI MARIE CLAIRE / J137036242 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164875",
       "id_commande_v2i": "260627000061",
@@ -119,58 +227,6 @@
           "Super AR Antistatic Inclus",
           "Teinte Dégradée Brun B",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164894",
-      "id_commande_v2i": "260627000080",
-      "code_cote": "B",
-      "patient": "LIBERATORE CECILE",
-      "job_cosium": "J137036250-01",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "27/06/2026 19:13",
-      "detail": "Réf: LIBERATORE CECILE / J137036250-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 29/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
         ]
       }
     },
@@ -285,62 +341,6 @@
         "hauteur": "0.0",
         "supplements": [
           "2de Uni 1.5 Non Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164897",
-      "id_commande_v2i": "260627000083",
-      "code_cote": "B",
-      "patient": "ALBERTI MARIE CLAIRE",
-      "job_cosium": "J137036242",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "27/06/2026 19:13",
-      "detail": "Réf: ALBERTI MARIE CLAIRE / J137036242 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
