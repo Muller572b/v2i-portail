@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "29/06/2026 11:38",
+  "derniere_mise_a_jour": "29/06/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164970",
@@ -68,6 +68,68 @@
           "2de O2 Maximu2 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164851",
+      "id_commande_v2i": "260627000037",
+      "code_cote": "B",
+      "patient": "PINTO DINIS PAULA MARIA",
+      "job_cosium": "J205030514",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "29/06/2026 11:42",
+      "detail": "Réf: PINTO DINIS PAULA MARIA / J205030514 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 02/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "35.5",
+        "hauteur": "31.5",
+        "supplements": [
+          "2de O2 Maximu2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "31.5",
+        "supplements": [
+          "2de O2 Maximu2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
@@ -179,68 +241,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164851",
-      "id_commande_v2i": "260627000037",
-      "code_cote": "B",
-      "patient": "PINTO DINIS PAULA MARIA",
-      "job_cosium": "J205030514",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 11:32",
-      "detail": "Réf: PINTO DINIS PAULA MARIA / J205030514 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 02/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "35.5",
-        "hauteur": "31.5",
-        "supplements": [
-          "2de O2 Maximu2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "31.5",
-        "supplements": [
-          "2de O2 Maximu2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
