@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "29/06/2026 08:48",
+  "derniere_mise_a_jour": "29/06/2026 08:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164861",
@@ -475,10 +475,10 @@
       "patient": "AYALA REMI",
       "job_cosium": "J143054145",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 11:06",
-      "detail": "Réf: AYALA REMI / J143054145 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "29/06/2026 08:49",
+      "detail": "Réf: AYALA REMI / J143054145 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -531,10 +531,10 @@
       "patient": "MANCINI YANNICK",
       "job_cosium": "J143054138",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 10:20",
-      "detail": "Réf: MANCINI YANNICK / J143054138 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "29/06/2026 08:50",
+      "detail": "Réf: MANCINI YANNICK / J143054138 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -593,10 +593,10 @@
       "patient": "ZUZLEWSKI SELENA",
       "job_cosium": "J143054134",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 10:53",
-      "detail": "Réf: ZUZLEWSKI SELENA / J143054134 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "29/06/2026 08:49",
+      "detail": "Réf: ZUZLEWSKI SELENA / J143054134 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -649,10 +649,10 @@
       "patient": "GARAUDELLE ISABELLE-PAULE",
       "job_cosium": "J143054131",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "26/06/2026 11:06",
-      "detail": "Réf: GARAUDELLE ISABELLE-PAULE / J143054131 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "29/06/2026 08:49",
+      "detail": "Réf: GARAUDELLE ISABELLE-PAULE / J143054131 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -733,6 +733,64 @@
       }
     },
     {
+      "ord_numb": "            10164191",
+      "id_commande_v2i": "260623000210",
+      "code_cote": "B",
+      "patient": "FERRI PISANI JEAN-PHILIPPE",
+      "job_cosium": "J143054098",
+      "date_entree": "23/06/2026",
+      "date_dernier_statut": "29/06/2026 08:49",
+      "detail": "Réf: FERRI PISANI JEAN-PHILIPPE / J143054098 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "2.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164177",
       "id_commande_v2i": "260623000196",
       "code_cote": "B",
@@ -789,64 +847,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164191",
-      "id_commande_v2i": "260623000210",
-      "code_cote": "B",
-      "patient": "FERRI PISANI JEAN-PHILIPPE",
-      "job_cosium": "J143054098",
-      "date_entree": "23/06/2026",
-      "date_dernier_statut": "26/06/2026 11:19",
-      "detail": "Réf: FERRI PISANI JEAN-PHILIPPE / J143054098 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "2.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
         ]
       }
     }
