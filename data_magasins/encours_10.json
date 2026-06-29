@@ -10,8 +10,72 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "29/06/2026 09:42",
+  "derniere_mise_a_jour": "29/06/2026 09:48",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10164910",
+      "id_commande_v2i": "260629000003",
+      "code_cote": "B",
+      "patient": "JOSTE JEANNINE",
+      "job_cosium": "J145063607",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 09:47",
+      "detail": "Réf: JOSTE JEANNINE / J145063607 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 02/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 165,
+        "addition": "2.75",
+        "prisme_1": "8.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.67 Xblue Durci",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Prisme inf à 4",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "2.50",
+        "axe": 15,
+        "addition": "2.75",
+        "prisme_1": "8.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.67 Xblue Durci",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Prisme inf à 4",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164928",
       "id_commande_v2i": "260629000021",
@@ -121,70 +185,6 @@
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164910",
-      "id_commande_v2i": "260629000003",
-      "code_cote": "B",
-      "patient": "JOSTE JEANNINE",
-      "job_cosium": "J145063607",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 09:37",
-      "detail": "Réf: JOSTE JEANNINE / J145063607 — (Fabrication RX) — État: Contrôle sortie de fabrication",
-      "statut_code": "SFAB",
-      "statut_affichage": "Contrôle sortie de fabrication",
-      "statut": "Livraison prévue : 02/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 165,
-        "addition": "2.75",
-        "prisme_1": "8.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.67 Xblue Durci",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Prisme inf à 4",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "2.50",
-        "axe": 15,
-        "addition": "2.75",
-        "prisme_1": "8.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.67 Xblue Durci",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Prisme inf à 4",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -549,6 +549,58 @@
       }
     },
     {
+      "ord_numb": "            10164682",
+      "id_commande_v2i": "260626000084",
+      "code_cote": "B",
+      "patient": "LINZA GISELE",
+      "job_cosium": "J145063591",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "29/06/2026 09:45",
+      "detail": "Réf: LINZA GISELE / J145063591 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 29/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "2.00",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164655",
       "id_commande_v2i": "260626000057",
       "code_cote": "B",
@@ -599,58 +651,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164682",
-      "id_commande_v2i": "260626000084",
-      "code_cote": "B",
-      "patient": "LINZA GISELE",
-      "job_cosium": "J145063591",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 12:19",
-      "detail": "Réf: LINZA GISELE / J145063591 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 29/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-4.50",
-        "cylindre": "2.00",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "1.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
