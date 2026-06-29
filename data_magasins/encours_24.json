@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "29/06/2026 14:57",
+  "derniere_mise_a_jour": "29/06/2026 15:08",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164956",
@@ -75,72 +75,16 @@
       }
     },
     {
-      "ord_numb": "            10164983",
-      "id_commande_v2i": "260629000076",
-      "code_cote": "B",
-      "patient": "PIETRI JOSETTE",
-      "job_cosium": "J133036097-03",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 14:54",
-      "detail": "Réf: PIETRI JOSETTE / J133036097-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "1.25",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164984",
       "id_commande_v2i": "260629000077",
       "code_cote": "B",
       "patient": "PIETRI JOSETTE",
       "job_cosium": "J133036097-01",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 14:46",
-      "detail": "Réf: PIETRI JOSETTE / J133036097-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "29/06/2026 15:00",
+      "detail": "Réf: PIETRI JOSETTE / J133036097-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 03/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -193,10 +137,10 @@
       "patient": "PIETRI JOSETTE",
       "job_cosium": "J133036097-02",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 14:49",
-      "detail": "Réf: PIETRI JOSETTE / J133036097-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "29/06/2026 15:00",
+      "detail": "Réf: PIETRI JOSETTE / J133036097-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 03/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -238,6 +182,62 @@
         "supplements": [
           "Tchin Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164983",
+      "id_commande_v2i": "260629000076",
+      "code_cote": "B",
+      "patient": "PIETRI JOSETTE",
+      "job_cosium": "J133036097-03",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 14:54",
+      "detail": "Réf: PIETRI JOSETTE / J133036097-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "1.25",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Brun C",
           "Durci Inclus"
         ]
       }
@@ -515,72 +515,16 @@
       }
     },
     {
-      "ord_numb": "            10164683",
-      "id_commande_v2i": "260626000085",
-      "code_cote": "B",
-      "patient": "FILIPPI MARIELLE",
-      "job_cosium": "J133036076",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 14:09",
-      "detail": "Réf: FILIPPI MARIELLE / J133036076 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 40,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 150,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164697",
       "id_commande_v2i": "260626000099",
       "code_cote": "B",
       "patient": "DE OLIVEIRA TORRES ILIDIO",
       "job_cosium": "J133036000-01",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 15:04",
-      "detail": "Réf: DE OLIVEIRA TORRES ILIDIO / J133036000-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "29/06/2026 14:57",
+      "detail": "Réf: DE OLIVEIRA TORRES ILIDIO / J133036000-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -633,10 +577,10 @@
       "patient": "DE OLIVEIRA TORRES ILIDIO",
       "job_cosium": "J133036000-01",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 15:04",
-      "detail": "Réf: DE OLIVEIRA TORRES ILIDIO / J133036000-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "29/06/2026 14:57",
+      "detail": "Réf: DE OLIVEIRA TORRES ILIDIO / J133036000-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -909,6 +853,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164683",
+      "id_commande_v2i": "260626000085",
+      "code_cote": "B",
+      "patient": "FILIPPI MARIELLE",
+      "job_cosium": "J133036076",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "29/06/2026 15:02",
+      "detail": "Réf: FILIPPI MARIELLE / J133036076 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 40,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 150,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
