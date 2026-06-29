@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "29/06/2026 16:42",
+  "derniere_mise_a_jour": "29/06/2026 16:53",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164956",
@@ -450,6 +450,58 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165058",
+      "id_commande_v2i": "260629000151",
+      "code_cote": "B",
+      "patient": "VIALE LAURENCE",
+      "job_cosium": "J133036103",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 16:49",
+      "detail": "Réf: VIALE LAURENCE / J133036103 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.00",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
