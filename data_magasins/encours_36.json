@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "29/06/2026 15:42",
+  "derniere_mise_a_jour": "29/06/2026 15:53",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164908",
@@ -249,16 +249,51 @@
       }
     },
     {
+      "ord_numb": "            10165023",
+      "id_commande_v2i": "260629000116",
+      "code_cote": "R",
+      "patient": "RAABE BENJAMIN",
+      "job_cosium": "J139053454",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 15:02",
+      "detail": "Réf: RAABE BENJAMIN / J139053454 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10165020",
       "id_commande_v2i": "260629000113",
       "code_cote": "B",
       "patient": "RAZZOUKI SOFYAN",
       "job_cosium": "J139053453",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:03",
-      "detail": "Réf: RAZZOUKI SOFYAN / J139053453 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: RAZZOUKI SOFYAN / J139053453 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 30/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -299,41 +334,6 @@
           "Odiscount St. Uni 1.5 Durci Arh"
         ]
       }
-    },
-    {
-      "ord_numb": "            10165023",
-      "id_commande_v2i": "260629000116",
-      "code_cote": "R",
-      "patient": "RAABE BENJAMIN",
-      "job_cosium": "J139053454",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:02",
-      "detail": "Réf: RAABE BENJAMIN / J139053454 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10164848",
@@ -510,10 +510,10 @@
       "patient": "PACHECO BARBOSA ELISA",
       "job_cosium": "J139053447",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 09:45",
-      "detail": "Réf: PACHECO BARBOSA ELISA / J139053447 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: PACHECO BARBOSA ELISA / J139053447 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -566,10 +566,10 @@
       "patient": "ALLARI JEAN PIERRE",
       "job_cosium": "J139053443-01",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 09:45",
-      "detail": "Réf: ALLARI JEAN PIERRE / J139053443-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: ALLARI JEAN PIERRE / J139053443-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 29/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -618,10 +618,10 @@
       "patient": "ALLARI JEAN PIERRE",
       "job_cosium": "J139053443-02",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 09:45",
-      "detail": "Réf: ALLARI JEAN PIERRE / J139053443-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: ALLARI JEAN PIERRE / J139053443-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 29/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -670,10 +670,10 @@
       "patient": "CALLEJON SYLVIE",
       "job_cosium": "J139053440-02",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 11:45",
-      "detail": "Réf: CALLEJON SYLVIE / J139053440-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: CALLEJON SYLVIE / J139053440-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 30/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -724,10 +724,10 @@
       "patient": "CALLEJON SYLVIE",
       "job_cosium": "J139053440-01",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 09:45",
-      "detail": "Réf: CALLEJON SYLVIE / J139053440-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: CALLEJON SYLVIE / J139053440-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 29/06 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1168,16 +1168,68 @@
       }
     },
     {
+      "ord_numb": "            10164500",
+      "id_commande_v2i": "260625000125",
+      "code_cote": "B",
+      "patient": "DRACHE AGNES",
+      "job_cosium": "J139053412-01",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "25/06/2026 15:49",
+      "detail": "Réf: DRACHE AGNES / J139053412-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Odiscount St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Odiscount St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164498",
       "id_commande_v2i": "260625000123",
       "code_cote": "B",
       "patient": "FRAU PIERLUIGI",
       "job_cosium": "J139053413",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "29/06/2026 11:20",
-      "detail": "Réf: FRAU PIERLUIGI / J139053413 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: FRAU PIERLUIGI / J139053413 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1236,10 +1288,10 @@
       "patient": "CAVAGNAT MICHEL",
       "job_cosium": "J139053416",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "29/06/2026 11:23",
-      "detail": "Réf: CAVAGNAT MICHEL / J139053416 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: CAVAGNAT MICHEL / J139053416 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1281,114 +1333,6 @@
         "supplements": [
           "Prestige Flex 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164500",
-      "id_commande_v2i": "260625000125",
-      "code_cote": "B",
-      "patient": "DRACHE AGNES",
-      "job_cosium": "J139053412-01",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "25/06/2026 15:49",
-      "detail": "Réf: DRACHE AGNES / J139053412-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 150,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Odiscount St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Odiscount St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164369",
-      "id_commande_v2i": "260624000174",
-      "code_cote": "B",
-      "patient": "PARANT MATEO",
-      "job_cosium": "J139053404",
-      "date_entree": "24/06/2026",
-      "date_dernier_statut": "29/06/2026 12:12",
-      "detail": "Réf: PARANT MATEO / J139053404 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Gris Durci Bz",
-          "AR Blue Zen Inclus",
           "Durci Inclus"
         ]
       }
@@ -1442,6 +1386,62 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164369",
+      "id_commande_v2i": "260624000174",
+      "code_cote": "B",
+      "patient": "PARANT MATEO",
+      "job_cosium": "J139053404",
+      "date_entree": "24/06/2026",
+      "date_dernier_statut": "29/06/2026 15:46",
+      "detail": "Réf: PARANT MATEO / J139053404 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
         ]
       }
     },
