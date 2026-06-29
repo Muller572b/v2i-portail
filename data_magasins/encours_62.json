@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "29/06/2026 10:03",
+  "derniere_mise_a_jour": "29/06/2026 10:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164865",
@@ -131,6 +131,66 @@
       }
     },
     {
+      "ord_numb": "            10164830",
+      "id_commande_v2i": "260627000016",
+      "code_cote": "B",
+      "patient": "TAKFAOUI Hiba",
+      "job_cosium": "J157000064",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "29/06/2026 10:08",
+      "detail": "Réf: TAKFAOUI Hiba / J157000064 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.25",
+        "cylindre": "3.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "AS Uni 1.6 Dur Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.50",
+        "cylindre": "4.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "AS Uni 1.6 Dur Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164864",
       "id_commande_v2i": "260627000050",
       "code_cote": "B",
@@ -239,66 +299,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164830",
-      "id_commande_v2i": "260627000016",
-      "code_cote": "B",
-      "patient": "TAKFAOUI Hiba",
-      "job_cosium": "J157000064",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "27/06/2026 11:07",
-      "detail": "Réf: TAKFAOUI Hiba / J157000064 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.25",
-        "cylindre": "3.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "AS Uni 1.6 Dur Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.50",
-        "cylindre": "4.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "AS Uni 1.6 Dur Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
