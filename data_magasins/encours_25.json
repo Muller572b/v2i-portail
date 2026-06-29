@@ -10,8 +10,60 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "29/06/2026 15:57",
+  "derniere_mise_a_jour": "29/06/2026 16:08",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165047",
+      "id_commande_v2i": "260629000140",
+      "code_cote": "B",
+      "patient": "MULLER NATALIA",
+      "job_cosium": "J132017116-02",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 16:03",
+      "detail": "Réf: MULLER NATALIA / J132017116-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165045",
       "id_commande_v2i": "260629000138",
@@ -69,58 +121,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Epaisseur spéciale"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165047",
-      "id_commande_v2i": "260629000140",
-      "code_cote": "B",
-      "patient": "MULLER NATALIA",
-      "job_cosium": "J132017116-02",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:56",
-      "detail": "Réf: MULLER NATALIA / J132017116-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -429,10 +429,10 @@
       "patient": "BERARD FABRICE",
       "job_cosium": "J132017109-02",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:35",
-      "detail": "Réf: BERARD FABRICE / J132017109-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:59",
+      "detail": "Réf: BERARD FABRICE / J132017109-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
