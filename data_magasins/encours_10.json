@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "29/06/2026 10:57",
+  "derniere_mise_a_jour": "29/06/2026 11:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164910",
@@ -73,6 +73,60 @@
           "Prisme inf à 4",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164947",
+      "id_commande_v2i": "260629000040",
+      "code_cote": "B",
+      "patient": "LUVARI EMELINE",
+      "job_cosium": "J145063615-01",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 11:03",
+      "detail": "Réf: LUVARI EMELINE / J145063615-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Xblue Durci Arh",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Xblue Durci Arh",
+          "Montage"
         ]
       }
     },
@@ -242,60 +296,6 @@
           "Uni 1.5  Polar Brun Durci Arh",
           "Antireflet interne face CC inclus",
           "Durci Inclus",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164947",
-      "id_commande_v2i": "260629000040",
-      "code_cote": "B",
-      "patient": "LUVARI EMELINE",
-      "job_cosium": "J145063615-01",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 10:13",
-      "detail": "Réf: LUVARI EMELINE / J145063615-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Xblue Durci Arh",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Xblue Durci Arh",
           "Montage"
         ]
       }
@@ -481,10 +481,10 @@
       "patient": "GUBANTI JEAN-BAPTISTE",
       "job_cosium": "J145063602-01",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "27/06/2026 09:37",
-      "detail": "Réf: GUBANTI JEAN-BAPTISTE / J145063602-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "29/06/2026 11:04",
+      "detail": "Réf: GUBANTI JEAN-BAPTISTE / J145063602-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -877,60 +877,6 @@
       }
     },
     {
-      "ord_numb": "            10164770",
-      "id_commande_v2i": "260626000172",
-      "code_cote": "B",
-      "patient": "PATAROZZI JEANNE",
-      "job_cosium": "J145063604",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 18:01",
-      "detail": "Réf: PATAROZZI JEANNE / J145063604 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "1.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "1.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164771",
       "id_commande_v2i": "260626000173",
       "code_cote": "B",
@@ -1103,6 +1049,60 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164770",
+      "id_commande_v2i": "260626000172",
+      "code_cote": "B",
+      "patient": "PATAROZZI JEANNE",
+      "job_cosium": "J145063604",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "29/06/2026 11:03",
+      "detail": "Réf: PATAROZZI JEANNE / J145063604 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "1.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée Gris C"
         ]
       }
     },
