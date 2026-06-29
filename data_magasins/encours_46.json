@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "29/06/2026 14:57",
+  "derniere_mise_a_jour": "29/06/2026 15:08",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164936",
@@ -139,10 +139,10 @@
       "patient": "BESSEL MARIE SUZANNE",
       "job_cosium": "J152045426-02",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 14:52",
-      "detail": "Réf: BESSEL MARIE SUZANNE / J152045426-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "29/06/2026 15:00",
+      "detail": "Réf: BESSEL MARIE SUZANNE / J152045426-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -187,6 +187,66 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164994",
+      "id_commande_v2i": "260629000087",
+      "code_cote": "B",
+      "patient": "BIGOU LAURENT",
+      "job_cosium": "J152045435-02",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 15:03",
+      "detail": "Réf: BIGOU LAURENT / J152045435-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 02/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Tchin Affiny Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 150,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Tchin Affiny Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -667,66 +727,6 @@
       }
     },
     {
-      "ord_numb": "            10164994",
-      "id_commande_v2i": "260629000087",
-      "code_cote": "B",
-      "patient": "BIGOU LAURENT",
-      "job_cosium": "J152045435-02",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 13:13",
-      "detail": "Réf: BIGOU LAURENT / J152045435-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Tchin Affiny Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 150,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Tchin Affiny Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164995",
       "id_commande_v2i": "260629000088",
       "code_cote": "B",
@@ -789,6 +789,44 @@
       }
     },
     {
+      "ord_numb": "            10164699",
+      "id_commande_v2i": "260626000101",
+      "code_cote": "L",
+      "patient": "GENSON MARIE",
+      "job_cosium": "",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "29/06/2026 14:57",
+      "detail": "Réf: GENSON MARIE — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 95,
+        "addition": "2.50",
+        "prisme_1": "5.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "25.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Equilibre 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164610",
       "id_commande_v2i": "260626000012",
       "code_cote": "B",
@@ -841,44 +879,6 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164699",
-      "id_commande_v2i": "260626000101",
-      "code_cote": "L",
-      "patient": "GENSON MARIE",
-      "job_cosium": "",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 09:04",
-      "detail": "Réf: GENSON MARIE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.00",
-        "axe": 95,
-        "addition": "2.50",
-        "prisme_1": "5.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "25.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Equilibre 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Prisme supérieur à 4"
         ]
       }
     },
