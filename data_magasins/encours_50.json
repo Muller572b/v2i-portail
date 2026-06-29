@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "29/06/2026 15:23",
+  "derniere_mise_a_jour": "29/06/2026 15:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164939",
@@ -129,58 +129,6 @@
       }
     },
     {
-      "ord_numb": "            10164906",
-      "id_commande_v2i": "260627000092",
-      "code_cote": "B",
-      "patient": "BASSO CHRISTOPHE FRED",
-      "job_cosium": "J600029344-01",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 09:58",
-      "detail": "Réf: BASSO CHRISTOPHE FRED / J600029344-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 29/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164907",
       "id_commande_v2i": "260627000093",
       "code_cote": "B",
@@ -233,6 +181,58 @@
           "Acui Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164906",
+      "id_commande_v2i": "260627000092",
+      "code_cote": "B",
+      "patient": "BASSO CHRISTOPHE FRED",
+      "job_cosium": "J600029344-01",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "29/06/2026 15:24",
+      "detail": "Réf: BASSO CHRISTOPHE FRED / J600029344-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 29/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -299,10 +299,10 @@
       "patient": "STRZEMINSKI FLORENT",
       "job_cosium": "J600029332",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "29/06/2026 09:45",
-      "detail": "Réf: STRZEMINSKI FLORENT / J600029332 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "29/06/2026 15:24",
+      "detail": "Réf: STRZEMINSKI FLORENT / J600029332 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
