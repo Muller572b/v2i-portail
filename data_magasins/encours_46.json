@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "29/06/2026 11:27",
+  "derniere_mise_a_jour": "29/06/2026 11:38",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164924",
@@ -561,64 +561,6 @@
       }
     },
     {
-      "ord_numb": "            10164385",
-      "id_commande_v2i": "260625000010",
-      "code_cote": "B",
-      "patient": "PAOLETTI",
-      "job_cosium": "",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "29/06/2026 08:50",
-      "detail": "Réf: PAOLETTI — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.6",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 XBlue Durci A",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.6",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.5 XBlue Durci A",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164514",
       "id_commande_v2i": "260625000139",
       "code_cote": "B",
@@ -671,6 +613,64 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164385",
+      "id_commande_v2i": "260625000010",
+      "code_cote": "B",
+      "patient": "PAOLETTI",
+      "job_cosium": "",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "29/06/2026 11:28",
+      "detail": "Réf: PAOLETTI — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.6",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 XBlue Durci A",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.6",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.5 XBlue Durci A",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
         ]
       }
     },
