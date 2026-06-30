@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "30/06/2026 16:12",
+  "derniere_mise_a_jour": "30/06/2026 16:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165146",
@@ -114,10 +114,10 @@
       "patient": "BORELLI STEPHANE",
       "job_cosium": "J702020694-01",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 15:56",
-      "detail": "Réf: BORELLI STEPHANE / J702020694-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "30/06/2026 16:13",
+      "detail": "Réf: BORELLI STEPHANE / J702020694-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -226,6 +226,120 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165243",
+      "id_commande_v2i": "260630000125",
+      "code_cote": "B",
+      "patient": "BONNECHERE STEPHANIE",
+      "job_cosium": "J702020696-02",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 16:13",
+      "detail": "Réf: BONNECHERE STEPHANIE / J702020696-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "K2 PG2 1.5 Nu",
+          "Teinte Brun C",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "1.00",
+        "axe": 140,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "K2 PG2 1.5 Nu",
+          "Teinte Brun C",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165244",
+      "id_commande_v2i": "260630000126",
+      "code_cote": "B",
+      "patient": "BONNECHERE STEPHANIE",
+      "job_cosium": "J702020696-01",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 16:13",
+      "detail": "Réf: BONNECHERE STEPHANIE / J702020696-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.5",
+        "supplements": [
+          "PG2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "1.00",
+        "axe": 140,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "PG2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
