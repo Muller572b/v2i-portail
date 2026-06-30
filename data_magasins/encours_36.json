@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "30/06/2026 10:12",
+  "derniere_mise_a_jour": "30/06/2026 10:23",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165021",
@@ -328,6 +328,62 @@
       }
     },
     {
+      "ord_numb": "            10165118",
+      "id_commande_v2i": "260629000211",
+      "code_cote": "B",
+      "patient": "IACOB IACOB GABRIEL",
+      "job_cosium": "J139053464",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 10:21",
+      "detail": "Réf: IACOB IACOB GABRIEL / J139053464 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 65,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Prestige Flex 1.5 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Prestige Flex 1.5 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164908",
       "id_commande_v2i": "260629000001",
       "code_cote": "B",
@@ -608,62 +664,6 @@
       }
     },
     {
-      "ord_numb": "            10165118",
-      "id_commande_v2i": "260629000211",
-      "code_cote": "B",
-      "patient": "IACOB IACOB GABRIEL",
-      "job_cosium": "J139053464",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 08:13",
-      "detail": "Réf: IACOB IACOB GABRIEL / J139053464 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.50",
-        "cylindre": "0.50",
-        "axe": 65,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Prestige Flex 1.5 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.00",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Prestige Flex 1.5 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164848",
       "id_commande_v2i": "260627000034",
       "code_cote": "B",
@@ -726,10 +726,10 @@
       "patient": "SANTINI GAVINA",
       "job_cosium": "J139053436",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 11:52",
-      "detail": "Réf: SANTINI GAVINA / J139053436 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "30/06/2026 10:14",
+      "detail": "Réf: SANTINI GAVINA / J139053436 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -900,10 +900,10 @@
       "patient": "DESPRES STEPHANIE",
       "job_cosium": "J139053424",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:52",
-      "detail": "Réf: DESPRES STEPHANIE / J139053424 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "30/06/2026 10:14",
+      "detail": "Réf: DESPRES STEPHANIE / J139053424 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -956,10 +956,10 @@
       "patient": "BALDUZZI MICHEL",
       "job_cosium": "J139053419",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 12:02",
-      "detail": "Réf: BALDUZZI MICHEL / J139053419 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "30/06/2026 10:14",
+      "detail": "Réf: BALDUZZI MICHEL / J139053419 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1000,62 +1000,6 @@
         "hauteur": "29.5",
         "supplements": [
           "D2 Prestige Flex 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164807",
-      "id_commande_v2i": "260626000209",
-      "code_cote": "B",
-      "patient": "CECCHI MICHEL",
-      "job_cosium": "J139053429",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:52",
-      "detail": "Réf: CECCHI MICHEL / J139053429 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Prestige Flex 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Prestige Flex 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -1225,6 +1169,62 @@
           "D2 Uni 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Teinte Dégradée Gris AB",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164807",
+      "id_commande_v2i": "260626000209",
+      "code_cote": "B",
+      "patient": "CECCHI MICHEL",
+      "job_cosium": "J139053429",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 10:16",
+      "detail": "Réf: CECCHI MICHEL / J139053429 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Prestige Flex 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Prestige Flex 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
