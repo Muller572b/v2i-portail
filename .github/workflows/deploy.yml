@@ -68,8 +68,7 @@ jobs:
           cp *.json public/ 2>/dev/null || true # <-- Inclus documents.json qui vient d'être créé !
           cp -r data_magasins public/ 2>/dev/null || true
           cp -r cartedevue public/ 2>/dev/null || true
-          cp -r documentcommun public/ 2>/dev/null || true   # <-- Requis pour les liens des docs publics
-          cp -r documents_magasin public/ 2>/dev/null || true # <-- Requis pour les liens des docs privés
+          
 
           # 3. Construire l'espace Beta à l'intérieur du dossier public
           mkdir -p public/beta
