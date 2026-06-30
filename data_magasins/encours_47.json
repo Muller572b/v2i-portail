@@ -10,8 +10,64 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "30/06/2026 16:12",
+  "derniere_mise_a_jour": "30/06/2026 16:27",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165253",
+      "id_commande_v2i": "260630000135",
+      "code_cote": "B",
+      "patient": "HARY THEO",
+      "job_cosium": "J160021026",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 16:14",
+      "detail": "Réf: HARY THEO / J160021026 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "1.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.6",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "2.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.6",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165044",
       "id_commande_v2i": "260629000137",
