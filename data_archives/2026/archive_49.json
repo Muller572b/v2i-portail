@@ -5,8 +5,61 @@
     "nom": "Optic 2000 Atrium (O2B)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "29/06/2026 à 14:51",
+  "derniere_validation": "30/06/2026 à 06:05",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10164867",
+      "id_commande_v2i": "260627000053",
+      "id_bl_v2i": "260627000053",
+      "code_cote": "B",
+      "patient": "DA SILVA NOVO ARTUR JORGE",
+      "job_cosium": "J205030519",
+      "detail": "Réf: DA SILVA NOVO ARTUR JORGE / J205030519 — (Stock) — État: Expédiée",
+      "date_entree": "27/06/2026",
+      "date_expedition": "29/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "29/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164258",
       "id_commande_v2i": "260624000063",
@@ -1414,6 +1467,59 @@
         "supplements": [
           "O2 St. Uni 1.5 Xblue Durci Arh",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164057",
+      "id_commande_v2i": "260623000076",
+      "id_bl_v2i": "260623000076",
+      "code_cote": "B",
+      "patient": "FIESCHI LAURENCE",
+      "job_cosium": "J205030465-01",
+      "detail": "Réf: FIESCHI LAURENCE / J205030465-01 — (Stock) — État: Expédiée",
+      "date_entree": "23/06/2026",
+      "date_expedition": "23/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "23/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
         ]
       }
     },
@@ -2836,59 +2942,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Jaune C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164057",
-      "id_commande_v2i": "260623000076",
-      "id_bl_v2i": "260623000076",
-      "code_cote": "B",
-      "patient": "FIESCHI LAURENCE",
-      "job_cosium": "J205030465-01",
-      "detail": "Réf: FIESCHI LAURENCE / J205030465-01 — (Stock) — État: Expédiée",
-      "date_entree": "23/06/2026",
-      "date_expedition": "23/06/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "23/06/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
         ]
       }
     },
