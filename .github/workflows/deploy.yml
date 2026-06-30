@@ -31,32 +31,9 @@ jobs:
           ref: beta
           path: temp_beta
 
-      - name: Construction dynamique de l'espace de Production et Beta
-        run: |
-          # 1. Créer le dossier final qui sera envoyé sur le web
-          mkdir -p public
-
-          # 2. Y copier la production (fichiers légers uniquement)
-          cp *.html public/ 2>/dev/null || true
-          cp *.js public/ 2>/dev/null || true
-          cp *.css public/ 2>/dev/null || true
-          cp -r data_magasins public/ 2>/dev/null || true
-          cp -r cartedevue public/ 2>/dev/null || true
-
-          # 3. Construire l'espace Beta à l'intérieur du dossier public
-          mkdir -p public/beta
-          cp -r temp_beta/* public/beta/ 2>/dev/null || true
-          
-          # Nettoyage des fichiers inutiles dans beta
-          rm -rf public/beta/data_magasins public/beta/data_archives public/beta/eBLCertifie public/beta/cartedevue public/beta/.github public/beta/.git
-          
-          # Liens des données légères pour la beta
-          cp -r data_magasins public/beta/ 2>/dev/null || true
-          cp -r cartedevue public/beta/ 2>/dev/null || true
-          
-          # Supprimer le dossier temporaire brut de la beta
-          rm -rf temp_beta
-
+      # --- ETAPE 1 : CONFIGURATION ET EXECUTION PYTHON D'ABORD ---
+      # On génère les index (documents.json, etc.) à la racine avant de construire le site
+      
       - name: Configuration de Python
         uses: actions/setup-python@v5
         with:
@@ -76,6 +53,41 @@ jobs:
           if [ -f "scannerdocumentdispo.py" ]; then
             python scannerdocumentdispo.py
           fi
+
+      # --- ETAPE 2 : ASSEMBLEMENT DU DOSSIER PUBLIC ---
+
+      - name: Construction dynamique de l'espace de Production et Beta
+        run: |
+          # 1. Créer le dossier final qui sera envoyé sur le web
+          mkdir -p public
+
+          # 2. Y copier la production (Fichiers web + JSON générés + Dossiers de documents)
+          cp *.html public/ 2>/dev/null || true
+          cp *.js public/ 2>/dev/null || true
+          cp *.css public/ 2>/dev/null || true
+          cp *.json public/ 2>/dev/null || true # <-- Inclus documents.json qui vient d'être créé !
+          cp -r data_magasins public/ 2>/dev/null || true
+          cp -r cartedevue public/ 2>/dev/null || true
+          cp -r documentcommun public/ 2>/dev/null || true   # <-- Requis pour les liens des docs publics
+          cp -r documents_magasin public/ 2>/dev/null || true # <-- Requis pour les liens des docs privés
+
+          # 3. Construire l'espace Beta à l'intérieur du dossier public
+          mkdir -p public/beta
+          cp -r temp_beta/* public/beta/ 2>/dev/null || true
+          
+          # Nettoyage complet des dossiers inutiles/historiques de la beta
+          rm -rf public/beta/data_magasins public/beta/data_archives public/beta/eBLCertifie public/beta/cartedevue public/beta/documentcommun public/beta/documents_magasin public/beta/.github public/beta/.git
+          
+          # Liens des données et documents pour la beta
+          cp *.json public/beta/ 2>/dev/null || true
+          cp -r data_magasins public/beta/ 2>/dev/null || true
+          cp -r cartedevue public/beta/ 2>/dev/null || true
+          cp -r documentcommun public/beta/ 2>/dev/null || true
+          
+          # Supprimer le dossier temporaire brut de la beta
+          rm -rf temp_beta
+
+      # --- ETAPE 3 : DEPLOIEMENT ---
 
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
