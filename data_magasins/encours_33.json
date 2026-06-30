@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "30/06/2026 09:08",
+  "derniere_mise_a_jour": "30/06/2026 09:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164913",
@@ -417,68 +417,6 @@
       }
     },
     {
-      "ord_numb": "            10164687",
-      "id_commande_v2i": "260626000089",
-      "code_cote": "B",
-      "patient": "FOURNET VIRGINIE",
-      "job_cosium": "J140026296",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 08:41",
-      "detail": "Réf: FOURNET VIRGINIE / J140026296 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "1.75",
-        "axe": 170,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164742",
       "id_commande_v2i": "260626000144",
       "code_cote": "B",
@@ -643,6 +581,68 @@
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164687",
+      "id_commande_v2i": "260626000089",
+      "code_cote": "B",
+      "patient": "FOURNET VIRGINIE",
+      "job_cosium": "J140026296",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 09:09",
+      "detail": "Réf: FOURNET VIRGINIE / J140026296 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "1.75",
+        "axe": 170,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
