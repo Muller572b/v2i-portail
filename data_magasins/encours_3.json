@@ -10,7 +10,7 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "30/06/2026 09:08",
+  "derniere_mise_a_jour": "30/06/2026 09:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165050",
@@ -185,64 +185,6 @@
       }
     },
     {
-      "ord_numb": "            10164696",
-      "id_commande_v2i": "260626000098",
-      "code_cote": "B",
-      "patient": "ANTONETTI VALERIE",
-      "job_cosium": "",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 08:41",
-      "detail": "Réf: ANTONETTI VALERIE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Delta Equilibre2 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Delta Equilibre2 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164716",
       "id_commande_v2i": "260626000118",
       "code_cote": "B",
@@ -295,6 +237,64 @@
           "Vista Uni 1.6 Durci",
           "Teinte Dégradée Brun B",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164696",
+      "id_commande_v2i": "260626000098",
+      "code_cote": "B",
+      "patient": "ANTONETTI VALERIE",
+      "job_cosium": "",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 09:09",
+      "detail": "Réf: ANTONETTI VALERIE — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Delta Equilibre2 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Delta Equilibre2 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Optimisé"
         ]
       }
     },
