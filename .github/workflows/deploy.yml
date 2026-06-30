@@ -42,7 +42,6 @@ jobs:
           cp *.css public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
           cp -r cartedevue public/ 2>/dev/null || true
-          # RETRAIT DES LIGNES data_archives ET eBLCertifie ICI
 
           # 3. Construire l'espace Beta à l'intérieur du dossier public
           mkdir -p public/beta
@@ -51,10 +50,8 @@ jobs:
           # Nettoyage des fichiers inutiles dans beta
           rm -rf public/beta/data_magasins public/beta/data_archives public/beta/eBLCertifie public/beta/cartedevue public/beta/.github public/beta/.git
           
-          # Liens des données pour la beta
+          # Liens des données légères pour la beta
           cp -r data_magasins public/beta/ 2>/dev/null || true
-          cp -r data_archives public/beta/ 2>/dev/null || true
-          cp -r eBLCertifie public/beta/ 2>/dev/null || true
           cp -r cartedevue public/beta/ 2>/dev/null || true
           
           # Supprimer le dossier temporaire brut de la beta
@@ -68,8 +65,6 @@ jobs:
       - name: Installation des dépendances
         run: pip install beautifulsoup4 requests
 
-      # Note : Vos scripts Python devront être adaptés ou s'exécuter dans/vers le dossier public.
-      # Pour l'instant, on laisse l'exécution ainsi, mais on s'assurera que l'artefact pointe au bon endroit.
       - name: Récupération des actualités
         run: |
           if [ -f "fluxactu.py" ]; then
@@ -88,9 +83,8 @@ jobs:
       - name: Téléchargement de l'artefact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'public' # <--- C'est ICI qu'on change '.' pour 'public'
+          path: 'public'
 
       - name: Déploiement sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
