@@ -717,6 +717,7 @@ function openSidePanel(idCommande) {
     console.log("Ouverture du panneau technique pour le BL :", idCommande);
     const panel = document.getElementById('side-panel');
     if (panel) {
+        panel.classList.remove('hidden');          // AJOUTEZ CETTE LIGNE
         panel.classList.remove('translate-x-full');
     }
 }
