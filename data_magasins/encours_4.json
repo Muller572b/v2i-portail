@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "30/06/2026 11:42",
+  "derniere_mise_a_jour": "30/06/2026 11:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165159",
@@ -71,6 +71,60 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165156",
+      "id_commande_v2i": "260630000038",
+      "code_cote": "B",
+      "patient": "CAU-GRIMALDI JEAN LOUIS",
+      "job_cosium": "J144102189-03",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 11:54",
+      "detail": "Réf: CAU-GRIMALDI JEAN LOUIS / J144102189-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -179,60 +233,6 @@
       }
     },
     {
-      "ord_numb": "            10165156",
-      "id_commande_v2i": "260630000038",
-      "code_cote": "B",
-      "patient": "CAU-GRIMALDI JEAN LOUIS",
-      "job_cosium": "J144102189-03",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 10:31",
-      "detail": "Réf: CAU-GRIMALDI JEAN LOUIS / J144102189-03 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.75",
-        "axe": 165,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165170",
       "id_commande_v2i": "260630000052",
       "code_cote": "B",
@@ -285,6 +285,58 @@
           "Tchin Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165174",
+      "id_commande_v2i": "260630000056",
+      "code_cote": "B",
+      "patient": "RAFFALLI JEAN PIERRE",
+      "job_cosium": "J144102193",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 11:43",
+      "detail": "Réf: RAFFALLI JEAN PIERRE / J144102193 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "2.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -1524,6 +1576,60 @@
       }
     },
     {
+      "ord_numb": "            10164388",
+      "id_commande_v2i": "260625000013",
+      "code_cote": "B",
+      "patient": "MOUFAKKIR AHMED",
+      "job_cosium": "J144102075-02",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "30/06/2026 11:43",
+      "detail": "Réf: MOUFAKKIR AHMED / J144102075-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 26/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "1.25",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "1.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Noir C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164575",
       "id_commande_v2i": "260625000200",
       "code_cote": "B",
@@ -1582,60 +1688,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164388",
-      "id_commande_v2i": "260625000013",
-      "code_cote": "B",
-      "patient": "MOUFAKKIR AHMED",
-      "job_cosium": "J144102075-02",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "30/06/2026 11:36",
-      "detail": "Réf: MOUFAKKIR AHMED / J144102075-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 26/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "1.25",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "1.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Noir C"
         ]
       }
     },
