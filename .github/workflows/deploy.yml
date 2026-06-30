@@ -73,7 +73,6 @@ jobs:
           cp *.css public/ 2>/dev/null || true
           cp *.json public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
-          cp -r cartedevue public/ 2>/dev/null || true
 
           # 3. Construire l'espace Beta à l'intérieur du dossier public
           mkdir -p public/beta
@@ -85,13 +84,28 @@ jobs:
           # Liens des données et documents pour la beta
           cp *.json public/beta/ 2>/dev/null || true
           cp -r data_magasins public/beta/ 2>/dev/null || true
-          cp -r cartedevue public/beta/ 2>/dev/null || true
           cp -r documentcommun public/beta/ 2>/dev/null || true
           
           # Supprimer le dossier temporaire brut de la beta
           rm -rf temp_beta
 
-      # --- ETAPE 3 : DEPLOIEMENT ---
+      # --- ETAPE 3 : TRANSFERT DES PDF VERS LE DÉPÔT DÉDIÉ ---
+      - name: Transfert des PDF vers portail-cartedevue
+        env:
+          TOKEN: ${{ secrets.MES_PDF_TOKEN }}
+        run: |
+          git config --global user.email "bot@v2i.fr"
+          git config --global user.name "Bot Transfert"
+          git clone https://x-access-token:$TOKEN@github.com/Muller572b/portail-cartedevue.git temp_cartedevue
+          cp -r cartedevue/* temp_cartedevue/
+          cd temp_cartedevue
+          git add .
+          git commit -m "Mise à jour auto des PDF" || echo "Rien à commettre"
+          git push origin main
+          cd ..
+          rm -rf temp_cartedevue
+
+      # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
 
