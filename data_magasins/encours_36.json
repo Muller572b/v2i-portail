@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "30/06/2026 09:42",
+  "derniere_mise_a_jour": "30/06/2026 09:53",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165021",
@@ -210,6 +210,62 @@
         "hauteur": "28.0",
         "supplements": [
           "Prestige Flex 1.5 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165111",
+      "id_commande_v2i": "260629000204",
+      "code_cote": "B",
+      "patient": "GIOVANNONI MATTEU",
+      "job_cosium": "J139053460",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 09:51",
+      "detail": "Réf: GIOVANNONI MATTEU / J139053460 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "4.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 AS Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -492,62 +548,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165111",
-      "id_commande_v2i": "260629000204",
-      "code_cote": "B",
-      "patient": "GIOVANNONI MATTEU",
-      "job_cosium": "J139053460",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 19:13",
-      "detail": "Réf: GIOVANNONI MATTEU / J139053460 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "4.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
