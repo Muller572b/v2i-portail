@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "30/06/2026 11:42",
+  "derniere_mise_a_jour": "30/06/2026 11:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165162",
@@ -19,10 +19,10 @@
       "patient": "BROQUET JOHN",
       "job_cosium": "J120030564-02",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 11:40",
-      "detail": "Réf: BROQUET JOHN / J120030564-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "30/06/2026 11:52",
+      "detail": "Réf: BROQUET JOHN / J120030564-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -127,6 +127,64 @@
       }
     },
     {
+      "ord_numb": "            10165164",
+      "id_commande_v2i": "260630000046",
+      "code_cote": "B",
+      "patient": "COSTA JEAN CHARLES",
+      "job_cosium": "J120030570",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 11:51",
+      "detail": "Réf: COSTA JEAN CHARLES / J120030570 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.25",
+        "cylindre": "2.00",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "20.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.00",
+        "cylindre": "1.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "20.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165160",
       "id_commande_v2i": "260630000042",
       "code_cote": "B",
@@ -179,74 +237,16 @@
       }
     },
     {
-      "ord_numb": "            10165164",
-      "id_commande_v2i": "260630000046",
-      "code_cote": "B",
-      "patient": "COSTA JEAN CHARLES",
-      "job_cosium": "J120030570",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 10:49",
-      "detail": "Réf: COSTA JEAN CHARLES / J120030570 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.25",
-        "cylindre": "2.00",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "20.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.00",
-        "cylindre": "1.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "20.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165161",
       "id_commande_v2i": "260630000043",
       "code_cote": "B",
       "patient": "BARTOLI ELODIE",
       "job_cosium": "J120030568-01",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 11:36",
-      "detail": "Réf: BARTOLI ELODIE / J120030568-01 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "30/06/2026 11:43",
+      "detail": "Réf: BARTOLI ELODIE / J120030568-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
