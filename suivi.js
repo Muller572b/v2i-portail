@@ -729,8 +729,7 @@ function openSidePanel(idCommande) {
     document.getElementById('panel-bl').textContent = `N° DE COMMANDE : ${item.id_commande_v2i || item.ord_numb || "—"}`;
     document.getElementById('panel-cosium-id').textContent = item.job_cosium || "—";
 
-    // 2. Mise à jour des verres OD (en accédant aux propriétés imbriquées)
-    // On utilise ?. pour éviter les erreurs si oeil_droit est vide
+    // 2. Mise à jour des verres OD
     document.getElementById('od-sph').textContent = item.oeil_droit?.sphere || "—";
     document.getElementById('od-cyl').textContent = item.oeil_droit?.cylindre || "—";
     document.getElementById('od-axe').textContent = item.oeil_droit?.axe || "—";
@@ -742,7 +741,32 @@ function openSidePanel(idCommande) {
     document.getElementById('og-axe').textContent = item.oeil_gauche?.axe || "—";
     document.getElementById('og-add').textContent = item.oeil_gauche?.addition || "—";
 
-    // 4. Affichage du panneau
+    // 4. Mise à jour des données morphologiques (Ecarts et Hauteurs)
+    // Assurez-vous que ces IDs existent dans votre HTML
+    document.getElementById('morpho-od-ecart').textContent = item.oeil_droit?.ecart_pupillaire || "—";
+    document.getElementById('morpho-od-haut').textContent = item.oeil_droit?.hauteur || "—";
+    document.getElementById('morpho-og-ecart').textContent = item.oeil_gauche?.ecart_pupillaire || "—";
+    document.getElementById('morpho-og-haut').textContent = item.oeil_gauche?.hauteur || "—";
+
+    // 5. Mise à jour des Traitements (Suppléments)
+    const conteneurSupplements = document.getElementById('panel-supplements');
+    if (conteneurSupplements) {
+        conteneurSupplements.innerHTML = ""; // Vider avant de remplir
+        const liste = item.oeil_droit?.supplements || [];
+        
+        if (liste.length > 0) {
+            liste.forEach(traitement => {
+                const span = document.createElement('span');
+                span.className = "inline-block bg-blue-50 text-blue-700 text-[10px] px-2 py-1 rounded-full border border-blue-200 mr-1 mb-1";
+                span.textContent = traitement;
+                conteneurSupplements.appendChild(span);
+            });
+        } else {
+            conteneurSupplements.innerHTML = '<span class="text-xs text-gray-400 italic">Aucun traitement spécifique</span>';
+        }
+    }
+
+    // 6. Affichage du panneau
     const panel = document.getElementById('side-panel');
     if (panel) {
         panel.classList.remove('hidden', 'translate-x-full');
