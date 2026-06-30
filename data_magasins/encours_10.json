@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "30/06/2026 13:59",
+  "derniere_mise_a_jour": "30/06/2026 15:19",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165137",
@@ -75,7 +75,7 @@
       "patient": "DOS SANTOS DA COSTA EMMA",
       "job_cosium": "J145063640-01",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 11:03",
+      "date_dernier_statut": "30/06/2026 14:56",
       "detail": "Réf: DOS SANTOS DA COSTA EMMA / J145063640-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
@@ -413,6 +413,110 @@
       }
     },
     {
+      "ord_numb": "            10165201",
+      "id_commande_v2i": "260630000083",
+      "code_cote": "B",
+      "patient": "TORRENT ALINE",
+      "job_cosium": "J145063647",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 14:39",
+      "detail": "Réf: TORRENT ALINE / J145063647 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165202",
+      "id_commande_v2i": "260630000084",
+      "code_cote": "B",
+      "patient": "TORRENT ALINE",
+      "job_cosium": "J145063646",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 14:39",
+      "detail": "Réf: TORRENT ALINE / J145063646 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165139",
       "id_commande_v2i": "260630000021",
       "code_cote": "B",
@@ -463,168 +567,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Noir C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165201",
-      "id_commande_v2i": "260630000083",
-      "code_cote": "B",
-      "patient": "TORRENT ALINE",
-      "job_cosium": "J145063647",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 12:19",
-      "detail": "Réf: TORRENT ALINE / J145063647 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165202",
-      "id_commande_v2i": "260630000084",
-      "code_cote": "B",
-      "patient": "TORRENT ALINE",
-      "job_cosium": "J145063646",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 12:19",
-      "detail": "Réf: TORRENT ALINE / J145063646 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164928",
-      "id_commande_v2i": "260629000021",
-      "code_cote": "B",
-      "patient": "LUCIANI VALERIE",
-      "job_cosium": "J145063488",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 10:13",
-      "detail": "Réf: LUCIANI VALERIE / J145063488 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "1.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },
@@ -683,60 +625,6 @@
           "Antireflet interne face CC inclus",
           "Durci Inclus",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165008",
-      "id_commande_v2i": "260629000101",
-      "code_cote": "B",
-      "patient": "MOTTA SOPHIE",
-      "job_cosium": "J145063622",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:52",
-      "detail": "Réf: MOTTA SOPHIE / J145063622 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Reader3 1.5 Durci",
-          "Durci Inclus"
         ]
       }
     },
@@ -981,6 +869,118 @@
           "Prisme inf à 4",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164928",
+      "id_commande_v2i": "260629000021",
+      "code_cote": "B",
+      "patient": "LUCIANI VALERIE",
+      "job_cosium": "J145063488",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 14:23",
+      "detail": "Réf: LUCIANI VALERIE / J145063488 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "1.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165008",
+      "id_commande_v2i": "260629000101",
+      "code_cote": "B",
+      "patient": "MOTTA SOPHIE",
+      "job_cosium": "J145063622",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 15:12",
+      "detail": "Réf: MOTTA SOPHIE / J145063622 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Reader3 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
