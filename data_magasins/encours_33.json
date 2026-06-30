@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "30/06/2026 08:42",
+  "derniere_mise_a_jour": "30/06/2026 08:53",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164913",
@@ -417,62 +417,6 @@
       }
     },
     {
-      "ord_numb": "            10164663",
-      "id_commande_v2i": "260626000065",
-      "code_cote": "B",
-      "patient": "VERSINI AMELIE",
-      "job_cosium": "J140026289",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 08:41",
-      "detail": "Réf: VERSINI AMELIE / J140026289 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-6.75",
-        "cylindre": "2.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-6.25",
-        "cylindre": "1.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164687",
       "id_commande_v2i": "260626000089",
       "code_cote": "B",
@@ -535,62 +479,6 @@
       }
     },
     {
-      "ord_numb": "            10164741",
-      "id_commande_v2i": "260626000143",
-      "code_cote": "B",
-      "patient": "FILIPPI CHRISTIANE",
-      "job_cosium": "J140026300-03",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:19",
-      "detail": "Réf: FILIPPI CHRISTIANE / J140026300-03 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "4.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "4.00",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164742",
       "id_commande_v2i": "260626000144",
       "code_cote": "B",
@@ -647,6 +535,62 @@
       }
     },
     {
+      "ord_numb": "            10164663",
+      "id_commande_v2i": "260626000065",
+      "code_cote": "B",
+      "patient": "VERSINI AMELIE",
+      "job_cosium": "J140026289",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 08:52",
+      "detail": "Réf: VERSINI AMELIE / J140026289 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-6.75",
+        "cylindre": "2.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-6.25",
+        "cylindre": "1.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164668",
       "id_commande_v2i": "260626000070",
       "code_cote": "B",
@@ -698,6 +642,62 @@
         "supplements": [
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164741",
+      "id_commande_v2i": "260626000143",
+      "code_cote": "B",
+      "patient": "FILIPPI CHRISTIANE",
+      "job_cosium": "J140026300-03",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 08:46",
+      "detail": "Réf: FILIPPI CHRISTIANE / J140026300-03 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "4.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "4.00",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Teinte Brun C",
           "Durci Inclus"
         ]
       }
