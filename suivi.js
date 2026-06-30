@@ -5,8 +5,10 @@
  */
 
 // --- CONFIGURATION CONSTANTE GITHUB ---
+// --- CONFIGURATION CONSTANTE GITHUB ---
 const GITHUB_BASE_URL = "https://raw.githubusercontent.com/Muller572b/v2i-portail/main";
-
+// Nouvelle constante pour les PDF externalisés
+const GITHUB_PDF_BASE_URL = "https://raw.githubusercontent.com/Muller572b/portail-cartedevue/main";
 // --- RÉPERTOIRE DE SÉCURITÉ DES CODES COSIUM ---
 window.LISTE_MAGASINS = window.LISTE_MAGASINS || {
     "1": "DON", "2": "A36", "3": "LUP", "4": "BAB", "6": "LIS", "7": "A67",
@@ -657,7 +659,7 @@ function renderVerres() {
         const codeMagasinActuel = (currentCosiumCode && currentCosiumCode !== 'null') ? currentCosiumCode : '00'; 
         
         const urlEbl = `${GITHUB_BASE_URL}/eBLcertifie/${anneeBL}/${currentStoreId}/_${codeMagasinActuel}_BL_${idCommande}.pdf`;
-        const urlCdv = `${GITHUB_BASE_URL}/cartedevue/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
+        const urlCdv = `${GITHUB_PDF_BASE_URL}/${anneeBL}/${currentStoreId}/Carte_Vue_${currentStoreId}_${idCommande}.pdf`;
 
         const archiveBadge = v.isArchive 
             ? `<span class="ml-1 inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold bg-amber-100 text-amber-800 tracking-wide uppercase">Archive</span>`
@@ -714,7 +716,25 @@ function renderVerres() {
  * Remplit et déploie le volet technique latéral pour une commande sélectionnée
  */
 function openSidePanel(idCommande) {
-    console.log("Ouverture du panneau technique pour le BL :", idCommande);
+    // 1. Chercher la commande dans les deux tableaux
+    const toutesDonnees = [...storeEncours, ...storeArchives];
+    const item = toutesDonnees.find(i => String(i.id_commande_v2i || i.ord_numb || i.id_bl_v2i || '').trim() === String(idCommande).trim());
+
+    if (!item) {
+        console.error("Commande introuvable :", idCommande);
+        return;
+    }
+
+    // 2. Injecter les données (Modifiez les IDs selon votre HTML side-panel)
+    const elPatient = document.getElementById('side-panel-patient');
+    const elJob = document.getElementById('side-panel-job');
+    const elStatut = document.getElementById('side-panel-statut');
+    
+    if (elPatient) elPatient.innerText = item.patient || 'Inconnu';
+    if (elJob) elJob.innerText = item.job_cosium || 'N/A';
+    if (elStatut) elStatut.innerText = item.statut_affichage || item.statut_final || 'En cours';
+
+    // 3. Ouvrir le panneau
     const panel = document.getElementById('side-panel');
     if (panel) {
         panel.classList.remove('translate-x-full');
