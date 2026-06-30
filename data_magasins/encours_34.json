@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "30/06/2026 16:27",
+  "derniere_mise_a_jour": "30/06/2026 16:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165123",
@@ -19,10 +19,10 @@
       "patient": "PERFETTINI EDMOND",
       "job_cosium": "",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 14:57",
-      "detail": "Réf: PERFETTINI EDMOND — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "30/06/2026 16:53",
+      "detail": "Réf: PERFETTINI EDMOND — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 03/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -177,62 +177,6 @@
       }
     },
     {
-      "ord_numb": "            10165081",
-      "id_commande_v2i": "260629000174",
-      "code_cote": "B",
-      "patient": "PACCIONI-LUCIANI FRANCOISE",
-      "job_cosium": "J137036257-02",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 14:58",
-      "detail": "Réf: PACCIONI-LUCIANI FRANCOISE / J137036257-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 80,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.75",
-        "axe": 90,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165080",
       "id_commande_v2i": "260629000173",
       "code_cote": "B",
@@ -283,6 +227,62 @@
         "hauteur": "35.0",
         "supplements": [
           "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165081",
+      "id_commande_v2i": "260629000174",
+      "code_cote": "B",
+      "patient": "PACCIONI-LUCIANI FRANCOISE",
+      "job_cosium": "J137036257-02",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 16:54",
+      "detail": "Réf: PACCIONI-LUCIANI FRANCOISE / J137036257-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 80,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.75",
+        "axe": 90,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
