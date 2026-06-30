@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "30/06/2026 16:12",
+  "derniere_mise_a_jour": "30/06/2026 16:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165198",
@@ -191,10 +191,10 @@
       "patient": "GUILLOU JEAN-PIERRE",
       "job_cosium": "J128042696",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 14:58",
-      "detail": "Réf: GUILLOU JEAN-PIERRE / J128042696 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 16:19",
+      "detail": "Réf: GUILLOU JEAN-PIERRE / J128042696 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -253,10 +253,10 @@
       "patient": "ANZIANI PHILIPPE",
       "job_cosium": "J128042706",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 11:19",
-      "detail": "Réf: ANZIANI PHILIPPE / J128042706 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 16:19",
+      "detail": "Réf: ANZIANI PHILIPPE / J128042706 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -359,60 +359,6 @@
       }
     },
     {
-      "ord_numb": "            10164870",
-      "id_commande_v2i": "260627000056",
-      "code_cote": "B",
-      "patient": "GALENA MARIE",
-      "job_cosium": "J128042685",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "30/06/2026 09:09",
-      "detail": "Réf: GALENA MARIE / J128042685 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.3",
-        "supplements": [
-          "Media 1.5 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.3",
-        "supplements": [
-          "Media 1.5 Polar G15 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164821",
       "id_commande_v2i": "260627000007",
       "code_cote": "B",
@@ -461,6 +407,60 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164870",
+      "id_commande_v2i": "260627000056",
+      "code_cote": "B",
+      "patient": "GALENA MARIE",
+      "job_cosium": "J128042685",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "30/06/2026 16:19",
+      "detail": "Réf: GALENA MARIE / J128042685 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.3",
+        "supplements": [
+          "Media 1.5 Polar G15 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.3",
+        "supplements": [
+          "Media 1.5 Polar G15 Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -527,10 +527,10 @@
       "patient": "NOCETO JOSEPHINE",
       "job_cosium": "J128042668",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "30/06/2026 09:37",
-      "detail": "Réf: NOCETO JOSEPHINE / J128042668 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 16:19",
+      "detail": "Réf: NOCETO JOSEPHINE / J128042668 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 26/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -579,10 +579,10 @@
       "patient": "PEGLION PATRICK",
       "job_cosium": "J128042656",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "30/06/2026 09:37",
-      "detail": "Réf: PEGLION PATRICK / J128042656 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 16:19",
+      "detail": "Réf: PEGLION PATRICK / J128042656 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 25/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
