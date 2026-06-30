@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "30/06/2026 08:53",
+  "derniere_mise_a_jour": "30/06/2026 08:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164955",
@@ -597,10 +597,10 @@
       "patient": "MOHTARIM HASSAN",
       "job_cosium": "J160021007",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:10",
-      "detail": "Réf: MOHTARIM HASSAN / J160021007 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "30/06/2026 08:55",
+      "detail": "Réf: MOHTARIM HASSAN / J160021007 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 03/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -651,6 +651,62 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164778",
+      "id_commande_v2i": "260626000180",
+      "code_cote": "B",
+      "patient": "SANTOS MENDONCA MIGUEL ANGELO",
+      "job_cosium": "J160021008",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 08:55",
+      "detail": "Réf: SANTOS MENDONCA MIGUEL ANGELO / J160021008 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.2",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -709,62 +765,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164778",
-      "id_commande_v2i": "260626000180",
-      "code_cote": "B",
-      "patient": "SANTOS MENDONCA MIGUEL ANGELO",
-      "job_cosium": "J160021008",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:27",
-      "detail": "Réf: SANTOS MENDONCA MIGUEL ANGELO / J160021008 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.2",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -995,10 +995,10 @@
       "patient": "DE SA AZEVEDO MARIA",
       "job_cosium": "J160020988",
       "date_entree": "25/06/2026",
-      "date_dernier_statut": "29/06/2026 10:01",
-      "detail": "Réf: DE SA AZEVEDO MARIA / J160020988 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "30/06/2026 08:55",
+      "detail": "Réf: DE SA AZEVEDO MARIA / J160020988 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
