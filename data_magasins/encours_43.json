@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "30/06/2026 15:19",
+  "derniere_mise_a_jour": "30/06/2026 15:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165148",
@@ -193,68 +193,16 @@
       }
     },
     {
-      "ord_numb": "            10165147",
-      "id_commande_v2i": "260630000029",
-      "code_cote": "B",
-      "patient": "CESARINI JEAN MARC",
-      "job_cosium": "J149018412-02",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 10:40",
-      "detail": "Réf: CESARINI JEAN MARC / J149018412-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165206",
       "id_commande_v2i": "260630000088",
       "code_cote": "B",
       "patient": "OLIVESI FELICE",
       "job_cosium": "J149018416",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 15:09",
-      "detail": "Réf: OLIVESI FELICE / J149018416 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "30/06/2026 15:53",
+      "detail": "Réf: OLIVESI FELICE / J149018416 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -303,6 +251,58 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165147",
+      "id_commande_v2i": "260630000029",
+      "code_cote": "B",
+      "patient": "CESARINI JEAN MARC",
+      "job_cosium": "J149018412-02",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 15:32",
+      "detail": "Réf: CESARINI JEAN MARC / J149018412-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -363,16 +363,68 @@
       }
     },
     {
+      "ord_numb": "            10165024",
+      "id_commande_v2i": "260629000117",
+      "code_cote": "B",
+      "patient": "RAFFENNE DOMINIQUE",
+      "job_cosium": "J149018408-02",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "29/06/2026 15:02",
+      "detail": "Réf: RAFFENNE DOMINIQUE / J149018408-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164957",
       "id_commande_v2i": "260629000050",
       "code_cote": "B",
       "patient": "PECE ELISA",
       "job_cosium": "J149018405-01",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 14:24",
-      "detail": "Réf: PECE ELISA / J149018405-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:32",
+      "detail": "Réf: PECE ELISA / J149018405-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -425,10 +477,10 @@
       "patient": "PECE ELISA",
       "job_cosium": "J149018405-02",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:37",
-      "detail": "Réf: PECE ELISA / J149018405-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:32",
+      "detail": "Réf: PECE ELISA / J149018405-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -469,58 +521,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165024",
-      "id_commande_v2i": "260629000117",
-      "code_cote": "B",
-      "patient": "RAFFENNE DOMINIQUE",
-      "job_cosium": "J149018408-02",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:02",
-      "detail": "Réf: RAFFENNE DOMINIQUE / J149018408-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
@@ -593,10 +593,10 @@
       "patient": "PASQUALINI MARIE",
       "job_cosium": "J149018401",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "30/06/2026 11:20",
-      "detail": "Réf: PASQUALINI MARIE / J149018401 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:32",
+      "detail": "Réf: PASQUALINI MARIE / J149018401 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
