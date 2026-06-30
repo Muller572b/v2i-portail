@@ -36,15 +36,13 @@ jobs:
           # 1. Créer le dossier final qui sera envoyé sur le web
           mkdir -p public
 
-          # 2. Y copier la production (fichiers HTML/JS/CSS racine de main)
-          # On copie de manière sélective pour éviter d'embarquer les dossiers temporaires
+          # 2. Y copier la production (fichiers légers uniquement)
           cp *.html public/ 2>/dev/null || true
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
-          cp -r data_archives public/ 2>/dev/null || true
-          cp -r eBLCertifie public/ 2>/dev/null || true
           cp -r cartedevue public/ 2>/dev/null || true
+          # RETRAIT DES LIGNES data_archives ET eBLCertifie ICI
 
           # 3. Construire l'espace Beta à l'intérieur du dossier public
           mkdir -p public/beta
