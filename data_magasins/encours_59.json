@@ -10,28 +10,28 @@
     "email": "atb@balbi.fr",
     "mot_de_passe_portail": "atb"
   },
-  "derniere_mise_a_jour": "29/06/2026 23:42",
+  "derniere_mise_a_jour": "30/06/2026 15:57",
   "commandes_en_cours": [
     {
-      "ord_numb": "            10164889",
-      "id_commande_v2i": "260627000075",
-      "code_cote": "B",
-      "patient": "CLIENT PASSAGE",
-      "job_cosium": "J602004814",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 15:17",
-      "detail": "Réf: CLIENT PASSAGE / J602004814 — (Stock) — État: Expediée",
+      "ord_numb": "            10165229",
+      "id_commande_v2i": "260630000111",
+      "code_cote": "R",
+      "patient": "MAG",
+      "job_cosium": "",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 15:40",
+      "detail": "Réf: MAG — (Stock) — État: Expediée",
       "statut_code": "SHIP",
       "statut_affichage": "Expediée",
-      "statut": "Livraison prévue : 29/06 ",
+      "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
         "diametre": "70",
         "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 5,
+        "cylindre": "0.50",
+        "axe": 0,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -44,25 +44,7 @@
           "St. Uni 1.5 Durci Arh"
         ]
       },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Durci Arh"
-        ]
-      }
+      "oeil_gauche": null
     }
   ]
 }
