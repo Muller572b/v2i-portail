@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "30/06/2026 13:59",
+  "derniere_mise_a_jour": "30/06/2026 15:19",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165158",
@@ -127,10 +127,10 @@
       "patient": "GRISIN IRINA",
       "job_cosium": "J127031098",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 15:27",
-      "detail": "Réf: GRISIN IRINA / J127031098 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "30/06/2026 14:58",
+      "detail": "Réf: GRISIN IRINA / J127031098 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -171,6 +171,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165097",
+      "id_commande_v2i": "260629000190",
+      "code_cote": "B",
+      "patient": "LAMBERT DIDIER",
+      "job_cosium": "J127031108-01",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 14:58",
+      "detail": "Réf: LAMBERT DIDIER / J127031108-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -289,62 +345,6 @@
           "Vista Media 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165097",
-      "id_commande_v2i": "260629000190",
-      "code_cote": "B",
-      "patient": "LAMBERT DIDIER",
-      "job_cosium": "J127031108-01",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 09:35",
-      "detail": "Réf: LAMBERT DIDIER / J127031108-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
