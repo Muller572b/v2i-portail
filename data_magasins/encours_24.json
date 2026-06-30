@@ -10,66 +10,8 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "30/06/2026 09:38",
+  "derniere_mise_a_jour": "30/06/2026 09:42",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10165120",
-      "id_commande_v2i": "260630000002",
-      "code_cote": "B",
-      "patient": "BESSON MARYLINE",
-      "job_cosium": "",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 09:29",
-      "detail": "Réf: BESSON MARYLINE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 03/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Affiny Confort 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Affiny Confort 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      }
-    },
     {
       "ord_numb": "            10165122",
       "id_commande_v2i": "260630000004",
@@ -178,6 +120,64 @@
         "epaisseur_bord": "1.0",
         "ecart_pupillaire": "30.5",
         "hauteur": "27.0",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165120",
+      "id_commande_v2i": "260630000002",
+      "code_cote": "B",
+      "patient": "BESSON MARYLINE",
+      "job_cosium": "",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 09:39",
+      "detail": "Réf: BESSON MARYLINE — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 03/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.0",
         "supplements": [
           "Affiny Confort 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
