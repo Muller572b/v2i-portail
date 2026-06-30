@@ -10,8 +10,64 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "30/06/2026 08:57",
+  "derniere_mise_a_jour": "30/06/2026 09:08",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165130",
+      "id_commande_v2i": "260630000012",
+      "code_cote": "B",
+      "patient": "OLIVESI JACQUES",
+      "job_cosium": "",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 09:07",
+      "detail": "Réf: OLIVESI JACQUES — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164968",
       "id_commande_v2i": "260629000061",
@@ -567,60 +623,6 @@
       }
     },
     {
-      "ord_numb": "            10164780",
-      "id_commande_v2i": "260626000182",
-      "code_cote": "B",
-      "patient": "BOURDERIONNET JESSICA",
-      "job_cosium": "J121042760",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:05",
-      "detail": "Réf: BOURDERIONNET JESSICA / J121042760 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164712",
       "id_commande_v2i": "260626000114",
       "code_cote": "B",
@@ -672,6 +674,60 @@
         "supplements": [
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10164780",
+      "id_commande_v2i": "260626000182",
+      "code_cote": "B",
+      "patient": "BOURDERIONNET JESSICA",
+      "job_cosium": "J121042760",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "30/06/2026 09:07",
+      "detail": "Réf: BOURDERIONNET JESSICA / J121042760 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Polar Brun Durci",
           "Durci Inclus"
         ]
       }
