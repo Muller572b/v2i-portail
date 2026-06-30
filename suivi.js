@@ -725,19 +725,37 @@ function openSidePanel(idCommande) {
         return;
     }
 
-    // 2. Injecter les données (Modifiez les IDs selon votre HTML side-panel)
-    const elPatient = document.getElementById('side-panel-patient');
-    const elJob = document.getElementById('side-panel-job');
-    const elStatut = document.getElementById('side-panel-statut');
-    
-    if (elPatient) elPatient.innerText = item.patient || 'Inconnu';
-    if (elJob) elJob.innerText = item.job_cosium || 'N/A';
-    if (elStatut) elStatut.innerText = item.statut_affichage || item.statut_final || 'En cours';
+    // 2. Mapping des éléments du DOM (Assurez-vous que ces IDs existent dans votre HTML)
+    const elements = {
+        patient: document.getElementById('side-panel-patient'),
+        job: document.getElementById('side-panel-job'),
+        statut: document.getElementById('side-panel-statut'),
+        od: document.getElementById('side-panel-od'), // Idéal pour le détail verre OD
+        og: document.getElementById('side-panel-og'), // Idéal pour le détail verre OG
+        date: document.getElementById('side-panel-date')
+    };
 
-    // 3. Ouvrir le panneau
+    // 3. Injection sécurisée des données
+    if (elements.patient) elements.patient.innerText = item.patient || 'Inconnu';
+    if (elements.job) elements.job.innerText = item.job_cosium || '—';
+    if (elements.statut) elements.statut.innerText = item.statut_affichage || item.statut_final || '—';
+    if (elements.date) elements.date.innerText = item.date_entree || '—';
+
+    // Formatage détaillé des verres (OD / OG)
+    if (elements.od) {
+        elements.od.innerHTML = item.oeil_droit ? 
+            `<span class="font-bold">OD:</span> ${item.oeil_droit.verre || 'Standard'}` : '<span class="text-gray-400">Non équipé</span>';
+    }
+    if (elements.og) {
+        elements.og.innerHTML = item.oeil_gauche ? 
+            `<span class="font-bold">OG:</span> ${item.oeil_gauche.verre || 'Standard'}` : '<span class="text-gray-400">Non équipé</span>';
+    }
+
+    // 4. Affichage du panneau (suppose que votre panneau a une classe 'hidden' ou 'translate-x-full')
     const panel = document.getElementById('side-panel');
     if (panel) {
-        panel.classList.remove('translate-x-full');
+        panel.classList.remove('hidden'); // Ajustez selon votre CSS (ex: 'translate-x-full' -> 'translate-x-0')
+        panel.classList.add('flex'); 
     }
 }
 
