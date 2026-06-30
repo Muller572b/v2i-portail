@@ -724,40 +724,29 @@ function openSidePanel(idCommande) {
         return;
     }
 
-    // --- DEBUG : Vérifiez vos données dans la console (F12) ---
-    console.log("Données chargées pour le panneau :", item);
+    // 1. Mise à jour de l'en-tête
+    document.getElementById('panel-patient').textContent = item.patient || "Nom Inconnu";
+    document.getElementById('panel-bl').textContent = `N° DE COMMANDE : ${item.id_commande_v2i || item.ord_numb || "—"}`;
+    document.getElementById('panel-cosium-id').textContent = item.job_cosium || "—";
 
-    // 2. Mapping des éléments du DOM (Assurez-vous que ces IDs existent dans votre HTML)
-    const elements = {
-        patient: document.getElementById('side-panel-patient'),
-        job: document.getElementById('side-panel-job'),
-        statut: document.getElementById('side-panel-statut'),
-        od: document.getElementById('side-panel-od'), // Idéal pour le détail verre OD
-        og: document.getElementById('side-panel-og'), // Idéal pour le détail verre OG
-        date: document.getElementById('side-panel-date')
-    };
+    // 2. Mise à jour des verres OD (en accédant aux propriétés imbriquées)
+    // On utilise ?. pour éviter les erreurs si oeil_droit est vide
+    document.getElementById('od-sph').textContent = item.oeil_droit?.sphere || "—";
+    document.getElementById('od-cyl').textContent = item.oeil_droit?.cylindre || "—";
+    document.getElementById('od-axe').textContent = item.oeil_droit?.axe || "—";
+    document.getElementById('od-add').textContent = item.oeil_droit?.addition || "—";
 
-    // 3. Injection sécurisée des données
-    if (elements.patient) elements.patient.innerText = item.patient || 'Inconnu';
-    if (elements.job) elements.job.innerText = item.job_cosium || '—';
-    if (elements.statut) elements.statut.innerText = item.statut_affichage || item.statut_final || '—';
-    if (elements.date) elements.date.innerText = item.date_entree || '—';
+    // 3. Mise à jour des verres OG
+    document.getElementById('og-sph').textContent = item.oeil_gauche?.sphere || "—";
+    document.getElementById('og-cyl').textContent = item.oeil_gauche?.cylindre || "—";
+    document.getElementById('og-axe').textContent = item.oeil_gauche?.axe || "—";
+    document.getElementById('og-add').textContent = item.oeil_gauche?.addition || "—";
 
-    // Formatage détaillé des verres (OD / OG)
-    if (elements.od) {
-        elements.od.innerHTML = item.oeil_droit ? 
-            `<span class="font-bold">OD:</span> ${item.oeil_droit.verre || 'Standard'}` : '<span class="text-gray-400">Non équipé</span>';
-    }
-    if (elements.og) {
-        elements.og.innerHTML = item.oeil_gauche ? 
-            `<span class="font-bold">OG:</span> ${item.oeil_gauche.verre || 'Standard'}` : '<span class="text-gray-400">Non équipé</span>';
-    }
-
-    // 4. Affichage du panneau (suppose que votre panneau a une classe 'hidden' ou 'translate-x-full')
+    // 4. Affichage du panneau
     const panel = document.getElementById('side-panel');
     if (panel) {
-        panel.classList.remove('hidden', 'translate-x-full'); // On retire le mode caché
-        panel.classList.add('flex', 'translate-x-0');         // On ajoute le mode visible
+        panel.classList.remove('hidden', 'translate-x-full');
+        panel.classList.add('flex', 'translate-x-0');
     }
 }
 
