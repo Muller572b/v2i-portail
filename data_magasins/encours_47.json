@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "30/06/2026 10:08",
+  "derniere_mise_a_jour": "30/06/2026 10:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10164955",
@@ -193,110 +193,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165041",
-      "id_commande_v2i": "260629000134",
-      "code_cote": "B",
-      "patient": "LUCCHINI JEANNE",
-      "job_cosium": "J160021015-02",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 16:03",
-      "detail": "Réf: LUCCHINI JEANNE / J160021015-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.50",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165079",
-      "id_commande_v2i": "260629000172",
-      "code_cote": "B",
-      "patient": "MONTICO DANIELLE",
-      "job_cosium": "J160021020",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 09:16",
-      "detail": "Réf: MONTICO DANIELLE / J160021020 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.25",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
         ]
       }
     },
@@ -535,16 +431,120 @@
       }
     },
     {
+      "ord_numb": "            10165041",
+      "id_commande_v2i": "260629000134",
+      "code_cote": "B",
+      "patient": "LUCCHINI JEANNE",
+      "job_cosium": "J160021015-02",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 10:11",
+      "detail": "Réf: LUCCHINI JEANNE / J160021015-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.50",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165079",
+      "id_commande_v2i": "260629000172",
+      "code_cote": "B",
+      "patient": "MONTICO DANIELLE",
+      "job_cosium": "J160021020",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "30/06/2026 10:11",
+      "detail": "Réf: MONTICO DANIELLE / J160021020 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.25",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164879",
       "id_commande_v2i": "260627000065",
       "code_cote": "B",
       "patient": "LANOE HAVENNA",
       "job_cosium": "J160021010-02",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "29/06/2026 17:05",
-      "detail": "Réf: LANOE HAVENNA / J160021010-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 10:11",
+      "detail": "Réf: LANOE HAVENNA / J160021010-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -769,16 +769,70 @@
       }
     },
     {
+      "ord_numb": "            10164759",
+      "id_commande_v2i": "260626000161",
+      "code_cote": "B",
+      "patient": "GRAZIANO JOSEPHINE",
+      "job_cosium": "J160020996",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "26/06/2026 17:26",
+      "detail": "Réf: GRAZIANO JOSEPHINE / J160020996 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte au modèle uni A-C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte au modèle uni A-C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164619",
       "id_commande_v2i": "260626000021",
       "code_cote": "B",
       "patient": "DROSCEAC LUCICA",
       "job_cosium": "J160020990",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 10:51",
-      "detail": "Réf: DROSCEAC LUCICA / J160020990 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 10:11",
+      "detail": "Réf: DROSCEAC LUCICA / J160020990 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -831,10 +885,10 @@
       "patient": "ZARROU MUSTAPHA",
       "job_cosium": "J160020999",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 15:34",
-      "detail": "Réf: ZARROU MUSTAPHA / J160020999 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 10:11",
+      "detail": "Réf: ZARROU MUSTAPHA / J160020999 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -885,10 +939,10 @@
       "patient": "MOHTARIM AYOUB",
       "job_cosium": "J160021006-02",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "29/06/2026 11:33",
-      "detail": "Réf: MOHTARIM AYOUB / J160021006-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 10:11",
+      "detail": "Réf: MOHTARIM AYOUB / J160021006-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -931,60 +985,6 @@
           "Vista Uni 1.5 Non durci",
           "Teinte Gris C",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164759",
-      "id_commande_v2i": "260626000161",
-      "code_cote": "B",
-      "patient": "GRAZIANO JOSEPHINE",
-      "job_cosium": "J160020996",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 17:26",
-      "detail": "Réf: GRAZIANO JOSEPHINE / J160020996 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte au modèle uni A-C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte au modèle uni A-C"
         ]
       }
     },
