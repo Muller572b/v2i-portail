@@ -31,9 +31,16 @@ jobs:
           ref: beta
           path: temp_beta
 
-      # --- ETAPE 1 : CONFIGURATION ET EXECUTION PYTHON D'ABORD ---
-      # On génère les index (documents.json, etc.) à la racine avant de construire le site
-      
+      # --- DIAGNOSTIC : POUR VOIR LE POIDS DE CHAQUE DOSSIER ---
+      - name: Diagnostic de la taille des dossiers
+        run: |
+          echo "========================================="
+          echo "=== ANALYSE DU POIDS DE CHAQUE DOSSIER ==="
+          echo "========================================="
+          du -sh */ 2>/dev/null || true
+          echo "========================================="
+
+      # --- ETAPE 1 : CONFIGURATION ET EXECUTION PYTHON ---
       - name: Configuration de Python
         uses: actions/setup-python@v5
         with:
@@ -55,20 +62,18 @@ jobs:
           fi
 
       # --- ETAPE 2 : ASSEMBLEMENT DU DOSSIER PUBLIC ---
-
       - name: Construction dynamique de l'espace de Production et Beta
         run: |
           # 1. Créer le dossier final qui sera envoyé sur le web
           mkdir -p public
 
-          # 2. Y copier la production (Fichiers web + JSON générés + Dossiers de documents)
+          # 2. Y copier la production (Fichiers web + JSON générés uniquement)
           cp *.html public/ 2>/dev/null || true
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
-          cp *.json public/ 2>/dev/null || true # <-- Inclus documents.json qui vient d'être créé !
+          cp *.json public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
           cp -r cartedevue public/ 2>/dev/null || true
-          
 
           # 3. Construire l'espace Beta à l'intérieur du dossier public
           mkdir -p public/beta
@@ -87,7 +92,6 @@ jobs:
           rm -rf temp_beta
 
       # --- ETAPE 3 : DEPLOIEMENT ---
-
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
 
