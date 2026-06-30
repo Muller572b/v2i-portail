@@ -716,7 +716,6 @@ function renderVerres() {
  * Remplit et déploie le volet technique latéral pour une commande sélectionnée
  */
 function openSidePanel(idCommande) {
-    // 1. Chercher la commande dans les deux tableaux
     const toutesDonnees = [...storeEncours, ...storeArchives];
     const item = toutesDonnees.find(i => String(i.id_commande_v2i || i.ord_numb || i.id_bl_v2i || '').trim() === String(idCommande).trim());
 
@@ -724,6 +723,9 @@ function openSidePanel(idCommande) {
         console.error("Commande introuvable :", idCommande);
         return;
     }
+
+    // --- DEBUG : Vérifiez vos données dans la console (F12) ---
+    console.log("Données chargées pour le panneau :", item);
 
     // 2. Mapping des éléments du DOM (Assurez-vous que ces IDs existent dans votre HTML)
     const elements = {
@@ -754,8 +756,8 @@ function openSidePanel(idCommande) {
     // 4. Affichage du panneau (suppose que votre panneau a une classe 'hidden' ou 'translate-x-full')
     const panel = document.getElementById('side-panel');
     if (panel) {
-        panel.classList.remove('hidden'); // Ajustez selon votre CSS (ex: 'translate-x-full' -> 'translate-x-0')
-        panel.classList.add('flex'); 
+        panel.classList.remove('hidden', 'translate-x-full'); // On retire le mode caché
+        panel.classList.add('flex', 'translate-x-0');         // On ajoute le mode visible
     }
 }
 
@@ -765,7 +767,8 @@ function openSidePanel(idCommande) {
 function closeSidePanel() {
     const panel = document.getElementById('side-panel');
     if (panel) {
-        panel.classList.add('translate-x-full');
+        panel.classList.remove('translate-x-0', 'flex'); // On retire le visible
+        panel.classList.add('translate-x-full');         // On ajoute le caché
     }
 }
 
