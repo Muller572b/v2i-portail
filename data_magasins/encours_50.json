@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "30/06/2026 15:19",
+  "derniere_mise_a_jour": "30/06/2026 15:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165210",
@@ -75,10 +75,10 @@
       "patient": "LILLO YVES",
       "job_cosium": "J600029363",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 14:39",
-      "detail": "Réf: LILLO YVES / J600029363 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:21",
+      "detail": "Réf: LILLO YVES / J600029363 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -127,10 +127,10 @@
       "patient": "LOCATELLI ALAIN",
       "job_cosium": "J600029357",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 14:39",
-      "detail": "Réf: LOCATELLI ALAIN / J600029357 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:21",
+      "detail": "Réf: LOCATELLI ALAIN / J600029357 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 01/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -179,10 +179,10 @@
       "patient": "BERNARDO JOSETTE",
       "job_cosium": "",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 14:22",
-      "detail": "Réf: BERNARDO JOSETTE — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:21",
+      "detail": "Réf: BERNARDO JOSETTE — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -239,10 +239,10 @@
       "patient": "ATTIA KAMOUN Allae",
       "job_cosium": "",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 17:20",
-      "detail": "Réf: ATTIA KAMOUN Allae — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:21",
+      "detail": "Réf: ATTIA KAMOUN Allae — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -284,62 +284,6 @@
         "supplements": [
           "CLA Unifocal 1.67 HC AR",
           "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164905",
-      "id_commande_v2i": "260627000091",
-      "code_cote": "B",
-      "patient": "PINELLI ELIANE",
-      "job_cosium": "J600029346",
-      "date_entree": "27/06/2026",
-      "date_dernier_statut": "30/06/2026 11:20",
-      "detail": "Réf: PINELLI ELIANE / J600029346 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.00",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Xtra Confort 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "0.75",
-        "axe": 155,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Xtra Confort 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -401,16 +345,72 @@
       }
     },
     {
+      "ord_numb": "            10164905",
+      "id_commande_v2i": "260627000091",
+      "code_cote": "B",
+      "patient": "PINELLI ELIANE",
+      "job_cosium": "J600029346",
+      "date_entree": "27/06/2026",
+      "date_dernier_statut": "30/06/2026 15:21",
+      "detail": "Réf: PINELLI ELIANE / J600029346 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.00",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Xtra Confort 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Xtra Confort 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164798",
       "id_commande_v2i": "260626000200",
       "code_cote": "B",
       "patient": "WANDELMER GILLES",
       "job_cosium": "J600029334",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "30/06/2026 11:20",
-      "detail": "Réf: WANDELMER GILLES / J600029334 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "30/06/2026 15:21",
+      "detail": "Réf: WANDELMER GILLES / J600029334 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
