@@ -67,7 +67,6 @@ jobs:
           cd ..
           rm -rf temp_sync
 
-      # --- ETAPE 3 : ASSEMBLEMENT DU DOSSIER PUBLIC (SANS LES PDF) ---
       - name: Construction dynamique de l'espace de Production et Beta
         run: |
           mkdir -p public
@@ -75,18 +74,12 @@ jobs:
           cp *.html public/ 2>/dev/null || true
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
-          cp *.json public/ 2>/dev/null || true
-          cp -r data_magasins public/ 2>/dev/null || true
-          # NOTE : On NE copie PAS cartedevue ici, car il est géré par l'autre dépôt !
-
-          # ... (reste de votre logique de build Beta inchangée) ...
-          mkdir -p public/beta
-          cp -r temp_beta/* public/beta/ 2>/dev/null || true
-          rm -rf public/beta/data_magasins public/beta/data_archives public/beta/eBLCertifie public/beta/cartedevue public/beta/documentcommun public/beta/documents_magasin public/beta/.github public/beta/.git
-          cp *.json public/beta/ 2>/dev/null || true
-          cp -r data_magasins public/beta/ 2>/dev/null || true
-          cp -r documentcommun public/beta/ 2>/dev/null || true
-          rm -rf temp_beta
+          
+          # --- AJOUTEZ CES LIGNES POUR COPIER VOS DOSSIERS ---
+          cp -r images public/ 2>/dev/null || true          # Pour les logos et images
+          cp -r data public/ 2>/dev/null || true            # Pour flux_optique.json
+          cp -r data_magasins public/ 2>/dev/null || true   # Déjà présent
+          cp -r data_archives public/ 2>/dev/null || true   # Pour les archives
 
       # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
