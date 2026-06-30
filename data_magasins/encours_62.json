@@ -10,8 +10,70 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "30/06/2026 18:26",
+  "derniere_mise_a_jour": "30/06/2026 18:41",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165297",
+      "id_commande_v2i": "260630000179",
+      "code_cote": "B",
+      "patient": "MARTINS MENDES JOSE",
+      "job_cosium": "J157000071",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "30/06/2026 18:38",
+      "detail": "Réf: MARTINS MENDES JOSE / J157000071 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-0.75",
+        "cylindre": "1.75",
+        "axe": 150,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Delta Equilibre2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10164830",
       "id_commande_v2i": "260627000016",
