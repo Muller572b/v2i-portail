@@ -725,10 +725,17 @@ function openSidePanel(idCommande) {
 /**
  * Ferme le volet technique latéral
  */
+/**
+ * Ferme le volet technique latéral
+ */
 function closeSidePanel() {
     const panel = document.getElementById('side-panel');
     if (panel) {
         panel.classList.add('translate-x-full');
+        // Optionnel : ajouter un petit délai pour attendre la fin de l'animation avant de cacher
+        setTimeout(() => {
+            panel.classList.add('hidden');
+        }, 300); 
     }
 }
 
