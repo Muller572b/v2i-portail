@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "30/06/2026 11:12",
+  "derniere_mise_a_jour": "30/06/2026 11:23",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165119",
@@ -193,7 +193,7 @@
       "patient": "BESSON MARYLINE",
       "job_cosium": "",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 10:55",
+      "date_dernier_statut": "30/06/2026 11:20",
       "detail": "Réf: BESSON MARYLINE — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
@@ -1533,6 +1533,60 @@
       }
     },
     {
+      "ord_numb": "            10164421",
+      "id_commande_v2i": "260625000046",
+      "code_cote": "B",
+      "patient": "ALBRECHT DORIAN",
+      "job_cosium": "J133036060",
+      "date_entree": "25/06/2026",
+      "date_dernier_statut": "30/06/2026 11:20",
+      "detail": "Réf: ALBRECHT DORIAN / J133036060 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "1.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.4",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "1.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164488",
       "id_commande_v2i": "260625000113",
       "code_cote": "B",
@@ -1639,60 +1693,6 @@
           "Uni 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164421",
-      "id_commande_v2i": "260625000046",
-      "code_cote": "B",
-      "patient": "ALBRECHT DORIAN",
-      "job_cosium": "J133036060",
-      "date_entree": "25/06/2026",
-      "date_dernier_statut": "30/06/2026 10:41",
-      "detail": "Réf: ALBRECHT DORIAN / J133036060 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.50",
-        "cylindre": "1.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.4",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.50",
-        "cylindre": "1.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Non Durci",
-          "Teinte Gris C"
         ]
       }
     },
