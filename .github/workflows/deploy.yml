@@ -31,15 +31,35 @@ jobs:
           ref: beta
           path: temp_beta
 
-      - name: Construction dynamique de l'espace Beta
+      - name: Construction dynamique de l'espace de Production et Beta
         run: |
-          mkdir -p beta
-          cp -r temp_beta/* beta/ 2>/dev/null || true
-          rm -rf beta/data_magasins beta/data_archives beta/eBLCertifie beta/cartedevue beta/.github
-          cp -r data_magasins beta/ 2>/dev/null || true
-          cp -r data_archives beta/ 2>/dev/null || true
-          cp -r eBLCertifie beta/ 2>/dev/null || true
-          cp -r cartedevue beta/ 2>/dev/null || true
+          # 1. Créer le dossier final qui sera envoyé sur le web
+          mkdir -p public
+
+          # 2. Y copier la production (fichiers HTML/JS/CSS racine de main)
+          # On copie de manière sélective pour éviter d'embarquer les dossiers temporaires
+          cp *.html public/ 2>/dev/null || true
+          cp *.js public/ 2>/dev/null || true
+          cp *.css public/ 2>/dev/null || true
+          cp -r data_magasins public/ 2>/dev/null || true
+          cp -r data_archives public/ 2>/dev/null || true
+          cp -r eBLCertifie public/ 2>/dev/null || true
+          cp -r cartedevue public/ 2>/dev/null || true
+
+          # 3. Construire l'espace Beta à l'intérieur du dossier public
+          mkdir -p public/beta
+          cp -r temp_beta/* public/beta/ 2>/dev/null || true
+          
+          # Nettoyage des fichiers inutiles dans beta
+          rm -rf public/beta/data_magasins public/beta/data_archives public/beta/eBLCertifie public/beta/cartedevue public/beta/.github public/beta/.git
+          
+          # Liens des données pour la beta
+          cp -r data_magasins public/beta/ 2>/dev/null || true
+          cp -r data_archives public/beta/ 2>/dev/null || true
+          cp -r eBLCertifie public/beta/ 2>/dev/null || true
+          cp -r cartedevue public/beta/ 2>/dev/null || true
+          
+          # Supprimer le dossier temporaire brut de la beta
           rm -rf temp_beta
 
       - name: Configuration de Python
@@ -50,33 +70,18 @@ jobs:
       - name: Installation des dépendances
         run: pip install beautifulsoup4 requests
 
+      # Note : Vos scripts Python devront être adaptés ou s'exécuter dans/vers le dossier public.
+      # Pour l'instant, on laisse l'exécution ainsi, mais on s'assurera que l'artefact pointe au bon endroit.
       - name: Récupération des actualités
         run: |
           if [ -f "fluxactu.py" ]; then
-            echo "→ Exécution de fluxactu.py à la racine..."
             python fluxactu.py
-          elif [ -f "beta/fluxactu.py" ]; then
-            echo "→ fluxactu.py trouvé dans beta. Copie et exécution..."
-            cp beta/fluxactu.py .
-            python fluxactu.py
-          else
-            echo "⚠ fluxactu.py introuvable. Création d'un flux vide pour éviter le crash JS."
-            mkdir -p data beta/data 2>/dev/null || true
-            echo "[]" > data/flux_optique.json
-            echo "[]" > beta/data/flux_optique.json
           fi
 
       - name: Génération de l'index des documents
         run: |
           if [ -f "scannerdocumentdispo.py" ]; then
-            echo "→ Exécution de scannerdocumentdispo.py à la racine..."
             python scannerdocumentdispo.py
-          elif [ -f "beta/scannerdocumentdispo.py" ]; then
-            echo "→ scannerdocumentdispo.py trouvé dans beta. Copie et exécution..."
-            cp beta/scannerdocumentdispo.py .
-            python scannerdocumentdispo.py
-          else
-            echo "⚠ scannerdocumentdispo.py introuvable. Étape ignorée."
           fi
 
       - name: Configuration de GitHub Pages
@@ -85,8 +90,9 @@ jobs:
       - name: Téléchargement de l'artefact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: 'public' # <--- C'est ICI qu'on change '.' pour 'public'
 
       - name: Déploiement sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
