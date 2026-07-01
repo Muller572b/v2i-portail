@@ -7,7 +7,7 @@ id_compteur = 1
 
 # --- CONFIGURATION DU STOCKAGE EXTERNE ---
 # Remplace cette URL par celle de ton vrai serveur où seront déposés les fichiers
-URL_SERVEUR = "https://data.v2i-portail.fr" 
+URL_SERVEUR = ""
 
 extensions_autorisees = ('pdf', 'jpg', 'jpeg', 'png', 'gif', 'zip', 'rar', 'doc', 'docx', 'xls', 'xlsx')
 
