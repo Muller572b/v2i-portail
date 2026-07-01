@@ -5,8 +5,43 @@
     "nom": "Acuitis Bastia (ATB)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "30/06/2026 à 06:05",
+  "derniere_validation": "01/07/2026 à 06:05",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10165229",
+      "id_commande_v2i": "260630000111",
+      "id_bl_v2i": "260630000111",
+      "code_cote": "R",
+      "patient": "MAG",
+      "job_cosium": "",
+      "detail": "Réf: MAG — (Stock) — État: Expédiée",
+      "date_entree": "30/06/2026",
+      "date_expedition": "30/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "30/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": null
+    },
     {
       "ord_numb": "            10164889",
       "id_commande_v2i": "260627000075",
@@ -57,6 +92,59 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10163951",
+      "id_commande_v2i": "260622000294",
+      "id_bl_v2i": "260622000294",
+      "code_cote": "B",
+      "patient": "RICCIARDI DAVID",
+      "job_cosium": "J602004803",
+      "detail": "Réf: RICCIARDI DAVID / J602004803 — (Stock) — État: Expédiée",
+      "date_entree": "22/06/2026",
+      "date_expedition": "27/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "27/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.00",
+        "cylindre": "2.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "2.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
@@ -167,59 +255,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Acui St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10163951",
-      "id_commande_v2i": "260622000294",
-      "id_bl_v2i": "260622000294",
-      "code_cote": "B",
-      "patient": "RICCIARDI DAVID",
-      "job_cosium": "J602004803",
-      "detail": "Réf: RICCIARDI DAVID / J602004803 — (Stock) — État: Expédiée",
-      "date_entree": "22/06/2026",
-      "date_expedition": "27/06/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "27/06/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-4.00",
-        "cylindre": "2.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "2.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
