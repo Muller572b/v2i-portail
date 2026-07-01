@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "01/07/2026 10:42",
+  "derniere_mise_a_jour": "01/07/2026 10:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165327",
@@ -81,10 +81,10 @@
       "patient": "MURACCIOLE CAROLE PIERRETT",
       "job_cosium": "J139053469",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 10:19",
-      "detail": "Réf: MURACCIOLE CAROLE PIERRETT / J139053469 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "01/07/2026 10:50",
+      "detail": "Réf: MURACCIOLE CAROLE PIERRETT / J139053469 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -397,62 +397,6 @@
       }
     },
     {
-      "ord_numb": "            10165111",
-      "id_commande_v2i": "260629000204",
-      "code_cote": "B",
-      "patient": "GIOVANNONI MATTEU",
-      "job_cosium": "J139053460",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "01/07/2026 08:55",
-      "detail": "Réf: GIOVANNONI MATTEU / J139053460 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "4.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165116",
       "id_commande_v2i": "260629000209",
       "code_cote": "B",
@@ -600,6 +544,62 @@
       "oeil_gauche": null
     },
     {
+      "ord_numb": "            10165111",
+      "id_commande_v2i": "260629000204",
+      "code_cote": "B",
+      "patient": "GIOVANNONI MATTEU",
+      "job_cosium": "J139053460",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "01/07/2026 10:47",
+      "detail": "Réf: GIOVANNONI MATTEU / J139053460 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "4.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165117",
       "id_commande_v2i": "260629000210",
       "code_cote": "B",
@@ -718,10 +718,10 @@
       "patient": "DRIGO MONIQUE",
       "job_cosium": "J139053434",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "01/07/2026 10:41",
-      "detail": "Réf: DRIGO MONIQUE / J139053434 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "01/07/2026 10:50",
+      "detail": "Réf: DRIGO MONIQUE / J139053434 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -884,10 +884,10 @@
       "patient": "SANTINI ALAIN RENE",
       "job_cosium": "J139053421",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 19:14",
-      "detail": "Réf: SANTINI ALAIN RENE / J139053421 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "01/07/2026 10:54",
+      "detail": "Réf: SANTINI ALAIN RENE / J139053421 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
