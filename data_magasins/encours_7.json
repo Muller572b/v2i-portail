@@ -10,8 +10,60 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "01/07/2026 14:57",
+  "derniere_mise_a_jour": "01/07/2026 15:12",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165442",
+      "id_commande_v2i": "260701000118",
+      "code_cote": "B",
+      "patient": "AYACH OUAFAE",
+      "job_cosium": "J128042721",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "01/07/2026 15:01",
+      "detail": "Réf: AYACH OUAFAE / J128042721 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165198",
       "id_commande_v2i": "260630000080",
