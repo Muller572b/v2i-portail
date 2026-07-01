@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "01/07/2026 09:26",
+  "derniere_mise_a_jour": "01/07/2026 09:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165148",
@@ -311,58 +311,6 @@
       }
     },
     {
-      "ord_numb": "            10165256",
-      "id_commande_v2i": "260630000138",
-      "code_cote": "B",
-      "patient": "TADDEI JEANNE",
-      "job_cosium": "J149018420",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 09:15",
-      "detail": "Réf: TADDEI JEANNE / J149018420 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Vista Media 1.5 Nu"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "Vista Media 1.5 Nu"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165255",
       "id_commande_v2i": "260630000137",
       "code_cote": "B",
@@ -411,6 +359,58 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165256",
+      "id_commande_v2i": "260630000138",
+      "code_cote": "B",
+      "patient": "TADDEI JEANNE",
+      "job_cosium": "J149018420",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 09:41",
+      "detail": "Réf: TADDEI JEANNE / J149018420 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Media 1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Media 1.5 Nu"
         ]
       }
     },
