@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "01/07/2026 15:12",
+  "derniere_mise_a_jour": "01/07/2026 15:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165189",
@@ -183,60 +183,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165186",
-      "id_commande_v2i": "260630000068",
-      "code_cote": "B",
-      "patient": "MENDEZ STEPHANE",
-      "job_cosium": "J143054183-02",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 15:58",
-      "detail": "Réf: MENDEZ STEPHANE / J143054183-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
         ]
       }
     },
@@ -650,6 +596,60 @@
         "supplements": [
           "2de Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165186",
+      "id_commande_v2i": "260630000068",
+      "code_cote": "B",
+      "patient": "MENDEZ STEPHANE",
+      "job_cosium": "J143054183-02",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 15:19",
+      "detail": "Réf: MENDEZ STEPHANE / J143054183-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
