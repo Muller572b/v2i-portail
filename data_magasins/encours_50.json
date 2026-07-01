@@ -10,64 +10,8 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "01/07/2026 12:27",
+  "derniere_mise_a_jour": "01/07/2026 12:42",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10165210",
-      "id_commande_v2i": "260630000092",
-      "code_cote": "B",
-      "patient": "BRIAND MYKEL",
-      "job_cosium": "J600029356",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 10:22",
-      "detail": "Réf: BRIAND MYKEL / J600029356 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "5.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "5.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10165311",
       "id_commande_v2i": "260630000193",
@@ -176,6 +120,62 @@
         "supplements": [
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165210",
+      "id_commande_v2i": "260630000092",
+      "code_cote": "B",
+      "patient": "BRIAND MYKEL",
+      "job_cosium": "J600029356",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 12:30",
+      "detail": "Réf: BRIAND MYKEL / J600029356 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "5.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "5.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
@@ -299,10 +299,10 @@
       "patient": "LOEUILLET VALERIE",
       "job_cosium": "",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "01/07/2026 10:22",
-      "detail": "Réf: LOEUILLET VALERIE — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "01/07/2026 12:30",
+      "detail": "Réf: LOEUILLET VALERIE — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -355,10 +355,10 @@
       "patient": "NETO FERREIRA THOMAS",
       "job_cosium": "J600029296",
       "date_entree": "23/06/2026",
-      "date_dernier_statut": "01/07/2026 10:22",
-      "detail": "Réf: NETO FERREIRA THOMAS / J600029296 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "01/07/2026 12:30",
+      "detail": "Réf: NETO FERREIRA THOMAS / J600029296 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
