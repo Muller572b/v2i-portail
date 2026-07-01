@@ -74,7 +74,7 @@ jobs:
           cp *.html public/ 2>/dev/null || true
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
-          
+          cp documents.json public/ 2>/dev/null || true
           # --- AJOUTEZ CES LIGNES POUR COPIER VOS DOSSIERS ---
           cp -r images public/ 2>/dev/null || true          # Pour les logos et images
           cp -r data public/ 2>/dev/null || true            # Pour flux_optique.json
