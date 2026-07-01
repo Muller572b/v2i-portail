@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "01/07/2026 11:12",
+  "derniere_mise_a_jour": "01/07/2026 11:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165159",
@@ -875,60 +875,6 @@
       }
     },
     {
-      "ord_numb": "            10165248",
-      "id_commande_v2i": "260630000130",
-      "code_cote": "B",
-      "patient": "SCHNEIDER ANGELE",
-      "job_cosium": "J144102207-01",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 16:14",
-      "detail": "Réf: SCHNEIDER ANGELE / J144102207-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-6.00",
-        "cylindre": "1.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-4.75",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165258",
       "id_commande_v2i": "260630000140",
       "code_cote": "B",
@@ -1033,16 +979,70 @@
       }
     },
     {
+      "ord_numb": "            10165248",
+      "id_commande_v2i": "260630000130",
+      "code_cote": "B",
+      "patient": "SCHNEIDER ANGELE",
+      "job_cosium": "J144102207-01",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 11:21",
+      "detail": "Réf: SCHNEIDER ANGELE / J144102207-01 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-6.00",
+        "cylindre": "1.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.75",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165269",
       "id_commande_v2i": "260630000151",
       "code_cote": "B",
       "patient": "FREMONT NICOLAS SIMON",
       "job_cosium": "J144102201-02",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 17:25",
-      "detail": "Réf: FREMONT NICOLAS SIMON / J144102201-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "01/07/2026 11:14",
+      "detail": "Réf: FREMONT NICOLAS SIMON / J144102201-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
