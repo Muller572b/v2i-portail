@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "01/07/2026 15:12",
+  "derniere_mise_a_jour": "01/07/2026 15:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165360",
@@ -121,68 +121,6 @@
           "Media 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165362",
-      "id_commande_v2i": "260701000038",
-      "code_cote": "B",
-      "patient": "BOMMARITO SYLVIE",
-      "job_cosium": "J120030580",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 11:45",
-      "detail": "Réf: BOMMARITO SYLVIE / J120030580 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.75",
-        "axe": 140,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.75",
-        "axe": 35,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -463,6 +401,68 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165362",
+      "id_commande_v2i": "260701000038",
+      "code_cote": "B",
+      "patient": "BOMMARITO SYLVIE",
+      "job_cosium": "J120030580",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "01/07/2026 15:14",
+      "detail": "Réf: BOMMARITO SYLVIE / J120030580 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.75",
+        "axe": 140,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
