@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "01/07/2026 11:27",
+  "derniere_mise_a_jour": "01/07/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165357",
@@ -169,45 +169,6 @@
           "K2 Prog K 1.6 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165146",
-      "id_commande_v2i": "260630000028",
-      "code_cote": "L",
-      "patient": "BRUNI PATRICK",
-      "job_cosium": "J702020687",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 08:55",
-      "detail": "Réf: BRUNI PATRICK / J702020687 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Cygn Equilibre2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -448,16 +409,55 @@
       }
     },
     {
+      "ord_numb": "            10165146",
+      "id_commande_v2i": "260630000028",
+      "code_cote": "L",
+      "patient": "BRUNI PATRICK",
+      "job_cosium": "J702020687",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 11:36",
+      "detail": "Réf: BRUNI PATRICK / J702020687 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Cygn Equilibre2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165243",
       "id_commande_v2i": "260630000125",
       "code_cote": "B",
       "patient": "BONNECHERE STEPHANIE",
       "job_cosium": "J702020696-02",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 08:52",
-      "detail": "Réf: BONNECHERE STEPHANIE / J702020696-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "01/07/2026 11:37",
+      "detail": "Réf: BONNECHERE STEPHANIE / J702020696-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
