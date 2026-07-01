@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "01/07/2026 09:11",
+  "derniere_mise_a_jour": "01/07/2026 09:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165140",
@@ -253,6 +253,66 @@
       }
     },
     {
+      "ord_numb": "            10165252",
+      "id_commande_v2i": "260630000134",
+      "code_cote": "B",
+      "patient": "PATAROZZI JEANNE",
+      "job_cosium": "J145063649",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 09:19",
+      "detail": "Réf: PATAROZZI JEANNE / J145063649 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.50",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.25",
+        "cylindre": "1.75",
+        "axe": 170,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Tchin Affiny Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165139",
       "id_commande_v2i": "260630000021",
       "code_cote": "B",
@@ -303,66 +363,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Noir C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165252",
-      "id_commande_v2i": "260630000134",
-      "code_cote": "B",
-      "patient": "PATAROZZI JEANNE",
-      "job_cosium": "J145063649",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 16:14",
-      "detail": "Réf: PATAROZZI JEANNE / J145063649 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.50",
-        "cylindre": "1.75",
-        "axe": 180,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Affiny Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.25",
-        "cylindre": "1.75",
-        "axe": 170,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Tchin Affiny Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
