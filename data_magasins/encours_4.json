@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "01/07/2026 17:12",
+  "derniere_mise_a_jour": "01/07/2026 17:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165378",
@@ -869,68 +869,6 @@
       }
     },
     {
-      "ord_numb": "            10165159",
-      "id_commande_v2i": "260630000041",
-      "code_cote": "B",
-      "patient": "MARCUCCI LUCIEN",
-      "job_cosium": "J144102187",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 14:57",
-      "detail": "Réf: MARCUCCI LUCIEN / J144102187 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 175,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165170",
       "id_commande_v2i": "260630000052",
       "code_cote": "B",
@@ -1161,6 +1099,68 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165159",
+      "id_commande_v2i": "260630000041",
+      "code_cote": "B",
+      "patient": "MARCUCCI LUCIEN",
+      "job_cosium": "J144102187",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 17:20",
+      "detail": "Réf: MARCUCCI LUCIEN / J144102187 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 175,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
