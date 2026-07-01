@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "01/07/2026 10:42",
+  "derniere_mise_a_jour": "01/07/2026 10:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165165",
@@ -303,64 +303,6 @@
       }
     },
     {
-      "ord_numb": "            10165266",
-      "id_commande_v2i": "260630000148",
-      "code_cote": "B",
-      "patient": "ADDESA CHRISTOPHER",
-      "job_cosium": "J146022878-01",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 17:07",
-      "detail": "Réf: ADDESA CHRISTOPHER / J146022878-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165267",
       "id_commande_v2i": "260630000149",
       "code_cote": "B",
@@ -463,6 +405,64 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165266",
+      "id_commande_v2i": "260630000148",
+      "code_cote": "B",
+      "patient": "ADDESA CHRISTOPHER",
+      "job_cosium": "J146022878-01",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 10:54",
+      "detail": "Réf: ADDESA CHRISTOPHER / J146022878-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte G15 C"
         ]
       }
     },
