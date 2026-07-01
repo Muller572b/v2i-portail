@@ -10,8 +10,60 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "01/07/2026 19:12",
+  "derniere_mise_a_jour": "01/07/2026 19:27",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165541",
+      "id_commande_v2i": "260701000217",
+      "code_cote": "B",
+      "patient": "ABBASSI BILAL",
+      "job_cosium": "J132017123",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "01/07/2026 19:15",
+      "detail": "Réf: ABBASSI BILAL / J132017123 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165182",
       "id_commande_v2i": "260630000064",
