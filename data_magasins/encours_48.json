@@ -10,7 +10,7 @@
     "email": "bof@balbi.fr",
     "mot_de_passe_portail": "bof"
   },
-  "derniere_mise_a_jour": "01/07/2026 12:12",
+  "derniere_mise_a_jour": "01/07/2026 12:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165351",
@@ -60,6 +60,62 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165368",
+      "id_commande_v2i": "260701000044",
+      "code_cote": "B",
+      "patient": "DINI EMILIENNE",
+      "job_cosium": "J153011229-02",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "01/07/2026 12:22",
+      "detail": "Réf: DINI EMILIENNE / J153011229-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 75,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
           "Reader3 1.5 XBlue Durci Arh",
@@ -329,62 +385,6 @@
           "Vista Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte Gris D"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165368",
-      "id_commande_v2i": "260701000044",
-      "code_cote": "B",
-      "patient": "DINI EMILIENNE",
-      "job_cosium": "J153011229-02",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 11:43",
-      "detail": "Réf: DINI EMILIENNE / J153011229-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.00",
-        "axe": 75,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     }
