@@ -75,11 +75,16 @@ jobs:
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
           cp documents.json public/ 2>/dev/null || true
-          # --- AJOUTEZ CES LIGNES POUR COPIER VOS DOSSIERS ---
-          cp -r images public/ 2>/dev/null || true          # Pour les logos et images
-          cp -r data public/ 2>/dev/null || true            # Pour flux_optique.json
-          cp -r data_magasins public/ 2>/dev/null || true   # Déjà présent
-          cp -r data_archives public/ 2>/dev/null || true   # Pour les archives
+          
+          # --- AJOUT DES DOSSIERS MANQUANTS ---
+          cp -r documentcommun public/ 2>/dev/null || true
+          cp -r documents_magasin public/ 2>/dev/null || true
+          
+          # Autres ressources
+          cp -r images public/ 2>/dev/null || true
+          cp -r data public/ 2>/dev/null || true
+          cp -r data_magasins public/ 2>/dev/null || true
+          cp -r data_archives public/ 2>/dev/null || true
 
       # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
