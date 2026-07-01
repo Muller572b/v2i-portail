@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "01/07/2026 09:56",
+  "derniere_mise_a_jour": "01/07/2026 10:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165140",
@@ -485,6 +485,60 @@
       }
     },
     {
+      "ord_numb": "            10164929",
+      "id_commande_v2i": "260629000022",
+      "code_cote": "B",
+      "patient": "LUCIANI VALERIE",
+      "job_cosium": "J145063487",
+      "date_entree": "29/06/2026",
+      "date_dernier_statut": "01/07/2026 10:00",
+      "detail": "Réf: LUCIANI VALERIE / J145063487 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "1.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164946",
       "id_commande_v2i": "260629000039",
       "code_cote": "B",
@@ -605,60 +659,6 @@
       }
     },
     {
-      "ord_numb": "            10164929",
-      "id_commande_v2i": "260629000022",
-      "code_cote": "B",
-      "patient": "LUCIANI VALERIE",
-      "job_cosium": "J145063487",
-      "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 09:19",
-      "detail": "Réf: LUCIANI VALERIE / J145063487 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "1.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh",
-          "Montage"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165011",
       "id_commande_v2i": "260629000104",
       "code_cote": "B",
@@ -719,10 +719,10 @@
       "patient": "NIVAGGIOLI ALAIN",
       "job_cosium": "J145063595",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "26/06/2026 18:01",
-      "detail": "Réf: NIVAGGIOLI ALAIN / J145063595 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "01/07/2026 09:56",
+      "detail": "Réf: NIVAGGIOLI ALAIN / J145063595 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 29/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
