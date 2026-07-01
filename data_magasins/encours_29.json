@@ -10,64 +10,8 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "01/07/2026 12:27",
+  "derniere_mise_a_jour": "01/07/2026 12:42",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10165130",
-      "id_commande_v2i": "260630000012",
-      "code_cote": "B",
-      "patient": "OLIVESI JACQUES",
-      "job_cosium": "",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 10:22",
-      "detail": "Réf: OLIVESI JACQUES — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 09/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "1.50",
-        "axe": 10,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10165133",
       "id_commande_v2i": "260630000015",
@@ -355,6 +299,62 @@
       }
     },
     {
+      "ord_numb": "            10165130",
+      "id_commande_v2i": "260630000012",
+      "code_cote": "B",
+      "patient": "OLIVESI JACQUES",
+      "job_cosium": "",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 12:29",
+      "detail": "Réf: OLIVESI JACQUES — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165136",
       "id_commande_v2i": "260630000018",
       "code_cote": "B",
@@ -527,6 +527,58 @@
       }
     },
     {
+      "ord_numb": "            10165197",
+      "id_commande_v2i": "260630000079",
+      "code_cote": "B",
+      "patient": "GASSELIN JUSTINE",
+      "job_cosium": "J121042788",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 12:29",
+      "detail": "Réf: GASSELIN JUSTINE / J121042788 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 01/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-7.25",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. As 1.67 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-6.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. As 1.67 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165135",
       "id_commande_v2i": "260630000017",
       "code_cote": "B",
@@ -577,58 +629,6 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165197",
-      "id_commande_v2i": "260630000079",
-      "code_cote": "B",
-      "patient": "GASSELIN JUSTINE",
-      "job_cosium": "J121042788",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "30/06/2026 12:03",
-      "detail": "Réf: GASSELIN JUSTINE / J121042788 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 01/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-7.25",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. As 1.67 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-6.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. As 1.67 Durci Arh"
         ]
       }
     },
@@ -747,10 +747,10 @@
       "patient": "SLITI DONIA",
       "job_cosium": "J121042777",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "29/06/2026 12:19",
-      "detail": "Réf: SLITI DONIA / J121042777 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "01/07/2026 12:29",
+      "detail": "Réf: SLITI DONIA / J121042777 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 30/06 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -849,16 +849,70 @@
       }
     },
     {
+      "ord_numb": "            10164707",
+      "id_commande_v2i": "260626000109",
+      "code_cote": "B",
+      "patient": "MANCINI HUGO",
+      "job_cosium": "J121042751",
+      "date_entree": "26/06/2026",
+      "date_dernier_statut": "01/07/2026 12:30",
+      "detail": "Réf: MANCINI HUGO / J121042751 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 30/06 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Dégradée Bleu C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Dégradée Bleu C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10164737",
       "id_commande_v2i": "260626000139",
       "code_cote": "B",
       "patient": "CAZE CHRISTINE",
       "job_cosium": "J121042759",
       "date_entree": "26/06/2026",
-      "date_dernier_statut": "01/07/2026 10:22",
-      "detail": "Réf: CAZE CHRISTINE / J121042759 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "01/07/2026 12:29",
+      "detail": "Réf: CAZE CHRISTINE / J121042759 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -953,60 +1007,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10164707",
-      "id_commande_v2i": "260626000109",
-      "code_cote": "B",
-      "patient": "MANCINI HUGO",
-      "job_cosium": "J121042751",
-      "date_entree": "26/06/2026",
-      "date_dernier_statut": "01/07/2026 12:01",
-      "detail": "Réf: MANCINI HUGO / J121042751 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 30/06 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Dégradée Bleu C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Dégradée Bleu C"
         ]
       }
     }
