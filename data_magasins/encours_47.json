@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "01/07/2026 17:12",
+  "derniere_mise_a_jour": "01/07/2026 17:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165347",
@@ -181,6 +181,58 @@
       }
     },
     {
+      "ord_numb": "            10165450",
+      "id_commande_v2i": "260701000126",
+      "code_cote": "B",
+      "patient": "LORENZONI GUY",
+      "job_cosium": "J160021030",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "01/07/2026 17:20",
+      "detail": "Réf: LORENZONI GUY / J160021030 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165448",
       "id_commande_v2i": "260701000124",
       "code_cote": "B",
@@ -303,68 +355,16 @@
       }
     },
     {
-      "ord_numb": "            10165450",
-      "id_commande_v2i": "260701000126",
-      "code_cote": "B",
-      "patient": "LORENZONI GUY",
-      "job_cosium": "J160021030",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 15:55",
-      "detail": "Réf: LORENZONI GUY / J160021030 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 150,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165253",
       "id_commande_v2i": "260630000135",
       "code_cote": "B",
       "patient": "HARY THEO",
       "job_cosium": "J160021026",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 14:57",
-      "detail": "Réf: HARY THEO / J160021026 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "01/07/2026 17:20",
+      "detail": "Réf: HARY THEO / J160021026 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
