@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "01/07/2026 15:27",
+  "derniere_mise_a_jour": "01/07/2026 16:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165189",
@@ -551,7 +551,7 @@
       "patient": "TARBOURIECH ROMAIN",
       "job_cosium": "J143054196-02",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 09:37",
+      "date_dernier_statut": "01/07/2026 16:11",
       "detail": "Réf: TARBOURIECH ROMAIN / J143054196-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
@@ -596,60 +596,6 @@
         "supplements": [
           "2de Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165186",
-      "id_commande_v2i": "260630000068",
-      "code_cote": "B",
-      "patient": "MENDEZ STEPHANE",
-      "job_cosium": "J143054183-02",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 15:19",
-      "detail": "Réf: MENDEZ STEPHANE / J143054183-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
@@ -707,16 +653,70 @@
       }
     },
     {
+      "ord_numb": "            10165186",
+      "id_commande_v2i": "260630000068",
+      "code_cote": "B",
+      "patient": "MENDEZ STEPHANE",
+      "job_cosium": "J143054183-02",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 16:06",
+      "detail": "Réf: MENDEZ STEPHANE / J143054183-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165015",
       "id_commande_v2i": "260629000108",
       "code_cote": "B",
       "patient": "GRIMALDI CHRISTINE THERE",
       "job_cosium": "J143054177",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "01/07/2026 09:33",
-      "detail": "Réf: GRIMALDI CHRISTINE THERE / J143054177 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "01/07/2026 16:06",
+      "detail": "Réf: GRIMALDI CHRISTINE THERE / J143054177 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -773,10 +773,10 @@
       "patient": "GRANADOS JEROME",
       "job_cosium": "J143054172-02",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 16:58",
-      "detail": "Réf: GRANADOS JEROME / J143054172-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "01/07/2026 16:06",
+      "detail": "Réf: GRANADOS JEROME / J143054172-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -829,10 +829,10 @@
       "patient": "GRANADOS JEROME",
       "job_cosium": "J143054172-01",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "30/06/2026 17:01",
-      "detail": "Réf: GRANADOS JEROME / J143054172-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "01/07/2026 16:06",
+      "detail": "Réf: GRANADOS JEROME / J143054172-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
