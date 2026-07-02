@@ -10,8 +10,60 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "02/07/2026 09:12",
+  "derniere_mise_a_jour": "02/07/2026 09:27",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165569",
+      "id_commande_v2i": "260701000245",
+      "code_cote": "B",
+      "patient": "SIMONETTI AGATHE",
+      "job_cosium": "J137036281",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:13",
+      "detail": "Réf: SIMONETTI AGATHE / J137036281 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165524",
       "id_commande_v2i": "260701000200",
@@ -171,58 +223,6 @@
         "supplements": [
           "2de Uni 1.5 Foto Brun Durci",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165569",
-      "id_commande_v2i": "260701000245",
-      "code_cote": "B",
-      "patient": "SIMONETTI AGATHE",
-      "job_cosium": "J137036281",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 22:31",
-      "detail": "Réf: SIMONETTI AGATHE / J137036281 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
