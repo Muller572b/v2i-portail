@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "02/07/2026 10:48",
+  "derniere_mise_a_jour": "02/07/2026 11:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165570",
@@ -51,68 +51,16 @@
       "oeil_gauche": null
     },
     {
-      "ord_numb": "            10165574",
-      "id_commande_v2i": "260702000005",
-      "code_cote": "B",
-      "patient": "SIMEONI Bicgit",
-      "job_cosium": "",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 09:14",
-      "detail": "Réf: SIMEONI Bicgit — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165594",
       "id_commande_v2i": "260702000025",
       "code_cote": "B",
       "patient": "BONNAMY BERENICE",
       "job_cosium": "J152045480-01",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 10:13",
-      "detail": "Réf: BONNAMY BERENICE / J152045480-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "02/07/2026 10:54",
+      "detail": "Réf: BONNAMY BERENICE / J152045480-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -165,10 +113,10 @@
       "patient": "BONNAMY BERENICE",
       "job_cosium": "J152045480-03",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 10:14",
-      "detail": "Réf: BONNAMY BERENICE / J152045480-03 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "02/07/2026 10:51",
+      "detail": "Réf: BONNAMY BERENICE / J152045480-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -217,6 +165,58 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165574",
+      "id_commande_v2i": "260702000005",
+      "code_cote": "B",
+      "patient": "SIMEONI Bicgit",
+      "job_cosium": "",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 09:14",
+      "detail": "Réf: SIMEONI Bicgit — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -521,62 +521,6 @@
       }
     },
     {
-      "ord_numb": "            10165504",
-      "id_commande_v2i": "260701000180",
-      "code_cote": "B",
-      "patient": "LEDUC MARIE JO",
-      "job_cosium": "J152045470-02",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:24",
-      "detail": "Réf: LEDUC MARIE JO / J152045470-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-4.25",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165343",
       "id_commande_v2i": "260701000019",
       "code_cote": "B",
@@ -867,6 +811,62 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165504",
+      "id_commande_v2i": "260701000180",
+      "code_cote": "B",
+      "patient": "LEDUC MARIE JO",
+      "job_cosium": "J152045470-02",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 10:50",
+      "detail": "Réf: LEDUC MARIE JO / J152045470-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-4.25",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
         ]
       }
     },
