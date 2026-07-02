@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "02/07/2026 15:18",
+  "derniere_mise_a_jour": "02/07/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165573",
@@ -299,6 +299,122 @@
       }
     },
     {
+      "ord_numb": "            10165657",
+      "id_commande_v2i": "260702000088",
+      "code_cote": "B",
+      "patient": "BIANCONI BEATRICE",
+      "job_cosium": "J133036148-02",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 15:31",
+      "detail": "Réf: BIANCONI BEATRICE / J133036148-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "1.50",
+        "axe": 35,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.8",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 Polar Gris Du",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 Polar Gris Du",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165659",
+      "id_commande_v2i": "260702000090",
+      "code_cote": "B",
+      "patient": "BIANCONI BEATRICE",
+      "job_cosium": "J133036148-01",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 15:30",
+      "detail": "Réf: BIANCONI BEATRICE / J133036148-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.00",
+        "cylindre": "1.50",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165591",
       "id_commande_v2i": "260702000022",
       "code_cote": "B",
@@ -457,66 +573,6 @@
       }
     },
     {
-      "ord_numb": "            10165657",
-      "id_commande_v2i": "260702000088",
-      "code_cote": "B",
-      "patient": "BIANCONI BEATRICE",
-      "job_cosium": "J133036148-02",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 12:56",
-      "detail": "Réf: BIANCONI BEATRICE / J133036148-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "1.50",
-        "axe": 35,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.8",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.6 Polar Gris Du",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.6 Polar Gris Du",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165658",
       "id_commande_v2i": "260702000089",
       "code_cote": "B",
@@ -575,62 +631,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165659",
-      "id_commande_v2i": "260702000090",
-      "code_cote": "B",
-      "patient": "BIANCONI BEATRICE",
-      "job_cosium": "J133036148-01",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 12:56",
-      "detail": "Réf: BIANCONI BEATRICE / J133036148-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.00",
-        "cylindre": "1.50",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
