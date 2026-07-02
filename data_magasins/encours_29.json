@@ -10,8 +10,170 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "02/07/2026 16:33",
+  "derniere_mise_a_jour": "02/07/2026 17:32",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165719",
+      "id_commande_v2i": "260702000150",
+      "code_cote": "B",
+      "patient": "CHEVALLIER JULIE",
+      "job_cosium": "J121042815",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 17:11",
+      "detail": "Réf: CHEVALLIER JULIE / J121042815 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "2.50",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165720",
+      "id_commande_v2i": "260702000151",
+      "code_cote": "B",
+      "patient": "CHEVALLIER JULIE",
+      "job_cosium": "J121042811",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 16:49",
+      "detail": "Réf: CHEVALLIER JULIE / J121042811 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "2.50",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165723",
+      "id_commande_v2i": "260702000154",
+      "code_cote": "B",
+      "patient": "PIERREL MAXIM NICOLAS",
+      "job_cosium": "J121042814",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 16:49",
+      "detail": "Réf: PIERREL MAXIM NICOLAS / J121042814 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Gris Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165515",
       "id_commande_v2i": "260701000191",
