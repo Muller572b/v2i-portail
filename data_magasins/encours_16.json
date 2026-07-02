@@ -10,8 +10,120 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "02/07/2026 10:18",
+  "derniere_mise_a_jour": "02/07/2026 10:33",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165564",
+      "id_commande_v2i": "260701000240",
+      "code_cote": "B",
+      "patient": "MARCAGGI MARIE FRANCE",
+      "job_cosium": "J143054214-01",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 10:21",
+      "detail": "Réf: MARCAGGI MARIE FRANCE / J143054214-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165565",
+      "id_commande_v2i": "260701000241",
+      "code_cote": "B",
+      "patient": "mancini JEAN-MICHEL",
+      "job_cosium": "J143054210",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 10:21",
+      "detail": "Réf: mancini JEAN-MICHEL / J143054210 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165555",
       "id_commande_v2i": "260701000231",
@@ -122,118 +234,6 @@
           "O2 Minimu 1.6 Durci Arh",
           "Antireflet interne face CC inclus",
           "Teinte Dégradée Brun B",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165564",
-      "id_commande_v2i": "260701000240",
-      "code_cote": "B",
-      "patient": "MARCAGGI MARIE FRANCE",
-      "job_cosium": "J143054214-01",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:17",
-      "detail": "Réf: MARCAGGI MARIE FRANCE / J143054214-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165565",
-      "id_commande_v2i": "260701000241",
-      "code_cote": "B",
-      "patient": "mancini JEAN-MICHEL",
-      "job_cosium": "J143054210",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:04",
-      "detail": "Réf: mancini JEAN-MICHEL / J143054210 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -449,6 +449,60 @@
       }
     },
     {
+      "ord_numb": "            10165558",
+      "id_commande_v2i": "260701000234",
+      "code_cote": "B",
+      "patient": "LELANDAIS JUSTIN",
+      "job_cosium": "J143054222-01",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 10:33",
+      "detail": "Réf: LELANDAIS JUSTIN / J143054222-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165560",
       "id_commande_v2i": "260701000236",
       "code_cote": "B",
@@ -497,6 +551,60 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165563",
+      "id_commande_v2i": "260701000239",
+      "code_cote": "B",
+      "patient": "MARCAGGI MARIE FRANCE",
+      "job_cosium": "J143054214-02",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 10:33",
+      "detail": "Réf: MARCAGGI MARIE FRANCE / J143054214-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Brun C"
         ]
       }
     },
@@ -657,114 +765,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Dégradée au modèle A-C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165558",
-      "id_commande_v2i": "260701000234",
-      "code_cote": "B",
-      "patient": "LELANDAIS JUSTIN",
-      "job_cosium": "J143054222-01",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:14",
-      "detail": "Réf: LELANDAIS JUSTIN / J143054222-01 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165563",
-      "id_commande_v2i": "260701000239",
-      "code_cote": "B",
-      "patient": "MARCAGGI MARIE FRANCE",
-      "job_cosium": "J143054214-02",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:09",
-      "detail": "Réf: MARCAGGI MARIE FRANCE / J143054214-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Brun C"
         ]
       }
     },
