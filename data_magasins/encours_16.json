@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "02/07/2026 16:33",
+  "derniere_mise_a_jour": "02/07/2026 17:32",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165555",
@@ -769,16 +769,72 @@
       }
     },
     {
+      "ord_numb": "            10165321",
+      "id_commande_v2i": "260630000203",
+      "code_cote": "B",
+      "patient": "SPANU SEBASTIEN",
+      "job_cosium": "J143054199",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "01/07/2026 10:11",
+      "detail": "Réf: SPANU SEBASTIEN / J143054199 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165187",
       "id_commande_v2i": "260630000069",
       "code_cote": "B",
       "patient": "MENDEZ STEPHANE",
       "job_cosium": "J143054183-01",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "02/07/2026 14:57",
-      "detail": "Réf: MENDEZ STEPHANE / J143054183-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "02/07/2026 16:57",
+      "detail": "Réf: MENDEZ STEPHANE / J143054183-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -831,10 +887,10 @@
       "patient": "MANCINI YANNICK",
       "job_cosium": "J143054194",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "02/07/2026 14:57",
-      "detail": "Réf: MANCINI YANNICK / J143054194 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "02/07/2026 16:57",
+      "detail": "Réf: MANCINI YANNICK / J143054194 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -893,10 +949,10 @@
       "patient": "SCIARLI ANTOINE",
       "job_cosium": "J143054204",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "02/07/2026 14:57",
-      "detail": "Réf: SCIARLI ANTOINE / J143054204 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "02/07/2026 16:57",
+      "detail": "Réf: SCIARLI ANTOINE / J143054204 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -955,10 +1011,10 @@
       "patient": "TARBOURIECH ROMAIN",
       "job_cosium": "J143054196-02",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "02/07/2026 14:57",
-      "detail": "Réf: TARBOURIECH ROMAIN / J143054196-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "02/07/2026 16:58",
+      "detail": "Réf: TARBOURIECH ROMAIN / J143054196-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1000,62 +1056,6 @@
         "supplements": [
           "2de Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165321",
-      "id_commande_v2i": "260630000203",
-      "code_cote": "B",
-      "patient": "SPANU SEBASTIEN",
-      "job_cosium": "J143054199",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 10:11",
-      "detail": "Réf: SPANU SEBASTIEN / J143054199 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
