@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "02/07/2026 15:18",
+  "derniere_mise_a_jour": "02/07/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165524",
@@ -69,16 +69,68 @@
       }
     },
     {
+      "ord_numb": "            10165567",
+      "id_commande_v2i": "260701000243",
+      "code_cote": "B",
+      "patient": "PERETTONI PASCAL",
+      "job_cosium": "J137036278",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "01/07/2026 22:13",
+      "detail": "Réf: PERETTONI PASCAL / J137036278 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "2.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165568",
       "id_commande_v2i": "260701000244",
       "code_cote": "B",
       "patient": "RISTORI CLAIRE",
       "job_cosium": "J137036279",
       "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 14:16",
-      "detail": "Réf: RISTORI CLAIRE / J137036279 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "02/07/2026 15:23",
+      "detail": "Réf: RISTORI CLAIRE / J137036279 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 06/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -129,10 +181,10 @@
       "patient": "SIMONETTI AGATHE",
       "job_cosium": "J137036281",
       "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 09:13",
-      "detail": "Réf: SIMONETTI AGATHE / J137036281 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "02/07/2026 15:23",
+      "detail": "Réf: SIMONETTI AGATHE / J137036281 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -171,58 +223,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165567",
-      "id_commande_v2i": "260701000243",
-      "code_cote": "B",
-      "patient": "PERETTONI PASCAL",
-      "job_cosium": "J137036278",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 22:13",
-      "detail": "Réf: PERETTONI PASCAL / J137036278 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "1.00",
-        "cylindre": "1.00",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "2.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Arh"
         ]
       }
     },
@@ -285,10 +285,10 @@
       "patient": "SALVIANI PIERRE-PAUL",
       "job_cosium": "J137036263-02",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 16:01",
-      "detail": "Réf: SALVIANI PIERRE-PAUL / J137036263-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "02/07/2026 15:23",
+      "detail": "Réf: SALVIANI PIERRE-PAUL / J137036263-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -339,10 +339,10 @@
       "patient": "PACCIONI-LUCIANI FRANCOISE",
       "job_cosium": "J137036257-01",
       "date_entree": "29/06/2026",
-      "date_dernier_statut": "01/07/2026 17:19",
-      "detail": "Réf: PACCIONI-LUCIANI FRANCOISE / J137036257-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "02/07/2026 15:23",
+      "detail": "Réf: PACCIONI-LUCIANI FRANCOISE / J137036257-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -395,10 +395,10 @@
       "patient": "LIBERATORE CECILE",
       "job_cosium": "J137036250-02",
       "date_entree": "27/06/2026",
-      "date_dernier_statut": "01/07/2026 17:20",
-      "detail": "Réf: LIBERATORE CECILE / J137036250-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "02/07/2026 15:23",
+      "detail": "Réf: LIBERATORE CECILE / J137036250-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -453,10 +453,10 @@
       "patient": "BURESI MARIE CHRISTINE",
       "job_cosium": "J137036188",
       "date_entree": "24/06/2026",
-      "date_dernier_statut": "02/07/2026 12:16",
-      "detail": "Réf: BURESI MARIE CHRISTINE / J137036188 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "02/07/2026 15:23",
+      "detail": "Réf: BURESI MARIE CHRISTINE / J137036188 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
