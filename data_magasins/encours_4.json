@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "02/07/2026 12:03",
+  "derniere_mise_a_jour": "02/07/2026 12:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165597",
@@ -61,6 +61,62 @@
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
         "hauteur": "25.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165617",
+      "id_commande_v2i": "260702000048",
+      "code_cote": "B",
+      "patient": "SANI MARIE CHRISTINE",
+      "job_cosium": "J144102250",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 12:12",
+      "detail": "Réf: SANI MARIE CHRISTINE / J144102250 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "19.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "19.0",
         "supplements": [
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
@@ -273,62 +329,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165617",
-      "id_commande_v2i": "260702000048",
-      "code_cote": "B",
-      "patient": "SANI MARIE CHRISTINE",
-      "job_cosium": "J144102250",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 11:25",
-      "detail": "Réf: SANI MARIE CHRISTINE / J144102250 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "19.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "19.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
