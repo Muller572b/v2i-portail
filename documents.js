@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const filteredDocs = documentsData.filter(doc => {
             const aAcces = doc.code_magasin === 'public' || doc.code_magasin === codeMagasinConnecte;
             const matchesSearch = doc.titre.toLowerCase().includes(searchQuery) || doc.categorie.toLowerCase().includes(searchQuery);
-            const matchesFilter = currentFilter === 'all' || doc.type === currentFilter;
+            const matchesFilter = currentFilter === 'all' || (doc.type === currentFilter || (doc.type === 'LINK' && currentFilter === 'link'));
             return aAcces && matchesSearch && matchesFilter;
         });
 
@@ -47,68 +47,60 @@ document.addEventListener('DOMContentLoaded', () => {
         }, {});
 
         // 3. Rendu
-Object.keys(groupedDocs).sort().forEach(category => {
-    // Création de la section
-    const section = document.createElement('section');
-    section.className = 'mb-10';
-    section.innerHTML = `<h3 class="text-lg font-bold text-gray-800 mb-6 flex items-center gap-2">
-        <i data-lucide="folder-open" class="w-5 h-5 text-[#0066cc]"></i> ${category}
-    </h3>`;
+        Object.keys(groupedDocs).sort().forEach(category => {
+            const section = document.createElement('section');
+            section.className = 'mb-10';
+            section.innerHTML = `<h3 class="text-lg font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <i data-lucide="folder-open" class="w-5 h-5 text-[#0066cc]"></i> ${category}
+            </h3>`;
 
-    const grid = document.createElement('div');
-    grid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
+            const grid = document.createElement('div');
+            grid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6';
 
-    // Injection des cartes dans la grille
-    groupedDocs[category].forEach(doc => {
-        const card = document.createElement('div');
-        card.className = 'doc-card';
-        
-        let badgeClass = 'badge-pdf';
-        if (doc.type === 'image') badgeClass = 'badge-image';
-        else if (doc.type === 'archive') badgeClass = 'badge-archive';
-        else if (doc.type === 'LINK') badgeClass = 'badge-link'; // Match exact avec votre JSON
+            groupedDocs[category].forEach(doc => {
+                const card = document.createElement('div');
+                card.className = 'doc-card';
+                
+                let badgeClass = 'badge-pdf';
+                if (doc.type === 'image') badgeClass = 'badge-image';
+                else if (doc.type === 'archive') badgeClass = 'badge-archive';
+                else if (doc.type === 'LINK') badgeClass = 'badge-link';
 
-        // Logique corrigée : on teste 'LINK' en majuscules
-        let actionsHTML = (doc.type === 'LINK') 
-            ? `<a href="${doc.url}" target="_blank" class="btn-action btn-visit">🔗 Visiter le site</a>`
-            : `<a href="${doc.url}" download class="btn-action btn-download">📥 Télécharger</a>
-               <a href="${doc.url}" target="_blank" class="btn-action btn-preview">Aperçu ❯</a>`;
+                let actionsHTML = (doc.type === 'LINK') 
+                    ? `<a href="${doc.url}" target="_blank" class="btn-action btn-visit">🔗 Visiter le site</a>`
+                    : `<a href="${doc.url}" download class="btn-action btn-download">📥 Télécharger</a>
+                       <a href="${doc.url}" target="_blank" class="btn-action btn-preview">Aperçu ❯</a>`;
 
-        card.innerHTML = `
-            <span class="doc-badge ${badgeClass}">${doc.type}</span>
-            <h3 class="doc-title">${escapeHtml(doc.titre)}</h3>
-            <div class="doc-actions">${actionsHTML}</div>
-        `;
-        grid.appendChild(card);
+                card.innerHTML = `
+                    <span class="doc-badge ${badgeClass}">${doc.type}</span>
+                    <h3 class="doc-title">${escapeHtml(doc.titre)}</h3>
+                    <div class="doc-actions">${actionsHTML}</div>
+                `;
+                grid.appendChild(card);
+            });
+
+            section.appendChild(grid);
+            container.appendChild(section);
+        });
+
+        // Actualisation des icônes Lucide (une seule fois ici)
+        if (window.lucide) lucide.createIcons();
+    }
+
+    // --- Événements ---
+    searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.toLowerCase().trim();
+        renderDocuments();
     });
 
-    section.appendChild(grid);
-    container.appendChild(section);
-});
-
-// Actualisation des icônes Lucide
-if (window.lucide) lucide.createIcons();
-        
-        // Actualisation des icônes Lucide
-        if (window.lucide) lucide.createIcons();
-        
-                // Actualisation des icônes Lucide
-                if (window.lucide) lucide.createIcons();
-            }
-        
-            searchInput.addEventListener('input', (e) => {
-                searchQuery = e.target.value.toLowerCase().trim();
-                renderDocuments();
-            });
-        
-            filterButtons.forEach(button => {
-                button.addEventListener('click', (e) => {
-                    filterButtons.forEach(btn => btn.classList.remove('active'));
-                    e.target.classList.add('active');
-                    currentFilter = e.target.getAttribute('data-filter');
-                    renderDocuments();
-                });
-            });
+    filterButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            e.target.classList.add('active');
+            currentFilter = e.target.getAttribute('data-filter');
+            renderDocuments();
+        });
+    });
 
     function escapeHtml(str) {
         if (!str) return '';
