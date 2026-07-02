@@ -10,8 +10,64 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "02/07/2026 18:17",
+  "derniere_mise_a_jour": "02/07/2026 18:32",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165757",
+      "id_commande_v2i": "260702000188",
+      "code_cote": "B",
+      "patient": "BRUSSIEUX Marion",
+      "job_cosium": "J157000079",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 18:32",
+      "detail": "Réf: BRUSSIEUX Marion / J157000079 — (Fabrication RX) — État: Order initialised",
+      "statut_code": "INIT",
+      "statut_affichage": "Order initialised",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165352",
       "id_commande_v2i": "260701000028",
