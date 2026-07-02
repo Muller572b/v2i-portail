@@ -5,6 +5,15 @@ FICHIER_SORTIE = "documents.json"
 bibliotheque = []
 id_compteur = 1
 
+bibliotheque.append({
+    "id": 999, 
+    "titre": "Site Officiel LED PRO",
+    "categorie": "Général",
+    "url": "https://www.ledprolens.com",
+    "type": "LINK",
+    "date": "Disponible",
+    "code_magasin": "public"
+})
 # --- CONFIGURATION DU STOCKAGE EXTERNE ---
 # Remplace cette URL par celle de ton vrai serveur où seront déposés les fichiers
 URL_SERVEUR = ""
