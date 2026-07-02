@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "02/07/2026 10:18",
+  "derniere_mise_a_jour": "02/07/2026 10:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165580",
@@ -169,6 +169,58 @@
       }
     },
     {
+      "ord_numb": "            10165598",
+      "id_commande_v2i": "260702000029",
+      "code_cote": "B",
+      "patient": "LAKHDER FATIHA",
+      "job_cosium": "J144102124",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 10:33",
+      "detail": "Réf: LAKHDER FATIHA / J144102124 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 02/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.25",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.00",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165597",
       "id_commande_v2i": "260702000028",
       "code_cote": "B",
@@ -221,58 +273,6 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165598",
-      "id_commande_v2i": "260702000029",
-      "code_cote": "B",
-      "patient": "LAKHDER FATIHA",
-      "job_cosium": "J144102124",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 10:14",
-      "detail": "Réf: LAKHDER FATIHA / J144102124 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 02/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "0.25",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "1.00",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
