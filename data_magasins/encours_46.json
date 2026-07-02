@@ -10,46 +10,8 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "02/07/2026 09:12",
+  "derniere_mise_a_jour": "02/07/2026 09:27",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10165570",
-      "id_commande_v2i": "260702000001",
-      "code_cote": "R",
-      "patient": "GENSON MARIE",
-      "job_cosium": "",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 08:40",
-      "detail": "Réf: GENSON MARIE — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "5.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Equilibre2 1.6 XBlue Durci A",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": null
-    },
     {
       "ord_numb": "            10165574",
       "id_commande_v2i": "260702000005",
@@ -57,10 +19,10 @@
       "patient": "SIMEONI Bicgit",
       "job_cosium": "",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 08:42",
-      "detail": "Réf: SIMEONI Bicgit — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "02/07/2026 09:14",
+      "detail": "Réf: SIMEONI Bicgit — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 02/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -101,6 +63,44 @@
           "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
+    },
+    {
+      "ord_numb": "            10165570",
+      "id_commande_v2i": "260702000001",
+      "code_cote": "R",
+      "patient": "GENSON MARIE",
+      "job_cosium": "",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 08:40",
+      "detail": "Réf: GENSON MARIE — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "5.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Equilibre2 1.6 XBlue Durci A",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10165332",
@@ -285,68 +285,6 @@
       }
     },
     {
-      "ord_numb": "            10165343",
-      "id_commande_v2i": "260701000019",
-      "code_cote": "B",
-      "patient": "DEBERGUE FRANCE",
-      "job_cosium": "J152045463",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 12:03",
-      "detail": "Réf: DEBERGUE FRANCE / J152045463 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 160,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "1.00",
-        "axe": 20,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165382",
       "id_commande_v2i": "260701000058",
       "code_cote": "B",
@@ -399,6 +337,68 @@
           "Uni 1.5  Polar G15 Durci Arh",
           "Antireflet interne face CC inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165343",
+      "id_commande_v2i": "260701000019",
+      "code_cote": "B",
+      "patient": "DEBERGUE FRANCE",
+      "job_cosium": "J152045463",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:16",
+      "detail": "Réf: DEBERGUE FRANCE / J152045463 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 160,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "1.00",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -465,6 +465,118 @@
       }
     },
     {
+      "ord_numb": "            10165503",
+      "id_commande_v2i": "260701000179",
+      "code_cote": "B",
+      "patient": "LEDUC MARIE JO",
+      "job_cosium": "J152045470-03",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:14",
+      "detail": "Réf: LEDUC MARIE JO / J152045470-03 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-4.25",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165505",
+      "id_commande_v2i": "260701000181",
+      "code_cote": "B",
+      "patient": "LEDUC MARIE JO",
+      "job_cosium": "J152045470-01",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:14",
+      "detail": "Réf: LEDUC MARIE JO / J152045470-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-4.25",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165386",
       "id_commande_v2i": "260701000062",
       "code_cote": "B",
@@ -523,62 +635,6 @@
       }
     },
     {
-      "ord_numb": "            10165503",
-      "id_commande_v2i": "260701000179",
-      "code_cote": "B",
-      "patient": "LEDUC MARIE JO",
-      "job_cosium": "J152045470-03",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 17:43",
-      "detail": "Réf: LEDUC MARIE JO / J152045470-03 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-4.25",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165504",
       "id_commande_v2i": "260701000180",
       "code_cote": "B",
@@ -630,62 +686,6 @@
         "supplements": [
           "Tchin Uni 1.6 Durci",
           "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165505",
-      "id_commande_v2i": "260701000181",
-      "code_cote": "B",
-      "patient": "LEDUC MARIE JO",
-      "job_cosium": "J152045470-01",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 17:43",
-      "detail": "Réf: LEDUC MARIE JO / J152045470-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-4.25",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -751,64 +751,6 @@
       }
     },
     {
-      "ord_numb": "            10165280",
-      "id_commande_v2i": "260630000162",
-      "code_cote": "B",
-      "patient": "SPINETTI CLAIRE MARIE",
-      "job_cosium": "J152045456",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "01/07/2026 12:03",
-      "detail": "Réf: SPINETTI CLAIRE MARIE / J152045456 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Dégradée Noir C",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Durci",
-          "Teinte Dégradée Noir C",
-          "Durci Inclus",
-          "Montage"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165131",
       "id_commande_v2i": "260630000013",
       "code_cote": "B",
@@ -861,6 +803,64 @@
           "Tchin Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165280",
+      "id_commande_v2i": "260630000162",
+      "code_cote": "B",
+      "patient": "SPINETTI CLAIRE MARIE",
+      "job_cosium": "J152045456",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "02/07/2026 09:14",
+      "detail": "Réf: SPINETTI CLAIRE MARIE / J152045456 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Dégradée Noir C",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci",
+          "Teinte Dégradée Noir C",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
