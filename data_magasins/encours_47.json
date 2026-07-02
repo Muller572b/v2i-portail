@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "02/07/2026 16:18",
+  "derniere_mise_a_jour": "02/07/2026 17:32",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165686",
@@ -117,68 +117,6 @@
           "Vista Uni 1.6 Durci",
           "Durci Inclus",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165390",
-      "id_commande_v2i": "260701000066",
-      "code_cote": "B",
-      "patient": "BARBOSA SOARES DIONISIO CRISTI",
-      "job_cosium": "J160021024",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 14:57",
-      "detail": "Réf: BARBOSA SOARES DIONISIO CRISTI / J160021024 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.75",
-        "cylindre": "2.00",
-        "axe": 20,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.7",
-        "hauteur": "31.6",
-        "supplements": [
-          "Delta Horizon2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.00",
-        "cylindre": "3.25",
-        "axe": 170,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.1",
-        "hauteur": "31.4",
-        "supplements": [
-          "Delta Horizon2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -359,6 +297,68 @@
           "Antireflet interne face CC inclus",
           "Durci Inclus",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165390",
+      "id_commande_v2i": "260701000066",
+      "code_cote": "B",
+      "patient": "BARBOSA SOARES DIONISIO CRISTI",
+      "job_cosium": "J160021024",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 16:57",
+      "detail": "Réf: BARBOSA SOARES DIONISIO CRISTI / J160021024 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.75",
+        "cylindre": "2.00",
+        "axe": 20,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "31.6",
+        "supplements": [
+          "Delta Horizon2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.00",
+        "cylindre": "3.25",
+        "axe": 170,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.1",
+        "hauteur": "31.4",
+        "supplements": [
+          "Delta Horizon2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
