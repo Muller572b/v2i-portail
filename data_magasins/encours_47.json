@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "02/07/2026 18:47",
+  "derniere_mise_a_jour": "02/07/2026 19:02",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165686",
@@ -117,6 +117,60 @@
           "Vista Uni 1.6 Durci",
           "Durci Inclus",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165782",
+      "id_commande_v2i": "260702000213",
+      "code_cote": "B",
+      "patient": "CHESSA CECILE",
+      "job_cosium": "J160021048",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 18:55",
+      "detail": "Réf: CHESSA CECILE / J160021048 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.8",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "31.9",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Montage"
         ]
       }
     },
