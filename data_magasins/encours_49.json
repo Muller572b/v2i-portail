@@ -10,8 +10,68 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "02/07/2026 14:03",
+  "derniere_mise_a_jour": "02/07/2026 14:18",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165619",
+      "id_commande_v2i": "260702000050",
+      "code_cote": "B",
+      "patient": "CIPRIANI DANIELE",
+      "job_cosium": "J205030530",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 14:13",
+      "detail": "Réf: CIPRIANI DANIELE / J205030530 — (Fabrication RX) — État: Commande rebutée",
+      "statut_code": "BREA",
+      "statut_affichage": "Commande rebutée",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 135,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165621",
       "id_commande_v2i": "260702000052",
@@ -65,66 +125,6 @@
           "O2 Miladu 1.6 Durci",
           "Durci Inclus",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165619",
-      "id_commande_v2i": "260702000050",
-      "code_cote": "B",
-      "patient": "CIPRIANI DANIELE",
-      "job_cosium": "J205030530",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 12:37",
-      "detail": "Réf: CIPRIANI DANIELE / J205030530 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 135,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
