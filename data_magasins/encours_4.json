@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "02/07/2026 15:48",
+  "derniere_mise_a_jour": "02/07/2026 16:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165597",
@@ -301,70 +301,16 @@
       }
     },
     {
-      "ord_numb": "            10165671",
-      "id_commande_v2i": "260702000102",
-      "code_cote": "B",
-      "patient": "VALERY PATRICK",
-      "job_cosium": "J144102265-01",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 15:42",
-      "detail": "Réf: VALERY PATRICK / J144102265-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.75",
-        "cylindre": "1.00",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.25",
-        "cylindre": "0.50",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165667",
       "id_commande_v2i": "260702000098",
       "code_cote": "B",
       "patient": "PERRIER CAROLINE",
       "job_cosium": "J144102261-02",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 15:11",
-      "detail": "Réf: PERRIER CAROLINE / J144102261-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "02/07/2026 15:51",
+      "detail": "Réf: PERRIER CAROLINE / J144102261-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -417,10 +363,10 @@
       "patient": "LEBERT EMMANUELLE",
       "job_cosium": "J144102262",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 15:09",
-      "detail": "Réf: LEBERT EMMANUELLE / J144102262 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "02/07/2026 16:03",
+      "detail": "Réf: LEBERT EMMANUELLE / J144102262 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -462,6 +408,60 @@
         "supplements": [
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165671",
+      "id_commande_v2i": "260702000102",
+      "code_cote": "B",
+      "patient": "VALERY PATRICK",
+      "job_cosium": "J144102265-01",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 15:42",
+      "detail": "Réf: VALERY PATRICK / J144102265-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.75",
+        "cylindre": "1.00",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.25",
+        "cylindre": "0.50",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Durci",
           "Durci Inclus"
         ]
       }
