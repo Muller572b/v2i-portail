@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "02/07/2026 09:48",
+  "derniere_mise_a_jour": "02/07/2026 10:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165555",
@@ -122,6 +122,114 @@
           "O2 Minimu 1.6 Durci Arh",
           "Antireflet interne face CC inclus",
           "Teinte Dégradée Brun B",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165563",
+      "id_commande_v2i": "260701000239",
+      "code_cote": "B",
+      "patient": "MARCAGGI MARIE FRANCE",
+      "job_cosium": "J143054214-02",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:50",
+      "detail": "Réf: MARCAGGI MARIE FRANCE / J143054214-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165566",
+      "id_commande_v2i": "260701000242",
+      "code_cote": "B",
+      "patient": "SABATHE REGINE",
+      "job_cosium": "J143054212",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:57",
+      "detail": "Réf: SABATHE REGINE / J143054212 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "33.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "33.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
@@ -549,60 +657,6 @@
       }
     },
     {
-      "ord_numb": "            10165563",
-      "id_commande_v2i": "260701000239",
-      "code_cote": "B",
-      "patient": "MARCAGGI MARIE FRANCE",
-      "job_cosium": "J143054214-02",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 19:50",
-      "detail": "Réf: MARCAGGI MARIE FRANCE / J143054214-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165564",
       "id_commande_v2i": "260701000240",
       "code_cote": "B",
@@ -710,60 +764,6 @@
         "supplements": [
           "2de Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165566",
-      "id_commande_v2i": "260701000242",
-      "code_cote": "B",
-      "patient": "SABATHE REGINE",
-      "job_cosium": "J143054212",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 19:50",
-      "detail": "Réf: SABATHE REGINE / J143054212 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "33.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "33.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
           "Durci Inclus"
         ]
       }
