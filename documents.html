@@ -32,71 +32,28 @@
             border-radius: 6px;
             text-transform: uppercase;
             margin-bottom: 12px;
-            letter-spacing: 0.025em; /* CORRIGÉ ICI */
+            letter-spacing: 0.025em;
         }
         
-        /* Couleurs des badges */
         .badge-pdf { background-color: rgba(255, 59, 48, 0.1); color: #ff3b30; }
         .badge-image { background-color: rgba(52, 199, 89, 0.1); color: #34c759; }
         .badge-archive { background-color: rgba(175, 82, 222, 0.1); color: #af52de; }
-        .badge-link { background-color: rgba(59, 130, 246, 0.1); color: #2563eb; } /* Nouveau badge pour lien */
+        .badge-link { background-color: rgba(59, 130, 246, 0.1); color: #2563eb; }
 
-        .doc-title {
-            font-size: 14px;
-            font-weight: 700;
-            margin: 0 0 4px 0;
-            color: #1d1d1f;
-            line-height: 1.4;
-            text-transform: uppercase;
-        }
-        .doc-category {
-            font-size: 12px;
-            color: #86868b;
-            font-weight: 500;
-            margin-bottom: 20px;
-        }
-        .doc-actions {
-            margin-top: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-top: 1px solid #e8e8ed;
-            padding-top: 16px;
-        }
-        .btn-action {
-            text-decoration: none;
-            font-size: 13px;
-            font-weight: 600;
-            transition: opacity 0.2s;
-        }
+        .doc-title { font-size: 14px; font-weight: 700; margin: 0 0 4px 0; color: #1d1d1f; line-height: 1.4; text-transform: uppercase; }
+        .doc-category-label { font-size: 12px; color: #86868b; font-weight: 500; margin-bottom: 20px; }
+        .doc-actions { margin-top: auto; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #e8e8ed; padding-top: 16px; }
+        .btn-action { text-decoration: none; font-size: 13px; font-weight: 600; transition: opacity 0.2s; }
         .btn-action:hover { opacity: 0.7; }
         .btn-download { color: #86868b; }
         .btn-preview { color: #0066cc; }
-        .btn-visit { color: #2563eb; } /* Style pour le bouton lien */
+        .btn-visit { color: #2563eb; }
 
-        /* Styles filtres */
-        .filter-btn {
-            padding: 8px 16px;
-            border-radius: 10px;
-            font-size: 13px;
-            font-weight: 600;
-            background-color: #f5f5f7;
-            color: #86868b;
-            border: 1px solid transparent;
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
+        .filter-btn { padding: 8px 16px; border-radius: 10px; font-size: 13px; font-weight: 600; background-color: #f5f5f7; color: #86868b; border: 1px solid transparent; transition: all 0.2s ease; cursor: pointer; }
         .filter-btn:hover { background-color: #e8e8ed; color: #1d1d1f; }
         .filter-btn.active { background-color: #0066cc; color: #ffffff; }
         
-        .no-result {
-            grid-column: 1 / -1;
-            text-align: center;
-            color: #86868b;
-            padding: 40px;
-            font-style: italic;
-            font-weight: 500;
-        }
+        .no-result { grid-column: 1 / -1; text-align: center; color: #86868b; padding: 40px; font-style: italic; font-weight: 500; }
     </style>
 </head>
 <body class="bg-[#f5f5f7] text-[#1d1d1f] font-sans antialiased min-h-screen flex">
@@ -125,16 +82,14 @@
 
     <main class="flex-1 p-10 relative">
         <header class="mb-8">
-            <div>
-                <h2 class="text-3xl font-bold tracking-tight">Documentation & Outils</h2>
-                <p class="text-[#86868b] mt-1 font-medium">Retrouvez l'ensemble des catalogues et supports d'aide à la vente.</p>
-            </div>
+            <h2 class="text-3xl font-bold tracking-tight">Documentation & Outils</h2>
+            <p class="text-[#86868b] mt-1 font-medium">Retrouvez l'ensemble des catalogues et supports d'aide à la vente.</p>
         </header>
 
-        <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm mb-6 flex flex-wrap gap-4 items-center">
+        <div class="bg-white p-4 rounded-2xl border border-[#e8e8ed] shadow-sm mb-8 flex flex-wrap gap-4 items-center">
             <div class="flex-1 min-w-[250px] relative">
                 <i data-lucide="search" class="absolute left-3 top-3 w-5 h-5 text-gray-400"></i>
-                <input type="text" id="docSearch" placeholder="Rechercher un catalogue, un support, un mot-clé..." class="w-full pl-10 pr-4 py-2.5 bg-[#f5f5f7] border-transparent rounded-xl focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc] outline-none transition-all text-sm font-medium placeholder-gray-400">
+                <input type="text" id="docSearch" placeholder="Rechercher un document ou une catégorie..." class="w-full pl-10 pr-4 py-2.5 bg-[#f5f5f7] border-transparent rounded-xl focus:border-[#0066cc] focus:ring-1 focus:ring-[#0066cc] outline-none transition-all text-sm font-medium placeholder-gray-400">
             </div>
             <div class="flex items-center gap-2">
                 <button class="filter-btn active" data-filter="all">Tous</button>
@@ -145,22 +100,20 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="documentsContainer">
-        </div>
+        <div id="documentsContainer">
+            </div>
     </main>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             if (window.lucide) lucide.createIcons();
         });
-
         function logout() {
             localStorage.removeItem('v2i_authenticated');
             localStorage.removeItem('v2i_client_id');
             localStorage.removeItem('v2i_cosium_code');
             window.location.href = './login.html';
         }
-        window.logout = logout;
     </script>
 </body>
 </html>
