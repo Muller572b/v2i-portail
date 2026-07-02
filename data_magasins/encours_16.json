@@ -10,8 +10,122 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "02/07/2026 09:27",
+  "derniere_mise_a_jour": "02/07/2026 09:48",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165555",
+      "id_commande_v2i": "260701000231",
+      "code_cote": "B",
+      "patient": "AZZARKANI KARIMA",
+      "job_cosium": "J143054226",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:28",
+      "detail": "Réf: AZZARKANI KARIMA / J143054226 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-9.00",
+        "cylindre": "2.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-7.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165561",
+      "id_commande_v2i": "260701000237",
+      "code_cote": "B",
+      "patient": "OUAZANA PASCALE",
+      "job_cosium": "J143054218",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "02/07/2026 09:32",
+      "detail": "Réf: OUAZANA PASCALE / J143054218 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "4.25",
+        "axe": 130,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Brun B",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Teinte Dégradée Brun B",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165554",
       "id_commande_v2i": "260701000230",
@@ -273,62 +387,6 @@
       }
     },
     {
-      "ord_numb": "            10165555",
-      "id_commande_v2i": "260701000231",
-      "code_cote": "B",
-      "patient": "AZZARKANI KARIMA",
-      "job_cosium": "J143054226",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 19:49",
-      "detail": "Réf: AZZARKANI KARIMA / J143054226 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-9.00",
-        "cylindre": "2.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-7.25",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165558",
       "id_commande_v2i": "260701000234",
       "code_cote": "B",
@@ -433,64 +491,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165561",
-      "id_commande_v2i": "260701000237",
-      "code_cote": "B",
-      "patient": "OUAZANA PASCALE",
-      "job_cosium": "J143054218",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 07:52",
-      "detail": "Réf: OUAZANA PASCALE / J143054218 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "4.25",
-        "axe": 130,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "O2 Minimu 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Teinte Dégradée Brun B",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "O2 Minimu 1.6 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Teinte Dégradée Brun B",
-          "Durci Inclus"
         ]
       }
     },
