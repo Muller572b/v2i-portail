@@ -10,8 +10,48 @@
     "email": "obv@balbi.fr",
     "mot_de_passe_portail": "obv"
   },
-  "derniere_mise_a_jour": "02/07/2026 16:03",
+  "derniere_mise_a_jour": "02/07/2026 16:18",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165655",
+      "id_commande_v2i": "260702000086",
+      "code_cote": "L",
+      "patient": "DE PERETTI CORNELIE",
+      "job_cosium": "J161003907",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 16:08",
+      "detail": "Réf: DE PERETTI CORNELIE / J161003907 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "5.00",
+        "base_1": "90",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Prisme supérieur à 4",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165654",
       "id_commande_v2i": "260702000085",
@@ -69,46 +109,6 @@
           "Teinte Dégradée Brun C",
           "Durci Inclus",
           "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165655",
-      "id_commande_v2i": "260702000086",
-      "code_cote": "L",
-      "patient": "DE PERETTI CORNELIE",
-      "job_cosium": "J161003907",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 15:56",
-      "detail": "Réf: DE PERETTI CORNELIE / J161003907 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "5.00",
-        "base_1": "90",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Prisme supérieur à 4",
           "Précalibrage Inclus",
           "Optimisé"
         ]
