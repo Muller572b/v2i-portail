@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "03/07/2026 15:25",
+  "derniere_mise_a_jour": "03/07/2026 15:45",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165881",
@@ -345,6 +345,60 @@
       }
     },
     {
+      "ord_numb": "            10165903",
+      "id_commande_v2i": "260703000083",
+      "code_cote": "B",
+      "patient": "CESARI JEAN",
+      "job_cosium": "J145063676-01",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "03/07/2026 15:39",
+      "detail": "Réf: CESARI JEAN / J145063676-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165929",
       "id_commande_v2i": "260703000109",
       "code_cote": "B",
@@ -497,60 +551,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.6 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165903",
-      "id_commande_v2i": "260703000083",
-      "code_cote": "B",
-      "patient": "CESARI JEAN",
-      "job_cosium": "J145063676-01",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 11:46",
-      "detail": "Réf: CESARI JEAN / J145063676-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Gris C"
         ]
       }
     },
