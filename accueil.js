@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Récupération automatique du flux d'actualités
     const actusContainer = document.getElementById('flux-actus');
     if (actusContainer) {
-        fetch('data/flux_optique.json')
+        fetch('/data/flux_optique.xml')
             .then(response => {
                 if (!response.ok) throw new Error("Erreur de récupération du flux RSS");
                 return response.json();
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- APPEL 1 : CHARGEMENT DES COMMANDES EN COURS ---
     if (clientId && countCoursEl) {
-        fetch(`data_magasins/encours_${clientId}.json`)
+        fetch('/data_magasins/encours_' + magasin + '.json')
             .then(response => {
                 if (!response.ok) throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
                 return response.json();
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES ---
     if (clientId && countExpEl) {
-        fetch(`data_archives/${currentYear}/archive_${clientId}.json`)
+        fetch('/data_archives/' + annee + '/archive_' + magasin + '.json')
             .then(response => {
                 if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
                 return response.json();
