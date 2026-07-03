@@ -10,8 +10,64 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "03/07/2026 08:47",
+  "derniere_mise_a_jour": "03/07/2026 10:04",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10165832",
+      "id_commande_v2i": "260703000012",
+      "code_cote": "B",
+      "patient": "ALOUI Youssef",
+      "job_cosium": "",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "03/07/2026 09:45",
+      "detail": "Réf: ALOUI Youssef — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165786",
       "id_commande_v2i": "260702000217",
@@ -19,10 +75,10 @@
       "patient": "ALOUI TAOUES",
       "job_cosium": "J600029410",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 19:13",
-      "detail": "Réf: ALOUI TAOUES / J600029410 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "03/07/2026 09:34",
+      "detail": "Réf: ALOUI TAOUES / J600029410 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -71,10 +127,10 @@
       "patient": "ISMANA LUCIAN",
       "job_cosium": "J600029409-01",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 19:13",
-      "detail": "Réf: ISMANA LUCIAN / J600029409-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "03/07/2026 09:34",
+      "detail": "Réf: ISMANA LUCIAN / J600029409-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -123,10 +179,10 @@
       "patient": "ISMANA LUCIAN",
       "job_cosium": "J600029409-02",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 19:13",
-      "detail": "Réf: ISMANA LUCIAN / J600029409-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "03/07/2026 09:34",
+      "detail": "Réf: ISMANA LUCIAN / J600029409-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -165,6 +221,162 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165791",
+      "id_commande_v2i": "260702000222",
+      "code_cote": "B",
+      "patient": "ROZIER RENE",
+      "job_cosium": "J600029405-01",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "03/07/2026 09:34",
+      "detail": "Réf: ROZIER RENE / J600029405-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165794",
+      "id_commande_v2i": "260702000225",
+      "code_cote": "B",
+      "patient": "CASANOVA MARIE LUCIE",
+      "job_cosium": "J600029398",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "03/07/2026 09:34",
+      "detail": "Réf: CASANOVA MARIE LUCIE / J600029398 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165795",
+      "id_commande_v2i": "260702000226",
+      "code_cote": "B",
+      "patient": "ROMITI JOSEPH",
+      "job_cosium": "J600029396",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "03/07/2026 09:34",
+      "detail": "Réf: ROMITI JOSEPH / J600029396 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "2.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
         ]
       }
     },
@@ -279,58 +491,6 @@
       }
     },
     {
-      "ord_numb": "            10165791",
-      "id_commande_v2i": "260702000222",
-      "code_cote": "B",
-      "patient": "ROZIER RENE",
-      "job_cosium": "J600029405-01",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 19:13",
-      "detail": "Réf: ROZIER RENE / J600029405-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165792",
       "id_commande_v2i": "260702000223",
       "code_cote": "B",
@@ -439,120 +599,16 @@
       }
     },
     {
-      "ord_numb": "            10165794",
-      "id_commande_v2i": "260702000225",
-      "code_cote": "B",
-      "patient": "CASANOVA MARIE LUCIE",
-      "job_cosium": "J600029398",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 19:13",
-      "detail": "Réf: CASANOVA MARIE LUCIE / J600029398 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.25",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165795",
-      "id_commande_v2i": "260702000226",
-      "code_cote": "B",
-      "patient": "ROMITI JOSEPH",
-      "job_cosium": "J600029396",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 19:13",
-      "detail": "Réf: ROMITI JOSEPH / J600029396 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "2.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165533",
       "id_commande_v2i": "260701000209",
       "code_cote": "B",
       "patient": "DE AZEVEDO MOREIRA ANA",
       "job_cosium": "J600029393",
       "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:21",
-      "detail": "Réf: DE AZEVEDO MOREIRA ANA / J600029393 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "03/07/2026 09:56",
+      "detail": "Réf: DE AZEVEDO MOREIRA ANA / J600029393 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -594,60 +650,6 @@
         "supplements": [
           "Xtra Confort 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165534",
-      "id_commande_v2i": "260701000210",
-      "code_cote": "B",
-      "patient": "SALINESI MARTINE",
-      "job_cosium": "J600029392",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 10:00",
-      "detail": "Réf: SALINESI MARTINE / J600029392 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 06/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Xtra Confort 1.5 Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 35,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Xtra Confort 1.5 Polar Brun Durci",
           "Durci Inclus"
         ]
       }
@@ -715,10 +717,10 @@
       "patient": "PERI ANDREE-PAULE",
       "job_cosium": "J600029387-02",
       "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 14:47",
-      "detail": "Réf: PERI ANDREE-PAULE / J600029387-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "03/07/2026 09:39",
+      "detail": "Réf: PERI ANDREE-PAULE / J600029387-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -760,6 +762,60 @@
         "supplements": [
           "Acui Uni 1.6 Durci",
           "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165534",
+      "id_commande_v2i": "260701000210",
+      "code_cote": "B",
+      "patient": "SALINESI MARTINE",
+      "job_cosium": "J600029392",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "03/07/2026 09:36",
+      "detail": "Réf: SALINESI MARTINE / J600029392 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 06/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Xtra Confort 1.5 Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 35,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Xtra Confort 1.5 Polar Brun Durci",
           "Durci Inclus"
         ]
       }
