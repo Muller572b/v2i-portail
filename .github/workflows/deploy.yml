@@ -89,10 +89,15 @@ jobs:
       # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
+
       - name: Téléchargement de l'artefact
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'public'
+          name: 'https://www.v2i-portail.fr/' # <--- AJOUTEZ CE NOM
+
       - name: Déploiement sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: 'https://www.v2i-portail.fr/'
