@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Récupération automatique du flux d'actualités
     const actusContainer = document.getElementById('flux-actus');
     if (actusContainer) {
-        // Utilisation du chemin absolu / et de l'extension .json cohérente avec response.json()
-        fetch('/flux_optique.json')
+        // 🛠️ CORRECTION : Ajout de /data/ devant le fichier pour viser le bon dossier à la racine
+        fetch('/data/flux_optique.json')
             .then(response => {
                 if (!response.ok) throw new Error("Erreur de récupération du flux d'actualités (404 ou autre)");
-                return response.json(); // Analyse correcte du format JSON
+                return response.json(); 
             })
             .then(data => {
                 actusContainer.innerHTML = ''; // Nettoyage de l'indicateur de chargement
