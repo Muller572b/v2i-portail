@@ -95,7 +95,7 @@ jobs:
           cp temp_beta/*.html public/beta/ 2>/dev/null || true
           cp temp_beta/*.js public/beta/ 2>/dev/null || true
           cp temp_beta/*.css public/beta/ 2>/dev/null || true
-          cp temp_beta/documents.json public/beta/ 2>/dev/null || true
+          cp documents.json public/beta/ 2>/dev/null || true
           
           # On copie aussi les sous-dossiers de code/design légers s'ils existent en beta
           cp -r temp_beta/js public/beta/ 2>/dev/null || true
