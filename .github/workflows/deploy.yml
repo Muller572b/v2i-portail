@@ -5,7 +5,7 @@ on:
     branches: ["main", "beta"]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -48,8 +48,7 @@ jobs:
       - name: Génération de l'index des documents
         run: if [ -f "scannerdocumentdispo.py" ]; then python scannerdocumentdispo.py; fi
 
-      # --- ETAPE 2 : TRANSFERT DES PDF (Nouveauté) ---
-      # On pousse les fichiers existants localement vers le nouveau dépôt
+      # --- ETAPE 2 : TRANSFERT DES PDF ---
       - name: Transfert des PDF vers portail-cartedevue
         env:
           TOKEN: ${{ secrets.MES_PDF_TOKEN }}
@@ -62,29 +61,37 @@ jobs:
           cp -r cartedevue/* temp_sync/
           cd temp_sync
           git add .
-          git commit -m "Sync auto des PDF" || echo "Rien à commettre"
+          # [skip ci] permet d'éviter les boucles de déclenchement infinies
+          git commit -m "Sync auto des PDF [skip ci]" || echo "Rien à commettre"
           git push origin main
           cd ..
           rm -rf temp_sync
 
+      # --- ETAPE 3 : CONSTRUCTION DU DOSSIER PUBLIC ---
       - name: Construction dynamique de l'espace de Production et Beta
         run: |
           mkdir -p public
-          # Copie des fichiers web et JSON
+          # Copie des fichiers web et JSON de la branche principale (main)
           cp *.html public/ 2>/dev/null || true
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
           cp documents.json public/ 2>/dev/null || true
-          
-          # --- AJOUT DES DOSSIERS MANQUANTS ---
+           
+          # Copie des dossiers de production
           cp -r documentcommun public/ 2>/dev/null || true
           cp -r documents_magasin public/ 2>/dev/null || true
-          
+           
           # Autres ressources
           cp -r images public/ 2>/dev/null || true
           cp -r data public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
           cp -r data_archives public/ 2>/dev/null || true
+
+          # --- CORRECTION POUR LA VERSION BETA ---
+          # On crée un sous-dossier "beta" dans le dossier public final
+          mkdir -p public/beta
+          # On y copie l'intégralité du contenu récupéré de la branche beta
+          cp -r temp_beta/* public/beta/ 2>/dev/null || true
 
       # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
@@ -94,10 +101,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'public'
-          name: 'https://www.v2i-portail.fr/' # <--- AJOUTEZ CE NOM
+          name: 'https://www.v2i-portail.fr/' # Nom propre et valide (sans caractères spéciaux)
 
       - name: Déploiement sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: 'https://www.v2i-portail.fr/'
+          artifact_name: 'https://www.v2i-portail.fr/' # Doit être identique au nom ci-dessus
