@@ -68,7 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- APPEL 1 : CHARGEMENT DES COMMANDES EN COURS ---
     if (clientId && countCoursEl) {
-        fetch('/data_magasins/encours_' + magasin + '.json')
+        // 🛠️ CORRECTION : Utilisation de clientId au lieu de magasin
+        fetch('/data_magasins/encours_' + clientId + '.json')
             .then(response => {
                 if (!response.ok) throw new Error(`Fichier introuvable pour le magasin : ${clientId}`);
                 return response.json();
@@ -88,7 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- APPEL 2 : CHARGEMENT DES COMMANDES EXPÉDIÉES ---
     if (clientId && countExpEl) {
-        fetch('/data_archives/' + annee + '/archive_' + magasin + '.json')
+        // 🛠️ CORRECTION : Utilisation de currentYear et clientId au lieu de annee et magasin
+        fetch('/data_archives/' + currentYear + '/archive_' + clientId + '.json')
             .then(response => {
                 if (!response.ok) throw new Error(`Pas d'archive disponible pour le magasin : ${clientId}`);
                 return response.json();
@@ -126,7 +128,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 5. TRANSMISSION AUTOMATIQUE DES FILTRES ---
-    // Pour les commandes En Cours
     if (countCoursEl) {
         const cardLinkCours = countCoursEl.closest('a') || countCoursEl.parentElement?.querySelector('a');
         if (cardLinkCours) {
@@ -136,7 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Pour les commandes Expédiées
     if (countExpEl) {
         const cardLinkExp = countExpEl.closest('a') || countExpEl.parentElement?.querySelector('a');
         if (cardLinkExp) {
