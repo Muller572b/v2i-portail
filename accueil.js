@@ -31,10 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Récupération automatique du flux d'actualités
     const actusContainer = document.getElementById('flux-actus');
     if (actusContainer) {
-        fetch('/data/flux_optique.xml')
+        // Utilisation du chemin absolu / et de l'extension .json cohérente avec response.json()
+        fetch('/flux_optique.json')
             .then(response => {
-                if (!response.ok) throw new Error("Erreur de récupération du flux RSS");
-                return response.json();
+                if (!response.ok) throw new Error("Erreur de récupération du flux d'actualités (404 ou autre)");
+                return response.json(); // Analyse correcte du format JSON
             })
             .then(data => {
                 actusContainer.innerHTML = ''; // Nettoyage de l'indicateur de chargement
@@ -43,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     actusContainer.innerHTML = '<p class="text-gray-500 text-sm">Aucune actualité disponible pour le moment.</p>';
                     return;
                 }
-
+    
                 data.forEach(actu => {
                     actusContainer.innerHTML += `
                         <a href="${actu.lien}" target="_blank" class="block bg-white p-6 rounded-2xl border border-[#e8e8ed] shadow-sm hover:border-[#0066cc] hover:shadow-md transition-all group">
