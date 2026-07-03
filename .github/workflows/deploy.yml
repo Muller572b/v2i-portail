@@ -10,8 +10,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: "pages"
+  cancel-in-progress: false  # On ne tue pas un déploiement Pages en cours, on le laisse finir
 
 jobs:
   deploy:
