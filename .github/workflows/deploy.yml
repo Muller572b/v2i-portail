@@ -77,21 +77,32 @@ jobs:
           cp *.css public/ 2>/dev/null || true
           cp documents.json public/ 2>/dev/null || true
            
-          # Copie des dossiers de production
+          # Copie des dossiers de production (Dossiers lourds de référence)
           cp -r documentcommun public/ 2>/dev/null || true
           cp -r documents_magasin public/ 2>/dev/null || true
            
-          # Autres ressources
+          # Autres ressources de production
           cp -r images public/ 2>/dev/null || true
           cp -r data public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
           cp -r data_archives public/ 2>/dev/null || true
 
-          # --- CORRECTION POUR LA VERSION BETA ---
+          # --- CORRECTION POUR LA VERSION BETA (Version optimisée sans doublons) ---
           # On crée un sous-dossier "beta" dans le dossier public final
           mkdir -p public/beta
-          # On y copie l'intégralité du contenu récupéré de la branche beta
-          cp -r temp_beta/* public/beta/ 2>/dev/null || true
+          
+          # On ne copie QUE le code et le JSON modifiés de la branche beta
+          cp temp_beta/*.html public/beta/ 2>/dev/null || true
+          cp temp_beta/*.js public/beta/ 2>/dev/null || true
+          cp temp_beta/*.css public/beta/ 2>/dev/null || true
+          cp temp_beta/documents.json public/beta/ 2>/dev/null || true
+          
+          # On copie aussi les sous-dossiers de code/design légers s'ils existent en beta
+          cp -r temp_beta/js public/beta/ 2>/dev/null || true
+          cp -r temp_beta/images public/beta/ 2>/dev/null || true
+
+          # NOTE : Les dossiers lourds (documentcommun, data_magasins, eBlcertifie...) 
+          # de la branche beta sont volontairement ignorés pour économiser l'espace.
 
       # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
