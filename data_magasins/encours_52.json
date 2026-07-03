@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "03/07/2026 19:12",
+  "derniere_mise_a_jour": "03/07/2026 19:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165950",
@@ -182,6 +182,62 @@
         "supplements": [
           "Uni 1.67 Durci Bz",
           "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166025",
+      "id_commande_v2i": "260703000205",
+      "code_cote": "B",
+      "patient": "MERSNI AMMAR",
+      "job_cosium": "J154014588",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "03/07/2026 19:15",
+      "detail": "Réf: MERSNI AMMAR / J154014588 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "CLA Progressif 1.74 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 15,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "CLA Progressif 1.74 HC AR",
+          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
