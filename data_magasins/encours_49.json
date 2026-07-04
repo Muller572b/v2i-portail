@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "04/07/2026 08:27",
+  "derniere_mise_a_jour": "04/07/2026 08:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165910",
@@ -235,120 +235,6 @@
       }
     },
     {
-      "ord_numb": "            10165662",
-      "id_commande_v2i": "260702000093",
-      "code_cote": "B",
-      "patient": "MARTINETTI ROCH PHILIPPE",
-      "job_cosium": "J205030562-02",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 09:08",
-      "detail": "Réf: MARTINETTI ROCH PHILIPPE / J205030562-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 08/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "0.75",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "27.0",
-        "supplements": [
-          "2de Uni 1.5  Polar Brun Durci",
-          "Dégradé Polarisé",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "2de Uni 1.5  Polar Brun Durci",
-          "Dégradé Polarisé",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165776",
-      "id_commande_v2i": "260702000207",
-      "code_cote": "B",
-      "patient": "SOAVI OCEANE",
-      "job_cosium": "J205030565-01",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 11:41",
-      "detail": "Réf: SOAVI OCEANE / J205030565-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-6.00",
-        "cylindre": "0.25",
-        "axe": 50,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "32.0",
-        "supplements": [
-          "2de Uni 1.6 Durci",
-          "Durci Inclus",
-          "Montage",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-6.00",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "2de Uni 1.6 Durci",
-          "Durci Inclus",
-          "Montage",
-          "Teinte Noir C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165619",
       "id_commande_v2i": "260702000050",
       "code_cote": "B",
@@ -527,6 +413,62 @@
       }
     },
     {
+      "ord_numb": "            10165662",
+      "id_commande_v2i": "260702000093",
+      "code_cote": "B",
+      "patient": "MARTINETTI ROCH PHILIPPE",
+      "job_cosium": "J205030562-02",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "04/07/2026 08:32",
+      "detail": "Réf: MARTINETTI ROCH PHILIPPE / J205030562-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "0.75",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "27.0",
+        "supplements": [
+          "2de Uni 1.5  Polar Brun Durci",
+          "Dégradé Polarisé",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "2de Uni 1.5  Polar Brun Durci",
+          "Dégradé Polarisé",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165738",
       "id_commande_v2i": "260702000169",
       "code_cote": "B",
@@ -643,6 +585,64 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165776",
+      "id_commande_v2i": "260702000207",
+      "code_cote": "B",
+      "patient": "SOAVI OCEANE",
+      "job_cosium": "J205030565-01",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "04/07/2026 08:28",
+      "detail": "Réf: SOAVI OCEANE / J205030565-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-6.00",
+        "cylindre": "0.25",
+        "axe": 50,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "2de Uni 1.6 Durci",
+          "Durci Inclus",
+          "Montage",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-6.00",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "2de Uni 1.6 Durci",
+          "Durci Inclus",
+          "Montage",
+          "Teinte Noir C"
         ]
       }
     },
