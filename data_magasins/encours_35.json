@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "04/07/2026 09:12",
+  "derniere_mise_a_jour": "04/07/2026 09:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165862",
@@ -123,10 +123,10 @@
       "patient": "DELMAS CHANTAL",
       "job_cosium": "J120030621",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 17:25",
-      "detail": "Réf: DELMAS CHANTAL / J120030621 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "04/07/2026 09:12",
+      "detail": "Réf: DELMAS CHANTAL / J120030621 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 06/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -165,6 +165,58 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166030",
+      "id_commande_v2i": "260703000210",
+      "code_cote": "B",
+      "patient": "CESARI COLETTE",
+      "job_cosium": "J120030622",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "04/07/2026 09:15",
+      "detail": "Réf: CESARI COLETTE / J120030622 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 06/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -283,58 +335,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166030",
-      "id_commande_v2i": "260703000210",
-      "code_cote": "B",
-      "patient": "CESARI COLETTE",
-      "job_cosium": "J120030622",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 19:31",
-      "detail": "Réf: CESARI COLETTE / J120030622 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
