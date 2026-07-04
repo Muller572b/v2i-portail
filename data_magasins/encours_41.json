@@ -10,7 +10,7 @@
     "email": "optique.calvi@wanadoo.fr",
     "mot_de_passe_portail": "cao"
   },
-  "derniere_mise_a_jour": "04/07/2026 08:27",
+  "derniere_mise_a_jour": "04/07/2026 08:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165822",
@@ -237,64 +237,6 @@
       }
     },
     {
-      "ord_numb": "            10165753",
-      "id_commande_v2i": "260702000184",
-      "code_cote": "B",
-      "patient": "MAGOT KARIN ELISABETH",
-      "job_cosium": "J151012210-02",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 11:07",
-      "detail": "Réf: MAGOT KARIN ELISABETH / J151012210-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 08/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Vista Uni 1.5 Durci",
-          "Base speciale",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Vista Uni 1.5 Durci",
-          "Base speciale",
-          "Durci Inclus",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165774",
       "id_commande_v2i": "260702000205",
       "code_cote": "B",
@@ -457,6 +399,64 @@
         "supplements": [
           "Prog V2i 1.5 Foto Gris Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165753",
+      "id_commande_v2i": "260702000184",
+      "code_cote": "B",
+      "patient": "MAGOT KARIN ELISABETH",
+      "job_cosium": "J151012210-02",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "04/07/2026 08:32",
+      "detail": "Réf: MAGOT KARIN ELISABETH / J151012210-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Vista Uni 1.5 Durci",
+          "Base speciale",
+          "Durci Inclus",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Vista Uni 1.5 Durci",
+          "Base speciale",
+          "Durci Inclus",
+          "Teinte Gris C"
         ]
       }
     },
