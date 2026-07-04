@@ -10,8 +10,60 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "04/07/2026 08:57",
+  "derniere_mise_a_jour": "04/07/2026 09:12",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166002",
+      "id_commande_v2i": "260703000182",
+      "code_cote": "B",
+      "patient": "MURATI CARINE",
+      "job_cosium": "J142010955",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "04/07/2026 09:05",
+      "detail": "Réf: MURATI CARINE / J142010955 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 06/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165965",
       "id_commande_v2i": "260703000145",
@@ -133,58 +185,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166002",
-      "id_commande_v2i": "260703000182",
-      "code_cote": "B",
-      "patient": "MURATI CARINE",
-      "job_cosium": "J142010955",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 18:38",
-      "detail": "Réf: MURATI CARINE / J142010955 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
         ]
       }
     },
