@@ -10,7 +10,7 @@
     "email": "atb@balbi.fr",
     "mot_de_passe_portail": "atb"
   },
-  "derniere_mise_a_jour": "04/07/2026 11:57",
+  "derniere_mise_a_jour": "04/07/2026 12:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165872",
@@ -74,58 +74,6 @@
       }
     },
     {
-      "ord_numb": "            10166028",
-      "id_commande_v2i": "260703000208",
-      "code_cote": "B",
-      "patient": "VECCHIOLI VINCENT",
-      "job_cosium": "J602004827",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "04/07/2026 09:16",
-      "detail": "Réf: VECCHIOLI VINCENT / J602004827 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166027",
       "id_commande_v2i": "260703000207",
       "code_cote": "B",
@@ -182,16 +130,68 @@
       }
     },
     {
+      "ord_numb": "            10166028",
+      "id_commande_v2i": "260703000208",
+      "code_cote": "B",
+      "patient": "VECCHIOLI VINCENT",
+      "job_cosium": "J602004827",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "04/07/2026 12:04",
+      "detail": "Réf: VECCHIOLI VINCENT / J602004827 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 06/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165778",
       "id_commande_v2i": "260702000209",
       "code_cote": "B",
       "patient": "LABOURDENNE-SAINT-JULIA MARION",
       "job_cosium": "J602004823",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 09:35",
-      "detail": "Réf: LABOURDENNE-SAINT-JULIA MARION / J602004823 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 12:04",
+      "detail": "Réf: LABOURDENNE-SAINT-JULIA MARION / J602004823 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -240,10 +240,10 @@
       "patient": "ESPOSITO ROSE",
       "job_cosium": "J602004822-02",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "04/07/2026 08:32",
-      "detail": "Réf: ESPOSITO ROSE / J602004822-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 12:04",
+      "detail": "Réf: ESPOSITO ROSE / J602004822-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -296,10 +296,10 @@
       "patient": "ESPOSITO ROSE",
       "job_cosium": "J602004822-01",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 09:35",
-      "detail": "Réf: ESPOSITO ROSE / J602004822-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 12:04",
+      "detail": "Réf: ESPOSITO ROSE / J602004822-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
