@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "04/07/2026 12:57",
+  "derniere_mise_a_jour": "04/07/2026 13:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165943",
@@ -75,60 +75,6 @@
       }
     },
     {
-      "ord_numb": "            10165928",
-      "id_commande_v2i": "260703000108",
-      "code_cote": "B",
-      "patient": "FANCHI ANDREA",
-      "job_cosium": "J128042742",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 15:39",
-      "detail": "Réf: FANCHI ANDREA / J128042742 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.75",
-        "cylindre": "0.75",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.4",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "4.25",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "25.6",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165944",
       "id_commande_v2i": "260703000124",
       "code_cote": "B",
@@ -181,6 +127,60 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165928",
+      "id_commande_v2i": "260703000108",
+      "code_cote": "B",
+      "patient": "FANCHI ANDREA",
+      "job_cosium": "J128042742",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: FANCHI ANDREA / J128042742 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.75",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.4",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "4.25",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "25.6",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Gris C"
         ]
       }
     },
@@ -241,16 +241,68 @@
       }
     },
     {
+      "ord_numb": "            10165708",
+      "id_commande_v2i": "260702000139",
+      "code_cote": "B",
+      "patient": "ANDRONACHE LUCIA MARILENA",
+      "job_cosium": "J128042737",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "02/07/2026 15:56",
+      "detail": "Réf: ANDRONACHE LUCIA MARILENA / J128042737 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165665",
       "id_commande_v2i": "260702000096",
       "code_cote": "B",
       "patient": "DIAS DA COSTA MARIA DO CARMO",
       "job_cosium": "J128042733",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 14:34",
-      "detail": "Réf: DIAS DA COSTA MARIA DO CARMO / J128042733 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: DIAS DA COSTA MARIA DO CARMO / J128042733 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -301,10 +353,10 @@
       "patient": "ALBERTINI JULIEN",
       "job_cosium": "J128042736",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "04/07/2026 08:20",
-      "detail": "Réf: ALBERTINI JULIEN / J128042736 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: ALBERTINI JULIEN / J128042736 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -361,10 +413,10 @@
       "patient": "CARPENTIER ERIC",
       "job_cosium": "J128042740",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 09:34",
-      "detail": "Réf: CARPENTIER ERIC / J128042740 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: CARPENTIER ERIC / J128042740 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -413,10 +465,10 @@
       "patient": "CARPENTIER ERIC",
       "job_cosium": "J128042739",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 09:34",
-      "detail": "Réf: CARPENTIER ERIC / J128042739 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: CARPENTIER ERIC / J128042739 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 03/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -459,68 +511,16 @@
       }
     },
     {
-      "ord_numb": "            10165708",
-      "id_commande_v2i": "260702000139",
-      "code_cote": "B",
-      "patient": "ANDRONACHE LUCIA MARILENA",
-      "job_cosium": "J128042737",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "02/07/2026 15:56",
-      "detail": "Réf: ANDRONACHE LUCIA MARILENA / J128042737 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165473",
       "id_commande_v2i": "260701000149",
       "code_cote": "B",
       "patient": "JOLY MARIE JOSEE",
       "job_cosium": "J128042723",
       "date_entree": "01/07/2026",
-      "date_dernier_statut": "03/07/2026 14:34",
-      "detail": "Réf: JOLY MARIE JOSEE / J128042723 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: JOLY MARIE JOSEE / J128042723 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -573,10 +573,10 @@
       "patient": "REZGUI SOPHIENE",
       "job_cosium": "J128042714",
       "date_entree": "30/06/2026",
-      "date_dernier_statut": "02/07/2026 16:57",
-      "detail": "Réf: REZGUI SOPHIENE / J128042714 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 13:09",
+      "detail": "Réf: REZGUI SOPHIENE / J128042714 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 06/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
