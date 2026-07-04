@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "04/07/2026 08:27",
+  "derniere_mise_a_jour": "04/07/2026 08:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165855",
@@ -121,58 +121,6 @@
           "CLA Unifocal 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165859",
-      "id_commande_v2i": "260703000039",
-      "code_cote": "B",
-      "patient": "SIMONETTI",
-      "job_cosium": "",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 14:53",
-      "detail": "Réf: SIMONETTI — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.50",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -509,6 +457,58 @@
       }
     },
     {
+      "ord_numb": "            10165859",
+      "id_commande_v2i": "260703000039",
+      "code_cote": "B",
+      "patient": "SIMONETTI",
+      "job_cosium": "",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "04/07/2026 08:37",
+      "detail": "Réf: SIMONETTI — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165677",
       "id_commande_v2i": "260702000108",
       "code_cote": "B",
@@ -753,10 +753,10 @@
       "patient": "THIERS JEROME",
       "job_cosium": "J134029452",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 17:23",
-      "detail": "Réf: THIERS JEROME / J134029452 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 08:37",
+      "detail": "Réf: THIERS JEROME / J134029452 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -809,10 +809,10 @@
       "patient": "MATTEI JEAN PARSIUS",
       "job_cosium": "J134029432-01",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 17:22",
-      "detail": "Réf: MATTEI JEAN PARSIUS / J134029432-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 08:37",
+      "detail": "Réf: MATTEI JEAN PARSIUS / J134029432-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -869,10 +869,10 @@
       "patient": "LE ROY CATHERINE",
       "job_cosium": "J134029368-01",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 14:33",
-      "detail": "Réf: LE ROY CATHERINE / J134029368-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 08:37",
+      "detail": "Réf: LE ROY CATHERINE / J134029368-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 07/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -929,10 +929,10 @@
       "patient": "LUCIANI MARIE",
       "job_cosium": "J134029455",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "04/07/2026 08:23",
-      "detail": "Réf: LUCIANI MARIE / J134029455 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "04/07/2026 08:37",
+      "detail": "Réf: LUCIANI MARIE / J134029455 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
