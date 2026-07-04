@@ -10,7 +10,7 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "04/07/2026 12:27",
+  "derniere_mise_a_jour": "04/07/2026 12:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165935",
@@ -69,60 +69,6 @@
       }
     },
     {
-      "ord_numb": "            10165593",
-      "id_commande_v2i": "260702000024",
-      "code_cote": "B",
-      "patient": "HADOUCH YANISS",
-      "job_cosium": "J138020615",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 09:40",
-      "detail": "Réf: HADOUCH YANISS / J138020615 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165710",
       "id_commande_v2i": "260702000141",
       "code_cote": "B",
@@ -171,6 +117,60 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165593",
+      "id_commande_v2i": "260702000024",
+      "code_cote": "B",
+      "patient": "HADOUCH YANISS",
+      "job_cosium": "J138020615",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "04/07/2026 12:34",
+      "detail": "Réf: HADOUCH YANISS / J138020615 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 06/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Gris Durci",
+          "Durci Inclus"
         ]
       }
     },
