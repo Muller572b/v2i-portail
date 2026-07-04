@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "04/07/2026 08:27",
+  "derniere_mise_a_jour": "04/07/2026 08:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165832",
@@ -653,62 +653,6 @@
       }
     },
     {
-      "ord_numb": "            10165535",
-      "id_commande_v2i": "260701000211",
-      "code_cote": "B",
-      "patient": "PERI ANDREE-PAULE",
-      "job_cosium": "J600029387-01",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "02/07/2026 15:56",
-      "detail": "Réf: PERI ANDREE-PAULE / J600029387-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 07/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.25",
-        "cylindre": "2.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.75",
-        "cylindre": "1.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165533",
       "id_commande_v2i": "260701000209",
       "code_cote": "B",
@@ -760,6 +704,62 @@
         "supplements": [
           "Xtra Confort 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165535",
+      "id_commande_v2i": "260701000211",
+      "code_cote": "B",
+      "patient": "PERI ANDREE-PAULE",
+      "job_cosium": "J600029387-01",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "04/07/2026 08:32",
+      "detail": "Réf: PERI ANDREE-PAULE / J600029387-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.25",
+        "cylindre": "2.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.75",
+        "cylindre": "1.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
           "Durci Inclus"
         ]
       }
