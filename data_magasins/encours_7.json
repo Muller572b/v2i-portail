@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "04/07/2026 08:12",
+  "derniere_mise_a_jour": "04/07/2026 08:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10165943",
@@ -185,66 +185,6 @@
       }
     },
     {
-      "ord_numb": "            10165669",
-      "id_commande_v2i": "260702000100",
-      "code_cote": "B",
-      "patient": "ALBERTINI JULIEN",
-      "job_cosium": "J128042736",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 15:16",
-      "detail": "Réf: ALBERTINI JULIEN / J128042736 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 08/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Vista Relax 1.5 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Vista Relax 1.5 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165709",
       "id_commande_v2i": "260702000140",
       "code_cote": "B",
@@ -351,6 +291,66 @@
         "supplements": [
           "Media 1.5 Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165669",
+      "id_commande_v2i": "260702000100",
+      "code_cote": "B",
+      "patient": "ALBERTINI JULIEN",
+      "job_cosium": "J128042736",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "04/07/2026 08:20",
+      "detail": "Réf: ALBERTINI JULIEN / J128042736 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Vista Relax 1.5 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Vista Relax 1.5 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
