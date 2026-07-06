@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "06/07/2026 14:27",
+  "derniere_mise_a_jour": "06/07/2026 14:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166135",
@@ -119,42 +119,6 @@
       }
     },
     {
-      "ord_numb": "            10165225",
-      "id_commande_v2i": "260630000107",
-      "code_cote": "R",
-      "patient": "LAKHAL HADI",
-      "job_cosium": "J150010216",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "06/07/2026 10:29",
-      "detail": "Réf: LAKHAL HADI / J150010216 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "2.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
       "ord_numb": "            10165224",
       "id_commande_v2i": "260630000106",
       "code_cote": "B",
@@ -209,6 +173,42 @@
           "Durci Inclus"
         ]
       }
+    },
+    {
+      "ord_numb": "            10165225",
+      "id_commande_v2i": "260630000107",
+      "code_cote": "R",
+      "patient": "LAKHAL HADI",
+      "job_cosium": "J150010216",
+      "date_entree": "30/06/2026",
+      "date_dernier_statut": "06/07/2026 14:29",
+      "detail": "Réf: LAKHAL HADI / J150010216 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "2.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
     }
   ]
 }
