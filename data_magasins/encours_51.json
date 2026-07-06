@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "06/07/2026 09:27",
+  "derniere_mise_a_jour": "06/07/2026 09:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166119",
@@ -19,10 +19,10 @@
       "patient": "AVALLONE DENIS",
       "job_cosium": "J702020733-02",
       "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 09:25",
-      "detail": "Réf: AVALLONE DENIS / J702020733-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "06/07/2026 09:34",
+      "detail": "Réf: AVALLONE DENIS / J702020733-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -71,6 +71,116 @@
           "Montage",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166120",
+      "id_commande_v2i": "260704000089",
+      "code_cote": "B",
+      "patient": "AVALLONE DENIS",
+      "job_cosium": "J702020733-01",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "06/07/2026 09:42",
+      "detail": "Réf: AVALLONE DENIS / J702020733-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "K2 PG2 1.5 Nu",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "27.5",
+        "supplements": [
+          "K2 PG2 1.5 Nu",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166128",
+      "id_commande_v2i": "260704000097",
+      "code_cote": "B",
+      "patient": "OTTAVI ANGELIQUE",
+      "job_cosium": "J702020737-02",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "06/07/2026 09:32",
+      "detail": "Réf: OTTAVI ANGELIQUE / J702020737-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -183,60 +293,6 @@
       }
     },
     {
-      "ord_numb": "            10166120",
-      "id_commande_v2i": "260704000089",
-      "code_cote": "B",
-      "patient": "AVALLONE DENIS",
-      "job_cosium": "J702020733-01",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "04/07/2026 17:08",
-      "detail": "Réf: AVALLONE DENIS / J702020733-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "K2 PG2 1.5 Nu",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "27.5",
-        "supplements": [
-          "K2 PG2 1.5 Nu",
-          "Montage"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166125",
       "id_commande_v2i": "260704000094",
       "code_cote": "B",
@@ -285,62 +341,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Krys 2e St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166128",
-      "id_commande_v2i": "260704000097",
-      "code_cote": "B",
-      "patient": "OTTAVI ANGELIQUE",
-      "job_cosium": "J702020737-02",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "04/07/2026 17:08",
-      "detail": "Réf: OTTAVI ANGELIQUE / J702020737-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -401,6 +401,70 @@
           "Cygn Equilibre2 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165875",
+      "id_commande_v2i": "260703000055",
+      "code_cote": "B",
+      "patient": "BALDON ANNE",
+      "job_cosium": "J702020724-02",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 09:28",
+      "detail": "Réf: BALDON ANNE / J702020724-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "29.5",
+        "supplements": [
+          "K2 Cygn Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "29.5",
+        "supplements": [
+          "K2 Cygn Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
           "Individualisation",
           "Montage",
           "Précalibrage Inclus",
@@ -755,70 +819,6 @@
           "Durci Inclus",
           "Teinte Gris C",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165875",
-      "id_commande_v2i": "260703000055",
-      "code_cote": "B",
-      "patient": "BALDON ANNE",
-      "job_cosium": "J702020724-02",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 15:54",
-      "detail": "Réf: BALDON ANNE / J702020724-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "29.5",
-        "supplements": [
-          "K2 Cygn Equilibre2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "29.5",
-        "supplements": [
-          "K2 Cygn Equilibre2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
