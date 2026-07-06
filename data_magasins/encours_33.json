@@ -10,62 +10,8 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "06/07/2026 15:57",
+  "derniere_mise_a_jour": "06/07/2026 16:12",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166273",
-      "id_commande_v2i": "260706000098",
-      "code_cote": "B",
-      "patient": "NICOLAI CARINE",
-      "job_cosium": "J140026354-02",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 15:07",
-      "detail": "Réf: NICOLAI CARINE / J140026354-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "1.00",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5",
-          "Montage"
-        ]
-      }
-    },
     {
       "ord_numb": "            10166271",
       "id_commande_v2i": "260706000096",
@@ -73,10 +19,10 @@
       "patient": "NICOLAI CARINE",
       "job_cosium": "J140026354-01",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 15:01",
-      "detail": "Réf: NICOLAI CARINE / J140026354-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "06/07/2026 16:09",
+      "detail": "Réf: NICOLAI CARINE / J140026354-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -174,6 +120,60 @@
         "supplements": [
           "Tchin AS Uni 1.6 Durci",
           "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166273",
+      "id_commande_v2i": "260706000098",
+      "code_cote": "B",
+      "patient": "NICOLAI CARINE",
+      "job_cosium": "J140026354-02",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 15:58",
+      "detail": "Réf: NICOLAI CARINE / J140026354-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "1.00",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
           "Montage"
         ]
       }
@@ -491,10 +491,10 @@
       "patient": "RAMACCIOTTI ANTOINE",
       "job_cosium": "J140026347-01",
       "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 14:42",
-      "detail": "Réf: RAMACCIOTTI ANTOINE / J140026347-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "06/07/2026 15:58",
+      "detail": "Réf: RAMACCIOTTI ANTOINE / J140026347-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -536,116 +536,6 @@
         "supplements": [
           "Tchin Reader3 1.5 Durci",
           "Durci Inclus",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165884",
-      "id_commande_v2i": "260703000064",
-      "code_cote": "B",
-      "patient": "GORRETA JEAN- MANUEL",
-      "job_cosium": "J140026336",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 11:01",
-      "detail": "Réf: GORRETA JEAN- MANUEL / J140026336 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 07/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "1.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165986",
-      "id_commande_v2i": "260703000166",
-      "code_cote": "B",
-      "patient": "TOMAS JOSIANE",
-      "job_cosium": "J140026343-01",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 11:10",
-      "detail": "Réf: TOMAS JOSIANE / J140026343-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "1.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun B",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "2.00",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun B",
           "Montage"
         ]
       }
@@ -704,6 +594,116 @@
           "Uni 1.67 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165884",
+      "id_commande_v2i": "260703000064",
+      "code_cote": "B",
+      "patient": "GORRETA JEAN- MANUEL",
+      "job_cosium": "J140026336",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 15:58",
+      "detail": "Réf: GORRETA JEAN- MANUEL / J140026336 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "1.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165986",
+      "id_commande_v2i": "260703000166",
+      "code_cote": "B",
+      "patient": "TOMAS JOSIANE",
+      "job_cosium": "J140026343-01",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 15:58",
+      "detail": "Réf: TOMAS JOSIANE / J140026343-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "1.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun B",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "2.00",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun B",
           "Montage"
         ]
       }
@@ -833,10 +833,10 @@
       "patient": "GONCALVES SANDRINE",
       "job_cosium": "J140026329",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 11:01",
-      "detail": "Réf: GONCALVES SANDRINE / J140026329 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "06/07/2026 15:58",
+      "detail": "Réf: GONCALVES SANDRINE / J140026329 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -889,10 +889,10 @@
       "patient": "FAILLON EVELYNE",
       "job_cosium": "J140026330",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 11:43",
-      "detail": "Réf: FAILLON EVELYNE / J140026330 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "06/07/2026 15:58",
+      "detail": "Réf: FAILLON EVELYNE / J140026330 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
