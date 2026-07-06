@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "06/07/2026 11:57",
+  "derniere_mise_a_jour": "06/07/2026 12:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166166",
@@ -731,60 +731,6 @@
       }
     },
     {
-      "ord_numb": "            10166024",
-      "id_commande_v2i": "260703000204",
-      "code_cote": "B",
-      "patient": "LAROSE VIRGINIE CHARLE",
-      "job_cosium": "J139053507",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 11:39",
-      "detail": "Réf: LAROSE VIRGINIE CHARLE / J139053507 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 155,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Prestige Flex 1.5 Nu",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 35,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Prestige Flex 1.5 Nu",
-          "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165868",
       "id_commande_v2i": "260703000048",
       "code_cote": "B",
@@ -941,6 +887,60 @@
         "hauteur": "0.0",
         "supplements": [
           "D2 Prestige Flex 1.5 Nu"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166024",
+      "id_commande_v2i": "260703000204",
+      "code_cote": "B",
+      "patient": "LAROSE VIRGINIE CHARLE",
+      "job_cosium": "J139053507",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 12:04",
+      "detail": "Réf: LAROSE VIRGINIE CHARLE / J139053507 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Prestige Flex 1.5 Nu",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 35,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Prestige Flex 1.5 Nu",
+          "Teinte Dégradée Gris C"
         ]
       }
     },
