@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "06/07/2026 11:42",
+  "derniere_mise_a_jour": "06/07/2026 11:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166211",
@@ -806,10 +806,10 @@
       "patient": "ALFONSI SERAPHINA",
       "job_cosium": "J143054252",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 09:12",
-      "detail": "Réf: ALFONSI SERAPHINA / J143054252 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: ALFONSI SERAPHINA / J143054252 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -906,6 +906,60 @@
       }
     },
     {
+      "ord_numb": "            10165949",
+      "id_commande_v2i": "260703000129",
+      "code_cote": "B",
+      "patient": "EL ADRI KAMEL",
+      "job_cosium": "J143054248",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 11:42",
+      "detail": "Réf: EL ADRI KAMEL / J143054248 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.75",
+        "axe": 155,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.00",
+        "cylindre": "4.00",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165952",
       "id_commande_v2i": "260703000132",
       "code_cote": "B",
@@ -964,176 +1018,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165949",
-      "id_commande_v2i": "260703000129",
-      "code_cote": "B",
-      "patient": "EL ADRI KAMEL",
-      "job_cosium": "J143054248",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 10:17",
-      "detail": "Réf: EL ADRI KAMEL / J143054248 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.75",
-        "axe": 155,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.00",
-        "cylindre": "4.00",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165818",
-      "id_commande_v2i": "260702000249",
-      "code_cote": "B",
-      "patient": "LECA NATHALIE",
-      "job_cosium": "J143054235",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 09:00",
-      "detail": "Réf: LECA NATHALIE / J143054235 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165820",
-      "id_commande_v2i": "260702000251",
-      "code_cote": "B",
-      "patient": "LECA CHRISTELLE",
-      "job_cosium": "J143054230",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 08:59",
-      "detail": "Réf: LECA CHRISTELLE / J143054230 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -1254,6 +1138,122 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165818",
+      "id_commande_v2i": "260702000249",
+      "code_cote": "B",
+      "patient": "LECA NATHALIE",
+      "job_cosium": "J143054235",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: LECA NATHALIE / J143054235 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165820",
+      "id_commande_v2i": "260702000251",
+      "code_cote": "B",
+      "patient": "LECA CHRISTELLE",
+      "job_cosium": "J143054230",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: LECA CHRISTELLE / J143054230 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
