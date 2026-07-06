@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "06/07/2026 16:57",
+  "derniere_mise_a_jour": "06/07/2026 17:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166166",
@@ -397,62 +397,6 @@
       }
     },
     {
-      "ord_numb": "            10166020",
-      "id_commande_v2i": "260703000200",
-      "code_cote": "B",
-      "patient": "DUSSOL MARIE MICHELLE",
-      "job_cosium": "J139053514-01",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 15:01",
-      "detail": "Réf: DUSSOL MARIE MICHELLE / J139053514-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 09/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.75",
-        "cylindre": "1.75",
-        "axe": 35,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-1.25",
-        "cylindre": "1.00",
-        "axe": 110,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166016",
       "id_commande_v2i": "260703000196",
       "code_cote": "B",
@@ -727,6 +671,62 @@
           "D2 Prestige Flex 1.5 Durci",
           "Durci Inclus",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166020",
+      "id_commande_v2i": "260703000200",
+      "code_cote": "B",
+      "patient": "DUSSOL MARIE MICHELLE",
+      "job_cosium": "J139053514-01",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 17:05",
+      "detail": "Réf: DUSSOL MARIE MICHELLE / J139053514-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.75",
+        "cylindre": "1.75",
+        "axe": 35,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.25",
+        "cylindre": "1.00",
+        "axe": 110,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -1063,10 +1063,10 @@
       "patient": "TRISTANI MARIE ROSE",
       "job_cosium": "J139053502",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 12:06",
-      "detail": "Réf: TRISTANI MARIE ROSE / J139053502 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "06/07/2026 17:05",
+      "detail": "Réf: TRISTANI MARIE ROSE / J139053502 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
