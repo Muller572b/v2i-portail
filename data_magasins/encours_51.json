@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "06/07/2026 15:12",
+  "derniere_mise_a_jour": "06/07/2026 15:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166231",
@@ -71,6 +71,60 @@
       }
     },
     {
+      "ord_numb": "            10166266",
+      "id_commande_v2i": "260706000091",
+      "code_cote": "B",
+      "patient": "DIONISI CARINE",
+      "job_cosium": "J702020753",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 15:26",
+      "detail": "Réf: DIONISI CARINE / J702020753 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.25",
+        "axe": 120,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Prog K 1.5 Nu",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "1.25",
+        "axe": 45,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Prog K 1.5 Nu",
+          "Teinte Dégradée Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166232",
       "id_commande_v2i": "260706000057",
       "code_cote": "B",
@@ -123,60 +177,6 @@
           "Krys St. Uni 1.5",
           "Montage",
           "Teinte Noir C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166266",
-      "id_commande_v2i": "260706000091",
-      "code_cote": "B",
-      "patient": "DIONISI CARINE",
-      "job_cosium": "J702020753",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 14:43",
-      "detail": "Réf: DIONISI CARINE / J702020753 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "1.25",
-        "axe": 120,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Prog K 1.5 Nu",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "1.25",
-        "axe": 45,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Prog K 1.5 Nu",
-          "Teinte Dégradée Gris C"
         ]
       }
     },
