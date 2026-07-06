@@ -10,8 +10,122 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "06/07/2026 11:42",
+  "derniere_mise_a_jour": "06/07/2026 11:57",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166231",
+      "id_commande_v2i": "260706000056",
+      "code_cote": "B",
+      "patient": "DERIU VIRGINIE",
+      "job_cosium": "J702020745-02",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: DERIU VIRGINIE / J702020745-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "30.5",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "30.5",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166232",
+      "id_commande_v2i": "260706000057",
+      "code_cote": "B",
+      "patient": "DERIU VIRGINIE",
+      "job_cosium": "J702020745-01",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: DERIU VIRGINIE / J702020745-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St. Uni 1.5",
+          "Montage",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St. Uni 1.5",
+          "Montage",
+          "Teinte Noir C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166119",
       "id_commande_v2i": "260704000088",
@@ -137,10 +251,10 @@
       "patient": "AVALLONE DENIS",
       "job_cosium": "J702020733-01",
       "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 09:42",
-      "detail": "Réf: AVALLONE DENIS / J702020733-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: AVALLONE DENIS / J702020733-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -651,6 +765,66 @@
       }
     },
     {
+      "ord_numb": "            10165963",
+      "id_commande_v2i": "260703000143",
+      "code_cote": "B",
+      "patient": "AVALLONE MARIE-PIERRE",
+      "job_cosium": "J702020730",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 11:54",
+      "detail": "Réf: AVALLONE MARIE-PIERRE / J702020730 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "27.5",
+        "supplements": [
+          "PG2 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "PG2 1.5 Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165954",
       "id_commande_v2i": "260703000134",
       "code_cote": "B",
@@ -702,66 +876,6 @@
         "supplements": [
           "Krys 2e St. Uni 1.5",
           "Teinte Dégradée au modèle A-C",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165963",
-      "id_commande_v2i": "260703000143",
-      "code_cote": "B",
-      "patient": "AVALLONE MARIE-PIERRE",
-      "job_cosium": "J702020730",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 16:14",
-      "detail": "Réf: AVALLONE MARIE-PIERRE / J702020730 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "27.5",
-        "supplements": [
-          "PG2 1.5 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 65,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "PG2 1.5 Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus",
-          "Teinte Gris C",
           "Montage"
         ]
       }
@@ -823,16 +937,68 @@
       }
     },
     {
+      "ord_numb": "            10165611",
+      "id_commande_v2i": "260702000042",
+      "code_cote": "B",
+      "patient": "CALZARONI ANTOINETTE",
+      "job_cosium": "J702020712",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "06/07/2026 11:02",
+      "detail": "Réf: CALZARONI ANTOINETTE / J702020712 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 03/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St.Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St.Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165724",
       "id_commande_v2i": "260702000155",
       "code_cote": "B",
       "patient": "GOZZI AUDREY",
       "job_cosium": "J702020718",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 09:00",
-      "detail": "Réf: GOZZI AUDREY / J702020718 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "06/07/2026 11:43",
+      "detail": "Réf: GOZZI AUDREY / J702020718 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -883,58 +1049,6 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165611",
-      "id_commande_v2i": "260702000042",
-      "code_cote": "B",
-      "patient": "CALZARONI ANTOINETTE",
-      "job_cosium": "J702020712",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 11:02",
-      "detail": "Réf: CALZARONI ANTOINETTE / J702020712 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 03/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys St.Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys St.Uni 1.5 Durci Arh"
         ]
       }
     },
@@ -995,6 +1109,60 @@
       }
     },
     {
+      "ord_numb": "            10165521",
+      "id_commande_v2i": "260701000197",
+      "code_cote": "B",
+      "patient": "AKHMIM NISRINE",
+      "job_cosium": "J702020709-02",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "06/07/2026 11:48",
+      "detail": "Réf: AKHMIM NISRINE / J702020709-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 06/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Uni 1.5 Non Durci",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Uni 1.5 Non Durci",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165530",
       "id_commande_v2i": "260701000206",
       "code_cote": "B",
@@ -1043,60 +1211,6 @@
         "hauteur": "0.0",
         "supplements": [
           "K2 Uni 1.5 Non Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165521",
-      "id_commande_v2i": "260701000197",
-      "code_cote": "B",
-      "patient": "AKHMIM NISRINE",
-      "job_cosium": "J702020709-02",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "01/07/2026 18:55",
-      "detail": "Réf: AKHMIM NISRINE / J702020709-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.50",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.5 Non Durci",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.5 Non Durci",
-          "Teinte Brun C"
         ]
       }
     },
