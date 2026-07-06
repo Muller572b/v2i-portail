@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "06/07/2026 10:27",
+  "derniere_mise_a_jour": "06/07/2026 10:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166193",
@@ -63,6 +63,60 @@
         "supplements": [
           "St. Uni 1.5",
           "Teinte au modèle uni A-C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166212",
+      "id_commande_v2i": "260706000037",
+      "code_cote": "B",
+      "patient": "BUTTAFOCO",
+      "job_cosium": "",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 10:29",
+      "detail": "Réf: BUTTAFOCO — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Noir C"
         ]
       }
     },
@@ -575,10 +629,10 @@
       "patient": "TROUILLET RENE MARC",
       "job_cosium": "J134029469",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 10:15",
-      "detail": "Réf: TROUILLET RENE MARC / J134029469 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "06/07/2026 10:35",
+      "detail": "Réf: TROUILLET RENE MARC / J134029469 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 09/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -851,10 +905,10 @@
       "patient": "MATTEI JEAN PARSIUS",
       "job_cosium": "J134029432-02",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "03/07/2026 11:52",
-      "detail": "Réf: MATTEI JEAN PARSIUS / J134029432-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "06/07/2026 10:29",
+      "detail": "Réf: MATTEI JEAN PARSIUS / J134029432-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
