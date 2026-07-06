@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "06/07/2026 09:12",
+  "derniere_mise_a_jour": "06/07/2026 09:27",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166089",
@@ -123,10 +123,10 @@
       "patient": "GIAMMERTINI ALINE",
       "job_cosium": "J149018445-01",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 09:04",
-      "detail": "Réf: GIAMMERTINI ALINE / J149018445-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "06/07/2026 09:23",
+      "detail": "Réf: GIAMMERTINI ALINE / J149018445-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 09/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -235,6 +235,62 @@
       }
     },
     {
+      "ord_numb": "            10166001",
+      "id_commande_v2i": "260703000181",
+      "code_cote": "B",
+      "patient": "LOTTI CHARLOTTE",
+      "job_cosium": "J149018444-02",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 09:13",
+      "detail": "Réf: LOTTI CHARLOTTE / J149018444-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "2.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165999",
       "id_commande_v2i": "260703000179",
       "code_cote": "B",
@@ -293,62 +349,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166001",
-      "id_commande_v2i": "260703000181",
-      "code_cote": "B",
-      "patient": "LOTTI CHARLOTTE",
-      "job_cosium": "J149018444-02",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 18:38",
-      "detail": "Réf: LOTTI CHARLOTTE / J149018444-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "2.75",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
