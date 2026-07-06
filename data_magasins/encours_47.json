@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "06/07/2026 15:27",
+  "derniere_mise_a_jour": "06/07/2026 15:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166213",
@@ -127,122 +127,6 @@
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166208",
-      "id_commande_v2i": "260706000033",
-      "code_cote": "B",
-      "patient": "BARTOLI LAETITIA",
-      "job_cosium": "J160021062",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 12:17",
-      "detail": "Réf: BARTOLI LAETITIA / J160021062 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "0.75",
-        "axe": 60,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "0.50",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166209",
-      "id_commande_v2i": "260706000034",
-      "code_cote": "B",
-      "patient": "THOMAS MANON",
-      "job_cosium": "J160021058",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 14:11",
-      "detail": "Réf: THOMAS MANON / J160021058 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "4.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.3",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "3.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.2",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },
@@ -451,6 +335,122 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166208",
+      "id_commande_v2i": "260706000033",
+      "code_cote": "B",
+      "patient": "BARTOLI LAETITIA",
+      "job_cosium": "J160021062",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 15:40",
+      "detail": "Réf: BARTOLI LAETITIA / J160021062 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "0.75",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "0.50",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166209",
+      "id_commande_v2i": "260706000034",
+      "code_cote": "B",
+      "patient": "THOMAS MANON",
+      "job_cosium": "J160021058",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 15:40",
+      "detail": "Réf: THOMAS MANON / J160021058 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "4.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.3",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "3.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.2",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus",
+          "Montage"
         ]
       }
     },
@@ -735,6 +735,68 @@
       }
     },
     {
+      "ord_numb": "            10165827",
+      "id_commande_v2i": "260703000007",
+      "code_cote": "B",
+      "patient": "POUSSEROT CATHERINE",
+      "job_cosium": "J160021045",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 15:34",
+      "detail": "Réf: POUSSEROT CATHERINE / J160021045 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.4",
+        "hauteur": "32.4",
+        "supplements": [
+          "Delta Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 35,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.7",
+        "hauteur": "31.7",
+        "supplements": [
+          "Delta Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165828",
       "id_commande_v2i": "260703000008",
       "code_cote": "B",
@@ -911,68 +973,6 @@
           "Durci Inclus",
           "Individualisation",
           "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165827",
-      "id_commande_v2i": "260703000007",
-      "code_cote": "B",
-      "patient": "POUSSEROT CATHERINE",
-      "job_cosium": "J160021045",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 15:11",
-      "detail": "Réf: POUSSEROT CATHERINE / J160021045 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.4",
-        "hauteur": "32.4",
-        "supplements": [
-          "Delta Equilibre2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 35,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "28.7",
-        "hauteur": "31.7",
-        "supplements": [
-          "Delta Equilibre2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
         ]
