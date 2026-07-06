@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "06/07/2026 11:27",
+  "derniere_mise_a_jour": "06/07/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166044",
@@ -543,68 +543,6 @@
       }
     },
     {
-      "ord_numb": "            10165765",
-      "id_commande_v2i": "260702000196",
-      "code_cote": "B",
-      "patient": "SELETTI FREDERIC",
-      "job_cosium": "J140026318-02",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 09:00",
-      "detail": "Réf: SELETTI FREDERIC / J140026318-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "1.00",
-        "axe": 90,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "Affiny Horizon2 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "3.00",
-        "axe": 90,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "Affiny Horizon2 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165770",
       "id_commande_v2i": "260702000201",
       "code_cote": "B",
@@ -657,6 +595,68 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165765",
+      "id_commande_v2i": "260702000196",
+      "code_cote": "B",
+      "patient": "SELETTI FREDERIC",
+      "job_cosium": "J140026318-02",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "06/07/2026 11:33",
+      "detail": "Réf: SELETTI FREDERIC / J140026318-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "Affiny Horizon2 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "3.00",
+        "axe": 90,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "Affiny Horizon2 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
