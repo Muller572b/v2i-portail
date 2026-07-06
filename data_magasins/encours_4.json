@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "06/07/2026 11:27",
+  "derniere_mise_a_jour": "06/07/2026 11:42",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166201",
@@ -1345,60 +1345,6 @@
       }
     },
     {
-      "ord_numb": "            10165909",
-      "id_commande_v2i": "260703000089",
-      "code_cote": "B",
-      "patient": "CHERCHI JEAN FRANCOIS",
-      "job_cosium": "J144102296-03",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "03/07/2026 12:01",
-      "detail": "Réf: CHERCHI JEAN FRANCOIS / J144102296-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-5.25",
-        "cylindre": "1.00",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "0.75",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165964",
       "id_commande_v2i": "260703000144",
       "code_cote": "B",
@@ -1455,6 +1401,60 @@
           "Durci Inclus",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165909",
+      "id_commande_v2i": "260703000089",
+      "code_cote": "B",
+      "patient": "CHERCHI JEAN FRANCOIS",
+      "job_cosium": "J144102296-03",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 11:39",
+      "detail": "Réf: CHERCHI JEAN FRANCOIS / J144102296-03 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-5.25",
+        "cylindre": "1.00",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.75",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte G15 C"
         ]
       }
     },
