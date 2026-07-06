@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "06/07/2026 10:42",
+  "derniere_mise_a_jour": "06/07/2026 10:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166175",
@@ -63,62 +63,6 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Dégradée G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166129",
-      "id_commande_v2i": "260704000098",
-      "code_cote": "B",
-      "patient": "COULON JOSEPHINE",
-      "job_cosium": "J137036301",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 09:18",
-      "detail": "Réf: COULON JOSEPHINE / J137036301 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 09/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.25",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.50",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.6",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de O2 Miladu 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
         ]
       }
     },
@@ -525,6 +469,62 @@
           "O2 Miladu 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166129",
+      "id_commande_v2i": "260704000098",
+      "code_cote": "B",
+      "patient": "COULON JOSEPHINE",
+      "job_cosium": "J137036301",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "06/07/2026 10:46",
+      "detail": "Réf: COULON JOSEPHINE / J137036301 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 09/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.25",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.50",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.6",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de O2 Miladu 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
         ]
       }
     },
