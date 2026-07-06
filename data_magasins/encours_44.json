@@ -10,60 +10,8 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "06/07/2026 23:42",
+  "derniere_mise_a_jour": "06/07/2026 23:57",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166135",
-      "id_commande_v2i": "260704000104",
-      "code_cote": "B",
-      "patient": "ROSSI LAURENT",
-      "job_cosium": "J150010225",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 15:43",
-      "detail": "Réf: ROSSI LAURENT / J150010225 — (Stock) — État: Expediée",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expediée",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
     {
       "ord_numb": "            10165988",
       "id_commande_v2i": "260703000168",
@@ -173,42 +121,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10165225",
-      "id_commande_v2i": "260630000107",
-      "code_cote": "R",
-      "patient": "LAKHAL HADI",
-      "job_cosium": "J150010216",
-      "date_entree": "30/06/2026",
-      "date_dernier_statut": "06/07/2026 15:43",
-      "detail": "Réf: LAKHAL HADI / J150010216 — (Fabrication RX) — État: Expediée",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expediée",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "2.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     }
   ]
 }
