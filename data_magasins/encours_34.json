@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "06/07/2026 13:57",
+  "derniere_mise_a_jour": "06/07/2026 14:12",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166175",
@@ -67,6 +67,42 @@
       }
     },
     {
+      "ord_numb": "            10166115",
+      "id_commande_v2i": "260704000084",
+      "code_cote": "L",
+      "patient": "JAMET GUY",
+      "job_cosium": "J137036298",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "06/07/2026 14:07",
+      "detail": "Réf: JAMET GUY / J137036298 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "1.00",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166129",
       "id_commande_v2i": "260704000098",
       "code_cote": "B",
@@ -119,42 +155,6 @@
           "2de O2 Miladu 1.6 Durci",
           "Durci Inclus",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166115",
-      "id_commande_v2i": "260704000084",
-      "code_cote": "L",
-      "patient": "JAMET GUY",
-      "job_cosium": "J137036298",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 12:05",
-      "detail": "Réf: JAMET GUY / J137036298 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 07/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "1.00",
-        "axe": 165,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
