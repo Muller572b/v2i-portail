@@ -10,8 +10,42 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "07/07/2026 13:03",
+  "derniere_mise_a_jour": "07/07/2026 16:40",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166537",
+      "id_commande_v2i": "260707000129",
+      "code_cote": "L",
+      "patient": "GRELLI ILIANE",
+      "job_cosium": "J162005276",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 15:47",
+      "detail": "Réf: GRELLI ILIANE / J162005276 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166287",
       "id_commande_v2i": "260706000112",
@@ -205,10 +239,10 @@
       "patient": "FRAU JEAN",
       "job_cosium": "J162005263",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 08:44",
-      "detail": "Réf: FRAU JEAN / J162005263 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "07/07/2026 15:47",
+      "detail": "Réf: FRAU JEAN / J162005263 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -261,10 +295,10 @@
       "patient": "BONAVITA CORINNE",
       "job_cosium": "J162005264",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 09:34",
-      "detail": "Réf: BONAVITA CORINNE / J162005264 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "07/07/2026 15:47",
+      "detail": "Réf: BONAVITA CORINNE / J162005264 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
