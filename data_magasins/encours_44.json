@@ -10,7 +10,7 @@
     "email": "centroptique@orange.fr",
     "mot_de_passe_portail": "fal"
   },
-  "derniere_mise_a_jour": "07/07/2026 17:10",
+  "derniere_mise_a_jour": "07/07/2026 17:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166477",
@@ -65,6 +65,60 @@
           "Media 1.5 Foto Gris Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166478",
+      "id_commande_v2i": "260707000070",
+      "code_cote": "B",
+      "patient": "VIGNAL DANIELLE",
+      "job_cosium": "J150010231-02",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 17:16",
+      "detail": "Réf: VIGNAL DANIELLE / J150010231-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "33.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "33.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Noir C"
         ]
       }
     },
@@ -239,60 +293,6 @@
           "Vista AS 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166478",
-      "id_commande_v2i": "260707000070",
-      "code_cote": "B",
-      "patient": "VIGNAL DANIELLE",
-      "job_cosium": "J150010231-02",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 17:08",
-      "detail": "Réf: VIGNAL DANIELLE / J150010231-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "33.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "33.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Noir C"
         ]
       }
     },
