@@ -10,62 +10,8 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "07/07/2026 11:44",
+  "derniere_mise_a_jour": "07/07/2026 12:48",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166431",
-      "id_commande_v2i": "260707000023",
-      "code_cote": "B",
-      "patient": "GUILLARD AURELIE",
-      "job_cosium": "J148018122-02",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:10",
-      "detail": "Réf: GUILLARD AURELIE / J148018122-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.75",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10166427",
       "id_commande_v2i": "260707000019",
@@ -73,10 +19,10 @@
       "patient": "COURT COLETTE",
       "job_cosium": "J148018124-02",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 10:59",
-      "detail": "Réf: COURT COLETTE / J148018124-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "07/07/2026 12:04",
+      "detail": "Réf: COURT COLETTE / J148018124-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -129,10 +75,10 @@
       "patient": "COURT COLETTE",
       "job_cosium": "J148018124-01",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 10:58",
-      "detail": "Réf: COURT COLETTE / J148018124-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "07/07/2026 12:12",
+      "detail": "Réf: COURT COLETTE / J148018124-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -174,6 +120,60 @@
         "supplements": [
           "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166431",
+      "id_commande_v2i": "260707000023",
+      "code_cote": "B",
+      "patient": "GUILLARD AURELIE",
+      "job_cosium": "J148018122-02",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 11:10",
+      "detail": "Réf: GUILLARD AURELIE / J148018122-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.75",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Brun Durci",
           "Durci Inclus"
         ]
       }
@@ -749,10 +749,10 @@
       "patient": "MARTINEAU JEAN PHILIPPE",
       "job_cosium": "J148018103-03",
       "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 12:31",
-      "detail": "Réf: MARTINEAU JEAN PHILIPPE / J148018103-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "07/07/2026 12:04",
+      "detail": "Réf: MARTINEAU JEAN PHILIPPE / J148018103-03 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
