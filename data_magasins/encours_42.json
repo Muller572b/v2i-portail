@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "07/07/2026 08:57",
+  "derniere_mise_a_jour": "07/07/2026 09:17",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166315",
@@ -419,6 +419,66 @@
       }
     },
     {
+      "ord_numb": "            10166098",
+      "id_commande_v2i": "260704000067",
+      "code_cote": "B",
+      "patient": "MARTINEAU JEAN PHILIPPE",
+      "job_cosium": "J148018103-01",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "07/07/2026 09:17",
+      "detail": "Réf: MARTINEAU JEAN PHILIPPE / J148018103-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166106",
       "id_commande_v2i": "260704000075",
       "code_cote": "B",
@@ -474,66 +534,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166098",
-      "id_commande_v2i": "260704000067",
-      "code_cote": "B",
-      "patient": "MARTINEAU JEAN PHILIPPE",
-      "job_cosium": "J148018103-01",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 14:27",
-      "detail": "Réf: MARTINEAU JEAN PHILIPPE / J148018103-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 155,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
