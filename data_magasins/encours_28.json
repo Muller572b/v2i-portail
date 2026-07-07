@@ -10,44 +10,8 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "07/07/2026 09:17",
+  "derniere_mise_a_jour": "07/07/2026 09:32",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166299",
-      "id_commande_v2i": "260706000124",
-      "code_cote": "L",
-      "patient": "CARLOTTI FRANCOIS",
-      "job_cosium": "J142010957",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 15:55",
-      "detail": "Réf: CARLOTTI FRANCOIS / J142010957 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10166324",
       "id_commande_v2i": "260706000149",
@@ -55,10 +19,10 @@
       "patient": "ROMANACCE JOSEPHA",
       "job_cosium": "J142010959",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 16:50",
-      "detail": "Réf: ROMANACCE JOSEPHA / J142010959 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "07/07/2026 09:20",
+      "detail": "Réf: ROMANACCE JOSEPHA / J142010959 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 07/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -107,10 +71,10 @@
       "patient": "SANLORENZI JEAN GUY",
       "job_cosium": "J142010960",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 17:44",
-      "detail": "Réf: SANLORENZI JEAN GUY / J142010960 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "07/07/2026 09:19",
+      "detail": "Réf: SANLORENZI JEAN GUY / J142010960 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 07/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -159,10 +123,10 @@
       "patient": "GOMEZ--SANLORENZI ANTONIO",
       "job_cosium": "J142010961",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 18:37",
-      "detail": "Réf: GOMEZ--SANLORENZI ANTONIO / J142010961 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "07/07/2026 09:19",
+      "detail": "Réf: GOMEZ--SANLORENZI ANTONIO / J142010961 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -203,6 +167,42 @@
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166299",
+      "id_commande_v2i": "260706000124",
+      "code_cote": "L",
+      "patient": "CARLOTTI FRANCOIS",
+      "job_cosium": "J142010957",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "06/07/2026 15:55",
+      "detail": "Réf: CARLOTTI FRANCOIS / J142010957 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
