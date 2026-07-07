@@ -10,42 +10,8 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "07/07/2026 11:44",
+  "derniere_mise_a_jour": "07/07/2026 12:48",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166479",
-      "id_commande_v2i": "260707000071",
-      "code_cote": "R",
-      "patient": "MARQUES DE SOUSA MONICA CRISTI",
-      "job_cosium": "J120030647",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:44",
-      "detail": "Réf: MARQUES DE SOUSA MONICA CRISTI / J120030647 — (Stock) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "2.00",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": null
-    },
     {
       "ord_numb": "            10166463",
       "id_commande_v2i": "260707000055",
@@ -309,6 +275,40 @@
           "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
+    },
+    {
+      "ord_numb": "            10166479",
+      "id_commande_v2i": "260707000071",
+      "code_cote": "R",
+      "patient": "MARQUES DE SOUSA MONICA CRISTI",
+      "job_cosium": "J120030647",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 11:44",
+      "detail": "Réf: MARQUES DE SOUSA MONICA CRISTI / J120030647 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "2.00",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166341",
@@ -795,62 +795,6 @@
       }
     },
     {
-      "ord_numb": "            10165976",
-      "id_commande_v2i": "260703000156",
-      "code_cote": "B",
-      "patient": "QUASTANA ALPHONSINE",
-      "job_cosium": "J120030620",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 08:44",
-      "detail": "Réf: QUASTANA ALPHONSINE / J120030620 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.00",
-        "cylindre": "0.75",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "0.75",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165977",
       "id_commande_v2i": "260703000157",
       "code_cote": "B",
@@ -909,6 +853,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165976",
+      "id_commande_v2i": "260703000156",
+      "code_cote": "B",
+      "patient": "QUASTANA ALPHONSINE",
+      "job_cosium": "J120030620",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "07/07/2026 12:27",
+      "detail": "Réf: QUASTANA ALPHONSINE / J120030620 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
