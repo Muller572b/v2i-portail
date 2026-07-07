@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "07/07/2026 11:44",
+  "derniere_mise_a_jour": "07/07/2026 12:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166426",
@@ -75,50 +75,16 @@
       }
     },
     {
-      "ord_numb": "            10166480",
-      "id_commande_v2i": "260707000072",
-      "code_cote": "R",
-      "patient": "GIUSTINIANI MONIQUE",
-      "job_cosium": "J149018461",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:44",
-      "detail": "Réf: GIUSTINIANI MONIQUE / J149018461 — (Stock) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
       "ord_numb": "            10166436",
       "id_commande_v2i": "260707000028",
       "code_cote": "B",
       "patient": "JUBERT EMMANUEL",
       "job_cosium": "J149018460",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:33",
-      "detail": "Réf: JUBERT EMMANUEL / J149018460 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "07/07/2026 11:53",
+      "detail": "Réf: JUBERT EMMANUEL / J149018460 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -163,6 +129,40 @@
           "Durci Inclus"
         ]
       }
+    },
+    {
+      "ord_numb": "            10166480",
+      "id_commande_v2i": "260707000072",
+      "code_cote": "R",
+      "patient": "GIUSTINIANI MONIQUE",
+      "job_cosium": "J149018461",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 11:44",
+      "detail": "Réf: GIUSTINIANI MONIQUE / J149018461 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166269",
