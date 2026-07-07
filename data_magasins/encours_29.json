@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "07/07/2026 13:03",
+  "derniere_mise_a_jour": "07/07/2026 16:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166410",
@@ -137,10 +137,10 @@
       "patient": "SELVE JEANNE",
       "job_cosium": "J121042863",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:47",
-      "detail": "Réf: SELVE JEANNE / J121042863 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "07/07/2026 15:11",
+      "detail": "Réf: SELVE JEANNE / J121042863 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -353,7 +353,7 @@
       "patient": "MURACCIOLI BEATRICE",
       "job_cosium": "J121042865",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 12:37",
+      "date_dernier_statut": "07/07/2026 15:53",
       "detail": "Réf: MURACCIOLI BEATRICE / J121042865 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
@@ -407,13 +407,291 @@
       }
     },
     {
+      "ord_numb": "            10166538",
+      "id_commande_v2i": "260707000130",
+      "code_cote": "B",
+      "patient": "BATTINI JOSEPH",
+      "job_cosium": "J121042867",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 15:38",
+      "detail": "Réf: BATTINI JOSEPH / J121042867 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "1.75",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "26.5",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "26.5",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166543",
+      "id_commande_v2i": "260707000135",
+      "code_cote": "B",
+      "patient": "BATTINI JOSEPH",
+      "job_cosium": "J121042868",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 15:55",
+      "detail": "Réf: BATTINI JOSEPH / J121042868 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.75",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Media 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Media 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166554",
+      "id_commande_v2i": "260707000146",
+      "code_cote": "B",
+      "patient": "MARZOUKI BESMA",
+      "job_cosium": "J121042869",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 16:13",
+      "detail": "Réf: MARZOUKI BESMA / J121042869 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.75",
+        "cylindre": "5.00",
+        "axe": 160,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.75",
+        "cylindre": "2.75",
+        "axe": 15,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166555",
+      "id_commande_v2i": "260707000147",
+      "code_cote": "B",
+      "patient": "MARZOUKI BESMA",
+      "job_cosium": "J121042866",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 16:13",
+      "detail": "Réf: MARZOUKI BESMA / J121042866 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.75",
+        "cylindre": "5.00",
+        "axe": 160,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Media 1.6 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "2.75",
+        "axe": 15,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "32.0",
+        "supplements": [
+          "Media 1.6 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166556",
+      "id_commande_v2i": "260707000148",
+      "code_cote": "B",
+      "patient": "PAOLETTI ANGELE MARIE",
+      "job_cosium": "J121042864",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 16:13",
+      "detail": "Réf: PAOLETTI ANGELE MARIE / J121042864 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.00",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "20.5",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.50",
+        "cylindre": "1.00",
+        "axe": 163,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "20.5",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166227",
       "id_commande_v2i": "260706000052",
       "code_cote": "B",
       "patient": "DE ARAUJO ANITA",
       "job_cosium": "J121042849-01",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 15:16",
+      "date_dernier_statut": "07/07/2026 15:11",
       "detail": "Réf: DE ARAUJO ANITA / J121042849-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
@@ -519,6 +797,58 @@
       }
     },
     {
+      "ord_numb": "            10166228",
+      "id_commande_v2i": "260706000053",
+      "code_cote": "B",
+      "patient": "DE ARAUJO ANITA",
+      "job_cosium": "J121042849-02",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 15:08",
+      "detail": "Réf: DE ARAUJO ANITA / J121042849-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166289",
       "id_commande_v2i": "260706000114",
       "code_cote": "B",
@@ -567,58 +897,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Non durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166228",
-      "id_commande_v2i": "260706000053",
-      "code_cote": "B",
-      "patient": "DE ARAUJO ANITA",
-      "job_cosium": "J121042849-02",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 11:25",
-      "detail": "Réf: DE ARAUJO ANITA / J121042849-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 07/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
         ]
       }
     },
@@ -784,62 +1062,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165922",
-      "id_commande_v2i": "260703000102",
-      "code_cote": "B",
-      "patient": "NGUYEN CAROLE",
-      "job_cosium": "J121042832-02",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 10:30",
-      "detail": "Réf: NGUYEN CAROLE / J121042832-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.50",
-        "axe": 80,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "1.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -1012,6 +1234,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165922",
+      "id_commande_v2i": "260703000102",
+      "code_cote": "B",
+      "patient": "NGUYEN CAROLE",
+      "job_cosium": "J121042832-02",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "07/07/2026 14:33",
+      "detail": "Réf: NGUYEN CAROLE / J121042832-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.50",
+        "axe": 80,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
