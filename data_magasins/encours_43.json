@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "07/07/2026 09:17",
+  "derniere_mise_a_jour": "07/07/2026 09:32",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166269",
@@ -143,10 +143,10 @@
       "patient": "BAATMANE MILHAN",
       "job_cosium": "J149018458",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 09:15",
-      "detail": "Réf: BAATMANE MILHAN / J149018458 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "07/07/2026 09:32",
+      "detail": "Réf: BAATMANE MILHAN / J149018458 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -377,68 +377,6 @@
       }
     },
     {
-      "ord_numb": "            10165999",
-      "id_commande_v2i": "260703000179",
-      "code_cote": "B",
-      "patient": "GIAMMERTINI ALINE",
-      "job_cosium": "J149018445-02",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 11:26",
-      "detail": "Réf: GIAMMERTINI ALINE / J149018445-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.25",
-        "axe": 85,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166000",
       "id_commande_v2i": "260703000180",
       "code_cote": "B",
@@ -547,6 +485,68 @@
           "CLA Unifocal 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165999",
+      "id_commande_v2i": "260703000179",
+      "code_cote": "B",
+      "patient": "GIAMMERTINI ALINE",
+      "job_cosium": "J149018445-02",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "07/07/2026 09:29",
+      "detail": "Réf: GIAMMERTINI ALINE / J149018445-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 85,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
