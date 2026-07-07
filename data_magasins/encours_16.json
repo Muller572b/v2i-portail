@@ -10,8 +10,120 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "07/07/2026 10:17",
+  "derniere_mise_a_jour": "07/07/2026 10:32",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166038",
+      "id_commande_v2i": "260704000007",
+      "code_cote": "B",
+      "patient": "PLEVER GERALD",
+      "job_cosium": "J143054260",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "07/07/2026 10:30",
+      "detail": "Réf: PLEVER GERALD / J143054260 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "1.00",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Trans G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166040",
+      "id_commande_v2i": "260704000009",
+      "code_cote": "B",
+      "patient": "MAUJARET THIERRY",
+      "job_cosium": "J143054256",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "07/07/2026 10:30",
+      "detail": "Réf: MAUJARET THIERRY / J143054256 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "1.50",
+        "axe": 85,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "O2 Minimu 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "O2 Minimu 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166132",
       "id_commande_v2i": "260704000101",
@@ -75,62 +187,6 @@
       }
     },
     {
-      "ord_numb": "            10166038",
-      "id_commande_v2i": "260704000007",
-      "code_cote": "B",
-      "patient": "PLEVER GERALD",
-      "job_cosium": "J143054260",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 14:21",
-      "detail": "Réf: PLEVER GERALD / J143054260 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "1.00",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.75",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Trans G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166039",
       "id_commande_v2i": "260704000008",
       "code_cote": "B",
@@ -181,62 +237,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166040",
-      "id_commande_v2i": "260704000009",
-      "code_cote": "B",
-      "patient": "MAUJARET THIERRY",
-      "job_cosium": "J143054256",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 14:39",
-      "detail": "Réf: MAUJARET THIERRY / J143054256 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "1.50",
-        "axe": 85,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "21.0",
-        "supplements": [
-          "O2 Minimu 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "21.0",
-        "supplements": [
-          "O2 Minimu 1.5 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
