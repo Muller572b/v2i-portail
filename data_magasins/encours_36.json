@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "07/07/2026 08:42",
+  "derniere_mise_a_jour": "07/07/2026 08:57",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166372",
@@ -825,70 +825,16 @@
       }
     },
     {
-      "ord_numb": "            10166016",
-      "id_commande_v2i": "260703000196",
-      "code_cote": "B",
-      "patient": "BURLOT MORGANE",
-      "job_cosium": "J139053520-02",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 10:16",
-      "detail": "Réf: BURLOT MORGANE / J139053520-02 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
-      "statut": "Livraison prévue : 07/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-3.25",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-5.50",
-        "cylindre": "3.00",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166017",
       "id_commande_v2i": "260703000197",
       "code_cote": "B",
       "patient": "BURLOT MORGANE",
       "job_cosium": "J139053520-01",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 11:08",
-      "detail": "Réf: BURLOT MORGANE / J139053520-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "07/07/2026 08:44",
+      "detail": "Réf: BURLOT MORGANE / J139053520-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -941,10 +887,10 @@
       "patient": "BAKLOUL FATIHA",
       "job_cosium": "J139053516-01",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 11:08",
-      "detail": "Réf: BAKLOUL FATIHA / J139053516-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "07/07/2026 08:44",
+      "detail": "Réf: BAKLOUL FATIHA / J139053516-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -987,6 +933,60 @@
           "Prestige Flex 1.5 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166016",
+      "id_commande_v2i": "260703000196",
+      "code_cote": "B",
+      "patient": "BURLOT MORGANE",
+      "job_cosium": "J139053520-02",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "06/07/2026 10:16",
+      "detail": "Réf: BURLOT MORGANE / J139053520-02 — (Stock) — État: En commande (Rupture)",
+      "statut_code": "EXTN",
+      "statut_affichage": "En commande (Rupture)",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-5.50",
+        "cylindre": "3.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Brun C"
         ]
       }
     },
