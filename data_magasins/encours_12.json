@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "07/07/2026 09:47",
+  "derniere_mise_a_jour": "07/07/2026 10:02",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166205",
@@ -189,6 +189,66 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166285",
+      "id_commande_v2i": "260706000110",
+      "code_cote": "B",
+      "patient": "ROUBAUD JOCELYN",
+      "job_cosium": "J146022906-02",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 09:53",
+      "detail": "Réf: ROUBAUD JOCELYN / J146022906-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Epaisseur spéciale",
+          "Montage Nylor"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Epaisseur spéciale",
+          "Montage Nylor"
         ]
       }
     },
@@ -773,66 +833,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2  St. Uni 1.5 DGR Brun"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166285",
-      "id_commande_v2i": "260706000110",
-      "code_cote": "B",
-      "patient": "ROUBAUD JOCELYN",
-      "job_cosium": "J146022906-02",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 09:43",
-      "detail": "Réf: ROUBAUD JOCELYN / J146022906-02 — (Fabrication RX) — État: Contrôle sortie de fabrication",
-      "statut_code": "SFAB",
-      "statut_affichage": "Contrôle sortie de fabrication",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Epaisseur spéciale",
-          "Montage Nylor"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Epaisseur spéciale",
-          "Montage Nylor"
         ]
       }
     },
