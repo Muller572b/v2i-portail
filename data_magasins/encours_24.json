@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "07/07/2026 11:44",
+  "derniere_mise_a_jour": "07/07/2026 12:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166461",
@@ -19,10 +19,10 @@
       "patient": "SEGUINEAU DENIS",
       "job_cosium": "J133036196",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:25",
-      "detail": "Réf: SEGUINEAU DENIS / J133036196 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "07/07/2026 12:04",
+      "detail": "Réf: SEGUINEAU DENIS / J133036196 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 10/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -69,66 +69,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166185",
-      "id_commande_v2i": "260706000010",
-      "code_cote": "B",
-      "patient": "MARTINETTI MARIE",
-      "job_cosium": "",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 08:44",
-      "detail": "Réf: MARTINETTI MARIE — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.75",
-        "cylindre": "0.50",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "AS 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.00",
-        "cylindre": "0.50",
-        "axe": 101,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "AS 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
         ]
       }
     },
@@ -588,6 +528,66 @@
       }
     },
     {
+      "ord_numb": "            10166185",
+      "id_commande_v2i": "260706000010",
+      "code_cote": "B",
+      "patient": "MARTINETTI MARIE",
+      "job_cosium": "",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 12:27",
+      "detail": "Réf: MARTINETTI MARIE — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.75",
+        "cylindre": "0.50",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "AS 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.00",
+        "cylindre": "0.50",
+        "axe": 101,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "AS 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166256",
       "id_commande_v2i": "260706000081",
       "code_cote": "B",
@@ -852,64 +852,6 @@
       }
     },
     {
-      "ord_numb": "            10166079",
-      "id_commande_v2i": "260704000048",
-      "code_cote": "B",
-      "patient": "FERAILLE ELENA LILOU",
-      "job_cosium": "J133036173-02",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "07/07/2026 10:30",
-      "detail": "Réf: FERAILLE ELENA LILOU / J133036173-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 10/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "5.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Tchin AS Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "5.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Tchin AS Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166080",
       "id_commande_v2i": "260704000049",
       "code_cote": "B",
@@ -1022,6 +964,64 @@
       }
     },
     {
+      "ord_numb": "            10166079",
+      "id_commande_v2i": "260704000048",
+      "code_cote": "B",
+      "patient": "FERAILLE ELENA LILOU",
+      "job_cosium": "J133036173-02",
+      "date_entree": "04/07/2026",
+      "date_dernier_statut": "07/07/2026 12:27",
+      "detail": "Réf: FERAILLE ELENA LILOU / J133036173-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "5.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Tchin AS Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.25",
+        "cylindre": "5.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Tchin AS Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165911",
       "id_commande_v2i": "260703000091",
       "code_cote": "B",
@@ -1090,10 +1090,10 @@
       "patient": "DEVILLIERS LEA",
       "job_cosium": "J133036167-01",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 10:30",
-      "detail": "Réf: DEVILLIERS LEA / J133036167-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "07/07/2026 12:27",
+      "detail": "Réf: DEVILLIERS LEA / J133036167-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
