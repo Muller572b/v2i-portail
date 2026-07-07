@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "07/07/2026 10:17",
+  "derniere_mise_a_jour": "07/07/2026 10:32",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166426",
@@ -71,6 +71,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166436",
+      "id_commande_v2i": "260707000028",
+      "code_cote": "B",
+      "patient": "JUBERT EMMANUEL",
+      "job_cosium": "J149018460",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 10:31",
+      "detail": "Réf: JUBERT EMMANUEL / J149018460 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -255,6 +311,66 @@
       }
     },
     {
+      "ord_numb": "            10166314",
+      "id_commande_v2i": "260706000139",
+      "code_cote": "B",
+      "patient": "LASTRAJOLI CHRISTOPHE",
+      "job_cosium": "J149018456-02",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 10:19",
+      "detail": "Réf: LASTRAJOLI CHRISTOPHE / J149018456-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-3.50",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.5",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Polar Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166313",
       "id_commande_v2i": "260706000138",
       "code_cote": "B",
@@ -317,76 +433,16 @@
       }
     },
     {
-      "ord_numb": "            10166314",
-      "id_commande_v2i": "260706000139",
-      "code_cote": "B",
-      "patient": "LASTRAJOLI CHRISTOPHE",
-      "job_cosium": "J149018456-02",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 16:32",
-      "detail": "Réf: LASTRAJOLI CHRISTOPHE / J149018456-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-3.50",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.5",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Polar Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165998",
       "id_commande_v2i": "260703000178",
       "code_cote": "B",
       "patient": "GIAMMERTINI ALINE",
       "job_cosium": "J149018445-01",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 09:23",
-      "detail": "Réf: GIAMMERTINI ALINE / J149018445-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "07/07/2026 10:30",
+      "detail": "Réf: GIAMMERTINI ALINE / J149018445-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
