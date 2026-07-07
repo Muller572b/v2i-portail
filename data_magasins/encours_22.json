@@ -10,8 +10,68 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "07/07/2026 10:02",
+  "derniere_mise_a_jour": "07/07/2026 10:17",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166295",
+      "id_commande_v2i": "260706000120",
+      "code_cote": "B",
+      "patient": "WEBER LOUHANN",
+      "job_cosium": "J134029490",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 10:15",
+      "detail": "Réf: WEBER LOUHANN / J134029490 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "3.00",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista AS 1.67 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "2.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista AS 1.67 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166296",
       "id_commande_v2i": "260706000121",
@@ -175,66 +235,6 @@
           "Vista Uni 1.6 Durci",
           "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166295",
-      "id_commande_v2i": "260706000120",
-      "code_cote": "B",
-      "patient": "WEBER LOUHANN",
-      "job_cosium": "J134029490",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 15:55",
-      "detail": "Réf: WEBER LOUHANN / J134029490 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "3.00",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista AS 1.67 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "2.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista AS 1.67 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
