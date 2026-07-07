@@ -10,7 +10,7 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "07/07/2026 09:47",
+  "derniere_mise_a_jour": "07/07/2026 10:02",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166416",
@@ -63,6 +63,42 @@
         "hauteur": "0.0",
         "supplements": [
           "Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166299",
+      "id_commande_v2i": "260706000124",
+      "code_cote": "L",
+      "patient": "CARLOTTI FRANCOIS",
+      "job_cosium": "J142010957",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 09:53",
+      "detail": "Réf: CARLOTTI FRANCOIS / J142010957 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -223,42 +259,6 @@
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166299",
-      "id_commande_v2i": "260706000124",
-      "code_cote": "L",
-      "patient": "CARLOTTI FRANCOIS",
-      "job_cosium": "J142010957",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "06/07/2026 15:55",
-      "detail": "Réf: CARLOTTI FRANCOIS / J142010957 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
