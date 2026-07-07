@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "07/07/2026 16:40",
+  "derniere_mise_a_jour": "07/07/2026 16:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166435",
@@ -129,40 +129,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10166470",
-      "id_commande_v2i": "260707000062",
-      "code_cote": "R",
-      "patient": "FAIVRET OLIVIER",
-      "job_cosium": "J134029496",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 15:12",
-      "detail": "Réf: FAIVRET OLIVIER / J134029496 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166557",
@@ -375,6 +341,40 @@
           "Teinte Dégradée Gris C"
         ]
       }
+    },
+    {
+      "ord_numb": "            10166470",
+      "id_commande_v2i": "260707000062",
+      "code_cote": "R",
+      "patient": "FAIVRET OLIVIER",
+      "job_cosium": "J134029496",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "07/07/2026 16:49",
+      "detail": "Réf: FAIVRET OLIVIER / J134029496 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166295",
@@ -1007,10 +1007,10 @@
       "patient": "TROUILLET RENE MARC",
       "job_cosium": "J134029470-01",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 14:32",
-      "detail": "Réf: TROUILLET RENE MARC / J134029470-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "07/07/2026 16:49",
+      "detail": "Réf: TROUILLET RENE MARC / J134029470-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1051,62 +1051,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165982",
-      "id_commande_v2i": "260703000162",
-      "code_cote": "B",
-      "patient": "PINDUCCI RAPHAELLE",
-      "job_cosium": "J134029466",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "07/07/2026 14:12",
-      "detail": "Réf: PINDUCCI RAPHAELLE / J134029466 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -1163,6 +1107,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165982",
+      "id_commande_v2i": "260703000162",
+      "code_cote": "B",
+      "patient": "PINDUCCI RAPHAELLE",
+      "job_cosium": "J134029466",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "07/07/2026 16:49",
+      "detail": "Réf: PINDUCCI RAPHAELLE / J134029466 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
