@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "08/07/2026 11:37",
+  "derniere_mise_a_jour": "08/07/2026 11:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166740",
@@ -247,68 +247,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166426",
-      "id_commande_v2i": "260707000018",
-      "code_cote": "B",
-      "patient": "ALCARAS YANICK",
-      "job_cosium": "J149018459",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 08:54",
-      "detail": "Réf: ALCARAS YANICK / J149018459 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Horizon2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.25",
-        "cylindre": "1.25",
-        "axe": 155,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Horizon2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -553,6 +491,68 @@
       }
     },
     {
+      "ord_numb": "            10166426",
+      "id_commande_v2i": "260707000018",
+      "code_cote": "B",
+      "patient": "ALCARAS YANICK",
+      "job_cosium": "J149018459",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 11:46",
+      "detail": "Réf: ALCARAS YANICK / J149018459 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Horizon2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.25",
+        "cylindre": "1.25",
+        "axe": 155,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Horizon2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166600",
       "id_commande_v2i": "260707000192",
       "code_cote": "B",
@@ -601,6 +601,60 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166641",
+      "id_commande_v2i": "260707000233",
+      "code_cote": "B",
+      "patient": "BARTHELEMY AGNES",
+      "job_cosium": "J149018468-01",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 11:45",
+      "detail": "Réf: BARTHELEMY AGNES / J149018468-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Brun C"
         ]
       }
     },
@@ -717,70 +771,16 @@
       }
     },
     {
-      "ord_numb": "            10166641",
-      "id_commande_v2i": "260707000233",
-      "code_cote": "B",
-      "patient": "BARTHELEMY AGNES",
-      "job_cosium": "J149018468-01",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 18:55",
-      "detail": "Réf: BARTHELEMY AGNES / J149018468-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "1.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166269",
       "id_commande_v2i": "260706000094",
       "code_cote": "B",
       "patient": "MARTINEZ MELANIE",
       "job_cosium": "J149018453",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 08:54",
-      "detail": "Réf: MARTINEZ MELANIE / J149018453 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "08/07/2026 11:46",
+      "detail": "Réf: MARTINEZ MELANIE / J149018453 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -839,10 +839,10 @@
       "patient": "GAGE EMMANUEL",
       "job_cosium": "J149018454",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 08:54",
-      "detail": "Réf: GAGE EMMANUEL / J149018454 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "08/07/2026 11:46",
+      "detail": "Réf: GAGE EMMANUEL / J149018454 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -901,10 +901,10 @@
       "patient": "LASTRAJOLI CHRISTOPHE",
       "job_cosium": "J149018456-01",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 08:54",
-      "detail": "Réf: LASTRAJOLI CHRISTOPHE / J149018456-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "08/07/2026 11:46",
+      "detail": "Réf: LASTRAJOLI CHRISTOPHE / J149018456-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -953,62 +953,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166395",
-      "id_commande_v2i": "260706000220",
-      "code_cote": "B",
-      "patient": "BAATMANE MILHAN",
-      "job_cosium": "J149018458",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 08:54",
-      "detail": "Réf: BAATMANE MILHAN / J149018458 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.75",
-        "cylindre": "2.00",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-1.75",
-        "cylindre": "2.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -1069,6 +1013,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166395",
+      "id_commande_v2i": "260706000220",
+      "code_cote": "B",
+      "patient": "BAATMANE MILHAN",
+      "job_cosium": "J149018458",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "08/07/2026 11:47",
+      "detail": "Réf: BAATMANE MILHAN / J149018458 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.75",
+        "cylindre": "2.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.75",
+        "cylindre": "2.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -1135,7 +1135,7 @@
       "patient": "LOTTI CHARLOTTE",
       "job_cosium": "J149018444-02",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 09:40",
+      "date_dernier_statut": "08/07/2026 11:47",
       "detail": "Réf: LOTTI CHARLOTTE / J149018444-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
