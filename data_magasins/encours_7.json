@@ -10,8 +10,114 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "08/07/2026 10:07",
+  "derniere_mise_a_jour": "08/07/2026 10:22",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166711",
+      "id_commande_v2i": "260708000033",
+      "code_cote": "B",
+      "patient": "LUCCHINI JEAN-PIERRE",
+      "job_cosium": "J128042799",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 10:13",
+      "detail": "Réf: LUCCHINI JEAN-PIERRE / J128042799 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.4",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166712",
+      "id_commande_v2i": "260708000034",
+      "code_cote": "B",
+      "patient": "LUCCHINI JEAN-PIERRE",
+      "job_cosium": "J128042798",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 10:13",
+      "detail": "Réf: LUCCHINI JEAN-PIERRE / J128042798 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.4",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166409",
       "id_commande_v2i": "260707000001",
@@ -137,6 +243,62 @@
       }
     },
     {
+      "ord_numb": "            10166608",
+      "id_commande_v2i": "260707000200",
+      "code_cote": "B",
+      "patient": "LACHHAR ABDELHAK",
+      "job_cosium": "J128042793",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 10:10",
+      "detail": "Réf: LACHHAR ABDELHAK / J128042793 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "2.00",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "1.75",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166515",
       "id_commande_v2i": "260707000107",
       "code_cote": "B",
@@ -255,14 +417,14 @@
       }
     },
     {
-      "ord_numb": "            10166608",
-      "id_commande_v2i": "260707000200",
-      "code_cote": "B",
-      "patient": "LACHHAR ABDELHAK",
-      "job_cosium": "J128042793",
+      "ord_numb": "            10166595",
+      "id_commande_v2i": "260707000187",
+      "code_cote": "R",
+      "patient": "FINIDORI ANTOINETTE",
+      "job_cosium": "J128042792",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 09:49",
-      "detail": "Réf: LACHHAR ABDELHAK / J128042793 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "08/07/2026 10:16",
+      "detail": "Réf: FINIDORI ANTOINETTE / J128042792 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 13/07",
@@ -271,42 +433,126 @@
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "2.00",
+        "sphere": "1.25",
+        "cylindre": "0.50",
         "axe": 5,
-        "addition": "2.50",
+        "addition": "2.75",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
         "supplements": [
-          "Media 1.5 XBlue Durci Arh",
+          "Media 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "1.75",
-        "axe": 5,
-        "addition": "2.50",
+      "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10166561",
+      "id_commande_v2i": "260707000153",
+      "code_cote": "B",
+      "patient": "NICOLAS GONZALES HELOISE",
+      "job_cosium": "J128042784",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 10:18",
+      "detail": "Réf: NICOLAS GONZALES HELOISE / J128042784 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 120,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "2.00",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166563",
+      "id_commande_v2i": "260707000155",
+      "code_cote": "B",
+      "patient": "NICOLAS GONZALES HELOISE",
+      "job_cosium": "J128042783",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 10:18",
+      "detail": "Réf: NICOLAS GONZALES HELOISE / J128042783 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "2.00",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -415,110 +661,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.6 Xblue Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166561",
-      "id_commande_v2i": "260707000153",
-      "code_cote": "B",
-      "patient": "NICOLAS GONZALES HELOISE",
-      "job_cosium": "J128042784",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 16:13",
-      "detail": "Réf: NICOLAS GONZALES HELOISE / J128042784 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.25",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "2.00",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166563",
-      "id_commande_v2i": "260707000155",
-      "code_cote": "B",
-      "patient": "NICOLAS GONZALES HELOISE",
-      "job_cosium": "J128042783",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 16:14",
-      "detail": "Réf: NICOLAS GONZALES HELOISE / J128042783 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.25",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "2.00",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -745,42 +887,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10166595",
-      "id_commande_v2i": "260707000187",
-      "code_cote": "R",
-      "patient": "FINIDORI ANTOINETTE",
-      "job_cosium": "J128042792",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 17:44",
-      "detail": "Réf: FINIDORI ANTOINETTE / J128042792 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166607",
