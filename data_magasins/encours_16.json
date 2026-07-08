@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "08/07/2026 15:07",
+  "derniere_mise_a_jour": "08/07/2026 15:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166708",
@@ -701,62 +701,6 @@
       }
     },
     {
-      "ord_numb": "            10166661",
-      "id_commande_v2i": "260707000253",
-      "code_cote": "B",
-      "patient": "ARANYOS ESTHER",
-      "job_cosium": "J143054293",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 14:35",
-      "detail": "Réf: ARANYOS ESTHER / J143054293 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de Uni 1.5 Non Durci",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de Uni 1.5 Non Durci",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166663",
       "id_commande_v2i": "260707000255",
       "code_cote": "B",
@@ -850,6 +794,62 @@
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166661",
+      "id_commande_v2i": "260707000253",
+      "code_cote": "B",
+      "patient": "ARANYOS ESTHER",
+      "job_cosium": "J143054293",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 15:18",
+      "detail": "Réf: ARANYOS ESTHER / J143054293 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de Uni 1.5 Non Durci",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.75",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de Uni 1.5 Non Durci",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
