@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "08/07/2026 15:52",
+  "derniere_mise_a_jour": "08/07/2026 16:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166796",
@@ -749,6 +749,60 @@
       }
     },
     {
+      "ord_numb": "            10166554",
+      "id_commande_v2i": "260707000146",
+      "code_cote": "B",
+      "patient": "MARZOUKI BESMA",
+      "job_cosium": "J121042869",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 16:05",
+      "detail": "Réf: MARZOUKI BESMA / J121042869 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-5.75",
+        "cylindre": "5.00",
+        "axe": 160,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.75",
+        "cylindre": "2.75",
+        "axe": 15,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166555",
       "id_commande_v2i": "260707000147",
       "code_cote": "B",
@@ -799,6 +853,60 @@
         "supplements": [
           "Media 1.6 Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166593",
+      "id_commande_v2i": "260707000185",
+      "code_cote": "B",
+      "patient": "BROUSSE DOMINIQUE",
+      "job_cosium": "J121042870",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 16:05",
+      "detail": "Réf: BROUSSE DOMINIQUE / J121042870 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
         ]
       }
     },
@@ -859,114 +967,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166554",
-      "id_commande_v2i": "260707000146",
-      "code_cote": "B",
-      "patient": "MARZOUKI BESMA",
-      "job_cosium": "J121042869",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 15:47",
-      "detail": "Réf: MARZOUKI BESMA / J121042869 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-5.75",
-        "cylindre": "5.00",
-        "axe": 160,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.75",
-        "cylindre": "2.75",
-        "axe": 15,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166593",
-      "id_commande_v2i": "260707000185",
-      "code_cote": "B",
-      "patient": "BROUSSE DOMINIQUE",
-      "job_cosium": "J121042870",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 15:47",
-      "detail": "Réf: BROUSSE DOMINIQUE / J121042870 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
         ]
       }
     },
