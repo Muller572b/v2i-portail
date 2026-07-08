@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "08/07/2026 14:52",
+  "derniere_mise_a_jour": "08/07/2026 15:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166725",
@@ -233,68 +233,16 @@
       }
     },
     {
-      "ord_numb": "            10166587",
-      "id_commande_v2i": "260707000179",
-      "code_cote": "B",
-      "patient": "ACQUAVIVA ANGE",
-      "job_cosium": "J137036331",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 10:08",
-      "detail": "Réf: ACQUAVIVA ANGE / J137036331 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  2e St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166445",
       "id_commande_v2i": "260707000037",
       "code_cote": "B",
       "patient": "THIEBAUT LAURENCE",
       "job_cosium": "J137036316-01",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 08:52",
-      "detail": "Réf: THIEBAUT LAURENCE / J137036316-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "08/07/2026 15:01",
+      "detail": "Réf: THIEBAUT LAURENCE / J137036316-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -343,6 +291,58 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166587",
+      "id_commande_v2i": "260707000179",
+      "code_cote": "B",
+      "patient": "ACQUAVIVA ANGE",
+      "job_cosium": "J137036331",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 10:08",
+      "detail": "Réf: ACQUAVIVA ANGE / J137036331 — (Stock) — État: En commande (Rupture)",
+      "statut_code": "EXTN",
+      "statut_affichage": "En commande (Rupture)",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  2e St. Uni 1.5 Durci Arh"
         ]
       }
     },
