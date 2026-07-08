@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "08/07/2026 14:22",
+  "derniere_mise_a_jour": "08/07/2026 14:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166730",
@@ -545,16 +545,72 @@
       }
     },
     {
+      "ord_numb": "            10166376",
+      "id_commande_v2i": "260706000201",
+      "code_cote": "B",
+      "patient": "LEGATO ANGELINA",
+      "job_cosium": "J139053541",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "08/07/2026 09:36",
+      "detail": "Réf: LEGATO ANGELINA / J139053541 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "D2 First OD HD 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "D2 First OD HD 1.5 Durci",
+          "Teinte Dégradée Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166378",
       "id_commande_v2i": "260706000203",
       "code_cote": "B",
       "patient": "TORRES ISABELLE",
       "job_cosium": "J139053539",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 10:32",
-      "detail": "Réf: TORRES ISABELLE / J139053539 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "08/07/2026 14:22",
+      "detail": "Réf: TORRES ISABELLE / J139053539 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -607,10 +663,10 @@
       "patient": "JABLONSKA ANNA KINGA",
       "job_cosium": "J139053533-01",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 10:31",
-      "detail": "Réf: JABLONSKA ANNA KINGA / J139053533-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "08/07/2026 14:22",
+      "detail": "Réf: JABLONSKA ANNA KINGA / J139053533-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -652,62 +708,6 @@
         "supplements": [
           "First OD HD 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166376",
-      "id_commande_v2i": "260706000201",
-      "code_cote": "B",
-      "patient": "LEGATO ANGELINA",
-      "job_cosium": "J139053541",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 09:36",
-      "detail": "Réf: LEGATO ANGELINA / J139053541 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "D2 First OD HD 1.5 Durci",
-          "Teinte Dégradée Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "D2 First OD HD 1.5 Durci",
-          "Teinte Dégradée Brun C",
           "Durci Inclus"
         ]
       }
