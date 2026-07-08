@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "08/07/2026 15:22",
+  "derniere_mise_a_jour": "08/07/2026 15:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166730",
@@ -291,60 +291,6 @@
       }
     },
     {
-      "ord_numb": "            10166536",
-      "id_commande_v2i": "260707000128",
-      "code_cote": "B",
-      "patient": "DELFINI JEAN ANDRE",
-      "job_cosium": "J139053552",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 10:22",
-      "detail": "Réf: DELFINI JEAN ANDRE / J139053552 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "D2 Prestige Flex 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "D2 Prestige Flex 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166656",
       "id_commande_v2i": "260707000248",
       "code_cote": "L",
@@ -437,6 +383,60 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166536",
+      "id_commande_v2i": "260707000128",
+      "code_cote": "B",
+      "patient": "DELFINI JEAN ANDRE",
+      "job_cosium": "J139053552",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 15:29",
+      "detail": "Réf: DELFINI JEAN ANDRE / J139053552 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "D2 Prestige Flex 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "D2 Prestige Flex 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
