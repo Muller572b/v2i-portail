@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "08/07/2026 10:22",
+  "derniere_mise_a_jour": "08/07/2026 10:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166679",
@@ -183,68 +183,16 @@
       }
     },
     {
-      "ord_numb": "            10166399",
-      "id_commande_v2i": "260706000224",
-      "code_cote": "B",
-      "patient": "MAROSELLI PAUL",
-      "job_cosium": "J600029450",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 08:46",
-      "detail": "Réf: MAROSELLI PAUL / J600029450 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
-      "statut": "Livraison prévue : 07/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "1.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166390",
       "id_commande_v2i": "260706000215",
       "code_cote": "B",
       "patient": "ORSONI JEAN-FRANCOIS",
       "job_cosium": "J600029430",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 09:39",
-      "detail": "Réf: ORSONI JEAN-FRANCOIS / J600029430 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "08/07/2026 10:32",
+      "detail": "Réf: ORSONI JEAN-FRANCOIS / J600029430 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -297,10 +245,10 @@
       "patient": "COUDERT MARYLINE",
       "job_cosium": "J600029443",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 09:32",
-      "detail": "Réf: COUDERT MARYLINE / J600029443 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "08/07/2026 10:32",
+      "detail": "Réf: COUDERT MARYLINE / J600029443 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -343,6 +291,58 @@
           "Reader3 1.5 Foto Gris Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166399",
+      "id_commande_v2i": "260706000224",
+      "code_cote": "B",
+      "patient": "MAROSELLI PAUL",
+      "job_cosium": "J600029450",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "07/07/2026 08:46",
+      "detail": "Réf: MAROSELLI PAUL / J600029450 — (Stock) — État: En commande (Rupture)",
+      "statut_code": "EXTN",
+      "statut_affichage": "En commande (Rupture)",
+      "statut": "Livraison prévue : 07/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
