@@ -10,8 +10,62 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "08/07/2026 17:07",
+  "derniere_mise_a_jour": "08/07/2026 17:22",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166711",
+      "id_commande_v2i": "260708000033",
+      "code_cote": "B",
+      "patient": "LUCCHINI JEAN-PIERRE",
+      "job_cosium": "J128042799",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 17:09",
+      "detail": "Réf: LUCCHINI JEAN-PIERRE / J128042799 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.4",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166834",
       "id_commande_v2i": "260708000156",
@@ -19,10 +73,10 @@
       "patient": "ALMEIDA MAGALHAES CHRISTIAN",
       "job_cosium": "J128042809",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 16:13",
-      "detail": "Réf: ALMEIDA MAGALHAES CHRISTIAN / J128042809 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "08/07/2026 17:10",
+      "detail": "Réf: ALMEIDA MAGALHAES CHRISTIAN / J128042809 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -71,10 +125,10 @@
       "patient": "ALMEIDA MAGALHAES CHRISTIAN",
       "job_cosium": "J128042808",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 16:13",
-      "detail": "Réf: ALMEIDA MAGALHAES CHRISTIAN / J128042808 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "08/07/2026 17:10",
+      "detail": "Réf: ALMEIDA MAGALHAES CHRISTIAN / J128042808 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -123,10 +177,10 @@
       "patient": "SANTOS MAGALHAES ILDA",
       "job_cosium": "J128042807",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 16:13",
-      "detail": "Réf: SANTOS MAGALHAES ILDA / J128042807 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "08/07/2026 17:10",
+      "detail": "Réf: SANTOS MAGALHAES ILDA / J128042807 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -355,116 +409,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166711",
-      "id_commande_v2i": "260708000033",
-      "code_cote": "B",
-      "patient": "LUCCHINI JEAN-PIERRE",
-      "job_cosium": "J128042799",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 16:20",
-      "detail": "Réf: LUCCHINI JEAN-PIERRE / J128042799 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.4",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166608",
-      "id_commande_v2i": "260707000200",
-      "code_cote": "B",
-      "patient": "LACHHAR ABDELHAK",
-      "job_cosium": "J128042793",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 15:01",
-      "detail": "Réf: LACHHAR ABDELHAK / J128042793 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "2.00",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "1.75",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Media 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -971,6 +915,116 @@
       "oeil_gauche": null
     },
     {
+      "ord_numb": "            10166608",
+      "id_commande_v2i": "260707000200",
+      "code_cote": "B",
+      "patient": "LACHHAR ABDELHAK",
+      "job_cosium": "J128042793",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 17:15",
+      "detail": "Réf: LACHHAR ABDELHAK / J128042793 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "2.00",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "1.75",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Media 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166648",
+      "id_commande_v2i": "260707000240",
+      "code_cote": "B",
+      "patient": "dartenset massei leria",
+      "job_cosium": "J128042796",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 17:10",
+      "detail": "Réf: dartenset massei leria / J128042796 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166561",
       "id_commande_v2i": "260707000153",
       "code_cote": "B",
@@ -1233,60 +1287,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.6 Xblue Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166648",
-      "id_commande_v2i": "260707000240",
-      "code_cote": "B",
-      "patient": "dartenset massei leria",
-      "job_cosium": "J128042796",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 16:20",
-      "detail": "Réf: dartenset massei leria / J128042796 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "0.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Dégradée Brun C"
         ]
       }
     },
