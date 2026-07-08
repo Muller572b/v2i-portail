@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "08/07/2026 11:07",
+  "derniere_mise_a_jour": "08/07/2026 11:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166733",
@@ -20,9 +20,9 @@
       "job_cosium": "J205030628",
       "date_entree": "08/07/2026",
       "date_dernier_statut": "08/07/2026 11:07",
-      "detail": "Réf: CANAVELLI RITA / J205030628 — (Fabrication RX) — État: Order imported",
-      "statut_code": "IMPT",
-      "statut_affichage": "Order imported",
+      "detail": "Réf: CANAVELLI RITA / J205030628 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -40,7 +40,10 @@
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
         "hauteur": "28.0",
-        "supplements": []
+        "supplements": [
+          "O2 Mediatu 1.5 Durci",
+          "Durci Inclus"
+        ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
@@ -57,7 +60,10 @@
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
         "hauteur": "28.0",
-        "supplements": []
+        "supplements": [
+          "O2 Mediatu 1.5 Durci",
+          "Durci Inclus"
+        ]
       }
     },
     {
@@ -173,6 +179,62 @@
       }
     },
     {
+      "ord_numb": "            10166624",
+      "id_commande_v2i": "260707000216",
+      "code_cote": "B",
+      "patient": "BERNARD ANNE MARIE",
+      "job_cosium": "J205030622-01",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 11:15",
+      "detail": "Réf: BERNARD ANNE MARIE / J205030622-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 Minimu 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166626",
       "id_commande_v2i": "260707000218",
       "code_cote": "B",
@@ -231,6 +293,60 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166627",
+      "id_commande_v2i": "260707000219",
+      "code_cote": "B",
+      "patient": "PITARIU MADALINA",
+      "job_cosium": "J205030610",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 11:10",
+      "detail": "Réf: PITARIU MADALINA / J205030610 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Foto Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Foto Gris Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -479,116 +595,6 @@
         "supplements": [
           "2de O2 Minimu 1.5 Nu",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166624",
-      "id_commande_v2i": "260707000216",
-      "code_cote": "B",
-      "patient": "BERNARD ANNE MARIE",
-      "job_cosium": "J205030622-01",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 18:31",
-      "detail": "Réf: BERNARD ANNE MARIE / J205030622-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 Minimu 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166627",
-      "id_commande_v2i": "260707000219",
-      "code_cote": "B",
-      "patient": "PITARIU MADALINA",
-      "job_cosium": "J205030610",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 18:31",
-      "detail": "Réf: PITARIU MADALINA / J205030610 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5 Foto Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5 Foto Gris Durci",
-          "Durci Inclus"
         ]
       }
     },
