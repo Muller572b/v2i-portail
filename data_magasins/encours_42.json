@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "08/07/2026 10:37",
+  "derniere_mise_a_jour": "08/07/2026 10:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166428",
@@ -251,6 +251,66 @@
       }
     },
     {
+      "ord_numb": "            10166532",
+      "id_commande_v2i": "260707000124",
+      "code_cote": "B",
+      "patient": "GAMBINI PASCAL",
+      "job_cosium": "J148018132-02",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 10:43",
+      "detail": "Réf: GAMBINI PASCAL / J148018132-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar Gris Durc",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar Gris Durc",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166533",
       "id_commande_v2i": "260707000125",
       "code_cote": "B",
@@ -305,66 +365,6 @@
         "supplements": [
           "Affiny Confort2 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166532",
-      "id_commande_v2i": "260707000124",
-      "code_cote": "B",
-      "patient": "GAMBINI PASCAL",
-      "job_cosium": "J148018132-02",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 09:39",
-      "detail": "Réf: GAMBINI PASCAL / J148018132-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.50",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Polar Gris Durc",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Polar Gris Durc",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
