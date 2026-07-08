@@ -10,7 +10,7 @@
     "email": "atb@balbi.fr",
     "mot_de_passe_portail": "atb"
   },
-  "derniere_mise_a_jour": "08/07/2026 11:37",
+  "derniere_mise_a_jour": "08/07/2026 11:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166564",
@@ -123,10 +123,10 @@
       "patient": "FERRARINI AUGUSTE",
       "job_cosium": "J602004837",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 19:13",
-      "detail": "Réf: FERRARINI AUGUSTE / J602004837 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "08/07/2026 11:46",
+      "detail": "Réf: FERRARINI AUGUSTE / J602004837 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -167,62 +167,6 @@
         "supplements": [
           "St. Uni 1.5",
           "Teinte Gris B"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166309",
-      "id_commande_v2i": "260706000134",
-      "code_cote": "B",
-      "patient": "MESSUVE CINDY",
-      "job_cosium": "J602004832",
-      "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 08:54",
-      "detail": "Réf: MESSUVE CINDY / J602004832 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Primo Confort 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Primo Confort 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -277,6 +221,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Reader3 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166309",
+      "id_commande_v2i": "260706000134",
+      "code_cote": "B",
+      "patient": "MESSUVE CINDY",
+      "job_cosium": "J602004832",
+      "date_entree": "06/07/2026",
+      "date_dernier_statut": "08/07/2026 11:47",
+      "detail": "Réf: MESSUVE CINDY / J602004832 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Primo Confort 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Primo Confort 1.5 Foto Gris Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
