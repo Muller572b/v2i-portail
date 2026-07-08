@@ -10,8 +10,60 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "08/07/2026 10:52",
+  "derniere_mise_a_jour": "08/07/2026 11:07",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166730",
+      "id_commande_v2i": "260708000052",
+      "code_cote": "B",
+      "patient": "SANTINI Gavina",
+      "job_cosium": "",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 10:57",
+      "detail": "Réf: SANTINI Gavina — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Retouche verre client"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Retouche verre client"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166654",
       "id_commande_v2i": "260707000246",
@@ -293,6 +345,66 @@
       }
     },
     {
+      "ord_numb": "            10166534",
+      "id_commande_v2i": "260707000126",
+      "code_cote": "B",
+      "patient": "LECOQ JACQUES",
+      "job_cosium": "J139053556",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 11:00",
+      "detail": "Réf: LECOQ JACQUES / J139053556 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.25",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.4",
+        "hauteur": "26.0",
+        "supplements": [
+          "AS Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.00",
+        "cylindre": "1.00",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "AS Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166653",
       "id_commande_v2i": "260707000245",
       "code_cote": "B",
@@ -393,66 +505,6 @@
         "hauteur": "0.0",
         "supplements": [
           "D2 St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166534",
-      "id_commande_v2i": "260707000126",
-      "code_cote": "B",
-      "patient": "LECOQ JACQUES",
-      "job_cosium": "J139053556",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 10:17",
-      "detail": "Réf: LECOQ JACQUES / J139053556 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "5.25",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.4",
-        "hauteur": "26.0",
-        "supplements": [
-          "AS Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "5.00",
-        "cylindre": "1.00",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "AS Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
@@ -725,6 +777,62 @@
       }
     },
     {
+      "ord_numb": "            10166022",
+      "id_commande_v2i": "260703000202",
+      "code_cote": "B",
+      "patient": "ARESU MARIA",
+      "job_cosium": "J139053512-01",
+      "date_entree": "03/07/2026",
+      "date_dernier_statut": "08/07/2026 10:52",
+      "detail": "Réf: ARESU MARIA / J139053512-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166016",
       "id_commande_v2i": "260703000196",
       "code_cote": "B",
@@ -775,62 +883,6 @@
         "supplements": [
           "D2 St. Uni 1.5",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166022",
-      "id_commande_v2i": "260703000202",
-      "code_cote": "B",
-      "patient": "ARESU MARIA",
-      "job_cosium": "J139053512-01",
-      "date_entree": "03/07/2026",
-      "date_dernier_statut": "08/07/2026 10:04",
-      "detail": "Réf: ARESU MARIA / J139053512-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
