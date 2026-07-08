@@ -10,8 +10,70 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "08/07/2026 09:37",
+  "derniere_mise_a_jour": "08/07/2026 09:52",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166708",
+      "id_commande_v2i": "260708000030",
+      "code_cote": "B",
+      "patient": "FINI MARIANNE",
+      "job_cosium": "J143054245",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 09:39",
+      "detail": "Réf: FINI MARIANNE / J143054245 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 95,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "2de O2 Horizon2 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166550",
       "id_commande_v2i": "260707000142",
