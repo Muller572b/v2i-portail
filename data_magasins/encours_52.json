@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "08/07/2026 12:07",
+  "derniere_mise_a_jour": "08/07/2026 12:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166691",
@@ -633,6 +633,58 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Afocal 1.5 Dégradé Gris"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166768",
+      "id_commande_v2i": "260708000090",
+      "code_cote": "B",
+      "patient": "POLI ANDREUCCI ANGHJULINA",
+      "job_cosium": "J154014625",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 12:19",
+      "detail": "Réf: POLI ANDREUCCI ANGHJULINA / J154014625 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -1313,10 +1365,10 @@
       "patient": "PETIT JE-YVES",
       "job_cosium": "J154014585",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "06/07/2026 08:52",
-      "detail": "Réf: PETIT JE-YVES / J154014585 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "08/07/2026 12:14",
+      "detail": "Réf: PETIT JE-YVES / J154014585 — (Fabrication RX) — État: Coating en cours (MC380X2)",
+      "statut_code": "COA2",
+      "statut_affichage": "Coating en cours (MC380X2)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
