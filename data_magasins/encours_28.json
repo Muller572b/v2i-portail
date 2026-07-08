@@ -10,7 +10,7 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "08/07/2026 14:37",
+  "derniere_mise_a_jour": "08/07/2026 14:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166476",
@@ -241,6 +241,66 @@
       }
     },
     {
+      "ord_numb": "            10166569",
+      "id_commande_v2i": "260707000161",
+      "code_cote": "B",
+      "patient": "FLORI LAETITIA",
+      "job_cosium": "J142010970-02",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 14:51",
+      "detail": "Réf: FLORI LAETITIA / J142010970-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.25",
+        "cylindre": "2.25",
+        "axe": 90,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.25",
+        "cylindre": "2.25",
+        "axe": 80,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Horizon2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166576",
       "id_commande_v2i": "260707000168",
       "code_cote": "B",
@@ -353,66 +413,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166569",
-      "id_commande_v2i": "260707000161",
-      "code_cote": "B",
-      "patient": "FLORI LAETITIA",
-      "job_cosium": "J142010970-02",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 12:12",
-      "detail": "Réf: FLORI LAETITIA / J142010970-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.25",
-        "cylindre": "2.25",
-        "axe": 90,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.25",
-        "cylindre": "2.25",
-        "axe": 80,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Horizon2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
