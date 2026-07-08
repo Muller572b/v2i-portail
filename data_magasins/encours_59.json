@@ -10,8 +10,64 @@
     "email": "atb@balbi.fr",
     "mot_de_passe_portail": "atb"
   },
-  "derniere_mise_a_jour": "08/07/2026 18:37",
+  "derniere_mise_a_jour": "08/07/2026 18:52",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166899",
+      "id_commande_v2i": "260708000221",
+      "code_cote": "B",
+      "patient": "AMBIEHL AGNES",
+      "job_cosium": "J602004843",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 18:37",
+      "detail": "Réf: AMBIEHL AGNES / J602004843 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166564",
       "id_commande_v2i": "260707000156",
