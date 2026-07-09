@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "09/07/2026 16:37",
+  "derniere_mise_a_jour": "09/07/2026 16:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167031",
@@ -187,10 +187,10 @@
       "patient": "SIMONETTI LISA",
       "job_cosium": "J139053593",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 12:01",
-      "detail": "Réf: SIMONETTI LISA / J139053593 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 16:40",
+      "detail": "Réf: SIMONETTI LISA / J139053593 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -239,10 +239,10 @@
       "patient": "BOUCHET JOSIANE",
       "job_cosium": "J139053592",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 12:01",
-      "detail": "Réf: BOUCHET JOSIANE / J139053592 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 16:40",
+      "detail": "Réf: BOUCHET JOSIANE / J139053592 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -1323,66 +1323,6 @@
       }
     },
     {
-      "ord_numb": "            10166534",
-      "id_commande_v2i": "260707000126",
-      "code_cote": "B",
-      "patient": "LECOQ JACQUES",
-      "job_cosium": "J139053556",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:30",
-      "detail": "Réf: LECOQ JACQUES / J139053556 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "5.25",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.4",
-        "hauteur": "26.0",
-        "supplements": [
-          "AS Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "5.00",
-        "cylindre": "1.00",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "AS Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166529",
       "id_commande_v2i": "260707000121",
       "code_cote": "B",
@@ -1605,6 +1545,66 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166534",
+      "id_commande_v2i": "260707000126",
+      "code_cote": "B",
+      "patient": "LECOQ JACQUES",
+      "job_cosium": "J139053556",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 16:48",
+      "detail": "Réf: LECOQ JACQUES / J139053556 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.25",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.4",
+        "hauteur": "26.0",
+        "supplements": [
+          "AS Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "5.00",
+        "cylindre": "1.00",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "AS Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
