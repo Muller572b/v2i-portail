@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:37",
+  "derniere_mise_a_jour": "09/07/2026 11:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166958",
@@ -511,68 +511,6 @@
       }
     },
     {
-      "ord_numb": "            10166613",
-      "id_commande_v2i": "260707000205",
-      "code_cote": "B",
-      "patient": "TODINI LOLA",
-      "job_cosium": "J121042871",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:31",
-      "detail": "Réf: TODINI LOLA / J121042871 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "6.00",
-        "cylindre": "0.25",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "6.75",
-        "cylindre": "0.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166556",
       "id_commande_v2i": "260707000148",
       "code_cote": "B",
@@ -745,6 +683,68 @@
           "Vista Media 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166613",
+      "id_commande_v2i": "260707000205",
+      "code_cote": "B",
+      "patient": "TODINI LOLA",
+      "job_cosium": "J121042871",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 11:37",
+      "detail": "Réf: TODINI LOLA / J121042871 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "6.00",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "6.75",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
