@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:22",
+  "derniere_mise_a_jour": "09/07/2026 11:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166982",
@@ -239,6 +239,68 @@
       }
     },
     {
+      "ord_numb": "            10166894",
+      "id_commande_v2i": "260708000216",
+      "code_cote": "B",
+      "patient": "CHAROY PATRICK HENRI",
+      "job_cosium": "J137036344",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 11:32",
+      "detail": "Réf: CHAROY PATRICK HENRI / J137036344 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "1.75",
+        "axe": 180,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.3",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "28.5",
+        "supplements": [
+          "O2 Supremu2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "2.25",
+        "axe": 180,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.3",
+        "ecart_pupillaire": "33.6",
+        "hauteur": "28.5",
+        "supplements": [
+          "O2 Supremu2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166866",
       "id_commande_v2i": "260708000188",
       "code_cote": "B",
@@ -289,68 +351,6 @@
         "supplements": [
           "2de O2 Miladu 1.5 Polar Gris Durci",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166894",
-      "id_commande_v2i": "260708000216",
-      "code_cote": "B",
-      "patient": "CHAROY PATRICK HENRI",
-      "job_cosium": "J137036344",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 10:32",
-      "detail": "Réf: CHAROY PATRICK HENRI / J137036344 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "1.75",
-        "axe": 180,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.3",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "28.5",
-        "supplements": [
-          "O2 Supremu2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "2.25",
-        "axe": 180,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.3",
-        "ecart_pupillaire": "33.6",
-        "hauteur": "28.5",
-        "supplements": [
-          "O2 Supremu2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
