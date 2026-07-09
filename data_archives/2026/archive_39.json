@@ -5,8 +5,71 @@
     "nom": "L'atelier de l'optique (OBR)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "08/07/2026 à 06:20",
+  "derniere_validation": "09/07/2026 à 06:20",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10166291",
+      "id_commande_v2i": "260706000116",
+      "id_bl_v2i": "260706000116",
+      "code_cote": "B",
+      "patient": "SCHOTT SANDRINE",
+      "job_cosium": "J147014184",
+      "detail": "Réf: SCHOTT SANDRINE / J147014184 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "06/07/2026",
+      "date_expedition": "08/07/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "08/07/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Delta Horizon2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "1.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Delta Horizon2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10165917",
       "id_commande_v2i": "260703000097",
@@ -894,63 +957,6 @@
       }
     },
     {
-      "ord_numb": "            10162662",
-      "id_commande_v2i": "260615000130",
-      "id_bl_v2i": "260615000130",
-      "code_cote": "B",
-      "patient": "EMMANUELLI JEANNE",
-      "job_cosium": "J147014149",
-      "detail": "Réf: EMMANUELLI JEANNE / J147014149 — (Fabrication RX) — État: Expédiée",
-      "date_entree": "15/06/2026",
-      "date_expedition": "23/06/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "23/06/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "2.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10164003",
       "id_commande_v2i": "260623000022",
       "id_bl_v2i": "260623000022",
@@ -1055,6 +1061,63 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10162662",
+      "id_commande_v2i": "260615000130",
+      "id_bl_v2i": "260615000130",
+      "code_cote": "B",
+      "patient": "EMMANUELLI JEANNE",
+      "job_cosium": "J147014149",
+      "detail": "Réf: EMMANUELLI JEANNE / J147014149 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "15/06/2026",
+      "date_expedition": "23/06/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "23/06/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "2.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     },
