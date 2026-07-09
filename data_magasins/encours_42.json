@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:52",
+  "derniere_mise_a_jour": "09/07/2026 11:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166989",
@@ -511,62 +511,6 @@
       }
     },
     {
-      "ord_numb": "            10166650",
-      "id_commande_v2i": "260707000242",
-      "code_cote": "B",
-      "patient": "ANTONIOTTI BARBARA",
-      "job_cosium": "J148018136-02",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:31",
-      "detail": "Réf: ANTONIOTTI BARBARA / J148018136-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166491",
       "id_commande_v2i": "260707000083",
       "code_cote": "B",
@@ -921,6 +865,62 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Noir C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166650",
+      "id_commande_v2i": "260707000242",
+      "code_cote": "B",
+      "patient": "ANTONIOTTI BARBARA",
+      "job_cosium": "J148018136-02",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 10:58",
+      "detail": "Réf: ANTONIOTTI BARBARA / J148018136-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     }
