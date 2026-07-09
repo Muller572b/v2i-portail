@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "09/07/2026 12:07",
+  "derniere_mise_a_jour": "09/07/2026 12:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166958",
@@ -69,72 +69,16 @@
       }
     },
     {
-      "ord_numb": "            10166986",
-      "id_commande_v2i": "260709000031",
-      "code_cote": "B",
-      "patient": "FEIBELMAN JEAN",
-      "job_cosium": "J121042886",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 11:37",
-      "detail": "Réf: FEIBELMAN JEAN / J121042886 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167010",
       "id_commande_v2i": "260709000055",
       "code_cote": "B",
       "patient": "OUADDI KELTOUM",
       "job_cosium": "J121042887",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 11:25",
-      "detail": "Réf: OUADDI KELTOUM / J121042887 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 12:11",
+      "detail": "Réf: OUADDI KELTOUM / J121042887 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -175,6 +119,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166986",
+      "id_commande_v2i": "260709000031",
+      "code_cote": "B",
+      "patient": "FEIBELMAN JEAN",
+      "job_cosium": "J121042886",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: FEIBELMAN JEAN / J121042886 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
