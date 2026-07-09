@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "09/07/2026 15:37",
+  "derniere_mise_a_jour": "09/07/2026 15:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167066",
@@ -533,16 +533,68 @@
       }
     },
     {
+      "ord_numb": "            10166743",
+      "id_commande_v2i": "260708000065",
+      "code_cote": "B",
+      "patient": "SUZZONI MARIE-CLAIRE",
+      "job_cosium": "J149018470-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 11:26",
+      "detail": "Réf: SUZZONI MARIE-CLAIRE / J149018470-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "3.50",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.75",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166741",
       "id_commande_v2i": "260708000063",
       "code_cote": "B",
       "patient": "LIMA MARIE-LOUISE",
       "job_cosium": "J149018472-01",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 11:37",
-      "detail": "Réf: LIMA MARIE-LOUISE / J149018472-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 15:43",
+      "detail": "Réf: LIMA MARIE-LOUISE / J149018472-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -601,10 +653,10 @@
       "patient": "GIUDICELLI JEAN B",
       "job_cosium": "J149018473",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 17:22",
-      "detail": "Réf: GIUDICELLI JEAN B / J149018473 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 15:43",
+      "detail": "Réf: GIUDICELLI JEAN B / J149018473 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -653,10 +705,10 @@
       "patient": "DRIOUI NOUHAILA",
       "job_cosium": "J149018480",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:38",
-      "detail": "Réf: DRIOUI NOUHAILA / J149018480 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 15:43",
+      "detail": "Réf: DRIOUI NOUHAILA / J149018480 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -705,10 +757,10 @@
       "patient": "ANGELINI ISABELLE",
       "job_cosium": "J149018477",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:38",
-      "detail": "Réf: ANGELINI ISABELLE / J149018477 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 15:43",
+      "detail": "Réf: ANGELINI ISABELLE / J149018477 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -747,58 +799,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Non durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166743",
-      "id_commande_v2i": "260708000065",
-      "code_cote": "B",
-      "patient": "SUZZONI MARIE-CLAIRE",
-      "job_cosium": "J149018470-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 11:26",
-      "detail": "Réf: SUZZONI MARIE-CLAIRE / J149018470-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "3.50",
-        "cylindre": "0.25",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci"
         ]
       }
     },
@@ -933,10 +933,10 @@
       "patient": "MATTEI FLORENCE",
       "job_cosium": "J149018465-01",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:42",
-      "detail": "Réf: MATTEI FLORENCE / J149018465-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 15:43",
+      "detail": "Réf: MATTEI FLORENCE / J149018465-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -989,10 +989,10 @@
       "patient": "MATTEI FLORENCE",
       "job_cosium": "J149018465-02",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 15:05",
-      "detail": "Réf: MATTEI FLORENCE / J149018465-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 15:43",
+      "detail": "Réf: MATTEI FLORENCE / J149018465-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
