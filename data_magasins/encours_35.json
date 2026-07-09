@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "09/07/2026 16:52",
+  "derniere_mise_a_jour": "09/07/2026 17:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166999",
@@ -403,64 +403,6 @@
       }
     },
     {
-      "ord_numb": "            10166869",
-      "id_commande_v2i": "260708000191",
-      "code_cote": "B",
-      "patient": "PEREZ CHRISTINE ALICE",
-      "job_cosium": "J120030664-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: PEREZ CHRISTINE ALICE / J120030664-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "1.00",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "5.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "3.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166778",
       "id_commande_v2i": "260708000100",
       "code_cote": "B",
@@ -634,6 +576,64 @@
           "Vista Uni 1.6 Durci",
           "Durci Inclus",
           "Teinte G15 C",
+          "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166869",
+      "id_commande_v2i": "260708000191",
+      "code_cote": "B",
+      "patient": "PEREZ CHRISTINE ALICE",
+      "job_cosium": "J120030664-01",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 17:06",
+      "detail": "Réf: PEREZ CHRISTINE ALICE / J120030664-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "1.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "5.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "3.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
           "Prisme supérieur à 4"
         ]
       }
