@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:37",
+  "derniere_mise_a_jour": "09/07/2026 11:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166710",
@@ -67,68 +67,6 @@
           "Relax 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166723",
-      "id_commande_v2i": "260708000045",
-      "code_cote": "B",
-      "patient": "COMBAZ JEAN MARIE",
-      "job_cosium": "J145063742-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:31",
-      "detail": "Réf: COMBAZ JEAN MARIE / J145063742-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.75",
-        "axe": 25,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "35.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "35.0",
-        "supplements": [
-          "Affiny Equilibre2 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
         ]
@@ -245,6 +183,68 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166723",
+      "id_commande_v2i": "260708000045",
+      "code_cote": "B",
+      "patient": "COMBAZ JEAN MARIE",
+      "job_cosium": "J145063742-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 11:37",
+      "detail": "Réf: COMBAZ JEAN MARIE / J145063742-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 25,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "35.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "35.0",
+        "supplements": [
+          "Affiny Equilibre2 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
