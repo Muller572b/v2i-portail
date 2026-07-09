@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:37",
+  "derniere_mise_a_jour": "09/07/2026 11:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166998",
@@ -633,64 +633,6 @@
       }
     },
     {
-      "ord_numb": "            10166868",
-      "id_commande_v2i": "260708000190",
-      "code_cote": "B",
-      "patient": "PEREZ CHRISTINE ALICE",
-      "job_cosium": "J120030664-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:12",
-      "detail": "Réf: PEREZ CHRISTINE ALICE / J120030664-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.00",
-        "cylindre": "1.00",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "5.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "28.5",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "3.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte G15 C",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166731",
       "id_commande_v2i": "260708000053",
       "code_cote": "B",
@@ -955,6 +897,64 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte G15 C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166868",
+      "id_commande_v2i": "260708000190",
+      "code_cote": "B",
+      "patient": "PEREZ CHRISTINE ALICE",
+      "job_cosium": "J120030664-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 11:49",
+      "detail": "Réf: PEREZ CHRISTINE ALICE / J120030664-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.00",
+        "cylindre": "1.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "5.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "28.5",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "3.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte G15 C",
+          "Prisme supérieur à 4"
         ]
       }
     },
