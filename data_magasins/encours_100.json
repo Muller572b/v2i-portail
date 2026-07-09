@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": ""
   },
-  "derniere_mise_a_jour": "09/07/2026 15:37",
+  "derniere_mise_a_jour": "09/07/2026 15:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166764",
@@ -75,10 +75,10 @@
       "patient": "56 KARINE",
       "job_cosium": "",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "09/07/2026 15:28",
-      "detail": "Réf: 56 KARINE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "09/07/2026 15:42",
+      "detail": "Réf: 56 KARINE — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -119,6 +119,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Media 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165604",
+      "id_commande_v2i": "260702000035",
+      "code_cote": "B",
+      "patient": "1 MAGASIN",
+      "job_cosium": "",
+      "date_entree": "02/07/2026",
+      "date_dernier_statut": "09/07/2026 15:42",
+      "detail": "Réf: 1 MAGASIN — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 LED Pro Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 LED Pro Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -181,72 +237,16 @@
       }
     },
     {
-      "ord_numb": "            10165604",
-      "id_commande_v2i": "260702000035",
-      "code_cote": "B",
-      "patient": "1 MAGASIN",
-      "job_cosium": "",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "09/07/2026 15:08",
-      "detail": "Réf: 1 MAGASIN — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 LED Pro Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 LED Pro Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165626",
       "id_commande_v2i": "260702000057",
       "code_cote": "B",
       "patient": "36 CASSANDRA",
       "job_cosium": "",
       "date_entree": "02/07/2026",
-      "date_dernier_statut": "09/07/2026 15:04",
-      "detail": "Réf: 36 CASSANDRA — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "09/07/2026 15:42",
+      "detail": "Réf: 36 CASSANDRA — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
