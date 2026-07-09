@@ -10,8 +10,66 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:52",
+  "derniere_mise_a_jour": "09/07/2026 11:07",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166993",
+      "id_commande_v2i": "260709000038",
+      "code_cote": "B",
+      "patient": "MARCANGELI JEAN",
+      "job_cosium": "",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 10:53",
+      "detail": "Réf: MARCANGELI JEAN — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "2.50",
+        "axe": 110,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "21.0",
+        "supplements": [
+          "Cygn Confort2 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166775",
       "id_commande_v2i": "260708000097",
@@ -133,6 +191,66 @@
       }
     },
     {
+      "ord_numb": "            10166877",
+      "id_commande_v2i": "260708000199",
+      "code_cote": "B",
+      "patient": "JEAN LYNE",
+      "job_cosium": "J702020783-01",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 11:02",
+      "detail": "Réf: JEAN LYNE / J702020783-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "K2 Cygn Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "K2 Cygn Equilibre2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166948",
       "id_commande_v2i": "260708000270",
       "code_cote": "B",
@@ -185,66 +303,6 @@
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166877",
-      "id_commande_v2i": "260708000199",
-      "code_cote": "B",
-      "patient": "JEAN LYNE",
-      "job_cosium": "J702020783-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 10:37",
-      "detail": "Réf: JEAN LYNE / J702020783-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "K2 Cygn Equilibre2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "K2 Cygn Equilibre2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -427,62 +485,6 @@
       }
     },
     {
-      "ord_numb": "            10166611",
-      "id_commande_v2i": "260707000203",
-      "code_cote": "B",
-      "patient": "CHMIL TIFFANY",
-      "job_cosium": "J702020770-01",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:31",
-      "detail": "Réf: CHMIL TIFFANY / J702020770-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.75",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166580",
       "id_commande_v2i": "260707000172",
       "code_cote": "B",
@@ -597,6 +599,62 @@
         "supplements": [
           "Krys St. Uni 1.6 Xblue Durci Arh",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166611",
+      "id_commande_v2i": "260707000203",
+      "code_cote": "B",
+      "patient": "CHMIL TIFFANY",
+      "job_cosium": "J702020770-01",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 10:58",
+      "detail": "Réf: CHMIL TIFFANY / J702020770-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.75",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
