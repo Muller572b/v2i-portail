@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "09/07/2026 12:07",
+  "derniere_mise_a_jour": "09/07/2026 12:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166970",
@@ -19,10 +19,10 @@
       "patient": "AMKHAZNI AYOUB",
       "job_cosium": "J144102370",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:14",
-      "detail": "Réf: AMKHAZNI AYOUB / J144102370 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: AMKHAZNI AYOUB / J144102370 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -71,10 +71,10 @@
       "patient": "DE MIRANDA LOPES MARGARIDA",
       "job_cosium": "J144102364",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:14",
-      "detail": "Réf: DE MIRANDA LOPES MARGARIDA / J144102364 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: DE MIRANDA LOPES MARGARIDA / J144102364 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -123,10 +123,10 @@
       "patient": "SANTELLI VINCENT ROBERT",
       "job_cosium": "J144102351",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:14",
-      "detail": "Réf: SANTELLI VINCENT ROBERT / J144102351 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: SANTELLI VINCENT ROBERT / J144102351 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -162,6 +162,162 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166976",
+      "id_commande_v2i": "260709000021",
+      "code_cote": "B",
+      "patient": "FINO JEAN MARC",
+      "job_cosium": "J144102423",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: FINO JEAN MARC / J144102423 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "1.00",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166977",
+      "id_commande_v2i": "260709000022",
+      "code_cote": "B",
+      "patient": "BETTINI DANIELLE",
+      "job_cosium": "J144102422",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: BETTINI DANIELLE / J144102422 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "4.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "4.00",
+        "cylindre": "0.75",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166979",
+      "id_commande_v2i": "260709000024",
+      "code_cote": "B",
+      "patient": "BETTINI DANIELLE",
+      "job_cosium": "J144102421-03",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:09",
+      "detail": "Réf: BETTINI DANIELLE / J144102421-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "4.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "4.00",
+        "cylindre": "0.75",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
@@ -217,110 +373,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166976",
-      "id_commande_v2i": "260709000021",
-      "code_cote": "B",
-      "patient": "FINO JEAN MARC",
-      "job_cosium": "J144102423",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:14",
-      "detail": "Réf: FINO JEAN MARC / J144102423 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "1.00",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5 Durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166977",
-      "id_commande_v2i": "260709000022",
-      "code_cote": "B",
-      "patient": "BETTINI DANIELLE",
-      "job_cosium": "J144102422",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:14",
-      "detail": "Réf: BETTINI DANIELLE / J144102422 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "4.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "4.00",
-        "cylindre": "0.75",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
@@ -381,58 +433,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166979",
-      "id_commande_v2i": "260709000024",
-      "code_cote": "B",
-      "patient": "BETTINI DANIELLE",
-      "job_cosium": "J144102421-03",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:14",
-      "detail": "Réf: BETTINI DANIELLE / J144102421-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "4.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "4.00",
-        "cylindre": "0.75",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
@@ -1433,10 +1433,10 @@
       "patient": "GOUZMIR BADRE",
       "job_cosium": "J144102418",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 11:59",
-      "detail": "Réf: GOUZMIR BADRE / J144102418 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "09/07/2026 12:13",
+      "detail": "Réf: GOUZMIR BADRE / J144102418 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
