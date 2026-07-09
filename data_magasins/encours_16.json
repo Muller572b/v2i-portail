@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "09/07/2026 12:22",
+  "derniere_mise_a_jour": "09/07/2026 12:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166960",
@@ -82,6 +82,62 @@
       "date_entree": "08/07/2026",
       "date_dernier_statut": "09/07/2026 10:01",
       "detail": "Réf: NOIRET ODILE / J143054315-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 100,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166847",
+      "id_commande_v2i": "260708000169",
+      "code_cote": "B",
+      "patient": "NOIRET ODILE",
+      "job_cosium": "J143054315-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 12:25",
+      "detail": "Réf: NOIRET ODILE / J143054315-02 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 21/07",
@@ -359,62 +415,6 @@
         "supplements": [
           "2de Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166847",
-      "id_commande_v2i": "260708000169",
-      "code_cote": "B",
-      "patient": "NOIRET ODILE",
-      "job_cosium": "J143054315-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:44",
-      "detail": "Réf: NOIRET ODILE / J143054315-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 80,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 100,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
