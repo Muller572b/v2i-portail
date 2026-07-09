@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "09/07/2026 16:52",
+  "derniere_mise_a_jour": "09/07/2026 17:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166993",
@@ -589,60 +589,6 @@
       }
     },
     {
-      "ord_numb": "            10166546",
-      "id_commande_v2i": "260707000138",
-      "code_cote": "B",
-      "patient": "VOLPE MARIE PAULE",
-      "job_cosium": "J702020766",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 15:56",
-      "detail": "Réf: VOLPE MARIE PAULE / J702020766 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys St. Uni 1.5",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166580",
       "id_commande_v2i": "260707000172",
       "code_cote": "B",
@@ -813,6 +759,60 @@
           "Uni 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166546",
+      "id_commande_v2i": "260707000138",
+      "code_cote": "B",
+      "patient": "VOLPE MARIE PAULE",
+      "job_cosium": "J702020766",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 17:04",
+      "detail": "Réf: VOLPE MARIE PAULE / J702020766 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St. Uni 1.5",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St. Uni 1.5",
+          "Teinte G15 C"
         ]
       }
     },
