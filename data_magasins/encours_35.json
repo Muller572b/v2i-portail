@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "09/07/2026 14:37",
+  "derniere_mise_a_jour": "09/07/2026 14:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166999",
@@ -563,6 +563,70 @@
       }
     },
     {
+      "ord_numb": "            10166826",
+      "id_commande_v2i": "260708000148",
+      "code_cote": "B",
+      "patient": "AMEZQUITA VERONIQUE",
+      "job_cosium": "J120030661",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 14:46",
+      "detail": "Réf: AMEZQUITA VERONIQUE / J120030661 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 40,
+        "addition": "2.50",
+        "prisme_1": "3.00",
+        "base_1": "270",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Delta Equilibre2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Prisme inf à 4",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.75",
+        "cylindre": "1.00",
+        "axe": 107,
+        "addition": "2.50",
+        "prisme_1": "3.00",
+        "base_1": "90",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.5",
+        "supplements": [
+          "Delta Equilibre2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Prisme inf à 4",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166868",
       "id_commande_v2i": "260708000190",
       "code_cote": "B",
@@ -675,70 +739,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Prisme supérieur à 4"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166826",
-      "id_commande_v2i": "260708000148",
-      "code_cote": "B",
-      "patient": "AMEZQUITA VERONIQUE",
-      "job_cosium": "J120030661",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 14:27",
-      "detail": "Réf: AMEZQUITA VERONIQUE / J120030661 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 40,
-        "addition": "2.50",
-        "prisme_1": "3.00",
-        "base_1": "270",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Delta Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Prisme inf à 4",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.75",
-        "cylindre": "1.00",
-        "axe": 107,
-        "addition": "2.50",
-        "prisme_1": "3.00",
-        "base_1": "90",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.5",
-        "supplements": [
-          "Delta Equilibre2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Prisme inf à 4",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -1069,7 +1069,7 @@
       "patient": "BRUNEAU DIDIER",
       "job_cosium": "J120030651",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 12:07",
+      "date_dernier_statut": "09/07/2026 14:51",
       "detail": "Réf: BRUNEAU DIDIER / J120030651 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
