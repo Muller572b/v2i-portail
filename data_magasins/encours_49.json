@@ -10,62 +10,8 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "09/07/2026 09:37",
+  "derniere_mise_a_jour": "09/07/2026 09:52",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166733",
-      "id_commande_v2i": "260708000055",
-      "code_cote": "B",
-      "patient": "CANAVELLI RITA",
-      "job_cosium": "J205030628",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 14:51",
-      "detail": "Réf: CANAVELLI RITA / J205030628 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "O2 Mediatu 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "O2 Mediatu 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10166755",
       "id_commande_v2i": "260708000077",
@@ -355,18 +301,72 @@
       }
     },
     {
-      "ord_numb": "            10166910",
-      "id_commande_v2i": "260708000232",
+      "ord_numb": "            10166857",
+      "id_commande_v2i": "260708000179",
       "code_cote": "B",
-      "patient": "BENNOUR SALIMA",
-      "job_cosium": "J205030648-02",
+      "patient": "MITCHELL MARIE JEANNE",
+      "job_cosium": "J205030641-01",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:34",
-      "detail": "Réf: BENNOUR SALIMA / J205030648-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "09/07/2026 09:44",
+      "detail": "Réf: MITCHELL MARIE JEANNE / J205030641-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 60,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "2de Reader3 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166911",
+      "id_commande_v2i": "260708000233",
+      "code_cote": "B",
+      "patient": "BENNOUR SALIMA",
+      "job_cosium": "J205030648-01",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 09:42",
+      "detail": "Réf: BENNOUR SALIMA / J205030648-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
@@ -381,9 +381,11 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "28.5",
-        "hauteur": "30.0",
+        "hauteur": "27.0",
         "supplements": [
-          "2de O2 Minimu 1.5 Nu"
+          "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
@@ -400,9 +402,65 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
+        "hauteur": "27.0",
         "supplements": [
-          "2de O2 Minimu 1.5 Nu"
+          "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166733",
+      "id_commande_v2i": "260708000055",
+      "code_cote": "B",
+      "patient": "CANAVELLI RITA",
+      "job_cosium": "J205030628",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 09:42",
+      "detail": "Réf: CANAVELLI RITA / J205030628 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "O2 Mediatu 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "O2 Mediatu 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
@@ -495,6 +553,58 @@
       "oeil_gauche": null
     },
     {
+      "ord_numb": "            10166910",
+      "id_commande_v2i": "260708000232",
+      "code_cote": "B",
+      "patient": "BENNOUR SALIMA",
+      "job_cosium": "J205030648-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 09:39",
+      "detail": "Réf: BENNOUR SALIMA / J205030648-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 40,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166799",
       "id_commande_v2i": "260708000121",
       "code_cote": "B",
@@ -553,116 +663,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166857",
-      "id_commande_v2i": "260708000179",
-      "code_cote": "B",
-      "patient": "MITCHELL MARIE JEANNE",
-      "job_cosium": "J205030641-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 16:31",
-      "detail": "Réf: MITCHELL MARIE JEANNE / J205030641-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 60,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de Reader3 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166911",
-      "id_commande_v2i": "260708000233",
-      "code_cote": "B",
-      "patient": "BENNOUR SALIMA",
-      "job_cosium": "J205030648-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 18:38",
-      "detail": "Réf: BENNOUR SALIMA / J205030648-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "O2 Minimu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 40,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "O2 Minimu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -836,62 +836,6 @@
         "supplements": [
           "AS Uni 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166496",
-      "id_commande_v2i": "260707000088",
-      "code_cote": "B",
-      "patient": "HALLER CORINNE",
-      "job_cosium": "J205030611",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 10:00",
-      "detail": "Réf: HALLER CORINNE / J205030611 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "1.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Teinte Dégradée Noir C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Teinte Dégradée Noir C",
           "Durci Inclus"
         ]
       }
@@ -1114,6 +1058,62 @@
         "supplements": [
           "CLA Unifocal 1.6 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166496",
+      "id_commande_v2i": "260707000088",
+      "code_cote": "B",
+      "patient": "HALLER CORINNE",
+      "job_cosium": "J205030611",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 09:42",
+      "detail": "Réf: HALLER CORINNE / J205030611 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "1.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Dégradée Noir C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Teinte Dégradée Noir C",
           "Durci Inclus"
         ]
       }
