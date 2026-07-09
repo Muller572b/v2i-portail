@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:07",
+  "derniere_mise_a_jour": "09/07/2026 10:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166739",
@@ -621,6 +621,58 @@
       }
     },
     {
+      "ord_numb": "            10166449",
+      "id_commande_v2i": "260707000041",
+      "code_cote": "B",
+      "patient": "DEL GIUDICE MARIO",
+      "job_cosium": "J160021077-01",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 10:15",
+      "detail": "Réf: DEL GIUDICE MARIO / J160021077-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "1.50",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166450",
       "id_commande_v2i": "260707000042",
       "code_cote": "B",
@@ -743,68 +795,16 @@
       }
     },
     {
-      "ord_numb": "            10166449",
-      "id_commande_v2i": "260707000041",
-      "code_cote": "B",
-      "patient": "DEL GIUDICE MARIO",
-      "job_cosium": "J160021077-01",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "07/07/2026 11:08",
-      "detail": "Réf: DEL GIUDICE MARIO / J160021077-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "1.50",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166306",
       "id_commande_v2i": "260706000131",
       "code_cote": "B",
       "patient": "DUTERTRE MICHELLE",
       "job_cosium": "J160021074-02",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "07/07/2026 08:51",
-      "detail": "Réf: DUTERTRE MICHELLE / J160021074-02 — (Fabrication RX) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
+      "date_dernier_statut": "09/07/2026 10:15",
+      "detail": "Réf: DUTERTRE MICHELLE / J160021074-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
