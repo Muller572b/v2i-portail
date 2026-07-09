@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "09/07/2026 16:37",
+  "derniere_mise_a_jour": "09/07/2026 16:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166779",
@@ -183,58 +183,6 @@
       }
     },
     {
-      "ord_numb": "            10166621",
-      "id_commande_v2i": "260707000213",
-      "code_cote": "B",
-      "patient": "VLIEGEN GERARD",
-      "job_cosium": "J154014620-02",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 10:08",
-      "detail": "Réf: VLIEGEN GERARD / J154014620-02 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "1.75",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166603",
       "id_commande_v2i": "260707000195",
       "code_cote": "B",
@@ -287,6 +235,58 @@
           "Vista Uni 1.6 Durci",
           "Durci Inclus",
           "Teinte Noir C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166621",
+      "id_commande_v2i": "260707000213",
+      "code_cote": "B",
+      "patient": "VLIEGEN GERARD",
+      "job_cosium": "J154014620-02",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 16:40",
+      "detail": "Réf: VLIEGEN GERARD / J154014620-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "1.75",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Durci Arh"
         ]
       }
     },
