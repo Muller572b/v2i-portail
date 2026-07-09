@@ -10,7 +10,7 @@
     "email": "a36@balbi.fr",
     "mot_de_passe_portail": "a36"
   },
-  "derniere_mise_a_jour": "09/07/2026 15:07",
+  "derniere_mise_a_jour": "09/07/2026 15:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167043",
@@ -69,6 +69,60 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167084",
+      "id_commande_v2i": "260709000129",
+      "code_cote": "B",
+      "patient": "CAPPELAERE CLEMENCE STEPHA",
+      "job_cosium": "J123013616",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 15:19",
+      "detail": "Réf: CAPPELAERE CLEMENCE STEPHA / J123013616 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 60,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
         ]
       }
     },
