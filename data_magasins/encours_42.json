@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "09/07/2026 17:22",
+  "derniere_mise_a_jour": "09/07/2026 17:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166989",
@@ -500,6 +500,60 @@
       }
     },
     {
+      "ord_numb": "            10166773",
+      "id_commande_v2i": "260708000095",
+      "code_cote": "B",
+      "patient": "MICHELETTI JULIE",
+      "job_cosium": "J148018140-01",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 17:27",
+      "detail": "Réf: MICHELETTI JULIE / J148018140-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Gris B"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Gris B"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166737",
       "id_commande_v2i": "260708000059",
       "code_cote": "B",
@@ -712,70 +766,16 @@
       }
     },
     {
-      "ord_numb": "            10166773",
-      "id_commande_v2i": "260708000095",
-      "code_cote": "B",
-      "patient": "MICHELETTI JULIE",
-      "job_cosium": "J148018140-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 17:04",
-      "detail": "Réf: MICHELETTI JULIE / J148018140-01 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Gris B"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Gris B"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166491",
       "id_commande_v2i": "260707000083",
       "code_cote": "B",
       "patient": "CORTI VIRGINIE",
       "job_cosium": "J148018130-03",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: CORTI VIRGINIE / J148018130-03 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "09/07/2026 17:24",
+      "detail": "Réf: CORTI VIRGINIE / J148018130-03 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -832,10 +832,10 @@
       "patient": "CORTI VIRGINIE",
       "job_cosium": "J148018130-02",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: CORTI VIRGINIE / J148018130-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "09/07/2026 17:27",
+      "detail": "Réf: CORTI VIRGINIE / J148018130-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
