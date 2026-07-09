@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "09/07/2026 17:22",
+  "derniere_mise_a_jour": "09/07/2026 17:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166964",
@@ -299,6 +299,112 @@
           "Vista Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte au modèle uni A-C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167123",
+      "id_commande_v2i": "260709000168",
+      "code_cote": "B",
+      "patient": "ACQUAVIVA DORIAN KEVIN",
+      "job_cosium": "J134029525-02",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 17:26",
+      "detail": "Réf: ACQUAVIVA DORIAN KEVIN / J134029525-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167124",
+      "id_commande_v2i": "260709000169",
+      "code_cote": "B",
+      "patient": "ACQUAVIVA DORIAN KEVIN",
+      "job_cosium": "J134029525-01",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 17:26",
+      "detail": "Réf: ACQUAVIVA DORIAN KEVIN / J134029525-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée au modèle A-C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée au modèle A-C"
         ]
       }
     },
@@ -753,10 +859,10 @@
       "patient": "FAIVRET OLIVIER",
       "job_cosium": "J134029495",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: FAIVRET OLIVIER / J134029495 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "09/07/2026 17:26",
+      "detail": "Réf: FAIVRET OLIVIER / J134029495 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
