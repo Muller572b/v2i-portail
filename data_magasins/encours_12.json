@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:52",
+  "derniere_mise_a_jour": "09/07/2026 12:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166969",
@@ -65,60 +65,6 @@
       }
     },
     {
-      "ord_numb": "            10166987",
-      "id_commande_v2i": "260709000032",
-      "code_cote": "B",
-      "patient": "TOMASINI JEAN",
-      "job_cosium": "J146022924-01",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:31",
-      "detail": "Réf: TOMASINI JEAN / J146022924-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166988",
       "id_commande_v2i": "260709000033",
       "code_cote": "B",
@@ -167,6 +113,60 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166987",
+      "id_commande_v2i": "260709000032",
+      "code_cote": "B",
+      "patient": "TOMASINI JEAN",
+      "job_cosium": "J146022924-01",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:03",
+      "detail": "Réf: TOMASINI JEAN / J146022924-01 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Brun C"
         ]
       }
     },
