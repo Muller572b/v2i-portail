@@ -10,7 +10,7 @@
     "email": "obs@balbi.fr",
     "mot_de_passe_portail": "obs"
   },
-  "derniere_mise_a_jour": "09/07/2026 14:52",
+  "derniere_mise_a_jour": "09/07/2026 15:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166995",
@@ -509,16 +509,51 @@
       }
     },
     {
+      "ord_numb": "            10166774",
+      "id_commande_v2i": "260708000096",
+      "code_cote": "R",
+      "patient": "HUCK CHANTAL",
+      "job_cosium": "J156003415",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "08/07/2026 15:09",
+      "detail": "Réf: HUCK CHANTAL / J156003415 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.25",
+        "cylindre": "0.75",
+        "axe": 130,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Media 1.5 Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10166690",
       "id_commande_v2i": "260708000012",
       "code_cote": "B",
       "patient": "CHALABREYSSE RENAUD",
       "job_cosium": "",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 10:24",
-      "detail": "Réf: CHALABREYSSE RENAUD — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "09/07/2026 14:58",
+      "detail": "Réf: CHALABREYSSE RENAUD — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -563,41 +598,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10166774",
-      "id_commande_v2i": "260708000096",
-      "code_cote": "R",
-      "patient": "HUCK CHANTAL",
-      "job_cosium": "J156003415",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 15:09",
-      "detail": "Réf: HUCK CHANTAL / J156003415 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.25",
-        "cylindre": "0.75",
-        "axe": 130,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Media 1.5 Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166485",
