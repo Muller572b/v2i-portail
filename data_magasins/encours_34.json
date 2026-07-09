@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "09/07/2026 17:22",
+  "derniere_mise_a_jour": "09/07/2026 17:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167089",
@@ -179,118 +179,6 @@
       }
     },
     {
-      "ord_numb": "            10166811",
-      "id_commande_v2i": "260708000133",
-      "code_cote": "B",
-      "patient": "RUGGERI SANDRINE",
-      "job_cosium": "J137036348-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: RUGGERI SANDRINE / J137036348-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "2.75",
-        "axe": 80,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.00",
-        "cylindre": "2.00",
-        "axe": 95,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.6",
-        "hauteur": "30.0",
-        "supplements": [
-          "2de Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166812",
-      "id_commande_v2i": "260708000134",
-      "code_cote": "B",
-      "patient": "RUGGERI SANDRINE",
-      "job_cosium": "J137036348-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: RUGGERI SANDRINE / J137036348-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.25",
-        "cylindre": "2.75",
-        "axe": 80,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "O2 Minimu 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-2.00",
-        "cylindre": "2.00",
-        "axe": 95,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.6",
-        "hauteur": "28.5",
-        "supplements": [
-          "O2 Minimu 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166866",
       "id_commande_v2i": "260708000188",
       "code_cote": "B",
@@ -403,6 +291,118 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166811",
+      "id_commande_v2i": "260708000133",
+      "code_cote": "B",
+      "patient": "RUGGERI SANDRINE",
+      "job_cosium": "J137036348-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 17:27",
+      "detail": "Réf: RUGGERI SANDRINE / J137036348-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "2.75",
+        "axe": 80,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.00",
+        "cylindre": "2.00",
+        "axe": 95,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.6",
+        "hauteur": "30.0",
+        "supplements": [
+          "2de Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166812",
+      "id_commande_v2i": "260708000134",
+      "code_cote": "B",
+      "patient": "RUGGERI SANDRINE",
+      "job_cosium": "J137036348-01",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 17:26",
+      "detail": "Réf: RUGGERI SANDRINE / J137036348-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.25",
+        "cylindre": "2.75",
+        "axe": 80,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "O2 Minimu 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "2.00",
+        "axe": 95,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.6",
+        "hauteur": "28.5",
+        "supplements": [
+          "O2 Minimu 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
