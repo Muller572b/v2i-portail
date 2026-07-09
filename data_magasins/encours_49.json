@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "09/07/2026 15:07",
+  "derniere_mise_a_jour": "09/07/2026 15:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167060",
@@ -357,68 +357,6 @@
       }
     },
     {
-      "ord_numb": "            10166755",
-      "id_commande_v2i": "260708000077",
-      "code_cote": "B",
-      "patient": "JULLION CYNTHIA",
-      "job_cosium": "J205030632-01",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 10:24",
-      "detail": "Réf: JULLION CYNTHIA / J205030632-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.50",
-        "axe": 130,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "O2 Supremu2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "O2 Supremu2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166799",
       "id_commande_v2i": "260708000121",
       "code_cote": "B",
@@ -651,62 +589,6 @@
       }
     },
     {
-      "ord_numb": "            10166856",
-      "id_commande_v2i": "260708000178",
-      "code_cote": "B",
-      "patient": "MITCHELL MARIE JEANNE",
-      "job_cosium": "J205030641-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:52",
-      "detail": "Réf: MITCHELL MARIE JEANNE / J205030641-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 60,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166857",
       "id_commande_v2i": "260708000179",
       "code_cote": "B",
@@ -871,6 +753,68 @@
       }
     },
     {
+      "ord_numb": "            10166755",
+      "id_commande_v2i": "260708000077",
+      "code_cote": "B",
+      "patient": "JULLION CYNTHIA",
+      "job_cosium": "J205030632-01",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 15:11",
+      "detail": "Réf: JULLION CYNTHIA / J205030632-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 130,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "O2 Supremu2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "O2 Supremu2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166828",
       "id_commande_v2i": "260708000150",
       "code_cote": "B",
@@ -1007,6 +951,62 @@
         "hauteur": "30.0",
         "supplements": [
           "2de O2 Minimu 1.5 Nu"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166856",
+      "id_commande_v2i": "260708000178",
+      "code_cote": "B",
+      "patient": "MITCHELL MARIE JEANNE",
+      "job_cosium": "J205030641-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 15:08",
+      "detail": "Réf: MITCHELL MARIE JEANNE / J205030641-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 60,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
