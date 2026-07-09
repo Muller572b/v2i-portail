@@ -10,60 +10,8 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "09/07/2026 15:52",
+  "derniere_mise_a_jour": "09/07/2026 16:07",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167066",
-      "id_commande_v2i": "260709000111",
-      "code_cote": "B",
-      "patient": "VINCENTI STEPHANE",
-      "job_cosium": "J149018484",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:25",
-      "detail": "Réf: VINCENTI STEPHANE / J149018484 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.75",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167067",
       "id_commande_v2i": "260709000112",
@@ -71,10 +19,10 @@
       "patient": "SAMARTINI TOUSSAINT",
       "job_cosium": "J149018483-01",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:25",
-      "detail": "Réf: SAMARTINI TOUSSAINT / J149018483-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 16:02",
+      "detail": "Réf: SAMARTINI TOUSSAINT / J149018483-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -133,10 +81,10 @@
       "patient": "SAMARTINI TOUSSAINT",
       "job_cosium": "J149018483-02",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:25",
-      "detail": "Réf: SAMARTINI TOUSSAINT / J149018483-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 15:56",
+      "detail": "Réf: SAMARTINI TOUSSAINT / J149018483-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -193,10 +141,10 @@
       "patient": "VINCENTI Stephane",
       "job_cosium": "",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:41",
-      "detail": "Réf: VINCENTI Stephane — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 15:58",
+      "detail": "Réf: VINCENTI Stephane — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -239,6 +187,58 @@
           "Reader3 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167066",
+      "id_commande_v2i": "260709000111",
+      "code_cote": "B",
+      "patient": "VINCENTI STEPHANE",
+      "job_cosium": "J149018484",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 14:25",
+      "detail": "Réf: VINCENTI STEPHANE / J149018484 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.75",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
