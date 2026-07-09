@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:37",
+  "derniere_mise_a_jour": "09/07/2026 10:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166739",
@@ -183,6 +183,68 @@
       }
     },
     {
+      "ord_numb": "            10166873",
+      "id_commande_v2i": "260708000195",
+      "code_cote": "B",
+      "patient": "HEURTIN VIRGINIE",
+      "job_cosium": "J160021096",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:39",
+      "detail": "Réf: HEURTIN VIRGINIE / J160021096 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "2.25",
+        "axe": 90,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "33.8",
+        "hauteur": "31.8",
+        "supplements": [
+          "Vista Delta Equilibre 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "2.75",
+        "axe": 75,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.6",
+        "hauteur": "31.8",
+        "supplements": [
+          "Vista Delta Equilibre 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166864",
       "id_commande_v2i": "260708000186",
       "code_cote": "B",
@@ -233,68 +295,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166873",
-      "id_commande_v2i": "260708000195",
-      "code_cote": "B",
-      "patient": "HEURTIN VIRGINIE",
-      "job_cosium": "J160021096",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 17:43",
-      "detail": "Réf: HEURTIN VIRGINIE / J160021096 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "2.25",
-        "axe": 90,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "33.8",
-        "hauteur": "31.8",
-        "supplements": [
-          "Vista Delta Equilibre 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "2.75",
-        "axe": 75,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.6",
-        "hauteur": "31.8",
-        "supplements": [
-          "Vista Delta Equilibre 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
