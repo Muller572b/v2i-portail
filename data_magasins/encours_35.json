@@ -10,64 +10,8 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:52",
+  "derniere_mise_a_jour": "09/07/2026 11:07",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166731",
-      "id_commande_v2i": "260708000053",
-      "code_cote": "B",
-      "patient": "FRASSATI LAURENT",
-      "job_cosium": "J120030653",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:31",
-      "detail": "Réf: FRASSATI LAURENT / J120030653 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10166688",
       "id_commande_v2i": "260708000010",
@@ -409,60 +353,6 @@
       }
     },
     {
-      "ord_numb": "            10166867",
-      "id_commande_v2i": "260708000189",
-      "code_cote": "B",
-      "patient": "AMEZQUITA VERONIQUE",
-      "job_cosium": "J120030665",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 10:34",
-      "detail": "Réf: AMEZQUITA VERONIQUE / J120030665 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.25",
-        "axe": 40,
-        "addition": "0.00",
-        "prisme_1": "3.00",
-        "base_1": "270",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "24.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Prisme inf à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.00",
-        "axe": 107,
-        "addition": "0.00",
-        "prisme_1": "3.00",
-        "base_1": "90",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Prisme inf à 4"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166868",
       "id_commande_v2i": "260708000190",
       "code_cote": "B",
@@ -517,6 +407,116 @@
           "Durci Inclus",
           "Teinte G15 C",
           "Prisme supérieur à 4"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166731",
+      "id_commande_v2i": "260708000053",
+      "code_cote": "B",
+      "patient": "FRASSATI LAURENT",
+      "job_cosium": "J120030653",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:58",
+      "detail": "Réf: FRASSATI LAURENT / J120030653 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166867",
+      "id_commande_v2i": "260708000189",
+      "code_cote": "B",
+      "patient": "AMEZQUITA VERONIQUE",
+      "job_cosium": "J120030665",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:58",
+      "detail": "Réf: AMEZQUITA VERONIQUE / J120030665 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.25",
+        "axe": 40,
+        "addition": "0.00",
+        "prisme_1": "3.00",
+        "base_1": "270",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "24.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Prisme inf à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.00",
+        "axe": 107,
+        "addition": "0.00",
+        "prisme_1": "3.00",
+        "base_1": "90",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Prisme inf à 4"
         ]
       }
     },
