@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:07",
+  "derniere_mise_a_jour": "09/07/2026 11:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166755",
@@ -841,62 +841,6 @@
       }
     },
     {
-      "ord_numb": "            10166622",
-      "id_commande_v2i": "260707000214",
-      "code_cote": "B",
-      "patient": "BOTTON CHRISTELLE",
-      "job_cosium": "J205030624",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 12:20",
-      "detail": "Réf: BOTTON CHRISTELLE / J205030624 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.00",
-        "cylindre": "1.00",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.00",
-        "cylindre": "1.00",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci",
-          "Durci Inclus",
-          "Teinte Noir C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166627",
       "id_commande_v2i": "260707000219",
       "code_cote": "B",
@@ -1115,6 +1059,62 @@
           "AS Uni 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166622",
+      "id_commande_v2i": "260707000214",
+      "code_cote": "B",
+      "patient": "BOTTON CHRISTELLE",
+      "job_cosium": "J205030624",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "09/07/2026 11:20",
+      "detail": "Réf: BOTTON CHRISTELLE / J205030624 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.00",
+        "cylindre": "1.00",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.00",
+        "cylindre": "1.00",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci",
+          "Durci Inclus",
+          "Teinte Noir C"
         ]
       }
     },
