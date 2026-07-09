@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "09/07/2026 17:07",
+  "derniere_mise_a_jour": "09/07/2026 17:22",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166993",
@@ -171,62 +171,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166948",
-      "id_commande_v2i": "260708000270",
-      "code_cote": "B",
-      "patient": "BREFEL CELIA",
-      "job_cosium": "J702020786-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 15:02",
-      "detail": "Réf: BREFEL CELIA / J702020786-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.25",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -411,6 +355,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166948",
+      "id_commande_v2i": "260708000270",
+      "code_cote": "B",
+      "patient": "BREFEL CELIA",
+      "job_cosium": "J702020786-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 17:10",
+      "detail": "Réf: BREFEL CELIA / J702020786-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.25",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
