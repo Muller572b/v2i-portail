@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:22",
+  "derniere_mise_a_jour": "09/07/2026 11:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166967",
@@ -609,6 +609,66 @@
       }
     },
     {
+      "ord_numb": "            10166882",
+      "id_commande_v2i": "260708000204",
+      "code_cote": "B",
+      "patient": "CLAESSENS PATRICIA",
+      "job_cosium": "J133036213",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 11:22",
+      "detail": "Réf: CLAESSENS PATRICIA / J133036213 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166895",
       "id_commande_v2i": "260708000217",
       "code_cote": "B",
@@ -789,66 +849,6 @@
         "supplements": [
           "Unitek2 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166882",
-      "id_commande_v2i": "260708000204",
-      "code_cote": "B",
-      "patient": "CLAESSENS PATRICIA",
-      "job_cosium": "J133036213",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 11:07",
-      "detail": "Réf: CLAESSENS PATRICIA / J133036213 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
