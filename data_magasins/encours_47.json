@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:22",
+  "derniere_mise_a_jour": "09/07/2026 10:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166739",
@@ -19,10 +19,10 @@
       "patient": "GERY WENDY",
       "job_cosium": "J160021088",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 15:03",
-      "detail": "Réf: GERY WENDY / J160021088 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "09/07/2026 10:24",
+      "detail": "Réf: GERY WENDY / J160021088 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -73,177 +73,21 @@
       }
     },
     {
-      "ord_numb": "            10166777",
-      "id_commande_v2i": "260708000099",
-      "code_cote": "B",
-      "patient": "SOARES RIBEIRO ERICA",
-      "job_cosium": "J160021091",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 15:32",
-      "detail": "Réf: SOARES RIBEIRO ERICA / J160021091 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166863",
-      "id_commande_v2i": "260708000185",
-      "code_cote": "B",
-      "patient": "ARBAOUI ZAHRA",
-      "job_cosium": "J160021041",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 17:22",
-      "detail": "Réf: ARBAOUI ZAHRA / J160021041 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.75",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.2",
-        "hauteur": "30.3",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.2",
-        "hauteur": "30.6",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166922",
-      "id_commande_v2i": "260708000244",
-      "code_cote": "B",
-      "patient": "SOARES MARTINS DA COSTA MARIAN",
-      "job_cosium": "J160021092",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:38",
-      "detail": "Réf: SOARES MARTINS DA COSTA MARIAN / J160021092 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-4.50",
-        "cylindre": "0.75",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.6 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.75",
-        "cylindre": "0.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166924",
-      "id_commande_v2i": "260708000246",
+      "ord_numb": "            10166923",
+      "id_commande_v2i": "260708000245",
       "code_cote": "B",
       "patient": "ALFONSI NELLY",
-      "job_cosium": "J160021090-01",
+      "job_cosium": "J160021090-02",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:38",
-      "detail": "Réf: ALFONSI NELLY / J160021090-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "date_dernier_statut": "09/07/2026 10:24",
+      "detail": "Réf: ALFONSI NELLY / J160021090-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "60",
         "sphere": "2.75",
         "cylindre": "1.00",
@@ -257,12 +101,14 @@
         "ecart_pupillaire": "29.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista St. Uni 1.5"
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
         "diametre": "60",
         "sphere": "2.75",
         "cylindre": "0.75",
@@ -276,7 +122,63 @@
         "ecart_pupillaire": "29.0",
         "hauteur": "0.0",
         "supplements": [
-          "Vista St. Uni 1.5"
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166865",
+      "id_commande_v2i": "260708000187",
+      "code_cote": "B",
+      "patient": "EL IDRISSI NOUR",
+      "job_cosium": "J160021093",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:23",
+      "detail": "Réf: EL IDRISSI NOUR / J160021093 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.00",
+        "cylindre": "3.75",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.25",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C"
         ]
       }
     },
@@ -331,60 +233,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166865",
-      "id_commande_v2i": "260708000187",
-      "code_cote": "B",
-      "patient": "EL IDRISSI NOUR",
-      "job_cosium": "J160021093",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 16:49",
-      "detail": "Réf: EL IDRISSI NOUR / J160021093 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.00",
-        "cylindre": "3.75",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "1.00",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C"
         ]
       }
     },
@@ -451,21 +299,177 @@
       }
     },
     {
-      "ord_numb": "            10166923",
-      "id_commande_v2i": "260708000245",
+      "ord_numb": "            10166777",
+      "id_commande_v2i": "260708000099",
+      "code_cote": "B",
+      "patient": "SOARES RIBEIRO ERICA",
+      "job_cosium": "J160021091",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: SOARES RIBEIRO ERICA / J160021091 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166863",
+      "id_commande_v2i": "260708000185",
+      "code_cote": "B",
+      "patient": "ARBAOUI ZAHRA",
+      "job_cosium": "J160021041",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: ARBAOUI ZAHRA / J160021041 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.2",
+        "hauteur": "30.3",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.2",
+        "hauteur": "30.6",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166922",
+      "id_commande_v2i": "260708000244",
+      "code_cote": "B",
+      "patient": "SOARES MARTINS DA COSTA MARIAN",
+      "job_cosium": "J160021092",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: SOARES MARTINS DA COSTA MARIAN / J160021092 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-4.50",
+        "cylindre": "0.75",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.6 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.75",
+        "cylindre": "0.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.6 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166924",
+      "id_commande_v2i": "260708000246",
       "code_cote": "B",
       "patient": "ALFONSI NELLY",
-      "job_cosium": "J160021090-02",
+      "job_cosium": "J160021090-01",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 18:56",
-      "detail": "Réf: ALFONSI NELLY / J160021090-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: ALFONSI NELLY / J160021090-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
+        "verre": "Stock",
+        "type": "Stock",
         "diametre": "60",
         "sphere": "2.75",
         "cylindre": "1.00",
@@ -479,14 +483,12 @@
         "ecart_pupillaire": "29.0",
         "hauteur": "0.0",
         "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Vista St. Uni 1.5"
         ]
       },
       "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
+        "verre": "Stock",
+        "type": "Stock",
         "diametre": "60",
         "sphere": "2.75",
         "cylindre": "0.75",
@@ -500,9 +502,7 @@
         "ecart_pupillaire": "29.0",
         "hauteur": "0.0",
         "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Vista St. Uni 1.5"
         ]
       }
     },
@@ -565,10 +565,10 @@
       "patient": "MANGOENDIKROMO SANTUSHA SUZY",
       "job_cosium": "J160021079",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:42",
-      "detail": "Réf: MANGOENDIKROMO SANTUSHA SUZY / J160021079 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: MANGOENDIKROMO SANTUSHA SUZY / J160021079 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -627,10 +627,10 @@
       "patient": "DEL GIUDICE MARIO",
       "job_cosium": "J160021077-01",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 10:15",
-      "detail": "Réf: DEL GIUDICE MARIO / J160021077-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: DEL GIUDICE MARIO / J160021077-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -679,10 +679,10 @@
       "patient": "KOLODZIEJ MELANIE",
       "job_cosium": "J160021076-01",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 17:15",
-      "detail": "Réf: KOLODZIEJ MELANIE / J160021076-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: KOLODZIEJ MELANIE / J160021076-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -741,10 +741,10 @@
       "patient": "KOLODZIEJ MELANIE",
       "job_cosium": "J160021076-02",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 09:42",
-      "detail": "Réf: KOLODZIEJ MELANIE / J160021076-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: KOLODZIEJ MELANIE / J160021076-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -801,10 +801,10 @@
       "patient": "DUTERTRE MICHELLE",
       "job_cosium": "J160021074-02",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "09/07/2026 10:15",
-      "detail": "Réf: DUTERTRE MICHELLE / J160021074-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: DUTERTRE MICHELLE / J160021074-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -853,10 +853,10 @@
       "patient": "DUTERTRE MICHELLE",
       "job_cosium": "J160021074-01",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "08/07/2026 14:22",
-      "detail": "Réf: DUTERTRE MICHELLE / J160021074-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: DUTERTRE MICHELLE / J160021074-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -973,10 +973,10 @@
       "patient": "POUSSEROT CATHERINE",
       "job_cosium": "J160021045",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "08/07/2026 17:16",
-      "detail": "Réf: POUSSEROT CATHERINE / J160021045 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "09/07/2026 10:31",
+      "detail": "Réf: POUSSEROT CATHERINE / J160021045 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
