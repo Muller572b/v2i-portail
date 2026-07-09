@@ -10,8 +10,60 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "09/07/2026 16:37",
+  "derniere_mise_a_jour": "09/07/2026 16:52",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167056",
+      "id_commande_v2i": "260709000101",
+      "code_cote": "B",
+      "patient": "GIAMMARI STCHEGLOFF ANGELA",
+      "job_cosium": "J146022927",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 16:41",
+      "detail": "Réf: GIAMMARI STCHEGLOFF ANGELA / J146022927 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "0.25",
+        "axe": 112,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 104,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167034",
       "id_commande_v2i": "260709000079",
@@ -61,58 +113,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167056",
-      "id_commande_v2i": "260709000101",
-      "code_cote": "B",
-      "patient": "GIAMMARI STCHEGLOFF ANGELA",
-      "job_cosium": "J146022927",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 13:13",
-      "detail": "Réf: GIAMMARI STCHEGLOFF ANGELA / J146022927 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "0.25",
-        "axe": 112,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.25",
-        "axe": 104,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
