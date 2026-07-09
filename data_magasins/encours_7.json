@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:37",
+  "derniere_mise_a_jour": "09/07/2026 10:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166957",
@@ -19,10 +19,10 @@
       "patient": "EL HIRECH KARIM",
       "job_cosium": "",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 08:51",
-      "detail": "Réf: EL HIRECH KARIM — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "09/07/2026 10:50",
+      "detail": "Réf: EL HIRECH KARIM — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -65,6 +65,68 @@
           "CLA Unifocal 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166887",
+      "id_commande_v2i": "260708000209",
+      "code_cote": "B",
+      "patient": "MANUELLI ELIANE MARIE",
+      "job_cosium": "J128042746",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:40",
+      "detail": "Réf: MANUELLI ELIANE MARIE / J128042746 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 155,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 40,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Vista Delta Confort2 1.5 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
         ]
       }
     },
@@ -327,68 +389,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166887",
-      "id_commande_v2i": "260708000209",
-      "code_cote": "B",
-      "patient": "MANUELLI ELIANE MARIE",
-      "job_cosium": "J128042746",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 17:59",
-      "detail": "Réf: MANUELLI ELIANE MARIE / J128042746 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 155,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 40,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Vista Delta Confort2 1.5 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Précalibrage Inclus"
         ]
       }
     },
