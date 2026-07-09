@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:22",
+  "derniere_mise_a_jour": "09/07/2026 10:37",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166827",
@@ -73,6 +73,66 @@
       }
     },
     {
+      "ord_numb": "            10166870",
+      "id_commande_v2i": "260708000192",
+      "code_cote": "B",
+      "patient": "MUNSCH LAURE",
+      "job_cosium": "J127031221",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:29",
+      "detail": "Réf: MUNSCH LAURE / J127031221 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.5",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.75",
+        "cylindre": "1.00",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.5",
+        "ecart_pupillaire": "27.5",
+        "hauteur": "25.0",
+        "supplements": [
+          "AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166825",
       "id_commande_v2i": "260708000147",
       "code_cote": "B",
@@ -123,66 +183,6 @@
         "supplements": [
           "St. Uni 1.5",
           "Teinte Noir D"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166870",
-      "id_commande_v2i": "260708000192",
-      "code_cote": "B",
-      "patient": "MUNSCH LAURE",
-      "job_cosium": "J127031221",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 17:07",
-      "detail": "Réf: MUNSCH LAURE / J127031221 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.5",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.75",
-        "cylindre": "1.00",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.5",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "25.0",
-        "supplements": [
-          "AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
