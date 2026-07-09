@@ -10,8 +10,60 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:52",
+  "derniere_mise_a_jour": "09/07/2026 11:07",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10166994",
+      "id_commande_v2i": "260709000039",
+      "code_cote": "B",
+      "patient": "PERINETTI Martin",
+      "job_cosium": "J131018924",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 10:54",
+      "detail": "Réf: PERINETTI Martin / J131018924 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166840",
       "id_commande_v2i": "260708000162",
