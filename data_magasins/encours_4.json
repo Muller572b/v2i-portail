@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "09/07/2026 12:52",
+  "derniere_mise_a_jour": "09/07/2026 13:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166980",
@@ -75,6 +75,68 @@
       }
     },
     {
+      "ord_numb": "            10167019",
+      "id_commande_v2i": "260709000064",
+      "code_cote": "B",
+      "patient": "ANTONELLI JEAN-LOUIS",
+      "job_cosium": "J144102431-02",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:54",
+      "detail": "Réf: ANTONELLI JEAN-LOUIS / J144102431-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.75",
+        "cylindre": "2.00",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.5",
+        "supplements": [
+          "Affiny Confort2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166978",
       "id_commande_v2i": "260709000023",
       "code_cote": "B",
@@ -127,68 +189,6 @@
         "hauteur": "24.0",
         "supplements": [
           "Tchin Affiny Equilibre2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167019",
-      "id_commande_v2i": "260709000064",
-      "code_cote": "B",
-      "patient": "ANTONELLI JEAN-LOUIS",
-      "job_cosium": "J144102431-02",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 12:22",
-      "detail": "Réf: ANTONELLI JEAN-LOUIS / J144102431-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "1.50",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "Affiny Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.75",
-        "cylindre": "2.00",
-        "axe": 175,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.5",
-        "supplements": [
-          "Affiny Confort2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
