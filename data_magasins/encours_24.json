@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "09/07/2026 11:52",
+  "derniere_mise_a_jour": "09/07/2026 12:07",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166956",
@@ -71,6 +71,64 @@
       }
     },
     {
+      "ord_numb": "            10166968",
+      "id_commande_v2i": "260709000013",
+      "code_cote": "B",
+      "patient": "RIVEAU SYMON",
+      "job_cosium": "J133036221-02",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 12:01",
+      "detail": "Réf: RIVEAU SYMON / J133036221-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "1.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Teinte Jaune C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "1.00",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Teinte Jaune C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166967",
       "id_commande_v2i": "260709000012",
       "code_cote": "B",
@@ -119,64 +177,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.6 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166968",
-      "id_commande_v2i": "260709000013",
-      "code_cote": "B",
-      "patient": "RIVEAU SYMON",
-      "job_cosium": "J133036221-02",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 10:13",
-      "detail": "Réf: RIVEAU SYMON / J133036221-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "1.25",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Teinte Jaune C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "1.00",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Teinte Jaune C"
         ]
       }
     },
@@ -847,6 +847,70 @@
       }
     },
     {
+      "ord_numb": "            10166920",
+      "id_commande_v2i": "260708000242",
+      "code_cote": "B",
+      "patient": "PACCINI ALEXANDRE",
+      "job_cosium": "J133036219-03",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 12:01",
+      "detail": "Réf: PACCINI ALEXANDRE / J133036219-03 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.00",
+        "cylindre": "1.00",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.00",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Unitek2 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166921",
       "id_commande_v2i": "260708000243",
       "code_cote": "B",
@@ -902,70 +966,6 @@
           "Unitek2 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166920",
-      "id_commande_v2i": "260708000242",
-      "code_cote": "B",
-      "patient": "PACCINI ALEXANDRE",
-      "job_cosium": "J133036219-03",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 09:40",
-      "detail": "Réf: PACCINI ALEXANDRE / J133036219-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.00",
-        "cylindre": "1.00",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.00",
-        "cylindre": "0.25",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Unitek2 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Teinte Gris C",
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
