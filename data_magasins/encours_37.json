@@ -10,64 +10,8 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "09/07/2026 14:22",
+  "derniere_mise_a_jour": "09/07/2026 14:37",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10166975",
-      "id_commande_v2i": "260709000020",
-      "code_cote": "B",
-      "patient": "EMMANUELLI MARTIN ANTOINE",
-      "job_cosium": "J138020647-02",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 11:30",
-      "detail": "Réf: EMMANUELLI MARTIN ANTOINE / J138020647-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "35.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Brun Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Brun Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10166974",
       "id_commande_v2i": "260709000019",
@@ -117,6 +61,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Non durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166975",
+      "id_commande_v2i": "260709000020",
+      "code_cote": "B",
+      "patient": "EMMANUELLI MARTIN ANTOINE",
+      "job_cosium": "J138020647-02",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 14:24",
+      "detail": "Réf: EMMANUELLI MARTIN ANTOINE / J138020647-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "1.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "35.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
         ]
       }
     },
