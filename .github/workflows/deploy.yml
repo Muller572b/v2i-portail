@@ -3,6 +3,9 @@ name: "Déploiement Automatique du Portail"
 on:
   push:
     branches: ["main", "beta"]
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,10 +14,33 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false  # On ne tue pas un déploiement Pages en cours, on le laisse finir
+  cancel-in-progress: false
 
 jobs:
+  sync-pdf:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Récupération du dépôt
+        uses: actions/checkout@v4
+      - name: Transfert des PDF vers portail-cartedevue
+        env:
+          TOKEN: ${{ secrets.MES_PDF_TOKEN }}
+        run: |
+          git config --global user.email "bot@v2i.fr"
+          git config --global user.name "Bot Transfert"
+          git clone https://x-access-token:$TOKEN@github.com/Muller572b/portail-cartedevue.git temp_sync
+          cp -r cartedevue/* temp_sync/
+          cd temp_sync
+          git add .
+          git commit -m "Sync auto des PDF [skip ci]" || echo "Rien à commettre"
+          git push origin main
+          cd ..
+          rm -rf temp_sync
+
   deploy:
+    needs: sync-pdf
+    if: github.event_name != 'schedule'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -24,19 +50,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-
       - name: Récupération des fichiers de Test (beta)
         uses: actions/checkout@v4
         with:
           ref: beta
           path: temp_beta
-
-      # --- DIAGNOSTIC ---
       - name: Diagnostic de la taille des dossiers
         run: |
           du -sh */ 2>/dev/null || true
-
-      # --- ETAPE 1 : PYTHON ---
       - name: Configuration de Python
         uses: actions/setup-python@v5
         with:
@@ -47,72 +68,46 @@ jobs:
         run: if [ -f "fluxactu.py" ]; then python fluxactu.py; fi
       - name: Génération de l'index des documents
         run: if [ -f "scannerdocumentdispo.py" ]; then python scannerdocumentdispo.py; fi
-
-      # --- ETAPE 2 : TRANSFERT DES PDF ---
       - name: Transfert des PDF vers portail-cartedevue
         env:
           TOKEN: ${{ secrets.MES_PDF_TOKEN }}
         run: |
           git config --global user.email "bot@v2i.fr"
           git config --global user.name "Bot Transfert"
-          # On clone le dépôt cible dans un dossier temporaire
           git clone https://x-access-token:$TOKEN@github.com/Muller572b/portail-cartedevue.git temp_sync
-          # On copie tout le contenu de cartedevue vers ce dépôt
           cp -r cartedevue/* temp_sync/
           cd temp_sync
           git add .
-          # [skip ci] permet d'éviter les boucles de déclenchement infinies
           git commit -m "Sync auto des PDF [skip ci]" || echo "Rien à commettre"
           git push origin main
           cd ..
           rm -rf temp_sync
-
-      # --- ETAPE 3 : CONSTRUCTION DU DOSSIER PUBLIC ---
       - name: Construction dynamique de l'espace de Production et Beta
         run: |
           mkdir -p public
-          # Copie des fichiers web et JSON de la branche principale (main)
           cp *.html public/ 2>/dev/null || true
           cp *.js public/ 2>/dev/null || true
           cp *.css public/ 2>/dev/null || true
           cp documents.json public/ 2>/dev/null || true
-           
-          # Copie des dossiers de production (Dossiers lourds de référence)
           cp -r documentcommun public/ 2>/dev/null || true
           cp -r documents_magasin public/ 2>/dev/null || true
-           
-          # Autres ressources de production
           cp -r images public/ 2>/dev/null || true
           cp -r data public/ 2>/dev/null || true
           cp -r data_magasins public/ 2>/dev/null || true
           cp -r data_archives public/ 2>/dev/null || true
-
-          # --- CORRECTION POUR LA VERSION BETA (Version optimisée sans doublons) ---
-          # On crée un sous-dossier "beta" dans le dossier public final
           mkdir -p public/beta
-          
-          # On ne copie QUE le code et le JSON modifiés de la branche beta
           cp temp_beta/*.html public/beta/ 2>/dev/null || true
           cp temp_beta/*.js public/beta/ 2>/dev/null || true
           cp temp_beta/*.css public/beta/ 2>/dev/null || true
           cp documents.json public/beta/ 2>/dev/null || true
-          
-          # On copie aussi les sous-dossiers de code/design légers s'ils existent en beta
           cp -r temp_beta/js public/beta/ 2>/dev/null || true
           cp -r temp_beta/images public/beta/ 2>/dev/null || true
-
-          # NOTE : Les dossiers lourds (documentcommun, data_magasins, eBlcertifie...) 
-          # de la branche beta sont volontairement ignorés pour économiser l'espace.
-
-      # --- ETAPE 4 : DEPLOIEMENT ---
       - name: Configuration de GitHub Pages
         uses: actions/configure-pages@v4
-
       - name: Téléchargement de l'artefact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'public' # Prise en charge automatique du nom standard
-
+          path: 'public'
       - name: Déploiement sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
