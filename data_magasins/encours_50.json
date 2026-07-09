@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "09/07/2026 10:37",
+  "derniere_mise_a_jour": "09/07/2026 10:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166679",
@@ -133,6 +133,68 @@
       }
     },
     {
+      "ord_numb": "            10166950",
+      "id_commande_v2i": "260708000272",
+      "code_cote": "B",
+      "patient": "MENANT SIMONE",
+      "job_cosium": "J600029477",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "09/07/2026 10:50",
+      "detail": "Réf: MENANT SIMONE / J600029477 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Xtra Design2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Xtra Design2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166954",
       "id_commande_v2i": "260708000276",
       "code_cote": "B",
@@ -188,68 +250,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166950",
-      "id_commande_v2i": "260708000272",
-      "code_cote": "B",
-      "patient": "MENANT SIMONE",
-      "job_cosium": "J600029477",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 10:22",
-      "detail": "Réf: MENANT SIMONE / J600029477 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Xtra Design2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Xtra Design2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
