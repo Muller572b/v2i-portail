@@ -10,7 +10,7 @@
     "email": "kbo@balbi.fr",
     "mot_de_passe_portail": "kbo"
   },
-  "derniere_mise_a_jour": "10/07/2026 15:03",
+  "derniere_mise_a_jour": "10/07/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167274",
@@ -71,6 +71,64 @@
       }
     },
     {
+      "ord_numb": "            10167272",
+      "id_commande_v2i": "260710000064",
+      "code_cote": "B",
+      "patient": "TITA MARIO",
+      "job_cosium": "J704001259-01",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 15:09",
+      "detail": "Réf: TITA MARIO / J704001259-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "4.00",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Polar G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "3.00",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Polar G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167273",
       "id_commande_v2i": "260710000065",
       "code_cote": "B",
@@ -120,64 +178,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Uni 1.5 Non Durci",
-          "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167272",
-      "id_commande_v2i": "260710000064",
-      "code_cote": "B",
-      "patient": "TITA MARIO",
-      "job_cosium": "J704001259-01",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 14:25",
-      "detail": "Réf: TITA MARIO / J704001259-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "4.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Polar G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "3.00",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Polar G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
           "Montage"
         ]
       }
