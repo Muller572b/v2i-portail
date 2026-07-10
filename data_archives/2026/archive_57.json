@@ -5,7 +5,7 @@
     "nom": "Optissimo Mezzavia (OPM)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "09/07/2026 à 06:20",
+  "derniere_validation": "10/07/2026 à 06:20",
   "commandes_expediees": [
     {
       "ord_numb": "            10166287",
@@ -197,6 +197,41 @@
       }
     },
     {
+      "ord_numb": "            10166537",
+      "id_commande_v2i": "260707000129",
+      "id_bl_v2i": "260707000129",
+      "code_cote": "L",
+      "patient": "GRELLI ILIANE",
+      "job_cosium": "J162005276",
+      "detail": "Réf: GRELLI ILIANE / J162005276 — (Stock) — État: Expédiée",
+      "date_entree": "07/07/2026",
+      "date_expedition": "07/07/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "07/07/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10165914",
       "id_commande_v2i": "260703000094",
       "id_bl_v2i": "260703000094",
@@ -311,94 +346,6 @@
       }
     },
     {
-      "ord_numb": "            10166537",
-      "id_commande_v2i": "260707000129",
-      "id_bl_v2i": "260707000129",
-      "code_cote": "L",
-      "patient": "GRELLI ILIANE",
-      "job_cosium": "J162005276",
-      "detail": "Réf: GRELLI ILIANE / J162005276 — (Stock) — État: Expédiée",
-      "date_entree": "07/07/2026",
-      "date_expedition": "07/07/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "07/07/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.25",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166277",
-      "id_commande_v2i": "260706000102",
-      "id_bl_v2i": "260706000102",
-      "code_cote": "B",
-      "patient": "GUBANTI Anthony",
-      "job_cosium": "",
-      "detail": "Réf: GUBANTI Anthony — (Stock) — État: Expédiée",
-      "date_entree": "06/07/2026",
-      "date_expedition": "06/07/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "06/07/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165648",
       "id_commande_v2i": "260702000079",
       "id_bl_v2i": "260702000079",
@@ -503,6 +450,59 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166277",
+      "id_commande_v2i": "260706000102",
+      "id_bl_v2i": "260706000102",
+      "code_cote": "B",
+      "patient": "GUBANTI Anthony",
+      "job_cosium": "",
+      "detail": "Réf: GUBANTI Anthony — (Stock) — État: Expédiée",
+      "date_entree": "06/07/2026",
+      "date_expedition": "06/07/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "06/07/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
