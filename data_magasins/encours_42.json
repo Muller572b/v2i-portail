@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "10/07/2026 09:51",
+  "derniere_mise_a_jour": "10/07/2026 10:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166989",
@@ -392,60 +392,6 @@
       }
     },
     {
-      "ord_numb": "            10166781",
-      "id_commande_v2i": "260708000103",
-      "code_cote": "B",
-      "patient": "BIANCHINI MARINA",
-      "job_cosium": "J148018144-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 15:09",
-      "detail": "Réf: BIANCHINI MARINA / J148018144-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "29.0",
-        "supplements": [
-          "Tchin Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166773",
       "id_commande_v2i": "260708000095",
       "code_cote": "B",
@@ -496,6 +442,60 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Gris B"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166781",
+      "id_commande_v2i": "260708000103",
+      "code_cote": "B",
+      "patient": "BIANCHINI MARINA",
+      "job_cosium": "J148018144-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "10/07/2026 09:56",
+      "detail": "Réf: BIANCHINI MARINA / J148018144-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "29.0",
+        "supplements": [
+          "Tchin Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
         ]
       }
     },
