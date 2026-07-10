@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "10/07/2026 08:52",
+  "derniere_mise_a_jour": "10/07/2026 09:21",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167210",
@@ -361,6 +361,58 @@
       }
     },
     {
+      "ord_numb": "            10167141",
+      "id_commande_v2i": "260709000186",
+      "code_cote": "B",
+      "patient": "CARBONI JEAN FRANCOIS",
+      "job_cosium": "J134029530",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 08:56",
+      "detail": "Réf: CARBONI JEAN FRANCOIS / J134029530 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166963",
       "id_commande_v2i": "260709000008",
       "code_cote": "B",
@@ -467,58 +519,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée au modèle A-C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167141",
-      "id_commande_v2i": "260709000186",
-      "code_cote": "B",
-      "patient": "CARBONI JEAN FRANCOIS",
-      "job_cosium": "J134029530",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 18:01",
-      "detail": "Réf: CARBONI JEAN FRANCOIS / J134029530 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
         ]
       }
     },
