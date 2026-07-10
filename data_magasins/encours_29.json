@@ -10,8 +10,64 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "10/07/2026 16:25",
+  "derniere_mise_a_jour": "10/07/2026 16:33",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167333",
+      "id_commande_v2i": "260710000125",
+      "code_cote": "B",
+      "patient": "Didier Cohen",
+      "job_cosium": "Didier Cohen",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 16:27",
+      "detail": "Réf: Didier Cohen / Didier Cohen — (Fabrication RX) — État: Order modified",
+      "statut_code": "EDIT",
+      "statut_affichage": "Order modified",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "-1.50",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre 1.67 Durci Arh",
+          "Durci Inclus",
+          "Super AR Antistatic Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "-0.50",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre 1.67 Durci Arh",
+          "Durci Inclus",
+          "Super AR Antistatic Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167235",
       "id_commande_v2i": "260710000027",
@@ -402,13 +458,13 @@
       }
     },
     {
-      "ord_numb": "            10167333",
-      "id_commande_v2i": "260710000125",
+      "ord_numb": "            10167334",
+      "id_commande_v2i": "260710000126",
       "code_cote": "B",
       "patient": "Sans nom",
       "job_cosium": "",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 16:21",
+      "date_dernier_statut": "10/07/2026 16:26",
       "detail": "Réf: Sans nom — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
@@ -428,11 +484,11 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
+        "hauteur": "20.0",
         "supplements": [
-          "Delta Equilibre 1.67 Durci Arh",
+          "Vista Delta Equilibre 1.6 Polar Gris Dur Arh",
           "Durci Inclus",
-          "Super AR Antistatic Inclus"
+          "Antireflet interne face CC inclus"
         ]
       },
       "oeil_gauche": {
@@ -449,11 +505,11 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
+        "hauteur": "20.0",
         "supplements": [
-          "Delta Equilibre 1.67 Durci Arh",
+          "Vista Delta Equilibre 1.6 Polar Gris Dur Arh",
           "Durci Inclus",
-          "Super AR Antistatic Inclus"
+          "Antireflet interne face CC inclus"
         ]
       }
     },
