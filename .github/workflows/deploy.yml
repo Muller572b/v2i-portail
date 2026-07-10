@@ -4,6 +4,8 @@ on:
   push:
     branches: ["main", "beta"]
   schedule:
+    # Réveil forcé du planning GitHub : le commentaire ci-dessous suffit
+    # test cron 
     - cron: '00 6 * * *'
   workflow_dispatch:
 
