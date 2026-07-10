@@ -10,8 +10,62 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "10/07/2026 11:21",
+  "derniere_mise_a_jour": "10/07/2026 11:33",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167227",
+      "id_commande_v2i": "260710000019",
+      "code_cote": "B",
+      "patient": "COLOMBANI MARIE-LOUISE",
+      "job_cosium": "J148018162-03",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 11:29",
+      "detail": "Réf: COLOMBANI MARIE-LOUISE / J148018162-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.1",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "2.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167225",
       "id_commande_v2i": "260710000017",
@@ -117,60 +171,6 @@
           "Uni 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167227",
-      "id_commande_v2i": "260710000019",
-      "code_cote": "B",
-      "patient": "COLOMBANI MARIE-LOUISE",
-      "job_cosium": "J148018162-03",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 11:17",
-      "detail": "Réf: COLOMBANI MARIE-LOUISE / J148018162-03 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.1",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "2.00",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Brun C"
         ]
       }
     },
@@ -502,10 +502,10 @@
       "patient": "CASANOVA FREDERIC",
       "job_cosium": "J148018159-01",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 17:07",
-      "detail": "Réf: CASANOVA FREDERIC / J148018159-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "10/07/2026 11:28",
+      "detail": "Réf: CASANOVA FREDERIC / J148018159-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
