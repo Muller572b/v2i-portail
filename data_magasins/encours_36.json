@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "10/07/2026 09:51",
+  "derniere_mise_a_jour": "10/07/2026 10:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167031",
@@ -69,6 +69,62 @@
       }
     },
     {
+      "ord_numb": "            10167045",
+      "id_commande_v2i": "260709000090",
+      "code_cote": "B",
+      "patient": "CHIAPPE JEANINE",
+      "job_cosium": "J139053595-02",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 09:55",
+      "detail": "Réf: CHIAPPE JEANINE / J139053595-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Prestige Flex 1.5 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Prestige Flex 1.5 Foto Brun Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167032",
       "id_commande_v2i": "260709000077",
       "code_cote": "B",
@@ -120,62 +176,6 @@
         "supplements": [
           "D2 Uni 1.5 Durci",
           "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167045",
-      "id_commande_v2i": "260709000090",
-      "code_cote": "B",
-      "patient": "CHIAPPE JEANINE",
-      "job_cosium": "J139053595-02",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 09:04",
-      "detail": "Réf: CHIAPPE JEANINE / J139053595-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Prestige Flex 1.5 Foto Brun Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Prestige Flex 1.5 Foto Brun Durci Bz",
-          "AR Blue Zen Inclus",
           "Durci Inclus"
         ]
       }
