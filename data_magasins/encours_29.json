@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "10/07/2026 10:21",
+  "derniere_mise_a_jour": "10/07/2026 10:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167211",
@@ -225,68 +225,16 @@
       }
     },
     {
-      "ord_numb": "            10167111",
-      "id_commande_v2i": "260709000156",
-      "code_cote": "B",
-      "patient": "BOUTRON PAULETTE",
-      "job_cosium": "J121042895",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 09:11",
-      "detail": "Réf: BOUTRON PAULETTE / J121042895 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166986",
       "id_commande_v2i": "260709000031",
       "code_cote": "B",
       "patient": "FEIBELMAN JEAN",
       "job_cosium": "J121042886",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:23",
-      "detail": "Réf: FEIBELMAN JEAN / J121042886 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "10/07/2026 10:30",
+      "detail": "Réf: FEIBELMAN JEAN / J121042886 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -339,10 +287,10 @@
       "patient": "OUADDI KELTOUM",
       "job_cosium": "J121042887",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 12:54",
-      "detail": "Réf: OUADDI KELTOUM / J121042887 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "10/07/2026 10:30",
+      "detail": "Réf: OUADDI KELTOUM / J121042887 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -395,10 +343,10 @@
       "patient": "BIANUCCI VALERIE",
       "job_cosium": "J121042889",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:27",
-      "detail": "Réf: BIANUCCI VALERIE / J121042889 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "10/07/2026 10:30",
+      "detail": "Réf: BIANUCCI VALERIE / J121042889 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -441,6 +389,58 @@
           "Vista Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167111",
+      "id_commande_v2i": "260709000156",
+      "code_cote": "B",
+      "patient": "BOUTRON PAULETTE",
+      "job_cosium": "J121042895",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 09:11",
+      "detail": "Réf: BOUTRON PAULETTE / J121042895 — (Stock) — État: En commande (Rupture)",
+      "statut_code": "EXTN",
+      "statut_affichage": "En commande (Rupture)",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
         ]
       }
     },
