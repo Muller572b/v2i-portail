@@ -10,8 +10,64 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "10/07/2026 15:33",
+  "derniere_mise_a_jour": "10/07/2026 15:48",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167032",
+      "id_commande_v2i": "260709000077",
+      "code_cote": "B",
+      "patient": "PIZZORNI THIERRY",
+      "job_cosium": "J139053588",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 15:42",
+      "detail": "Réf: PIZZORNI THIERRY / J139053588 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-5.25",
+        "cylindre": "1.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Uni 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-5.25",
+        "cylindre": "1.50",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 Uni 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167045",
       "id_commande_v2i": "260709000090",
@@ -293,62 +349,6 @@
           "Uni 1.5 Durci",
           "Durci Inclus",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167032",
-      "id_commande_v2i": "260709000077",
-      "code_cote": "B",
-      "patient": "PIZZORNI THIERRY",
-      "job_cosium": "J139053588",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 14:53",
-      "detail": "Réf: PIZZORNI THIERRY / J139053588 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-5.25",
-        "cylindre": "1.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Uni 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-5.25",
-        "cylindre": "1.50",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 Uni 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus"
         ]
       }
     },
