@@ -5,8 +5,65 @@
     "nom": "Acuitis Bastia (ATB)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "09/07/2026 à 06:20",
+  "derniere_validation": "10/07/2026 à 06:20",
   "commandes_expediees": [
+    {
+      "ord_numb": "            10166312",
+      "id_commande_v2i": "260706000137",
+      "id_bl_v2i": "260706000137",
+      "code_cote": "B",
+      "patient": "KOUIROU ILHAM",
+      "job_cosium": "J602004830-01",
+      "detail": "Réf: KOUIROU ILHAM / J602004830-01 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "06/07/2026",
+      "date_expedition": "09/07/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "09/07/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166309",
       "id_commande_v2i": "260706000134",
@@ -226,68 +283,6 @@
       }
     },
     {
-      "ord_numb": "            10165872",
-      "id_commande_v2i": "260703000052",
-      "id_bl_v2i": "260703000052",
-      "code_cote": "B",
-      "patient": "GRENIER J BAPTISTE",
-      "job_cosium": "J602004826",
-      "detail": "Réf: GRENIER J BAPTISTE / J602004826 — (Fabrication RX) — État: Expédiée",
-      "date_entree": "03/07/2026",
-      "date_expedition": "07/07/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "07/07/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Acui Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "1.00",
-        "base_1": "90",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Acui Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme inf à 4",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166308",
       "id_commande_v2i": "260706000133",
       "id_bl_v2i": "260706000133",
@@ -443,6 +438,68 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165872",
+      "id_commande_v2i": "260703000052",
+      "id_bl_v2i": "260703000052",
+      "code_cote": "B",
+      "patient": "GRENIER J BAPTISTE",
+      "job_cosium": "J602004826",
+      "detail": "Réf: GRENIER J BAPTISTE / J602004826 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "03/07/2026",
+      "date_expedition": "07/07/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "07/07/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Acui Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "1.00",
+        "base_1": "90",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Acui Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Prisme inf à 4",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
