@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "10/07/2026 15:18",
+  "derniere_mise_a_jour": "10/07/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166770",
@@ -67,60 +67,6 @@
       }
     },
     {
-      "ord_numb": "            10166795",
-      "id_commande_v2i": "260708000117",
-      "code_cote": "B",
-      "patient": "3096797450",
-      "job_cosium": "",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "10/07/2026 09:20",
-      "detail": "Réf: 3096797450 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 45,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "INFORMANCE FR M 1.50",
-          "Solitaire"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 135,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "INFORMANCE FR M 1.50",
-          "Solitaire"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166886",
       "id_commande_v2i": "260708000208",
       "code_cote": "B",
@@ -170,6 +116,60 @@
         "hauteur": "0.0",
         "supplements": [
           "INFORMANCE ONE FREE FR 1.50",
+          "Solitaire"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166795",
+      "id_commande_v2i": "260708000117",
+      "code_cote": "B",
+      "patient": "3096797450",
+      "job_cosium": "",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "10/07/2026 15:21",
+      "detail": "Réf: 3096797450 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE FR M 1.50",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE FR M 1.50",
           "Solitaire"
         ]
       }
