@@ -10,8 +10,60 @@
     "email": "ona@balbi.fr",
     "mot_de_passe_portail": "ona"
   },
-  "derniere_mise_a_jour": "10/07/2026 08:52",
+  "derniere_mise_a_jour": "10/07/2026 09:21",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167129",
+      "id_commande_v2i": "260709000174",
+      "code_cote": "B",
+      "patient": "SAMPAIO LIMA FERNANDO",
+      "job_cosium": "J700006123-02",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 09:02",
+      "detail": "Réf: SAMPAIO LIMA FERNANDO / J700006123-02 — (Stock) — État: En commande (Rupture)",
+      "statut_code": "EXTN",
+      "statut_affichage": "En commande (Rupture)",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167127",
       "id_commande_v2i": "260709000172",
@@ -113,58 +165,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.6 Xblue Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167129",
-      "id_commande_v2i": "260709000174",
-      "code_cote": "B",
-      "patient": "SAMPAIO LIMA FERNANDO",
-      "job_cosium": "J700006123-02",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 17:43",
-      "detail": "Réf: SAMPAIO LIMA FERNANDO / J700006123-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "1.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "1.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci"
         ]
       }
     }
