@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "10/07/2026 11:33",
+  "derniere_mise_a_jour": "10/07/2026 11:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167121",
@@ -179,70 +179,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Noir C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166906",
-      "id_commande_v2i": "260708000228",
-      "code_cote": "B",
-      "patient": "DEFRANCHI PIERRE-JEAN",
-      "job_cosium": "J140026375-02",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "10/07/2026 09:02",
-      "detail": "Réf: DEFRANCHI PIERRE-JEAN / J140026375-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 95,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Affiny Confort2 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "Affiny Confort2 1.5 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -599,6 +535,70 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166906",
+      "id_commande_v2i": "260708000228",
+      "code_cote": "B",
+      "patient": "DEFRANCHI PIERRE-JEAN",
+      "job_cosium": "J140026375-02",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "10/07/2026 11:35",
+      "detail": "Réf: DEFRANCHI PIERRE-JEAN / J140026375-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 95,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Affiny Confort2 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "Affiny Confort2 1.5 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
