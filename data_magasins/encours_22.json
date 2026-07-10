@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "10/07/2026 15:33",
+  "derniere_mise_a_jour": "10/07/2026 15:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167210",
@@ -137,10 +137,10 @@
       "patient": "MARTINGAY ALAIN",
       "job_cosium": "J134029534",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 15:23",
-      "detail": "Réf: MARTINGAY ALAIN / J134029534 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "10/07/2026 15:35",
+      "detail": "Réf: MARTINGAY ALAIN / J134029534 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -182,6 +182,62 @@
         "supplements": [
           "CLA Progressif 1.67 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166983",
+      "id_commande_v2i": "260709000028",
+      "code_cote": "B",
+      "patient": "DEMASI PIERRE-ANTOINE",
+      "job_cosium": "J134029518-01",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 15:42",
+      "detail": "Réf: DEMASI PIERRE-ANTOINE / J134029518-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "4.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "4.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Teinte Dégradée Gris C",
           "Durci Inclus"
         ]
       }
@@ -307,62 +363,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166983",
-      "id_commande_v2i": "260709000028",
-      "code_cote": "B",
-      "patient": "DEMASI PIERRE-ANTOINE",
-      "job_cosium": "J134029518-01",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 10:17",
-      "detail": "Réf: DEMASI PIERRE-ANTOINE / J134029518-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.25",
-        "cylindre": "4.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "4.00",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Teinte Dégradée Gris C",
-          "Durci Inclus"
         ]
       }
     },
