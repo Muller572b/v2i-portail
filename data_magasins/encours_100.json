@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": ""
   },
-  "derniere_mise_a_jour": "10/07/2026 14:18",
+  "derniere_mise_a_jour": "10/07/2026 14:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10166764",
@@ -405,62 +405,6 @@
       }
     },
     {
-      "ord_numb": "            10165337",
-      "id_commande_v2i": "260701000013",
-      "code_cote": "B",
-      "patient": "34 JEAN ANTOINE",
-      "job_cosium": "",
-      "date_entree": "01/07/2026",
-      "date_dernier_statut": "10/07/2026 10:30",
-      "detail": "Réf: 34 JEAN ANTOINE — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 06/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10165338",
       "id_commande_v2i": "260701000014",
       "code_cote": "B",
@@ -683,6 +627,62 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10165337",
+      "id_commande_v2i": "260701000013",
+      "code_cote": "B",
+      "patient": "34 JEAN ANTOINE",
+      "job_cosium": "",
+      "date_entree": "01/07/2026",
+      "date_dernier_statut": "10/07/2026 14:26",
+      "detail": "Réf: 34 JEAN ANTOINE — (Fabrication RX) — État: En commande (Rupture)",
+      "statut_code": "EXTN",
+      "statut_affichage": "En commande (Rupture)",
+      "statut": "Livraison prévue : 06/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
