@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "10/07/2026 15:03",
+  "derniere_mise_a_jour": "10/07/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167220",
@@ -135,10 +135,10 @@
       "patient": "ORSATELLI VERONIQUE",
       "job_cosium": "J120030694-01",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 14:48",
-      "detail": "Réf: ORSATELLI VERONIQUE / J120030694-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "10/07/2026 15:08",
+      "detail": "Réf: ORSATELLI VERONIQUE / J120030694-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -187,6 +187,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167291",
+      "id_commande_v2i": "260710000083",
+      "code_cote": "B",
+      "patient": "ORSATELLI VERONIQUE",
+      "job_cosium": "J120030694-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 15:08",
+      "detail": "Réf: ORSATELLI VERONIQUE / J120030694-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "20.0",
+        "supplements": [
+          "Vista Reader3 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "20.0",
+        "supplements": [
+          "Vista Reader3 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -511,62 +567,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167291",
-      "id_commande_v2i": "260710000083",
-      "code_cote": "B",
-      "patient": "ORSATELLI VERONIQUE",
-      "job_cosium": "J120030694-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 13:31",
-      "detail": "Réf: ORSATELLI VERONIQUE / J120030694-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "20.0",
-        "supplements": [
-          "Vista Reader3 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 145,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "20.0",
-        "supplements": [
-          "Vista Reader3 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -1375,10 +1375,10 @@
       "patient": "BACQUET LOANNE",
       "job_cosium": "J120030669-02",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "08/07/2026 18:55",
-      "detail": "Réf: BACQUET LOANNE / J120030669-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "10/07/2026 15:15",
+      "detail": "Réf: BACQUET LOANNE / J120030669-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
