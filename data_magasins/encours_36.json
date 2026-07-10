@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "10/07/2026 09:21",
+  "derniere_mise_a_jour": "10/07/2026 09:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167031",
@@ -831,52 +831,16 @@
       }
     },
     {
-      "ord_numb": "            10166656",
-      "id_commande_v2i": "260707000248",
-      "code_cote": "L",
-      "patient": "BENEDETTI ANNE MARIE",
-      "job_cosium": "J139053562",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "08/07/2026 14:40",
-      "detail": "Réf: BENEDETTI ANNE MARIE / J139053562 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 09/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "1.00",
-        "axe": 10,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "CLA Progressif 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166534",
       "id_commande_v2i": "260707000126",
       "code_cote": "B",
       "patient": "LECOQ JACQUES",
       "job_cosium": "J139053556",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "09/07/2026 16:48",
-      "detail": "Réf: LECOQ JACQUES / J139053556 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "10/07/2026 09:25",
+      "detail": "Réf: LECOQ JACQUES / J139053556 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 13/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -923,6 +887,42 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166656",
+      "id_commande_v2i": "260707000248",
+      "code_cote": "L",
+      "patient": "BENEDETTI ANNE MARIE",
+      "job_cosium": "J139053562",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "08/07/2026 14:40",
+      "detail": "Réf: BENEDETTI ANNE MARIE / J139053562 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 09/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 10,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     }
