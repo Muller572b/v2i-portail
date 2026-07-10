@@ -10,8 +10,66 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "10/07/2026 15:18",
+  "derniere_mise_a_jour": "10/07/2026 15:33",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167307",
+      "id_commande_v2i": "260710000099",
+      "code_cote": "B",
+      "patient": "CASAROLI ANTOINE",
+      "job_cosium": "",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 15:21",
+      "detail": "Réf: CASAROLI ANTOINE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 150,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte G15 C",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte G15 C",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167306",
       "id_commande_v2i": "260710000098",
@@ -67,64 +125,6 @@
           "Media 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167307",
-      "id_commande_v2i": "260710000099",
-      "code_cote": "B",
-      "patient": "CASAROLI ANTOINE",
-      "job_cosium": "",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 14:44",
-      "detail": "Réf: CASAROLI ANTOINE — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 150,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte G15 C",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte G15 C",
           "Optimisé",
           "Précalibrage"
         ]
