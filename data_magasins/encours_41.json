@@ -10,7 +10,7 @@
     "email": "optique.calvi@wanadoo.fr",
     "mot_de_passe_portail": "cao"
   },
-  "derniere_mise_a_jour": "10/07/2026 08:37",
+  "derniere_mise_a_jour": "10/07/2026 08:52",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167001",
@@ -123,6 +123,58 @@
       }
     },
     {
+      "ord_numb": "            10167118",
+      "id_commande_v2i": "260709000163",
+      "code_cote": "B",
+      "patient": "HAMMAMI NAJIBA",
+      "job_cosium": "J151012234",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 08:46",
+      "detail": "Réf: HAMMAMI NAJIBA / J151012234 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167117",
       "id_commande_v2i": "260709000162",
       "code_cote": "B",
@@ -175,58 +227,6 @@
           "Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167118",
-      "id_commande_v2i": "260709000163",
-      "code_cote": "B",
-      "patient": "HAMMAMI NAJIBA",
-      "job_cosium": "J151012234",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 17:25",
-      "detail": "Réf: HAMMAMI NAJIBA / J151012234 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
