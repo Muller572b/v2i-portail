@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "11/07/2026 14:05",
+  "derniere_mise_a_jour": "11/07/2026 14:20",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167440",
@@ -61,40 +61,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167415",
-      "id_commande_v2i": "260710000207",
-      "code_cote": "L",
-      "patient": "MELLA LUC",
-      "job_cosium": "J137036362",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "11/07/2026 12:45",
-      "detail": "Réf: MELLA LUC / J137036362 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -319,6 +285,40 @@
       }
     },
     {
+      "ord_numb": "            10167415",
+      "id_commande_v2i": "260710000207",
+      "code_cote": "L",
+      "patient": "MELLA LUC",
+      "job_cosium": "J137036362",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "11/07/2026 14:16",
+      "detail": "Réf: MELLA LUC / J137036362 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166982",
       "id_commande_v2i": "260709000027",
       "code_cote": "B",
@@ -495,10 +495,10 @@
       "patient": "OTTAVIANI HENRIETTE",
       "job_cosium": "J137036354",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 10:49",
-      "detail": "Réf: OTTAVIANI HENRIETTE / J137036354 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "11/07/2026 14:16",
+      "detail": "Réf: OTTAVIANI HENRIETTE / J137036354 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -547,10 +547,10 @@
       "patient": "RUGGERI SANDRINE",
       "job_cosium": "J137036348-02",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 17:27",
-      "detail": "Réf: RUGGERI SANDRINE / J137036348-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "11/07/2026 14:16",
+      "detail": "Réf: RUGGERI SANDRINE / J137036348-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -603,10 +603,10 @@
       "patient": "RUGGERI SANDRINE",
       "job_cosium": "J137036348-01",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "09/07/2026 17:26",
-      "detail": "Réf: RUGGERI SANDRINE / J137036348-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "11/07/2026 14:16",
+      "detail": "Réf: RUGGERI SANDRINE / J137036348-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -659,10 +659,10 @@
       "patient": "VAUTHIER MARINA",
       "job_cosium": "J137036350",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "10/07/2026 10:19",
-      "detail": "Réf: VAUTHIER MARINA / J137036350 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "11/07/2026 14:16",
+      "detail": "Réf: VAUTHIER MARINA / J137036350 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -713,10 +713,10 @@
       "patient": "CHAROY PATRICK HENRI",
       "job_cosium": "J137036344",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "10/07/2026 11:35",
-      "detail": "Réf: CHAROY PATRICK HENRI / J137036344 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "11/07/2026 14:16",
+      "detail": "Réf: CHAROY PATRICK HENRI / J137036344 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
