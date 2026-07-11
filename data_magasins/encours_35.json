@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "11/07/2026 12:35",
+  "derniere_mise_a_jour": "11/07/2026 12:50",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167417",
@@ -737,6 +737,58 @@
       }
     },
     {
+      "ord_numb": "            10167330",
+      "id_commande_v2i": "260710000122",
+      "code_cote": "B",
+      "patient": "BENMOKADEM MOHAMED",
+      "job_cosium": "J120030697-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "11/07/2026 12:45",
+      "detail": "Réf: BENMOKADEM MOHAMED / J120030697-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "1.50",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167329",
       "id_commande_v2i": "260710000121",
       "code_cote": "B",
@@ -793,58 +845,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167330",
-      "id_commande_v2i": "260710000122",
-      "code_cote": "B",
-      "patient": "BENMOKADEM MOHAMED",
-      "job_cosium": "J120030697-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 16:14",
-      "detail": "Réf: BENMOKADEM MOHAMED / J120030697-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "1.50",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Xblue Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Xblue Arh"
         ]
       }
     },

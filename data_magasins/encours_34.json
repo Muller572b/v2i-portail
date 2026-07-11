@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "11/07/2026 12:35",
+  "derniere_mise_a_jour": "11/07/2026 12:50",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167440",
@@ -61,6 +61,40 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167415",
+      "id_commande_v2i": "260710000207",
+      "code_cote": "L",
+      "patient": "MELLA LUC",
+      "job_cosium": "J137036362",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "11/07/2026 12:45",
+      "detail": "Réf: MELLA LUC / J137036362 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.50",
+        "axe": 35,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
@@ -281,40 +315,6 @@
         "supplements": [
           "2de Uni 1.5 Non Durci",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167415",
-      "id_commande_v2i": "260710000207",
-      "code_cote": "L",
-      "patient": "MELLA LUC",
-      "job_cosium": "J137036362",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 20:43",
-      "detail": "Réf: MELLA LUC / J137036362 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.50",
-        "axe": 35,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
