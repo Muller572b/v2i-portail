@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "10/07/2026 16:35",
+  "derniere_mise_a_jour": "11/07/2026 09:01",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167231",
@@ -80,7 +80,7 @@
       "statut_code": "PACK",
       "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -131,8 +131,8 @@
       "detail": "Réf: MARTINEZ LOUISE / J127031243-01 — (Stock) — État: En attente expedition",
       "statut_code": "PACK",
       "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 13/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
@@ -223,62 +223,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166992",
-      "id_commande_v2i": "260709000037",
-      "code_cote": "B",
-      "patient": "CARDOSO MARIA ARMINDA",
-      "job_cosium": "J127031226",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 14:45",
-      "detail": "Réf: CARDOSO MARIA ARMINDA / J127031226 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 85,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 105,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Media 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -391,6 +335,62 @@
         "hauteur": "28.0",
         "supplements": [
           "Media 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166992",
+      "id_commande_v2i": "260709000037",
+      "code_cote": "B",
+      "patient": "CARDOSO MARIA ARMINDA",
+      "job_cosium": "J127031226",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "10/07/2026 17:11",
+      "detail": "Réf: CARDOSO MARIA ARMINDA / J127031226 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 85,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 105,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Media 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
