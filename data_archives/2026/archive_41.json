@@ -5,7 +5,7 @@
     "nom": "Calvi Optique (CAO)"
   },
   "annee_archive": "2026",
-  "derniere_validation": "10/07/2026 à 16:26",
+  "derniere_validation": "11/07/2026 à 06:20",
   "commandes_expediees": [
     {
       "ord_numb": "            10166716",
@@ -106,6 +106,63 @@
         "sphere": "0.00",
         "cylindre": "0.00",
         "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166344",
+      "id_commande_v2i": "260706000169",
+      "id_bl_v2i": "260706000169",
+      "code_cote": "B",
+      "patient": "DONDERO LAURENT",
+      "job_cosium": "J151012220",
+      "detail": "Réf: DONDERO LAURENT / J151012220 — (Fabrication RX) — État: Expédiée",
+      "date_entree": "06/07/2026",
+      "date_expedition": "08/07/2026",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expédiée",
+      "statut": "08/07/2026",
+      "style_couleur": "text-orange-500 font-semibold",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 175,
         "addition": "2.00",
         "prisme_1": "0.00",
         "base_1": "0",
@@ -345,63 +402,6 @@
         "supplements": [
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166344",
-      "id_commande_v2i": "260706000169",
-      "id_bl_v2i": "260706000169",
-      "code_cote": "B",
-      "patient": "DONDERO LAURENT",
-      "job_cosium": "J151012220",
-      "detail": "Réf: DONDERO LAURENT / J151012220 — (Fabrication RX) — État: Expédiée",
-      "date_entree": "06/07/2026",
-      "date_expedition": "08/07/2026",
-      "statut_code": "SHIP",
-      "statut_affichage": "Expédiée",
-      "statut": "08/07/2026",
-      "style_couleur": "text-orange-500 font-semibold",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.00",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
