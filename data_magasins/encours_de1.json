@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "11/07/2026 18:56",
+  "derniere_mise_a_jour": "11/07/2026 19:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167477",
@@ -113,6 +113,60 @@
         "base_2": "0",
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "37.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE HD FR M 1.50",
+          "Solitaire"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167540",
+      "id_commande_v2i": "260711000125",
+      "code_cote": "B",
+      "patient": "3096896840",
+      "job_cosium": "",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "11/07/2026 19:00",
+      "detail": "Réf: 3096896840 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE HD FR M 1.50",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 60,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
         "hauteur": "0.0",
         "supplements": [
           "INFORMANCE HD FR M 1.50",
