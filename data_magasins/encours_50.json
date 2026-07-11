@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "11/07/2026 13:35",
+  "derniere_mise_a_jour": "11/07/2026 13:50",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167222",
@@ -237,16 +237,50 @@
       }
     },
     {
+      "ord_numb": "            10167087",
+      "id_commande_v2i": "260709000132",
+      "code_cote": "R",
+      "patient": "IMPERATORE VALENTIN",
+      "job_cosium": "J600029484",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "09/07/2026 16:40",
+      "detail": "Réf: IMPERATORE VALENTIN / J600029484 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10167153",
       "id_commande_v2i": "260709000198",
       "code_cote": "B",
       "patient": "GIUDICELLI YVES",
       "job_cosium": "J600029487",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 10:27",
-      "detail": "Réf: GIUDICELLI YVES / J600029487 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "11/07/2026 13:48",
+      "detail": "Réf: GIUDICELLI YVES / J600029487 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -297,10 +331,10 @@
       "patient": "ROLLAND ANDREE",
       "job_cosium": "J600029486",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 10:27",
-      "detail": "Réf: ROLLAND ANDREE / J600029486 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "11/07/2026 13:47",
+      "detail": "Réf: ROLLAND ANDREE / J600029486 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -343,40 +377,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10167087",
-      "id_commande_v2i": "260709000132",
-      "code_cote": "R",
-      "patient": "IMPERATORE VALENTIN",
-      "job_cosium": "J600029484",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 16:40",
-      "detail": "Réf: IMPERATORE VALENTIN / J600029484 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10166679",

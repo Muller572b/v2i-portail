@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "11/07/2026 13:35",
+  "derniere_mise_a_jour": "11/07/2026 13:50",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167418",
@@ -121,66 +121,6 @@
           "Delta Equilibre 1.67 Durci Arh",
           "Durci Inclus",
           "Super AR Antistatic Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167235",
-      "id_commande_v2i": "260710000027",
-      "code_cote": "B",
-      "patient": "DE ROSE RODOLPHE",
-      "job_cosium": "J121042902",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 12:23",
-      "detail": "Réf: DE ROSE RODOLPHE / J121042902 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.75",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Confort2 1.5 Foto Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Confort2 1.5 Foto Gris Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -397,6 +337,66 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167235",
+      "id_commande_v2i": "260710000027",
+      "code_cote": "B",
+      "patient": "DE ROSE RODOLPHE",
+      "job_cosium": "J121042902",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "11/07/2026 13:48",
+      "detail": "Réf: DE ROSE RODOLPHE / J121042902 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.75",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Confort2 1.5 Foto Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Confort2 1.5 Foto Gris Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },

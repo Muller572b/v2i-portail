@@ -10,62 +10,8 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "11/07/2026 13:35",
+  "derniere_mise_a_jour": "11/07/2026 13:50",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167241",
-      "id_commande_v2i": "260710000033",
-      "code_cote": "B",
-      "patient": "LECLERC MONIQUE",
-      "job_cosium": "J132017140-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 12:09",
-      "detail": "Réf: LECLERC MONIQUE / J132017140-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.00",
-        "axe": 170,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Vista Media 1.5 Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.50",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Vista Media 1.5 Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167242",
       "id_commande_v2i": "260710000034",
@@ -123,6 +69,60 @@
       }
     },
     {
+      "ord_numb": "            10167241",
+      "id_commande_v2i": "260710000033",
+      "code_cote": "B",
+      "patient": "LECLERC MONIQUE",
+      "job_cosium": "J132017140-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "11/07/2026 13:48",
+      "detail": "Réf: LECLERC MONIQUE / J132017140-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.00",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Media 1.5 Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Media 1.5 Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167243",
       "id_commande_v2i": "260710000035",
       "code_cote": "B",
@@ -171,70 +171,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.5 Non durci"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166736",
-      "id_commande_v2i": "260708000058",
-      "code_cote": "B",
-      "patient": "SACCHI Jeanne",
-      "job_cosium": "",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "10/07/2026 10:00",
-      "detail": "Réf: SACCHI Jeanne — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "Delta Lecture2 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus",
-          "Optimisé",
-          "Couloir 20 mm",
-          "Individualisation",
-          "Précalibrage Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.25",
-        "axe": 75,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "32.0",
-        "supplements": [
-          "Delta Lecture2 1.5 Durci",
-          "Teinte Dégradée au modèle A-C",
-          "Durci Inclus",
-          "Optimisé",
-          "Couloir 20 mm",
-          "Individualisation",
-          "Précalibrage Inclus"
         ]
       }
     },
@@ -291,6 +227,70 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166736",
+      "id_commande_v2i": "260708000058",
+      "code_cote": "B",
+      "patient": "SACCHI Jeanne",
+      "job_cosium": "",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "11/07/2026 13:48",
+      "detail": "Réf: SACCHI Jeanne — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Delta Lecture2 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus",
+          "Optimisé",
+          "Couloir 20 mm",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "32.0",
+        "supplements": [
+          "Delta Lecture2 1.5 Durci",
+          "Teinte Dégradée au modèle A-C",
+          "Durci Inclus",
+          "Optimisé",
+          "Couloir 20 mm",
+          "Individualisation",
+          "Précalibrage Inclus"
         ]
       }
     },
