@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "13/07/2026 09:41",
+  "derniere_mise_a_jour": "13/07/2026 09:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167499",
@@ -1375,6 +1375,68 @@
       }
     },
     {
+      "ord_numb": "            10167335",
+      "id_commande_v2i": "260710000127",
+      "code_cote": "B",
+      "patient": "FAZZINI SERGE ISIDORE",
+      "job_cosium": "J144102476-01",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 09:51",
+      "detail": "Réf: FAZZINI SERGE ISIDORE / J144102476-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "37.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Affiny Confort2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "36.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Affiny Confort2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167336",
       "id_commande_v2i": "260710000128",
       "code_cote": "B",
@@ -1485,68 +1547,6 @@
         "supplements": [
           "Uni 1.5 Durci",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167335",
-      "id_commande_v2i": "260710000127",
-      "code_cote": "B",
-      "patient": "FAZZINI SERGE ISIDORE",
-      "job_cosium": "J144102476-01",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 09:11",
-      "detail": "Réf: FAZZINI SERGE ISIDORE / J144102476-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "37.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Affiny Confort2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "36.5",
-        "hauteur": "26.0",
-        "supplements": [
-          "Affiny Confort2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
