@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "13/07/2026 12:41",
+  "derniere_mise_a_jour": "13/07/2026 12:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167626",
@@ -233,6 +233,60 @@
       }
     },
     {
+      "ord_numb": "            10167414",
+      "id_commande_v2i": "260710000206",
+      "code_cote": "B",
+      "patient": "BERNARDI AURELIE",
+      "job_cosium": "J137036358",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 12:50",
+      "detail": "Réf: BERNARDI AURELIE / J137036358 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "1.75",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.25",
+        "cylindre": "2.75",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.9",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Non Durci",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167406",
       "id_commande_v2i": "260710000198",
       "code_cote": "B",
@@ -283,60 +337,6 @@
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167414",
-      "id_commande_v2i": "260710000206",
-      "code_cote": "B",
-      "patient": "BERNARDI AURELIE",
-      "job_cosium": "J137036358",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 20:43",
-      "detail": "Réf: BERNARDI AURELIE / J137036358 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "1.75",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5 Non Durci",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.25",
-        "cylindre": "2.75",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.9",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5 Non Durci",
-          "Teinte Gris C"
         ]
       }
     },

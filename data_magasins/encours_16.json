@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "13/07/2026 12:41",
+  "derniere_mise_a_jour": "13/07/2026 12:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167463",
@@ -235,6 +235,60 @@
       }
     },
     {
+      "ord_numb": "            10167548",
+      "id_commande_v2i": "260711000133",
+      "code_cote": "B",
+      "patient": "FAGGIANELLI VANINA",
+      "job_cosium": "J143054378-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 12:44",
+      "detail": "Réf: FAGGIANELLI VANINA / J143054378-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 150,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 30,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167550",
       "id_commande_v2i": "260711000135",
       "code_cote": "B",
@@ -441,60 +495,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 2e St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167548",
-      "id_commande_v2i": "260711000133",
-      "code_cote": "B",
-      "patient": "FAGGIANELLI VANINA",
-      "job_cosium": "J143054378-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 19:32",
-      "detail": "Réf: FAGGIANELLI VANINA / J143054378-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 150,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 30,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Gris C"
         ]
       }
     },
@@ -791,6 +791,64 @@
       }
     },
     {
+      "ord_numb": "            10167410",
+      "id_commande_v2i": "260710000202",
+      "code_cote": "B",
+      "patient": "MASSONI MARIE CLAIRE",
+      "job_cosium": "J143054360",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 12:43",
+      "detail": "Réf: MASSONI MARIE CLAIRE / J143054360 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.25",
+        "axe": 40,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Dégradée Brun C",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Dégradée Brun C",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167412",
       "id_commande_v2i": "260710000204",
       "code_cote": "B",
@@ -841,64 +899,6 @@
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167410",
-      "id_commande_v2i": "260710000202",
-      "code_cote": "B",
-      "patient": "MASSONI MARIE CLAIRE",
-      "job_cosium": "J143054360",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 20:25",
-      "detail": "Réf: MASSONI MARIE CLAIRE / J143054360 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.25",
-        "axe": 40,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Dégradée Brun C",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Dégradée Brun C",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
