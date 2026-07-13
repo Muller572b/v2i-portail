@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "13/07/2026 11:41",
+  "derniere_mise_a_jour": "13/07/2026 11:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167554",
@@ -527,6 +527,58 @@
       }
     },
     {
+      "ord_numb": "            10167616",
+      "id_commande_v2i": "260713000065",
+      "code_cote": "B",
+      "patient": "HIDALGO ADOLPHE",
+      "job_cosium": "J152045654",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 11:45",
+      "detail": "Réf: HIDALGO ADOLPHE / J152045654 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "2.00",
+        "cylindre": "1.00",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "2.25",
+        "cylindre": "1.00",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167448",
       "id_commande_v2i": "260711000033",
       "code_cote": "B",
@@ -893,64 +945,6 @@
       }
     },
     {
-      "ord_numb": "            10167216",
-      "id_commande_v2i": "260710000008",
-      "code_cote": "B",
-      "patient": "CARLOTTI",
-      "job_cosium": "",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 08:58",
-      "detail": "Réf: CARLOTTI — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 30,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "Affiny Lecture2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "1.50",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "Affiny Lecture2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167254",
       "id_commande_v2i": "260710000046",
       "code_cote": "B",
@@ -1173,6 +1167,64 @@
           "Tchin Uni 1.5  Polar Gris Durci Arh",
           "Antireflet interne face CC inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167216",
+      "id_commande_v2i": "260710000008",
+      "code_cote": "B",
+      "patient": "CARLOTTI",
+      "job_cosium": "",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 11:43",
+      "detail": "Réf: CARLOTTI — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 30,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Affiny Lecture2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Affiny Lecture2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -1411,10 +1463,10 @@
       "patient": "GROUSSET FABRICE",
       "job_cosium": "J152045599-01",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 08:58",
-      "detail": "Réf: GROUSSET FABRICE / J152045599-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "13/07/2026 11:43",
+      "detail": "Réf: GROUSSET FABRICE / J152045599-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
