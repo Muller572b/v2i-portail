@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "13/07/2026 11:56",
+  "derniere_mise_a_jour": "13/07/2026 12:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167603",
@@ -649,6 +649,66 @@
       }
     },
     {
+      "ord_numb": "            10167295",
+      "id_commande_v2i": "260710000087",
+      "code_cote": "B",
+      "patient": "ZANARELLI MAEL",
+      "job_cosium": "J120030691-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 12:01",
+      "detail": "Réf: ZANARELLI MAEL / J120030691-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "1.00",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Uni 1.6 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "1.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.8",
+        "hauteur": "26.0",
+        "supplements": [
+          "Uni 1.6 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167329",
       "id_commande_v2i": "260710000121",
       "code_cote": "B",
@@ -705,66 +765,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167295",
-      "id_commande_v2i": "260710000087",
-      "code_cote": "B",
-      "patient": "ZANARELLI MAEL",
-      "job_cosium": "J120030691-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 15:48",
-      "detail": "Réf: ZANARELLI MAEL / J120030691-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "1.00",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Uni 1.6 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "1.50",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.8",
-        "hauteur": "26.0",
-        "supplements": [
-          "Uni 1.6 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
         ]
       }
     },
