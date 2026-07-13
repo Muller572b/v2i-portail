@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "13/07/2026 12:26",
+  "derniere_mise_a_jour": "13/07/2026 12:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167574",
@@ -129,10 +129,10 @@
       "patient": "TONINI ORNELLA",
       "job_cosium": "J205030688",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 12:55",
-      "detail": "Réf: TONINI ORNELLA / J205030688 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 12:35",
+      "detail": "Réf: TONINI ORNELLA / J205030688 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -573,6 +573,64 @@
       }
     },
     {
+      "ord_numb": "            10167409",
+      "id_commande_v2i": "260710000201",
+      "code_cote": "B",
+      "patient": "GUESDON KARINE",
+      "job_cosium": "J205030663",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 12:30",
+      "detail": "Réf: GUESDON KARINE / J205030663 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167303",
       "id_commande_v2i": "260710000095",
       "code_cote": "B",
@@ -737,64 +795,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167409",
-      "id_commande_v2i": "260710000201",
-      "code_cote": "B",
-      "patient": "GUESDON KARINE",
-      "job_cosium": "J205030663",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 20:07",
-      "detail": "Réf: GUESDON KARINE / J205030663 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.00",
-        "cylindre": "0.25",
-        "axe": 65,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },

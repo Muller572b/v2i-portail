@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "13/07/2026 12:26",
+  "derniere_mise_a_jour": "13/07/2026 12:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167593",
@@ -69,6 +69,42 @@
       }
     },
     {
+      "ord_numb": "            10167498",
+      "id_commande_v2i": "260711000083",
+      "code_cote": "R",
+      "patient": "FAUJOUR ANTOINETTE",
+      "job_cosium": "J127031253",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 12:28",
+      "detail": "Réf: FAUJOUR ANTOINETTE / J127031253 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Vista Media 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": null
+    },
+    {
       "ord_numb": "            10167471",
       "id_commande_v2i": "260711000056",
       "code_cote": "B",
@@ -123,42 +159,6 @@
           "Durci Inclus"
         ]
       }
-    },
-    {
-      "ord_numb": "            10167498",
-      "id_commande_v2i": "260711000083",
-      "code_cote": "R",
-      "patient": "FAUJOUR ANTOINETTE",
-      "job_cosium": "J127031253",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 11:41",
-      "detail": "Réf: FAUJOUR ANTOINETTE / J127031253 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Vista Media 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10167470",
