@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "13/07/2026 08:56",
+  "derniere_mise_a_jour": "13/07/2026 09:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167479",
@@ -61,6 +61,58 @@
         "hauteur": "0.0",
         "supplements": [
           "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167480",
+      "id_commande_v2i": "260711000065",
+      "code_cote": "B",
+      "patient": "RIVIERE ANAIS",
+      "job_cosium": "J148018185-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 08:56",
+      "detail": "Réf: RIVIERE ANAIS / J148018185-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -517,58 +569,6 @@
       }
     },
     {
-      "ord_numb": "            10167480",
-      "id_commande_v2i": "260711000065",
-      "code_cote": "B",
-      "patient": "RIVIERE ANAIS",
-      "job_cosium": "J148018185-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 15:55",
-      "detail": "Réf: RIVIERE ANAIS / J148018185-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167481",
       "id_commande_v2i": "260711000066",
       "code_cote": "B",
@@ -629,10 +629,10 @@
       "patient": "BATTESTINI JEAN PAUL",
       "job_cosium": "J148018164",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 12:14",
-      "detail": "Réf: BATTESTINI JEAN PAUL / J148018164 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "13/07/2026 08:58",
+      "detail": "Réf: BATTESTINI JEAN PAUL / J148018164 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -848,10 +848,10 @@
       "patient": "MATTEACCI CHRISTINE",
       "job_cosium": "J148018172-02",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 08:42",
-      "detail": "Réf: MATTEACCI CHRISTINE / J148018172-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "13/07/2026 09:09",
+      "detail": "Réf: MATTEACCI CHRISTINE / J148018172-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1032,10 +1032,10 @@
       "patient": "CASANOVA FREDERIC",
       "job_cosium": "J148018159-03",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "10/07/2026 10:32",
-      "detail": "Réf: CASANOVA FREDERIC / J148018159-03 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "13/07/2026 08:58",
+      "detail": "Réf: CASANOVA FREDERIC / J148018159-03 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
