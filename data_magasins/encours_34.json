@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "13/07/2026 14:41",
+  "derniere_mise_a_jour": "13/07/2026 14:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167626",
@@ -341,64 +341,6 @@
       }
     },
     {
-      "ord_numb": "            10166982",
-      "id_commande_v2i": "260709000027",
-      "code_cote": "B",
-      "patient": "ORDIONI Marie",
-      "job_cosium": "",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 10:04",
-      "detail": "Réf: ORDIONI Marie — (Stock) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  St. Uni 1.5",
-          "Teinte au modèle uni A-C",
-          "Super AR Antistatic",
-          "Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2  St. Uni 1.5",
-          "Teinte au modèle uni A-C",
-          "Super AR Antistatic",
-          "Durci"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167089",
       "id_commande_v2i": "260709000134",
       "code_cote": "B",
@@ -451,6 +393,64 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166982",
+      "id_commande_v2i": "260709000027",
+      "code_cote": "B",
+      "patient": "ORDIONI Marie",
+      "job_cosium": "",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "13/07/2026 14:49",
+      "detail": "Réf: ORDIONI Marie — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  St. Uni 1.5",
+          "Teinte au modèle uni A-C",
+          "Super AR Antistatic",
+          "Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2  St. Uni 1.5",
+          "Teinte au modèle uni A-C",
+          "Super AR Antistatic",
+          "Durci"
         ]
       }
     },
