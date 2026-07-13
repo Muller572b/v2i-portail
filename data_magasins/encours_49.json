@@ -10,8 +10,64 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:11",
+  "derniere_mise_a_jour": "13/07/2026 10:26",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167574",
+      "id_commande_v2i": "260713000023",
+      "code_cote": "B",
+      "patient": "POTIN MARIE",
+      "job_cosium": "J205030692",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 10:13",
+      "detail": "Réf: POTIN MARIE / J205030692 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167452",
       "id_commande_v2i": "260711000037",
@@ -813,10 +869,10 @@
       "patient": "VORST HAYA",
       "job_cosium": "J205030652",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 13:14",
-      "detail": "Réf: VORST HAYA / J205030652 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 10:19",
+      "detail": "Réf: VORST HAYA / J205030652 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -979,10 +1035,10 @@
       "patient": "PERETTI MARIE ANTOINETT",
       "job_cosium": "J205030586",
       "date_entree": "04/07/2026",
-      "date_dernier_statut": "06/07/2026 10:15",
-      "detail": "Réf: PERETTI MARIE ANTOINETT / J205030586 — (Fabrication RX) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
+      "date_dernier_statut": "13/07/2026 10:19",
+      "detail": "Réf: PERETTI MARIE ANTOINETT / J205030586 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1025,60 +1081,6 @@
           "CLA Unifocal 1.74 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10165618",
-      "id_commande_v2i": "260702000049",
-      "code_cote": "B",
-      "patient": "HASLIN-ANTONA PATRICE RENE",
-      "job_cosium": "J205030556",
-      "date_entree": "02/07/2026",
-      "date_dernier_statut": "06/07/2026 10:15",
-      "detail": "Réf: HASLIN-ANTONA PATRICE RENE / J205030556 — (Fabrication RX) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-9.00",
-        "cylindre": "0.75",
-        "axe": 120,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Mineral 1.9",
-          "ARH Mineral"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-9.75",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Mineral 1.9",
-          "ARH Mineral"
         ]
       }
     }

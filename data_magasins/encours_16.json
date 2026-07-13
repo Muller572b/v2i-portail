@@ -10,8 +10,64 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:11",
+  "derniere_mise_a_jour": "13/07/2026 10:26",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167549",
+      "id_commande_v2i": "260711000134",
+      "code_cote": "B",
+      "patient": "NICOLAS DANIEL",
+      "job_cosium": "J143054375",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 10:12",
+      "detail": "Réf: NICOLAS DANIEL / J143054375 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5  Polar Gris Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5  Polar Gris Durci Arh",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167462",
       "id_commande_v2i": "260711000047",
@@ -385,62 +441,6 @@
         "supplements": [
           "2de O2 Minimu 1.5 Nu",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167549",
-      "id_commande_v2i": "260711000134",
-      "code_cote": "B",
-      "patient": "NICOLAS DANIEL",
-      "job_cosium": "J143054375",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 19:32",
-      "detail": "Réf: NICOLAS DANIEL / J143054375 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5  Polar Gris Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5  Polar Gris Durci Arh",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus"
         ]
       }
     },
