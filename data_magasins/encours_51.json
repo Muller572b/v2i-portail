@@ -10,7 +10,7 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:41",
+  "derniere_mise_a_jour": "13/07/2026 10:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167536",
@@ -189,6 +189,64 @@
       }
     },
     {
+      "ord_numb": "            10167363",
+      "id_commande_v2i": "260710000155",
+      "code_cote": "B",
+      "patient": "JULLIAN GAMBARELLI ANTHONY HEN",
+      "job_cosium": "J702020816-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 10:41",
+      "detail": "Réf: JULLIAN GAMBARELLI ANTHONY HEN / J702020816-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "Reader3 1.5 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "Reader3 1.5 Durci Bz",
+          "AR Blue Zen Inclus",
+          "Durci Inclus",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167313",
       "id_commande_v2i": "260710000105",
       "code_cote": "B",
@@ -291,64 +349,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167363",
-      "id_commande_v2i": "260710000155",
-      "code_cote": "B",
-      "patient": "JULLIAN GAMBARELLI ANTHONY HEN",
-      "job_cosium": "J702020816-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 17:26",
-      "detail": "Réf: JULLIAN GAMBARELLI ANTHONY HEN / J702020816-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "Reader3 1.5 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "Reader3 1.5 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     },
