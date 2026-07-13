@@ -10,8 +10,120 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "13/07/2026 11:11",
+  "derniere_mise_a_jour": "13/07/2026 11:26",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167593",
+      "id_commande_v2i": "260713000042",
+      "code_cote": "B",
+      "patient": "FERRETTI ZAHIA",
+      "job_cosium": "J127031256",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 11:25",
+      "detail": "Réf: FERRETTI ZAHIA / J127031256 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.5",
+        "supplements": [
+          "Vista Prog V2i 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.5",
+        "supplements": [
+          "Vista Prog V2i 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167471",
+      "id_commande_v2i": "260711000056",
+      "code_cote": "B",
+      "patient": "GUILLAUME CORALIE",
+      "job_cosium": "J127031248-02",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 11:16",
+      "detail": "Réf: GUILLAUME CORALIE / J127031248-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "0.75",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "0.75",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167470",
       "id_commande_v2i": "260711000055",
@@ -61,62 +173,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167471",
-      "id_commande_v2i": "260711000056",
-      "code_cote": "B",
-      "patient": "GUILLAUME CORALIE",
-      "job_cosium": "J127031248-02",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 15:01",
-      "detail": "Réf: GUILLAUME CORALIE / J127031248-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.00",
-        "cylindre": "0.75",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.00",
-        "cylindre": "0.75",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
         ]
       }
     },
