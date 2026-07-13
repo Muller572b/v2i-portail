@@ -10,7 +10,7 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "13/07/2026 16:11",
+  "derniere_mise_a_jour": "13/07/2026 16:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167512",
@@ -127,58 +127,6 @@
       }
     },
     {
-      "ord_numb": "            10167526",
-      "id_commande_v2i": "260711000111",
-      "code_cote": "B",
-      "patient": "LECCIA ELODIE",
-      "job_cosium": "J122023578",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 09:00",
-      "detail": "Réf: LECCIA ELODIE / J122023578 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-5.50",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-4.75",
-        "cylindre": "0.50",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167521",
       "id_commande_v2i": "260711000106",
       "code_cote": "B",
@@ -227,6 +175,58 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167526",
+      "id_commande_v2i": "260711000111",
+      "code_cote": "B",
+      "patient": "LECCIA ELODIE",
+      "job_cosium": "J122023578",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 16:18",
+      "detail": "Réf: LECCIA ELODIE / J122023578 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-5.50",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.75",
+        "cylindre": "0.50",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
@@ -453,40 +453,6 @@
       }
     },
     {
-      "ord_numb": "            10166718",
-      "id_commande_v2i": "260708000040",
-      "code_cote": "L",
-      "patient": "CARDI JEAN-MARC",
-      "job_cosium": "J122023583",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "13/07/2026 10:19",
-      "detail": "Réf: CARDI JEAN-MARC / J122023583 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 08/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166719",
       "id_commande_v2i": "260708000041",
       "code_cote": "L",
@@ -523,16 +489,50 @@
       }
     },
     {
+      "ord_numb": "            10166718",
+      "id_commande_v2i": "260708000040",
+      "code_cote": "L",
+      "patient": "CARDI JEAN-MARC",
+      "job_cosium": "J122023583",
+      "date_entree": "08/07/2026",
+      "date_dernier_statut": "13/07/2026 16:18",
+      "detail": "Réf: CARDI JEAN-MARC / J122023583 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 08/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166417",
       "id_commande_v2i": "260707000009",
       "code_cote": "L",
       "patient": "COLONNA ASSOMPTION",
       "job_cosium": "J122023537",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "13/07/2026 10:19",
-      "detail": "Réf: COLONNA ASSOMPTION / J122023537 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 16:18",
+      "detail": "Réf: COLONNA ASSOMPTION / J122023537 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 08/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": null,
@@ -565,10 +565,10 @@
       "patient": "POLI ODETTE ADELLE",
       "job_cosium": "J122023579",
       "date_entree": "03/07/2026",
-      "date_dernier_statut": "13/07/2026 10:19",
-      "detail": "Réf: POLI ODETTE ADELLE / J122023579 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 16:18",
+      "detail": "Réf: POLI ODETTE ADELLE / J122023579 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
