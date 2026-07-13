@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:56",
+  "derniere_mise_a_jour": "13/07/2026 16:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167632",
@@ -123,58 +123,6 @@
       }
     },
     {
-      "ord_numb": "            10167447",
-      "id_commande_v2i": "260711000032",
-      "code_cote": "B",
-      "patient": "ESPINOSA MELANIE",
-      "job_cosium": "J146022935-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 08:49",
-      "detail": "Réf: ESPINOSA MELANIE / J146022935-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "1.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "2.00",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167446",
       "id_commande_v2i": "260711000031",
       "code_cote": "B",
@@ -227,6 +175,58 @@
           "Uni 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167447",
+      "id_commande_v2i": "260711000032",
+      "code_cote": "B",
+      "patient": "ESPINOSA MELANIE",
+      "job_cosium": "J146022935-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 16:06",
+      "detail": "Réf: ESPINOSA MELANIE / J146022935-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "1.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "2.00",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
         ]
       }
     },
@@ -289,10 +289,10 @@
       "patient": "BILLEBAUD BERNARD",
       "job_cosium": "J146022926",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 10:34",
-      "detail": "Réf: BILLEBAUD BERNARD / J146022926 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 16:06",
+      "detail": "Réf: BILLEBAUD BERNARD / J146022926 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -397,10 +397,10 @@
       "patient": "FOUGIER JEAN-LOUIS",
       "job_cosium": "J146022917",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "13/07/2026 10:34",
-      "detail": "Réf: FOUGIER JEAN-LOUIS / J146022917 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 16:06",
+      "detail": "Réf: FOUGIER JEAN-LOUIS / J146022917 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -449,10 +449,10 @@
       "patient": "MINO-VERCELLIO ALAIN",
       "job_cosium": "J146022921-01",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "13/07/2026 10:34",
-      "detail": "Réf: MINO-VERCELLIO ALAIN / J146022921-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 16:06",
+      "detail": "Réf: MINO-VERCELLIO ALAIN / J146022921-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {

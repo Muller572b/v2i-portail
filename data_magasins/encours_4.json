@@ -10,8 +10,64 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:56",
+  "derniere_mise_a_jour": "13/07/2026 16:11",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167609",
+      "id_commande_v2i": "260713000058",
+      "code_cote": "B",
+      "patient": "SPELLA FRANCOISE",
+      "job_cosium": "J144102528-02",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 16:09",
+      "detail": "Réf: SPELLA FRANCOISE / J144102528-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Foto Brun Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167583",
       "id_commande_v2i": "260713000032",
@@ -335,62 +391,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167609",
-      "id_commande_v2i": "260713000058",
-      "code_cote": "B",
-      "patient": "SPELLA FRANCOISE",
-      "job_cosium": "J144102528-02",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 11:44",
-      "detail": "Réf: SPELLA FRANCOISE / J144102528-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Brun Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5 Foto Brun Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -899,6 +899,62 @@
         "hauteur": "19.0",
         "supplements": [
           "Reader3 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167436",
+      "id_commande_v2i": "260711000021",
+      "code_cote": "B",
+      "patient": "MARTIN HAROLD YVES GUY",
+      "job_cosium": "J144102501-03",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 16:04",
+      "detail": "Réf: MARTIN HAROLD YVES GUY / J144102501-03 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Gris Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -1559,14 +1615,14 @@
       }
     },
     {
-      "ord_numb": "            10167436",
-      "id_commande_v2i": "260711000021",
+      "ord_numb": "            10167508",
+      "id_commande_v2i": "260711000093",
       "code_cote": "B",
-      "patient": "MARTIN HAROLD YVES GUY",
-      "job_cosium": "J144102501-03",
+      "patient": "MORGANTI MELISSA",
+      "job_cosium": "J144102519-02",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 15:50",
-      "detail": "Réf: MARTIN HAROLD YVES GUY / J144102501-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "13/07/2026 16:00",
+      "detail": "Réf: MORGANTI MELISSA / J144102519-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
       "statut_code": "MEAS",
       "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 17/07",
@@ -1575,42 +1631,46 @@
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "70",
-        "sphere": "-1.00",
+        "sphere": "-0.50",
         "cylindre": "0.25",
-        "axe": 30,
+        "axe": 125,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "26.0",
         "supplements": [
-          "Uni 1.5  Polar Gris Durci Arh",
+          "Relax 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Durci Inclus",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
         "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 160,
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 15,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
         "supplements": [
-          "Uni 1.5  Polar Gris Durci Arh",
+          "Relax 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "Durci Inclus",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -2043,66 +2103,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Perfecte St. Uni 1.6 XBlue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167508",
-      "id_commande_v2i": "260711000093",
-      "code_cote": "B",
-      "patient": "MORGANTI MELISSA",
-      "job_cosium": "J144102519-02",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 15:34",
-      "detail": "Réf: MORGANTI MELISSA / J144102519-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Relax 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Relax 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
