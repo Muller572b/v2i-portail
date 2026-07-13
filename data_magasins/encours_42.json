@@ -10,8 +10,62 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:26",
+  "derniere_mise_a_jour": "13/07/2026 10:41",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167429",
+      "id_commande_v2i": "260711000014",
+      "code_cote": "B",
+      "patient": "GONZALEZ PASCAL",
+      "job_cosium": "J148018179-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 10:31",
+      "detail": "Réf: GONZALEZ PASCAL / J148018179-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Jeune 1er HD  1.5 Nu",
+          "Teinte Bleu C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Jeune 1er HD  1.5 Nu",
+          "Teinte Bleu C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167431",
       "id_commande_v2i": "260711000016",
@@ -403,60 +457,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167429",
-      "id_commande_v2i": "260711000014",
-      "code_cote": "B",
-      "patient": "GONZALEZ PASCAL",
-      "job_cosium": "J148018179-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 11:41",
-      "detail": "Réf: GONZALEZ PASCAL / J148018179-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu",
-          "Teinte Bleu C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu",
-          "Teinte Bleu C"
         ]
       }
     },
@@ -1146,10 +1146,10 @@
       "patient": "DO REGO MACHADO CESAR MIGUEL",
       "job_cosium": "J148018154-01",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 11:26",
-      "detail": "Réf: DO REGO MACHADO CESAR MIGUEL / J148018154-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 10:34",
+      "detail": "Réf: DO REGO MACHADO CESAR MIGUEL / J148018154-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {

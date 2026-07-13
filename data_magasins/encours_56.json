@@ -10,7 +10,7 @@
     "email": "obs@balbi.fr",
     "mot_de_passe_portail": "obs"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:26",
+  "derniere_mise_a_jour": "13/07/2026 10:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167428",
@@ -485,6 +485,58 @@
       }
     },
     {
+      "ord_numb": "            10167053",
+      "id_commande_v2i": "260709000098",
+      "code_cote": "B",
+      "patient": "OLMETTA PIERRETTE",
+      "job_cosium": "J156003420-03",
+      "date_entree": "09/07/2026",
+      "date_dernier_statut": "13/07/2026 10:34",
+      "detail": "Réf: OLMETTA PIERRETTE / J156003420-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 10/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.75",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167054",
       "id_commande_v2i": "260709000099",
       "code_cote": "B",
@@ -587,58 +639,6 @@
         "supplements": [
           "Vista St. Uni 1.5",
           "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167053",
-      "id_commande_v2i": "260709000098",
-      "code_cote": "B",
-      "patient": "OLMETTA PIERRETTE",
-      "job_cosium": "J156003420-03",
-      "date_entree": "09/07/2026",
-      "date_dernier_statut": "09/07/2026 12:56",
-      "detail": "Réf: OLMETTA PIERRETTE / J156003420-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 10/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.75",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Durci Arh"
         ]
       }
     },

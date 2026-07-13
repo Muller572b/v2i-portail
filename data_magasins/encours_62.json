@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:26",
+  "derniere_mise_a_jour": "13/07/2026 10:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167376",
@@ -75,16 +75,72 @@
       }
     },
     {
+      "ord_numb": "            10167384",
+      "id_commande_v2i": "260710000176",
+      "code_cote": "B",
+      "patient": "BRUSSIEUX Marion",
+      "job_cosium": "J157000100",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 10:30",
+      "detail": "Réf: BRUSSIEUX Marion / J157000100 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 165,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 15,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167229",
       "id_commande_v2i": "260710000021",
       "code_cote": "B",
       "patient": "GIUNTINI Martine",
       "job_cosium": "J157000095",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 10:13",
-      "detail": "Réf: GIUNTINI Martine / J157000095 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 10:34",
+      "detail": "Réf: GIUNTINI Martine / J157000095 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -299,62 +355,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Afocal 1.5 Dégradé Brun"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167384",
-      "id_commande_v2i": "260710000176",
-      "code_cote": "B",
-      "patient": "BRUSSIEUX Marion",
-      "job_cosium": "J157000100",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 18:01",
-      "detail": "Réf: BRUSSIEUX Marion / J157000100 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 165,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 15,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     }
