@@ -10,8 +10,64 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "13/07/2026 11:26",
+  "derniere_mise_a_jour": "13/07/2026 11:41",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167594",
+      "id_commande_v2i": "260713000043",
+      "code_cote": "B",
+      "patient": "BARRAZZA CATHERINE",
+      "job_cosium": "",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 11:41",
+      "detail": "Réf: BARRAZZA CATHERINE — (Fabrication RX) — État: Order initialised",
+      "statut_code": "INIT",
+      "statut_affichage": "Order initialised",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui AS Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.75",
+        "cylindre": "0.50",
+        "axe": 120,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui AS Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167222",
       "id_commande_v2i": "260710000014",
