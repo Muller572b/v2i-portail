@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:26",
+  "derniere_mise_a_jour": "13/07/2026 15:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167595",
@@ -61,60 +61,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Media 1.5 Nu"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167612",
-      "id_commande_v2i": "260713000061",
-      "code_cote": "B",
-      "patient": "GIACOBETTI LAETITIA",
-      "job_cosium": "J131018990",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:06",
-      "detail": "Réf: GIACOBETTI LAETITIA / J131018990 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "0.75",
-        "cylindre": "1.25",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "55",
-        "sphere": "2.00",
-        "cylindre": "1.50",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Gris C"
         ]
       }
     },
@@ -223,6 +169,60 @@
           "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167612",
+      "id_commande_v2i": "260713000061",
+      "code_cote": "B",
+      "patient": "GIACOBETTI LAETITIA",
+      "job_cosium": "J131018990",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 15:34",
+      "detail": "Réf: GIACOBETTI LAETITIA / J131018990 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "0.75",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "55",
+        "sphere": "2.00",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Gris C"
         ]
       }
     },

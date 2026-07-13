@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:26",
+  "derniere_mise_a_jour": "13/07/2026 15:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167626",
@@ -75,10 +75,10 @@
       "patient": "MOUNIER ANGELE",
       "job_cosium": "J137036370",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 08:49",
-      "detail": "Réf: MOUNIER ANGELE / J137036370 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:35",
+      "detail": "Réf: MOUNIER ANGELE / J137036370 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -177,6 +177,62 @@
       }
     },
     {
+      "ord_numb": "            10167351",
+      "id_commande_v2i": "260710000143",
+      "code_cote": "B",
+      "patient": "MOUNIER BAPTISTE",
+      "job_cosium": "J137036360",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 15:33",
+      "detail": "Réf: MOUNIER BAPTISTE / J137036360 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "2.25",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167406",
       "id_commande_v2i": "260710000198",
       "code_cote": "B",
@@ -237,10 +293,10 @@
       "patient": "BERNARDI AURELIE",
       "job_cosium": "J137036358",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 12:50",
-      "detail": "Réf: BERNARDI AURELIE / J137036358 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "13/07/2026 15:34",
+      "detail": "Réf: BERNARDI AURELIE / J137036358 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -281,62 +337,6 @@
         "supplements": [
           "2de Uni 1.5 Non Durci",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167351",
-      "id_commande_v2i": "260710000143",
-      "code_cote": "B",
-      "patient": "MOUNIER BAPTISTE",
-      "job_cosium": "J137036360",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 14:37",
-      "detail": "Réf: MOUNIER BAPTISTE / J137036360 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "2.25",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },
@@ -403,10 +403,10 @@
       "patient": "ORDIONI Marie",
       "job_cosium": "",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 14:49",
-      "detail": "Réf: ORDIONI Marie — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:35",
+      "detail": "Réf: ORDIONI Marie — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -461,10 +461,10 @@
       "patient": "KHAMMAO ANGELE",
       "job_cosium": "J137036355",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 11:43",
-      "detail": "Réf: KHAMMAO ANGELE / J137036355 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:35",
+      "detail": "Réf: KHAMMAO ANGELE / J137036355 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
