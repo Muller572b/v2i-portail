@@ -10,8 +10,60 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:11",
+  "derniere_mise_a_jour": "13/07/2026 15:26",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167595",
+      "id_commande_v2i": "260713000044",
+      "code_cote": "B",
+      "patient": "VINCENSINI JOSEPH",
+      "job_cosium": "J131018988",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 15:24",
+      "detail": "Réf: VINCENSINI JOSEPH / J131018988 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167612",
       "id_commande_v2i": "260713000061",
@@ -119,58 +171,6 @@
       }
     },
     {
-      "ord_numb": "            10167595",
-      "id_commande_v2i": "260713000044",
-      "code_cote": "B",
-      "patient": "VINCENSINI JOSEPH",
-      "job_cosium": "J131018988",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 11:43",
-      "detail": "Réf: VINCENSINI JOSEPH / J131018988 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 15,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167613",
       "id_commande_v2i": "260713000062",
       "code_cote": "B",
@@ -233,10 +233,10 @@
       "patient": "MOUGIN AUGUSTA",
       "job_cosium": "J131018965",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 11:45",
-      "detail": "Réf: MOUGIN AUGUSTA / J131018965 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 15:25",
+      "detail": "Réf: MOUGIN AUGUSTA / J131018965 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
