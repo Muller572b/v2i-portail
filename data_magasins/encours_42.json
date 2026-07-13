@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:41",
+  "derniere_mise_a_jour": "13/07/2026 15:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167646",
@@ -433,60 +433,6 @@
       }
     },
     {
-      "ord_numb": "            10167431",
-      "id_commande_v2i": "260711000016",
-      "code_cote": "B",
-      "patient": "GONZALEZ PASCAL",
-      "job_cosium": "J148018179-02",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 10:15",
-      "detail": "Réf: GONZALEZ PASCAL / J148018179-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Nu",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Nu",
-          "Teinte G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167481",
       "id_commande_v2i": "260711000066",
       "code_cote": "B",
@@ -745,6 +691,60 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167431",
+      "id_commande_v2i": "260711000016",
+      "code_cote": "B",
+      "patient": "GONZALEZ PASCAL",
+      "job_cosium": "J148018179-02",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 15:53",
+      "detail": "Réf: GONZALEZ PASCAL / J148018179-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Nu",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Nu",
+          "Teinte G15 C"
         ]
       }
     },

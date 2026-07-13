@@ -10,7 +10,7 @@
     "email": "obs@balbi.fr",
     "mot_de_passe_portail": "obs"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:41",
+  "derniere_mise_a_jour": "13/07/2026 15:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167453",
@@ -137,6 +137,122 @@
       }
     },
     {
+      "ord_numb": "            10167461",
+      "id_commande_v2i": "260711000046",
+      "code_cote": "B",
+      "patient": "TYTGAT CHRISTIAN",
+      "job_cosium": "J156003431-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 15:48",
+      "detail": "Réf: TYTGAT CHRISTIAN / J156003431-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "0.50",
+        "axe": 150,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Vista Delta Lecture2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167434",
+      "id_commande_v2i": "260711000019",
+      "code_cote": "B",
+      "patient": "LEONETTI EMMANUELLE",
+      "job_cosium": "J156003429",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 15:47",
+      "detail": "Réf: LEONETTI EMMANUELLE / J156003429 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5  Polar Brun Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167428",
       "id_commande_v2i": "260711000013",
       "code_cote": "B",
@@ -189,122 +305,6 @@
           "Uni 1.67 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167434",
-      "id_commande_v2i": "260711000019",
-      "code_cote": "B",
-      "patient": "LEONETTI EMMANUELLE",
-      "job_cosium": "J156003429",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 11:43",
-      "detail": "Réf: LEONETTI EMMANUELLE / J156003429 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167461",
-      "id_commande_v2i": "260711000046",
-      "code_cote": "B",
-      "patient": "TYTGAT CHRISTIAN",
-      "job_cosium": "J156003431-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 15:19",
-      "detail": "Réf: TYTGAT CHRISTIAN / J156003431-01 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "0.50",
-        "axe": 150,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Vista Delta Lecture2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },

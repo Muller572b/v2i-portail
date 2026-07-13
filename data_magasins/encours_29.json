@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:41",
+  "derniere_mise_a_jour": "13/07/2026 15:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167580",
@@ -231,110 +231,6 @@
       }
     },
     {
-      "ord_numb": "            10167510",
-      "id_commande_v2i": "260711000095",
-      "code_cote": "B",
-      "patient": "ROMANI PAULE",
-      "job_cosium": "J121042910",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 08:54",
-      "detail": "Réf: ROMANI PAULE / J121042910 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.50",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167528",
-      "id_commande_v2i": "260711000113",
-      "code_cote": "B",
-      "patient": "BILLAUD ARTHUR",
-      "job_cosium": "J121042884-02",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 09:00",
-      "detail": "Réf: BILLAUD ARTHUR / J121042884-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.25",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.75",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167529",
       "id_commande_v2i": "260711000114",
       "code_cote": "B",
@@ -383,6 +279,110 @@
         "hauteur": "0.0",
         "supplements": [
           "St Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167510",
+      "id_commande_v2i": "260711000095",
+      "code_cote": "B",
+      "patient": "ROMANI PAULE",
+      "job_cosium": "J121042910",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 15:51",
+      "detail": "Réf: ROMANI PAULE / J121042910 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.50",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167528",
+      "id_commande_v2i": "260711000113",
+      "code_cote": "B",
+      "patient": "BILLAUD ARTHUR",
+      "job_cosium": "J121042884-02",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 15:51",
+      "detail": "Réf: BILLAUD ARTHUR / J121042884-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.75",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
         ]
       }
     },
@@ -505,10 +505,10 @@
       "patient": "CASALONGA AUDREY",
       "job_cosium": "J121042904",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 14:49",
-      "detail": "Réf: CASALONGA AUDREY / J121042904 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:51",
+      "detail": "Réf: CASALONGA AUDREY / J121042904 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -565,10 +565,10 @@
       "patient": "COSTANTINO VERONIQUE",
       "job_cosium": "J121042905",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 14:49",
-      "detail": "Réf: COSTANTINO VERONIQUE / J121042905 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:51",
+      "detail": "Réf: COSTANTINO VERONIQUE / J121042905 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -624,10 +624,10 @@
       "patient": "OUADDI KELTOUM",
       "job_cosium": "J121042888",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 10:34",
-      "detail": "Réf: OUADDI KELTOUM / J121042888 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:51",
+      "detail": "Réf: OUADDI KELTOUM / J121042888 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -676,10 +676,10 @@
       "patient": "BOUTRON PAULETTE",
       "job_cosium": "J121042895",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "13/07/2026 10:34",
-      "detail": "Réf: BOUTRON PAULETTE / J121042895 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "13/07/2026 15:51",
+      "detail": "Réf: BOUTRON PAULETTE / J121042895 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 10/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {

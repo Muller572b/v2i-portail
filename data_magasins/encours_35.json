@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "13/07/2026 15:41",
+  "derniere_mise_a_jour": "13/07/2026 15:56",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167603",
@@ -71,60 +71,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167604",
-      "id_commande_v2i": "260713000053",
-      "code_cote": "B",
-      "patient": "BARTOLI LUCIE",
-      "job_cosium": "J120030715",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 11:44",
-      "detail": "Réf: BARTOLI LUCIE / J120030715 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.00",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.00",
-        "cylindre": "0.25",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Brun C"
         ]
       }
     },
@@ -309,6 +255,120 @@
           "Super AR Antistatic Inclus",
           "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167675",
+      "id_commande_v2i": "260713000124",
+      "code_cote": "B",
+      "patient": "BONDU THIERRY",
+      "job_cosium": "J120030680",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 15:49",
+      "detail": "Réf: BONDU THIERRY / J120030680 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "1.25",
+        "axe": 160,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Delta Horizon2 1.6 Durci",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-2.25",
+        "cylindre": "1.25",
+        "axe": 60,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Delta Horizon2 1.6 Durci",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Précalibrage Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167604",
+      "id_commande_v2i": "260713000053",
+      "code_cote": "B",
+      "patient": "BARTOLI LUCIE",
+      "job_cosium": "J120030715",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 15:53",
+      "detail": "Réf: BARTOLI LUCIE / J120030715 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
         ]
       }
     },
@@ -649,6 +709,66 @@
       }
     },
     {
+      "ord_numb": "            10167329",
+      "id_commande_v2i": "260710000121",
+      "code_cote": "B",
+      "patient": "BENMOKADEM MOHAMED",
+      "job_cosium": "J120030697-01",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 15:55",
+      "detail": "Réf: BENMOKADEM MOHAMED / J120030697-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.00",
+        "cylindre": "1.50",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "3.75",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "AS Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167291",
       "id_commande_v2i": "260710000083",
       "code_cote": "B",
@@ -701,66 +821,6 @@
           "Vista Reader3 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167329",
-      "id_commande_v2i": "260710000121",
-      "code_cote": "B",
-      "patient": "BENMOKADEM MOHAMED",
-      "job_cosium": "J120030697-01",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 15:03",
-      "detail": "Réf: BENMOKADEM MOHAMED / J120030697-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.00",
-        "cylindre": "1.50",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "3.75",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "22.0",
-        "supplements": [
-          "AS Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
