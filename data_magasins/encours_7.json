@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "13/07/2026 14:11",
+  "derniere_mise_a_jour": "13/07/2026 14:26",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167569",
@@ -355,10 +355,10 @@
       "patient": "SERGIANI ARMELLE",
       "job_cosium": "J128042832",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 17:44",
-      "detail": "Réf: SERGIANI ARMELLE / J128042832 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 14:13",
+      "detail": "Réf: SERGIANI ARMELLE / J128042832 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -401,6 +401,60 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167374",
+      "id_commande_v2i": "260710000166",
+      "code_cote": "B",
+      "patient": "CARCAGNO MICHELLE",
+      "job_cosium": "J128042830",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 14:19",
+      "detail": "Réf: CARCAGNO MICHELLE / J128042830 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
         ]
       }
     },
@@ -453,60 +507,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167374",
-      "id_commande_v2i": "260710000166",
-      "code_cote": "B",
-      "patient": "CARCAGNO MICHELLE",
-      "job_cosium": "J128042830",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 17:44",
-      "detail": "Réf: CARCAGNO MICHELLE / J128042830 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.50",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
         ]
       }
     },
