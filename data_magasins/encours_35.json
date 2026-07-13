@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "13/07/2026 16:56",
+  "derniere_mise_a_jour": "13/07/2026 17:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167603",
@@ -71,6 +71,60 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167604",
+      "id_commande_v2i": "260713000053",
+      "code_cote": "B",
+      "patient": "BARTOLI LUCIE",
+      "job_cosium": "J120030715",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "13/07/2026 17:08",
+      "detail": "Réf: BARTOLI LUCIE / J120030715 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-3.00",
+        "cylindre": "0.25",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C"
         ]
       }
     },
@@ -371,56 +425,56 @@
       }
     },
     {
-      "ord_numb": "            10167604",
-      "id_commande_v2i": "260713000053",
+      "ord_numb": "            10167417",
+      "id_commande_v2i": "260711000002",
       "code_cote": "B",
-      "patient": "BARTOLI LUCIE",
-      "job_cosium": "J120030715",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:53",
-      "detail": "Réf: BARTOLI LUCIE / J120030715 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "patient": "SCOTTO LESLY",
+      "job_cosium": "J120030701",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "13/07/2026 17:08",
+      "detail": "Réf: SCOTTO LESLY / J120030701 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.00",
-        "cylindre": "0.25",
-        "axe": 10,
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.50",
+        "axe": 170,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
+        "ecart_pupillaire": "27.5",
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5",
-          "Teinte Brun C"
+          "Teinte Dégradée Brun C"
         ]
       },
       "oeil_gauche": {
         "verre": "Stock",
         "type": "Stock",
-        "diametre": "75",
-        "sphere": "-3.00",
+        "diametre": "70",
+        "sphere": "-1.25",
         "cylindre": "0.25",
-        "axe": 20,
+        "axe": 160,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
+        "ecart_pupillaire": "27.5",
         "hauteur": "0.0",
         "supplements": [
           "Vista St. Uni 1.5",
-          "Teinte Brun C"
+          "Teinte Dégradée Brun C"
         ]
       }
     },
@@ -431,10 +485,10 @@
       "patient": "TRACHET GILLES",
       "job_cosium": "J120030706-01",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 10:31",
-      "detail": "Réf: TRACHET GILLES / J120030706-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "13/07/2026 17:06",
+      "detail": "Réf: TRACHET GILLES / J120030706-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -581,60 +635,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Afocal 1.5 Pola Brun"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167417",
-      "id_commande_v2i": "260711000002",
-      "code_cote": "B",
-      "patient": "SCOTTO LESLY",
-      "job_cosium": "J120030701",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "13/07/2026 16:27",
-      "detail": "Réf: SCOTTO LESLY / J120030701 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 15/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.25",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5",
-          "Teinte Dégradée Brun C"
         ]
       }
     },
