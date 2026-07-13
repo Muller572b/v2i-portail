@@ -10,7 +10,7 @@
     "email": "a67@balbi.fr",
     "mot_de_passe_portail": "a67"
   },
-  "derniere_mise_a_jour": "13/07/2026 10:56",
+  "derniere_mise_a_jour": "13/07/2026 11:11",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167569",
@@ -19,10 +19,10 @@
       "patient": "RODRIGUES DE BRITO ALBINA",
       "job_cosium": "J128042838",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 09:55",
-      "detail": "Réf: RODRIGUES DE BRITO ALBINA / J128042838 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "13/07/2026 11:02",
+      "detail": "Réf: RODRIGUES DE BRITO ALBINA / J128042838 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -241,60 +241,6 @@
       }
     },
     {
-      "ord_numb": "            10167375",
-      "id_commande_v2i": "260710000167",
-      "code_cote": "B",
-      "patient": "CARCAGNO MICHELLE",
-      "job_cosium": "J128042827",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 09:53",
-      "detail": "Réf: CARCAGNO MICHELLE / J128042827 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 16/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Media 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.50",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Media 1.5 Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167372",
       "id_commande_v2i": "260710000164",
       "code_cote": "B",
@@ -453,6 +399,60 @@
         "supplements": [
           "Vista Media 1.5 Nu",
           "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167375",
+      "id_commande_v2i": "260710000167",
+      "code_cote": "B",
+      "patient": "CARCAGNO MICHELLE",
+      "job_cosium": "J128042827",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "13/07/2026 11:00",
+      "detail": "Réf: CARCAGNO MICHELLE / J128042827 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Durci Inclus"
         ]
       }
     },
