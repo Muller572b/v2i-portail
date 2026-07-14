@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "14/07/2026 16:11",
+  "derniere_mise_a_jour": "14/07/2026 16:21",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167768",
@@ -131,6 +131,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167771",
+      "id_commande_v2i": "260714000007",
+      "code_cote": "B",
+      "patient": "AMEZQUITA VERONIQUE",
+      "job_cosium": "J120030731",
+      "date_entree": "14/07/2026",
+      "date_dernier_statut": "14/07/2026 16:13",
+      "detail": "Réf: AMEZQUITA VERONIQUE / J120030731 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "2.50",
+        "base_1": "270",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C",
+          "Prisme inf à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.50",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "2.50",
+        "base_1": "90",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C",
+          "Prisme inf à 4"
         ]
       }
     },
