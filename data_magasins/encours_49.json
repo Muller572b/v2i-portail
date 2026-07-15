@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "15/07/2026 11:26",
+  "derniere_mise_a_jour": "15/07/2026 11:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167808",
@@ -19,10 +19,10 @@
       "patient": "AVENARD LLANA",
       "job_cosium": "J205030717",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 10:14",
-      "detail": "Réf: AVENARD LLANA / J205030717 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "15/07/2026 11:29",
+      "detail": "Réf: AVENARD LLANA / J205030717 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -352,68 +352,6 @@
           "Unitek2 1.6 Foto Gris Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167663",
-      "id_commande_v2i": "260713000112",
-      "code_cote": "B",
-      "patient": "BURINI ALAIN",
-      "job_cosium": "J205030699-01",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 10:44",
-      "detail": "Réf: BURINI ALAIN / J205030699-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de O2 Maximu2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "25.0",
-        "supplements": [
-          "2de O2 Maximu2 1.5 Durci",
-          "Durci Inclus",
-          "Teinte Gris C",
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
@@ -877,6 +815,68 @@
           "Uni 1.5 Foto Brun Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167663",
+      "id_commande_v2i": "260713000112",
+      "code_cote": "B",
+      "patient": "BURINI ALAIN",
+      "job_cosium": "J205030699-01",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 11:26",
+      "detail": "Réf: BURINI ALAIN / J205030699-01 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Maximu2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "25.0",
+        "supplements": [
+          "2de O2 Maximu2 1.5 Durci",
+          "Durci Inclus",
+          "Teinte Gris C",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },

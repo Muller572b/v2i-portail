@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "15/07/2026 11:26",
+  "derniere_mise_a_jour": "15/07/2026 11:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167816",
@@ -19,10 +19,10 @@
       "patient": "BARROS DA SILVA DANIEL",
       "job_cosium": "J139053611",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 11:24",
-      "detail": "Réf: BARROS DA SILVA DANIEL / J139053611 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "15/07/2026 11:34",
+      "detail": "Réf: BARROS DA SILVA DANIEL / J139053611 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -349,41 +349,6 @@
       "oeil_gauche": null
     },
     {
-      "ord_numb": "            10167759",
-      "id_commande_v2i": "260713000208",
-      "code_cote": "R",
-      "patient": "BURLOT MORGANE",
-      "job_cosium": "J139053636",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 19:31",
-      "detail": "Réf: BURLOT MORGANE / J139053636 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-5.50",
-        "cylindre": "2.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": null
-    },
-    {
       "ord_numb": "            10167760",
       "id_commande_v2i": "260713000209",
       "code_cote": "B",
@@ -546,6 +511,41 @@
           "Teinte Gris C"
         ]
       }
+    },
+    {
+      "ord_numb": "            10167759",
+      "id_commande_v2i": "260713000208",
+      "code_cote": "R",
+      "patient": "BURLOT MORGANE",
+      "job_cosium": "J139053636",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 11:29",
+      "detail": "Réf: BURLOT MORGANE / J139053636 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-5.50",
+        "cylindre": "2.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10167762",
