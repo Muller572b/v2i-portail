@@ -10,7 +10,7 @@
     "email": "optique.balbi.lup@wanadoo.fr",
     "mot_de_passe_portail": "lup"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:33",
+  "derniere_mise_a_jour": "15/07/2026 16:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167522",
@@ -179,16 +179,68 @@
       }
     },
     {
+      "ord_numb": "            10167346",
+      "id_commande_v2i": "260710000138",
+      "code_cote": "B",
+      "patient": "ORSINI ADAM",
+      "job_cosium": "J122023604",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 16:50",
+      "detail": "Réf: ORSINI ADAM / J122023604 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167306",
       "id_commande_v2i": "260710000098",
       "code_cote": "B",
       "patient": "CASAROLI ANTOINE",
       "job_cosium": "",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 17:56",
-      "detail": "Réf: CASAROLI ANTOINE — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:34",
+      "detail": "Réf: CASAROLI ANTOINE — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -245,10 +297,10 @@
       "patient": "CASAROLI ANTOINE",
       "job_cosium": "J122023610",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 17:34",
-      "detail": "Réf: CASAROLI ANTOINE / J122023610 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:34",
+      "detail": "Réf: CASAROLI ANTOINE / J122023610 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -299,10 +351,10 @@
       "patient": "CASAROLI ANTOINE",
       "job_cosium": "J122023607",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 17:56",
-      "detail": "Réf: CASAROLI ANTOINE / J122023607 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:34",
+      "detail": "Réf: CASAROLI ANTOINE / J122023607 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -345,58 +397,6 @@
           "Media 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167346",
-      "id_commande_v2i": "260710000138",
-      "code_cote": "B",
-      "patient": "ORSINI ADAM",
-      "job_cosium": "J122023604",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 16:50",
-      "detail": "Réf: ORSINI ADAM / J122023604 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "0.25",
-        "axe": 25,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "1.00",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.6 HC AR (Stock)"
         ]
       }
     },
