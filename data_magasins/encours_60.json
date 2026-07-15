@@ -10,62 +10,8 @@
     "email": "kbo@balbi.fr",
     "mot_de_passe_portail": "kbo"
   },
-  "derniere_mise_a_jour": "15/07/2026 09:11",
+  "derniere_mise_a_jour": "15/07/2026 09:21",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167678",
-      "id_commande_v2i": "260713000127",
-      "code_cote": "B",
-      "patient": "BASTIANI JEAN BAPTISTE",
-      "job_cosium": "J704001254",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 08:41",
-      "detail": "Réf: BASTIANI JEAN BAPTISTE / J704001254 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 16/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys St.Uni 1.5 Durci Arh",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys St.Uni 1.5 Durci Arh",
-          "Montage"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167676",
       "id_commande_v2i": "260713000125",
@@ -73,10 +19,10 @@
       "patient": "MORELLI MARYLINE",
       "job_cosium": "J704001264-01",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:55",
-      "detail": "Réf: MORELLI MARYLINE / J704001264-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "15/07/2026 09:14",
+      "detail": "Réf: MORELLI MARYLINE / J704001264-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -137,10 +83,10 @@
       "patient": "MORELLI MARYLINE",
       "job_cosium": "J704001264-02",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:55",
-      "detail": "Réf: MORELLI MARYLINE / J704001264-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "15/07/2026 09:17",
+      "detail": "Réf: MORELLI MARYLINE / J704001264-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -189,6 +135,60 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167678",
+      "id_commande_v2i": "260713000127",
+      "code_cote": "B",
+      "patient": "BASTIANI JEAN BAPTISTE",
+      "job_cosium": "J704001254",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 08:41",
+      "detail": "Réf: BASTIANI JEAN BAPTISTE / J704001254 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St.Uni 1.5 Durci Arh",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys St.Uni 1.5 Durci Arh",
+          "Montage"
         ]
       }
     },

@@ -10,8 +10,116 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "15/07/2026 09:11",
+  "derniere_mise_a_jour": "15/07/2026 09:21",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167790",
+      "id_commande_v2i": "260715000015",
+      "code_cote": "B",
+      "patient": "GLINCHIKOVA YULIA",
+      "job_cosium": "J147014194",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 09:19",
+      "detail": "Réf: GLINCHIKOVA YULIA / J147014194 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 15/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "1.75",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167791",
+      "id_commande_v2i": "260715000016",
+      "code_cote": "B",
+      "patient": "GLINCHIKOVA YULIA",
+      "job_cosium": "J147014193",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 09:19",
+      "detail": "Réf: GLINCHIKOVA YULIA / J147014193 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 24/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "1.75",
+        "axe": 15,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.25",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10166275",
       "id_commande_v2i": "260706000100",
