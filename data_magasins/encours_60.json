@@ -10,7 +10,7 @@
     "email": "kbo@balbi.fr",
     "mot_de_passe_portail": "kbo"
   },
-  "derniere_mise_a_jour": "15/07/2026 15:18",
+  "derniere_mise_a_jour": "15/07/2026 16:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167676",
@@ -199,10 +199,10 @@
       "patient": "MORELLI MARYLINE",
       "job_cosium": "J704001264-02",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 14:46",
-      "detail": "Réf: MORELLI MARYLINE / J704001264-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 15:43",
+      "detail": "Réf: MORELLI MARYLINE / J704001264-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -261,10 +261,10 @@
       "patient": "BASTIANI JEAN BAPTISTE",
       "job_cosium": "J704001254",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 08:41",
-      "detail": "Réf: BASTIANI JEAN BAPTISTE / J704001254 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 15:43",
+      "detail": "Réf: BASTIANI JEAN BAPTISTE / J704001254 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -367,16 +367,68 @@
       }
     },
     {
+      "ord_numb": "            10167337",
+      "id_commande_v2i": "260710000129",
+      "code_cote": "B",
+      "patient": "DE BARROS FERNANDES NEVES",
+      "job_cosium": "J704001262-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "10/07/2026 16:31",
+      "detail": "Réf: DE BARROS FERNANDES NEVES / J704001262-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.25",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys 2e St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys 2e St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167274",
       "id_commande_v2i": "260710000066",
       "code_cote": "B",
       "patient": "TITA MARIO",
       "job_cosium": "J704001259-02",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 14:49",
-      "detail": "Réf: TITA MARIO / J704001259-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 15:43",
+      "detail": "Réf: TITA MARIO / J704001259-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -431,10 +483,10 @@
       "patient": "DE BARROS FERNANDES NEVES",
       "job_cosium": "J704001262-01",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 17:56",
-      "detail": "Réf: DE BARROS FERNANDES NEVES / J704001262-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 15:43",
+      "detail": "Réf: DE BARROS FERNANDES NEVES / J704001262-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -477,58 +529,6 @@
           "Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167337",
-      "id_commande_v2i": "260710000129",
-      "code_cote": "B",
-      "patient": "DE BARROS FERNANDES NEVES",
-      "job_cosium": "J704001262-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 16:31",
-      "detail": "Réf: DE BARROS FERNANDES NEVES / J704001262-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.25",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys 2e St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys 2e St. Uni 1.5 Durci Arh"
         ]
       }
     }
