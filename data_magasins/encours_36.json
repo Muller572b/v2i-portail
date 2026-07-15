@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "15/07/2026 10:56",
+  "derniere_mise_a_jour": "15/07/2026 11:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167753",
@@ -225,60 +225,6 @@
       }
     },
     {
-      "ord_numb": "            10167754",
-      "id_commande_v2i": "260713000203",
-      "code_cote": "B",
-      "patient": "DESINI PAULINE",
-      "job_cosium": "J139053639-01",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 19:31",
-      "detail": "Réf: DESINI PAULINE / J139053639-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.00",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "1.50",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167756",
       "id_commande_v2i": "260713000205",
       "code_cote": "B",
@@ -456,60 +402,6 @@
       }
     },
     {
-      "ord_numb": "            10167762",
-      "id_commande_v2i": "260713000211",
-      "code_cote": "B",
-      "patient": "stancu mihai",
-      "job_cosium": "J139053629-02",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 19:31",
-      "detail": "Réf: stancu mihai / J139053629-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Dégradée G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5",
-          "Teinte Dégradée G15 C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167763",
       "id_commande_v2i": "260713000212",
       "code_cote": "B",
@@ -564,6 +456,114 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167754",
+      "id_commande_v2i": "260713000203",
+      "code_cote": "B",
+      "patient": "DESINI PAULINE",
+      "job_cosium": "J139053639-01",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 11:00",
+      "detail": "Réf: DESINI PAULINE / J139053639-01 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "1.50",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167762",
+      "id_commande_v2i": "260713000211",
+      "code_cote": "B",
+      "patient": "stancu mihai",
+      "job_cosium": "J139053629-02",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 11:00",
+      "detail": "Réf: stancu mihai / J139053629-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Dégradée G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5",
+          "Teinte Dégradée G15 C"
         ]
       }
     },
@@ -1130,10 +1130,10 @@
       "patient": "BENEDETTI ANNE MARIE",
       "job_cosium": "J139053562",
       "date_entree": "07/07/2026",
-      "date_dernier_statut": "15/07/2026 10:13",
-      "detail": "Réf: BENEDETTI ANNE MARIE / J139053562 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "15/07/2026 11:00",
+      "detail": "Réf: BENEDETTI ANNE MARIE / J139053562 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 09/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": null,
