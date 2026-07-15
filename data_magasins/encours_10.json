@@ -10,70 +10,8 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "15/07/2026 14:11",
+  "derniere_mise_a_jour": "15/07/2026 14:21",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167781",
-      "id_commande_v2i": "260715000006",
-      "code_cote": "B",
-      "patient": "SUSINI PAULE",
-      "job_cosium": "",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 12:50",
-      "detail": "Réf: SUSINI PAULE — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "6.50",
-        "cylindre": "1.00",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "8.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "22.0",
-        "supplements": [
-          "Tchin Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "6.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "8.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.6",
-        "hauteur": "22.0",
-        "supplements": [
-          "Tchin Uni 1.67 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage",
-          "Prisme supérieur à 4"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167807",
       "id_commande_v2i": "260715000032",
@@ -455,6 +393,68 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167781",
+      "id_commande_v2i": "260715000006",
+      "code_cote": "B",
+      "patient": "SUSINI PAULE",
+      "job_cosium": "",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 14:11",
+      "detail": "Réf: SUSINI PAULE — (Fabrication RX) — État: Contrôle sortie de fabrication",
+      "statut_code": "SFAB",
+      "statut_affichage": "Contrôle sortie de fabrication",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "6.50",
+        "cylindre": "1.00",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "8.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "22.0",
+        "supplements": [
+          "Tchin Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage",
+          "Prisme supérieur à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "6.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "8.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.6",
+        "hauteur": "22.0",
+        "supplements": [
+          "Tchin Uni 1.67 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage",
+          "Prisme supérieur à 4"
         ]
       }
     },
