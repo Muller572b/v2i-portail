@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "15/07/2026 14:41",
+  "derniere_mise_a_jour": "15/07/2026 14:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167779",
@@ -19,10 +19,10 @@
       "patient": "LEONARD MICHEL",
       "job_cosium": "",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 14:17",
-      "detail": "Réf: LEONARD MICHEL — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "15/07/2026 14:44",
+      "detail": "Réf: LEONARD MICHEL — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -122,6 +122,42 @@
         "supplements": [
           "CLA Progressif 1.74 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167868",
+      "id_commande_v2i": "260715000093",
+      "code_cote": "L",
+      "patient": "LANOIRE MARTINE",
+      "job_cosium": "J133036290",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 14:43",
+      "detail": "Réf: LANOIRE MARTINE / J133036290 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.75",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -2051,10 +2087,10 @@
       "patient": "CASTELLI MARCELLE",
       "job_cosium": "J133036203",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "15/07/2026 10:06",
-      "detail": "Réf: CASTELLI MARCELLE / J133036203 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "15/07/2026 14:46",
+      "detail": "Réf: CASTELLI MARCELLE / J133036203 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {

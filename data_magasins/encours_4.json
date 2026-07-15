@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "15/07/2026 14:41",
+  "derniere_mise_a_jour": "15/07/2026 14:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167810",
@@ -2895,10 +2895,10 @@
       "patient": "SIALELLI EMILIE",
       "job_cosium": "J144102432",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "15/07/2026 10:07",
-      "detail": "Réf: SIALELLI EMILIE / J144102432 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "15/07/2026 14:45",
+      "detail": "Réf: SIALELLI EMILIE / J144102432 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 22/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -2951,10 +2951,10 @@
       "patient": "CASANOVA DENISE",
       "job_cosium": "J144102441",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "15/07/2026 10:07",
-      "detail": "Réf: CASANOVA DENISE / J144102441 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "15/07/2026 14:45",
+      "detail": "Réf: CASANOVA DENISE / J144102441 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 22/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -3007,10 +3007,10 @@
       "patient": "BAKLOUL HAMID",
       "job_cosium": "J144102443",
       "date_entree": "09/07/2026",
-      "date_dernier_statut": "15/07/2026 10:07",
-      "detail": "Réf: BAKLOUL HAMID / J144102443 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "15/07/2026 14:45",
+      "detail": "Réf: BAKLOUL HAMID / J144102443 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 22/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -3119,62 +3119,6 @@
       }
     },
     {
-      "ord_numb": "            10166439",
-      "id_commande_v2i": "260707000031",
-      "code_cote": "B",
-      "patient": "GUEZGUEZ BAYA",
-      "job_cosium": "J144102369",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "15/07/2026 10:07",
-      "detail": "Réf: GUEZGUEZ BAYA / J144102369 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "1.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "2.00",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.67 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10166415",
       "id_commande_v2i": "260707000007",
       "code_cote": "B",
@@ -3225,6 +3169,62 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Progressif 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10166439",
+      "id_commande_v2i": "260707000031",
+      "code_cote": "B",
+      "patient": "GUEZGUEZ BAYA",
+      "job_cosium": "J144102369",
+      "date_entree": "07/07/2026",
+      "date_dernier_statut": "15/07/2026 14:45",
+      "detail": "Réf: GUEZGUEZ BAYA / J144102369 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "1.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "2.00",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.67 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
         ]
@@ -3291,10 +3291,10 @@
       "patient": "MANAI AZIZA",
       "job_cosium": "J144102185",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "15/07/2026 10:06",
-      "detail": "Réf: MANAI AZIZA / J144102185 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "15/07/2026 14:45",
+      "detail": "Réf: MANAI AZIZA / J144102185 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
