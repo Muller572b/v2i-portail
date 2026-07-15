@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "15/07/2026 11:41",
+  "derniere_mise_a_jour": "15/07/2026 11:51",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167781",
@@ -75,64 +75,6 @@
       }
     },
     {
-      "ord_numb": "            10167794",
-      "id_commande_v2i": "260715000019",
-      "code_cote": "B",
-      "patient": "BIANCONI JOSIANE",
-      "job_cosium": "J145063730-01",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 10:03",
-      "detail": "Réf: BIANCONI JOSIANE / J145063730-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-4.00",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Teinte Brun C",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-5.00",
-        "cylindre": "1.75",
-        "axe": 160,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Durci Arh",
-          "Teinte Brun C",
-          "Antireflet interne face CC inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167807",
       "id_commande_v2i": "260715000032",
       "code_cote": "B",
@@ -193,6 +135,64 @@
           "Montage",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167794",
+      "id_commande_v2i": "260715000019",
+      "code_cote": "B",
+      "patient": "BIANCONI JOSIANE",
+      "job_cosium": "J145063730-01",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 11:44",
+      "detail": "Réf: BIANCONI JOSIANE / J145063730-01 — (Fabrication RX) — État: Contrôle sortie de fabrication",
+      "statut_code": "SFAB",
+      "statut_affichage": "Contrôle sortie de fabrication",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-4.00",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Teinte Brun C",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-5.00",
+        "cylindre": "1.75",
+        "axe": 160,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Durci Arh",
+          "Teinte Brun C",
+          "Antireflet interne face CC inclus",
+          "Durci Inclus"
         ]
       }
     },
