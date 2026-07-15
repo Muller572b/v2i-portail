@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "15/07/2026 11:56",
+  "derniere_mise_a_jour": "15/07/2026 12:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167626",
@@ -69,6 +69,60 @@
       }
     },
     {
+      "ord_numb": "            10167716",
+      "id_commande_v2i": "260713000165",
+      "code_cote": "B",
+      "patient": "POJANA JEANNE MARIE",
+      "job_cosium": "J137036376",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 12:00",
+      "detail": "Réf: POJANA JEANNE MARIE / J137036376 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "1.75",
+        "axe": 155,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.3",
+        "hauteur": "29.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.75",
+        "cylindre": "1.25",
+        "axe": 20,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.6",
+        "hauteur": "29.0",
+        "supplements": [
+          "O2 Minimu 1.6 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167697",
       "id_commande_v2i": "260713000146",
       "code_cote": "B",
@@ -117,60 +171,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167716",
-      "id_commande_v2i": "260713000165",
-      "code_cote": "B",
-      "patient": "POJANA JEANNE MARIE",
-      "job_cosium": "J137036376",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 18:01",
-      "detail": "Réf: POJANA JEANNE MARIE / J137036376 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "1.75",
-        "axe": 155,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.3",
-        "hauteur": "29.0",
-        "supplements": [
-          "O2 Minimu 1.6 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.75",
-        "cylindre": "1.25",
-        "axe": 20,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.6",
-        "hauteur": "29.0",
-        "supplements": [
-          "O2 Minimu 1.6 Durci",
-          "Durci Inclus"
         ]
       }
     },

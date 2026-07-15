@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "15/07/2026 11:56",
+  "derniere_mise_a_jour": "15/07/2026 12:06",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167809",
@@ -19,10 +19,10 @@
       "patient": "CAYZAC CARINE",
       "job_cosium": "J120030734",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 11:27",
-      "detail": "Réf: CAYZAC CARINE / J120030734 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "15/07/2026 12:02",
+      "detail": "Réf: CAYZAC CARINE / J120030734 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -173,6 +173,114 @@
       }
     },
     {
+      "ord_numb": "            10167831",
+      "id_commande_v2i": "260715000056",
+      "code_cote": "B",
+      "patient": "ARIDHI SAIDA",
+      "job_cosium": "J120030740-01",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 12:01",
+      "detail": "Réf: ARIDHI SAIDA / J120030740-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Media 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167832",
+      "id_commande_v2i": "260715000057",
+      "code_cote": "B",
+      "patient": "ARIDHI SAIDA",
+      "job_cosium": "J120030740-02",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 12:01",
+      "detail": "Réf: ARIDHI SAIDA / J120030740-02 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167768",
       "id_commande_v2i": "260714000004",
       "code_cote": "B",
@@ -295,6 +403,66 @@
       }
     },
     {
+      "ord_numb": "            10167775",
+      "id_commande_v2i": "260714000011",
+      "code_cote": "B",
+      "patient": "CARVALHO NOBRE CARLA",
+      "job_cosium": "J120030733",
+      "date_entree": "14/07/2026",
+      "date_dernier_statut": "15/07/2026 11:57",
+      "detail": "Réf: CARVALHO NOBRE CARLA / J120030733 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.75",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "Uni 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167771",
       "id_commande_v2i": "260714000007",
       "code_cote": "B",
@@ -347,66 +515,6 @@
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée Brun C",
           "Prisme inf à 4"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167775",
-      "id_commande_v2i": "260714000011",
-      "code_cote": "B",
-      "patient": "CARVALHO NOBRE CARLA",
-      "job_cosium": "J120030733",
-      "date_entree": "14/07/2026",
-      "date_dernier_statut": "15/07/2026 11:44",
-      "detail": "Réf: CARVALHO NOBRE CARLA / J120030733 — (Fabrication RX) — État: Contrôle sortie de fabrication",
-      "statut_code": "SFAB",
-      "statut_affichage": "Contrôle sortie de fabrication",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.75",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "Uni 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     },
