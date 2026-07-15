@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:18",
+  "derniere_mise_a_jour": "15/07/2026 16:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167792",
@@ -245,10 +245,10 @@
       "patient": "CARTA",
       "job_cosium": "",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 14:40",
-      "detail": "Réf: CARTA — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: CARTA — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -399,16 +399,68 @@
       }
     },
     {
+      "ord_numb": "            10167529",
+      "id_commande_v2i": "260711000114",
+      "code_cote": "B",
+      "patient": "BILLAUD ARTHUR",
+      "job_cosium": "J121042884-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "11/07/2026 17:43",
+      "detail": "Réf: BILLAUD ARTHUR / J121042884-01 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.25",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.75",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "St Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167527",
       "id_commande_v2i": "260711000112",
       "code_cote": "B",
       "patient": "OTTAVI MARIE DOMINIQUE",
       "job_cosium": "J121042911",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 14:03",
-      "detail": "Réf: OTTAVI MARIE DOMINIQUE / J121042911 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: OTTAVI MARIE DOMINIQUE / J121042911 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -461,10 +513,10 @@
       "patient": "BIANUCCI PATRICK",
       "job_cosium": "J121042890",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 09:04",
-      "detail": "Réf: BIANUCCI PATRICK / J121042890 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: BIANUCCI PATRICK / J121042890 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -505,58 +557,6 @@
         "supplements": [
           "Vista Uni 1.5  Polar Gris Durci",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167529",
-      "id_commande_v2i": "260711000114",
-      "code_cote": "B",
-      "patient": "BILLAUD ARTHUR",
-      "job_cosium": "J121042884-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 17:43",
-      "detail": "Réf: BILLAUD ARTHUR / J121042884-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.25",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.75",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "St Uni 1.5 Durci Arh"
         ]
       }
     },
@@ -623,10 +623,10 @@
       "patient": "Didier Cohen",
       "job_cosium": "Didier Cohen",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "15/07/2026 08:35",
-      "detail": "Réf: Didier Cohen / Didier Cohen — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: Didier Cohen / Didier Cohen — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -791,10 +791,10 @@
       "patient": "BATTINI JOSEPH",
       "job_cosium": "J121042880",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "15/07/2026 14:45",
-      "detail": "Réf: BATTINI JOSEPH / J121042880 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: BATTINI JOSEPH / J121042880 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {

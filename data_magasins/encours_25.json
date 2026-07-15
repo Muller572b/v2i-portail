@@ -10,7 +10,7 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:18",
+  "derniere_mise_a_jour": "15/07/2026 16:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167817",
@@ -71,60 +71,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167840",
-      "id_commande_v2i": "260715000065",
-      "code_cote": "B",
-      "patient": "CAULI VALTER",
-      "job_cosium": "J132017144",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 15:33",
-      "detail": "Réf: CAULI VALTER / J132017144 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Dégradée Brun C"
         ]
       }
     },
@@ -307,16 +253,70 @@
       }
     },
     {
+      "ord_numb": "            10167840",
+      "id_commande_v2i": "260715000065",
+      "code_cote": "B",
+      "patient": "CAULI VALTER",
+      "job_cosium": "J132017144",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: CAULI VALTER / J132017144 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Dégradée Brun C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10166763",
       "id_commande_v2i": "260708000085",
       "code_cote": "B",
       "patient": "SAKANDE BOUKARE",
       "job_cosium": "J132017134",
       "date_entree": "08/07/2026",
-      "date_dernier_statut": "15/07/2026 14:45",
-      "detail": "Réf: SAKANDE BOUKARE / J132017134 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "15/07/2026 16:19",
+      "detail": "Réf: SAKANDE BOUKARE / J132017134 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
