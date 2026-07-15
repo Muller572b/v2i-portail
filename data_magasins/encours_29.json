@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "15/07/2026 08:26",
+  "derniere_mise_a_jour": "15/07/2026 08:36",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167580",
@@ -283,62 +283,6 @@
       }
     },
     {
-      "ord_numb": "            10167333",
-      "id_commande_v2i": "260710000125",
-      "code_cote": "B",
-      "patient": "Didier Cohen",
-      "job_cosium": "Didier Cohen",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 09:40",
-      "detail": "Réf: Didier Cohen / Didier Cohen — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "-1.50",
-        "axe": 170,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Equilibre 1.67 Durci Arh",
-          "Durci Inclus",
-          "Super AR Antistatic Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "-0.50",
-        "axe": 20,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "Delta Equilibre 1.67 Durci Arh",
-          "Durci Inclus",
-          "Super AR Antistatic Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167334",
       "id_commande_v2i": "260710000126",
       "code_cote": "B",
@@ -391,6 +335,62 @@
           "Vista Delta Equilibre 1.6 Polar Gris Dur Arh",
           "Durci Inclus",
           "Antireflet interne face CC inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167333",
+      "id_commande_v2i": "260710000125",
+      "code_cote": "B",
+      "patient": "Didier Cohen",
+      "job_cosium": "Didier Cohen",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "15/07/2026 08:35",
+      "detail": "Réf: Didier Cohen / Didier Cohen — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "-1.50",
+        "axe": 170,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre 1.67 Durci Arh",
+          "Durci Inclus",
+          "Super AR Antistatic Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "-0.50",
+        "axe": 20,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "Delta Equilibre 1.67 Durci Arh",
+          "Durci Inclus",
+          "Super AR Antistatic Inclus"
         ]
       }
     },
