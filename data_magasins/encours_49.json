@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "15/07/2026 18:18",
+  "derniere_mise_a_jour": "15/07/2026 18:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167822",
@@ -318,6 +318,43 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Noir C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167940",
+      "id_commande_v2i": "260715000165",
+      "code_cote": "L",
+      "patient": "BARBARINO NINA",
+      "job_cosium": "J205030734",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 18:31",
+      "detail": "Réf: BARBARINO NINA / J205030734 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.50",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "17.0",
+        "supplements": [
+          "2de Uni 1.6 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
