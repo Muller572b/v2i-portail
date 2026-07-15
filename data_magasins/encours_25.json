@@ -10,7 +10,7 @@
     "email": "plu@balbi.fr",
     "mot_de_passe_portail": "plu"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:03",
+  "derniere_mise_a_jour": "15/07/2026 16:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167817",
@@ -249,6 +249,60 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167896",
+      "id_commande_v2i": "260715000121",
+      "code_cote": "B",
+      "patient": "PANICALI MARIE-DOMINIQUE",
+      "job_cosium": "J132017149",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 16:15",
+      "detail": "Réf: PANICALI MARIE-DOMINIQUE / J132017149 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.50",
+        "axe": 100,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Dégradée Gris C"
         ]
       }
     },
