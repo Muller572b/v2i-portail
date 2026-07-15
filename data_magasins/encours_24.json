@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "15/07/2026 14:56",
+  "derniere_mise_a_jour": "15/07/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167779",
@@ -169,10 +169,10 @@
       "patient": "MAVILLA VIRGINIE",
       "job_cosium": "",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 10:10",
-      "detail": "Réf: MAVILLA VIRGINIE — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "15/07/2026 15:05",
+      "detail": "Réf: MAVILLA VIRGINIE — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -643,6 +643,68 @@
       }
     },
     {
+      "ord_numb": "            10167685",
+      "id_commande_v2i": "260713000134",
+      "code_cote": "B",
+      "patient": "OLIVENCA PAULA",
+      "job_cosium": "J133036276-01",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 15:09",
+      "detail": "Réf: OLIVENCA PAULA / J133036276-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "2.50",
+        "axe": 100,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.7",
+        "hauteur": "23.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "2.25",
+        "axe": 90,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.2",
+        "hauteur": "23.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167714",
       "id_commande_v2i": "260713000163",
       "code_cote": "B",
@@ -919,122 +981,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.6 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167685",
-      "id_commande_v2i": "260713000134",
-      "code_cote": "B",
-      "patient": "OLIVENCA PAULA",
-      "job_cosium": "J133036276-01",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:56",
-      "detail": "Réf: OLIVENCA PAULA / J133036276-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "2.50",
-        "axe": 100,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.7",
-        "hauteur": "23.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "2.25",
-        "axe": 90,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.2",
-        "hauteur": "23.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167713",
-      "id_commande_v2i": "260713000162",
-      "code_cote": "B",
-      "patient": "ROLLET SONIA",
-      "job_cosium": "J133036281-02",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 18:01",
-      "detail": "Réf: ROLLET SONIA / J133036281-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 16/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.00",
-        "cylindre": "0.75",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 150,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Noir C"
         ]
       }
     },
@@ -1463,6 +1409,60 @@
       }
     },
     {
+      "ord_numb": "            10167713",
+      "id_commande_v2i": "260713000162",
+      "code_cote": "B",
+      "patient": "ROLLET SONIA",
+      "job_cosium": "J133036281-02",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 15:17",
+      "detail": "Réf: ROLLET SONIA / J133036281-02 — (Stock) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.00",
+        "cylindre": "0.75",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 150,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Noir C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167509",
       "id_commande_v2i": "260711000094",
       "code_cote": "B",
@@ -1627,6 +1627,62 @@
       }
     },
     {
+      "ord_numb": "            10167250",
+      "id_commande_v2i": "260710000042",
+      "code_cote": "B",
+      "patient": "SERRA JOSEE",
+      "job_cosium": "J133036242-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "15/07/2026 15:04",
+      "detail": "Réf: SERRA JOSEE / J133036242-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Polar G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.75",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Polar G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167247",
       "id_commande_v2i": "260710000039",
       "code_cote": "B",
@@ -1783,62 +1839,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167250",
-      "id_commande_v2i": "260710000042",
-      "code_cote": "B",
-      "patient": "SERRA JOSEE",
-      "job_cosium": "J133036242-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 14:47",
-      "detail": "Réf: SERRA JOSEE / J133036242-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.50",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Polar G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.75",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Polar G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },

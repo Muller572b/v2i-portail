@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "15/07/2026 14:56",
+  "derniere_mise_a_jour": "15/07/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167809",
@@ -75,10 +75,10 @@
       "patient": "ARIDHI SAIDA",
       "job_cosium": "J120030740-01",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 14:18",
-      "detail": "Réf: ARIDHI SAIDA / J120030740-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "15/07/2026 14:56",
+      "detail": "Réf: ARIDHI SAIDA / J120030740-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -119,60 +119,6 @@
         "supplements": [
           "Media 1.5 Durci",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167832",
-      "id_commande_v2i": "260715000057",
-      "code_cote": "B",
-      "patient": "ARIDHI SAIDA",
-      "job_cosium": "J120030740-02",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 14:15",
-      "detail": "Réf: ARIDHI SAIDA / J120030740-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.75",
-        "cylindre": "0.75",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "25.5",
-        "supplements": [
-          "Vista Media 1.5 Nu",
-          "Teinte Brun C"
         ]
       }
     },
@@ -277,6 +223,60 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.6 Xblue Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167832",
+      "id_commande_v2i": "260715000057",
+      "code_cote": "B",
+      "patient": "ARIDHI SAIDA",
+      "job_cosium": "J120030740-02",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 15:17",
+      "detail": "Réf: ARIDHI SAIDA / J120030740-02 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.75",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "25.5",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Brun C"
         ]
       }
     },
@@ -575,69 +575,6 @@
           "Vista Delta Confort2 1.5 Durci",
           "Durci Inclus",
           "Teinte Gris C",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167620",
-      "id_commande_v2i": "260713000069",
-      "code_cote": "B",
-      "patient": "ANTONI CLAUDINE",
-      "job_cosium": "J120030718-01",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 10:14",
-      "detail": "Réf: ANTONI CLAUDINE / J120030718-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "0.25",
-        "axe": 125,
-        "addition": "2.75",
-        "prisme_1": "2.00",
-        "base_1": "90",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Confort2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Prisme inf à 4",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 135,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Delta Confort2 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
@@ -1029,6 +966,69 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Uni 1.6 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167620",
+      "id_commande_v2i": "260713000069",
+      "code_cote": "B",
+      "patient": "ANTONI CLAUDINE",
+      "job_cosium": "J120030718-01",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 15:01",
+      "detail": "Réf: ANTONI CLAUDINE / J120030718-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "0.25",
+        "axe": 125,
+        "addition": "2.75",
+        "prisme_1": "2.00",
+        "base_1": "90",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Delta Confort2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Prisme inf à 4",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 135,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Delta Confort2 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
