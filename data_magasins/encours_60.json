@@ -10,7 +10,7 @@
     "email": "kbo@balbi.fr",
     "mot_de_passe_portail": "kbo"
   },
-  "derniere_mise_a_jour": "15/07/2026 10:36",
+  "derniere_mise_a_jour": "15/07/2026 10:41",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167676",
@@ -139,6 +139,64 @@
       }
     },
     {
+      "ord_numb": "            10167728",
+      "id_commande_v2i": "260713000177",
+      "code_cote": "B",
+      "patient": "CECCHINI CATHY",
+      "job_cosium": "J704001267-01",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 10:38",
+      "detail": "Réf: CECCHINI CATHY / J704001267-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.25",
+        "cylindre": "4.25",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Uni 1.6 Durci",
+          "Durci Inclus",
+          "Montage",
+          "Teinte Noir C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "3.00",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Uni 1.6 Durci",
+          "Durci Inclus",
+          "Montage",
+          "Teinte Noir C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167678",
       "id_commande_v2i": "260713000127",
       "code_cote": "B",
@@ -247,64 +305,6 @@
           "Super AR Antistatic Inclus",
           "Durci Inclus",
           "Montage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167728",
-      "id_commande_v2i": "260713000177",
-      "code_cote": "B",
-      "patient": "CECCHINI CATHY",
-      "job_cosium": "J704001267-01",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 08:18",
-      "detail": "Réf: CECCHINI CATHY / J704001267-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.25",
-        "cylindre": "4.25",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.6 Durci",
-          "Durci Inclus",
-          "Montage",
-          "Teinte Noir C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "3.00",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Uni 1.6 Durci",
-          "Durci Inclus",
-          "Montage",
-          "Teinte Noir C"
         ]
       }
     },
