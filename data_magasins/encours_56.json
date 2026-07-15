@@ -10,64 +10,8 @@
     "email": "obs@balbi.fr",
     "mot_de_passe_portail": "obs"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:48",
+  "derniere_mise_a_jour": "15/07/2026 17:03",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167428",
-      "id_commande_v2i": "260711000013",
-      "code_cote": "B",
-      "patient": "VINCENSINI PAUL",
-      "job_cosium": "J156003428-02",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 15:04",
-      "detail": "Réf: VINCENSINI PAUL / J156003428-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 135,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.67 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167434",
       "id_commande_v2i": "260711000019",
@@ -181,6 +125,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167428",
+      "id_commande_v2i": "260711000013",
+      "code_cote": "B",
+      "patient": "VINCENSINI PAUL",
+      "job_cosium": "J156003428-02",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "15/07/2026 16:56",
+      "detail": "Réf: VINCENSINI PAUL / J156003428-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.67 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },

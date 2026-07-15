@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:48",
+  "derniere_mise_a_jour": "15/07/2026 17:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167706",
@@ -281,62 +281,6 @@
       }
     },
     {
-      "ord_numb": "            10167464",
-      "id_commande_v2i": "260711000049",
-      "code_cote": "B",
-      "patient": "LEMOS DE CARVALHO SERGIO RAUL",
-      "job_cosium": "J143054363-01",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 15:05",
-      "detail": "Réf: LEMOS DE CARVALHO SERGIO RAUL / J143054363-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.75",
-        "axe": 165,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.0",
-        "supplements": [
-          "O2 Minimu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "O2 Minimu 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167549",
       "id_commande_v2i": "260711000134",
       "code_cote": "B",
@@ -388,6 +332,62 @@
         "supplements": [
           "2de Uni 1.5  Polar Gris Durci Arh",
           "Antireflet interne face CC inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167464",
+      "id_commande_v2i": "260711000049",
+      "code_cote": "B",
+      "patient": "LEMOS DE CARVALHO SERGIO RAUL",
+      "job_cosium": "J143054363-01",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "15/07/2026 16:51",
+      "detail": "Réf: LEMOS DE CARVALHO SERGIO RAUL / J143054363-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.75",
+        "axe": 165,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.0",
+        "supplements": [
+          "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 10,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "O2 Minimu 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }

@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:48",
+  "derniere_mise_a_jour": "15/07/2026 17:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167868",
@@ -163,60 +163,58 @@
       }
     },
     {
-      "ord_numb": "            10167553",
-      "id_commande_v2i": "260713000002",
+      "ord_numb": "            10167908",
+      "id_commande_v2i": "260715000133",
       "code_cote": "B",
-      "patient": "MAVILLA VIRGINIE",
-      "job_cosium": "",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 15:05",
-      "detail": "Réf: MAVILLA VIRGINIE — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "patient": "BIANCONI BEATRICE",
+      "job_cosium": "J133036148-01",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "15/07/2026 16:59",
+      "detail": "Réf: BIANCONI BEATRICE / J133036148-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "2.25",
-        "axe": 180,
-        "addition": "1.50",
+        "diametre": "70",
+        "sphere": "5.75",
+        "cylindre": "1.50",
+        "axe": 35,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "26.0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Affiny Equilibre2 1.6 XBlue Durci Arh",
+          "Tchin Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
+          "Durci Inclus"
         ]
       },
       "oeil_gauche": {
         "verre": "Fabrication RX",
         "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "1.50",
+        "diametre": "70",
+        "sphere": "4.75",
+        "cylindre": "0.50",
+        "axe": 145,
+        "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "26.0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
         "supplements": [
-          "Affiny Equilibre2 1.6 XBlue Durci Arh",
+          "Tchin Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
+          "Durci Inclus"
         ]
       }
     },
@@ -813,6 +811,64 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167553",
+      "id_commande_v2i": "260713000002",
+      "code_cote": "B",
+      "patient": "MAVILLA VIRGINIE",
+      "job_cosium": "",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 16:52",
+      "detail": "Réf: MAVILLA VIRGINIE — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "2.25",
+        "axe": 180,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -1627,62 +1683,6 @@
       }
     },
     {
-      "ord_numb": "            10167250",
-      "id_commande_v2i": "260710000042",
-      "code_cote": "B",
-      "patient": "SERRA JOSEE",
-      "job_cosium": "J133036242-02",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "15/07/2026 15:04",
-      "detail": "Réf: SERRA JOSEE / J133036242-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.50",
-        "cylindre": "0.25",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Polar G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.75",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Uni 1.6 Polar G15 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167247",
       "id_commande_v2i": "260710000039",
       "code_cote": "B",
@@ -1839,6 +1839,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167250",
+      "id_commande_v2i": "260710000042",
+      "code_cote": "B",
+      "patient": "SERRA JOSEE",
+      "job_cosium": "J133036242-02",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "15/07/2026 16:55",
+      "detail": "Réf: SERRA JOSEE / J133036242-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.50",
+        "cylindre": "0.25",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Polar G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.75",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Uni 1.6 Polar G15 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },

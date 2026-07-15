@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:48",
+  "derniere_mise_a_jour": "15/07/2026 17:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167816",
@@ -602,62 +602,6 @@
       }
     },
     {
-      "ord_numb": "            10167542",
-      "id_commande_v2i": "260711000127",
-      "code_cote": "B",
-      "patient": "BLONS ALAIN",
-      "job_cosium": "J139053626",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 15:05",
-      "detail": "Réf: BLONS ALAIN / J139053626 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.50",
-        "cylindre": "4.25",
-        "axe": 20,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.25",
-        "cylindre": "3.75",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Prestige Flex 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167545",
       "id_commande_v2i": "260711000130",
       "code_cote": "B",
@@ -765,6 +709,62 @@
         "supplements": [
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167542",
+      "id_commande_v2i": "260711000127",
+      "code_cote": "B",
+      "patient": "BLONS ALAIN",
+      "job_cosium": "J139053626",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "15/07/2026 16:51",
+      "detail": "Réf: BLONS ALAIN / J139053626 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "1.50",
+        "cylindre": "4.25",
+        "axe": 20,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.25",
+        "cylindre": "3.75",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Prestige Flex 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }

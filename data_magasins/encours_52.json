@@ -10,7 +10,7 @@
     "email": "obb@balbi.fr",
     "mot_de_passe_portail": "obb"
   },
-  "derniere_mise_a_jour": "15/07/2026 16:48",
+  "derniere_mise_a_jour": "15/07/2026 17:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167903",
@@ -45,66 +45,6 @@
         ]
       },
       "oeil_gauche": null
-    },
-    {
-      "ord_numb": "            10167591",
-      "id_commande_v2i": "260713000040",
-      "code_cote": "B",
-      "patient": "LENDORMY VANNINA",
-      "job_cosium": "J154014635",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 15:04",
-      "detail": "Réf: LENDORMY VANNINA / J154014635 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 170,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Reader3 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
     },
     {
       "ord_numb": "            10167623",
@@ -169,16 +109,76 @@
       }
     },
     {
+      "ord_numb": "            10167591",
+      "id_commande_v2i": "260713000040",
+      "code_cote": "B",
+      "patient": "LENDORMY VANNINA",
+      "job_cosium": "J154014635",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "15/07/2026 17:02",
+      "detail": "Réf: LENDORMY VANNINA / J154014635 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 170,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Reader3 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167485",
       "id_commande_v2i": "260711000070",
       "code_cote": "B",
       "patient": "SCAGLIA LAETITIA",
       "job_cosium": "J154014645-02",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 15:04",
-      "detail": "Réf: SCAGLIA LAETITIA / J154014645-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "15/07/2026 17:02",
+      "detail": "Réf: SCAGLIA LAETITIA / J154014645-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
