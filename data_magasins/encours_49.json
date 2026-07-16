@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "16/07/2026 17:03",
+  "derniere_mise_a_jour": "16/07/2026 17:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168023",
@@ -119,6 +119,42 @@
           "Teinte Brun C"
         ]
       }
+    },
+    {
+      "ord_numb": "            10168105",
+      "id_commande_v2i": "260716000121",
+      "code_cote": "R",
+      "patient": "COLOMBANI JOSEPHINE",
+      "job_cosium": "J205030744",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 17:07",
+      "detail": "Réf: COLOMBANI JOSEPHINE / J205030744 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.50",
+        "axe": 85,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte Gris C",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10168066",
