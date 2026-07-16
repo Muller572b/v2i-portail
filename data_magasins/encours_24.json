@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "16/07/2026 17:48",
+  "derniere_mise_a_jour": "16/07/2026 18:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167986",
@@ -2355,10 +2355,10 @@
       "patient": "REID JAMES",
       "job_cosium": "",
       "date_entree": "06/07/2026",
-      "date_dernier_statut": "09/07/2026 10:41",
-      "detail": "Réf: REID JAMES — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 18:01",
+      "detail": "Réf: REID JAMES — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -2405,62 +2405,6 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166080",
-      "id_commande_v2i": "260704000049",
-      "code_cote": "B",
-      "patient": "FERAILLE ELENA LILOU",
-      "job_cosium": "J133036173-01",
-      "date_entree": "04/07/2026",
-      "date_dernier_statut": "10/07/2026 10:43",
-      "detail": "Réf: FERAILLE ELENA LILOU / J133036173-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 15/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.75",
-        "cylindre": "5.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "AS 1.67 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "1.25",
-        "cylindre": "5.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "AS 1.67 Durci Bz",
-          "AR Blue Zen Inclus",
-          "Durci Inclus"
         ]
       }
     }
