@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "16/07/2026 11:18",
+  "derniere_mise_a_jour": "16/07/2026 11:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167841",
@@ -289,6 +289,60 @@
       }
     },
     {
+      "ord_numb": "            10167951",
+      "id_commande_v2i": "260715000176",
+      "code_cote": "B",
+      "patient": "GONZALEZ PASCAL",
+      "job_cosium": "J148018199-02",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 11:27",
+      "detail": "Réf: GONZALEZ PASCAL / J148018199-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Jeune 1er HD  1.5 Nu",
+          "Teinte Bleu C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.75",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin Jeune 1er HD  1.5 Nu",
+          "Teinte Bleu C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167955",
       "id_commande_v2i": "260715000180",
       "code_cote": "B",
@@ -443,60 +497,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Dégradée Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167951",
-      "id_commande_v2i": "260715000176",
-      "code_cote": "B",
-      "patient": "GONZALEZ PASCAL",
-      "job_cosium": "J148018199-02",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 11:08",
-      "detail": "Réf: GONZALEZ PASCAL / J148018199-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu",
-          "Teinte Bleu C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.75",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin Jeune 1er HD  1.5 Nu",
-          "Teinte Bleu C"
         ]
       }
     },

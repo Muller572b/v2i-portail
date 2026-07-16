@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "16/07/2026 11:18",
+  "derniere_mise_a_jour": "16/07/2026 11:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167929",
@@ -183,58 +183,6 @@
           "Antireflet interne face CC inclus",
           "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167936",
-      "id_commande_v2i": "260715000161",
-      "code_cote": "B",
-      "patient": "LUCIANI JEAN PAUL",
-      "job_cosium": "J143054386-02",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 10:32",
-      "detail": "Réf: LUCIANI JEAN PAUL / J143054386-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "1.00",
-        "axe": 80,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "31.0",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu"
         ]
       }
     },
@@ -613,6 +561,58 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 St. As 1.67 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167936",
+      "id_commande_v2i": "260715000161",
+      "code_cote": "B",
+      "patient": "LUCIANI JEAN PAUL",
+      "job_cosium": "J143054386-02",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 11:25",
+      "detail": "Réf: LUCIANI JEAN PAUL / J143054386-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "1.00",
+        "axe": 80,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "31.0",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu"
         ]
       }
     },
