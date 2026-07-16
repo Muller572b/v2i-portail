@@ -10,7 +10,7 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "16/07/2026 15:18",
+  "derniere_mise_a_jour": "16/07/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168012",
@@ -131,7 +131,7 @@
       "patient": "ALFONSI ROBERTE",
       "job_cosium": "J138020671-01",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 12:04",
+      "date_dernier_statut": "16/07/2026 15:26",
       "detail": "Réf: ALFONSI ROBERTE / J138020671-01 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
@@ -175,6 +175,62 @@
         "hauteur": "0.0",
         "supplements": [
           "Vista Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168040",
+      "id_commande_v2i": "260716000056",
+      "code_cote": "B",
+      "patient": "ALESSANDRI ISABELLE",
+      "job_cosium": "J138020688-03",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 15:21",
+      "detail": "Réf: ALESSANDRI ISABELLE / J138020688-03 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -239,62 +295,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168040",
-      "id_commande_v2i": "260716000056",
-      "code_cote": "B",
-      "patient": "ALESSANDRI ISABELLE",
-      "job_cosium": "J138020688-03",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 14:52",
-      "detail": "Réf: ALESSANDRI ISABELLE / J138020688-03 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
@@ -461,6 +461,60 @@
           "Vista Uni 1.5 Durci",
           "Teinte Dégradée Gris C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168069",
+      "id_commande_v2i": "260716000085",
+      "code_cote": "B",
+      "patient": "ALESSANDRI ISABELLE",
+      "job_cosium": "J138020688-02",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 15:19",
+      "detail": "Réf: ALESSANDRI ISABELLE / J138020688-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Dégradée Brun C"
         ]
       }
     },

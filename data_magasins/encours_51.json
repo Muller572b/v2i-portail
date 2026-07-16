@@ -10,8 +10,60 @@
     "email": "pr.optique@gmail.com",
     "mot_de_passe_portail": "osm"
   },
-  "derniere_mise_a_jour": "16/07/2026 15:18",
+  "derniere_mise_a_jour": "16/07/2026 15:33",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168070",
+      "id_commande_v2i": "260716000086",
+      "code_cote": "B",
+      "patient": "CASALTA JULIE",
+      "job_cosium": "J702020848",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 15:19",
+      "detail": "Réf: CASALTA JULIE / J702020848 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167870",
       "id_commande_v2i": "260715000095",
@@ -199,58 +251,6 @@
       }
     },
     {
-      "ord_numb": "            10167869",
-      "id_commande_v2i": "260715000094",
-      "code_cote": "B",
-      "patient": "GIACOMETTI JEAN JACQUES",
-      "job_cosium": "J702020836",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 16:05",
-      "detail": "Réf: GIACOMETTI JEAN JACQUES / J702020836 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.75",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Prog K 1.5 Nu"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "K2 Prog K 1.5 Nu"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167959",
       "id_commande_v2i": "260715000184",
       "code_cote": "B",
@@ -299,6 +299,58 @@
         "hauteur": "0.0",
         "supplements": [
           "Krys St. Uni 1.6 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167869",
+      "id_commande_v2i": "260715000094",
+      "code_cote": "B",
+      "patient": "GIACOMETTI JEAN JACQUES",
+      "job_cosium": "J702020836",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 15:27",
+      "detail": "Réf: GIACOMETTI JEAN JACQUES / J702020836 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.75",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Prog K 1.5 Nu"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.25",
+        "cylindre": "0.50",
+        "axe": 165,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "K2 Prog K 1.5 Nu"
         ]
       }
     },
@@ -367,10 +419,10 @@
       "patient": "JAMIN YANNICK",
       "job_cosium": "J702020821",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 16:55",
-      "detail": "Réf: JAMIN YANNICK / J702020821 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "16/07/2026 15:27",
+      "detail": "Réf: JAMIN YANNICK / J702020821 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -539,10 +591,10 @@
       "patient": "AIELLO SEBASTIEN",
       "job_cosium": "J702020811",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "16/07/2026 14:57",
-      "detail": "Réf: AIELLO SEBASTIEN / J702020811 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "16/07/2026 15:27",
+      "detail": "Réf: AIELLO SEBASTIEN / J702020811 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 15/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -593,10 +645,10 @@
       "patient": "FEKIRI FATMA",
       "job_cosium": "J702020815",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "16/07/2026 14:57",
-      "detail": "Réf: FEKIRI FATMA / J702020815 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "16/07/2026 15:27",
+      "detail": "Réf: FEKIRI FATMA / J702020815 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {

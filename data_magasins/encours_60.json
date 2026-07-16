@@ -10,7 +10,7 @@
     "email": "kbo@balbi.fr",
     "mot_de_passe_portail": "kbo"
   },
-  "derniere_mise_a_jour": "16/07/2026 15:18",
+  "derniere_mise_a_jour": "16/07/2026 15:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168033",
@@ -69,60 +69,6 @@
       }
     },
     {
-      "ord_numb": "            10168035",
-      "id_commande_v2i": "260716000051",
-      "code_cote": "B",
-      "patient": "CHAMPBERTAULT JOHNNY",
-      "job_cosium": "J704001269",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 14:38",
-      "detail": "Réf: CHAMPBERTAULT JOHNNY / J704001269 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "1.25",
-        "axe": 180,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Prog K 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.50",
-        "cylindre": "1.00",
-        "axe": 165,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Prog K 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168034",
       "id_commande_v2i": "260716000050",
       "code_cote": "B",
@@ -177,6 +123,60 @@
           "Teinte Brun A",
           "Durci Inclus",
           "Montage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168035",
+      "id_commande_v2i": "260716000051",
+      "code_cote": "B",
+      "patient": "CHAMPBERTAULT JOHNNY",
+      "job_cosium": "J704001269",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 15:23",
+      "detail": "Réf: CHAMPBERTAULT JOHNNY / J704001269 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog K 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.50",
+        "cylindre": "1.00",
+        "axe": 165,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Prog K 1.5 Nu",
+          "Teinte Gris C"
         ]
       }
     },
