@@ -10,7 +10,7 @@
     "email": "",
     "mot_de_passe_portail": "RODEN"
   },
-  "derniere_mise_a_jour": "16/07/2026 15:03",
+  "derniere_mise_a_jour": "16/07/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167871",
@@ -19,10 +19,10 @@
       "patient": "3096974099",
       "job_cosium": "",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 09:21",
-      "detail": "Réf: 3096974099 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 15:08",
+      "detail": "Réf: 3096974099 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -73,10 +73,10 @@
       "patient": "3096978582",
       "job_cosium": "",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 09:21",
-      "detail": "Réf: 3096978582 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 15:08",
+      "detail": "Réf: 3096978582 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -116,6 +116,60 @@
         "hauteur": "0.0",
         "supplements": [
           "INFORMANCE HD FR L 1.60",
+          "Solitaire"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167982",
+      "id_commande_v2i": "260715000207",
+      "code_cote": "B",
+      "patient": "3096988516",
+      "job_cosium": "",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 15:08",
+      "detail": "Réf: 3096988516 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.50",
+        "cylindre": "1.00",
+        "axe": 9,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE HD FR XS 1.60",
+          "Solitaire"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.25",
+        "axe": 167,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "INFORMANCE HD FR XS 1.60",
           "Solitaire"
         ]
       }
@@ -175,70 +229,16 @@
       }
     },
     {
-      "ord_numb": "            10167982",
-      "id_commande_v2i": "260715000207",
-      "code_cote": "B",
-      "patient": "3096988516",
-      "job_cosium": "",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 10:01",
-      "detail": "Réf: 3096988516 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.50",
-        "cylindre": "1.00",
-        "axe": 9,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "INFORMANCE HD FR XS 1.60",
-          "Solitaire"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.25",
-        "axe": 167,
-        "addition": "3.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "INFORMANCE HD FR XS 1.60",
-          "Solitaire"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167700",
       "id_commande_v2i": "260713000149",
       "code_cote": "B",
       "patient": "3096922058",
       "job_cosium": "",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "16/07/2026 09:21",
-      "detail": "Réf: 3096922058 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 15:08",
+      "detail": "Réf: 3096922058 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
