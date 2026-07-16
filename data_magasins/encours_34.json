@@ -10,66 +10,8 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "16/07/2026 17:33",
+  "derniere_mise_a_jour": "16/07/2026 17:48",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167985",
-      "id_commande_v2i": "260716000001",
-      "code_cote": "B",
-      "patient": "TERELLI GUY",
-      "job_cosium": "",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 15:08",
-      "detail": "Réf: TERELLI GUY — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.50",
-        "cylindre": "0.50",
-        "axe": 25,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "35.4",
-        "hauteur": "28.0",
-        "supplements": [
-          "O2 Maximu2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "4.25",
-        "cylindre": "2.50",
-        "axe": 150,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.7",
-        "hauteur": "28.0",
-        "supplements": [
-          "O2 Maximu2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167988",
       "id_commande_v2i": "260716000004",
@@ -184,6 +126,64 @@
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167985",
+      "id_commande_v2i": "260716000001",
+      "code_cote": "B",
+      "patient": "TERELLI GUY",
+      "job_cosium": "",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 17:36",
+      "detail": "Réf: TERELLI GUY — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.50",
+        "cylindre": "0.50",
+        "axe": 25,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "35.4",
+        "hauteur": "28.0",
+        "supplements": [
+          "O2 Maximu2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "4.25",
+        "cylindre": "2.50",
+        "axe": 150,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.7",
+        "hauteur": "28.0",
+        "supplements": [
+          "O2 Maximu2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
           "Optimisé"
         ]
       }
