@@ -10,7 +10,7 @@
     "email": "obp@balbi.fr",
     "mot_de_passe_portail": "obp"
   },
-  "derniere_mise_a_jour": "16/07/2026 11:03",
+  "derniere_mise_a_jour": "16/07/2026 11:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167809",
@@ -241,6 +241,68 @@
       }
     },
     {
+      "ord_numb": "            10167977",
+      "id_commande_v2i": "260715000202",
+      "code_cote": "B",
+      "patient": "CHIOCCA MONIQUE ROSE",
+      "job_cosium": "J120030745-01",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 11:10",
+      "detail": "Réf: CHIOCCA MONIQUE ROSE / J120030745-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Delta Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.25",
+        "cylindre": "0.25",
+        "axe": 25,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.5",
+        "supplements": [
+          "Delta Equilibre2 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167978",
       "id_commande_v2i": "260715000203",
       "code_cote": "B",
@@ -351,68 +413,6 @@
         "hauteur": "0.0",
         "supplements": [
           "St. Afocal 1.5 Brun / C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167977",
-      "id_commande_v2i": "260715000202",
-      "code_cote": "B",
-      "patient": "CHIOCCA MONIQUE ROSE",
-      "job_cosium": "J120030745-01",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 19:14",
-      "detail": "Réf: CHIOCCA MONIQUE ROSE / J120030745-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Delta Equilibre2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.25",
-        "cylindre": "0.25",
-        "axe": 25,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.5",
-        "supplements": [
-          "Delta Equilibre2 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },

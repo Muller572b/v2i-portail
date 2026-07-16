@@ -10,8 +10,64 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "16/07/2026 11:03",
+  "derniere_mise_a_jour": "16/07/2026 11:18",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167968",
+      "id_commande_v2i": "260715000193",
+      "code_cote": "B",
+      "patient": "TOMASI MARIE JEANNE",
+      "job_cosium": "J139053652",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 11:06",
+      "detail": "Réf: TOMASI MARIE JEANNE / J139053652 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 27/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.50",
+        "cylindre": "0.50",
+        "axe": 155,
+        "addition": "0.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167976",
       "id_commande_v2i": "260715000201",
@@ -62,62 +118,6 @@
         "hauteur": "0.0",
         "supplements": [
           "D2 Uni 1.5  Polar Brun Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167968",
-      "id_commande_v2i": "260715000193",
-      "code_cote": "B",
-      "patient": "TOMASI MARIE JEANNE",
-      "job_cosium": "J139053652",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 10:48",
-      "detail": "Réf: TOMASI MARIE JEANNE / J139053652 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 27/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.50",
-        "cylindre": "0.50",
-        "axe": 155,
-        "addition": "0.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
           "Durci Inclus"
         ]
       }
