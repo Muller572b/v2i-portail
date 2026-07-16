@@ -10,7 +10,7 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "16/07/2026 14:48",
+  "derniere_mise_a_jour": "16/07/2026 15:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168003",
@@ -125,6 +125,58 @@
       }
     },
     {
+      "ord_numb": "            10167366",
+      "id_commande_v2i": "260710000158",
+      "code_cote": "B",
+      "patient": "MONTESARDO Eva",
+      "job_cosium": "J157000098",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "16/07/2026 14:57",
+      "detail": "Réf: MONTESARDO Eva / J157000098 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Afocal 1.5 Dégradé Brun"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Afocal 1.5 Dégradé Brun"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167376",
       "id_commande_v2i": "260710000168",
       "code_cote": "B",
@@ -183,58 +235,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167366",
-      "id_commande_v2i": "260710000158",
-      "code_cote": "B",
-      "patient": "MONTESARDO Eva",
-      "job_cosium": "J157000098",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 17:43",
-      "detail": "Réf: MONTESARDO Eva / J157000098 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Afocal 1.5 Dégradé Brun"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Afocal 1.5 Dégradé Brun"
         ]
       }
     }

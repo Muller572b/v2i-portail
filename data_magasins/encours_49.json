@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "16/07/2026 14:48",
+  "derniere_mise_a_jour": "16/07/2026 15:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168023",
@@ -119,45 +119,6 @@
           "Teinte Brun C"
         ]
       }
-    },
-    {
-      "ord_numb": "            10167822",
-      "id_commande_v2i": "260715000047",
-      "code_cote": "R",
-      "patient": "ALVES ELISA",
-      "job_cosium": "J205030651",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 10:07",
-      "detail": "Réf: ALVES ELISA / J205030651 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.50",
-        "cylindre": "0.75",
-        "axe": 5,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.6",
-        "hauteur": "36.0",
-        "supplements": [
-          "2de O2 Supremu2 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10167821",
@@ -307,6 +268,45 @@
           "Optimisé"
         ]
       }
+    },
+    {
+      "ord_numb": "            10167822",
+      "id_commande_v2i": "260715000047",
+      "code_cote": "R",
+      "patient": "ALVES ELISA",
+      "job_cosium": "J205030651",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 15:01",
+      "detail": "Réf: ALVES ELISA / J205030651 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.50",
+        "cylindre": "0.75",
+        "axe": 5,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.6",
+        "hauteur": "36.0",
+        "supplements": [
+          "2de O2 Supremu2 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10167925",
@@ -1241,10 +1241,10 @@
       "patient": "FERICEAN MARYSE",
       "job_cosium": "J205030673-03",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 14:23",
-      "detail": "Réf: FERICEAN MARYSE / J205030673-03 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
+      "date_dernier_statut": "16/07/2026 14:57",
+      "detail": "Réf: FERICEAN MARYSE / J205030673-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -1283,6 +1283,58 @@
         "hauteur": "0.0",
         "supplements": [
           "O2  2e St. As 1.59 Poly Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167356",
+      "id_commande_v2i": "260710000148",
+      "code_cote": "B",
+      "patient": "LEDOUX EMMANUELLE",
+      "job_cosium": "J205030683",
+      "date_entree": "10/07/2026",
+      "date_dernier_statut": "16/07/2026 14:57",
+      "detail": "Réf: LEDOUX EMMANUELLE / J205030683 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 13/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-1.25",
+        "cylindre": "0.50",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "1.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.1",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Durci Arh"
         ]
       }
     },
@@ -1337,58 +1389,6 @@
         "supplements": [
           "2de Uni 1.5 Non Durci",
           "Teinte Dégradée au modèle A-C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167356",
-      "id_commande_v2i": "260710000148",
-      "code_cote": "B",
-      "patient": "LEDOUX EMMANUELLE",
-      "job_cosium": "J205030683",
-      "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 17:25",
-      "detail": "Réf: LEDOUX EMMANUELLE / J205030683 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 13/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-1.25",
-        "cylindre": "0.50",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "1.50",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.1",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Durci Arh"
         ]
       }
     }

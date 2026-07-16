@@ -10,68 +10,8 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "16/07/2026 14:48",
+  "derniere_mise_a_jour": "16/07/2026 15:03",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10167780",
-      "id_commande_v2i": "260715000005",
-      "code_cote": "B",
-      "patient": "FANNY",
-      "job_cosium": "",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 10:07",
-      "detail": "Réf: FANNY — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.50",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.5",
-        "supplements": [
-          "Relax 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "27.5",
-        "supplements": [
-          "Relax 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      }
-    },
     {
       "ord_numb": "            10167899",
       "id_commande_v2i": "260715000124",
@@ -187,6 +127,66 @@
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167780",
+      "id_commande_v2i": "260715000005",
+      "code_cote": "B",
+      "patient": "FANNY",
+      "job_cosium": "",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 15:00",
+      "detail": "Réf: FANNY — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.50",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.5",
+        "supplements": [
+          "Relax 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "27.5",
+        "supplements": [
+          "Relax 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
         ]
       }
     },
