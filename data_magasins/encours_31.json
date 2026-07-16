@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "16/07/2026 11:48",
+  "derniere_mise_a_jour": "16/07/2026 12:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167820",
@@ -229,62 +229,6 @@
       }
     },
     {
-      "ord_numb": "            10167593",
-      "id_commande_v2i": "260713000042",
-      "code_cote": "B",
-      "patient": "FERRETTI ZAHIA",
-      "job_cosium": "J127031256",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "16/07/2026 08:50",
-      "detail": "Réf: FERRETTI ZAHIA / J127031256 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-0.25",
-        "cylindre": "1.00",
-        "axe": 90,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "22.5",
-        "supplements": [
-          "Vista Prog V2i 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "22.5",
-        "supplements": [
-          "Vista Prog V2i 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167690",
       "id_commande_v2i": "260713000139",
       "code_cote": "B",
@@ -392,6 +336,62 @@
         "supplements": [
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167593",
+      "id_commande_v2i": "260713000042",
+      "code_cote": "B",
+      "patient": "FERRETTI ZAHIA",
+      "job_cosium": "J127031256",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "16/07/2026 11:52",
+      "detail": "Réf: FERRETTI ZAHIA / J127031256 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-0.25",
+        "cylindre": "1.00",
+        "axe": 90,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "22.5",
+        "supplements": [
+          "Vista Prog V2i 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "22.5",
+        "supplements": [
+          "Vista Prog V2i 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
