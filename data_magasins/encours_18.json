@@ -10,8 +10,60 @@
     "email": "balbisoleililerousse@gmail.com",
     "mot_de_passe_portail": "ile"
   },
-  "derniere_mise_a_jour": "16/07/2026 09:03",
+  "derniere_mise_a_jour": "16/07/2026 11:03",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167997",
+      "id_commande_v2i": "260716000013",
+      "code_cote": "B",
+      "patient": "ALDOBRANDI KOENIG MARIE VIVIAN",
+      "job_cosium": "J125026077",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 10:33",
+      "detail": "Réf: ALDOBRANDI KOENIG MARIE VIVIAN / J125026077 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-4.50",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167698",
       "id_commande_v2i": "260713000147",
@@ -19,10 +71,10 @@
       "patient": "FORTIN SANDRINE",
       "job_cosium": "J125026069",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 12:11",
-      "detail": "Réf: FORTIN SANDRINE / J125026069 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 09:51",
+      "detail": "Réf: FORTIN SANDRINE / J125026069 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -63,62 +115,6 @@
         "hauteur": "25.0",
         "supplements": [
           "Prog V2i 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167502",
-      "id_commande_v2i": "260711000087",
-      "code_cote": "B",
-      "patient": "PEREZ MATHILDE",
-      "job_cosium": "J125026062",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "15/07/2026 08:52",
-      "detail": "Réf: PEREZ MATHILDE / J125026062 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Prog V2i 1.5 Durci",
-          "Teinte Brun C",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Prog V2i 1.5 Durci",
           "Teinte Brun C",
           "Durci Inclus"
         ]
@@ -176,6 +172,62 @@
         "supplements": [
           "Media 1.6 Durci Bz",
           "AR Blue Zen Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167502",
+      "id_commande_v2i": "260711000087",
+      "code_cote": "B",
+      "patient": "PEREZ MATHILDE",
+      "job_cosium": "J125026062",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "16/07/2026 09:56",
+      "detail": "Réf: PEREZ MATHILDE / J125026062 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Prog V2i 1.5 Durci",
+          "Teinte Brun C",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Prog V2i 1.5 Durci",
+          "Teinte Brun C",
           "Durci Inclus"
         ]
       }

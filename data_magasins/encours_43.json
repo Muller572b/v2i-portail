@@ -10,7 +10,7 @@
     "email": "centroptique20213@orange.fr",
     "mot_de_passe_portail": "fca"
   },
-  "derniere_mise_a_jour": "16/07/2026 09:03",
+  "derniere_mise_a_jour": "16/07/2026 11:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167780",
@@ -19,10 +19,10 @@
       "patient": "FANNY",
       "job_cosium": "",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 12:02",
-      "detail": "Réf: FANNY — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 10:07",
+      "detail": "Réf: FANNY — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -69,6 +69,124 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167899",
+      "id_commande_v2i": "260715000124",
+      "code_cote": "B",
+      "patient": "DONGRADI ERIC",
+      "job_cosium": "J149018494",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 09:36",
+      "detail": "Réf: DONGRADI ERIC / J149018494 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-6.25",
+        "cylindre": "1.75",
+        "axe": 100,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "35.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Confort2 1.6 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-6.75",
+        "cylindre": "2.00",
+        "axe": 80,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.6",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Delta Confort2 1.6 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167901",
+      "id_commande_v2i": "260715000126",
+      "code_cote": "B",
+      "patient": "BELIN FATOU",
+      "job_cosium": "J149018487",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 09:19",
+      "detail": "Réf: BELIN FATOU / J149018487 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 27/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 65,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 145,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
         ]
       }
     },
@@ -173,124 +291,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167899",
-      "id_commande_v2i": "260715000124",
-      "code_cote": "B",
-      "patient": "DONGRADI ERIC",
-      "job_cosium": "J149018494",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 16:33",
-      "detail": "Réf: DONGRADI ERIC / J149018494 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-6.25",
-        "cylindre": "1.75",
-        "axe": 100,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "35.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Confort2 1.6 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-6.75",
-        "cylindre": "2.00",
-        "axe": 80,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.6",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Delta Confort2 1.6 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167901",
-      "id_commande_v2i": "260715000126",
-      "code_cote": "B",
-      "patient": "BELIN FATOU",
-      "job_cosium": "J149018487",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 16:33",
-      "detail": "Réf: BELIN FATOU / J149018487 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 27/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 65,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 145,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
         ]
       }
     },

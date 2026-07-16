@@ -10,8 +10,60 @@
     "email": "obo@balbi.fr",
     "mot_de_passe_portail": "obo"
   },
-  "derniere_mise_a_jour": "16/07/2026 09:03",
+  "derniere_mise_a_jour": "16/07/2026 11:03",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168003",
+      "id_commande_v2i": "260716000019",
+      "code_cote": "B",
+      "patient": "DABBOUS Jean Marie",
+      "job_cosium": "J157000104",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 10:31",
+      "detail": "Réf: DABBOUS Jean Marie / J157000104 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 16/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-4.75",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-5.00",
+        "cylindre": "1.00",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Durci"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167823",
       "id_commande_v2i": "260715000048",
@@ -79,10 +131,10 @@
       "patient": "GIACOMETTO Paul",
       "job_cosium": "J157000099",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "13/07/2026 15:29",
-      "detail": "Réf: GIACOMETTO Paul / J157000099 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 09:58",
+      "detail": "Réf: GIACOMETTO Paul / J157000099 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {

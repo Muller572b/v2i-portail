@@ -10,8 +10,62 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "16/07/2026 09:03",
+  "derniere_mise_a_jour": "16/07/2026 11:03",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10167981",
+      "id_commande_v2i": "260715000206",
+      "code_cote": "B",
+      "patient": "DEBEURET JEAN PAUL",
+      "job_cosium": "J600029552",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 10:06",
+      "detail": "Réf: DEBEURET JEAN PAUL / J600029552 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "36.5",
+        "supplements": [
+          "Primo Confort  1.5 Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "37.0",
+        "supplements": [
+          "Primo Confort  1.5 Polar Gris Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10167980",
       "id_commande_v2i": "260715000205",
@@ -69,70 +123,16 @@
       }
     },
     {
-      "ord_numb": "            10167981",
-      "id_commande_v2i": "260715000206",
-      "code_cote": "B",
-      "patient": "DEBEURET JEAN PAUL",
-      "job_cosium": "J600029552",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 19:31",
-      "detail": "Réf: DEBEURET JEAN PAUL / J600029552 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "36.5",
-        "supplements": [
-          "Primo Confort  1.5 Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "37.0",
-        "supplements": [
-          "Primo Confort  1.5 Polar Gris Durci",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167772",
       "id_commande_v2i": "260714000008",
       "code_cote": "B",
       "patient": "MELONI PIERRE",
       "job_cosium": "J600029539",
       "date_entree": "14/07/2026",
-      "date_dernier_statut": "15/07/2026 14:25",
-      "detail": "Réf: MELONI PIERRE / J600029539 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "16/07/2026 10:07",
+      "detail": "Réf: MELONI PIERRE / J600029539 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -291,6 +291,62 @@
       }
     },
     {
+      "ord_numb": "            10167751",
+      "id_commande_v2i": "260713000200",
+      "code_cote": "B",
+      "patient": "GRISONI PIERRE MARIE",
+      "job_cosium": "J600029521",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "16/07/2026 10:07",
+      "detail": "Réf: GRISONI PIERRE MARIE / J600029521 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.25",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Reader3 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 160,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Reader3 1.5  Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167666",
       "id_commande_v2i": "260713000115",
       "code_cote": "B",
@@ -407,69 +463,13 @@
       }
     },
     {
-      "ord_numb": "            10167751",
-      "id_commande_v2i": "260713000200",
-      "code_cote": "B",
-      "patient": "GRISONI PIERRE MARIE",
-      "job_cosium": "J600029521",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 12:02",
-      "detail": "Réf: GRISONI PIERRE MARIE / J600029521 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.25",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Reader3 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 160,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Reader3 1.5  Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167752",
       "id_commande_v2i": "260713000201",
       "code_cote": "B",
       "patient": "PINELLI ELIANE",
       "job_cosium": "J600029519",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "15/07/2026 11:57",
+      "date_dernier_statut": "16/07/2026 10:27",
       "detail": "Réf: PINELLI ELIANE / J600029519 — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
