@@ -10,8 +10,62 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "16/07/2026 16:03",
+  "derniere_mise_a_jour": "16/07/2026 16:18",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168083",
+      "id_commande_v2i": "260716000099",
+      "code_cote": "B",
+      "patient": "STROSSER FRANCOIS-XAVIER",
+      "job_cosium": "J146022958-02",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 16:14",
+      "detail": "Réf: STROSSER FRANCOIS-XAVIER / J146022958-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "3.25",
+        "cylindre": "0.75",
+        "axe": 145,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "4.25",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte Dégradée Gris C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168044",
       "id_commande_v2i": "260716000060",
@@ -61,6 +115,118 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168045",
+      "id_commande_v2i": "260716000061",
+      "code_cote": "B",
+      "patient": "GABELLI GILBERT",
+      "job_cosium": "J146022954-02",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 16:11",
+      "detail": "Réf: GABELLI GILBERT / J146022954-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168046",
+      "id_commande_v2i": "260716000062",
+      "code_cote": "B",
+      "patient": "GABELLI GILBERT",
+      "job_cosium": "J146022954-01",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 16:11",
+      "detail": "Réf: GABELLI GILBERT / J146022954-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "3.00",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "2de Uni 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -133,168 +299,56 @@
       }
     },
     {
-      "ord_numb": "            10168045",
-      "id_commande_v2i": "260716000061",
+      "ord_numb": "            10168072",
+      "id_commande_v2i": "260716000088",
       "code_cote": "B",
-      "patient": "GABELLI GILBERT",
-      "job_cosium": "J146022954-02",
+      "patient": "CASTELLANA FRANCESCU MARIA",
+      "job_cosium": "",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 13:13",
-      "detail": "Réf: GABELLI GILBERT / J146022954-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/07",
+      "date_dernier_statut": "16/07/2026 16:11",
+      "detail": "Réf: CASTELLANA FRANCESCU MARIA — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
+        "verre": "Stock",
+        "type": "Stock",
         "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 155,
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 0,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
         ]
       },
       "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
+        "verre": "Stock",
+        "type": "Stock",
         "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 30,
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 0,
         "addition": "0.00",
         "prisme_1": "0.00",
         "base_1": "0",
         "prisme_2": "0.00",
         "base_2": "0",
         "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
+        "ecart_pupillaire": "0.0",
         "hauteur": "0.0",
         "supplements": [
-          "Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168046",
-      "id_commande_v2i": "260716000062",
-      "code_cote": "B",
-      "patient": "GABELLI GILBERT",
-      "job_cosium": "J146022954-01",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 13:13",
-      "detail": "Réf: GABELLI GILBERT / J146022954-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "3.00",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "2de Uni 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168083",
-      "id_commande_v2i": "260716000099",
-      "code_cote": "B",
-      "patient": "STROSSER FRANCOIS-XAVIER",
-      "job_cosium": "J146022958-02",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 15:59",
-      "detail": "Réf: STROSSER FRANCOIS-XAVIER / J146022958-02 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "3.25",
-        "cylindre": "0.75",
-        "axe": 145,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "4.25",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "2de O2 Miladu 1.5 Nu",
-          "Teinte Dégradée Gris C"
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
         ]
       }
     },
@@ -357,60 +411,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168072",
-      "id_commande_v2i": "260716000088",
-      "code_cote": "B",
-      "patient": "CASTELLANA FRANCESCU MARIA",
-      "job_cosium": "",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 15:51",
-      "detail": "Réf: CASTELLANA FRANCESCU MARIA — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Gris C"
         ]
       }
     },

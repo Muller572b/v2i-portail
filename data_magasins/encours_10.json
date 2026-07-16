@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "16/07/2026 16:03",
+  "derniere_mise_a_jour": "16/07/2026 16:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167989",
@@ -1292,6 +1292,60 @@
       }
     },
     {
+      "ord_numb": "            10167516",
+      "id_commande_v2i": "260711000101",
+      "code_cote": "B",
+      "patient": "GOESAERT ALYSON",
+      "job_cosium": "J145063788",
+      "date_entree": "11/07/2026",
+      "date_dernier_statut": "16/07/2026 16:11",
+      "detail": "Réf: GOESAERT ALYSON / J145063788 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 15/07 ",
+      "style_couleur": "text-red-600 bg-red-50 border-red-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.50",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée au modèle A-C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.75",
+        "axe": 65,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée au modèle A-C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167519",
       "id_commande_v2i": "260711000104",
       "code_cote": "B",
@@ -1474,60 +1528,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167516",
-      "id_commande_v2i": "260711000101",
-      "code_cote": "B",
-      "patient": "GOESAERT ALYSON",
-      "job_cosium": "J145063788",
-      "date_entree": "11/07/2026",
-      "date_dernier_statut": "16/07/2026 15:54",
-      "detail": "Réf: GOESAERT ALYSON / J145063788 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 15/07 ",
-      "style_couleur": "text-red-600 bg-red-50 border-red-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.50",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée au modèle A-C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.75",
-        "axe": 65,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée au modèle A-C"
         ]
       }
     },
