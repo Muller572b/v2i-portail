@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "16/07/2026 14:33",
+  "derniere_mise_a_jour": "16/07/2026 14:48",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167986",
@@ -128,6 +128,64 @@
           "Durci Inclus",
           "Individualisation",
           "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167998",
+      "id_commande_v2i": "260716000014",
+      "code_cote": "B",
+      "patient": "SINIGAGLIA CLARA",
+      "job_cosium": "",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 14:47",
+      "detail": "Réf: SINIGAGLIA CLARA — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci",
+          "Teinte G15 C",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "2.00",
+        "cylindre": "0.75",
+        "axe": 35,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Affiny Equilibre2 1.6 Durci",
+          "Teinte G15 C",
+          "Durci Inclus",
           "Optimisé"
         ]
       }
@@ -281,64 +339,6 @@
           "Tchin Jeune 1er HD  1.5 Durci Bz",
           "AR Blue Zen Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167998",
-      "id_commande_v2i": "260716000014",
-      "code_cote": "B",
-      "patient": "SINIGAGLIA CLARA",
-      "job_cosium": "",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 11:56",
-      "detail": "Réf: SINIGAGLIA CLARA — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.50",
-        "axe": 135,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci",
-          "Teinte G15 C",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "2.00",
-        "cylindre": "0.75",
-        "axe": 35,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Affiny Equilibre2 1.6 Durci",
-          "Teinte G15 C",
-          "Durci Inclus",
-          "Optimisé"
         ]
       }
     },
