@@ -10,7 +10,7 @@
     "email": "obr@balbi.fr",
     "mot_de_passe_portail": "obr"
   },
-  "derniere_mise_a_jour": "16/07/2026 15:48",
+  "derniere_mise_a_jour": "16/07/2026 16:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168004",
@@ -73,58 +73,6 @@
       }
     },
     {
-      "ord_numb": "            10168052",
-      "id_commande_v2i": "260716000068",
-      "code_cote": "B",
-      "patient": "EL YAAGOUBI MOHAMED GHALI",
-      "job_cosium": "J147014199",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 15:45",
-      "detail": "Réf: EL YAAGOUBI MOHAMED GHALI / J147014199 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "0.50",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168053",
       "id_commande_v2i": "260716000069",
       "code_cote": "B",
@@ -173,6 +121,58 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168052",
+      "id_commande_v2i": "260716000068",
+      "code_cote": "B",
+      "patient": "EL YAAGOUBI MOHAMED GHALI",
+      "job_cosium": "J147014199",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 15:54",
+      "detail": "Réf: EL YAAGOUBI MOHAMED GHALI / J147014199 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "0.50",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
     },
