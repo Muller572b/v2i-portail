@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "16/07/2026 12:48",
+  "derniere_mise_a_jour": "16/07/2026 13:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168023",
@@ -162,53 +162,16 @@
       }
     },
     {
-      "ord_numb": "            10167940",
-      "id_commande_v2i": "260715000165",
-      "code_cote": "L",
-      "patient": "BARBARINO NINA",
-      "job_cosium": "J205030734",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 10:59",
-      "detail": "Réf: BARBARINO NINA / J205030734 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "4.50",
-        "cylindre": "2.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "26.0",
-        "hauteur": "17.0",
-        "supplements": [
-          "2de Uni 1.6 Durci",
-          "Durci Inclus",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167891",
       "id_commande_v2i": "260715000116",
       "code_cote": "B",
       "patient": "CRUCIANI JEANNE-MARIE",
       "job_cosium": "J205030726",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 12:44",
-      "detail": "Réf: CRUCIANI JEANNE-MARIE / J205030726 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "16/07/2026 12:50",
+      "detail": "Réf: CRUCIANI JEANNE-MARIE / J205030726 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -251,6 +214,43 @@
           "Uni 1.6 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167940",
+      "id_commande_v2i": "260715000165",
+      "code_cote": "L",
+      "patient": "BARBARINO NINA",
+      "job_cosium": "J205030734",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "16/07/2026 10:59",
+      "detail": "Réf: BARBARINO NINA / J205030734 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "4.50",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "26.0",
+        "hauteur": "17.0",
+        "supplements": [
+          "2de Uni 1.6 Durci",
+          "Durci Inclus",
+          "Précalibrage",
+          "Optimisé"
         ]
       }
     },
