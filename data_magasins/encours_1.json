@@ -10,7 +10,7 @@
     "email": "don@balbi.fr",
     "mot_de_passe_portail": "don"
   },
-  "derniere_mise_a_jour": "16/07/2026 16:48",
+  "derniere_mise_a_jour": "16/07/2026 17:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168079",
@@ -69,6 +69,62 @@
           "Durci Inclus",
           "Optimisé",
           "Précalibrage"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168102",
+      "id_commande_v2i": "260716000118",
+      "code_cote": "B",
+      "patient": "LUCCHINI Josephine",
+      "job_cosium": "",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 17:01",
+      "detail": "Réf: LUCCHINI Josephine — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C",
+          "Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "2.00",
+        "axe": 165,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5",
+          "Teinte Brun C",
+          "Durci"
         ]
       }
     }
