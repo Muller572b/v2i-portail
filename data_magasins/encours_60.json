@@ -10,8 +10,62 @@
     "email": "kbo@balbi.fr",
     "mot_de_passe_portail": "kbo"
   },
-  "derniere_mise_a_jour": "17/07/2026 15:33",
+  "derniere_mise_a_jour": "17/07/2026 16:03",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168261",
+      "id_commande_v2i": "260717000097",
+      "code_cote": "B",
+      "patient": "LE PENNEC JULIA",
+      "job_cosium": "J704001278-02",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "17/07/2026 15:44",
+      "detail": "Réf: LE PENNEC JULIA / J704001278-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Krys 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168262",
       "id_commande_v2i": "260717000098",
@@ -61,60 +115,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Krys St.Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168261",
-      "id_commande_v2i": "260717000097",
-      "code_cote": "B",
-      "patient": "LE PENNEC JULIA",
-      "job_cosium": "J704001278-02",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 14:43",
-      "detail": "Réf: LE PENNEC JULIA / J704001278-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys 2e St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Krys 2e St. Uni 1.5",
-          "Teinte Gris C"
         ]
       }
     },

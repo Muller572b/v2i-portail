@@ -10,7 +10,7 @@
     "email": "pob@balbi.fr",
     "mot_de_passe_portail": "Balbi20137"
   },
-  "derniere_mise_a_jour": "17/07/2026 15:33",
+  "derniere_mise_a_jour": "17/07/2026 16:03",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168181",
@@ -135,10 +135,10 @@
       "patient": "PASQUALINI ELODIE",
       "job_cosium": "J160021156-02",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 12:01",
-      "detail": "Réf: PASQUALINI ELODIE / J160021156-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "17/07/2026 15:54",
+      "detail": "Réf: PASQUALINI ELODIE / J160021156-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 24/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -243,62 +243,6 @@
       }
     },
     {
-      "ord_numb": "            10168180",
-      "id_commande_v2i": "260717000016",
-      "code_cote": "B",
-      "patient": "SOARES RIBEIRO ERICA",
-      "job_cosium": "J160021153",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 10:13",
-      "detail": "Réf: SOARES RIBEIRO ERICA / J160021153 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.50",
-        "cylindre": "0.75",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.7",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.5 Non durci",
-          "Teinte Gris C",
-          "Montage"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168182",
       "id_commande_v2i": "260717000018",
       "code_cote": "B",
@@ -349,6 +293,62 @@
         "supplements": [
           "Media 1.5 Polar Gris Durci",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168180",
+      "id_commande_v2i": "260717000016",
+      "code_cote": "B",
+      "patient": "SOARES RIBEIRO ERICA",
+      "job_cosium": "J160021153",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "17/07/2026 15:59",
+      "detail": "Réf: SOARES RIBEIRO ERICA / J160021153 — (Fabrication RX) — État: Commande teintée",
+      "statut_code": "TINT",
+      "statut_affichage": "Commande teintée",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.50",
+        "cylindre": "0.75",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.5 Non durci",
+          "Teinte Gris C",
+          "Montage"
         ]
       }
     },
@@ -929,6 +929,68 @@
       }
     },
     {
+      "ord_numb": "            10167850",
+      "id_commande_v2i": "260715000075",
+      "code_cote": "B",
+      "patient": "GIRAUD MARYSE",
+      "job_cosium": "J160021125-01",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "17/07/2026 15:54",
+      "detail": "Réf: GIRAUD MARYSE / J160021125-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-3.50",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "3.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.7",
+        "hauteur": "26.4",
+        "supplements": [
+          "Delta Horizon2 1.5 Polar Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.75",
+        "cylindre": "1.25",
+        "axe": 170,
+        "addition": "3.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "30.9",
+        "hauteur": "27.0",
+        "supplements": [
+          "Delta Horizon2 1.5 Polar Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167849",
       "id_commande_v2i": "260715000074",
       "code_cote": "B",
@@ -988,68 +1050,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Teinte au modèle uni A-C",
-          "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167850",
-      "id_commande_v2i": "260715000075",
-      "code_cote": "B",
-      "patient": "GIRAUD MARYSE",
-      "job_cosium": "J160021125-01",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "17/07/2026 15:08",
-      "detail": "Réf: GIRAUD MARYSE / J160021125-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-3.50",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "3.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.7",
-        "hauteur": "26.4",
-        "supplements": [
-          "Delta Horizon2 1.5 Polar Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.75",
-        "cylindre": "1.25",
-        "axe": 170,
-        "addition": "3.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "30.9",
-        "hauteur": "27.0",
-        "supplements": [
-          "Delta Horizon2 1.5 Polar Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
           "Optimisé"
         ]
       }
