@@ -10,7 +10,7 @@
     "email": "afflelou.bastia@orange.fr",
     "mot_de_passe_portail": "bab"
   },
-  "derniere_mise_a_jour": "17/07/2026 14:18",
+  "derniere_mise_a_jour": "17/07/2026 14:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168206",
@@ -548,6 +548,60 @@
       }
     },
     {
+      "ord_numb": "            10168050",
+      "id_commande_v2i": "260716000066",
+      "code_cote": "B",
+      "patient": "AIELLO ANTHONY",
+      "job_cosium": "J144102575-02",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "17/07/2026 14:29",
+      "detail": "Réf: AIELLO ANTHONY / J144102575-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.75",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "27.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-2.50",
+        "cylindre": "0.50",
+        "axe": 125,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168114",
       "id_commande_v2i": "260716000130",
       "code_cote": "B",
@@ -598,60 +652,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Brun B"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168050",
-      "id_commande_v2i": "260716000066",
-      "code_cote": "B",
-      "patient": "AIELLO ANTHONY",
-      "job_cosium": "J144102575-02",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "17/07/2026 11:56",
-      "detail": "Réf: AIELLO ANTHONY / J144102575-02 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.75",
-        "cylindre": "0.25",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "27.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-2.50",
-        "cylindre": "0.50",
-        "axe": 125,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Gris C"
         ]
       }
     },
@@ -1168,10 +1168,10 @@
       "patient": "BELLONI ANTOINE",
       "job_cosium": "J144102546-01",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:19",
-      "detail": "Réf: BELLONI ANTOINE / J144102546-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/07/2026 14:24",
+      "detail": "Réf: BELLONI ANTOINE / J144102546-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -1220,10 +1220,10 @@
       "patient": "BELLONI ANTOINE",
       "job_cosium": "J144102546-03",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "13/07/2026 15:19",
-      "detail": "Réf: BELLONI ANTOINE / J144102546-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/07/2026 14:24",
+      "detail": "Réf: BELLONI ANTOINE / J144102546-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 15/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -1494,10 +1494,10 @@
       "patient": "ZAKALI ABDELOUAFI",
       "job_cosium": "J144102524-01",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "11/07/2026 17:43",
-      "detail": "Réf: ZAKALI ABDELOUAFI / J144102524-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/07/2026 14:24",
+      "detail": "Réf: ZAKALI ABDELOUAFI / J144102524-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {

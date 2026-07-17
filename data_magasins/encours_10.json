@@ -10,7 +10,7 @@
     "email": "baa@balbi.fr",
     "mot_de_passe_portail": "baa"
   },
-  "derniere_mise_a_jour": "17/07/2026 14:18",
+  "derniere_mise_a_jour": "17/07/2026 14:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168176",
@@ -1699,6 +1699,60 @@
       }
     },
     {
+      "ord_numb": "            10167829",
+      "id_commande_v2i": "260715000054",
+      "code_cote": "B",
+      "patient": "MORANDINI THOMAS",
+      "job_cosium": "J145063820-03",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "17/07/2026 14:24",
+      "detail": "Réf: MORANDINI THOMAS / J145063820-03 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 17/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-1.50",
+        "cylindre": "0.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Montage"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-2.75",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Montage"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167914",
       "id_commande_v2i": "260715000139",
       "code_cote": "B",
@@ -1819,60 +1873,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10167829",
-      "id_commande_v2i": "260715000054",
-      "code_cote": "B",
-      "patient": "MORANDINI THOMAS",
-      "job_cosium": "J145063820-03",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "15/07/2026 12:01",
-      "detail": "Réf: MORANDINI THOMAS / J145063820-03 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 17/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-1.50",
-        "cylindre": "0.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-2.75",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Montage"
         ]
       }
     },
@@ -2251,10 +2251,10 @@
       "patient": "ALIBRAHIMI DALIL SAADIA",
       "job_cosium": "J145063771",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "10/07/2026 14:23",
-      "detail": "Réf: ALIBRAHIMI DALIL SAADIA / J145063771 — (Stock) — État: En commande (Rupture)",
-      "statut_code": "EXTN",
-      "statut_affichage": "En commande (Rupture)",
+      "date_dernier_statut": "17/07/2026 14:24",
+      "detail": "Réf: ALIBRAHIMI DALIL SAADIA / J145063771 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 13/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
