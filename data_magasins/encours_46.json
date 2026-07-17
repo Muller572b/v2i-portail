@@ -10,7 +10,7 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "17/07/2026 17:03",
+  "derniere_mise_a_jour": "17/07/2026 17:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168210",
@@ -361,10 +361,10 @@
       "patient": "CRISCIONE PATRICE",
       "job_cosium": "J152045709-01",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 15:37",
-      "detail": "Réf: CRISCIONE PATRICE / J152045709-01 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/07/2026 17:08",
+      "detail": "Réf: CRISCIONE PATRICE / J152045709-01 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -855,68 +855,6 @@
       }
     },
     {
-      "ord_numb": "            10167866",
-      "id_commande_v2i": "260715000091",
-      "code_cote": "B",
-      "patient": "ROMANELLO JULIE",
-      "job_cosium": "J152045673-01",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "17/07/2026 15:00",
-      "detail": "Réf: ROMANELLO JULIE / J152045673-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Relax 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Relax 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Teinte Brun C",
-          "Durci Inclus",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167789",
       "id_commande_v2i": "260715000014",
       "code_cote": "B",
@@ -1324,6 +1262,68 @@
         "supplements": [
           "Tchin Relax 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167866",
+      "id_commande_v2i": "260715000091",
+      "code_cote": "B",
+      "patient": "ROMANELLO JULIE",
+      "job_cosium": "J152045673-01",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "17/07/2026 17:07",
+      "detail": "Réf: ROMANELLO JULIE / J152045673-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Relax 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Brun C",
+          "Durci Inclus",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Relax 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Teinte Brun C",
           "Durci Inclus",
           "Précalibrage Inclus",
           "Optimisé"

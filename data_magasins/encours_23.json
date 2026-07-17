@@ -10,7 +10,7 @@
     "email": "cor@balbi.fr",
     "mot_de_passe_portail": "cor"
   },
-  "derniere_mise_a_jour": "17/07/2026 17:03",
+  "derniere_mise_a_jour": "17/07/2026 17:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168188",
@@ -77,10 +77,10 @@
       "patient": "GIACOBETTI LAETITIA",
       "job_cosium": "J131019016",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 11:34",
-      "detail": "Réf: GIACOBETTI LAETITIA / J131019016 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "17/07/2026 17:16",
+      "detail": "Réf: GIACOBETTI LAETITIA / J131019016 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -339,68 +339,6 @@
       }
     },
     {
-      "ord_numb": "            10167924",
-      "id_commande_v2i": "260715000149",
-      "code_cote": "B",
-      "patient": "PERGOLA JEAN",
-      "job_cosium": "J131019005-02",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "17/07/2026 15:00",
-      "detail": "Réf: PERGOLA JEAN / J131019005-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-3.00",
-        "cylindre": "2.00",
-        "axe": 95,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Delta Lecture2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 100,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Delta Lecture2 1.67 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167826",
       "id_commande_v2i": "260715000051",
       "code_cote": "B",
@@ -509,6 +447,68 @@
           "Reader3 1.6 XBlue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167924",
+      "id_commande_v2i": "260715000149",
+      "code_cote": "B",
+      "patient": "PERGOLA JEAN",
+      "job_cosium": "J131019005-02",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "17/07/2026 17:07",
+      "detail": "Réf: PERGOLA JEAN / J131019005-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-3.00",
+        "cylindre": "2.00",
+        "axe": 95,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Delta Lecture2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 100,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Delta Lecture2 1.67 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     }

@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "17/07/2026 17:03",
+  "derniere_mise_a_jour": "17/07/2026 17:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168208",
@@ -416,62 +416,6 @@
       }
     },
     {
-      "ord_numb": "            10167665",
-      "id_commande_v2i": "260713000114",
-      "code_cote": "B",
-      "patient": "OTTAVI ROSELINE",
-      "job_cosium": "J205030695",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "17/07/2026 15:00",
-      "detail": "Réf: OTTAVI ROSELINE / J205030695 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 20/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "2.75",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "1.75",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167708",
       "id_commande_v2i": "260713000157",
       "code_cote": "B",
@@ -523,6 +467,62 @@
         "supplements": [
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167665",
+      "id_commande_v2i": "260713000114",
+      "code_cote": "B",
+      "patient": "OTTAVI ROSELINE",
+      "job_cosium": "J205030695",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "17/07/2026 17:07",
+      "detail": "Réf: OTTAVI ROSELINE / J205030695 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "2.75",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "1.75",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }
@@ -654,10 +654,10 @@
       "patient": "FERICEAN JOHANNA",
       "job_cosium": "J205030670-02",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "17/07/2026 17:00",
-      "detail": "Réf: FERICEAN JOHANNA / J205030670-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
+      "date_dernier_statut": "17/07/2026 17:07",
+      "detail": "Réf: FERICEAN JOHANNA / J205030670-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 16/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {

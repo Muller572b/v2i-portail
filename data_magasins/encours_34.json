@@ -10,7 +10,7 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "17/07/2026 17:03",
+  "derniere_mise_a_jour": "17/07/2026 17:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168270",
@@ -121,6 +121,60 @@
       }
     },
     {
+      "ord_numb": "            10168276",
+      "id_commande_v2i": "260717000112",
+      "code_cote": "B",
+      "patient": "BENKERROU EMMA",
+      "job_cosium": "J137036401",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "17/07/2026 17:08",
+      "detail": "Réf: BENKERROU EMMA / J137036401 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "1.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168292",
       "id_commande_v2i": "260717000128",
       "code_cote": "B",
@@ -170,60 +224,6 @@
         "hauteur": "0.0",
         "supplements": [
           "2de O2 Miladu 1.5 Nu",
-          "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168276",
-      "id_commande_v2i": "260717000112",
-      "code_cote": "B",
-      "patient": "BENKERROU EMMA",
-      "job_cosium": "J137036401",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 15:59",
-      "detail": "Réf: BENKERROU EMMA / J137036401 — (Stock) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "1.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
           "Teinte Gris C"
         ]
       }
