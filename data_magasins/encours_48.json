@@ -10,8 +10,62 @@
     "email": "bof@balbi.fr",
     "mot_de_passe_portail": "bof"
   },
-  "derniere_mise_a_jour": "17/07/2026 16:03",
+  "derniere_mise_a_jour": "17/07/2026 16:18",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168288",
+      "id_commande_v2i": "260717000124",
+      "code_cote": "B",
+      "patient": "FRANCAIS ANGE",
+      "job_cosium": "J153011303",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "17/07/2026 16:14",
+      "detail": "Réf: FRANCAIS ANGE / J153011303 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168131",
       "id_commande_v2i": "260716000147",
