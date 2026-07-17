@@ -10,46 +10,8 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "17/07/2026 09:33",
+  "derniere_mise_a_jour": "17/07/2026 10:03",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10168090",
-      "id_commande_v2i": "260716000106",
-      "code_cote": "R",
-      "patient": "LE MIGNON JEAN LUC",
-      "job_cosium": "",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 16:27",
-      "detail": "Réf: LE MIGNON JEAN LUC — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "1.25",
-        "cylindre": "0.25",
-        "axe": 115,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "2.2",
-        "ecart_pupillaire": "33.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "Xtra Confort 1.6 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Précalibrage"
-        ]
-      },
-      "oeil_gauche": null
-    },
     {
       "ord_numb": "            10168162",
       "id_commande_v2i": "260716000178",
@@ -57,10 +19,10 @@
       "patient": "OUSTOU ABDERRAZAK",
       "job_cosium": "J600029565",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 19:49",
-      "detail": "Réf: OUSTOU ABDERRAZAK / J600029565 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/07/2026 09:52",
+      "detail": "Réf: OUSTOU ABDERRAZAK / J600029565 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 28/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -105,6 +67,44 @@
           "Durci Inclus"
         ]
       }
+    },
+    {
+      "ord_numb": "            10168090",
+      "id_commande_v2i": "260716000106",
+      "code_cote": "R",
+      "patient": "LE MIGNON JEAN LUC",
+      "job_cosium": "",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "16/07/2026 16:27",
+      "detail": "Réf: LE MIGNON JEAN LUC — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.25",
+        "cylindre": "0.25",
+        "axe": 115,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "2.2",
+        "ecart_pupillaire": "33.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "Xtra Confort 1.6 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Précalibrage"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10168163",
