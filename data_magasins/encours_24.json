@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "17/07/2026 15:03",
+  "derniere_mise_a_jour": "17/07/2026 15:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168173",
@@ -257,10 +257,10 @@
       "patient": "ALBERTINI JEAN-ANDRE",
       "job_cosium": "J133036306",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 10:13",
-      "detail": "Réf: ALBERTINI JEAN-ANDRE / J133036306 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "17/07/2026 15:08",
+      "detail": "Réf: ALBERTINI JEAN-ANDRE / J133036306 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -515,46 +515,6 @@
           "Teinte Brun C"
         ]
       }
-    },
-    {
-      "ord_numb": "            10168005",
-      "id_commande_v2i": "260716000021",
-      "code_cote": "R",
-      "patient": "BUGIS RICHARD",
-      "job_cosium": "J133036216",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "17/07/2026 10:23",
-      "detail": "Réf: BUGIS RICHARD / J133036216 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.00",
-        "cylindre": "0.75",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "2.00",
-        "base_1": "270",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "26.0",
-        "supplements": [
-          "Affiny Confort 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Optimisé",
-          "Individualisation",
-          "Prisme supérieur à 4",
-          "Précalibrage Inclus"
-        ]
-      },
-      "oeil_gauche": null
     },
     {
       "ord_numb": "            10168073",
@@ -845,6 +805,46 @@
           "Durci Inclus"
         ]
       }
+    },
+    {
+      "ord_numb": "            10168005",
+      "id_commande_v2i": "260716000021",
+      "code_cote": "R",
+      "patient": "BUGIS RICHARD",
+      "job_cosium": "J133036216",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "17/07/2026 15:04",
+      "detail": "Réf: BUGIS RICHARD / J133036216 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.00",
+        "cylindre": "0.75",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "2.00",
+        "base_1": "270",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Affiny Confort 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Optimisé",
+          "Individualisation",
+          "Prisme supérieur à 4",
+          "Précalibrage Inclus"
+        ]
+      },
+      "oeil_gauche": null
     },
     {
       "ord_numb": "            10167998",
