@@ -10,8 +10,64 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "17/07/2026 14:48",
+  "derniere_mise_a_jour": "17/07/2026 15:03",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168015",
+      "id_commande_v2i": "260716000031",
+      "code_cote": "B",
+      "patient": "ALFONSI ROBERTE",
+      "job_cosium": "J138020671-01",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "17/07/2026 14:59",
+      "detail": "Réf: ALFONSI ROBERTE / J138020671-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista Uni 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168041",
       "id_commande_v2i": "260716000057",
@@ -181,62 +237,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Reader3 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168015",
-      "id_commande_v2i": "260716000031",
-      "code_cote": "B",
-      "patient": "ALFONSI ROBERTE",
-      "job_cosium": "J138020671-01",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "16/07/2026 15:26",
-      "detail": "Réf: ALFONSI ROBERTE / J138020671-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
@@ -581,10 +581,10 @@
       "patient": "GRAVINI LAURENCE",
       "job_cosium": "J138020675-01",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "17/07/2026 09:33",
-      "detail": "Réf: GRAVINI LAURENCE / J138020675-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
+      "date_dernier_statut": "17/07/2026 15:00",
+      "detail": "Réf: GRAVINI LAURENCE / J138020675-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
       "statut": "Livraison prévue : 20/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
