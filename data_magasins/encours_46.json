@@ -10,8 +10,64 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "17/07/2026 11:48",
+  "derniere_mise_a_jour": "17/07/2026 12:03",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168210",
+      "id_commande_v2i": "260717000046",
+      "code_cote": "B",
+      "patient": "ARMANI MARIE JOSEPH",
+      "job_cosium": "",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "17/07/2026 11:50",
+      "detail": "Réf: ARMANI MARIE JOSEPH — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "3.00",
+        "axe": 85,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168165",
       "id_commande_v2i": "260717000001",
@@ -63,62 +119,6 @@
         "supplements": [
           "Tchin St. Uni 1.5",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168210",
-      "id_commande_v2i": "260717000046",
-      "code_cote": "B",
-      "patient": "ARMANI MARIE JOSEPH",
-      "job_cosium": "",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 11:16",
-      "detail": "Réf: ARMANI MARIE JOSEPH — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "3.00",
-        "axe": 85,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "2.75",
-        "axe": 85,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Optimisé"
         ]
       }
     },
@@ -653,7 +653,7 @@
       "patient": "COULON SIVIERI",
       "job_cosium": "",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "16/07/2026 11:31",
+      "date_dernier_statut": "17/07/2026 11:58",
       "detail": "Réf: COULON SIVIERI — (Fabrication RX) — État: Durci en cours",
       "statut_code": "HARD",
       "statut_affichage": "Durci en cours",
