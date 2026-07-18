@@ -10,7 +10,7 @@
     "email": "hyperoptical@orange.fr",
     "mot_de_passe_portail": "faa"
   },
-  "derniere_mise_a_jour": "18/07/2026 08:18",
+  "derniere_mise_a_jour": "18/07/2026 08:33",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168264",
@@ -447,66 +447,6 @@
       }
     },
     {
-      "ord_numb": "            10168089",
-      "id_commande_v2i": "260716000105",
-      "code_cote": "B",
-      "patient": "CHAFFEL MARC CLAUDE",
-      "job_cosium": "J148018208-02",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "17/07/2026 10:26",
-      "detail": "Réf: CHAFFEL MARC CLAUDE / J148018208-02 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 21/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.50",
-        "axe": 170,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.9",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168118",
       "id_commande_v2i": "260716000134",
       "code_cote": "B",
@@ -615,6 +555,66 @@
           "Jeune 1er HD 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168089",
+      "id_commande_v2i": "260716000105",
+      "code_cote": "B",
+      "patient": "CHAFFEL MARC CLAUDE",
+      "job_cosium": "J148018208-02",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "18/07/2026 08:23",
+      "detail": "Réf: CHAFFEL MARC CLAUDE / J148018208-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 21/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.50",
+        "axe": 170,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.9",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Polar G15 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
