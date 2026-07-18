@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "18/07/2026 08:03",
+  "derniere_mise_a_jour": "18/07/2026 08:18",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168173",
@@ -357,6 +357,58 @@
       }
     },
     {
+      "ord_numb": "            10168332",
+      "id_commande_v2i": "260717000168",
+      "code_cote": "B",
+      "patient": "MANGION CHARLES",
+      "job_cosium": "J133036334-02",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "18/07/2026 08:06",
+      "detail": "Réf: MANGION CHARLES / J133036334-02 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "3.50",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168197",
       "id_commande_v2i": "260717000033",
       "code_cote": "B",
@@ -569,58 +621,6 @@
           "Uni 1.67 Foto Gris Durci Arh",
           "Antireflet interne face CC inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168332",
-      "id_commande_v2i": "260717000168",
-      "code_cote": "B",
-      "patient": "MANGION CHARLES",
-      "job_cosium": "J133036334-02",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 18:31",
-      "detail": "Réf: MANGION CHARLES / J133036334-02 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "3.50",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "1.50",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5"
         ]
       }
     },
