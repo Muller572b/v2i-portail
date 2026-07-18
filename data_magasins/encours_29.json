@@ -10,8 +10,62 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "18/07/2026 18:18",
+  "derniere_mise_a_jour": "18/07/2026 18:33",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168448",
+      "id_commande_v2i": "260718000090",
+      "code_cote": "B",
+      "patient": "ALBERTI NATHALIE",
+      "job_cosium": "J121042957",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "18/07/2026 18:31",
+      "detail": "Réf: ALBERTI NATHALIE / J121042957 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "26.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.75",
+        "axe": 160,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "26.0",
+        "supplements": [
+          "Vista Media 1.5 Nu",
+          "Teinte Dégradée Brun C"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168187",
       "id_commande_v2i": "260717000023",
