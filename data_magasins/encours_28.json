@@ -10,60 +10,8 @@
     "email": "olmetaopticiens@gmail.com",
     "mot_de_passe_portail": "bob"
   },
-  "derniere_mise_a_jour": "18/07/2026 09:33",
+  "derniere_mise_a_jour": "18/07/2026 09:48",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10168291",
-      "id_commande_v2i": "260717000127",
-      "code_cote": "B",
-      "patient": "PALMIERI MARIE CATHERINE",
-      "job_cosium": "J142010999",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 17:12",
-      "detail": "Réf: PALMIERI MARIE CATHERINE / J142010999 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "0.75",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Xblue Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "0.75",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.6 Xblue Arh"
-        ]
-      }
-    },
     {
       "ord_numb": "            10168336",
       "id_commande_v2i": "260717000172",
@@ -175,16 +123,68 @@
       }
     },
     {
+      "ord_numb": "            10168291",
+      "id_commande_v2i": "260717000127",
+      "code_cote": "B",
+      "patient": "PALMIERI MARIE CATHERINE",
+      "job_cosium": "J142010999",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "18/07/2026 09:34",
+      "detail": "Réf: PALMIERI MARIE CATHERINE / J142010999 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "0.75",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "0.75",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.6 Xblue Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167962",
       "id_commande_v2i": "260715000187",
       "code_cote": "B",
       "patient": "CAPPELLI WILLIAM",
       "job_cosium": "J142010993-02",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "17/07/2026 10:13",
-      "detail": "Réf: CAPPELLI WILLIAM / J142010993-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "18/07/2026 09:34",
+      "detail": "Réf: CAPPELLI WILLIAM / J142010993-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -237,10 +237,10 @@
       "patient": "CAPPELLI WILLIAM",
       "job_cosium": "J142010993-01",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "17/07/2026 15:04",
-      "detail": "Réf: CAPPELLI WILLIAM / J142010993-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "18/07/2026 09:34",
+      "detail": "Réf: CAPPELLI WILLIAM / J142010993-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
