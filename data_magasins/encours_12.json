@@ -10,7 +10,7 @@
     "email": "optic2000.aos@gmail.com",
     "mot_de_passe_portail": "aos"
   },
-  "derniere_mise_a_jour": "20/07/2026 16:10",
+  "derniere_mise_a_jour": "20/07/2026 16:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168535",
@@ -235,110 +235,6 @@
       }
     },
     {
-      "ord_numb": "            10168400",
-      "id_commande_v2i": "260718000042",
-      "code_cote": "B",
-      "patient": "GHELARDINI HENRI",
-      "job_cosium": "J146022968-02",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: GHELARDINI HENRI / J146022968-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "0.25",
-        "cylindre": "2.50",
-        "axe": 115,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "1.50",
-        "cylindre": "0.25",
-        "axe": 45,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168401",
-      "id_commande_v2i": "260718000043",
-      "code_cote": "B",
-      "patient": "CABY ALEXIS",
-      "job_cosium": "J146022966",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: CABY ALEXIS / J146022966 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 75,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 St. Uni 1.5 Xblue Durci Arh"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168399",
       "id_commande_v2i": "260718000041",
       "code_cote": "B",
@@ -391,6 +287,110 @@
           "Uni 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168400",
+      "id_commande_v2i": "260718000042",
+      "code_cote": "B",
+      "patient": "GHELARDINI HENRI",
+      "job_cosium": "J146022968-02",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 16:22",
+      "detail": "Réf: GHELARDINI HENRI / J146022968-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "0.25",
+        "cylindre": "2.50",
+        "axe": 115,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "1.50",
+        "cylindre": "0.25",
+        "axe": 45,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168401",
+      "id_commande_v2i": "260718000043",
+      "code_cote": "B",
+      "patient": "CABY ALEXIS",
+      "job_cosium": "J146022966",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 16:22",
+      "detail": "Réf: CABY ALEXIS / J146022966 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 75,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -457,10 +457,10 @@
       "patient": "CASANOVA JOSEPH",
       "job_cosium": "J146022963",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 14:45",
-      "detail": "Réf: CASANOVA JOSEPH / J146022963 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "20/07/2026 16:24",
+      "detail": "Réf: CASANOVA JOSEPH / J146022963 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -513,10 +513,10 @@
       "patient": "STROSSER FRANCOIS-XAVIER",
       "job_cosium": "J146022958-01",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "20/07/2026 16:01",
-      "detail": "Réf: STROSSER FRANCOIS-XAVIER / J146022958-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "20/07/2026 16:24",
+      "detail": "Réf: STROSSER FRANCOIS-XAVIER / J146022958-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -631,10 +631,10 @@
       "patient": "BERCHIELLI MARIE-JOSEE",
       "job_cosium": "J146022946",
       "date_entree": "15/07/2026",
-      "date_dernier_statut": "20/07/2026 10:56",
-      "detail": "Réf: BERCHIELLI MARIE-JOSEE / J146022946 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:22",
+      "detail": "Réf: BERCHIELLI MARIE-JOSEE / J146022946 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 27/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {

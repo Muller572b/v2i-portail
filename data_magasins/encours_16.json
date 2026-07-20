@@ -10,7 +10,7 @@
     "email": "bfoptique@orange.fr",
     "mot_de_passe_portail": "bfo"
   },
-  "derniere_mise_a_jour": "20/07/2026 16:10",
+  "derniere_mise_a_jour": "20/07/2026 16:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168497",
@@ -185,10 +185,10 @@
       "patient": "BRANCALEONI THEODORA",
       "job_cosium": "J143054448-02",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: BRANCALEONI THEODORA / J143054448-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: BRANCALEONI THEODORA / J143054448-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -239,10 +239,10 @@
       "patient": "MAUJARET THIERRY",
       "job_cosium": "J143054443",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: MAUJARET THIERRY / J143054443 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: MAUJARET THIERRY / J143054443 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -463,114 +463,6 @@
       }
     },
     {
-      "ord_numb": "            10168303",
-      "id_commande_v2i": "260717000139",
-      "code_cote": "B",
-      "patient": "FANCELLO ROSA",
-      "job_cosium": "J143054434-01",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 11:34",
-      "detail": "Réf: FANCELLO ROSA / J143054434-01 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 21/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-0.75",
-        "cylindre": "0.75",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Brun C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168305",
-      "id_commande_v2i": "260717000141",
-      "code_cote": "B",
-      "patient": "PASQUALAGGI JESSICA",
-      "job_cosium": "J143054427-02",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 14:20",
-      "detail": "Réf: PASQUALAGGI JESSICA / J143054427-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 21/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.50",
-        "cylindre": "0.25",
-        "axe": 10,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Dégradée Brun C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5",
-          "Teinte Dégradée Brun C"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168302",
       "id_commande_v2i": "260717000138",
       "code_cote": "B",
@@ -687,6 +579,114 @@
         "hauteur": "0.0",
         "supplements": [
           "O2  St. Uni 1.6 Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168303",
+      "id_commande_v2i": "260717000139",
+      "code_cote": "B",
+      "patient": "FANCELLO ROSA",
+      "job_cosium": "J143054434-01",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: FANCELLO ROSA / J143054434-01 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 21/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-0.75",
+        "cylindre": "0.75",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Brun C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168305",
+      "id_commande_v2i": "260717000141",
+      "code_cote": "B",
+      "patient": "PASQUALAGGI JESSICA",
+      "job_cosium": "J143054427-02",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: PASQUALAGGI JESSICA / J143054427-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 21/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.50",
+        "cylindre": "0.25",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Dégradée Brun C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Dégradée Brun C"
         ]
       }
     },
@@ -871,10 +871,10 @@
       "patient": "COSTANTINI",
       "job_cosium": "",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "20/07/2026 11:15",
-      "detail": "Réf: COSTANTINI — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: COSTANTINI — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -927,10 +927,10 @@
       "patient": "MARTIN SYLVIE",
       "job_cosium": "J143054419-03",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "20/07/2026 10:56",
-      "detail": "Réf: MARTIN SYLVIE / J143054419-03 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: MARTIN SYLVIE / J143054419-03 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 17/07 ",
       "style_couleur": "text-red-600 bg-red-50 border-red-100",
       "oeil_droit": {
@@ -979,10 +979,10 @@
       "patient": "GAUCHER JEAN MARC",
       "job_cosium": "J143054406-01",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: GAUCHER JEAN MARC / J143054406-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:20",
+      "detail": "Réf: GAUCHER JEAN MARC / J143054406-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {

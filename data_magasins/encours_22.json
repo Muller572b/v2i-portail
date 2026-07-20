@@ -10,7 +10,7 @@
     "email": "lesopticiensdelarocade@orange.fr",
     "mot_de_passe_portail": "o2c"
   },
-  "derniere_mise_a_jour": "20/07/2026 16:10",
+  "derniere_mise_a_jour": "20/07/2026 16:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168576",
@@ -81,10 +81,10 @@
       "patient": "BANKHACH NAIMA",
       "job_cosium": "J134029594",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 15:14",
-      "detail": "Réf: BANKHACH NAIMA / J134029594 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: BANKHACH NAIMA / J134029594 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -133,10 +133,10 @@
       "patient": "BANKHACH NAIMA",
       "job_cosium": "J134029595",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 15:14",
-      "detail": "Réf: BANKHACH NAIMA / J134029595 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: BANKHACH NAIMA / J134029595 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -637,58 +637,6 @@
       }
     },
     {
-      "ord_numb": "            10168389",
-      "id_commande_v2i": "260718000031",
-      "code_cote": "B",
-      "patient": "BRIKA YASMINE",
-      "job_cosium": "J134029585",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: BRIKA YASMINE / J134029585 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "3.75",
-        "cylindre": "0.25",
-        "axe": 130,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.67 HC AR (Stock)"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168375",
       "id_commande_v2i": "260718000017",
       "code_cote": "B",
@@ -741,6 +689,58 @@
           "Uni 1.5 Durci",
           "Teinte Dégradée au modèle A-C",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168389",
+      "id_commande_v2i": "260718000031",
+      "code_cote": "B",
+      "patient": "BRIKA YASMINE",
+      "job_cosium": "J134029585",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: BRIKA YASMINE / J134029585 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "3.75",
+        "cylindre": "0.25",
+        "axe": 130,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.67 HC AR (Stock)"
         ]
       }
     },
@@ -807,10 +807,10 @@
       "patient": "PAOLONI ELIANE",
       "job_cosium": "J134029575-01",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: PAOLONI ELIANE / J134029575-01 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: PAOLONI ELIANE / J134029575-01 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -925,10 +925,10 @@
       "patient": "DOREMUS TONY CHRISTIAN",
       "job_cosium": "J134029535",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 14:21",
-      "detail": "Réf: DOREMUS TONY CHRISTIAN / J134029535 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: DOREMUS TONY CHRISTIAN / J134029535 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -981,10 +981,10 @@
       "patient": "MARTINGAY ALAIN",
       "job_cosium": "J134029534",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 14:20",
-      "detail": "Réf: MARTINGAY ALAIN / J134029534 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: MARTINGAY ALAIN / J134029534 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1037,10 +1037,10 @@
       "patient": "VILMANT MARC",
       "job_cosium": "J134029538",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 14:20",
-      "detail": "Réf: VILMANT MARC / J134029538 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:17",
+      "detail": "Réf: VILMANT MARC / J134029538 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
