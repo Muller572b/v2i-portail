@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "20/07/2026 10:40",
+  "derniere_mise_a_jour": "20/07/2026 10:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168494",
@@ -657,6 +657,66 @@
       }
     },
     {
+      "ord_numb": "            10168333",
+      "id_commande_v2i": "260717000169",
+      "code_cote": "B",
+      "patient": "MANGION CHARLES",
+      "job_cosium": "J133036334-01",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "20/07/2026 10:44",
+      "detail": "Réf: MANGION CHARLES / J133036334-01 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.00",
+        "cylindre": "1.50",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.75",
+        "cylindre": "1.50",
+        "axe": 10,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168340",
       "id_commande_v2i": "260717000176",
       "code_cote": "B",
@@ -719,76 +779,16 @@
       }
     },
     {
-      "ord_numb": "            10168333",
-      "id_commande_v2i": "260717000169",
-      "code_cote": "B",
-      "patient": "MANGION CHARLES",
-      "job_cosium": "J133036334-01",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 08:53",
-      "detail": "Réf: MANGION CHARLES / J133036334-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.00",
-        "cylindre": "1.50",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.75",
-        "cylindre": "1.50",
-        "axe": 10,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168341",
       "id_commande_v2i": "260717000177",
       "code_cote": "B",
       "patient": "GOKA HENRY",
       "job_cosium": "J133036324-02",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 09:36",
-      "detail": "Réf: GOKA HENRY / J133036324-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "20/07/2026 10:44",
+      "detail": "Réf: GOKA HENRY / J133036324-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -835,6 +835,62 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168351",
+      "id_commande_v2i": "260717000187",
+      "code_cote": "B",
+      "patient": "LATOUCHE SANDRINE",
+      "job_cosium": "J133036335",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "20/07/2026 10:47",
+      "detail": "Réf: LATOUCHE SANDRINE / J133036335 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "1.00",
+        "axe": 40,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.8",
+        "hauteur": "27.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "28.4",
+        "hauteur": "27.0",
+        "supplements": [
+          "Jeune 1er HD 1.5 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
         ]
       }
     },
@@ -995,62 +1051,6 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168351",
-      "id_commande_v2i": "260717000187",
-      "code_cote": "B",
-      "patient": "LATOUCHE SANDRINE",
-      "job_cosium": "J133036335",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 09:50",
-      "detail": "Réf: LATOUCHE SANDRINE / J133036335 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "1.00",
-        "axe": 40,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.8",
-        "hauteur": "27.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.25",
-        "axe": 155,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "28.4",
-        "hauteur": "27.0",
-        "supplements": [
-          "Jeune 1er HD 1.5 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
         ]
       }
     },
