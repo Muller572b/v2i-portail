@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:40",
+  "derniere_mise_a_jour": "20/07/2026 15:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168513",
@@ -67,16 +67,51 @@
       }
     },
     {
+      "ord_numb": "            10168564",
+      "id_commande_v2i": "260720000083",
+      "code_cote": "L",
+      "patient": "ROMANI ROSE MARIE",
+      "job_cosium": "J205030750",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 14:33",
+      "detail": "Réf: ROMANI ROSE MARIE / J205030750 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-1.00",
+        "cylindre": "0.50",
+        "axe": 175,
+        "addition": "2.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "27.5",
+        "supplements": [
+          "2de O2 Minimu 1.5 Nu",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168519",
       "id_commande_v2i": "260720000038",
       "code_cote": "B",
       "patient": "ALTIERI ROSSI MARIE",
       "job_cosium": "J205030783",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 12:03",
-      "detail": "Réf: ALTIERI ROSSI MARIE / J205030783 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:44",
+      "detail": "Réf: ALTIERI ROSSI MARIE / J205030783 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -115,41 +150,6 @@
         "hauteur": "0.0",
         "supplements": [
           "O2 2e St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168564",
-      "id_commande_v2i": "260720000083",
-      "code_cote": "L",
-      "patient": "ROMANI ROSE MARIE",
-      "job_cosium": "J205030750",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 14:33",
-      "detail": "Réf: ROMANI ROSE MARIE / J205030750 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 22/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": null,
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-1.00",
-        "cylindre": "0.50",
-        "axe": 175,
-        "addition": "2.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "27.5",
-        "supplements": [
-          "2de O2 Minimu 1.5 Nu",
-          "Teinte Gris C"
         ]
       }
     },
@@ -262,166 +262,6 @@
           "Uni 1.6 Xblue Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168376",
-      "id_commande_v2i": "260718000018",
-      "code_cote": "B",
-      "patient": "VARESI CHRISTINE",
-      "job_cosium": "J205030764",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "18/07/2026 11:26",
-      "detail": "Réf: VARESI CHRISTINE / J205030764 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.75",
-        "cylindre": "1.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "1.75",
-        "cylindre": "0.50",
-        "axe": 135,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168396",
-      "id_commande_v2i": "260718000038",
-      "code_cote": "B",
-      "patient": "SQUARCINI GHJUVAN''FRANCES",
-      "job_cosium": "J205030773",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: SQUARCINI GHJUVAN''FRANCES / J205030773 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-2.25",
-        "cylindre": "0.25",
-        "axe": 180,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Uni 1.6 Xblue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168407",
-      "id_commande_v2i": "260718000049",
-      "code_cote": "B",
-      "patient": "DE AREIA DOMINGUES ROMAIN",
-      "job_cosium": "J205030774-02",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:23",
-      "detail": "Réf: DE AREIA DOMINGUES ROMAIN / J205030774-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.00",
-        "cylindre": "2.50",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.00",
-        "axe": 105,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "33.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "O2 2e St. Uni 1.5"
         ]
       }
     },
@@ -582,6 +422,166 @@
         "supplements": [
           "O2 2e St. Uni 1.5",
           "Teinte Dégradée Noir C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168376",
+      "id_commande_v2i": "260718000018",
+      "code_cote": "B",
+      "patient": "VARESI CHRISTINE",
+      "job_cosium": "J205030764",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 15:44",
+      "detail": "Réf: VARESI CHRISTINE / J205030764 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "1.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "1.75",
+        "cylindre": "0.50",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168396",
+      "id_commande_v2i": "260718000038",
+      "code_cote": "B",
+      "patient": "SQUARCINI GHJUVAN''FRANCES",
+      "job_cosium": "J205030773",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 15:44",
+      "detail": "Réf: SQUARCINI GHJUVAN''FRANCES / J205030773 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-2.25",
+        "cylindre": "0.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Uni 1.6 Xblue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168407",
+      "id_commande_v2i": "260718000049",
+      "code_cote": "B",
+      "patient": "DE AREIA DOMINGUES ROMAIN",
+      "job_cosium": "J205030774-02",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 15:44",
+      "detail": "Réf: DE AREIA DOMINGUES ROMAIN / J205030774-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.00",
+        "cylindre": "2.50",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 105,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "33.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
         ]
       }
     },
@@ -760,10 +760,10 @@
       "patient": "DE AREIA DOMINGUES EUGENIO JOR",
       "job_cosium": "J205030761",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 10:56",
-      "detail": "Réf: DE AREIA DOMINGUES EUGENIO JOR / J205030761 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:44",
+      "detail": "Réf: DE AREIA DOMINGUES EUGENIO JOR / J205030761 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -812,10 +812,10 @@
       "patient": "CHIARONI MARCELIN JEAN-BAPTIST",
       "job_cosium": "J205030760",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 12:16",
-      "detail": "Réf: CHIARONI MARCELIN JEAN-BAPTIST / J205030760 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:44",
+      "detail": "Réf: CHIARONI MARCELIN JEAN-BAPTIST / J205030760 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {

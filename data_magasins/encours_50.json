@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:40",
+  "derniere_mise_a_jour": "20/07/2026 15:55",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168482",
@@ -81,10 +81,10 @@
       "patient": "GONCALVES Charlotte",
       "job_cosium": "",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 11:11",
-      "detail": "Réf: GONCALVES Charlotte — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "20/07/2026 15:52",
+      "detail": "Réf: GONCALVES Charlotte — (Stock) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -127,6 +127,62 @@
           "St. Uni 1.5",
           "Teinte Dégradée au modèle A-C",
           "Durci"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168467",
+      "id_commande_v2i": "260718000109",
+      "code_cote": "B",
+      "patient": "FANTI JEAN SYLVESTRE",
+      "job_cosium": "J600029593-02",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 15:52",
+      "detail": "Réf: FANTI JEAN SYLVESTRE / J600029593-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "24.5",
+        "supplements": [
+          "Eco Confort 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "1.25",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "24.5",
+        "supplements": [
+          "Eco Confort 1.5 Durci",
+          "Durci Inclus",
+          "Teinte G15 C"
         ]
       }
     },
@@ -193,10 +249,10 @@
       "patient": "SIGNORI MATHILDA",
       "job_cosium": "J600029591",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: SIGNORI MATHILDA / J600029591 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: SIGNORI MATHILDA / J600029591 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 20/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -245,10 +301,10 @@
       "patient": "TUDELA PASCAL",
       "job_cosium": "J600029585",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: TUDELA PASCAL / J600029585 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: TUDELA PASCAL / J600029585 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 20/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -297,10 +353,10 @@
       "patient": "MELONI PIERRE",
       "job_cosium": "J600029584",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: MELONI PIERRE / J600029584 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: MELONI PIERRE / J600029584 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 20/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -339,62 +395,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168467",
-      "id_commande_v2i": "260718000109",
-      "code_cote": "B",
-      "patient": "FANTI JEAN SYLVESTRE",
-      "job_cosium": "J600029593-02",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 15:34",
-      "detail": "Réf: FANTI JEAN SYLVESTRE / J600029593-02 — (Fabrication RX) — État: Commande teintée",
-      "statut_code": "TINT",
-      "statut_affichage": "Commande teintée",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "24.5",
-        "supplements": [
-          "Eco Confort 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "1.25",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "24.5",
-        "supplements": [
-          "Eco Confort 1.5 Durci",
-          "Durci Inclus",
-          "Teinte G15 C"
         ]
       }
     },
@@ -515,16 +515,68 @@
       }
     },
     {
+      "ord_numb": "            10168358",
+      "id_commande_v2i": "260717000194",
+      "code_cote": "B",
+      "patient": "LECA ANGELE-MARIE",
+      "job_cosium": "J600029567",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "17/07/2026 19:49",
+      "detail": "Réf: LECA ANGELE-MARIE / J600029567 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "55",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "55",
+        "sphere": "1.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168294",
       "id_commande_v2i": "260717000130",
       "code_cote": "B",
       "patient": "VAUDELIN DENIS",
       "job_cosium": "J600029576",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 11:37",
-      "detail": "Réf: VAUDELIN DENIS / J600029576 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: VAUDELIN DENIS / J600029576 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -575,10 +627,10 @@
       "patient": "BIZZARI PASCALE",
       "job_cosium": "J600029578",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 09:31",
-      "detail": "Réf: BIZZARI PASCALE / J600029578 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: BIZZARI PASCALE / J600029578 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -627,10 +679,10 @@
       "patient": "Queron Patrick",
       "job_cosium": "J600029569",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 11:29",
-      "detail": "Réf: Queron Patrick / J600029569 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: Queron Patrick / J600029569 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -671,58 +723,6 @@
         "supplements": [
           "Acui Uni 1.5 Non Durci",
           "Teinte Gris C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168358",
-      "id_commande_v2i": "260717000194",
-      "code_cote": "B",
-      "patient": "LECA ANGELE-MARIE",
-      "job_cosium": "J600029567",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 19:49",
-      "detail": "Réf: LECA ANGELE-MARIE / J600029567 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "55",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "55",
-        "sphere": "1.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "St. Uni 1.5 Durci Arh"
         ]
       }
     },
@@ -995,10 +995,10 @@
       "patient": "MALAPONTI BIAGINO",
       "job_cosium": "J600029500",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 14:20",
-      "detail": "Réf: MALAPONTI BIAGINO / J600029500 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:42",
+      "detail": "Réf: MALAPONTI BIAGINO / J600029500 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
