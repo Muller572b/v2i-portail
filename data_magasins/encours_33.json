@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:10",
+  "derniere_mise_a_jour": "20/07/2026 15:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168483",
@@ -427,68 +427,6 @@
       }
     },
     {
-      "ord_numb": "            10168235",
-      "id_commande_v2i": "260717000071",
-      "code_cote": "B",
-      "patient": "ROCCHESANI JOSEPH",
-      "job_cosium": "J140026428-01",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 15:22",
-      "detail": "Réf: ROCCHESANI JOSEPH / J140026428-01 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.25",
-        "cylindre": "3.25",
-        "axe": 95,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "60",
-        "sphere": "-2.50",
-        "cylindre": "3.75",
-        "axe": 95,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "1.0",
-        "ecart_pupillaire": "28.5",
-        "hauteur": "23.0",
-        "supplements": [
-          "Tchin Affiny Confort2 1.5 Durci",
-          "Durci Inclus",
-          "Individualisation",
-          "Montage",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168274",
       "id_commande_v2i": "260717000110",
       "code_cote": "B",
@@ -600,6 +538,68 @@
         "supplements": [
           "Tchin Affiny Confort2 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168235",
+      "id_commande_v2i": "260717000071",
+      "code_cote": "B",
+      "patient": "ROCCHESANI JOSEPH",
+      "job_cosium": "J140026428-01",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "20/07/2026 15:14",
+      "detail": "Réf: ROCCHESANI JOSEPH / J140026428-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.25",
+        "cylindre": "3.25",
+        "axe": 95,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
+          "Durci Inclus",
+          "Individualisation",
+          "Montage",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "60",
+        "sphere": "-2.50",
+        "cylindre": "3.75",
+        "axe": 95,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "1.0",
+        "ecart_pupillaire": "28.5",
+        "hauteur": "23.0",
+        "supplements": [
+          "Tchin Affiny Confort2 1.5 Durci",
           "Durci Inclus",
           "Individualisation",
           "Montage",

@@ -10,8 +10,170 @@
     "email": "optique.zuccarelli@gmail.com",
     "mot_de_passe_portail": "coz"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:10",
+  "derniere_mise_a_jour": "20/07/2026 15:25",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168583",
+      "id_commande_v2i": "260720000102",
+      "code_cote": "B",
+      "patient": "KATZ MARION",
+      "job_cosium": "J137036419-02",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 15:22",
+      "detail": "Réf: KATZ MARION / J137036419-02 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "55",
+        "sphere": "0.50",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "55",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 10,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5",
+          "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168584",
+      "id_commande_v2i": "260720000103",
+      "code_cote": "B",
+      "patient": "KATZ MARION",
+      "job_cosium": "J137036419-01",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 15:22",
+      "detail": "Réf: KATZ MARION / J137036419-01 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 24/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.50",
+        "cylindre": "1.25",
+        "axe": 180,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "22.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.00",
+        "axe": 10,
+        "addition": "2.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "22.0",
+        "supplements": [
+          "Reader3 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168589",
+      "id_commande_v2i": "260720000108",
+      "code_cote": "B",
+      "patient": "VINCENTI AURELIE",
+      "job_cosium": "J137036420",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 15:22",
+      "detail": "Réf: VINCENTI AURELIE / J137036420 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 21/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 135,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "O2 2e St. Uni 1.5"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168379",
       "id_commande_v2i": "260718000021",
