@@ -10,7 +10,7 @@
     "email": "fangoptique@orange.fr",
     "mot_de_passe_portail": "ccf"
   },
-  "derniere_mise_a_jour": "20/07/2026 08:33",
+  "derniere_mise_a_jour": "20/07/2026 09:04",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168414",
@@ -325,6 +325,62 @@
       }
     },
     {
+      "ord_numb": "            10168013",
+      "id_commande_v2i": "260716000029",
+      "code_cote": "B",
+      "patient": "ALFONSI ROBERTE",
+      "job_cosium": "J138020671-03",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "20/07/2026 08:58",
+      "detail": "Réf: ALFONSI ROBERTE / J138020671-03 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 21/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 5,
+        "addition": "2.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Reader3 1.6 Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168012",
       "id_commande_v2i": "260716000028",
       "code_cote": "B",
@@ -376,62 +432,6 @@
         "supplements": [
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168013",
-      "id_commande_v2i": "260716000029",
-      "code_cote": "B",
-      "patient": "ALFONSI ROBERTE",
-      "job_cosium": "J138020671-03",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "17/07/2026 11:13",
-      "detail": "Réf: ALFONSI ROBERTE / J138020671-03 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 21/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 5,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Reader3 1.6 Durci Arh",
-          "Super AR Antistatic Inclus",
           "Durci Inclus"
         ]
       }

@@ -10,8 +10,70 @@
     "email": "obs@balbi.fr",
     "mot_de_passe_portail": "obs"
   },
-  "derniere_mise_a_jour": "20/07/2026 08:33",
+  "derniere_mise_a_jour": "20/07/2026 09:04",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168127",
+      "id_commande_v2i": "260716000143",
+      "code_cote": "B",
+      "patient": "PEREZ YVETTE",
+      "job_cosium": "J156003438",
+      "date_entree": "16/07/2026",
+      "date_dernier_statut": "20/07/2026 08:58",
+      "detail": "Réf: PEREZ YVETTE / J156003438 — (Fabrication RX) — État: Coating en cours (MC380X)",
+      "statut_code": "COAT",
+      "statut_affichage": "Coating en cours (MC380X)",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.75",
+        "cylindre": "1.50",
+        "axe": 175,
+        "addition": "0.00",
+        "prisme_1": "9.00",
+        "base_1": "185",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Uni 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Prisme inf à 4",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-3.50",
+        "cylindre": "1.00",
+        "axe": 55,
+        "addition": "0.00",
+        "prisme_1": "9.00",
+        "base_1": "5",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "28.0",
+        "supplements": [
+          "Uni 1.67 Foto Brun Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Prisme inf à 4",
+          "Précalibrage",
+          "Optimisé"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168056",
       "id_commande_v2i": "260716000072",
@@ -177,68 +239,6 @@
           "CLA Progressif 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168127",
-      "id_commande_v2i": "260716000143",
-      "code_cote": "B",
-      "patient": "PEREZ YVETTE",
-      "job_cosium": "J156003438",
-      "date_entree": "16/07/2026",
-      "date_dernier_statut": "17/07/2026 11:26",
-      "detail": "Réf: PEREZ YVETTE / J156003438 — (Fabrication RX) — État: Durci en cours",
-      "statut_code": "HARD",
-      "statut_affichage": "Durci en cours",
-      "statut": "Livraison prévue : 22/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.75",
-        "cylindre": "1.50",
-        "axe": 175,
-        "addition": "0.00",
-        "prisme_1": "9.00",
-        "base_1": "185",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Uni 1.67 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme inf à 4",
-          "Précalibrage",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-3.50",
-        "cylindre": "1.00",
-        "axe": 55,
-        "addition": "0.00",
-        "prisme_1": "9.00",
-        "base_1": "5",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "28.0",
-        "supplements": [
-          "Uni 1.67 Foto Brun Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Prisme inf à 4",
-          "Précalibrage",
-          "Optimisé"
         ]
       }
     }
