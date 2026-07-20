@@ -10,7 +10,7 @@
     "email": "obv@balbi.fr",
     "mot_de_passe_portail": "obv"
   },
-  "derniere_mise_a_jour": "20/07/2026 11:10",
+  "derniere_mise_a_jour": "20/07/2026 11:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168484",
@@ -183,6 +183,60 @@
       }
     },
     {
+      "ord_numb": "            10168457",
+      "id_commande_v2i": "260718000099",
+      "code_cote": "B",
+      "patient": "BAROLO ANTOINETTE",
+      "job_cosium": "J161003951-02",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 11:14",
+      "detail": "Réf: BAROLO ANTOINETTE / J161003951-02 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-4.50",
+        "cylindre": "1.75",
+        "axe": 95,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Vista Uni 1.5 Durci",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-3.75",
+        "cylindre": "2.25",
+        "axe": 100,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "29.0",
+        "supplements": [
+          "Vista Uni 1.5 Durci",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168458",
       "id_commande_v2i": "260718000100",
       "code_cote": "B",
@@ -241,60 +295,6 @@
           "Individualisation",
           "Précalibrage Inclus",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168457",
-      "id_commande_v2i": "260718000099",
-      "code_cote": "B",
-      "patient": "BAROLO ANTOINETTE",
-      "job_cosium": "J161003951-02",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 10:56",
-      "detail": "Réf: BAROLO ANTOINETTE / J161003951-02 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 22/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-4.50",
-        "cylindre": "1.75",
-        "axe": 95,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Vista Uni 1.5 Durci",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-3.75",
-        "cylindre": "2.25",
-        "axe": 100,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "29.0",
-        "supplements": [
-          "Vista Uni 1.5 Durci",
-          "Durci Inclus"
         ]
       }
     },
