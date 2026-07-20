@@ -10,7 +10,7 @@
     "email": "o2b@balbi.fr",
     "mot_de_passe_portail": "o2b"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:55",
+  "derniere_mise_a_jour": "20/07/2026 16:10",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168513",
@@ -73,10 +73,10 @@
       "patient": "ROMANI ROSE MARIE",
       "job_cosium": "J205030750",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 14:33",
-      "detail": "Réf: ROMANI ROSE MARIE / J205030750 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "20/07/2026 16:06",
+      "detail": "Réf: ROMANI ROSE MARIE / J205030750 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": null,
@@ -98,6 +98,41 @@
         "supplements": [
           "2de O2 Minimu 1.5 Nu",
           "Teinte Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168607",
+      "id_commande_v2i": "260720000126",
+      "code_cote": "L",
+      "patient": "FERICEAN MARYSE",
+      "job_cosium": "J205030792",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 15:58",
+      "detail": "Réf: FERICEAN MARYSE / J205030792 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": null,
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "1.50",
+        "cylindre": "1.00",
+        "axe": 5,
+        "addition": "3.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.6",
+        "hauteur": "21.0",
+        "supplements": [
+          "2de O2 Miladu 1.5 Nu",
+          "Teinte Gris D"
         ]
       }
     },

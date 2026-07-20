@@ -10,7 +10,7 @@
     "email": "furianioptique@orange.fr",
     "mot_de_passe_portail": "ccb"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:55",
+  "derniere_mise_a_jour": "20/07/2026 16:10",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168485",
@@ -237,110 +237,6 @@
       }
     },
     {
-      "ord_numb": "            10168473",
-      "id_commande_v2i": "260718000115",
-      "code_cote": "B",
-      "patient": "SARAZIN PEGGY",
-      "job_cosium": "J139053689-02",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: SARAZIN PEGGY / J139053689-02 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 5,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Odiscount St. Uni 1.6 Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "75",
-        "sphere": "-2.00",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Odiscount St. Uni 1.6 Durci Arh"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168475",
-      "id_commande_v2i": "260718000117",
-      "code_cote": "B",
-      "patient": "SAVIGNONI FABRICE",
-      "job_cosium": "J139053682",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 09:24",
-      "detail": "Réf: SAVIGNONI FABRICE / J139053682 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.25",
-        "cylindre": "0.25",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "2.00",
-        "cylindre": "0.25",
-        "axe": 30,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "D2 St. Uni 1.5"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10168472",
       "id_commande_v2i": "260718000114",
       "code_cote": "B",
@@ -445,6 +341,110 @@
         "supplements": [
           "D2 St. Uni 1.5",
           "Teinte Dégradée Gris C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168473",
+      "id_commande_v2i": "260718000115",
+      "code_cote": "B",
+      "patient": "SARAZIN PEGGY",
+      "job_cosium": "J139053689-02",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 16:01",
+      "detail": "Réf: SARAZIN PEGGY / J139053689-02 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 5,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Odiscount St. Uni 1.6 Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "75",
+        "sphere": "-2.00",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Odiscount St. Uni 1.6 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168475",
+      "id_commande_v2i": "260718000117",
+      "code_cote": "B",
+      "patient": "SAVIGNONI FABRICE",
+      "job_cosium": "J139053682",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 16:01",
+      "detail": "Réf: SAVIGNONI FABRICE / J139053682 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.25",
+        "cylindre": "0.25",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "2.00",
+        "cylindre": "0.25",
+        "axe": 30,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "D2 St. Uni 1.5"
         ]
       }
     },
@@ -731,10 +731,10 @@
       "patient": "VINCENTI MARIE MADELEINE",
       "job_cosium": "J139053662-02",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: VINCENTI MARIE MADELEINE / J139053662-02 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:01",
+      "detail": "Réf: VINCENTI MARIE MADELEINE / J139053662-02 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -787,10 +787,10 @@
       "patient": "IEPURE ADELINA",
       "job_cosium": "J139053656",
       "date_entree": "16/07/2026",
-      "date_dernier_statut": "20/07/2026 10:56",
-      "detail": "Réf: IEPURE ADELINA / J139053656 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:01",
+      "detail": "Réf: IEPURE ADELINA / J139053656 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 28/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -1007,10 +1007,10 @@
       "patient": "RIVERA HUETE DENISE",
       "job_cosium": "J139053619",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "20/07/2026 14:20",
-      "detail": "Réf: RIVERA HUETE DENISE / J139053619 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:01",
+      "detail": "Réf: RIVERA HUETE DENISE / J139053619 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {

@@ -10,7 +10,7 @@
     "email": "roc@balbi.fr",
     "mot_de_passe_portail": "roc"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:55",
+  "derniere_mise_a_jour": "20/07/2026 16:10",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168520",
@@ -125,58 +125,6 @@
         "supplements": [
           "Vista Media 1.5 Nu",
           "Teinte G15 C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168489",
-      "id_commande_v2i": "260720000008",
-      "code_cote": "B",
-      "patient": "MOURET MATHILDE",
-      "job_cosium": "J121042958",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 09:45",
-      "detail": "Réf: MOURET MATHILDE / J121042958 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.75",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 90,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Vista St. Uni 1.5 Xblue Durci Arh"
         ]
       }
     },
@@ -351,16 +299,68 @@
       }
     },
     {
+      "ord_numb": "            10168489",
+      "id_commande_v2i": "260720000008",
+      "code_cote": "B",
+      "patient": "MOURET MATHILDE",
+      "job_cosium": "J121042958",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 16:09",
+      "detail": "Réf: MOURET MATHILDE / J121042958 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.75",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 90,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Vista St. Uni 1.5 Xblue Durci Arh"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168448",
       "id_commande_v2i": "260718000090",
       "code_cote": "B",
       "patient": "ALBERTI NATHALIE",
       "job_cosium": "J121042957",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: ALBERTI NATHALIE / J121042957 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:09",
+      "detail": "Réf: ALBERTI NATHALIE / J121042957 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {
@@ -801,62 +801,6 @@
       }
     },
     {
-      "ord_numb": "            10167813",
-      "id_commande_v2i": "260715000038",
-      "code_cote": "B",
-      "patient": "ARNAUD",
-      "job_cosium": "",
-      "date_entree": "15/07/2026",
-      "date_dernier_statut": "20/07/2026 14:20",
-      "detail": "Réf: ARNAUD — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 24/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "1.75",
-        "axe": 170,
-        "addition": "0.00",
-        "prisme_1": "4.00",
-        "base_1": "180",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "36.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-2.25",
-        "cylindre": "2.25",
-        "axe": 0,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "30.0",
-        "supplements": [
-          "CLA Unifocal 1.6 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167956",
       "id_commande_v2i": "260715000181",
       "code_cote": "B",
@@ -909,16 +853,72 @@
       }
     },
     {
+      "ord_numb": "            10167813",
+      "id_commande_v2i": "260715000038",
+      "code_cote": "B",
+      "patient": "ARNAUD",
+      "job_cosium": "",
+      "date_entree": "15/07/2026",
+      "date_dernier_statut": "20/07/2026 16:09",
+      "detail": "Réf: ARNAUD — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 24/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "1.75",
+        "axe": 170,
+        "addition": "0.00",
+        "prisme_1": "4.00",
+        "base_1": "180",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "36.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-2.25",
+        "cylindre": "2.25",
+        "axe": 0,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "30.0",
+        "supplements": [
+          "CLA Unifocal 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167418",
       "id_commande_v2i": "260711000003",
       "code_cote": "B",
       "patient": "CRISTIANI PAULE",
       "job_cosium": "J121042828",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "20/07/2026 14:21",
-      "detail": "Réf: CRISTIANI PAULE / J121042828 — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 16:09",
+      "detail": "Réf: CRISTIANI PAULE / J121042828 — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
