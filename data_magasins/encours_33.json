@@ -10,7 +10,7 @@
     "email": "optic2a@live.fr",
     "mot_de_passe_portail": "cca"
   },
-  "derniere_mise_a_jour": "20/07/2026 14:10",
+  "derniere_mise_a_jour": "20/07/2026 14:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168483",
@@ -19,10 +19,10 @@
       "patient": "CHENEVIER STEPHANIE",
       "job_cosium": "J140026434",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 12:12",
-      "detail": "Réf: CHENEVIER STEPHANIE / J140026434 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "20/07/2026 14:23",
+      "detail": "Réf: CHENEVIER STEPHANIE / J140026434 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
       "statut": "Livraison prévue : 21/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": null,
@@ -671,10 +671,10 @@
       "patient": "KIKIH YOUNESS",
       "job_cosium": "J140026386-02",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 10:19",
-      "detail": "Réf: KIKIH YOUNESS / J140026386-02 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "20/07/2026 14:20",
+      "detail": "Réf: KIKIH YOUNESS / J140026386-02 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -717,64 +717,6 @@
           "CLA Unifocal 1.6 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166616",
-      "id_commande_v2i": "260707000208",
-      "code_cote": "B",
-      "patient": "DIOUF MATHILDE TENING",
-      "job_cosium": "J140026357",
-      "date_entree": "07/07/2026",
-      "date_dernier_statut": "20/07/2026 10:18",
-      "detail": "Réf: DIOUF MATHILDE TENING / J140026357 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 21/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus",
-          "Montage"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.75",
-        "axe": 15,
-        "addition": "2.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus",
-          "Montage"
         ]
       }
     }

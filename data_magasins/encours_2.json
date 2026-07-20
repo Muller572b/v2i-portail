@@ -10,7 +10,7 @@
     "email": "a36@balbi.fr",
     "mot_de_passe_portail": "a36"
   },
-  "derniere_mise_a_jour": "20/07/2026 14:10",
+  "derniere_mise_a_jour": "20/07/2026 14:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10167287",
@@ -19,10 +19,10 @@
       "patient": "FUMOLEAU SABRINA",
       "job_cosium": "J123013618",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 10:19",
-      "detail": "Réf: FUMOLEAU SABRINA / J123013618 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "20/07/2026 14:21",
+      "detail": "Réf: FUMOLEAU SABRINA / J123013618 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -61,62 +61,6 @@
         "epaisseur_bord": "0.0",
         "ecart_pupillaire": "30.0",
         "hauteur": "26.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10166706",
-      "id_commande_v2i": "260708000028",
-      "code_cote": "B",
-      "patient": "FARHAN CHADIA",
-      "job_cosium": "J123013607",
-      "date_entree": "08/07/2026",
-      "date_dernier_statut": "20/07/2026 10:18",
-      "detail": "Réf: FARHAN CHADIA / J123013607 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 165,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 10,
-        "addition": "2.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
         "supplements": [
           "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",

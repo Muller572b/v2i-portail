@@ -10,7 +10,7 @@
     "email": "grand-large@orange.fr",
     "mot_de_passe_portail": "lar"
   },
-  "derniere_mise_a_jour": "20/07/2026 14:10",
+  "derniere_mise_a_jour": "20/07/2026 14:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168465",
@@ -80,10 +80,10 @@
       "patient": "SUSINI VERONIQUE",
       "job_cosium": "J127031302-01",
       "date_entree": "18/07/2026",
-      "date_dernier_statut": "18/07/2026 19:14",
-      "detail": "Réf: SUSINI VERONIQUE / J127031302-01 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
+      "date_dernier_statut": "20/07/2026 14:18",
+      "detail": "Réf: SUSINI VERONIQUE / J127031302-01 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -191,62 +191,6 @@
       }
     },
     {
-      "ord_numb": "            10167690",
-      "id_commande_v2i": "260713000139",
-      "code_cote": "B",
-      "patient": "MICHAUX BRIGITTE",
-      "job_cosium": "J127031260",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "20/07/2026 10:18",
-      "detail": "Réf: MICHAUX BRIGITTE / J127031260 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 24/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.00",
-        "cylindre": "1.00",
-        "axe": 180,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-1.25",
-        "cylindre": "0.75",
-        "axe": 175,
-        "addition": "2.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167691",
       "id_commande_v2i": "260713000140",
       "code_cote": "B",
@@ -303,16 +247,72 @@
       }
     },
     {
+      "ord_numb": "            10167690",
+      "id_commande_v2i": "260713000139",
+      "code_cote": "B",
+      "patient": "MICHAUX BRIGITTE",
+      "job_cosium": "J127031260",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "20/07/2026 14:19",
+      "detail": "Réf: MICHAUX BRIGITTE / J127031260 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 24/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.00",
+        "cylindre": "1.00",
+        "axe": 180,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-1.25",
+        "cylindre": "0.75",
+        "axe": 175,
+        "addition": "2.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10167231",
       "id_commande_v2i": "260710000023",
       "code_cote": "B",
       "patient": "COMTE FABRICE",
       "job_cosium": "J127031239-01",
       "date_entree": "10/07/2026",
-      "date_dernier_statut": "20/07/2026 10:19",
-      "detail": "Réf: COMTE FABRICE / J127031239-01 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "20/07/2026 14:20",
+      "detail": "Réf: COMTE FABRICE / J127031239-01 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 22/07 ",
       "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
       "oeil_droit": {

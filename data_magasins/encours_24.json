@@ -10,7 +10,7 @@
     "email": "afflelou.portovecchio@orange.fr",
     "mot_de_passe_portail": "paa"
   },
-  "derniere_mise_a_jour": "20/07/2026 14:10",
+  "derniere_mise_a_jour": "20/07/2026 14:25",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168494",
@@ -81,7 +81,7 @@
       "patient": "BRUNETEAU BRUNO",
       "job_cosium": "J133036345-02",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 11:10",
+      "date_dernier_statut": "20/07/2026 14:23",
       "detail": "Réf: BRUNETEAU BRUNO / J133036345-02 — (Fabrication RX) — État: Commande prise en compte",
       "statut_code": "PREP",
       "statut_affichage": "Commande prise en compte",
@@ -1841,62 +1841,6 @@
       }
     },
     {
-      "ord_numb": "            10167637",
-      "id_commande_v2i": "260713000086",
-      "code_cote": "B",
-      "patient": "BOULATIKA NADJIB",
-      "job_cosium": "J133036267",
-      "date_entree": "13/07/2026",
-      "date_dernier_statut": "20/07/2026 10:18",
-      "detail": "Réf: BOULATIKA NADJIB / J133036267 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
-      "statut": "Livraison prévue : 24/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.25",
-        "axe": 0,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.50",
-        "axe": 180,
-        "addition": "1.75",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "0.0",
-        "hauteur": "23.0",
-        "supplements": [
-          "CLA Progressif 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus"
-        ]
-      }
-    },
-    {
       "ord_numb": "            10167715",
       "id_commande_v2i": "260713000164",
       "code_cote": "B",
@@ -1947,6 +1891,62 @@
         "hauteur": "24.0",
         "supplements": [
           "CLA Progressif 1.6 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10167637",
+      "id_commande_v2i": "260713000086",
+      "code_cote": "B",
+      "patient": "BOULATIKA NADJIB",
+      "job_cosium": "J133036267",
+      "date_entree": "13/07/2026",
+      "date_dernier_statut": "20/07/2026 14:20",
+      "detail": "Réf: BOULATIKA NADJIB / J133036267 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 24/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.25",
+        "axe": 0,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.50",
+        "axe": 180,
+        "addition": "1.75",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "0.0",
+        "hauteur": "23.0",
+        "supplements": [
+          "CLA Progressif 1.5 HC AR",
           "Anti Reflet CLA",
           "Durci Inclus"
         ]
@@ -2177,10 +2177,10 @@
       "patient": "MALLARD DANIEL",
       "job_cosium": "J133036262",
       "date_entree": "11/07/2026",
-      "date_dernier_statut": "20/07/2026 10:18",
-      "detail": "Réf: MALLARD DANIEL / J133036262 — (Fabrication RX) — État: Coating en cours (MC380X)",
-      "statut_code": "COAT",
-      "statut_affichage": "Coating en cours (MC380X)",
+      "date_dernier_statut": "20/07/2026 14:20",
+      "detail": "Réf: MALLARD DANIEL / J133036262 — (Fabrication RX) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
