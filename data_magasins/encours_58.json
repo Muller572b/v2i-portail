@@ -10,7 +10,7 @@
     "email": "obv@balbi.fr",
     "mot_de_passe_portail": "obv"
   },
-  "derniere_mise_a_jour": "20/07/2026 14:25",
+  "derniere_mise_a_jour": "20/07/2026 14:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168484",
@@ -19,10 +19,10 @@
       "patient": "BARTOLI MAGALI",
       "job_cosium": "J161003954",
       "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 10:57",
-      "detail": "Réf: BARTOLI MAGALI / J161003954 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "20/07/2026 14:25",
+      "detail": "Réf: BARTOLI MAGALI / J161003954 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -65,6 +65,68 @@
           "AS Uni 1.6 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168538",
+      "id_commande_v2i": "260720000057",
+      "code_cote": "B",
+      "patient": "MOZZICONACCI CAROLINE",
+      "job_cosium": "J161003955",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 14:38",
+      "detail": "Réf: MOZZICONACCI CAROLINE / J161003955 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 24/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.75",
+        "axe": 80,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "31.0",
+        "hauteur": "27.0",
+        "supplements": [
+          "Delta Horizon2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "-0.25",
+        "cylindre": "0.50",
+        "axe": 90,
+        "addition": "1.50",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.5",
+        "hauteur": "27.0",
+        "supplements": [
+          "Delta Horizon2 1.5 XBlue Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
         ]
       }
     },
@@ -117,68 +179,6 @@
         "hauteur": "0.0",
         "supplements": [
           "CLA Uni 1.6 HC AR (Stock)"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168538",
-      "id_commande_v2i": "260720000057",
-      "code_cote": "B",
-      "patient": "MOZZICONACCI CAROLINE",
-      "job_cosium": "J161003955",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 12:40",
-      "detail": "Réf: MOZZICONACCI CAROLINE / J161003955 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 24/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.75",
-        "axe": 80,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "31.0",
-        "hauteur": "27.0",
-        "supplements": [
-          "Delta Horizon2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "-0.25",
-        "cylindre": "0.50",
-        "axe": 90,
-        "addition": "1.50",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.5",
-        "hauteur": "27.0",
-        "supplements": [
-          "Delta Horizon2 1.5 XBlue Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
