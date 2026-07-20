@@ -10,7 +10,7 @@
     "email": "ajaccio@acuitis.com",
     "mot_de_passe_portail": "ats"
   },
-  "derniere_mise_a_jour": "20/07/2026 09:04",
+  "derniere_mise_a_jour": "20/07/2026 09:19",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168482",
@@ -343,6 +343,58 @@
       }
     },
     {
+      "ord_numb": "            10168354",
+      "id_commande_v2i": "260717000190",
+      "code_cote": "B",
+      "patient": "BIZZARI PASCALE",
+      "job_cosium": "J600029578",
+      "date_entree": "17/07/2026",
+      "date_dernier_statut": "20/07/2026 09:11",
+      "detail": "Réf: BIZZARI PASCALE / J600029578 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
+      "statut_code": "MEAS",
+      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "statut": "Livraison prévue : 21/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "-0.25",
+        "cylindre": "3.50",
+        "axe": 110,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Uni 1.5 Non Durci"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "75",
+        "sphere": "0.00",
+        "cylindre": "2.75",
+        "axe": 85,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Acui Uni 1.5 Non Durci"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168200",
       "id_commande_v2i": "260717000036",
       "code_cote": "B",
@@ -509,58 +561,6 @@
           "Durci Inclus",
           "Précalibrage",
           "Optimisé"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168354",
-      "id_commande_v2i": "260717000190",
-      "code_cote": "B",
-      "patient": "BIZZARI PASCALE",
-      "job_cosium": "J600029578",
-      "date_entree": "17/07/2026",
-      "date_dernier_statut": "17/07/2026 19:49",
-      "detail": "Réf: BIZZARI PASCALE / J600029578 — (Fabrication RX) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 21/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "-0.25",
-        "cylindre": "3.50",
-        "axe": 110,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Uni 1.5 Non Durci"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "75",
-        "sphere": "0.00",
-        "cylindre": "2.75",
-        "axe": 85,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Acui Uni 1.5 Non Durci"
         ]
       }
     },
