@@ -10,8 +10,60 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "20/07/2026 11:55",
+  "derniere_mise_a_jour": "20/07/2026 12:10",
   "commandes_en_cours": [
+    {
+      "ord_numb": "            10168505",
+      "id_commande_v2i": "260720000024",
+      "code_cote": "B",
+      "patient": "ANTUNES DO REGO RITA",
+      "job_cosium": "J162005313",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 12:03",
+      "detail": "Réf: ANTUNES DO REGO RITA / J162005313 — (Stock) — État: En attente expedition",
+      "statut_code": "PACK",
+      "statut_affichage": "En attente expedition",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
     {
       "ord_numb": "            10168503",
       "id_commande_v2i": "260720000022",
@@ -117,58 +169,6 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée au modèle A-C"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168505",
-      "id_commande_v2i": "260720000024",
-      "code_cote": "B",
-      "patient": "ANTUNES DO REGO RITA",
-      "job_cosium": "J162005313",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 10:52",
-      "detail": "Réf: ANTUNES DO REGO RITA / J162005313 — (Stock) — État: Commande prise en compte",
-      "statut_code": "PREP",
-      "statut_affichage": "Commande prise en compte",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
     },
@@ -353,10 +353,10 @@
       "patient": "ENMILI ALI",
       "job_cosium": "J162005293",
       "date_entree": "13/07/2026",
-      "date_dernier_statut": "20/07/2026 11:53",
-      "detail": "Réf: ENMILI ALI / J162005293 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
+      "date_dernier_statut": "20/07/2026 11:57",
+      "detail": "Réf: ENMILI ALI / J162005293 — (Fabrication RX) — État: Contrôle sortie de fabrication",
+      "statut_code": "SFAB",
+      "statut_affichage": "Contrôle sortie de fabrication",
       "statut": "Livraison prévue : 24/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {

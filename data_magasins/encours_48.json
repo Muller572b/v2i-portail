@@ -10,7 +10,7 @@
     "email": "bof@balbi.fr",
     "mot_de_passe_portail": "bof"
   },
-  "derniere_mise_a_jour": "20/07/2026 11:55",
+  "derniere_mise_a_jour": "20/07/2026 12:10",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168495",
@@ -45,6 +45,68 @@
         ]
       },
       "oeil_gauche": null
+    },
+    {
+      "ord_numb": "            10168409",
+      "id_commande_v2i": "260718000051",
+      "code_cote": "B",
+      "patient": "GERONIMI JEAN YVES",
+      "job_cosium": "J153011310",
+      "date_entree": "18/07/2026",
+      "date_dernier_statut": "20/07/2026 12:04",
+      "detail": "Réf: GERONIMI JEAN YVES / J153011310 — (Fabrication RX) — État: Durci en cours",
+      "statut_code": "HARD",
+      "statut_affichage": "Durci en cours",
+      "statut": "Livraison prévue : 23/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "2.50",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Delta Lecture 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "65",
+        "sphere": "0.75",
+        "cylindre": "0.00",
+        "axe": 0,
+        "addition": "1.25",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.8",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "25.0",
+        "supplements": [
+          "Vista Delta Lecture 1.5 Foto Gris Durci Arh",
+          "Super AR Antistatic Inclus",
+          "Durci Inclus",
+          "Individualisation",
+          "Précalibrage Inclus",
+          "Optimisé"
+        ]
+      }
     },
     {
       "ord_numb": "            10168453",
@@ -99,68 +161,6 @@
           "Reader3 1.5 Durci Arh",
           "Super AR Antistatic Inclus",
           "Durci Inclus"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168409",
-      "id_commande_v2i": "260718000051",
-      "code_cote": "B",
-      "patient": "GERONIMI JEAN YVES",
-      "job_cosium": "J153011310",
-      "date_entree": "18/07/2026",
-      "date_dernier_statut": "20/07/2026 11:25",
-      "detail": "Réf: GERONIMI JEAN YVES / J153011310 — (Fabrication RX) — État: Contrôle sortie de fabrication (ProMapper)",
-      "statut_code": "MEAS",
-      "statut_affichage": "Contrôle sortie de fabrication (ProMapper)",
-      "statut": "Livraison prévue : 23/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "2.50",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Vista Delta Lecture 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "65",
-        "sphere": "0.75",
-        "cylindre": "0.00",
-        "axe": 0,
-        "addition": "1.25",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.8",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "25.0",
-        "supplements": [
-          "Vista Delta Lecture 1.5 Foto Gris Durci Arh",
-          "Super AR Antistatic Inclus",
-          "Durci Inclus",
-          "Individualisation",
-          "Précalibrage Inclus",
-          "Optimisé"
         ]
       }
     },
