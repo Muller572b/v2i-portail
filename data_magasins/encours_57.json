@@ -10,66 +10,8 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "20/07/2026 12:40",
+  "derniere_mise_a_jour": "20/07/2026 12:55",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10168537",
-      "id_commande_v2i": "260720000056",
-      "code_cote": "B",
-      "patient": "PIETRI JEAN",
-      "job_cosium": "J162005316",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 12:40",
-      "detail": "Réf: PIETRI JEAN / J162005316 — (Fabrication RX) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
-      "statut": "Livraison prévue : 30/07",
-      "style_couleur": "text-green-600 bg-green-50 border-green-100",
-      "oeil_droit": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "1.25",
-        "axe": 15,
-        "addition": "0.00",
-        "prisme_1": "2.00",
-        "base_1": "25",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus",
-          "Prisme inf à 4"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Fabrication RX",
-        "type": "Fabrication RX",
-        "diametre": "70",
-        "sphere": "-0.50",
-        "cylindre": "1.75",
-        "axe": 155,
-        "addition": "0.00",
-        "prisme_1": "1.00",
-        "base_1": "270",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "34.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Unifocal 1.5 HC AR",
-          "Anti Reflet CLA",
-          "Durci Inclus",
-          "Prisme inf à 4"
-        ]
-      }
-    },
     {
       "ord_numb": "            10168505",
       "id_commande_v2i": "260720000024",
@@ -227,6 +169,64 @@
         "supplements": [
           "Vista Uni 1.5 Non durci",
           "Teinte Dégradée au modèle A-C"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168537",
+      "id_commande_v2i": "260720000056",
+      "code_cote": "B",
+      "patient": "PIETRI JEAN",
+      "job_cosium": "J162005316",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 12:40",
+      "detail": "Réf: PIETRI JEAN / J162005316 — (Fabrication RX) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 30/07",
+      "style_couleur": "text-green-600 bg-green-50 border-green-100",
+      "oeil_droit": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "1.25",
+        "axe": 15,
+        "addition": "0.00",
+        "prisme_1": "2.00",
+        "base_1": "25",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus",
+          "Prisme inf à 4"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Fabrication RX",
+        "type": "Fabrication RX",
+        "diametre": "70",
+        "sphere": "-0.50",
+        "cylindre": "1.75",
+        "axe": 155,
+        "addition": "0.00",
+        "prisme_1": "1.00",
+        "base_1": "270",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "34.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Unifocal 1.5 HC AR",
+          "Anti Reflet CLA",
+          "Durci Inclus",
+          "Prisme inf à 4"
         ]
       }
     },

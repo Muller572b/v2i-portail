@@ -10,62 +10,8 @@
     "email": "baaz20167@gmail.com",
     "mot_de_passe_portail": "bao"
   },
-  "derniere_mise_a_jour": "20/07/2026 12:40",
+  "derniere_mise_a_jour": "20/07/2026 12:55",
   "commandes_en_cours": [
-    {
-      "ord_numb": "            10168533",
-      "id_commande_v2i": "260720000052",
-      "code_cote": "B",
-      "patient": "CONSTANCIS ETHAN",
-      "job_cosium": "J152045742-03",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 12:40",
-      "detail": "Réf: CONSTANCIS ETHAN / J152045742-03 — (Stock) — État: Order initialised",
-      "statut_code": "INIT",
-      "statut_affichage": "Order initialised",
-      "statut": "Livraison prévue : 22/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-2.25",
-        "cylindre": "0.50",
-        "axe": 20,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "30.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Gris C"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "65",
-        "sphere": "-2.00",
-        "cylindre": "0.50",
-        "axe": 140,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "29.5",
-        "hauteur": "0.0",
-        "supplements": [
-          "Tchin St. Uni 1.5",
-          "Teinte Dégradée Gris C"
-        ]
-      }
-    },
     {
       "ord_numb": "            10168506",
       "id_commande_v2i": "260720000025",
@@ -411,6 +357,60 @@
         "hauteur": "0.0",
         "supplements": [
           "Afflelou St. Uni 1.5 Durci Arh"
+        ]
+      }
+    },
+    {
+      "ord_numb": "            10168533",
+      "id_commande_v2i": "260720000052",
+      "code_cote": "B",
+      "patient": "CONSTANCIS ETHAN",
+      "job_cosium": "J152045742-03",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 12:40",
+      "detail": "Réf: CONSTANCIS ETHAN / J152045742-03 — (Stock) — État: Commande prise en compte",
+      "statut_code": "PREP",
+      "statut_affichage": "Commande prise en compte",
+      "statut": "Livraison prévue : 22/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-2.25",
+        "cylindre": "0.50",
+        "axe": 20,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "30.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée Gris C"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "65",
+        "sphere": "-2.00",
+        "cylindre": "0.50",
+        "axe": 140,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "29.5",
+        "hauteur": "0.0",
+        "supplements": [
+          "Tchin St. Uni 1.5",
+          "Teinte Dégradée Gris C"
         ]
       }
     },
