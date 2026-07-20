@@ -10,7 +10,7 @@
     "email": "opm@balbi.fr",
     "mot_de_passe_portail": "opm"
   },
-  "derniere_mise_a_jour": "20/07/2026 15:25",
+  "derniere_mise_a_jour": "20/07/2026 15:40",
   "commandes_en_cours": [
     {
       "ord_numb": "            10168537",
@@ -67,58 +67,6 @@
           "Anti Reflet CLA",
           "Durci Inclus",
           "Prisme inf à 4"
-        ]
-      }
-    },
-    {
-      "ord_numb": "            10168505",
-      "id_commande_v2i": "260720000024",
-      "code_cote": "B",
-      "patient": "ANTUNES DO REGO RITA",
-      "job_cosium": "J162005313",
-      "date_entree": "20/07/2026",
-      "date_dernier_statut": "20/07/2026 12:03",
-      "detail": "Réf: ANTUNES DO REGO RITA / J162005313 — (Stock) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
-      "statut": "Livraison prévue : 20/07 ",
-      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
-      "oeil_droit": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.25",
-        "axe": 80,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
-        ]
-      },
-      "oeil_gauche": {
-        "verre": "Stock",
-        "type": "Stock",
-        "diametre": "70",
-        "sphere": "0.00",
-        "cylindre": "0.50",
-        "axe": 70,
-        "addition": "0.00",
-        "prisme_1": "0.00",
-        "base_1": "0",
-        "prisme_2": "0.00",
-        "base_2": "0",
-        "epaisseur_bord": "0.0",
-        "ecart_pupillaire": "32.0",
-        "hauteur": "0.0",
-        "supplements": [
-          "CLA Uni 1.5 HC ARH (Stock)"
         ]
       }
     },
@@ -287,6 +235,58 @@
       }
     },
     {
+      "ord_numb": "            10168505",
+      "id_commande_v2i": "260720000024",
+      "code_cote": "B",
+      "patient": "ANTUNES DO REGO RITA",
+      "job_cosium": "J162005313",
+      "date_entree": "20/07/2026",
+      "date_dernier_statut": "20/07/2026 15:31",
+      "detail": "Réf: ANTUNES DO REGO RITA / J162005313 — (Stock) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
+      "statut": "Livraison prévue : 20/07 ",
+      "style_couleur": "text-amber-600 bg-amber-50 border-amber-100",
+      "oeil_droit": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.25",
+        "axe": 80,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      },
+      "oeil_gauche": {
+        "verre": "Stock",
+        "type": "Stock",
+        "diametre": "70",
+        "sphere": "0.00",
+        "cylindre": "0.50",
+        "axe": 70,
+        "addition": "0.00",
+        "prisme_1": "0.00",
+        "base_1": "0",
+        "prisme_2": "0.00",
+        "base_2": "0",
+        "epaisseur_bord": "0.0",
+        "ecart_pupillaire": "32.0",
+        "hauteur": "0.0",
+        "supplements": [
+          "CLA Uni 1.5 HC ARH (Stock)"
+        ]
+      }
+    },
+    {
       "ord_numb": "            10168548",
       "id_commande_v2i": "260720000067",
       "code_cote": "B",
@@ -347,10 +347,10 @@
       "patient": "TRAMONI",
       "job_cosium": "",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: TRAMONI — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:31",
+      "detail": "Réf: TRAMONI — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
@@ -403,10 +403,10 @@
       "patient": "TRAMONI",
       "job_cosium": "",
       "date_entree": "17/07/2026",
-      "date_dernier_statut": "20/07/2026 11:40",
-      "detail": "Réf: TRAMONI — (Fabrication RX) — État: En attente expedition",
-      "statut_code": "PACK",
-      "statut_affichage": "En attente expedition",
+      "date_dernier_statut": "20/07/2026 15:31",
+      "detail": "Réf: TRAMONI — (Fabrication RX) — État: Expediée",
+      "statut_code": "SHIP",
+      "statut_affichage": "Expediée",
       "statut": "Livraison prévue : 23/07",
       "style_couleur": "text-green-600 bg-green-50 border-green-100",
       "oeil_droit": {
